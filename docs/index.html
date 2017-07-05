@@ -1,12 +1,645 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>AMR</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>AMR - iOS Integration</title>
+
+    <!-- Styles -->
+    <link href="assets/css/theDocs.all.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/skin/skin-gray.css" rel="stylesheet">
+
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400' rel='stylesheet'
+          type='text/css'>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
 </head>
-<body>
+
+<body data-spy="scroll" data-target=".sidebar" data-offset="200">
+
+<header class="site-header navbar-transparent">
+
+    <!-- Top navbar & branding -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+
+            <!-- Toggle buttons and brand -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="true" aria-controls="navbar">
+                    <span class="glyphicon glyphicon-option-vertical"></span>
+                </button>
+
+                <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!--<a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a>-->
+            </div>
+            <!-- END Toggle buttons and brand -->
+
+            <!-- Top navbar -->
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Documentation</a></li>
+                    <li><a target="_blank"
+                           href="https://github.com/admost/AMR/tree/master/IOS_Integration/AMR2.0/AMRDemo"><i
+                            class="fa fa-mobile-phone"></i>&nbsp;&nbsp;Demo Project</a></li>
+                    <li class="hero"><a
+                            target="_blank" href="https://github.com/admost/AMR/tree/master/IOS_Integration/AMR2.0"><i
+                            class="fa fa-github"></i>&nbsp;&nbsp;Github</a></li>
+                </ul>
+            </div>
+            <!-- END Top navbar -->
+
+        </div>
+    </nav>
+    <!-- END Top navbar & branding -->
+
+    <!-- Banner -->
+    <div class="banner auto-size" style="background-color: rgb(117, 117, 117)">
+        <div class="container text-white">
+            <h1><i class="fa fa-apple"></i>&nbsp; &nbsp;Implementation Guide</h1>
+            <h5>This is the easiest way to implement AMR iOS SDK and ad networks to your current Android Mobile
+                App.</h5>
+        </div>
+    </div>
+    <!-- END Banner -->
+
+</header>
 
 
-HELLO WORLD
+<main class="container">
+    <div class="row">
+        <!-- Sidebar -->
+        <aside class="col-sm-3 sidebar">
+            <ul class="nav sidenav dropable sticky">
+                <li><a href="#prerequisites">Prerequisites</a></li>
+                <li>
+                    <a href="#setup">Setup</a>
+                    <ul>
+                        <li>
+                            <a href="#installation-with-cocoapods">Installation With CocoaPods</a>
+                            <ul style="display: block;">
+                                <li><a href="#create-your-podfile-and-install">Create your podfile and install</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#manual-installation">Manual Installation</a>
+                            <ul style="display: block;">
+                                <li><a href="#amr-framework-files">AMR Framework Files</a></li>
+                                <li><a href="#other-frameworks-and-libraries">Other Frameworks and Libraries</a></li>
+                                <li><a href="#mediation-adapters">Mediation Adapters</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#xcode-setup">Xcode Setup</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#usage">Usage</a>
+                    <ul>
+                        <li><a href="#initialization">Initialization</a></li>
+                        <li><a href="#banner-ads">Banner Ads</a></li>
+                        <li><a href="#native-ads">Customize Native Ad Appearance (Optional)</a></li>
+                        <li><a href="#interstitial-ads">Interstitial Ads</a></li>
+                        <li><a href="#rewarded-video-ads">Rewarded Video Ads</a></li>
+                    </ul>
+                </li>
+                <li><a href="#extras">Extras</a>
+                    <ul>
+                        <li><a href="#dfp">DFP/Admob Mediation Integration</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </aside>
+        <!-- END Sidebar -->
+
+
+        <!-- Main content -->
+        <article class="col-sm-9 main-content" role="main">
+
+            <section>
+                <h2 id="prerequisites">Prerequisites</h2>
+                <ul>
+                    <li>iOS 7 or later.</li>
+                    <li> Xcode 8.3 or later.</li>
+                    <li>Application Id provided in Admost Mediation Dashboard.</li>
+                    <li>Zone Id(s) provided in Admost Mediation Dashboard.</li>
+                </ul>
+
+                <p> For testing you can use following Ids;</p>
+
+                <pre><code class="language-objectivec">
+Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
+Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
+Interstitial Zone Id: @"39f74377-5682-436a-9338-9d1c4df410bd"
+RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
+                </code></pre>
+            </section>
+
+            <section>
+                <h2 id="setup">Setup</h2>
+                <p>You can install AMR SDK and mediation adapters using CocoaPods (recommended) or add AMR SDK framework
+                    files and mediation adapters files manually to your project.</p>
+                <h3 id="installation-with-cocoapods">Installation With CocoaPods</h3>
+                <p><a href="https://cocoapods.org" target="_blank">CocoaPods</a> is a dependency manager for Swift and
+                    Objective-C Cocoa projects which automates and simplifies the process of using 3rd-party libraries
+                    like AMR in your projects. See <a href="https://guides.cocoapods.org/using/getting-started.html"
+                                                      target="_blank">getting started guide</a> for more information on
+                    installing cocoapods.</p>
+                <h4 id="create-your-podfile-and-install">Create your podfile and install</h4>
+                <p>
+                    At least one mediation adapter is required for AMRSDK to show banners. You can add all adapters
+                    (recommended for maximized revenue) or start with a subset of adapters. Consult your AMR agent for
+                    further details.
+                </p>
+
+                <p>To integrate AMR SDK and mediation adapters into your Xcode project using CocoaPods, specify it in
+                    your <code>Podfile:</code></p>
+
+                <pre><code class="language-objectivec">
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+
+use_frameworks!
+
+target 'MyAwesomeTarget' do
+#core SDK
+pod 'AMRSDK', '~> 1.2'
+#mediation adapters
+pod 'AMRAdapterAdcolony', '~> 3.1'
+pod 'AMRAdapterAdmob', '~> 7.19'
+pod 'AMRAdapterAdmost', '~> 1.0'
+pod 'AMRAdapterAmazon', '~> 2.2'
+pod 'AMRAdapterApplovin', '~> 4.0'
+pod 'AMRAdapterAppnext', '~> 1.8'
+pod 'AMRAdapterAvocarrot', '~> 4.2' #ios 8+
+pod 'AMRAdapterChartboost', '~> 6.6'
+pod 'AMRAdapterFacebook', '~> 4.22'
+pod 'AMRAdapterFlurry', '~> 7.10'
+pod 'AMRAdapterFyber', '~> 8.11'
+pod 'AMRAdapterInmobi', '~> 6.1'
+pod 'AMRAdapterIronsource', '~> 6.5'
+pod 'AMRAdapterLeadbolt', '~> 8.0'
+pod 'AMRAdapterLoopme', '~> 6.0'
+pod 'AMRAdapterMobfox', '~> 3.1'
+pod 'AMRAdapterMobusi', '~> 2.3'
+pod 'AMRAdapterMopub', '~> 4.13'
+pod 'AMRAdapterNativex', '~> 5.5'
+pod 'AMRAdapterNexage', '~> 6.4'
+pod 'AMRAdapterPubnative', '~> 1.4'
+pod 'AMRAdapterRevmob', '~> 9.2'
+pod 'AMRAdapterSmaato', '~> 8.0'
+pod 'AMRAdapterStartapp', '~> 3.4'
+pod 'AMRAdapterTapjoy', '~> 11.10'
+pod 'AMRAdapterTappx', '~> 3.0'
+pod 'AMRAdapterUnity', '~> 2.1'
+pod 'AMRAdapterVungle', '~> 4.1'
+
+end
+                </code></pre>
+
+                <p>Then, run the following command:</p>
+
+                <pre><code>$ pod install</code></pre>
+
+                <p>Additionally if you want to install Admost Adserver SDK add following line to your podfile
+
+                </p>
+
+                <pre><code>  pod 'AMRAdmostSDK', '~> 1.0'
+</code></pre>
+
+                <p>After you complete pod installation you can skip to <a href="#xcode-setup">Xcode Setup</a> step.</p>
+
+
+                <h3 id="manual-installation">Manual Installation</h3>
+                <h4 id="amr-framework-files">AMR Framework Files</h4>
+
+                <p>Drag and drop following files in <a
+                        href="https://github.com/kokteyldev/AMR/tree/master/IOS_Integration/AMR2.0/AMRDemo/AMRSDK"
+                        target="_blank">AMRDemo/AMRSDK</a> folder to your project.</p>
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-folder open">
+                            AMRDemo/AMRSDK<a
+                                href="https://github.com/kokteyldev/AMR/tree/master/IOS_Integration/AMR2.0/AMRDemo/AMRSDK"
+                                target="_blank">&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
+                            <ul>
+                                <li class="is-file">AMRSDK.framework
+                                <li class="is-file">AMRResources.bundle
+                                <li class="is-file">KKLog.framework
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <h4 id="other-frameworks-and-libraries">Other Frameworks and Libraries</h4>
+                <p>Add following frameworks and libraries to your project</p>
+
+                <div class="file-tree">
+
+                    <ul>
+                        <li class="is-file">AddressBook.framework
+                        <li class="is-file">AdSupport.framework
+                        <li class="is-file">AudioToolbox.framework
+                        <li class="is-file">AVFoundation.framework
+                        <li class="is-file">AVKit.framework
+                        <li class="is-file">CFNetwork.framework
+                        <li class="is-file">CoreGraphics.framework
+                        <li class="is-file">CoreLocation.framework
+                        <li class="is-file">CoreMedia.framework
+                        <li class="is-file">CoreMotion.framework
+                        <li class="is-file">CoreTelephony.framework
+                        <li class="is-file">EventKit.framework
+                        <li class="is-file">EventKitUI.framework
+                        <li class="is-file">ImageIO.framework
+                        <li class="is-file">Foundation.framework
+                        <li class="is-file">JavaScriptCore.framework
+                        <li class="is-file">libsqlite3.tbd
+                        <li class="is-file">libxml2.tbd
+                        <li class="is-file">libz.tbd
+                        <li class="is-file">MediaPlayer.framework
+                        <li class="is-file">QuartzCore.framework
+                        <li class="is-file">SafariServices.framework
+                        <li class="is-file">StoreKit.framework
+                        <li class="is-file">SystemConfiguration.framework
+                        <li class="is-file">UIKit.framework
+                        <li class="is-file">WebKit.framework
+                    </ul>
+
+                </div>
+
+                <h4 id="mediation-adapters">Mediation Adapters</h4>
+                <p>At least one mediation adapter is required for AMRSDK to show banners. You can add all adapters
+                    (recommended for maximized revenue) or start with a subset of adapters. Consult your AMR agent for
+                    further details.</p>
+                <p>Create a folder called Mediation Adapters (name is optonal) and add adapters in <a
+                        href="https://github.com/admost/AMR/tree/master/IOS_Integration/AMR2.0/AMRDemo/MediationAdapters"
+                        target="_blank">AMRDemo/MediationAdapters</a> folder.</p>
+
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-folder open">
+                            AMRDemo/MediationAdapters<a
+                                href="https://github.com/admost/AMR/tree/master/IOS_Integration/AMR2.0/AMRDemo/MediationAdapters"
+                                target="_blank">&nbsp;&nbsp;<i class="fa fa-external-link"></i></a>
+                            <ul>
+                                <li class="is-folder">AMRAdapterAdcolony
+                                <li class="is-folder">AMRAdapterAdmob
+                                <li class="is-folder">AMRAdapterAdmost
+                                <li class="is-folder">AMRAdapterAmazon
+                                <li class="is-folder">AMRAdapterApplovin
+                                <li class="is-folder">AMRAdapterAppnext
+                                <li class="is-folder">AMRAdapterAvocarrot <i>#ios 8+</i>
+                                <li class="is-folder">AMRAdapterChartboost
+                                <li class="is-folder">AMRAdapterFacebook
+                                <li class="is-folder">AMRAdapterFlurry
+                                <li class="is-folder">AMRAdapterFyber
+                                <li class="is-folder">AMRAdapterInmobi
+                                <li class="is-folder">AMRAdapterIronsource
+                                <li class="is-folder">AMRAdapterLeadbolt
+                                <li class="is-folder">AMRAdapterLoopme
+                                <li class="is-folder">AMRAdapterMobfox
+                                <li class="is-folder">AMRAdapterMobusi
+                                <li class="is-folder">AMRAdapterMopub
+                                <li class="is-folder">AMRAdapterNativex
+                                <li class="is-folder">AMRAdapterNexage
+                                <li class="is-folder">AMRAdapterPubNative
+                                <li class="is-folder">AMRAdapterRevmob
+                                <li class="is-folder">AMRAdapterSmaato
+                                <li class="is-folder">AMRAdapterStartapp
+                                <li class="is-folder">AMRAdapterTapjoy
+                                <li class="is-folder">AMRAdapterTappx
+                                <li class="is-folder">AMRAdapterUnity
+                                <li class="is-folder">AMRAdapterVungl
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <h4 id="xcode-setup">Xcode Setup</h4>
+
+                <p>Make sure <code>$(PROJECT_DIR) recursive </code> is set in your target's <kbd>Framework Search
+                    Paths</kbd> in <kbd>Build Settings</kbd>.</p>
+                <p> Add <code>-ObjC</code> and <code>-lc++</code> flags in your target's <kbd>Other Linker Flags</kbd>
+                    in <kbd>Build Settings</kbd>.</p>
+                <p> Add following lines to your <code>plist</code> file.</p>
+
+                <pre><code class="language-markup">&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
+&lt;dict&gt;
+  &lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
+  &lt;true/&gt;
+&lt;/dict&gt;</code></pre>
+
+                <pre><code class="language-markup">&lt;key&gt;NSCalendarsUsageDescription&lt;/key&gt;
+&lt;string&gt;Some ad content may access calendar&lt;/string&gt;</code></pre>
+                <p>If you are using Applovin add the following lines to your <code>plist</code> file.</p>
+                <pre><code class="language-markup">&lt;key&gt;AppLovinSdkKey&lt;/key&gt;
+&lt;string&gt;YOUR_KEY&lt;/string&gt;</code></pre>
+
+
+            </section>
+
+            <section>
+
+                <h2 id="start-coding">Start Coding</h2>
+
+                <h3 id="initialization">Initialization</h3>
+                <p>To initialize Admost Mediation SDK, import <code>AMRSDK.h</code> to your <code>AppDelegate</code>
+                    file;</p>
+                <pre><code class="language-objectivec">#import &lt;AMRSDK/AMRSDK.h&gt;</code></pre>
+
+                <p>and initialize AMRSDK with your Application Id in <code>didFinishLaunchingWithOptions</code>
+                    callback;
+                </p>
+
+                <pre><code class="language-objecivec">- (BOOL)application:(UIApplication *)application
+    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  [AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];
+  return YES;
+}</code></pre>
+
+                <p>For testing you can use following Application Id;</p>
+
+                <pre><code>Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"</code></pre>
+
+
+                <h3 id="banner-ads">Banner Ads</h3>
+
+                <p>To create and show a banner ad first import <code>AMRSDK.h</code> to your
+                    <code>UIViewController</code> file;
+
+                </p>
+                <pre><code class="language-objectivec">#import &lt;AMRSDK/AMRSDK.h&gt;
+</code></pre>
+
+                <p>and create an <code>AMRBanner</code> object, initialize it with your Banner Zone Id and set it's
+                    <code>delegate</code> to an object (generally your viewController) which conforms to <code>&lt;AMRBannerDelegate&gt;</code>
+                    protocol.</p>
+
+                <pre><code class="language-objectivec">AMRBanner *mpuBanner;
+mpuBanner = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
+mpuBanner.delegate = self;</code></pre>
+
+                <p>For testing you can use following Banner Zone Id;
+
+                </p>
+
+                <pre><code>Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"</code></pre>
+
+                <p>Optionally you can set the width of the banner, default value is screen width.
+
+                </p>
+                <pre><code>mpuBanner.bannerWidth = 300;</code></pre>
+
+                <p>Start loading banner with <code>loadBanner</code> method and wait for the
+                    <code>&lt;AMRBannerDelegate&gt;</code> protocol callbacks.
+
+                </p>
+
+                <pre><code>[mpuBanner loadBanner];</code></pre>
+
+                <p>There are 2 callback methods in <code>&lt;AMRBannerDelegate&gt;</code> protocol.
+                    When <code>didReceiveBanner</code> callback method is called just add banner's
+                    <code>bannerView</code> as a subview on your viewcontroller to show banner.</p>
+
+                <pre><code class="language-objectivec">- (void)didReceiveBanner:(AMRBanner *)banner {
+    [self.view addSubview:banner.bannerView];
+}</code></pre>
+
+                <p>If <code>didFailToReceiveBanner</code> callback method is called investigate error to adress the
+                    problem.
+
+                </p>
+
+                <pre><code class="language-objectivec">- (void)didFailToReceiveBanner:(AMRBanner *)banner error:(AMRError *)error {
+    NSLog(error.errorDescription);
+}</code></pre>
+
+
+                <h3 id="native-ads">Customize Native Ad Appearance (Optional)</h3>
+
+                <p>You can change the appearance of native ads to suit your application's design. If you are integration
+                    AMR with Cocoapods extract CustomXibs.zip in AMRSDK pod to your project. If you are manually
+                    integrating AMR add <a
+                            href="https://github.com/admost/AMR/tree/master/IOS_Integration/AMR2.0/AMRDemo/Assets/Natives"
+                            target="_blank">AMRDemo/Assets/Natives/</a> folder to your project.</p>
+
+                <p>You can change the layout and design of following assets; </p>
+
+                <img class="img-responsive " src="assets/img/native_customization.png" alt="shadowed image">
+
+
+                <h3 id="interstitial-ads">Interstitial Ads</h3>
+
+                <p>To create and show an interstitial ad first import <code>AMRSDK.h</code> to your <code>UIViewController</code>
+                    file;
+
+                </p>
+
+                <pre><code class="language-objectivec">#import &lt;AMRSDK/AMRSDK.h&gt;</code></pre>
+
+                <p>
+                    and create an <code>AMRInterstitial</code> object, initialize it with your Interstitial Zone Id and
+                    set it's
+                    <code> delegate</code> to an object (generally your viewController) which conforms to
+                    <code>&lt;AMRInterstitialDelegate&gt;</code> protocol.
+                </p>
+
+                <pre><code class="language-objectivec">AMRInterstitial *fullScreen;
+fullScreen = [AMRInterstitial interstitialForZoneId:@"&lt;zoneId&gt;"];
+fullScreen.delegate = self;
+[fullScreen loadInterstitial];</code></pre>
+
+                <p>For testing you can use following Interstitial Zone Id;</p>
+
+                <pre><code
+                        class="language-objectivec">Interstitial Zone Id: @"39f74377-5682-436a-9338-9d1c4df410bd"</code></pre>
+
+                <p>There are 3 callback methods in <code>&lt;AMRInterstitialDelegate&gt;</code> protocol.
+                    When <code>didReceiveInterstitial</code> callback method is called just call the <code>showFromViewController</code>
+                    method to present interstitial from a viewController.</p>
+
+                <pre><code class="language-objectivec">- (void)didReceiveInterstitial:(AMRInterstitial *)interstitial {
+    [interstitial showFromViewController:self];
+}</code></pre>
+
+                <p><code>didDismissInterstitial</code> callback method is called to inform the application that the
+                    interstitial is no longer present. You can use this callback to resume paused tasks during
+                    interstitial presentation.</p>
+                <pre><code class="language-objectivec">- (void)didDismissInterstitial:(AMRInterstitial *)interstitial {
+    [animation resume];
+}</code></pre>
+
+                <p>If <code>didFailToReceiveInterstitial</code> callback method is called investigate <code>error</code>
+                    to adress the problem.
+
+                </p>
+
+                <pre><code class="language-objectivec">- (void)didFailToReceiveInterstitial:(AMRInterstitial *)interstitial error:(AMRError *)error {
+    NSLog(error.errorDescription);
+}
+}</code></pre>
+
+                <h3 id="rewarded-video-ads">Rewarded Video Ads</h3>
+
+                <p>Rewarded video ads' implementation is pretty similar to Interstitial ads with 1 additional callback
+                    <code>didCompleteRewardedVideo</code> to reward the user. To create and show a rewarded video ad
+                    first import
+                    <code>AMRSDK.h</code> to your <code>UIViewController</code> file;</p>
+
+                <pre><code class="language-objectivec">#import &lt;AMRSDK/AMRSDK.h&gt;</code></pre>
+
+                <p>
+                    and create an <code>AMRRewardedVideo</code> object, initialize it with your RewardedVideo Zone Id
+                    and
+                    set it's
+                    <code> delegate</code> to an object (generally your viewController) which conforms to
+                    <code>&lt;AMRRewardedVideoDelegate&gt;</code> protocol.
+                </p>
+
+                <pre><code class="language-objectivec">
+                    AMRRewardedVideo *rewardedVideo;
+rewardedVideo = [AMRRewardedVideo rewardedVideoForZoneId:@"&lt;zoneId&gt;"];
+rewardedVideo.delegate = self;
+[rewardedVideo loadRewardedVideo];</code></pre>
+
+                <p>For testing you can use following RewardedVideo Zone Id;</p>
+
+                <pre><code
+                        class="language-objectivec">RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"</code></pre>
+
+                <p>There are 4 callback methods in <code>&lt;AMRRewardedVideoDelegate&gt;</code> protocol.
+                    When <code>didReceiveRewardedVideo</code> callback method is called just call the <code>showFromViewController</code>
+                    method to present rewarded from a viewController.</p>
+
+                <pre><code class="language-objectivec">- (void)didReceiveRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
+    [rewardedVideo showFromViewController:self];
+}
+</code></pre>
+
+                <p><code>didDismissRewardedVideo</code> callback method is called to inform the application that the
+                    rewarded video is no longer present. You can use this callback to resume paused tasks during
+                    rewarded video presentation.</p>
+                <pre><code class="language-objectivec">- (void)didDismissRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
+    [animation resume];
+}
+</code></pre>
+
+                <p>If <code>didFailToReceiveRewardedVideo</code> callback method is called investigate
+                    <code>error</code>
+                    to adress the problem.
+
+                </p>
+
+                <pre><code class="language-objectivec">- (void)didFailToReceiveRewardedVideo:(AMRRewardedVideo *)rewardedVideo error:(AMRError *)error {
+    NSLog(error.errorDescription);
+}</code></pre>
+
+
+                <h2 id="extras">Extras</h2>
+
+                <h3 id="dfp">DFP/Admob Mediation Integration</h3>
+
+                <p>The AMR DFP Adapter lets publishers integrate Admost Mediation Router ads into applications with DFP
+                    or Admob Mediation set as main ad mediation layer.</p>
+
+                <p>In order to show AMR ads in DFP/Admob Mediation you should first follow dedicated steps of DFP or
+                    Admob Mediation to set AMR as an ad mediation source.</p>
+
+                <p>After adding AMR as an ad mediation source you should define class names for banner and interstitial
+                    ad custom events. Enter <code>AMRDFPCustomEventBanner</code> and
+                    <code>AMRDFPCustomEventInterstitial</code> class names for
+                    banner and interstitial class names respectively. You must pass your AMR zone Id to custom event via
+                    Parameter field.</p>
+
+                <img class="img-responsive " src="assets/img/dfp_banner.png" alt="shadowed image">
+
+
+                <img class="img-responsive " src="assets/img/dfp_interstitial.png" alt="shadowed image">
+
+                <p>Include Admost DFP Adapter in your project after setup, if you are using CocoaPods add following line
+                    to ypur podfile and run the following command to install.</p>
+
+
+                <pre><code>pod #AMRAdapterDFP</code></pre>
+
+                <pre><code>$ pod install</code></pre>
+
+
+                <p>If you are integration Admost manually add <code>AMRAdapterDFP</code> from <a
+                        href="https://github.com/admost/AMR/tree/master/IOS_Integration/AMR2.0/AMRDemo/MediationAdapters">AMRDemo/MediationAdapters</a>
+                    folder to your project.</p>
+
+                <p>Now you can show AMR banner and interstitial ads via DFP or Admob Mediation.</p>
+
+                <p>You can check DFP banner and interstitial example in demo project; <a
+                        href="https://github.com/admost/AMR/blob/master/IOS_Integration/AMR2.0/AMRDemo/AMRDemo/DFPCustomEvents/DFPCustomEventsViewController.m"
+                        target="_blank"> DFPCustomEventsViewController</a>.</p>
+            </section>
+
+        </article>
+        <!-- END Main content -->
+    </div>
+</main>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <p>Copyright &copy; 2017. All right reserved</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <ul class="footer-menu">
+                    <li><a href="http://admost.github.io/amrios">iOS implementation</a></li>
+                    <li><a href="http://admost.github.io/amrunity">Unity implementation</a></li>
+                    <li><a href="mailto:amr@admost.com">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END Footer -->
+
+<!-- Scripts -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script>
+    window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')
+</script>
+<script>function copyToClipboard(element) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text()).select();
+    document.execCommand("copy");
+    $temp.remove();
+}
+</script>
+
+<script src="adnetworks.js" type="text/javascript"></script>
+<script src="assets/js/theDocs.all.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
 </body>
 </html>
