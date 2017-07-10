@@ -169,49 +169,16 @@ RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
                     further details.
                 </p>
 
+                <p>Please click <code>+</code> icon to add to list and <code>-</code> to remove from list.
+                    <code>Podfile</code> will be updated while you are choosing networks. </p>
+                <div class="row" id="adnetwork-button-list">
+                </div>
+
                 <p>To integrate AMR SDK and mediation adapters into your Xcode project using CocoaPods, specify it in
                     your <code>Podfile:</code></p>
 
-                <pre><code class="language-objectivec">
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '7.0'
+                <pre><code id="file-pod">
 
-use_frameworks!
-
-target 'MyAwesomeTarget' do
-#core SDK
-pod 'AMRSDK', '~> 1.2'
-#mediation adapters
-pod 'AMRAdapterAdcolony', '~> 3.1'
-pod 'AMRAdapterAdmob', '~> 7.19'
-pod 'AMRAdapterAdmost', '~> 1.0'
-pod 'AMRAdapterAmazon', '~> 2.2'
-pod 'AMRAdapterApplovin', '~> 4.0'
-pod 'AMRAdapterAppnext', '~> 1.8'
-pod 'AMRAdapterAvocarrot', '~> 4.2' #ios 8+
-pod 'AMRAdapterChartboost', '~> 6.6'
-pod 'AMRAdapterFacebook', '~> 4.22'
-pod 'AMRAdapterFlurry', '~> 7.10'
-pod 'AMRAdapterFyber', '~> 8.11'
-pod 'AMRAdapterInmobi', '~> 6.1'
-pod 'AMRAdapterIronsource', '~> 6.5'
-pod 'AMRAdapterLeadbolt', '~> 8.0'
-pod 'AMRAdapterLoopme', '~> 6.0'
-pod 'AMRAdapterMobfox', '~> 3.1'
-pod 'AMRAdapterMobusi', '~> 2.3'
-pod 'AMRAdapterMopub', '~> 4.13'
-pod 'AMRAdapterNativex', '~> 5.5'
-pod 'AMRAdapterNexage', '~> 6.4'
-pod 'AMRAdapterPubnative', '~> 1.4'
-pod 'AMRAdapterRevmob', '~> 9.2'
-pod 'AMRAdapterSmaato', '~> 8.0'
-pod 'AMRAdapterStartapp', '~> 3.4'
-pod 'AMRAdapterTapjoy', '~> 11.10'
-pod 'AMRAdapterTappx', '~> 3.0'
-pod 'AMRAdapterUnity', '~> 2.1'
-pod 'AMRAdapterVungle', '~> 4.1'
-
-end
                 </code></pre>
 
                 <p>Then, run the following command:</p>
