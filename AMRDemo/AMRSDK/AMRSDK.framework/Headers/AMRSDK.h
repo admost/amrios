@@ -104,6 +104,18 @@
  */
 + (void)spendVirtualCurrency;
 
+/**
+ * Track purchase.
+ * @param identifier Transaction identifier of SKPaymentTransactionState
+ * @param currencyCode Currency code of transaction
+ * @param amount Amount of transaction
+ * @param receipt Receipt of SKPaymentTransactionState
+ */
++ (void)trackPurchase:(NSString *)identifier
+         currencyCode:(NSString *)currencyCode
+               amount:(double)amount
+              receipt:(NSData *)receipt;
+
 @end
 
 /**

@@ -79,6 +79,22 @@
 		2FE935A41DEC4DD2003664C7 /* OfferWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE935A31DEC4DD2003664C7 /* OfferWallViewController.m */; };
 		2FE935A71DEC510A003664C7 /* SpendCurrencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FE935A61DEC510A003664C7 /* SpendCurrencyViewController.m */; };
 		2FFD45081D9C8FB60089824D /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFD45071D9C8FB60089824D /* AVKit.framework */; };
+		9E0380121F25F4AC00549E09 /* AvocarrotBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0380091F25F4AC00549E09 /* AvocarrotBanner.framework */; };
+		9E0380131F25F4AC00549E09 /* AvocarrotCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E03800A1F25F4AC00549E09 /* AvocarrotCore.framework */; };
+		9E0380141F25F4AC00549E09 /* AvocarrotInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E03800B1F25F4AC00549E09 /* AvocarrotInterstitial.framework */; };
+		9E0380151F25F4AC00549E09 /* AvocarrotNativeAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E03800C1F25F4AC00549E09 /* AvocarrotNativeAssets.framework */; };
+		9E0380161F25F4AC00549E09 /* AvocarrotNativeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E03800D1F25F4AC00549E09 /* AvocarrotNativeView.framework */; };
+		9E0380171F25F4AC00549E09 /* AvocarrotVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E03800E1F25F4AC00549E09 /* AvocarrotVideo.framework */; };
+		9E0380181F25F4AC00549E09 /* Mraid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E03800F1F25F4AC00549E09 /* Mraid.framework */; };
+		9E0380191F25F4AC00549E09 /* Vast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0380101F25F4AC00549E09 /* Vast.framework */; };
+		9E03801A1F25F4AC00549E09 /* libAMRAdapterAvocarrot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0380111F25F4AC00549E09 /* libAMRAdapterAvocarrot.a */; };
+		9E5B164C1F2B62BD0053D70E /* libFlurry_8.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5B164A1F2B62BD0053D70E /* libFlurry_8.1.0.a */; };
+		9E5B164D1F2B62BD0053D70E /* libFlurryAds_8.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5B164B1F2B62BD0053D70E /* libFlurryAds_8.1.0.a */; };
+		9E5B16911F2B67660053D70E /* libFyberSDK-8.15.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5B16901F2B67660053D70E /* libFyberSDK-8.15.1.a */; };
+		9E5B16961F2B67710053D70E /* FYBBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5B16921F2B67710053D70E /* FYBBackIcon@2x.png */; };
+		9E5B16971F2B67710053D70E /* FYBIntegrationAnalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E5B16931F2B67710053D70E /* FYBIntegrationAnalyzerViewController.xib */; };
+		9E5B16981F2B67710053D70E /* StartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5B16941F2B67710053D70E /* StartedBundleIcon.png */; };
+		9E5B16991F2B67710053D70E /* UnstartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5B16951F2B67710053D70E /* UnstartedBundleIcon.png */; };
 		9EBBFBAA1F0A904F00C66469 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB051F0A904F00C66469 /* AdColony.framework */; };
 		9EBBFBAB1F0A904F00C66469 /* libAMRAdapterAdcolony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB061F0A904F00C66469 /* libAMRAdapterAdcolony.a */; };
 		9EBBFBAC1F0A904F00C66469 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB091F0A904F00C66469 /* GoogleMobileAds.framework */; };
@@ -97,17 +113,7 @@
 		9EBBFBB91F0A905000C66469 /* libAMRAdapterChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB201F0A904F00C66469 /* libAMRAdapterChartboost.a */; };
 		9EBBFBBB1F0A905000C66469 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB251F0A904F00C66469 /* FBAudienceNetwork.framework */; };
 		9EBBFBBC1F0A905000C66469 /* libAMRAdapterFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB261F0A904F00C66469 /* libAMRAdapterFacebook.a */; };
-		9EBBFBBD1F0A905000C66469 /* libFlurry_7.10.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB291F0A904F00C66469 /* libFlurry_7.10.0.a */; };
-		9EBBFBBE1F0A905000C66469 /* libFlurryAds_7.10.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB2A1F0A904F00C66469 /* libFlurryAds_7.10.0.a */; };
-		9EBBFBBF1F0A905000C66469 /* starburst_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBFB2B1F0A904F00C66469 /* starburst_white.png */; };
 		9EBBFBC01F0A905000C66469 /* libAMRAdapterFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB2C1F0A904F00C66469 /* libAMRAdapterFlurry.a */; };
-		9EBBFBC11F0A905000C66469 /* FYBBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBFB2F1F0A904F00C66469 /* FYBBackIcon@2x.png */; };
-		9EBBFBC21F0A905000C66469 /* FYBBackIconiPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBFB301F0A904F00C66469 /* FYBBackIconiPad@2x.png */; };
-		9EBBFBC31F0A905000C66469 /* FYBBackIconiPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBFB311F0A904F00C66469 /* FYBBackIconiPhone@2x.png */; };
-		9EBBFBC41F0A905000C66469 /* FYBIntegrationAnalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBFB321F0A904F00C66469 /* FYBIntegrationAnalyzerViewController.xib */; };
-		9EBBFBC51F0A905000C66469 /* libFyberSDK-8.11.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB331F0A904F00C66469 /* libFyberSDK-8.11.0.a */; };
-		9EBBFBC61F0A905000C66469 /* StartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBFB341F0A904F00C66469 /* StartedBundleIcon.png */; };
-		9EBBFBC71F0A905000C66469 /* UnstartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EBBFB351F0A904F00C66469 /* UnstartedBundleIcon.png */; };
 		9EBBFBC81F0A905000C66469 /* libAMRAdapterFyber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB361F0A904F00C66469 /* libAMRAdapterFyber.a */; };
 		9EBBFBC91F0A905000C66469 /* InMobiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB391F0A904F00C66469 /* InMobiSDK.framework */; };
 		9EBBFBCA1F0A905000C66469 /* libAMRAdapterInmobi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBBFB3A1F0A904F00C66469 /* libAMRAdapterInmobi.a */; };
@@ -286,6 +292,22 @@
 		2FE935A51DEC510A003664C7 /* SpendCurrencyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpendCurrencyViewController.h; sourceTree = "<group>"; };
 		2FE935A61DEC510A003664C7 /* SpendCurrencyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpendCurrencyViewController.m; sourceTree = "<group>"; };
 		2FFD45071D9C8FB60089824D /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		9E0380091F25F4AC00549E09 /* AvocarrotBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotBanner.framework; sourceTree = "<group>"; };
+		9E03800A1F25F4AC00549E09 /* AvocarrotCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotCore.framework; sourceTree = "<group>"; };
+		9E03800B1F25F4AC00549E09 /* AvocarrotInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotInterstitial.framework; sourceTree = "<group>"; };
+		9E03800C1F25F4AC00549E09 /* AvocarrotNativeAssets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotNativeAssets.framework; sourceTree = "<group>"; };
+		9E03800D1F25F4AC00549E09 /* AvocarrotNativeView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotNativeView.framework; sourceTree = "<group>"; };
+		9E03800E1F25F4AC00549E09 /* AvocarrotVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotVideo.framework; sourceTree = "<group>"; };
+		9E03800F1F25F4AC00549E09 /* Mraid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mraid.framework; sourceTree = "<group>"; };
+		9E0380101F25F4AC00549E09 /* Vast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vast.framework; sourceTree = "<group>"; };
+		9E0380111F25F4AC00549E09 /* libAMRAdapterAvocarrot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAvocarrot.a; sourceTree = "<group>"; };
+		9E5B164A1F2B62BD0053D70E /* libFlurry_8.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_8.1.0.a; sourceTree = "<group>"; };
+		9E5B164B1F2B62BD0053D70E /* libFlurryAds_8.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_8.1.0.a; sourceTree = "<group>"; };
+		9E5B16901F2B67660053D70E /* libFyberSDK-8.15.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libFyberSDK-8.15.1.a"; sourceTree = "<group>"; };
+		9E5B16921F2B67710053D70E /* FYBBackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FYBBackIcon@2x.png"; sourceTree = "<group>"; };
+		9E5B16931F2B67710053D70E /* FYBIntegrationAnalyzerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYBIntegrationAnalyzerViewController.xib; sourceTree = "<group>"; };
+		9E5B16941F2B67710053D70E /* StartedBundleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartedBundleIcon.png; sourceTree = "<group>"; };
+		9E5B16951F2B67710053D70E /* UnstartedBundleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnstartedBundleIcon.png; sourceTree = "<group>"; };
 		9EBBFB051F0A904F00C66469 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
 		9EBBFB061F0A904F00C66469 /* libAMRAdapterAdcolony.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAdcolony.a; sourceTree = "<group>"; };
 		9EBBFB091F0A904F00C66469 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
@@ -304,17 +326,7 @@
 		9EBBFB201F0A904F00C66469 /* libAMRAdapterChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterChartboost.a; sourceTree = "<group>"; };
 		9EBBFB251F0A904F00C66469 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		9EBBFB261F0A904F00C66469 /* libAMRAdapterFacebook.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterFacebook.a; sourceTree = "<group>"; };
-		9EBBFB291F0A904F00C66469 /* libFlurry_7.10.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_7.10.0.a; sourceTree = "<group>"; };
-		9EBBFB2A1F0A904F00C66469 /* libFlurryAds_7.10.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_7.10.0.a; sourceTree = "<group>"; };
-		9EBBFB2B1F0A904F00C66469 /* starburst_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starburst_white.png; sourceTree = "<group>"; };
 		9EBBFB2C1F0A904F00C66469 /* libAMRAdapterFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterFlurry.a; sourceTree = "<group>"; };
-		9EBBFB2F1F0A904F00C66469 /* FYBBackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FYBBackIcon@2x.png"; sourceTree = "<group>"; };
-		9EBBFB301F0A904F00C66469 /* FYBBackIconiPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FYBBackIconiPad@2x.png"; sourceTree = "<group>"; };
-		9EBBFB311F0A904F00C66469 /* FYBBackIconiPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FYBBackIconiPhone@2x.png"; sourceTree = "<group>"; };
-		9EBBFB321F0A904F00C66469 /* FYBIntegrationAnalyzerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYBIntegrationAnalyzerViewController.xib; sourceTree = "<group>"; };
-		9EBBFB331F0A904F00C66469 /* libFyberSDK-8.11.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libFyberSDK-8.11.0.a"; sourceTree = "<group>"; };
-		9EBBFB341F0A904F00C66469 /* StartedBundleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartedBundleIcon.png; sourceTree = "<group>"; };
-		9EBBFB351F0A904F00C66469 /* UnstartedBundleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnstartedBundleIcon.png; sourceTree = "<group>"; };
 		9EBBFB361F0A904F00C66469 /* libAMRAdapterFyber.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterFyber.a; sourceTree = "<group>"; };
 		9EBBFB391F0A904F00C66469 /* InMobiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InMobiSDK.framework; sourceTree = "<group>"; };
 		9EBBFB3A1F0A904F00C66469 /* libAMRAdapterInmobi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterInmobi.a; sourceTree = "<group>"; };
@@ -411,10 +423,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0380131F25F4AC00549E09 /* AvocarrotCore.framework in Frameworks */,
 				2FC525221D927B630095306E /* MediaPlayer.framework in Frameworks */,
 				2F90A1A11EAF6424002F8B8A /* libxml2.tbd in Frameworks */,
 				9EBBFBB91F0A905000C66469 /* libAMRAdapterChartboost.a in Frameworks */,
-				9EBBFBC51F0A905000C66469 /* libFyberSDK-8.11.0.a in Frameworks */,
+				9E0380141F25F4AC00549E09 /* AvocarrotInterstitial.framework in Frameworks */,
 				9EBBFC1B1F0A905000C66469 /* libAMRAdapterVungle.a in Frameworks */,
 				9EBBFBB61F0A905000C66469 /* libAppnextSDKCore.a in Frameworks */,
 				9EBBFBB01F0A905000C66469 /* AmazonAd.framework in Frameworks */,
@@ -429,6 +442,7 @@
 				2FFD45081D9C8FB60089824D /* AVKit.framework in Frameworks */,
 				2FDE73801D99B784004E9EA1 /* SafariServices.framework in Frameworks */,
 				9EBD30711F13979200B5F71F /* libAMRAdapterTappx.a in Frameworks */,
+				9E03801A1F25F4AC00549E09 /* libAMRAdapterAvocarrot.a in Frameworks */,
 				9EBBFBB71F0A905000C66469 /* libAMRAdapterAppnext.a in Frameworks */,
 				9EBBFBAB1F0A904F00C66469 /* libAMRAdapterAdcolony.a in Frameworks */,
 				9EBBFC1A1F0A905000C66469 /* VungleSDK.framework in Frameworks */,
@@ -437,8 +451,8 @@
 				9EBBFC191F0A905000C66469 /* libAMRAdapterUnity.a in Frameworks */,
 				2FDE737E1D99B77E004E9EA1 /* JavaScriptCore.framework in Frameworks */,
 				2F0878801D9481E6003A208A /* QuartzCore.framework in Frameworks */,
+				9E5B16911F2B67660053D70E /* libFyberSDK-8.15.1.a in Frameworks */,
 				9EBBFBED1F0A905000C66469 /* libAMRAdapterNativex.a in Frameworks */,
-				9EBBFBBD1F0A905000C66469 /* libFlurry_7.10.0.a in Frameworks */,
 				9EBBFC111F0A905000C66469 /* libAMRAdapterSmaato.a in Frameworks */,
 				9EBBFC171F0A905000C66469 /* libAMRAdapterTapjoy.a in Frameworks */,
 				9EBBFBAF1F0A905000C66469 /* libAMRAdapterAdmost.a in Frameworks */,
@@ -447,11 +461,13 @@
 				2FDE737C1D99B76B004E9EA1 /* EventKitUI.framework in Frameworks */,
 				9EBBFBC01F0A905000C66469 /* libAMRAdapterFlurry.a in Frameworks */,
 				2FDE737A1D99B764004E9EA1 /* EventKit.framework in Frameworks */,
+				9E0380121F25F4AC00549E09 /* AvocarrotBanner.framework in Frameworks */,
 				9EBBFBCE1F0A905000C66469 /* libAMRAdapterLeadbolt.a in Frameworks */,
 				9EBBFBD21F0A905000C66469 /* MobFoxSDKCore.framework in Frameworks */,
 				2FDE73781D99B757004E9EA1 /* CoreTelephony.framework in Frameworks */,
 				9EBBFC0E1F0A905000C66469 /* RevMobAds.framework in Frameworks */,
 				9EBBFC101F0A905000C66469 /* iSoma.framework in Frameworks */,
+				9E0380161F25F4AC00549E09 /* AvocarrotNativeView.framework in Frameworks */,
 				2FC525281D927B730095306E /* AdSupport.framework in Frameworks */,
 				2F0878841D9481FD003A208A /* WebKit.framework in Frameworks */,
 				2F0878821D9481F7003A208A /* UIKit.framework in Frameworks */,
@@ -459,16 +475,17 @@
 				9EBBFBEF1F0A905000C66469 /* libAMRAdapterNexage.a in Frameworks */,
 				9EBBFBEC1F0A905000C66469 /* libNativeXSDK.a in Frameworks */,
 				9EBBFBB81F0A905000C66469 /* Chartboost.framework in Frameworks */,
-				9EBBFBBE1F0A905000C66469 /* libFlurryAds_7.10.0.a in Frameworks */,
 				9EBBFBD31F0A905000C66469 /* libAMRAdapterMobfox.a in Frameworks */,
 				2F08787E1D9481D6003A208A /* libsqlite3.tbd in Frameworks */,
 				2F08787C1D9481CA003A208A /* libz.tbd in Frameworks */,
 				2F08787A1D9481BD003A208A /* Foundation.framework in Frameworks */,
 				9EBBFBB41F0A905000C66469 /* libAppnextLib.a in Frameworks */,
+				9E0380191F25F4AC00549E09 /* Vast.framework in Frameworks */,
 				9EBBFBCD1F0A905000C66469 /* AppTracker.framework in Frameworks */,
 				9EBBFC141F0A905000C66469 /* libAMRAdapterStartapp.a in Frameworks */,
 				9EBBFBAA1F0A904F00C66469 /* AdColony.framework in Frameworks */,
 				9EBBFBD51F0A905000C66469 /* libAMRAdapterMobusi.a in Frameworks */,
+				9E0380181F25F4AC00549E09 /* Mraid.framework in Frameworks */,
 				9EBBFBEB1F0A905000C66469 /* libAMRAdapterMopub.a in Frameworks */,
 				9EBBFC0D1F0A905000C66469 /* libAMRAdapterPubNative.a in Frameworks */,
 				2F0878781D9481B3003A208A /* CoreMedia.framework in Frameworks */,
@@ -477,9 +494,11 @@
 				9EBBFBCF1F0A905000C66469 /* LOOMoatMobileAppKit.framework in Frameworks */,
 				9EBBFC0F1F0A905000C66469 /* libAMRAdapterRevmob.a in Frameworks */,
 				9EF6BDF41EA64E4400C83FF0 /* AMRAdmostSDK.framework in Frameworks */,
+				9E5B164C1F2B62BD0053D70E /* libFlurry_8.1.0.a in Frameworks */,
 				2F0878741D9481A3003A208A /* CFNetwork.framework in Frameworks */,
 				2FC525261D927B6F0095306E /* AVFoundation.framework in Frameworks */,
 				9EBBFBB51F0A905000C66469 /* libAppnextNativeAdsSDK.a in Frameworks */,
+				9E0380171F25F4AC00549E09 /* AvocarrotVideo.framework in Frameworks */,
 				9EBBFBC91F0A905000C66469 /* InMobiSDK.framework in Frameworks */,
 				9EBBFC131F0A905000C66469 /* StartApp.framework in Frameworks */,
 				9EBBFBAD1F0A905000C66469 /* libAMRAdapterAdmob.a in Frameworks */,
@@ -488,11 +507,13 @@
 				9EBBFBB31F0A905000C66469 /* libAMRAdapterApplovin.a in Frameworks */,
 				9EBBFBCC1F0A905000C66469 /* libAMRAdapterIronsource.a in Frameworks */,
 				9EBBFBBB1F0A905000C66469 /* FBAudienceNetwork.framework in Frameworks */,
+				9E0380151F25F4AC00549E09 /* AvocarrotNativeAssets.framework in Frameworks */,
 				2FC525241D927B6A0095306E /* CoreLocation.framework in Frameworks */,
 				2FC5251E1D927B580095306E /* SystemConfiguration.framework in Frameworks */,
 				9EBBFBB11F0A905000C66469 /* libAMRAdapterAmazon.a in Frameworks */,
 				9EBD30701F13979200B5F71F /* TappxFramework.framework in Frameworks */,
 				2F27ABFA1D6C941C000A2540 /* KKLog.framework in Frameworks */,
+				9E5B164D1F2B62BD0053D70E /* libFlurryAds_8.1.0.a in Frameworks */,
 				9EBBFBCB1F0A905000C66469 /* IronSource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -670,13 +691,13 @@
 		2FCCDB861D6B55C000E4414A /* MediationAdapters */ = {
 			isa = PBXGroup;
 			children = (
-				9EBD306C1F13979200B5F71F /* AMRAdapterTappx */,
 				9EBBFB031F0A904F00C66469 /* AMRAdapterAdcolony */,
 				9EBBFB071F0A904F00C66469 /* AMRAdapterAdmob */,
 				9EBBFB0B1F0A904F00C66469 /* AMRAdapterAdmost */,
 				9EBBFB0F1F0A904F00C66469 /* AMRAdapterAmazon */,
 				9EBBFB131F0A904F00C66469 /* AMRAdapterApplovin */,
 				9EBBFB171F0A904F00C66469 /* AMRAdapterAppnext */,
+				9E0380071F25F4AC00549E09 /* AMRAdapterAvocarrot */,
 				9EBBFB1D1F0A904F00C66469 /* AMRAdapterChartboost */,
 				9EBBFB231F0A904F00C66469 /* AMRAdapterFacebook */,
 				9EBBFB271F0A904F00C66469 /* AMRAdapterFlurry */,
@@ -695,6 +716,7 @@
 				9EBBFB941F0A904F00C66469 /* AMRAdapterSmaato */,
 				9EBBFB981F0A904F00C66469 /* AMRAdapterStartapp */,
 				9EBBFB9D1F0A904F00C66469 /* AMRAdapterTapjoy */,
+				9EBD306C1F13979200B5F71F /* AMRAdapterTappx */,
 				9EBBFBA21F0A904F00C66469 /* AMRAdapterUnity */,
 				9EBBFBA61F0A904F00C66469 /* AMRAdapterVungle */,
 			);
@@ -708,6 +730,30 @@
 				2FE07BB21EC0689300DAB358 /* DFPCustomEventsViewController.m */,
 			);
 			path = DFPCustomEvents;
+			sourceTree = "<group>";
+		};
+		9E0380071F25F4AC00549E09 /* AMRAdapterAvocarrot */ = {
+			isa = PBXGroup;
+			children = (
+				9E0380081F25F4AC00549E09 /* AMRAdapterAvocarrotInclude */,
+				9E0380111F25F4AC00549E09 /* libAMRAdapterAvocarrot.a */,
+			);
+			path = AMRAdapterAvocarrot;
+			sourceTree = "<group>";
+		};
+		9E0380081F25F4AC00549E09 /* AMRAdapterAvocarrotInclude */ = {
+			isa = PBXGroup;
+			children = (
+				9E0380091F25F4AC00549E09 /* AvocarrotBanner.framework */,
+				9E03800A1F25F4AC00549E09 /* AvocarrotCore.framework */,
+				9E03800B1F25F4AC00549E09 /* AvocarrotInterstitial.framework */,
+				9E03800C1F25F4AC00549E09 /* AvocarrotNativeAssets.framework */,
+				9E03800D1F25F4AC00549E09 /* AvocarrotNativeView.framework */,
+				9E03800E1F25F4AC00549E09 /* AvocarrotVideo.framework */,
+				9E03800F1F25F4AC00549E09 /* Mraid.framework */,
+				9E0380101F25F4AC00549E09 /* Vast.framework */,
+			);
+			path = AMRAdapterAvocarrotInclude;
 			sourceTree = "<group>";
 		};
 		9EBBFB031F0A904F00C66469 /* AMRAdapterAdcolony */ = {
@@ -860,9 +906,8 @@
 		9EBBFB281F0A904F00C66469 /* AMRAdapterFlurryInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9EBBFB291F0A904F00C66469 /* libFlurry_7.10.0.a */,
-				9EBBFB2A1F0A904F00C66469 /* libFlurryAds_7.10.0.a */,
-				9EBBFB2B1F0A904F00C66469 /* starburst_white.png */,
+				9E5B164A1F2B62BD0053D70E /* libFlurry_8.1.0.a */,
+				9E5B164B1F2B62BD0053D70E /* libFlurryAds_8.1.0.a */,
 			);
 			path = AMRAdapterFlurryInclude;
 			sourceTree = "<group>";
@@ -879,13 +924,11 @@
 		9EBBFB2E1F0A904F00C66469 /* AMRAdapterFyberInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9EBBFB2F1F0A904F00C66469 /* FYBBackIcon@2x.png */,
-				9EBBFB301F0A904F00C66469 /* FYBBackIconiPad@2x.png */,
-				9EBBFB311F0A904F00C66469 /* FYBBackIconiPhone@2x.png */,
-				9EBBFB321F0A904F00C66469 /* FYBIntegrationAnalyzerViewController.xib */,
-				9EBBFB331F0A904F00C66469 /* libFyberSDK-8.11.0.a */,
-				9EBBFB341F0A904F00C66469 /* StartedBundleIcon.png */,
-				9EBBFB351F0A904F00C66469 /* UnstartedBundleIcon.png */,
+				9E5B16921F2B67710053D70E /* FYBBackIcon@2x.png */,
+				9E5B16931F2B67710053D70E /* FYBIntegrationAnalyzerViewController.xib */,
+				9E5B16941F2B67710053D70E /* StartedBundleIcon.png */,
+				9E5B16951F2B67710053D70E /* UnstartedBundleIcon.png */,
+				9E5B16901F2B67660053D70E /* libFyberSDK-8.15.1.a */,
 			);
 			path = AMRAdapterFyberInclude;
 			sourceTree = "<group>";
@@ -1294,13 +1337,10 @@
 				9EBBFBFC1F0A905000C66469 /* PnFullScreen@2x.png in Resources */,
 				2F7E6ACD1E49BE6C00AA6F88 /* 8.jpg in Resources */,
 				2F7E6AC31E49BE6C00AA6F88 /* 16.jpg in Resources */,
-				9EBBFBC21F0A905000C66469 /* FYBBackIconiPad@2x.png in Resources */,
 				2F7E6AC11E49BE6C00AA6F88 /* 14.jpg in Resources */,
 				2F4517BE1E77E67700069EAF /* AMRNativeAdBaseView50.xib in Resources */,
 				2F7E6ACE1E49BE6C00AA6F88 /* 9.jpg in Resources */,
-				9EBBFBC31F0A905000C66469 /* FYBBackIconiPhone@2x.png in Resources */,
 				9EBBFBD81F0A905000C66469 /* MPCloseBtn@2x.png in Resources */,
-				9EBBFBC11F0A905000C66469 /* FYBBackIcon@2x.png in Resources */,
 				2F7E6ABE1E49BE6C00AA6F88 /* 11.jpg in Resources */,
 				9EBBFBFA1F0A905000C66469 /* PNExternalLink@2x.png in Resources */,
 				9EBBFBF51F0A905000C66469 /* PnClose.png in Resources */,
@@ -1310,19 +1350,16 @@
 				2F7E6ABB1E49BE6C00AA6F88 /* 0.jpg in Resources */,
 				9EBBFBFE1F0A905000C66469 /* PNGameListTableViewCell.xib in Resources */,
 				2F7E6ABC1E49BE6C00AA6F88 /* 1.jpg in Resources */,
-				9EBBFBC61F0A905000C66469 /* StartedBundleIcon.png in Resources */,
 				2F4517AE1E76D5EF00069EAF /* AMRNativeAdBaseView250.xib in Resources */,
 				9EBBFC0C1F0A905000C66469 /* PNVideoPlayerView.xib in Resources */,
 				2F7E6AC81E49BE6C00AA6F88 /* 3.jpg in Resources */,
 				2F7E6ACC1E49BE6C00AA6F88 /* 7.jpg in Resources */,
 				9EBBFC051F0A905000C66469 /* PnMute@2x.png in Resources */,
 				9EBBFBF61F0A905000C66469 /* PnClose@2x.png in Resources */,
-				9EBBFBBF1F0A905000C66469 /* starburst_white.png in Resources */,
 				2F4517B61E76DDEC00069EAF /* random-grey-variations.png in Resources */,
 				2F7E6AC71E49BE6C00AA6F88 /* 2.jpg in Resources */,
 				2F23EFE71D6749BA00CAC0FF /* LaunchScreen.storyboard in Resources */,
 				9EBBFBE41F0A905000C66469 /* MPPlayBtn.png in Resources */,
-				9EBBFBC41F0A905000C66469 /* FYBIntegrationAnalyzerViewController.xib in Resources */,
 				9EBBFC001F0A905000C66469 /* PNInterstitialAdViewController~ipad.xib in Resources */,
 				9EBBFBE01F0A905000C66469 /* MPDAAIcon@3x.png in Resources */,
 				2F7E6AC21E49BE6C00AA6F88 /* 15.jpg in Resources */,
@@ -1344,6 +1381,7 @@
 				9EBBFC061F0A905000C66469 /* PNNativeTableViewCell.xib in Resources */,
 				9EBBFC081F0A905000C66469 /* PnUnMute@2x.png in Resources */,
 				9EBBFBDD1F0A905000C66469 /* MPCountdownTimer.html in Resources */,
+				9E5B16971F2B67710053D70E /* FYBIntegrationAnalyzerViewController.xib in Resources */,
 				9EBBFC161F0A905000C66469 /* TapjoyResources.bundle in Resources */,
 				9EBBFC071F0A905000C66469 /* PnUnMute.png in Resources */,
 				9EBBFBE51F0A905000C66469 /* MPPlayBtn@2x.png in Resources */,
@@ -1351,7 +1389,6 @@
 				9EBBFC091F0A905000C66469 /* PNVersion.plist in Resources */,
 				9EBBFBE71F0A905000C66469 /* MPUnmutedBtn.png in Resources */,
 				9EBBFBDF1F0A905000C66469 /* MPDAAIcon@2x.png in Resources */,
-				9EBBFBC71F0A905000C66469 /* UnstartedBundleIcon.png in Resources */,
 				2F7E6ACB1E49BE6C00AA6F88 /* 6.jpg in Resources */,
 				9EBBFBD61F0A905000C66469 /* MPAdBrowserController.xib in Resources */,
 				9EBBFBF91F0A905000C66469 /* PNExternalLink.png in Resources */,
@@ -1361,6 +1398,7 @@
 				9EBBFBAE1F0A905000C66469 /* AMRAdapterAdmostResources.bundle in Resources */,
 				9EBBFBDB1F0A905000C66469 /* MPCloseButtonX@2x.png in Resources */,
 				9EBBFBF31F0A905000C66469 /* PNCarouselCollectionViewCell.xib in Resources */,
+				9E5B16961F2B67710053D70E /* FYBBackIcon@2x.png in Resources */,
 				9EBBFBF71F0A905000C66469 /* PNCloseIcon.png in Resources */,
 				9EBBFBE61F0A905000C66469 /* MPPlayBtn@3x.png in Resources */,
 				9EBBFBF41F0A905000C66469 /* PNCarouselContainerView.xib in Resources */,
@@ -1377,6 +1415,8 @@
 				9EBBFBF81F0A905000C66469 /* PNCloseIcon@2x.png in Resources */,
 				2F7E6AC41E49BE6C00AA6F88 /* 17.jpg in Resources */,
 				9EBBFBDC1F0A905000C66469 /* MPCloseButtonX@3x.png in Resources */,
+				9E5B16991F2B67710053D70E /* UnstartedBundleIcon.png in Resources */,
+				9E5B16981F2B67710053D70E /* StartedBundleIcon.png in Resources */,
 				2F6E42961DA292F2003572E4 /* GoogleService-Info.plist in Resources */,
 				9EBBFC0B1F0A905000C66469 /* PNVideoInterstitialViewController.xib in Resources */,
 				9EBBFBFB1F0A905000C66469 /* PnFullScreen.png in Resources */,
@@ -1553,6 +1593,7 @@
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterApplovin/AMRAdapterApplovinInclude",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterTapjoy/AMRAdapterTapjoyInclude/Tapjoy.embeddedframework",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterLoopme/AMRAdapterLoopmeInclude",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAvocarrot/AMRAdapterAvocarrotInclude",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = AMRDemo/Info.plist;
@@ -1598,6 +1639,7 @@
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterDFP",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterInneractive/AMRAdapterInneractiveInclude",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterInneractive",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAvocarrot",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1645,6 +1687,7 @@
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterApplovin/AMRAdapterApplovinInclude",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterTapjoy/AMRAdapterTapjoyInclude/Tapjoy.embeddedframework",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterLoopme/AMRAdapterLoopmeInclude",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAvocarrot/AMRAdapterAvocarrotInclude",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = AMRDemo/Info.plist;
@@ -1690,6 +1733,7 @@
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterDFP",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterInneractive/AMRAdapterInneractiveInclude",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterInneractive",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAvocarrot",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",

@@ -39,7 +39,6 @@ GADInterstitialDelegate> @end
 }
 
 - (IBAction)loadInterstitial {
-
     dispatch_async(dispatch_get_main_queue(), ^{
         _interstitial = [[GADInterstitial alloc] initWithAdUnitID:@"ca-app-pub-3297656589511112/6995449788"];
         _interstitial.delegate = self;
