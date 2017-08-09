@@ -505,6 +505,13 @@ rewardedVideo.delegate = self;
 }
 </code></pre>
 
+<p><code>didCompleteRewardedVideo</code> callback method is called to inform the application that the user finished watching the video and can be rewarded. Use this callback to reward the user.</p>
+
+<pre><code class="language-objectivec">- (void)didCompleteRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
+    [player reward];
+}
+</code></pre>
+
                 <p><code>didDismissRewardedVideo</code> callback method is called to inform the application that the
                     rewarded video is no longer present. You can use this callback to resume paused tasks during
                     rewarded video presentation.</p>
