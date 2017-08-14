@@ -52,11 +52,4 @@
  */
 - (void)didCompleteRewardedVideo:(AMRRewardedVideo *)rewardedVideo;
 
-/**
- * User rewarded with amount for completing a task or watching a rewarded video.
- * @param rewardedVideo AMRRewardedVideo object
- * @param rewardAmount Reward amount
- */
-- (void)didRewardUser:(NSNumber *)rewardAmount forRewardedVideo:(AMRRewardedVideo *)rewardedVideo;
-
 @end
