@@ -116,6 +116,11 @@
                amount:(double)amount
               receipt:(NSData *)receipt;
 
+/**
+ * Start Test Suite
+ * @param zones List of Zone ids.
+ */
++ (void)startTestSuiteWithZones:(NSArray *)zones;
 @end
 
 /**
