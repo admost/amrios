@@ -131,7 +131,7 @@ typedef enum TJCActionRequestTypeEnum {
 @end
 
 /**
- * Delegate used to recieve video events from TJPlacement
+ * Delegate used to receive video events from TJPlacement
  */
 @protocol TJPlacementVideoDelegate <NSObject>
 
