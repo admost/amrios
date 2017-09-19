@@ -1,2 +1,50 @@
+LANG ###############################################
+.eunit
+*.o
+*.beam
+*.plt
+erl_crash.dump
+_build
+deps
+ebin
+log
+rel/example_project
+.concrete/DEV_MODE
+.rebar
+relx
+relx.cmd
+_rel
+
+
+### XCODE #################################################
+# Invisibles
 .DS_Store
-.idea
+*.swp
+.Trashes
+
+# Temporary files
+*~.nib
+
+# Build files
+DerivedData/
+build/
+
+# Xcode private settings (except defaults)
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcuserstate
+
+# All personal settings
+xcuserdata
+
+# VCS metadata
+*.xccheckout
+
+# Deprecated file backup
+*.moved-aside
