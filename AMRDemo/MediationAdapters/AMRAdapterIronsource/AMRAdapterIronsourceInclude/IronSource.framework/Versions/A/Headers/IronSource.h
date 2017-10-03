@@ -9,23 +9,34 @@
 #import <UIKit/UIKit.h>
 
 #import "ISGender.h"
+#import "ISBannerDelegate.h"
 #import "ISRewardedVideoDelegate.h"
 #import "ISOfferwallDelegate.h"
 #import "ISInterstitialDelegate.h"
 #import "ISRewardedInterstitialDelegate.h"
 #import "ISLogDelegate.h"
 #import "ISConfigurations.h"
-#import "ISIntegrationHelper.h"
 #import "ISPlacementInfo.h"
 #import "ISIntegrationHelper.h"
 #import "ISEventsReporting.h"
 #import "ISSupersonicAdsConfiguration.h"
+#import "ISSegment.h"
+#import "ISSegmentDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 #define IS_REWARDED_VIDEO @"rewardedvideo"
 #define IS_INTERSTITIAL @"interstitial"
 #define IS_OFFERWALL @"offerwall"
+#define IS_BANNER @"banner"
+
+typedef NS_ENUM(NSUInteger, ISBannerSize) {
+    IS_AD_SIZE_BANNER = 0,
+    IS_AD_SIZE_LARGE_BANNER = 1,
+    IS_AD_SIZE_RECTANGLE_BANNER = 2,
+    IS_AD_SIZE_TABLET_BANNER = 3
+
+};
 
 @interface IronSource : NSObject
 
@@ -64,14 +75,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)shouldTrackReachability:(BOOL)flag;
 
 /**
- @abstract Sets a mediation segment.
- @discussion This method is used only for IronSource's SDK, and will be passed as a custom param.
-
- @param segment A segment name, which should not exceed 64 characters.
- */
-+ (void)setMediationSegment:(NSString *)segment;
-
-/**
  @abstract Sets if IronSource SDK should allow ad networks debug logs.
  @discussion This value will be passed to the supporting ad networks.
 
@@ -100,6 +103,37 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)advertiserId;
 
+/**
+ @abstract Sets a mediation type.
+ @discussion This method is used only for IronSource's SDK, and will be passed as a custom param.
+ 
+ @param mediationType a mediation type name. Should be alphanumeric and between 1-64 chars in length.
+ */
++ (void)setMediationType:(NSString *)mediationType;
+
+/**
+ @abstract Sets a mediation segment.
+ @discussion This method is used only for IronSource's SDK, and will be passed as a custom param.
+ 
+ @param segment A segment name, which should not exceed 64 characters.
+ */
++ (void)setMediationSegment:(NSString *)segment;
+
+/**
+ @abstract Sets a segment.
+ @discussion This method is used to start a session with a spesific segment.
+ 
+ @param segment A segment object.
+ */
++ (void)setSegment:(ISSegment *)segment;
+
+/**
+ @abstract Sets the delegate for segment callback.
+ 
+ @param delegate The 'ISSegmentDelegate' for IronSource to send callbacks to.
+ */
++ (void)setSegmentDelegate:(id<ISSegmentDelegate>)delegate;
+
 #pragma mark - SDK Initialization
 
 /**
@@ -124,9 +158,9 @@ NS_ASSUME_NONNULL_BEGIN
  
  It is recommended to use predefined constansts:
  
- IS_REWARDED_VIDEO, IS_INTERSTITIAL, IS_OFFERWALL
+ IS_REWARDED_VIDEO, IS_INTERSTITIAL, IS_OFFERWALL, IS_BANNER
  
- e.g: [IronSource initWithAppKey:appKey adUnits:@[IS_REWARDED_VIDEO, IS_INTERSTITIAL, IS_OFFERWALL]];
+ e.g: [IronSource initWithAppKey:appKey adUnits:@[IS_REWARDED_VIDEO, IS_INTERSTITIAL, IS_OFFERWALL, IS_BANNER]];
 
  @param appKey Application key.
  @param adUnits An array of ad units to initialize.
@@ -272,6 +306,61 @@ NS_ASSUME_NONNULL_BEGIN
  @return YES if there is an available offerwall, NO otherwise.
  */
 + (BOOL)hasOfferwall;
+
+#pragma mark - Banner
+
+/**
+ @abstract Sets the delegate for banner callbacks.
+ 
+ @param delegate The 'ISBannerDelegate' for IronSource to send callbacks to.
+ */
++ (void)setBannerDelegate:(id<ISBannerDelegate>)delegate;
+
+/**
+ @abstract Loads a banner using the default placement.
+ @discussion This method will load banner ads of the requested size from the underlying ad networks according to their priority.
+ 
+ The size should contain ISBannerSize value that represent the required banner ad size:
+
+ IS_AD_SIZE_BANNER, IS_AD_SIZE_LARGE_BANNER, IS_AD_SIZE_RECTANGLE_BANNER
+ 
+ e.g: [IronSource loadBannerWithViewController:self size:IS_AD_SIZE_BANNER];
+ 
+ @param viewController The UIViewController to display the banner within.
+ @param size required banner ad size
+ */
++ (void)loadBannerWithViewController:(UIViewController *)viewController size:(ISBannerSize)size;
+
+/**
+ @abstract Loads a banner using the provided placement name.
+ @discussion This method will load banner ads of the requested size from the underlying ad networks according to their priority.
+ 
+ The size should contain ISBannerSize value that represent the required banner ad size:
+ 
+ IS_AD_SIZE_BANNER, IS_AD_SIZE_LARGE_BANNER, IS_AD_SIZE_RECTANGLE_BANNER
+ 
+ e.g: [IronSource loadBannerWithViewController:self size:IS_AD_SIZE_BANNER placement:"your_placement_name"];
+ 
+ @param viewController The UIViewController to display the banner within.
+ @param size required banner ad size
+ @param placementName The placement name as was defined in the platform. If nil is passed, a default placement will be used.
+ */
++ (void)loadBannerWithViewController:(UIViewController *)viewController size:(ISBannerSize)size placement:(nullable NSString *)placementName;
+
+/**
+ @abstract Removes the banner from memory.
+ @param banner The ISBannerView to remove.
+ */
++ (void)destroyBanner:(ISBannerView *)banner;
+
+/**
+ @abstract Verify if a certain placement has reached its ad limit.
+ @discussion This is to ensure you don’t try to load a banner when the placement has been capped or paced and thus will not serve the banner ad.
+ 
+ @param placementName The placement name as was defined in the platform.
+ @return YES if capped or paced, NO otherwise.
+ */
++ (BOOL)isBannerCappedForPlacement:(NSString *)placementName;
 
 #pragma mark - Logging
 
