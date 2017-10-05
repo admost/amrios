@@ -29,8 +29,6 @@
 
     [self startWithNavigationViewController];
     
-    /* DELETE BEFORE PUBLISH */
-    //Replace zone ids with your zone ids
     [AMRSDK startTestSuiteWithZones:@[@"b4009772-de04-42c4-bbaa-c18da9e4a1ab",
                                       @"39f74377-5682-436a-9338-9d1c4df410bd",
                                       @"2bdefd44-5269-4cbc-b93a-373b74a2f067"]];

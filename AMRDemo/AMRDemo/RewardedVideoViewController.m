@@ -29,9 +29,7 @@
     [_rewardedVideo loadRewardedVideo];
 }
 
-- (void)dealloc {
-    
-}
+- (void)dealloc {}
 
 #pragma mark - <AMRRewardedVideoDelegate>
 
@@ -55,10 +53,6 @@
 
 - (void)didCompleteRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
     KKLogInfo(@"Rewarded video completed");
-}
-
-- (void)didRewardUser:(NSNumber *)rewardAmount forRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
-    KKLogInfo(@"User rewarded with amount: %@", rewardAmount);
 }
 
 @end
