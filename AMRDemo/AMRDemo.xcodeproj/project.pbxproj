@@ -203,6 +203,7 @@
 		9EF6BDF41EA64E4400C83FF0 /* AMRAdmostSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF6BDF11EA64E4300C83FF0 /* AMRAdmostSDK.framework */; };
 		9EF6BDF51EA64E4400C83FF0 /* AMRResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EF6BDF21EA64E4300C83FF0 /* AMRResources.bundle */; };
 		9EF6BDF61EA64E4400C83FF0 /* AMRSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EF6BDF31EA64E4300C83FF0 /* AMRSDK.framework */; };
+		ED0CAEDE1F8CE9E1000670E1 /* starburst_white.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0CAEDD1F8CE9E1000670E1 /* starburst_white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -416,6 +417,7 @@
 		9EF6BDF11EA64E4300C83FF0 /* AMRAdmostSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMRAdmostSDK.framework; sourceTree = "<group>"; };
 		9EF6BDF21EA64E4300C83FF0 /* AMRResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMRResources.bundle; sourceTree = "<group>"; };
 		9EF6BDF31EA64E4300C83FF0 /* AMRSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMRSDK.framework; sourceTree = "<group>"; };
+		ED0CAEDD1F8CE9E1000670E1 /* starburst_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starburst_white.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -906,6 +908,7 @@
 		9EBBFB281F0A904F00C66469 /* AMRAdapterFlurryInclude */ = {
 			isa = PBXGroup;
 			children = (
+				ED0CAEDD1F8CE9E1000670E1 /* starburst_white.png */,
 				9E5B164A1F2B62BD0053D70E /* libFlurry_8.1.0.a */,
 				9E5B164B1F2B62BD0053D70E /* libFlurryAds_8.1.0.a */,
 			);
@@ -1359,6 +1362,7 @@
 				2F4517B61E76DDEC00069EAF /* random-grey-variations.png in Resources */,
 				2F7E6AC71E49BE6C00AA6F88 /* 2.jpg in Resources */,
 				2F23EFE71D6749BA00CAC0FF /* LaunchScreen.storyboard in Resources */,
+				ED0CAEDE1F8CE9E1000670E1 /* starburst_white.png in Resources */,
 				9EBBFBE41F0A905000C66469 /* MPPlayBtn.png in Resources */,
 				9EBBFC001F0A905000C66469 /* PNInterstitialAdViewController~ipad.xib in Resources */,
 				9EBBFBE01F0A905000C66469 /* MPDAAIcon@3x.png in Resources */,
