@@ -36,6 +36,29 @@
 + (void)startWithAppId:(NSString *)appId;
 
 /**
+ * Start AMRSDK with your application ID displayed on AMR Dashboard and use initNetworks bool value to control network initialization.
+ * Example usage:
+ * @code
+ * [AMRSDK startWithAppId:@"<appId>"];
+ * @endcode
+ * @see https://github.com/admost/AMR/blob/master/IOS_Integration/AMR2.0/README.md for more information.
+ * @param appId Your application ID.
+ * @param initNetworks Bool value to control network initialization
+ */
+
++ (void)startWithAppId:(NSString *)appId shouldInitNetworks:(BOOL)initNetworks;
+
+/**
+ * Init networks to start cacheing banners.
+ * Example usage:
+ * @code
+ * [AMRSDK initNetworks];
+ * @endcode
+ */
+
++ (void)initNetworks;
+
+/**
  * Set logging level of AMRSDK.
  * Default value is AMRLogLevelAll which logs everything.
  * Example usage:
@@ -91,6 +114,9 @@
 /// Check if the status bar is hidden
 + (BOOL)isStatusBarHidden;
 
+/// Check if the networks will initialize
++ (BOOL)isInitNetworks;
+
 /**
  * Set virtual currenct delegate for virtual currency events.
  * Virtual currency delegate must be set before using offerwalls.
@@ -106,10 +132,10 @@
 
 /**
  * Track purchase.
- * @param identifier Transaction identifier of SKPaymentTransactionState
+ * @param identifier Transaction identifier of SKPaymentTransaction
  * @param currencyCode Currency code of transaction
  * @param amount Amount of transaction
- * @param receipt Receipt of SKPaymentTransactionState
+ * @param receipt Receipt of SKPaymentTransaction
  */
 + (void)trackPurchase:(NSString *)identifier
          currencyCode:(NSString *)currencyCode
