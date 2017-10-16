@@ -605,8 +605,7 @@ rewardedVideo.delegate = self;
 <code class="language-objectivec">
 [AMRSDK trackPurchase:&lt;transactionId&gt;
 	     currencyCode:&lt;currencyCode&gt;
-               amount:&lt;amount&gt;
-               receipt:&lt;receipt&gt;];
+               amount:&lt;amount&gt;];
 					</code>
 				</pre>
 
@@ -617,8 +616,6 @@ rewardedVideo.delegate = self;
 					<li><b>currencyCode</b> – Currency code of transaction.
 					</li>
 					<li><b>amount</b> – Amount of transaction.
-					</li>
-					<li><b>receipt</b> – Receipt of SKPaymentTransaction.
 					</li>
 				</ul>
 
@@ -634,8 +631,7 @@ NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
 
 [AMRSDK trackPurchase:transaction.transactionIdentifier
          currencyCode:currencyCode
-               amount:[product.price doubleValue]
-              receipt:[NSData dataWithContentsOfURL:[[NSBundle mainBundle] appStoreReceiptURL]]];
+               amount:[product.price doubleValue]];
                     </code>
                 </pre>
 
@@ -649,6 +645,7 @@ NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
                         new features, etc.</p>
 
                     <ol class="toc">
+                        <li><a href="#v1.3.11">Version 1.3.11</a></li>
                         <li><a href="#v1.3.10">Version 1.3.10</a></li>
                     	<li><a href="#v1.3.9">Version 1.3.9</a></li>
                         <li><a href="#v1.3.8">Version 1.3.8</a></li>
@@ -662,6 +659,16 @@ NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
                 </header>
 
              <section id="versions">
+                <h3 id="v1.3.11">Version 1.3.11
+                        <small class="release-date">October 16, 2017</small>
+                    </h3>
+                    <br>
+                    <ul class="changelog">
+                        <li class="ch-updated">
+                            AMRSDK 1.3.11 &nbsp;&nbsp;<small>&nbsp;~ In App Purchase tracking updated.</small>
+                         </li>
+                    </ul>
+
                 <h3 id="v1.3.10">Version 1.3.10
                         <small class="release-date">October 12, 2017</small>
                     </h3>
@@ -676,10 +683,11 @@ NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
                     </h3>
                     <br>
                     <ul class="changelog">
-                        <li class="ch-updated">AMRSDK 1.3.9 </li>
+                        <li class="ch-updated">
+                            AMRSDK 1.3.9 &nbsp;&nbsp;<small>&nbsp;~ In App Purchase tracking added.</small>
+                        </li>
                         <li class="ch-updated">Flurry</li>
                         <li class="ch-updated">Charboost</li>
-                        <li class="ch-updated">IAP Tracking added.</li>                        
                     </ul>
                     
              	<h3 id="v1.3.8">Version 1.3.8

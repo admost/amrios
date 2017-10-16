@@ -131,16 +131,23 @@
 + (void)spendVirtualCurrency;
 
 /**
- * Track purchase.
- * @param identifier Transaction identifier of SKPaymentTransaction
- * @param currencyCode Currency code of transaction
- * @param amount Amount of transaction
- * @param receipt Receipt of SKPaymentTransaction
+ * @deprecated This method is deprecated starting in version x.x
+ * @note Please use @code trackPurchase:idientifier:currencyCode:amount @endcode instead.
  */
 + (void)trackPurchase:(NSString *)identifier
          currencyCode:(NSString *)currencyCode
                amount:(double)amount
-              receipt:(NSData *)receipt;
+              receipt:(NSData *)receipt __attribute__((deprecated));
+
+/**
+ * Track purchase.
+ * @param identifier Transaction identifier of SKPaymentTransaction
+ * @param currencyCode Currency code of transaction
+ * @param amount Amount of transaction
+ */
++ (void)trackPurchase:(NSString *)identifier
+         currencyCode:(NSString *)currencyCode
+               amount:(double)amount;
 
 /**
  * Start Test Suite
