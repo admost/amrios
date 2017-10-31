@@ -20,11 +20,6 @@
     // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 - (void)dealloc {
     [AMRSDK setVirtualCurrencyDelegate:nil];
 }
@@ -39,7 +34,12 @@
 - (void)didSpendVirtualCurrency:(NSString *)currency
                           amout:(NSNumber *)amount
                         network:(AMRNetworkType)network {
-    NSLog(@"Virtual Currency Spent: %@ - %@", amount, currency);
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Virtual Currency Spent"
+                                                                   message:[NSString stringWithFormat:@"%@ %@", amount, currency]
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
+    [alert addAction:cancel];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 @end
