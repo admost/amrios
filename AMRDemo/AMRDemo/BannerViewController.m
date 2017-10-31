@@ -34,22 +34,15 @@
     [self loadBanners];
 }
 
-- (void)dealloc {}
-
 #pragma mark - Load banners
 
 - (void)loadBanners {
 
     /*
      AMR TEST ZONES
-     2.0 Banner 50	native	b4009772-de04-42c4-bbaa-c18da9e4a1ab
-     2.0 Banner 90	native	8b72580f-c8ed-4080-aac0-004ecab65030
-     2.0 Banner 250	native	1b65e016-5b26-4ba0-aff5-b500a96d5157
-     native only 50 690beec9-26f2-402e-9123-0760376ce358
-
-     1.0 Banner 3b657ba6-a304-4c28-b419-a7fc55449bc9
-     1.0 Interstitial 8dc73abb-fc83-4354-b7b5-20bdcbd98984
-     1.0 Native 10217edf-9a99-4fd0-be0a-a0ef2252af15
+     50 height	b4009772-de04-42c4-bbaa-c18da9e4a1ab
+     90 height	8b72580f-c8ed-4080-aac0-004ecab65030
+     250 height 1b65e016-5b26-4ba0-aff5-b500a96d5157
      */
 
     _banner50 = [AMRBanner bannerForZoneId:@"b4009772-de04-42c4-bbaa-c18da9e4a1ab"];

@@ -20,6 +20,10 @@
 @property UIViewController *viewController;
 /// Width value of banner, default is screen width. 
 @property (nonatomic) CGFloat bannerWidth;
+/// Custom size for custom native ads
+@property (nonatomic) CGSize customNativeSize;
+/// Custom native ad xib name
+@property NSString *customeNativeXibName;
 
 /**
  * Create an instance of AMRBanner to show in your application.
