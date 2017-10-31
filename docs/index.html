@@ -428,6 +428,19 @@ mpuBanner.delegate = self;</code></pre>
 
                 <img class="img-responsive " src="assets/img/native_customization.png" alt="shadowed image">
 
+                <p>If you want to use your own layouts you can create a copy and modify one of the custom sized samples (CustomNative150x250.xib, CustomNative200x200.xib or CustomNative300x120.xib) and change their frame to fit your design. </p>
+
+  <img class="img-responsive " src="assets/img/custom_natives.png" alt="shadowed image">
+
+  <p>To use your own custom native xibs you have set the name and size of the custom xib explicitly as follows; </p>
+
+	<pre><code class="language-objectivec">
+_bannerCustom200x200 = [AMRBanner bannerForZoneId:@"c72a4a52-23c5-4c34-9eb1-7bbc4c08c7e4"];
+_bannerCustom200x200.delegate = self;
+_bannerCustom200x200.customNativeSize = CGSizeMake(200, 200);
+_bannerCustom200x200.customeNativeXibName = @"CustomNative200x200";
+[_bannerCustom200x200 loadBanner];		
+</code></pre>
 
                 <h3 id="interstitial-ads">Interstitial Ads</h3>
 
