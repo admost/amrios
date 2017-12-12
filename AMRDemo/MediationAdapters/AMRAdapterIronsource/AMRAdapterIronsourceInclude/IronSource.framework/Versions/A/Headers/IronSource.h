@@ -34,8 +34,8 @@ typedef NS_ENUM(NSUInteger, ISBannerSize) {
     IS_AD_SIZE_BANNER = 0,
     IS_AD_SIZE_LARGE_BANNER = 1,
     IS_AD_SIZE_RECTANGLE_BANNER = 2,
-    IS_AD_SIZE_TABLET_BANNER = 3
-
+    IS_AD_SIZE_TABLET_BANNER __deprecated_enum_msg("Use IS_AD_SIZE_LARGE_BANNER") = 3,
+    IS_AD_SIZE_SMART = 4
 };
 
 @interface IronSource : NSObject
@@ -90,7 +90,7 @@ typedef NS_ENUM(NSUInteger, ISBannerSize) {
  
  It helps verify AdRewarded transactions and must be set before calling showRewardedVideo.
 
- @param dynamicUserId Dynamic user identifier. Should be alphanumeric and between 1-64 chars in length.
+ @param dynamicUserId Dynamic user identifier. Should be between 1-128 chars in length.
  @return BOOL that indicates if the dynamic identifier is valid.
  */
 + (BOOL)setDynamicUserId:(NSString *)dynamicUserId;
@@ -215,6 +215,18 @@ typedef NS_ENUM(NSUInteger, ISBannerSize) {
  @return ISPlacementInfo representing the placement's information.
  */
 + (ISPlacementInfo *)rewardedVideoPlacementInfo:(NSString *)placementName;
+
+/**
+ @abstract Enables sending server side parameters on successful rewarded video
+ 
+ @param parameters A dictionary containing the parameters.
+ */
++ (void)setRewardedVideoServerParameters:(NSDictionary *)parameters;
+
+/**
+ @abstract Disables sending server side parameters on successful rewarded video
+  */
++ (void)clearRewardedVideoServerParameters;
 
 #pragma mark - Interstitial
 

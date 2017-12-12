@@ -148,7 +148,7 @@ typedef void (^networkCompletion)(BOOL success, NSError *error);
  * @param appDataVersion The application data version.
  * @return n/a
  */
-+ (void)setAppDataVersion:(NSString *)appDataVarsion;
++ (void)setAppDataVersion:(NSString *)appDataVarsion TJC_DEPRECATION_WARNING(11.11.1);
 
 /**
  * This method is called to set LaunchOptions.

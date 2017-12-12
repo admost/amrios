@@ -57,7 +57,7 @@
     _banner250.delegate = self;
     [_banner250 loadBanner];
 
-//     AMRAdmostSDK
+    //AMRAdmostSDK
 //    _admostLoader = [AMRAdmostLoader admostLoaderWithPBK:@"47759" customParameters:@{@"screen_name": @"BannerViewController"}];
 //    _admostLoader.delegate = self;
 //    [_admostLoader load];

@@ -17,6 +17,7 @@ typedef NS_ENUM(NSInteger, IMStatusCode) {
     kIMStatusCodeRequestInvalid,
     kIMStatusCodeRequestPending,
     kIMStatusCodeRequestTimedOut,
+    kIMStatusCodeMultipleLoadsOnSameInstance,
     kIMStatusCodeInternalError,
     kIMStatusCodeServerError,
     kIMStatusCodeAdActive,

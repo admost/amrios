@@ -9,16 +9,16 @@
 #import <UIKit/UIKit.h>
 
 typedef enum {
-    AVOBannerViewSizeSmall, // CGSizeMake(320,50)
-    AVOBannerViewSizeLarge  // CGSizeMake(728,90)
+    AVOBannerViewSizeSmall, // (320 x 50)
+    AVOBannerViewSizeLarge,  // (728 x 90)
+    AVOBannerViewSizeMREC // (300 x 250)
 } AVOBannerViewSize;
-
 
 
 @interface AVOBannerView : UIView
 
-@property (nonatomic, assign) CGSize adSize;
-@property (nonatomic, assign) BOOL autoUpdate;
+@property(nonatomic, assign) CGSize adSize;
+@property(nonatomic, assign) BOOL autoUpdate;
 
 /**
  *  Dismiss banner
@@ -36,7 +36,6 @@ typedef enum {
 - (void)resumeAutoUpdate;
 
 @end
-
 
 
 @interface AVOBannerView (EventRegistration)

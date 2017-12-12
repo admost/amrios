@@ -19,11 +19,26 @@
 /** Keywords relevant to this individual request, e.g. `["videotapes"]` */
 @property (nonatomic, copy, nullable) NSArray* keywords;
 
-
 /**
  * The impression group ID for sites that are enabled to group traffic in this way.
  */
 @property (nonatomic, copy, nullable) NSString* impressionGroup;
+
+/**
+ * Add custom targeting key value pairs.  These values are passed on each ad request.
+ *
+ * @param customTargetKey   The custom targeting key. (Null, empty string and white space only values will not be added to the request)
+ * @param customTargetValue The custom targeting value. (Null, empty string and white space only values will delete the key value pair)
+ */
+-(void)addCustomTargetingKey:(nullable NSString *)customTargetKey andValue:(nullable NSString *)customTargetValue;
+
+/**
+ * Get the custom target value assigned to the given key.
+ *
+ * @param customTargetKey The custom targeting key to be retrieved.
+ * @return The custom target value assigned to the provided key.
+ */
+-(nullable NSString *)getCustomTargetingValueForKey:(nullable NSString *)customTargetKey;
 
 @end
 

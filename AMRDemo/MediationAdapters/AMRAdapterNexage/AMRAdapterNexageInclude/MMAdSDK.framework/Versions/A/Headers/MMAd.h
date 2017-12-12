@@ -17,7 +17,7 @@
  */
 @interface MMAd : NSObject
 /**
- * Initializes a newly created ad.
+ * Initializes a newly created ad. This method must be invoked from the main thread.
  *
  * @param placementId The ID of the placement to be loaded.
  */
