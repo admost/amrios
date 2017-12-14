@@ -38,12 +38,26 @@
 + (instancetype)bannerForZoneId:(NSString *)zoneId;
 
 /**
- * Start banner loading request. Delegate must be set before loading a banner ad.
+ * Start asynchronous banner loading request. Delegate must be set before loading a banner ad.
  * Example usage:
  * @code
  * [banner loadBanner];
  * @endcode
  */
 - (void)loadBanner;
+
+/**
+ * Start synchronous banner loading request.
+ * Example usage:
+ * @code
+ * [_banner50 loadWithReceiveHandler:^(AMRBanner *banner) {
+ *     [self.view addSubview:banner.bannerView];
+ * } failHandler:^(AMRError *error) {
+ *     NSLog(@"Failed with error: %@", error.description);
+ * }];
+ * @endcode
+ */
+- (void)loadWithReceiveHandler:(void (^)(AMRBanner *banner))receive
+                   failHandler:(void (^)(AMRError *error))fail;
 
 @end

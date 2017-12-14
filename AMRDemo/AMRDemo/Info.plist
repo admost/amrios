@@ -33,6 +33,10 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Some ad content may access calendar</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Some ad content may access photos</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>aero.ttf</string>
@@ -43,15 +47,9 @@
 	<array>
 		<string>armv7</string>
 	</array>
-	<key>NSCalendarsUsageDescription</key>
-	<string>Some ad content may access calendar</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Some ad content may access photos</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>
