@@ -89,30 +89,6 @@
 		9E606ECB1FA74BC60012EB29 /* aero.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E606ECA1FA74BC60012EB29 /* aero.ttf */; };
 		9E8794571FE003B500D016E1 /* Revmob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E87939E1FE0034C00D016E1 /* Revmob.framework */; };
 		9E8794581FE003B500D016E1 /* libAMRAdapterRevmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E87939F1FE0034C00D016E1 /* libAMRAdapterRevmob.a */; };
-		9E8794591FE003B500D016E1 /* libAMRAdapterMopub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8793A11FE0035200D016E1 /* libAMRAdapterMopub.a */; };
-		9E87945A1FE003B500D016E1 /* MPUnmutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793A31FE0035200D016E1 /* MPUnmutedBtn.png */; };
-		9E87945B1FE003B500D016E1 /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793A41FE0035200D016E1 /* MRAID.bundle */; };
-		9E87945C1FE003B500D016E1 /* MPDAAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793A51FE0035200D016E1 /* MPDAAIcon.png */; };
-		9E87945D1FE003B500D016E1 /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793A61FE0035200D016E1 /* MPUnmutedBtn@3x.png */; };
-		9E87945E1FE003B500D016E1 /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793A71FE0035200D016E1 /* MPPlayBtn@2x.png */; };
-		9E87945F1FE003B500D016E1 /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793A81FE0035200D016E1 /* MPCloseBtn@2x.png */; };
-		9E8794601FE003B500D016E1 /* MPUBMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8793A91FE0035200D016E1 /* MPUBMoatMobileAppKit.framework */; };
-		9E8794611FE003B500D016E1 /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793AA1FE0035200D016E1 /* MPCloseBtn@3x.png */; };
-		9E8794621FE003B500D016E1 /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793AB1FE0035200D016E1 /* MPCloseBtn.png */; };
-		9E8794631FE003B500D016E1 /* MPPlayBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793AC1FE0035200D016E1 /* MPPlayBtn@3x.png */; };
-		9E8794641FE003B500D016E1 /* MPAdBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793AD1FE0035200D016E1 /* MPAdBrowserController.xib */; };
-		9E8794651FE003B500D016E1 /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793AE1FE0035200D016E1 /* MPUnmutedBtn@2x.png */; };
-		9E8794661FE003B500D016E1 /* MPCountdownTimer.html in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793AF1FE0035200D016E1 /* MPCountdownTimer.html */; };
-		9E8794671FE003B500D016E1 /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793B01FE0035200D016E1 /* MPCloseButtonX@2x.png */; };
-		9E8794681FE003B500D016E1 /* libAvid-mopub-3.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8793B11FE0035200D016E1 /* libAvid-mopub-3.6.1.a */; };
-		9E8794691FE003B500D016E1 /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793B21FE0035200D016E1 /* MPCloseButtonX@3x.png */; };
-		9E87946A1FE003B500D016E1 /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793B31FE0035200D016E1 /* MPCloseButtonX.png */; };
-		9E87946B1FE003B500D016E1 /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793B41FE0035200D016E1 /* MPDAAIcon@3x.png */; };
-		9E87946C1FE003B500D016E1 /* MPMutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793B51FE0035200D016E1 /* MPMutedBtn@3x.png */; };
-		9E87946D1FE003B500D016E1 /* MPPlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793B61FE0035200D016E1 /* MPPlayBtn.png */; };
-		9E87946E1FE003B500D016E1 /* MPMutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793B71FE0035200D016E1 /* MPMutedBtn.png */; };
-		9E87946F1FE003B500D016E1 /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793B81FE0035200D016E1 /* MPMutedBtn@2x.png */; };
-		9E8794701FE003B500D016E1 /* MPDAAIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793B91FE0035200D016E1 /* MPDAAIcon@2x.png */; };
 		9E8794711FE003B500D016E1 /* AMRAdapterAdmostResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E8793BC1FE0035700D016E1 /* AMRAdapterAdmostResources.bundle */; };
 		9E8794721FE003B500D016E1 /* libAMRAdapterAdmost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8793BD1FE0035700D016E1 /* libAMRAdapterAdmost.a */; };
 		9E8794731FE003B500D016E1 /* libAMRAdapterLeadbolt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8793BF1FE0035D00D016E1 /* libAMRAdapterLeadbolt.a */; };
@@ -215,6 +191,30 @@
 		9E8794D41FE003B500D016E1 /* libAMRAdapterStartapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8794531FE003B500D016E1 /* libAMRAdapterStartapp.a */; };
 		9E8794D51FE003B500D016E1 /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8794551FE003B500D016E1 /* StartApp.framework */; };
 		9E8794D61FE003B500D016E1 /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E8794561FE003B500D016E1 /* StartApp.bundle */; };
+		9EDA8C631FF4D40A00532510 /* libAMRAdapterMopub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDA8C4A1FF4D40900532510 /* libAMRAdapterMopub.a */; };
+		9EDA8C641FF4D40A00532510 /* MPUnmutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C4C1FF4D40900532510 /* MPUnmutedBtn.png */; };
+		9EDA8C651FF4D40A00532510 /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C4D1FF4D40900532510 /* MRAID.bundle */; };
+		9EDA8C661FF4D40A00532510 /* MPDAAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C4E1FF4D40900532510 /* MPDAAIcon.png */; };
+		9EDA8C671FF4D40A00532510 /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C4F1FF4D40900532510 /* MPUnmutedBtn@3x.png */; };
+		9EDA8C681FF4D40A00532510 /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C501FF4D40900532510 /* MPPlayBtn@2x.png */; };
+		9EDA8C691FF4D40A00532510 /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C511FF4D40900532510 /* MPCloseBtn@2x.png */; };
+		9EDA8C6A1FF4D40A00532510 /* MPUBMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDA8C521FF4D40900532510 /* MPUBMoatMobileAppKit.framework */; };
+		9EDA8C6B1FF4D40A00532510 /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C531FF4D40900532510 /* MPCloseBtn@3x.png */; };
+		9EDA8C6C1FF4D40A00532510 /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C541FF4D40900532510 /* MPCloseBtn.png */; };
+		9EDA8C6D1FF4D40A00532510 /* MPPlayBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C551FF4D40900532510 /* MPPlayBtn@3x.png */; };
+		9EDA8C6E1FF4D40A00532510 /* MPAdBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C561FF4D40900532510 /* MPAdBrowserController.xib */; };
+		9EDA8C6F1FF4D40A00532510 /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C571FF4D40900532510 /* MPUnmutedBtn@2x.png */; };
+		9EDA8C701FF4D40A00532510 /* MPCountdownTimer.html in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C581FF4D40900532510 /* MPCountdownTimer.html */; };
+		9EDA8C711FF4D40A00532510 /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C591FF4D40900532510 /* MPCloseButtonX@2x.png */; };
+		9EDA8C721FF4D40A00532510 /* libAvid-mopub-3.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EDA8C5A1FF4D40900532510 /* libAvid-mopub-3.6.1.a */; };
+		9EDA8C731FF4D40A00532510 /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C5B1FF4D40900532510 /* MPCloseButtonX@3x.png */; };
+		9EDA8C741FF4D40A00532510 /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C5C1FF4D40900532510 /* MPCloseButtonX.png */; };
+		9EDA8C751FF4D40A00532510 /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C5D1FF4D40900532510 /* MPDAAIcon@3x.png */; };
+		9EDA8C761FF4D40A00532510 /* MPMutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C5E1FF4D40900532510 /* MPMutedBtn@3x.png */; };
+		9EDA8C771FF4D40A00532510 /* MPPlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C5F1FF4D40900532510 /* MPPlayBtn.png */; };
+		9EDA8C781FF4D40A00532510 /* MPMutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C601FF4D40900532510 /* MPMutedBtn.png */; };
+		9EDA8C791FF4D40A00532510 /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C611FF4D40900532510 /* MPMutedBtn@2x.png */; };
+		9EDA8C7A1FF4D40A00532510 /* MPDAAIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA8C621FF4D40900532510 /* MPDAAIcon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -315,30 +315,6 @@
 		9E606ECA1FA74BC60012EB29 /* aero.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = aero.ttf; sourceTree = "<group>"; };
 		9E87939E1FE0034C00D016E1 /* Revmob.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Revmob.framework; sourceTree = "<group>"; };
 		9E87939F1FE0034C00D016E1 /* libAMRAdapterRevmob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterRevmob.a; sourceTree = "<group>"; };
-		9E8793A11FE0035200D016E1 /* libAMRAdapterMopub.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterMopub.a; sourceTree = "<group>"; };
-		9E8793A31FE0035200D016E1 /* MPUnmutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPUnmutedBtn.png; sourceTree = "<group>"; };
-		9E8793A41FE0035200D016E1 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
-		9E8793A51FE0035200D016E1 /* MPDAAIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPDAAIcon.png; sourceTree = "<group>"; };
-		9E8793A61FE0035200D016E1 /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@3x.png"; sourceTree = "<group>"; };
-		9E8793A71FE0035200D016E1 /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@2x.png"; sourceTree = "<group>"; };
-		9E8793A81FE0035200D016E1 /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@2x.png"; sourceTree = "<group>"; };
-		9E8793A91FE0035200D016E1 /* MPUBMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPUBMoatMobileAppKit.framework; sourceTree = "<group>"; };
-		9E8793AA1FE0035200D016E1 /* MPCloseBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@3x.png"; sourceTree = "<group>"; };
-		9E8793AB1FE0035200D016E1 /* MPCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseBtn.png; sourceTree = "<group>"; };
-		9E8793AC1FE0035200D016E1 /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@3x.png"; sourceTree = "<group>"; };
-		9E8793AD1FE0035200D016E1 /* MPAdBrowserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPAdBrowserController.xib; sourceTree = "<group>"; };
-		9E8793AE1FE0035200D016E1 /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@2x.png"; sourceTree = "<group>"; };
-		9E8793AF1FE0035200D016E1 /* MPCountdownTimer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MPCountdownTimer.html; sourceTree = "<group>"; };
-		9E8793B01FE0035200D016E1 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
-		9E8793B11FE0035200D016E1 /* libAvid-mopub-3.6.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAvid-mopub-3.6.1.a"; sourceTree = "<group>"; };
-		9E8793B21FE0035200D016E1 /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
-		9E8793B31FE0035200D016E1 /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
-		9E8793B41FE0035200D016E1 /* MPDAAIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@3x.png"; sourceTree = "<group>"; };
-		9E8793B51FE0035200D016E1 /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@3x.png"; sourceTree = "<group>"; };
-		9E8793B61FE0035200D016E1 /* MPPlayBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPPlayBtn.png; sourceTree = "<group>"; };
-		9E8793B71FE0035200D016E1 /* MPMutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPMutedBtn.png; sourceTree = "<group>"; };
-		9E8793B81FE0035200D016E1 /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@2x.png"; sourceTree = "<group>"; };
-		9E8793B91FE0035200D016E1 /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@2x.png"; sourceTree = "<group>"; };
 		9E8793BC1FE0035700D016E1 /* AMRAdapterAdmostResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMRAdapterAdmostResources.bundle; sourceTree = "<group>"; };
 		9E8793BD1FE0035700D016E1 /* libAMRAdapterAdmost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAdmost.a; sourceTree = "<group>"; };
 		9E8793BF1FE0035D00D016E1 /* libAMRAdapterLeadbolt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterLeadbolt.a; sourceTree = "<group>"; };
@@ -441,6 +417,30 @@
 		9E8794531FE003B500D016E1 /* libAMRAdapterStartapp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterStartapp.a; sourceTree = "<group>"; };
 		9E8794551FE003B500D016E1 /* StartApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StartApp.framework; sourceTree = "<group>"; };
 		9E8794561FE003B500D016E1 /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
+		9EDA8C4A1FF4D40900532510 /* libAMRAdapterMopub.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterMopub.a; sourceTree = "<group>"; };
+		9EDA8C4C1FF4D40900532510 /* MPUnmutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPUnmutedBtn.png; sourceTree = "<group>"; };
+		9EDA8C4D1FF4D40900532510 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
+		9EDA8C4E1FF4D40900532510 /* MPDAAIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPDAAIcon.png; sourceTree = "<group>"; };
+		9EDA8C4F1FF4D40900532510 /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@3x.png"; sourceTree = "<group>"; };
+		9EDA8C501FF4D40900532510 /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@2x.png"; sourceTree = "<group>"; };
+		9EDA8C511FF4D40900532510 /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@2x.png"; sourceTree = "<group>"; };
+		9EDA8C521FF4D40900532510 /* MPUBMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPUBMoatMobileAppKit.framework; sourceTree = "<group>"; };
+		9EDA8C531FF4D40900532510 /* MPCloseBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@3x.png"; sourceTree = "<group>"; };
+		9EDA8C541FF4D40900532510 /* MPCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseBtn.png; sourceTree = "<group>"; };
+		9EDA8C551FF4D40900532510 /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@3x.png"; sourceTree = "<group>"; };
+		9EDA8C561FF4D40900532510 /* MPAdBrowserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPAdBrowserController.xib; sourceTree = "<group>"; };
+		9EDA8C571FF4D40900532510 /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@2x.png"; sourceTree = "<group>"; };
+		9EDA8C581FF4D40900532510 /* MPCountdownTimer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MPCountdownTimer.html; sourceTree = "<group>"; };
+		9EDA8C591FF4D40900532510 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
+		9EDA8C5A1FF4D40900532510 /* libAvid-mopub-3.6.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAvid-mopub-3.6.1.a"; sourceTree = "<group>"; };
+		9EDA8C5B1FF4D40900532510 /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
+		9EDA8C5C1FF4D40900532510 /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
+		9EDA8C5D1FF4D40900532510 /* MPDAAIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@3x.png"; sourceTree = "<group>"; };
+		9EDA8C5E1FF4D40900532510 /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@3x.png"; sourceTree = "<group>"; };
+		9EDA8C5F1FF4D40900532510 /* MPPlayBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPPlayBtn.png; sourceTree = "<group>"; };
+		9EDA8C601FF4D40900532510 /* MPMutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPMutedBtn.png; sourceTree = "<group>"; };
+		9EDA8C611FF4D40900532510 /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@2x.png"; sourceTree = "<group>"; };
+		9EDA8C621FF4D40900532510 /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -453,7 +453,6 @@
 				9E8794BE1FE003B500D016E1 /* Mraid.framework in Frameworks */,
 				2F90A1A11EAF6424002F8B8A /* libxml2.tbd in Frameworks */,
 				9E8794801FE003B500D016E1 /* AdColony.framework in Frameworks */,
-				9E8794601FE003B500D016E1 /* MPUBMoatMobileAppKit.framework in Frameworks */,
 				9E8794C31FE003B500D016E1 /* AvocarrotNativeAssets.framework in Frameworks */,
 				2F9565351DD357DA006C6F42 /* Twitter.framework in Frameworks */,
 				9E8794CD1FE003B500D016E1 /* AppLovinSDK.framework in Frameworks */,
@@ -475,16 +474,18 @@
 				9E8794D11FE003B500D016E1 /* libAppnextNativeAdsSDK.a in Frameworks */,
 				9E8794C41FE003B500D016E1 /* libAMRAdapterIronsource.a in Frameworks */,
 				9E8794B91FE003B500D016E1 /* libAMRAdapterFyber.a in Frameworks */,
+				9EDA8C721FF4D40A00532510 /* libAvid-mopub-3.6.1.a in Frameworks */,
 				9E8794C71FE003B500D016E1 /* Chartboost.framework in Frameworks */,
 				2FDE73801D99B784004E9EA1 /* SafariServices.framework in Frameworks */,
 				9E8794581FE003B500D016E1 /* libAMRAdapterRevmob.a in Frameworks */,
-				9E8794681FE003B500D016E1 /* libAvid-mopub-3.6.1.a in Frameworks */,
 				9E47FA941F8F97D8008AD3D0 /* AMRAdmostSDK.framework in Frameworks */,
+				9EDA8C631FF4D40A00532510 /* libAMRAdapterMopub.a in Frameworks */,
 				2FDE737E1D99B77E004E9EA1 /* JavaScriptCore.framework in Frameworks */,
 				9E8794951FE003B500D016E1 /* libAMRAdapterTapjoy.a in Frameworks */,
 				2F0878801D9481E6003A208A /* QuartzCore.framework in Frameworks */,
 				9E8794BA1FE003B500D016E1 /* libAMRAdapterAvocarrot.a in Frameworks */,
 				9E87947A1FE003B500D016E1 /* iSoma.framework in Frameworks */,
+				9EDA8C6A1FF4D40A00532510 /* MPUBMoatMobileAppKit.framework in Frameworks */,
 				2FC525201D927B5E0095306E /* StoreKit.framework in Frameworks */,
 				9E8794CA1FE003B500D016E1 /* MobFoxSDKCore.framework in Frameworks */,
 				9E8794D01FE003B500D016E1 /* libAppnextSDKCore.a in Frameworks */,
@@ -537,7 +538,6 @@
 				9E8794571FE003B500D016E1 /* Revmob.framework in Frameworks */,
 				9E8794841FE003B500D016E1 /* libFlurry_8.3.4.a in Frameworks */,
 				2FC525241D927B6A0095306E /* CoreLocation.framework in Frameworks */,
-				9E8794591FE003B500D016E1 /* libAMRAdapterMopub.a in Frameworks */,
 				9E8794741FE003B500D016E1 /* AppTracker.framework in Frameworks */,
 				9E8794871FE003B500D016E1 /* libAMRAdapterFlurry.a in Frameworks */,
 				9E8794891FE003B500D016E1 /* libAMRAdapterAmazon.a in Frameworks */,
@@ -747,7 +747,7 @@
 				9E8793F61FE0039900D016E1 /* AMRAdapterLoopme */,
 				9E8794401FE003AE00D016E1 /* AMRAdapterMobfox */,
 				9E8793EE1FE0039200D016E1 /* AMRAdapterMobusi */,
-				9E8793A01FE0035200D016E1 /* AMRAdapterMopub */,
+				9EDA8C491FF4D40900532510 /* AMRAdapterMopub */,
 				9E8793EA1FE0038F00D016E1 /* AMRAdapterNativex */,
 				9E8793D01FE0037700D016E1 /* AMRAdapterNexage */,
 				9E8794001FE0039F00D016E1 /* AMRAdapterPubNative */,
@@ -786,45 +786,6 @@
 				9E87939E1FE0034C00D016E1 /* Revmob.framework */,
 			);
 			path = AMRAdapterRevmobInclude;
-			sourceTree = "<group>";
-		};
-		9E8793A01FE0035200D016E1 /* AMRAdapterMopub */ = {
-			isa = PBXGroup;
-			children = (
-				9E8793A11FE0035200D016E1 /* libAMRAdapterMopub.a */,
-				9E8793A21FE0035200D016E1 /* AMRAdapterMopubInclude */,
-			);
-			path = AMRAdapterMopub;
-			sourceTree = "<group>";
-		};
-		9E8793A21FE0035200D016E1 /* AMRAdapterMopubInclude */ = {
-			isa = PBXGroup;
-			children = (
-				9E8793A31FE0035200D016E1 /* MPUnmutedBtn.png */,
-				9E8793A41FE0035200D016E1 /* MRAID.bundle */,
-				9E8793A51FE0035200D016E1 /* MPDAAIcon.png */,
-				9E8793A61FE0035200D016E1 /* MPUnmutedBtn@3x.png */,
-				9E8793A71FE0035200D016E1 /* MPPlayBtn@2x.png */,
-				9E8793A81FE0035200D016E1 /* MPCloseBtn@2x.png */,
-				9E8793A91FE0035200D016E1 /* MPUBMoatMobileAppKit.framework */,
-				9E8793AA1FE0035200D016E1 /* MPCloseBtn@3x.png */,
-				9E8793AB1FE0035200D016E1 /* MPCloseBtn.png */,
-				9E8793AC1FE0035200D016E1 /* MPPlayBtn@3x.png */,
-				9E8793AD1FE0035200D016E1 /* MPAdBrowserController.xib */,
-				9E8793AE1FE0035200D016E1 /* MPUnmutedBtn@2x.png */,
-				9E8793AF1FE0035200D016E1 /* MPCountdownTimer.html */,
-				9E8793B01FE0035200D016E1 /* MPCloseButtonX@2x.png */,
-				9E8793B11FE0035200D016E1 /* libAvid-mopub-3.6.1.a */,
-				9E8793B21FE0035200D016E1 /* MPCloseButtonX@3x.png */,
-				9E8793B31FE0035200D016E1 /* MPCloseButtonX.png */,
-				9E8793B41FE0035200D016E1 /* MPDAAIcon@3x.png */,
-				9E8793B51FE0035200D016E1 /* MPMutedBtn@3x.png */,
-				9E8793B61FE0035200D016E1 /* MPPlayBtn.png */,
-				9E8793B71FE0035200D016E1 /* MPMutedBtn.png */,
-				9E8793B81FE0035200D016E1 /* MPMutedBtn@2x.png */,
-				9E8793B91FE0035200D016E1 /* MPDAAIcon@2x.png */,
-			);
-			path = AMRAdapterMopubInclude;
 			sourceTree = "<group>";
 		};
 		9E8793BA1FE0035700D016E1 /* AMRAdapterAdmost */ = {
@@ -1341,6 +1302,45 @@
 			path = AMRAdapterStartappInclude;
 			sourceTree = "<group>";
 		};
+		9EDA8C491FF4D40900532510 /* AMRAdapterMopub */ = {
+			isa = PBXGroup;
+			children = (
+				9EDA8C4A1FF4D40900532510 /* libAMRAdapterMopub.a */,
+				9EDA8C4B1FF4D40900532510 /* AMRAdapterMopubInclude */,
+			);
+			path = AMRAdapterMopub;
+			sourceTree = "<group>";
+		};
+		9EDA8C4B1FF4D40900532510 /* AMRAdapterMopubInclude */ = {
+			isa = PBXGroup;
+			children = (
+				9EDA8C4C1FF4D40900532510 /* MPUnmutedBtn.png */,
+				9EDA8C4D1FF4D40900532510 /* MRAID.bundle */,
+				9EDA8C4E1FF4D40900532510 /* MPDAAIcon.png */,
+				9EDA8C4F1FF4D40900532510 /* MPUnmutedBtn@3x.png */,
+				9EDA8C501FF4D40900532510 /* MPPlayBtn@2x.png */,
+				9EDA8C511FF4D40900532510 /* MPCloseBtn@2x.png */,
+				9EDA8C521FF4D40900532510 /* MPUBMoatMobileAppKit.framework */,
+				9EDA8C531FF4D40900532510 /* MPCloseBtn@3x.png */,
+				9EDA8C541FF4D40900532510 /* MPCloseBtn.png */,
+				9EDA8C551FF4D40900532510 /* MPPlayBtn@3x.png */,
+				9EDA8C561FF4D40900532510 /* MPAdBrowserController.xib */,
+				9EDA8C571FF4D40900532510 /* MPUnmutedBtn@2x.png */,
+				9EDA8C581FF4D40900532510 /* MPCountdownTimer.html */,
+				9EDA8C591FF4D40900532510 /* MPCloseButtonX@2x.png */,
+				9EDA8C5A1FF4D40900532510 /* libAvid-mopub-3.6.1.a */,
+				9EDA8C5B1FF4D40900532510 /* MPCloseButtonX@3x.png */,
+				9EDA8C5C1FF4D40900532510 /* MPCloseButtonX.png */,
+				9EDA8C5D1FF4D40900532510 /* MPDAAIcon@3x.png */,
+				9EDA8C5E1FF4D40900532510 /* MPMutedBtn@3x.png */,
+				9EDA8C5F1FF4D40900532510 /* MPPlayBtn.png */,
+				9EDA8C601FF4D40900532510 /* MPMutedBtn.png */,
+				9EDA8C611FF4D40900532510 /* MPMutedBtn@2x.png */,
+				9EDA8C621FF4D40900532510 /* MPDAAIcon@2x.png */,
+			);
+			path = AMRAdapterMopubInclude;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1400,33 +1400,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EDA8C7A1FF4D40A00532510 /* MPDAAIcon@2x.png in Resources */,
 				9E8794A41FE003B500D016E1 /* PnFullScreen@2x.png in Resources */,
+				9EDA8C641FF4D40A00532510 /* MPUnmutedBtn.png in Resources */,
 				9E8794711FE003B500D016E1 /* AMRAdapterAdmostResources.bundle in Resources */,
 				2F7E6ACD1E49BE6C00AA6F88 /* 8.jpg in Resources */,
 				9E8794A91FE003B500D016E1 /* PnClose@2x.png in Resources */,
-				9E87945B1FE003B500D016E1 /* MRAID.bundle in Resources */,
 				2F7E6AC31E49BE6C00AA6F88 /* 16.jpg in Resources */,
+				9EDA8C741FF4D40A00532510 /* MPCloseButtonX.png in Resources */,
+				9EDA8C661FF4D40A00532510 /* MPDAAIcon.png in Resources */,
 				2FAF0C051FA770A7006B6B15 /* CustomNative200x200.xib in Resources */,
 				9E8794991FE003B500D016E1 /* PNGameListTableViewCell.xib in Resources */,
 				9E8794B51FE003B500D016E1 /* FYBBackIcon@2x.png in Resources */,
-				9E8794701FE003B500D016E1 /* MPDAAIcon@2x.png in Resources */,
-				9E8794641FE003B500D016E1 /* MPAdBrowserController.xib in Resources */,
-				9E87946E1FE003B500D016E1 /* MPMutedBtn.png in Resources */,
 				9E8794AD1FE003B500D016E1 /* PNInterstitialAdViewController~iphone.xib in Resources */,
 				2FAF0C091FA8581B006B6B15 /* CustomNative300x120.xib in Resources */,
 				2F7E6AC11E49BE6C00AA6F88 /* 14.jpg in Resources */,
 				2F4517BE1E77E67700069EAF /* AMRNativeAdBaseView50.xib in Resources */,
+				9EDA8C761FF4D40A00532510 /* MPMutedBtn@3x.png in Resources */,
 				9E8794A31FE003B500D016E1 /* PNLogoGrey@2x.png in Resources */,
 				2F7E6ACE1E49BE6C00AA6F88 /* 9.jpg in Resources */,
-				9E8794631FE003B500D016E1 /* MPPlayBtn@3x.png in Resources */,
 				2F7E6ABE1E49BE6C00AA6F88 /* 11.jpg in Resources */,
 				9E8794B21FE003B500D016E1 /* PnMute.png in Resources */,
+				9EDA8C6B1FF4D40A00532510 /* MPCloseBtn@3x.png in Resources */,
 				9E47FA951F8F97D8008AD3D0 /* AMRResources.bundle in Resources */,
-				9E87945D1FE003B500D016E1 /* MPUnmutedBtn@3x.png in Resources */,
 				9E8794B61FE003B500D016E1 /* UnstartedBundleIcon.png in Resources */,
+				9EDA8C671FF4D40A00532510 /* MPUnmutedBtn@3x.png in Resources */,
 				2F7E6ACA1E49BE6C00AA6F88 /* 5.jpg in Resources */,
 				2F7E6ABB1E49BE6C00AA6F88 /* 0.jpg in Resources */,
+				9EDA8C651FF4D40A00532510 /* MRAID.bundle in Resources */,
+				9EDA8C6D1FF4D40A00532510 /* MPPlayBtn@3x.png in Resources */,
 				9E8794A61FE003B500D016E1 /* PnFullScreen.png in Resources */,
+				9EDA8C771FF4D40A00532510 /* MPPlayBtn.png in Resources */,
+				9EDA8C691FF4D40A00532510 /* MPCloseBtn@2x.png in Resources */,
 				9E87949C1FE003B500D016E1 /* PNIconViewController.xib in Resources */,
 				2F7E6ABC1E49BE6C00AA6F88 /* 1.jpg in Resources */,
 				2F4517AE1E76D5EF00069EAF /* AMRNativeAdBaseView250.xib in Resources */,
@@ -1439,60 +1444,55 @@
 				9E87949B1FE003B500D016E1 /* PNVideoPlayerView.xib in Resources */,
 				2FAF0C081FA8581B006B6B15 /* CustomNative150x250.xib in Resources */,
 				9E8794A81FE003B500D016E1 /* PNInterstitialAdViewController~ipad.xib in Resources */,
+				9EDA8C781FF4D40A00532510 /* MPMutedBtn.png in Resources */,
 				2F4517B61E76DDEC00069EAF /* random-grey-variations.png in Resources */,
 				9E8794B41FE003B500D016E1 /* StartedBundleIcon.png in Resources */,
 				9E8794D61FE003B500D016E1 /* StartApp.bundle in Resources */,
 				9E8794B11FE003B500D016E1 /* PNCarouselContainerView.xib in Resources */,
 				9E606ECB1FA74BC60012EB29 /* aero.ttf in Resources */,
-				9E87946B1FE003B500D016E1 /* MPDAAIcon@3x.png in Resources */,
+				9EDA8C751FF4D40A00532510 /* MPDAAIcon@3x.png in Resources */,
 				9E87949D1FE003B500D016E1 /* PNGameListAdViewController.xib in Resources */,
 				9E87949F1FE003B500D016E1 /* PNVideoInterstitialViewController.xib in Resources */,
 				9E8794851FE003B500D016E1 /* starburst_white.png in Resources */,
-				9E87946D1FE003B500D016E1 /* MPPlayBtn.png in Resources */,
-				9E8794691FE003B500D016E1 /* MPCloseButtonX@3x.png in Resources */,
 				9E87949E1FE003B500D016E1 /* PNCloseIcon.png in Resources */,
-				9E87945A1FE003B500D016E1 /* MPUnmutedBtn.png in Resources */,
-				9E87945F1FE003B500D016E1 /* MPCloseBtn@2x.png in Resources */,
 				2F7E6AC71E49BE6C00AA6F88 /* 2.jpg in Resources */,
-				9E87945E1FE003B500D016E1 /* MPPlayBtn@2x.png in Resources */,
 				9E8794A71FE003B500D016E1 /* PnUnMute.png in Resources */,
 				2F23EFE71D6749BA00CAC0FF /* LaunchScreen.storyboard in Resources */,
 				2F7E6AC21E49BE6C00AA6F88 /* 15.jpg in Resources */,
 				9E8794911FE003B500D016E1 /* LoopMeResources.bundle in Resources */,
+				9EDA8C681FF4D40A00532510 /* MPPlayBtn@2x.png in Resources */,
 				2F7E6AD11E49BEDD00AA6F88 /* news.json in Resources */,
 				2F7E6AC01E49BE6C00AA6F88 /* 13.jpg in Resources */,
+				9EDA8C6C1FF4D40A00532510 /* MPCloseBtn.png in Resources */,
 				2F4517B41E76DDEC00069EAF /* amr-adchoices.png in Resources */,
-				9E87946A1FE003B500D016E1 /* MPCloseButtonX.png in Resources */,
 				9E8794971FE003B500D016E1 /* PNCarouselCollectionViewCell.xib in Resources */,
 				2F4517B51E76DDEC00069EAF /* native_int_close.png in Resources */,
 				9E87949A1FE003B500D016E1 /* PNLogoGrey.png in Resources */,
-				9E87945C1FE003B500D016E1 /* MPDAAIcon.png in Resources */,
 				2F7E6AC91E49BE6C00AA6F88 /* 4.jpg in Resources */,
 				9E8794B71FE003B500D016E1 /* FYBIntegrationAnalyzerViewController.xib in Resources */,
 				2FAF0C0E1FA8898F006B6B15 /* Assets.xcassets in Resources */,
 				9E8794981FE003B500D016E1 /* PNCloseIcon@2x.png in Resources */,
-				9E8794611FE003B500D016E1 /* MPCloseBtn@3x.png in Resources */,
 				2F4517AF1E76D5EF00069EAF /* AMRNativeAdBaseViewInterstitial.xib in Resources */,
+				9EDA8C6F1FF4D40A00532510 /* MPUnmutedBtn@2x.png in Resources */,
 				2F7E6ACB1E49BE6C00AA6F88 /* 6.jpg in Resources */,
 				2F4517B01E76D5EF00069EAF /* AMRNativeAdBaseViewInterstitialLandscape.xib in Resources */,
-				9E87946F1FE003B500D016E1 /* MPMutedBtn@2x.png in Resources */,
 				9E8794A21FE003B500D016E1 /* PNCarouselCollectionViewCell-landscape.xib in Resources */,
 				2F7E6AC61E49BE6C00AA6F88 /* 19.jpg in Resources */,
 				9E8794AA1FE003B500D016E1 /* PNVideoBannerViewController.xib in Resources */,
+				9EDA8C791FF4D40A00532510 /* MPMutedBtn@2x.png in Resources */,
 				9E8794AE1FE003B500D016E1 /* PnClose.png in Resources */,
 				9E8794A01FE003B500D016E1 /* PNNativeTableViewCell.xib in Resources */,
-				9E8794671FE003B500D016E1 /* MPCloseButtonX@2x.png in Resources */,
 				2F7E6AC51E49BE6C00AA6F88 /* 18.jpg in Resources */,
+				9EDA8C731FF4D40A00532510 /* MPCloseButtonX@3x.png in Resources */,
 				2F7E6ABF1E49BE6C00AA6F88 /* 12.jpg in Resources */,
-				9E8794621FE003B500D016E1 /* MPCloseBtn.png in Resources */,
-				9E8794651FE003B500D016E1 /* MPUnmutedBtn@2x.png in Resources */,
 				9E8794AF1FE003B500D016E1 /* PNVersion.plist in Resources */,
 				9E8794941FE003B500D016E1 /* TapjoyResources.bundle in Resources */,
+				9EDA8C701FF4D40A00532510 /* MPCountdownTimer.html in Resources */,
 				9E8794AC1FE003B500D016E1 /* PNBannerViewController.xib in Resources */,
 				2F4517AD1E76D5EF00069EAF /* AMRNativeAdBaseView90.xib in Resources */,
+				9EDA8C6E1FF4D40A00532510 /* MPAdBrowserController.xib in Resources */,
+				9EDA8C711FF4D40A00532510 /* MPCloseButtonX@2x.png in Resources */,
 				9E8794A51FE003B500D016E1 /* PnMute@2x.png in Resources */,
-				9E8794661FE003B500D016E1 /* MPCountdownTimer.html in Resources */,
-				9E87946C1FE003B500D016E1 /* MPMutedBtn@3x.png in Resources */,
 				2F7E6ABD1E49BE6C00AA6F88 /* 10.jpg in Resources */,
 				2F7E6AC41E49BE6C00AA6F88 /* 17.jpg in Resources */,
 				2F6E42961DA292F2003572E4 /* GoogleService-Info.plist in Resources */,
