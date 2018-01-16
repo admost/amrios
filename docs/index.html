@@ -123,6 +123,7 @@
                         <li><a href="#dfp">DFP/Admob Mediation Integration</a></li>
                         <li><a href="#testsuite">Test Suite</a></li>
                         <li><a href="#iap">In App Purchase Tracking</a></li>
+                        <li><a href="#bannercache">Preloading Banners</a></li>
                     </ul>
                 </li>
                 <li><a href="#release-notes">Release Notes</a>
@@ -656,7 +657,7 @@ NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
                 <p>In order to cache banners use following code;</p>
 
                 <pre><code class="language-objectivec">
-AMRBanner* banner = [AMRBanner bannerForZoneId:@"&quot;&lt;zoneId&gt;&quot;"];
+AMRBanner* banner = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
 [banner cacheBanner];
                 </code></pre>
             </section>
