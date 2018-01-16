@@ -166,6 +166,16 @@ __deprecated_msg("Placements have been deprecated and will be removed in a futur
 - (instancetype)initWithZoneIdentifier:(NSString *)zoneIdentifier;
 
 /**
+ * Initialize an incentivized interstitial with a zone and a specific custom SDK.
+ *
+ * This is necessary if you use <code>[ALSdk sharedWithKey: ...]</code>.
+ *
+ * @param zoneIdentifier The identifier of the zone for which to load ads for.
+ * @param sdk            An SDK instance to use.
+ */
+- (instancetype)initWithZoneIdentifier:(NSString *)zoneIdentifier sdk:(ALSdk *)sdk;
+
+/**
  *  The zone identifier this incentivized ad was initialized with and is loading ads for, if any.
  */
 @property (copy, nonatomic, readonly, alnullable) NSString *zoneIdentifier;

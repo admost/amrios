@@ -60,4 +60,7 @@
 - (void)loadWithReceiveHandler:(void (^)(AMRBanner *banner))receive
                    failHandler:(void (^)(AMRError *error))fail;
 
+// start caching banner
+- (void)cacheBanner;
+
 @end

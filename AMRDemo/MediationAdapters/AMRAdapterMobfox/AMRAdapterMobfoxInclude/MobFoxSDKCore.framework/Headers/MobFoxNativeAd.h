@@ -50,6 +50,7 @@
     @property (nonatomic, strong) NSString* invh;
     @property (nonatomic, strong) NSString* serverURL;
 
+
     // new properties (required for 1.1)
     //@property (nonatomic, strong) NSString* i_ipaddress;
 
@@ -57,7 +58,6 @@
     - (id) init:(NSString*)invh;
     - (void) loadAd;
     - (void) registerViewWithInteraction:(UIView *)view withViewController:(UIViewController *)viewController;
-    + (void) locationServicesDisabled:(BOOL)disabled;
 
     //- (void)MFNativeCustomEventAd:(MobFoxNativeCustomEvent *)event didLoad:(NSDictionary *)ad;
     //- (void)MFNativeCustomEventAdDidFailToReceiveAdWithError:(NSError *)error;

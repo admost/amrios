@@ -10,7 +10,9 @@
 #define _Bridging_Header_h
 
 #import "MobFoxAd.h"
+#import "MobFoxTagAd.h"
 #import "MobFoxInterstitialAd.h"
+#import "MobFoxTagInterstitialAd.h"
 #import "MobFoxNativeAd.h"
 #import "MobFoxCustomEvent.h"
 #import "MobFoxInterstitialCustomEvent.h"

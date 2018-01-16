@@ -287,9 +287,9 @@ RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
                                 <li class="is-folder">AMRAdapterInloco
                                 <li class="is-folder">AMRAdapterInmobi
                                 <li class="is-folder">AMRAdapterIronsource
-                                <li class="is-folder">AMRAdapterLeadbolt
-                                <li class="is-folder">AMRAdapterLoopme
-                                <li class="is-folder">AMRAdapterMobfox
+                                <li class="is-folder">AMRAdapterLeadbolt &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small>
+                                <li class="is-folder">AMRAdapterLoopme &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small>
+                                <li class="is-folder">AMRAdapterMobfox &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small>
                                 <li class="is-folder">AMRAdapterMobusi
                                 <li class="is-folder">AMRAdapterMopub
                                 <li class="is-folder">AMRAdapterNativex
@@ -647,6 +647,18 @@ NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
                     </code>
                 </pre>
 
+                <h3 id="bannercache">Preloading Banners</h3>
+
+                <p>
+                    You can use <code>cacheBanner</code> method to cache your banners before showing them.
+                </p>
+
+                <p>In order to cache banners use following code;</p>
+
+                <pre><code class="language-objectivec">
+AMRBanner* banner = [AMRBanner bannerForZoneId:@"&quot;&lt;zoneId&gt;&quot;"];
+[banner cacheBanner];
+                </code></pre>
             </section>
 
             <section>
@@ -657,6 +669,7 @@ NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
                         new features, etc.</p>
 
                     <ol class="toc">
+                        <li><a href="#v1.3.26">Version 1.3.26</a></li>
                         <li><a href="#v1.3.21">Version 1.3.21</a></li>
                         <li><a href="#v1.3.19">Version 1.3.19</a></li>
                         <li><a href="#v1.3.18">Version 1.3.18</a></li>
@@ -676,6 +689,25 @@ NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
                 </header>
 
              <section id="versions">
+                <h3 id="v1.3.26">Version 1.3.26
+                    <small class="release-date">January 16, 2018</small>
+                </h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">AMRSDK 1.3.26 </li>
+                    <li class="ch-updated">Admob 7.27.0.0 </li>
+                    <li class="ch-updated">Applovin 4.7.0.0 </li>
+                    <li class="ch-updated">DFP Adapter 7.27.0.0</li>
+                    <li class="ch-updated">Facebook 4.27.2.0 </li>
+                    <li class="ch-updated">Fyber 8.19.0.0 </li>
+                    <li class="ch-updated">Leadbolt 8.2.0.0 &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small></li>
+                    <li class="ch-updated">Loopme 6.4.5.0 &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small></li></li>
+                    <li class="ch-updated">Mobfox 3.3.0.0 &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small></li></li>
+                    <li class="ch-updated">Tappx 3.0.2.5 </li>
+                    <li class="ch-updated">Vungle 5.3.2.0 </li>
+                </ul>
+
+
                 <h3 id="v1.3.21">Version 1.3.21
                     <small class="release-date">December 28, 2017</small>
                 </h3>
