@@ -124,6 +124,7 @@
                         <li><a href="#testsuite">Test Suite</a></li>
                         <li><a href="#iap">In App Purchase Tracking</a></li>
                         <li><a href="#bannercache">Preloading Banners</a></li>
+                        <li><a href="#senduserid">Setting Application User Id</a></li>
                     </ul>
                 </li>
                 <li><a href="#release-notes">Release Notes</a>
@@ -673,6 +674,17 @@ AMRBanner* banner = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
 banner.bannerWidth = 320;
 [banner cacheBanner];
                 </code></pre>
+
+                <h3 id="senduserid">Setting Application User Id <span class="label label-teal">New</span></h3>
+
+                <p>
+                    You can use the following method to set application specific user id in AMR Analytics for enhanced tracking of your users. You have to call this method after initialization.
+                </p>
+				
+				<pre><code class="language-objectivec">
+[AMRSDK setUserId:@&quot;&lt;applicationUserId&gt;&quot;];
+
+                </code></pre>
             </section>
 
             <section>
@@ -683,6 +695,7 @@ banner.bannerWidth = 320;
                         new features, etc.</p>
 
                     <ol class="toc">
+                        <li><a href="#v1.3.27">Version 1.3.27</a></li>
                         <li><a href="#v1.3.26">Version 1.3.26</a></li>
                         <li><a href="#v1.3.21">Version 1.3.21</a></li>
                         <li><a href="#v1.3.19">Version 1.3.19</a></li>
@@ -703,6 +716,17 @@ banner.bannerWidth = 320;
                 </header>
 
              <section id="versions">
+            <h3 id="v1.3.27">Version 1.3.27
+                    <small class="release-date">February 16, 2018</small>
+                </h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-added">Application user id feature added.</li>
+                    <li class="ch-updated">AMRSDK 1.3.27 </li>
+                    <li class="ch-updated">Tapjoy 11.11.1.1 </li>
+                </ul>
+
+
                 <h3 id="v1.3.26">Version 1.3.26
                     <small class="release-date">January 16, 2018</small>
                 </h3>
