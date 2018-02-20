@@ -18,6 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
+//    [AMRSDK setUserId:@"myUniqueUserId"];
     [AMRSDK setLogLevel:AMRLogLevelAll];
     [AMRSDK startWithAppId:@"15066ddc-9c18-492c-8185-bea7e4c7f88c"];
     [AMRSDK setStatusBarHidden:YES];
@@ -32,8 +33,8 @@
 
 
     //Cache banner zone
-    AMRBanner* banner = [AMRBanner bannerForZoneId:@"1b65e016-5b26-4ba0-aff5-b500a96d5157"];
-    [banner cacheBanner];
+//    AMRBanner* banner = [AMRBanner bannerForZoneId:@"1b65e016-5b26-4ba0-aff5-b500a96d5157"];
+//    [banner cacheBanner];
     
     return YES;
 }

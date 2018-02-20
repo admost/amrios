@@ -118,6 +118,17 @@
 + (BOOL)isInitNetworks;
 
 /**
+ * You can optionally provide a unique user id for reporting purposes.
+ * This provided user id will be associated with the AMR User in AMR Dashboard.
+ * Example usage:
+ * @code
+ * [AMRSDK setUserId:@"myUniqueUserId"];
+ * @endcode
+ * @param userId unique id.
+ */
++ (void)setUserId:(NSString *)userId;
+
+/**
  * Set virtual currenct delegate for virtual currency events.
  * Virtual currency delegate must be set before using offerwalls.
  * @param delegate An object conforms to <AMRVirtualCurrencyDelegate> protocol.
@@ -154,6 +165,7 @@
  * @param zones List of Zone ids.
  */
 + (void)startTestSuiteWithZones:(NSArray *)zones;
+
 @end
 
 /**
