@@ -85,6 +85,9 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     /// CONVERSANT
     AMRNetworkTypeConversant,
 
+    /// CROSS PROMOTION
+    AMRNetworkTypeCrossPromotion,
+
     /// FACEBOOK
     AMRNetworkTypeFacebook,
 
@@ -135,6 +138,9 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     
     /// NEXTAGE
     AMRNetworkTypeNexAge,
+
+    /// PREMIUM
+    AMRNetworkTypePremium,
     
     /// PUBNATIVE
     AMRNetworkTypePubNative,
@@ -161,7 +167,10 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     AMRNetworkTypeUnityAds,
 
     /// VUNGLE
-    AMRNetworkTypeVungle
+    AMRNetworkTypeVungle,
+    
+    //SMART AD SERVER
+    AMRNetworkTypeSmartAdServer
 };
 
 typedef NS_ENUM(NSInteger, AMRReachabilityNetworkStatus){

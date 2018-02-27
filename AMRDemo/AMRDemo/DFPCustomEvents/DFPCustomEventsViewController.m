@@ -52,7 +52,20 @@ GADInterstitialDelegate> @end
         _dFPBanner.adUnitID = @"/96769799/amr_ios_banner";
         _dFPBanner.delegate = self;
         _dFPBanner.rootViewController = self;
-        [_dFPBanner loadRequest:[DFPRequest request]];
+        
+        DFPRequest *request = [DFPRequest request];
+        
+        //parameters
+//        NSMutableDictionary *params = [NSMutableDictionary new];
+//        [params setObject:<YOUR_CUSTOM_NIB_NAME> forKey:@"customeNativeXibName"];
+//
+//        //extras
+//        GADCustomEventExtras *extras = [GADCustomEventExtras new];
+//        [extras setExtras:params forLabel:<YOUR_LABEL>];
+//        [request registerAdNetworkExtras:extras];
+        
+        
+        [_dFPBanner loadRequest:request];
     });
 }
 

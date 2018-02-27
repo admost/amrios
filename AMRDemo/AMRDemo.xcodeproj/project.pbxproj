@@ -86,6 +86,9 @@
 		9E47FA941F8F97D8008AD3D0 /* AMRAdmostSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E47FA911F8F97D8008AD3D0 /* AMRAdmostSDK.framework */; };
 		9E47FA951F8F97D8008AD3D0 /* AMRResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E47FA921F8F97D8008AD3D0 /* AMRResources.bundle */; };
 		9E47FA961F8F97D8008AD3D0 /* AMRSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E47FA931F8F97D8008AD3D0 /* AMRSDK.framework */; };
+		9E5A13D220454F7D00CEC82C /* libSmartAdServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5A13CF20454F7D00CEC82C /* libSmartAdServer.a */; };
+		9E5A13D320454F7D00CEC82C /* sas.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E5A13D020454F7D00CEC82C /* sas.bundle */; };
+		9E5A13D420454F7D00CEC82C /* libAMRAdapterSmartadserver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5A13D120454F7D00CEC82C /* libAMRAdapterSmartadserver.a */; };
 		9E606ECB1FA74BC60012EB29 /* aero.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E606ECA1FA74BC60012EB29 /* aero.ttf */; };
 		9E6E6DC7200CE22500D91B40 /* Revmob.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6E6D0D200CE0EE00D91B40 /* Revmob.framework */; };
 		9E6E6DC8200CE22500D91B40 /* libAMRAdapterRevmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6E6D0E200CE0EE00D91B40 /* libAMRAdapterRevmob.a */; };
@@ -313,6 +316,9 @@
 		9E47FA911F8F97D8008AD3D0 /* AMRAdmostSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMRAdmostSDK.framework; sourceTree = "<group>"; };
 		9E47FA921F8F97D8008AD3D0 /* AMRResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMRResources.bundle; sourceTree = "<group>"; };
 		9E47FA931F8F97D8008AD3D0 /* AMRSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMRSDK.framework; sourceTree = "<group>"; };
+		9E5A13CF20454F7D00CEC82C /* libSmartAdServer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSmartAdServer.a; sourceTree = "<group>"; };
+		9E5A13D020454F7D00CEC82C /* sas.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = sas.bundle; sourceTree = "<group>"; };
+		9E5A13D120454F7D00CEC82C /* libAMRAdapterSmartadserver.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterSmartadserver.a; sourceTree = "<group>"; };
 		9E606ECA1FA74BC60012EB29 /* aero.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = aero.ttf; sourceTree = "<group>"; };
 		9E6E6D0D200CE0EE00D91B40 /* Revmob.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Revmob.framework; sourceTree = "<group>"; };
 		9E6E6D0E200CE0EE00D91B40 /* libAMRAdapterRevmob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterRevmob.a; sourceTree = "<group>"; };
@@ -501,8 +507,10 @@
 				9E6E6E2C200CE22500D91B40 /* AvocarrotVideo.framework in Frameworks */,
 				2FDE737C1D99B76B004E9EA1 /* EventKitUI.framework in Frameworks */,
 				9E6E6E28200CE22500D91B40 /* libFyberSDK-8.19.0.a in Frameworks */,
+				9E5A13D220454F7D00CEC82C /* libSmartAdServer.a in Frameworks */,
 				9E6E6E40200CE22500D91B40 /* libAppnextLib.a in Frameworks */,
 				2FDE737A1D99B764004E9EA1 /* EventKit.framework in Frameworks */,
+				9E5A13D420454F7D00CEC82C /* libAMRAdapterSmartadserver.a in Frameworks */,
 				9E6E6DF1200CE22500D91B40 /* libAMRAdapterAdcolony.a in Frameworks */,
 				9E6E6E3C200CE22500D91B40 /* libAMRAdapterMobfox.a in Frameworks */,
 				9E6E6E43200CE22500D91B40 /* libAMRAdapterUnity.a in Frameworks */,
@@ -756,6 +764,7 @@
 				9E6E6D6F200CE1AD00D91B40 /* AMRAdapterPubNative */,
 				9E6E6D0B200CE0EE00D91B40 /* AMRAdapterRevmob */,
 				9E6E6D3B200CE11D00D91B40 /* AMRAdapterSmaato */,
+				9E5A13CD20454F7D00CEC82C /* AMRAdapterSmartadserver */,
 				9E6E6DC2200CE22400D91B40 /* AMRAdapterStartapp */,
 				9E6E6D6A200CE1A000D91B40 /* AMRAdapterTapjoy */,
 				9E6E6DAB200CE1EA00D91B40 /* AMRAdapterTappx */,
@@ -772,6 +781,24 @@
 				2FE07BB21EC0689300DAB358 /* DFPCustomEventsViewController.m */,
 			);
 			path = DFPCustomEvents;
+			sourceTree = "<group>";
+		};
+		9E5A13CD20454F7D00CEC82C /* AMRAdapterSmartadserver */ = {
+			isa = PBXGroup;
+			children = (
+				9E5A13CE20454F7D00CEC82C /* AMRAdapterSmartadserverInclude */,
+				9E5A13D120454F7D00CEC82C /* libAMRAdapterSmartadserver.a */,
+			);
+			path = AMRAdapterSmartadserver;
+			sourceTree = "<group>";
+		};
+		9E5A13CE20454F7D00CEC82C /* AMRAdapterSmartadserverInclude */ = {
+			isa = PBXGroup;
+			children = (
+				9E5A13CF20454F7D00CEC82C /* libSmartAdServer.a */,
+				9E5A13D020454F7D00CEC82C /* sas.bundle */,
+			);
+			path = AMRAdapterSmartadserverInclude;
 			sourceTree = "<group>";
 		};
 		9E6E6D0B200CE0EE00D91B40 /* AMRAdapterRevmob */ = {
@@ -1431,6 +1458,7 @@
 				2F7E6ACA1E49BE6C00AA6F88 /* 5.jpg in Resources */,
 				2F7E6ABB1E49BE6C00AA6F88 /* 0.jpg in Resources */,
 				9E6E6E16200CE22500D91B40 /* PnFullScreen.png in Resources */,
+				9E5A13D320454F7D00CEC82C /* sas.bundle in Resources */,
 				9E6E6E0C200CE22500D91B40 /* PNIconViewController.xib in Resources */,
 				2F7E6ABC1E49BE6C00AA6F88 /* 1.jpg in Resources */,
 				2F4517AE1E76D5EF00069EAF /* AMRNativeAdBaseView250.xib in Resources */,
@@ -1720,6 +1748,8 @@
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterMopub/AMRAdapterMopubInclude",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterDFP",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterMobfox",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterSmartadserver/AMRAdapterSmartadserverInclude",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterSmartadserver",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1817,6 +1847,8 @@
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterMopub/AMRAdapterMopubInclude",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterDFP",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterMobfox",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterSmartadserver/AMRAdapterSmartadserverInclude",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterSmartadserver",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
