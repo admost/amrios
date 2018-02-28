@@ -152,7 +152,7 @@
                     <li>Zone Id(s) provided in Admost Mediation Dashboard.</li>
                 </ul>
 
-                <p> For testing you can use following Ids;</p>
+                <p>For testing you can use following Ids;</p>
 
                 <pre><code class="language-objectivec">
 Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
@@ -199,7 +199,7 @@ RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
 
                 <p>Then, run the following command:</p>
 
-                <pre><code>$ pod install</code></pre>
+                <pre><code class="language-markup">$ pod install</code></pre>
 
                 <p>After you complete pod installation you can skip to <a href="#xcode-setup">Xcode Setup</a> step.</p>
 
@@ -348,55 +348,71 @@ RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
                     callback;
                 </p>
 
-                <pre><code class="language-objecivec">- (BOOL)application:(UIApplication *)application
-    didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  [AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];
-  return YES;
-}</code></pre>
+                <pre><code class="language-objecivec">
+- (BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+[AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];
+
+return YES;
+}
+                </code></pre>
 
                 <p>For testing you can use following Application Id;</p>
 
-                <pre><code>
-
-                Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
-
+                <pre><code class="language-markup">
+Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
                 </code></pre>
 
 
                 <h3 id="banner-ads">Banner Ads</h3>
 
                 <p>To create and show a banner ad first import <code>AMRSDK.h</code> to your
-                    <code>UIViewController</code> file;
-
+                    <code>UIViewController</code> file and declare an <code>AMRBanner *mpuBanner</code> property;
                 </p>
-                <pre><code class="language-objectivec">#import &lt;AMRSDK/AMRSDK.h&gt;
-</code></pre>
+                <pre><code class="language-objectivec">
+// ViewController.h
 
-                <p>and create an <code>AMRBanner</code> object, initialize it with your Banner Zone Id and set it's
+#import &lt;AMRSDK/AMRSDK.h&gt;
+
+@interface ViewController : UIViewController &lt;AMRBannerDelegate&gt;
+
+@property(nonatomic, strong) AMRBanner *mpuBanner;
+
+@end
+                </code></pre>
+
+                <p>Initialize it with your Banner Zone Id and set it's
                     <code>delegate</code> to an object (generally your viewController) which conforms to <code>&lt;AMRBannerDelegate&gt;</code>
-                    protocol.</p>
+                    protocol.
+                </p>
 
-                <pre><code class="language-objectivec">AMRBanner *mpuBanner;
+                <pre><code class="language-objectivec">
+// ViewController.m
+
 mpuBanner = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
-mpuBanner.delegate = self;</code></pre>
+mpuBanner.delegate = self;
+                </code></pre>
 
                 <p>For testing you can use following Banner Zone Id;
 
                 </p>
 
-                <pre><code>Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"</code></pre>
+                <pre><code class="language-markup">
+Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
+                </code></pre>
 
-                <p>Optionally you can set the width of the banner, default value is screen width.
-
+                <p>
+                    Optionally you can set the width of the banner, default value is screen width.
                 </p>
-                <pre><code>mpuBanner.bannerWidth = 300;</code></pre>
+                <pre><code class="language-objectivec">mpuBanner.bannerWidth = 300;</code></pre>
 
                 <p>Start loading banner with <code>loadBanner</code> method and wait for the
                     <code>&lt;AMRBannerDelegate&gt;</code> protocol callbacks.
 
                 </p>
 
-                <pre><code>[mpuBanner loadBanner];</code></pre>
+                <pre><code class="language-objectivec">[mpuBanner loadBanner];</code></pre>
 
                 <p>There are 2 callback methods in <code>&lt;AMRBannerDelegate&gt;</code> protocol.
                     When <code>didReceiveBanner</code> callback method is called just add banner's
@@ -445,28 +461,41 @@ _bannerCustom200x200.customeNativeXibName = @"CustomNative200x200";
                 <h3 id="interstitial-ads">Interstitial Ads</h3>
 
                 <p>To create and show an interstitial ad first import <code>AMRSDK.h</code> to your <code>UIViewController</code>
-                    file;
-
+                    file and declare an <code>AMRInterstitial *fullScreen</code> property;
                 </p>
 
-                <pre><code class="language-objectivec">#import &lt;AMRSDK/AMRSDK.h&gt;</code></pre>
+                <pre><code class="language-objectivec">
+// ViewController.h
+
+#import &lt;AMRSDK/AMRSDK.h&gt;
+
+@interface ViewController : UIViewController &lt;AMRInterstitialDelegate&gt;
+
+@property(nonatomic, strong) AMRInterstitial *fullScreen;
+
+@end
+                </code></pre>
 
                 <p>
-                    and create an <code>AMRInterstitial</code> object, initialize it with your Interstitial Zone Id and
+                    Initialize it with your Interstitial Zone Id and
                     set it's
                     <code> delegate</code> to an object (generally your viewController) which conforms to
                     <code>&lt;AMRInterstitialDelegate&gt;</code> protocol.
                 </p>
 
-                <pre><code class="language-objectivec">AMRInterstitial *fullScreen;
+                <pre><code class="language-objectivec">
+// ViewController.m
+
 fullScreen = [AMRInterstitial interstitialForZoneId:@"&lt;zoneId&gt;"];
 fullScreen.delegate = self;
-[fullScreen loadInterstitial];</code></pre>
+[fullScreen loadInterstitial];
+                </code></pre>
 
                 <p>For testing you can use following Interstitial Zone Id;</p>
 
                 <pre><code
-                        class="language-objectivec">Interstitial Zone Id: @"39f74377-5682-436a-9338-9d1c4df410bd"</code></pre>
+                        class="language-markup">Interstitial Zone Id: @"39f74377-5682-436a-9338-9d1c4df410bd"
+                </code></pre>
 
                 <p>There are 3 callback methods in <code>&lt;AMRInterstitialDelegate&gt;</code> protocol.
                     When <code>didReceiveInterstitial</code> callback method is called just call the <code>showFromViewController</code>
@@ -490,7 +519,6 @@ fullScreen.delegate = self;
 
                 <pre><code class="language-objectivec">- (void)didFailToReceiveInterstitial:(AMRInterstitial *)interstitial error:(AMRError *)error {
     NSLog(error.errorDescription);
-}
 }</code></pre>
 
                 <h3 id="rewarded-video-ads">Rewarded Video Ads</h3>
@@ -498,12 +526,22 @@ fullScreen.delegate = self;
                 <p>Rewarded video ads' integration is pretty similar to Interstitial ads with 1 additional callback
                     <code>didCompleteRewardedVideo</code> to reward the user. To create and show a rewarded video ad
                     first import
-                    <code>AMRSDK.h</code> to your <code>UIViewController</code> file;</p>
+                    <code>AMRSDK.h</code> to your <code>UIViewController</code> file and declare an <code>AMRRewardedVideo *rewardedVideo</code> property;</p>
 
-                <pre><code class="language-objectivec">#import &lt;AMRSDK/AMRSDK.h&gt;</code></pre>
+                <pre><code class="language-objectivec">
+// ViewController.h
+
+#import &lt;AMRSDK/AMRSDK.h&gt;
+
+@interface ViewController : UIViewController &lt;AMRRewardedVideoDelegate&gt;
+
+@property(nonatomic, strong) AMRRewardedVideo *rewardedVideo;
+
+@end
+                </code></pre>
 
                 <p>
-                    and create an <code>AMRRewardedVideo</code> object, initialize it with your RewardedVideo Zone Id
+                    Initialize it with your RewardedVideo Zone Id
                     and
                     set it's
                     <code> delegate</code> to an object (generally your viewController) which conforms to
@@ -511,15 +549,18 @@ fullScreen.delegate = self;
                 </p>
 
                 <pre><code class="language-objectivec">
-                    AMRRewardedVideo *rewardedVideo;
+// ViewController.m
+
 rewardedVideo = [AMRRewardedVideo rewardedVideoForZoneId:@"&lt;zoneId&gt;"];
 rewardedVideo.delegate = self;
-[rewardedVideo loadRewardedVideo];</code></pre>
+[rewardedVideo loadRewardedVideo];
+                </code></pre>
 
                 <p>For testing you can use following RewardedVideo Zone Id;</p>
 
                 <pre><code
-                        class="language-objectivec">RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"</code></pre>
+                        class="language-markup">RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
+                </code></pre>
 
                 <p>There are 4 callback methods in <code>&lt;AMRRewardedVideoDelegate&gt;</code> protocol.
                     <br/><br/>When <code>didReceiveRewardedVideo</code> callback method is called just call the <code>showFromViewController</code>
@@ -581,13 +622,13 @@ rewardedVideo.delegate = self;
                     to ypur podfile and run the following command to install.</p>
 
 
-                <pre><code>
+                <pre><code class="language-markup">
 
                 pod AMRAdapterDFP
 
             </code></pre>
 
-                <pre><code>
+                <pre><code class="language-markup">
 
                 $ pod install 
 
