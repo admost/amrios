@@ -15,6 +15,10 @@
 
 /// An object conforms to <AMRRewardedVideoDelegate> protocol.
 @property (weak) id<AMRRewardedVideoDelegate> delegate;
+/// Returns YES if the rewarded video is requested.
+@property (nonatomic, readonly) BOOL isLoading;
+/// Returns YES if the rewarded video is loaded.
+@property (nonatomic, readonly) BOOL isLoaded;
 
 /**
  * Create an instance of AMRRewardedVideo to show in your application.

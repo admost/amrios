@@ -22,6 +22,8 @@
 #import "ISSupersonicAdsConfiguration.h"
 #import "ISSegment.h"
 #import "ISSegmentDelegate.h"
+#import "ISDemandOnlyRewardedVideoDelegate.h"
+#import "ISDemandOnlyInterstitialDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -167,6 +169,14 @@ typedef NS_ENUM(NSUInteger, ISBannerSize) {
  */
 + (void)initWithAppKey:(NSString *)appKey adUnits:(NSArray<NSString *> *)adUnits;
 
+/**
+ @abstract Initializes ironSource SDK in demand only mode.
+ @discussion This method initializes IS_REWARDED_VIDEO and/or IS_INTERSTITIAL ad units.
+ @param appKey Application key.
+ @param adUnits An array containing IS_REWARDED_VIDEO and/or IS_INTERSTITIAL.
+ */
++ (void)initISDemandOnly:(NSString *)appKey adUnits:(NSArray<NSString *> *)adUnits;
+
 #pragma mark - Rewarded Video
 
 /**
@@ -228,6 +238,36 @@ typedef NS_ENUM(NSUInteger, ISBannerSize) {
   */
 + (void)clearRewardedVideoServerParameters;
 
+#pragma mark - Demand Only Rewarded Video
+/**
+ @abstract Sets the delegate for demand only rewarded video callbacks.
+ @param delegate The 'ISDemandOnlyRewardedVideoDelegate' for IronSource to send callbacks to.
+ */
++ (void)setISDemandOnlyRewardedVideoDelegate:(id<ISDemandOnlyRewardedVideoDelegate>)delegate;
+
+/**
+ @abstract Shows a demand only rewarded video using the default placement.
+ @param viewController The UIViewController to display the rewarded video within.
+ @param instanceId The demand only instance id to be used to display the rewarded video.
+ */
++ (void)showISDemandOnlyRewardedVideo:(UIViewController *)viewController instanceId:(NSString *)instanceId;
+
+/**
+ @abstract Shows a demand only rewarded video using the provided placement name.
+ @param viewController The UIViewController to display the rewarded video within.
+ @param placementName The placement name as was defined in the platform. If nil is passed, a default placement will be used.
+ @param instanceId The demand only instance id to be used to display the rewarded video.
+ */
++ (void)showISDemandOnlyRewardedVideo:(UIViewController *)viewController placement:(nullable NSString *)placementName instanceId:(NSString *)instanceId;
+
+/**
+ @abstract Determine if a locally cached demand only rewarded video exists for an instance id.
+ @discussion A return value of YES here indicates that there is a cached rewarded video for the instance id.
+ @param instanceId The demand only instance id to be used to display the rewarded video.
+ @return YES if rewarded video is ready to be played, NO otherwise.
+ */
++ (BOOL)hasISDemandOnlyRewardedVideo:(NSString *)instanceId;
+
 #pragma mark - Interstitial
 
 /**
@@ -281,6 +321,44 @@ typedef NS_ENUM(NSUInteger, ISBannerSize) {
  @return YES if capped or paced, NO otherwise.
  */
 + (BOOL)isInterstitialCappedForPlacement:(NSString *)placementName;
+
+#pragma mark - Demand Only Interstitial
+
+/**
+ @abstract Sets the delegate for demand only interstitial callbacks.
+ @param delegate The 'ISDemandOnlyInterstitialDelegate' for IronSource to send callbacks to.
+ */
++ (void)setISDemandOnlyInterstitialDelegate:(id<ISDemandOnlyInterstitialDelegate>)delegate;
+
+/**
+ @abstract Loads a demand only interstitial.
+ @discussion This method will load a demand only interstitial ad.
+ @param instanceId The demand only instance id to be used to display the interstitial.
+ */
++ (void)loadISDemandOnlyInterstitial:(NSString *)instanceId;
+
+/**
+ @abstract Show a demand only rewarded video using the default placement.
+ @param viewController The UIViewController to display the interstitial within.
+ @param instanceId The demand only instance id to be used to display the interstitial.
+ */
++ (void)showISDemandOnlyInterstitial:(UIViewController *)viewController instanceId:(NSString *)instanceId;
+
+/**
+ @abstract Show a demand only rewarded video using the provided placement name.
+ @param viewController The UIViewController to display the interstitial within.
+ @param placementName The placement name as was defined in the platform. If nil is passed, a default placement will be used.
+ @param instanceId The demand only instance id to be used to display the interstitial.
+ */
++ (void)showISDemandOnlyInterstitial:(UIViewController *)viewController placement:(nullable NSString *)placementName instanceId:(NSString *)instanceId;
+
+/**
+ @abstract Determine if a locally cached interstitial exists for a demand only instance id.
+ @discussion A return value of YES here indicates that there is a cached interstitial for the instance id.
+ @param instanceId The demand only instance id to be used to display the interstitial.
+ @return YES if there is a locally cached interstitial, NO otherwise.
+ */
++ (BOOL)hasISDemandOnlyInterstitial:(NSString *)instanceId;
 
 #pragma mark - Offerwall
 

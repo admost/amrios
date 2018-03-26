@@ -19,7 +19,6 @@
 #import "SOMAAdSettings.h"
 #import "SOMAUserProfile.h"
 #import "SOMAAd.h"
-#import "SOMABeaconQueue.h"
 #import "SOMANativeAdDTO.h"
 #import "SOMAAppLinksChecker.h"
 #import "SOMACloseButton.h"
@@ -29,25 +28,17 @@
 #import "SOMANativeAdLayouters.h"
 #import "SOMANativeCSMPlugin.h"
 #import "SOMAJSONAdParser.h"
+#import "SOMARewardedVideo.h"
+#import "SOMAVideoAdController.h"
+#import "SOMAAdProvider.h"
+#import "SOMALiveAdFetcher.h"
+#import "SOMABeaconCallingAgent.h"
 
 extern BOOL SOMA_CRASHREPORTING_ENABLED;
 
-//@import UIKit;
-//@import Foundation;
-//@import StoreKit;
-//@import CoreTelephony;
-//@import SystemConfiguration;
-//@import MessageUI;
-//@import AdSupport;
-//@import QuartzCore;
-//@import CoreLocation;
-//@import CoreImage;
-//@import CoreFoundation;
-//@import EventKit;
-//@import EventKitUI;
-//@import MediaPlayer;
-
 @interface iSoma : NSObject
+
++(void)init;
 
 +(SOMAAdSettings*) defaultAdSettings;
 
@@ -66,6 +57,8 @@ extern BOOL SOMA_CRASHREPORTING_ENABLED;
 + (void) setAutoReloadInterval:(int) interval;
 + (int) autoReloadInterval;
 
++ (void) setHttpsOnly:(BOOL)yesOrNo;
++ (BOOL) isHttpsOnly;
 
 #pragma mark -
 #pragma mark - Logging

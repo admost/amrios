@@ -15,6 +15,10 @@
 
 /// An object conforms to <AMRInterstitialDelegate> protocol.
 @property (weak) id<AMRInterstitialDelegate> delegate;
+/// Returns YES if the interstitial is requested.
+@property (nonatomic, readonly) BOOL isLoading;
+/// Returns YES if the interstitial is loaded.
+@property (nonatomic, readonly) BOOL isLoaded;
 
 /**
  * Create an instance of AMRInterstitial to show in your application.

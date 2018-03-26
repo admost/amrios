@@ -16,6 +16,7 @@
 @property (nonatomic, strong)   NSString            *appKey;
 @property (nonatomic, strong)   NSString            *mediationSegment;
 @property (nonatomic, strong)   NSString            *segmentId;
+@property (nonatomic, strong)   NSString            *connectionType;
 @property (nonatomic, strong)   NSDictionary        *customSegmentParams;
 @property (nonatomic, strong)   ISSegment           *segment;
 @property (nonatomic, strong)   NSDictionary        *rewardedVideoCustomParameters;

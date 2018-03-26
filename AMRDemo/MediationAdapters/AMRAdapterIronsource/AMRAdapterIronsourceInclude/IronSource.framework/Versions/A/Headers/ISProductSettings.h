@@ -18,6 +18,7 @@
 @property (readonly, strong) NSString        *algo;
 @property (nonatomic, copy)  NSString        *backFillProviderName;
 @property (nonatomic, copy)  NSString        *premiumProviderName;
+@property (assign)          NSInteger        bannerInterval;
 
 - (instancetype)initWithplacements:(NSArray *)placements
      maxNumOfAdaptersToLoadOnStart:(NSUInteger)maxAdapters
@@ -25,6 +26,5 @@
                               algo:(NSString *)algo
               backFillProviderName:(NSString *)backFillProviderName
                premiumProviderName:(NSString *)premiumProviderName;
-
 
 @end

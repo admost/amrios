@@ -11,5 +11,5 @@
 @class SOMAAd;
 
 @protocol SOMAAdParser <NSObject>
--(SOMAAd*)parseAd:(NSData*)data parsingError:(NSError**)error;
+-(SOMAAd*)parseAd:(NSData*)data withResponse:(NSURLResponse*)response parsingError:(NSError**)error;
 @end

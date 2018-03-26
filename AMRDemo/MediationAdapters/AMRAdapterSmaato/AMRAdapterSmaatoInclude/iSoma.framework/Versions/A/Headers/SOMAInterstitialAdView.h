@@ -10,4 +10,5 @@
 
 @interface SOMAInterstitialAdView : SOMAAdView
 @property UIInterfaceOrientation initialOrientation;
+- (void)show:(UIViewController*)rootViewController;
 @end

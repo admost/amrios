@@ -26,7 +26,16 @@ typedef NS_ENUM(NSInteger, SOMAAdType){
 	SOMAAdTypeVideo,
 	SOMAAdTypeRichMedia,
 	SOMAAdTypeIFrame,
-	SOMAAdTypeNative,
+	SOMAAdTypeNative
+};
+
+#pragma mark -
+#pragma mark - Ad Types
+#pragma mark -
+
+typedef NS_ENUM(NSInteger, SOMAVideoAdType){
+    SOMAVideoAdTypeInterstitial = 0,
+    SOMAVideoAdTypeRewardedVideo
 };
 
 

@@ -11,6 +11,7 @@
 
 @class SOMAStarView;
 @class SOMANativeAdDTO;
+@class SOMANativeAd;
 
 @interface SOMANativeAdTemplateView : UIView
 @property UIImageView* mainImage;
@@ -26,6 +27,8 @@
 @property UIView* catContainer;
 @property SOMANativeAdDTO* dto;
 @property id<SOMANativeAdLayouter> layouter;
+
 - (instancetype)initWithLayouter:(id<SOMANativeAdLayouter>)layouter;
+- (void)modifyNativeComponentsInNativeAd:(SOMANativeAd*)nativeAd;
 
 @end

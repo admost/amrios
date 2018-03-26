@@ -155,6 +155,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (assign, nonatomic) UIModalTransitionStyle modalTransitionStyle;
 
 /**
+ * Requests a bid, asynchronously, using information supplied in the mmAdRequest dictionary.
+ *
+ * @param placementId The ad's placement ID.
+ * @param requestInfo Additional targeting information relevant to this individual request. This value may be `nil`.
+ * @param completion The block to execute after the request finishes.
+ */
++ (void)requestBidForPlacementId:(nonnull NSString*)placementId
+                     requestInfo:(nullable MMRequestInfo*)requestInfo
+                      completion:(nullable void (^)(NSString * _Nullable bid, NSError * _Nullable error))completion;
+
+/**
  * Asynchronously load interstitial content. This both retrieves the interstitial and loads its content offscreen.
  *
  * An ad is only considered 'ready for display' after it has fired its interstitialAdLoadDidSucceed: message.

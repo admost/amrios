@@ -10,5 +10,6 @@
 
 @interface SOMACloseButton : UIButton
 @property BOOL onlyCross;
+@property UIColor* crossColor;
 
 @end

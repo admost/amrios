@@ -1,9 +1,8 @@
 //
-//  ChartboostPublic.h
+//  Chartboost.h
 //  Chartboost
 //
-//  Created by Geoff Heeren on 10/6/16.
-//
+//  Copyright 2018 Chartboost. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

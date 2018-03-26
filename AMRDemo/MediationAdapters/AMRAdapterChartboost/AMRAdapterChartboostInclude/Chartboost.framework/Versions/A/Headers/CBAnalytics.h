@@ -2,7 +2,7 @@
 //  CBAnalytics.h
 //  Chartboost
 //
-//  Created by Geoff Heeren on 4/19/17.
+//  Copyright 2018 Chartboost. All rights reserved.
 //
 //
 

@@ -36,6 +36,8 @@
 @property (nonatomic, strong) NSString                            *segmentId;
 @property (nonatomic, strong) NSDictionary                        *customSegmentParams;
 
+@property (nonatomic,assign) BOOL                                 showIntegrationHelper;
+
 + (ISServerResponseParser *)sharedInstance;
 -  (void)parseObject:(id)object;
 

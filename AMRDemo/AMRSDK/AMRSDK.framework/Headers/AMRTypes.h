@@ -170,7 +170,10 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     AMRNetworkTypeVungle,
     
     //SMART AD SERVER
-    AMRNetworkTypeSmartAdServer
+    AMRNetworkTypeSmartAdServer,
+    
+    //Youappi
+    AMRNetworkTypeYouappi
 };
 
 typedef NS_ENUM(NSInteger, AMRReachabilityNetworkStatus){

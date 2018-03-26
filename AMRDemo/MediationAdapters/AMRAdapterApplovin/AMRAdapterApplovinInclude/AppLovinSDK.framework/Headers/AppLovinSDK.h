@@ -23,6 +23,7 @@
 #import <AppLovinSDK/ALEventService.h>
 #import <AppLovinSDK/ALIncentivizedInterstitialAd.h>
 #import <AppLovinSDK/ALInterstitialAd.h>
+#import <AppLovinSDK/ALMediationProvider.h>
 #import <AppLovinSDK/ALPostbackDelegate.h>
 #import <AppLovinSDK/ALPostbackService.h>
 #import <AppLovinSDK/ALSdk.h>

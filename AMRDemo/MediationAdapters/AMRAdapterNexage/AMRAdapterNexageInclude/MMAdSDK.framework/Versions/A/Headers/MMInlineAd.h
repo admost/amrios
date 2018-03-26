@@ -44,7 +44,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @param ad The ad placement which was successfully requested.
  */
--(void)inlineAdRequestDidSucceed:(MMInlineAd*)ad;
+-(void)inlineAdRequestDidSucceed:(MMInlineAd *)ad;
 
 /**
  * Callback indicating that ad content failed to load or render.
@@ -54,7 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param ad The ad placement for which the request failed.
  * @param error The error indicating the failure.
  */
--(void)inlineAd:(MMInlineAd*)ad requestDidFailWithError:(NSError*)error;
+-(void)inlineAd:(MMInlineAd *)ad requestDidFailWithError:(NSError*)error;
 
 /**
  *  Callback indicating that the user has interacted with ad content.
@@ -66,7 +66,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @param ad The ad placement which was tapped.
  */
--(void)inlineAdContentTapped:(MMInlineAd*)ad;
+-(void)inlineAdContentTapped:(MMInlineAd *)ad;
 
 /**
  * Callback indicating that the ad is preparing to be resized.
@@ -77,7 +77,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param frame The size and location of the ad placement.
  * @param isClosingResize This flag indicates the resize close button was tapped, causing a resize to the default/original size.
  */
--(void)inlineAd:(MMInlineAd*)ad willResizeTo:(CGRect)frame isClosing:(BOOL)isClosingResize;
+-(void)inlineAd:(MMInlineAd *)ad willResizeTo:(CGRect)frame isClosing:(BOOL)isClosingResize;
 
 /**
  * Callback indicating the ad has finished resizing.
@@ -88,7 +88,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param frame The size and location of the ad placement.
  * @param isClosingResize This flag indicates the resize close button was tapped, causing a resize to the default/original size.
  */
--(void)inlineAd:(MMInlineAd*)ad didResizeTo:(CGRect)frame isClosing:(BOOL)isClosingResize;
+-(void)inlineAd:(MMInlineAd *)ad didResizeTo:(CGRect)frame isClosing:(BOOL)isClosingResize;
 
 /**
  * Callback indicating that the ad is preparing to present a modal view.
@@ -142,7 +142,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @param ad The ad placement.
  */
--(void)inlineAdAbortDidSucceed:(MMInlineAd*)ad;
+-(void)inlineAdAbortDidSucceed:(MMInlineAd *)ad;
 
 /**
  * Callback invoked when an abort for an in-progress request fails.
@@ -156,7 +156,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param ad The ad placement.
  * @param error Error indicating the manner in which the abort failed.
  */
--(void)inlineAd:(MMInlineAd*)ad abortDidFailWithError:(NSError*)error;
+-(void)inlineAd:(MMInlineAd *)ad abortDidFailWithError:(NSError*)error;
 
 @end
 
@@ -183,6 +183,19 @@ typedef NS_ENUM(NSInteger, MMInlineAdSize) {
  * alongside other, native content, such as banners or other inserted views.
  */
 @interface MMInlineAd : MMAd
+
+/**
+ * Requests a bid, asynchronously, using information supplied in the mmAdRequest dictionary.
+ *
+ * @param placementId The ad's placement ID.
+ * @param adSize The size of the banner to request.
+ * @param requestInfo Additional targeting information relevant to this individual request. This value may be `nil`.
+ * @param completion The block to execute after the request finishes.
+ */
++ (void)requestBidForPlacementId:(nonnull NSString*)placementId
+                          adSize:(MMInlineAdSize)adSize
+                     requestInfo:(nullable MMRequestInfo*)requestInfo
+                      completion:(nullable void (^)(NSString * _Nullable bid, NSError * _Nullable error))completion;
 
 /**
  * Initializes an inline placement. This method must be invoked from the main thread.

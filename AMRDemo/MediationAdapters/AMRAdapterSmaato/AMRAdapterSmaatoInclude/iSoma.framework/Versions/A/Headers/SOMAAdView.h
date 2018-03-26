@@ -13,7 +13,6 @@
 #import "SOMAAdRenderer.h"
 #import "SOMAMediatedNetworkConfiguration.h"
 @class SOMAFullScreenAdViewController;
-@class SOMARenderedAdView;
 
 @interface SOMAAdView : UIView
 #pragma mark -
@@ -58,7 +57,7 @@
 /*!
 	Configure it before calling the @c load method
  */
-@property(nonatomic, copy) SOMAAdSettings* adSettings;
+@property(nonatomic) SOMAAdSettings* adSettings;
 
 /*!
 	The delegate for this ad.
@@ -90,9 +89,9 @@
 -(void)load;
 -(void)show;
 -(void)hide;
--(void) pause;
--(void) resume;
-- (UIViewController*) rootViewController;
+-(void)pause;
+-(void)resume;
+- (UIViewController*)rootViewController;
 
 
 // TMP
@@ -100,6 +99,7 @@
 - (void)mediationStartedForNetwork:(SOMAMediatedNetworkConfiguration*)network;
 - (void)mediationFailedForNetwork:(SOMAMediatedNetworkConfiguration*)network;
 - (void)mediationLoadedForNetwork:(SOMAMediatedNetworkConfiguration*)network;
+
 #pragma mark -
 #pragma mark - Internal method for Unity3d
 #pragma mark -
@@ -108,7 +108,7 @@
 #pragma mark -
 #pragma mark - Internal properties
 #pragma mark -
-@property(nonatomic, readonly) BOOL isLoaded;
+@property(nonatomic) BOOL isLoaded;
 @property SOMAAdRenderer* currentRenderedAd;
 @property(nonatomic, assign) BOOL isNewAdAvailable;
 @property(nonatomic, strong) SOMAFullScreenAdViewController* fullScreenViewController;

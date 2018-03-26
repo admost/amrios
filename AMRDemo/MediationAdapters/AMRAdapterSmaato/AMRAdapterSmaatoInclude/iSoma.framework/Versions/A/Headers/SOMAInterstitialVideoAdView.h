@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Smaato Inc. All rights reserved.
 //
 
-#import "iSoma.h"
 #import "SOMAInterstitialAdView.h"
-
+@class SOMAVideoAd;
 @interface SOMAInterstitialVideoAdView : SOMAInterstitialAdView
-
+@property NSURL* vastURL;
+- (SOMAVideoAd*)currentAd;
 @end
