@@ -334,12 +334,10 @@
 		9EBEC4FB2068F3FA0005546A /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBEC4502068F3F90005546A /* StartApp.framework */; };
 		9EBEC4FC2068F3FA0005546A /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EBEC4512068F3F90005546A /* StartApp.bundle */; };
 		9EBEC4FD2068F3FA0005546A /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EBEC4512068F3F90005546A /* StartApp.bundle */; };
-		9EBEC5022068F5400005546A /* libAMRAdapterAdmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBEC4FF2068F53F0005546A /* libAMRAdapterAdmob.a */; };
-		9EBEC5032068F5400005546A /* libAMRAdapterAdmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBEC4FF2068F53F0005546A /* libAMRAdapterAdmob.a */; };
-		9EBEC5042068F5400005546A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBEC5012068F53F0005546A /* GoogleMobileAds.framework */; };
-		9EBEC5052068F5400005546A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBEC5012068F53F0005546A /* GoogleMobileAds.framework */; };
 		9EBEC5072068F58C0005546A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBEC5062068F58C0005546A /* GoogleMobileAds.framework */; };
 		9EBEC5082068F58C0005546A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBEC5062068F58C0005546A /* GoogleMobileAds.framework */; };
+		9EBEC52C20692D500005546A /* libAMRAdapterAdmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBEC52920692D500005546A /* libAMRAdapterAdmob.a */; };
+		9EBEC52D20692D500005546A /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBEC52B20692D500005546A /* GoogleMobileAds.framework */; };
 		9EC945B0204D60AB00059506 /* BannerTableVAdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945AF204D60AB00059506 /* BannerTableVAdCell.swift */; };
 		9EC945B2204D61A300059506 /* BannerTableVDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945B1204D61A300059506 /* BannerTableVDataCell.swift */; };
 		9EC945B4204D7FCF00059506 /* InterstitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945B3204D7FCF00059506 /* InterstitialVC.swift */; };
@@ -557,9 +555,9 @@
 		9EBEC44E2068F3F90005546A /* libAMRAdapterStartapp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterStartapp.a; sourceTree = "<group>"; };
 		9EBEC4502068F3F90005546A /* StartApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StartApp.framework; sourceTree = "<group>"; };
 		9EBEC4512068F3F90005546A /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
-		9EBEC4FF2068F53F0005546A /* libAMRAdapterAdmob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAdmob.a; sourceTree = "<group>"; };
-		9EBEC5012068F53F0005546A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		9EBEC5062068F58C0005546A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		9EBEC52920692D500005546A /* libAMRAdapterAdmob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAdmob.a; sourceTree = "<group>"; };
+		9EBEC52B20692D500005546A /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		9EC945AF204D60AB00059506 /* BannerTableVAdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableVAdCell.swift; sourceTree = "<group>"; };
 		9EC945B1204D61A300059506 /* BannerTableVDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableVDataCell.swift; sourceTree = "<group>"; };
 		9EC945B3204D7FCF00059506 /* InterstitialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialVC.swift; sourceTree = "<group>"; };
@@ -600,6 +598,7 @@
 				9EBEC49A2068F3FA0005546A /* AvocarrotVideo.framework in Frameworks */,
 				2FC525221D927B630095306E /* MediaPlayer.framework in Frameworks */,
 				2F90A1A11EAF6424002F8B8A /* libxml2.tbd in Frameworks */,
+				9EBEC52D20692D500005546A /* GoogleMobileAds.framework in Frameworks */,
 				9EBEC5072068F58C0005546A /* GoogleMobileAds.framework in Frameworks */,
 				2F9565351DD357DA006C6F42 /* Twitter.framework in Frameworks */,
 				9EBEC4A22068F3FA0005546A /* AvocarrotNativeView.framework in Frameworks */,
@@ -609,9 +608,9 @@
 				9EBEC4C82068F3FA0005546A /* Chartboost.framework in Frameworks */,
 				9EBEC4E62068F3FA0005546A /* AppLovinSDK.framework in Frameworks */,
 				9EBEC4A62068F3FA0005546A /* AvocarrotBanner.framework in Frameworks */,
-				9EBEC5022068F5400005546A /* libAMRAdapterAdmob.a in Frameworks */,
 				9EBEC4EE2068F3FA0005546A /* libAppnextLib.a in Frameworks */,
 				9EBEC4E22068F3FA0005546A /* libAMRAdapterMobfox.a in Frameworks */,
+				9EBEC52C20692D500005546A /* libAMRAdapterAdmob.a in Frameworks */,
 				2FFD45081D9C8FB60089824D /* AVKit.framework in Frameworks */,
 				9EBEC4522068F3FA0005546A /* libAMRAdapterVungle.a in Frameworks */,
 				9EBEC45A2068F3FA0005546A /* LoopMeSDK.framework in Frameworks */,
@@ -656,7 +655,6 @@
 				2F0878761D9481AC003A208A /* CoreGraphics.framework in Frameworks */,
 				2F0878741D9481A3003A208A /* CFNetwork.framework in Frameworks */,
 				2FC525261D927B6F0095306E /* AVFoundation.framework in Frameworks */,
-				9EBEC5042068F5400005546A /* GoogleMobileAds.framework in Frameworks */,
 				2F0878721D948192003A208A /* AudioToolbox.framework in Frameworks */,
 				2FC526251D93BFCA0095306E /* CoreMotion.framework in Frameworks */,
 				9EBEC4EA2068F3FA0005546A /* libAMRAdapterAmazon.a in Frameworks */,
@@ -704,7 +702,6 @@
 				9EBEC4532068F3FA0005546A /* libAMRAdapterVungle.a in Frameworks */,
 				9E6C12BB2047F5240049645D /* Foundation.framework in Frameworks */,
 				9E6C12BA2047F5150049645D /* libz.tbd in Frameworks */,
-				9EBEC5032068F5400005546A /* libAMRAdapterAdmob.a in Frameworks */,
 				9EBEC4F32068F3FA0005546A /* libAppnextNativeAdsSDK.a in Frameworks */,
 				9EBEC4D72068F3FA0005546A /* libFlurry_8.4.0.a in Frameworks */,
 				9EBEC4C52068F3FA0005546A /* libAMRAdapterChartboost.a in Frameworks */,
@@ -732,7 +729,6 @@
 				9EBEC4932068F3FA0005546A /* libAMRAdapterTapjoy.a in Frameworks */,
 				9EBEC4992068F3FA0005546A /* AvocarrotCore.framework in Frameworks */,
 				9E6C12B02047F4C00049645D /* JavaScriptCore.framework in Frameworks */,
-				9EBEC5052068F5400005546A /* GoogleMobileAds.framework in Frameworks */,
 				9EBEC4952068F3FA0005546A /* libAMRAdapterDFP.a in Frameworks */,
 				9EBEC4B32068F3FA0005546A /* libFyberSDK-8.20.2.a in Frameworks */,
 				9EBEC4F92068F3FA0005546A /* libAMRAdapterStartapp.a in Frameworks */,
@@ -950,7 +946,7 @@
 		2FCCDB861D6B55C000E4414A /* MediationAdapters */ = {
 			isa = PBXGroup;
 			children = (
-				9EBEC4FE2068F53F0005546A /* AMRAdapterAdmob */,
+				9EBEC52820692D500005546A /* AMRAdapterAdmob */,
 				9EBEC4282068F3EC0005546A /* AMRAdapterAdcolony */,
 				9EBEC3F12068F3DA0005546A /* AMRAdapterAdmost */,
 				9EBEC43F2068F3F50005546A /* AMRAdapterAmazon */,
@@ -1417,20 +1413,19 @@
 			path = AMRAdapterStartappInclude;
 			sourceTree = "<group>";
 		};
-		9EBEC4FE2068F53F0005546A /* AMRAdapterAdmob */ = {
+		9EBEC52820692D500005546A /* AMRAdapterAdmob */ = {
 			isa = PBXGroup;
 			children = (
-				9EBEC4FF2068F53F0005546A /* libAMRAdapterAdmob.a */,
-				9EBEC5002068F53F0005546A /* AMRAdapterAdmobInclude */,
+				9EBEC52920692D500005546A /* libAMRAdapterAdmob.a */,
+				9EBEC52A20692D500005546A /* AMRAdapterAdmobInclude */,
 			);
-			name = AMRAdapterAdmob;
-			path = "../../../../../../../Library/Developer/Xcode/DerivedData/AMR-ebmokxgihngmewfglhzrxeqyyzev/Build/Products/Debug-Universal/AMRAdapterAdmob";
+			path = AMRAdapterAdmob;
 			sourceTree = "<group>";
 		};
-		9EBEC5002068F53F0005546A /* AMRAdapterAdmobInclude */ = {
+		9EBEC52A20692D500005546A /* AMRAdapterAdmobInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9EBEC5012068F53F0005546A /* GoogleMobileAds.framework */,
+				9EBEC52B20692D500005546A /* GoogleMobileAds.framework */,
 			);
 			path = AMRAdapterAdmobInclude;
 			sourceTree = "<group>";
