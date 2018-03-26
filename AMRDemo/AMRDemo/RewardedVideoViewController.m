@@ -24,7 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    _rewardedVideo = [AMRRewardedVideo rewardedVideoForZoneId:@"c111d8cc-6441-4bd8-825a-b6d13a2cd957"];
+    _rewardedVideo = [AMRRewardedVideo rewardedVideoForZoneId:@"2bdefd44-5269-4cbc-b93a-373b74a2f067"];
     _rewardedVideo.delegate = self;
     [_rewardedVideo loadRewardedVideo];
 }
