@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
 //        AMRSDK.setUserId("myUniqueUserId")
         
-        AMRSDK.setLogLevel(AMRLogLevel.levelAll)
+        AMRSDK.setLogLevel(AMRLogLevel.levelSilent)
         AMRSDK.start(withAppId: "15066ddc-9c18-492c-8185-bea7e4c7f88c")
         AMRSDK.setStatusBarHidden(true)
         
