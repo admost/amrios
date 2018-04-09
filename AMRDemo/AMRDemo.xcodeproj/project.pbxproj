@@ -342,6 +342,8 @@
 		9E809C50206A466300E42695 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E809B74206A454600E42695 /* UnityAds.framework */; };
 		9E809C51206A466700E42695 /* libAMRAdapterVungle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E809B37206A454500E42695 /* libAMRAdapterVungle.a */; };
 		9E809C52206A466C00E42695 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E809B39206A454500E42695 /* VungleSDK.framework */; };
+		9EC60012207BBDB900443269 /* MPAdBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC60011207BBDB800443269 /* MPAdBrowserController.xib */; };
+		9EC60013207BBDB900443269 /* MPAdBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC60011207BBDB800443269 /* MPAdBrowserController.xib */; };
 		9EC945B0204D60AB00059506 /* BannerTableVAdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945AF204D60AB00059506 /* BannerTableVAdCell.swift */; };
 		9EC945B2204D61A300059506 /* BannerTableVDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945B1204D61A300059506 /* BannerTableVDataCell.swift */; };
 		9EC945B4204D7FCF00059506 /* InterstitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945B3204D7FCF00059506 /* InterstitialVC.swift */; };
@@ -560,6 +562,7 @@
 		9E809BA0206A454700E42695 /* MATMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MATMoatMobileAppKit.framework; sourceTree = "<group>"; };
 		9E809BA1206A454700E42695 /* MobFoxSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobFoxSDKCore.framework; sourceTree = "<group>"; };
 		9E809BA2206A454700E42695 /* libAMRAdapterMobfox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterMobfox.a; sourceTree = "<group>"; };
+		9EC60011207BBDB800443269 /* MPAdBrowserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPAdBrowserController.xib; sourceTree = "<group>"; };
 		9EC945AF204D60AB00059506 /* BannerTableVAdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableVAdCell.swift; sourceTree = "<group>"; };
 		9EC945B1204D61A300059506 /* BannerTableVDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableVDataCell.swift; sourceTree = "<group>"; };
 		9EC945B3204D7FCF00059506 /* InterstitialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialVC.swift; sourceTree = "<group>"; };
@@ -1196,6 +1199,7 @@
 		9E809B4D206A454500E42695 /* AMRAdapterMopubInclude */ = {
 			isa = PBXGroup;
 			children = (
+				9EC60011207BBDB800443269 /* MPAdBrowserController.xib */,
 				9E809B4E206A454500E42695 /* MPUnmutedBtn.png */,
 				9E809B4F206A454500E42695 /* MRAID.bundle */,
 				9E809B50206A454500E42695 /* MPDAAIcon.png */,
@@ -1570,6 +1574,7 @@
 				9E809BC5206A454700E42695 /* MPCloseBtn.png in Resources */,
 				9E809BC1206A454700E42695 /* MPPlayBtn@2x.png in Resources */,
 				9E809BC9206A454700E42695 /* MPCloseButtonX@2x.png in Resources */,
+				9EC60012207BBDB900443269 /* MPAdBrowserController.xib in Resources */,
 				9E809BBD206A454700E42695 /* MPUnmutedBtn.png in Resources */,
 				9E809BCE206A454700E42695 /* MPMutedBtn@3x.png in Resources */,
 				2F7E6AC61E49BE6C00AA6F88 /* 19.jpg in Resources */,
@@ -1602,6 +1607,7 @@
 				9E12C4AB20482A88008E5D0E /* 15.jpg in Resources */,
 				9E809C42206A460E00E42695 /* MPMutedBtn@2x.png in Resources */,
 				9E809C35206A460E00E42695 /* MPCloseBtn@3x.png in Resources */,
+				9EC60013207BBDB900443269 /* MPAdBrowserController.xib in Resources */,
 				9E12C49E20482A22008E5D0E /* AMRNativeAdBaseView250.xib in Resources */,
 				9E809C3C206A460E00E42695 /* MPCloseButtonX@3x.png in Resources */,
 				9E809B1B206A44D000E42695 /* AMRResources.bundle in Resources */,
