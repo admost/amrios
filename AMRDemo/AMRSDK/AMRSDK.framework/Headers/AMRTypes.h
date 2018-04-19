@@ -99,6 +99,9 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
 
     /// FYBER
     AMRNetworkTypeFyber,
+    
+    /// GLISPA
+    AMRNetworkTypeGlispa,
 
     /// HYPERADS
     AMRNetworkTypeHyper,
