@@ -89,9 +89,7 @@
 
 #pragma mark - <AMRAdmostLoaderDelegate>
 
-- (void)didReceiveMediationZones:(NSArray *)zoneIds {
-    ;;
-}
+- (void)didReceiveMediationZones:(NSArray *)zoneIds {}
 
 - (void)didFailWithError:(NSError *)error {}
 

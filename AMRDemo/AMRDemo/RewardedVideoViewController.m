@@ -29,8 +29,6 @@
     [_rewardedVideo loadRewardedVideo];
 }
 
-- (void)dealloc {}
-
 #pragma mark - <AMRRewardedVideoDelegate>
 
 - (void)didReceiveRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
