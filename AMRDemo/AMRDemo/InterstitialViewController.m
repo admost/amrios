@@ -24,6 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    //Interstitial test zone: 39f74377-5682-436a-9338-9d1c4df410bd
     _interstitial = [AMRInterstitial interstitialForZoneId:@"39f74377-5682-436a-9338-9d1c4df410bd"];
 
     _interstitial.delegate = self;

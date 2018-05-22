@@ -141,6 +141,9 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     
     /// NEXTAGE
     AMRNetworkTypeNexAge,
+    
+    /// POLLFISH
+    AMRNetworkTypePollfish,
 
     /// PREMIUM
     AMRNetworkTypePremium,

@@ -21,6 +21,7 @@
 //    [AMRSDK setUserId:@"myUniqueUserId"];
     
     [AMRSDK setLogLevel:AMRLogLevelAll];
+    // Test app id: 15066ddc-9c18-492c-8185-bea7e4c7f88c
     [AMRSDK startWithAppId:@"15066ddc-9c18-492c-8185-bea7e4c7f88c"];
     [AMRSDK setStatusBarHidden:YES];
 //  [AMRSDK setClearCacheOnTerminate:YES];
