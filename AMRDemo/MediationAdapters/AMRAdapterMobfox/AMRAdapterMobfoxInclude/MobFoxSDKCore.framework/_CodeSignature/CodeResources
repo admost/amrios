@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MFConstants.h</key>
 		<data>
-		XDTDDNDuhSD0hTwg1jr16EX6c3A=
+		Qls35pzrlAiT9Q7/v1E7+ve3f4E=
 		</data>
 		<key>Headers/MFEventsHandler.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/MobFoxAd.h</key>
 		<data>
-		ucUdQ4uuz/5Qa/4cHPxpzQLoTQw=
+		4in/yhBsNYc3JlLMQEVOgxL09M4=
 		</data>
 		<key>Headers/MobFoxCustomEvent.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/MobFoxInterstitialAd.h</key>
 		<data>
-		LximNJdUoosGHU0Qx4YxlkwC2uk=
+		HhFStLjnvorOJkMk02SmbB8NWCo=
 		</data>
 		<key>Headers/MobFoxInterstitialCustomEvent.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/MobFoxNativeAd.h</key>
 		<data>
-		v8WNpAjdHkg0HSE5cZIKAdmkHDA=
+		mmg1NhTW4RnL441/mTvAbfzsdXw=
 		</data>
 		<key>Headers/MobFoxNativeCustomEvent.h</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Headers/MobFoxTagAd.h</key>
 		<data>
-		lz+sGlKyW/M+cLRXE54ajhwFf/E=
+		mVK69/RJOJ199oerm0IYTiFtZX0=
 		</data>
 		<key>Headers/MobFoxTagInterstitialAd.h</key>
 		<data>
-		2PulHF0Ocx+nrvh4GYOTcnB5MpY=
+		TuuNWlLGY4klSK7801Kw6T8VkeY=
 		</data>
 		<key>Headers/MobFoxWebView.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iIzM+Qg147dznFmY4xbfWTq7dRw=
+		4DW+nM8AzM5HUiXBJOkKYfhQ+X0=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -99,11 +99,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XDTDDNDuhSD0hTwg1jr16EX6c3A=
+			Qls35pzrlAiT9Q7/v1E7+ve3f4E=
 			</data>
 			<key>hash2</key>
 			<data>
-			VIzlxBTEw5UhRZs+Ms4woFJFJ5BFk/W5IRoTMRMrOJY=
+			BZerWMWC0sGtzED44nfVXNeAK7aVzTPbh5kstRqtCuU=
 			</data>
 		</dict>
 		<key>Headers/MFEventsHandler.h</key>
@@ -143,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ucUdQ4uuz/5Qa/4cHPxpzQLoTQw=
+			4in/yhBsNYc3JlLMQEVOgxL09M4=
 			</data>
 			<key>hash2</key>
 			<data>
-			+Vpz/PhDYyyJz8W7tL0M4WzDAW45UhU51v1Uzb/MGBg=
+			6PJcxZXdHmz1H6y5dqh5ZnEnZDMji2ycM8wQ4C8e/PU=
 			</data>
 		</dict>
 		<key>Headers/MobFoxCustomEvent.h</key>
@@ -165,11 +165,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LximNJdUoosGHU0Qx4YxlkwC2uk=
+			HhFStLjnvorOJkMk02SmbB8NWCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			vFj50j2qUYQJ6hb/Bohmmt712SYGvINiNCKHC7vFg5Q=
+			mzq2JgjDNzPvCLmspYE+qDqN6kvOkSGFTe5rDz+3lMg=
 			</data>
 		</dict>
 		<key>Headers/MobFoxInterstitialCustomEvent.h</key>
@@ -209,11 +209,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v8WNpAjdHkg0HSE5cZIKAdmkHDA=
+			mmg1NhTW4RnL441/mTvAbfzsdXw=
 			</data>
 			<key>hash2</key>
 			<data>
-			uohs/x8c+Mwx3kSGI++0lx/E6HLjP1/kAUA/gN3mogU=
+			ga4U058huOqldRAg13oTLrZ3hMZ/IpXli2L1Ty8hNVo=
 			</data>
 		</dict>
 		<key>Headers/MobFoxNativeCustomEvent.h</key>
@@ -275,22 +275,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lz+sGlKyW/M+cLRXE54ajhwFf/E=
+			mVK69/RJOJ199oerm0IYTiFtZX0=
 			</data>
 			<key>hash2</key>
 			<data>
-			WhxCZGGP+qwDaeqE7byt1yKjAorrXJMO9ITpHl5wktE=
+			UxpgdL6/vB0rR3cMdM0OGHTyYJoe/HRyTIuoYToea5A=
 			</data>
 		</dict>
 		<key>Headers/MobFoxTagInterstitialAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2PulHF0Ocx+nrvh4GYOTcnB5MpY=
+			TuuNWlLGY4klSK7801Kw6T8VkeY=
 			</data>
 			<key>hash2</key>
 			<data>
-			KmlZ79tRUSOTg5dhPeMU4IKjGP4dR0urYlFXTg5B1d8=
+			LL+EuBhiQTZvgquVpxou9TEja70XsqsiV8gVqwocmPQ=
 			</data>
 		</dict>
 		<key>Headers/MobFoxWebView.h</key>

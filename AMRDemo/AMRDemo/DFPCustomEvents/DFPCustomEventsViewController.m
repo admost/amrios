@@ -34,7 +34,18 @@ GADInterstitialDelegate> @end
         _banner.adUnitID = @"ca-app-pub-3297656589511112/8773234182";
         _banner.delegate = self;
         _banner.rootViewController = self;
-        [_banner loadRequest:[GADRequest request]];
+        
+        GADRequest *request = [GADRequest request];
+        
+        /*
+         If user consent is FALSE/NO then use following code.
+         
+         GADExtras *extras = [[GADExtras alloc] init];
+         extras.additionalParameters = @{@"npa": @"1"};
+         [request registerAdNetworkExtras:extras];
+         */
+        
+        [_banner loadRequest:request];
     });
 }
 
@@ -55,6 +66,14 @@ GADInterstitialDelegate> @end
         
         DFPRequest *request = [DFPRequest request];
         
+        /*
+         If user consent is FALSE/NO then use following code.
+         
+         GADExtras *extras = [[GADExtras alloc] init];
+         extras.additionalParameters = @{@"npa": @"1"};
+         [request registerAdNetworkExtras:extras];
+         */
+        
         //parameters
 //        NSMutableDictionary *params = [NSMutableDictionary new];
 //        [params setObject:<YOUR_CUSTOM_NIB_NAME> forKey:@"customeNativeXibName"];
@@ -73,7 +92,18 @@ GADInterstitialDelegate> @end
     dispatch_async(dispatch_get_main_queue(), ^{
         _dFPInterstitial = [[DFPInterstitial alloc] initWithAdUnitID:@"/96769799/amr_ios_interstitial"];
         _dFPInterstitial.delegate = self;
-        [_dFPInterstitial loadRequest:[GADRequest request]];
+        
+        GADRequest *request = [GADRequest request];
+        
+        /*
+        If user consent is FALSE/NO then use following code.
+        
+        GADExtras *extras = [[GADExtras alloc] init];
+        extras.additionalParameters = @{@"npa": @"1"};
+        [request registerAdNetworkExtras:extras];
+        */
+        
+        [_dFPInterstitial loadRequest:request];
     });
 }
 

@@ -11,6 +11,11 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 
+/**
+ * Key for setting the IAB Consent String via `setConsentDataValue:forKey`.
+ */
+extern NSString * __nonnull const MMIABConsentKey;
+
 typedef NS_OPTIONS(NSUInteger, MMLogFlag) {
     MMLogFlagError  = (1 << 0),
     MMLogFlagWarn   = (1 << 1),
@@ -87,6 +92,28 @@ typedef NS_ENUM(NSUInteger, MMLogLevel) {
  * @param userSettings The userSettings object. Optional.
  */
 -(void)initializeWithSettings:(nullable MMAppSettings *)appSettings withUserSettings:(nullable MMUserSettings *)userSettings;
+
+/**
+ * Sets a boolean indicating if a user or app falls under GDPR jurisdiction. In order to comply with GDPR,
+ * if this is set to true and no consent string is set via `setConsentDataValue:forKey:`, user
+ * information will not be used or passed over the network.
+ *
+ * @param consentRequired Set to true if GDPR applies to the user or app, false if GDPR does not apply
+ */
+-(void)setConsentRequired:(BOOL)consentRequired;
+
+/**
+ * Sets consent strings as key value pairs. These will be passed with each ad request.
+ *
+ * @param consentDataValue The consent string value
+ * @param consentDataKey The consent string key
+ */
+-(void)setConsentDataValue:(nullable NSString *)consentDataValue forKey:(nonnull NSString *)consentDataKey;
+
+/**
+ * Clears all consent strings
+ */
+-(void)clearConsentData;
 
 /**
  * The version of the Millennial Ad SDK.

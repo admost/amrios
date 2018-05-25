@@ -112,11 +112,21 @@
                     <a href="#usage">Usage</a>
                     <ul>
                         <li><a href="#initialization">Initialization</a></li>
+                            <ul style="display: block;">
+                                <li><a href="#initgdpr">GDPR</a></li>
+                            </ul>
                         <li><a href="#banner-ads">Banner Ads</a></li>
                         <li><a href="#native-ads">Customize Native Ad Appearance (Optional)</a></li>
                         <li><a href="#interstitial-ads">Interstitial Ads</a></li>
                         <li><a href="#rewarded-video-ads">Rewarded Video Ads</a></li>
                     </ul>
+                </li>
+                <li>
+                    <a href="#gdpr">GDPR</a>
+                        <ul>
+                            <li><a href="#networkcomplience">Network GDPR Complience</a></li>
+                            <li><a href="#gdprrules">GDPR Rules</a></li>
+                         </ul>
                 </li>
                 <li><a href="#extras">Extras</a>
                     <ul>
@@ -351,6 +361,10 @@ RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+//GDPR COMPLIANCE
+[AMRSDK setUserConsent:YES];
+[AMRSDK subjectToGDPR:YES];
+
 [AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];
 
 return YES;
@@ -362,6 +376,12 @@ return YES;
                 <pre><code class="language-markup">
 Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
                 </code></pre>
+
+                <h4 id="initgdpr">GDPR</h4>
+                <p> Once you have collected the user’s consent, you can pass it onto the SDK using the init configuration parameters shown above.  </p> 
+                 <p><code>setUserConsent</code> has a boolean parameter. If you have the user’s consent, set it true. If you do not have the user's consent, set it false.  </p>
+                 <p><code>subjectToGDPR</code> has a boolean parameter. If you know the user is subject to GDPR, set it true. If you know the user is not subject to GDPR, set it false. </p> 
+                <p>If you don’t pass the user’s consent or subjectToGDPR to the SDK, the rules described in  <a href="#gdprrules">GDPR</a>  have been applied.  </p>
 
 
                 <h3 id="banner-ads">Banner Ads</h3>
@@ -596,6 +616,120 @@ rewardedVideo.delegate = self;
 }</code></pre>
 
 
+<h2 id="gdpr">GDPR</h2>
+				 
+                <p>We specified your responsibilities for obtaining consent from end-users of your apps in our updated <a href="https://www.admost.com/privacy-policy">Privacy Policy</a>. By updating GDPR compatible SDK you agree that you’re responsible for inform the end-users and take their consent. 
+						Please note that the consent collection applies only to users located in the European Economic Area, the United Kingdom, and Switzerland.
+						As data controller you should take consent of end-users by preparing consent window, you can find samples below. When you take end-user consent, the response will be passed to Admost SDK. 
+						You can find the implementation  <a href="#init">here</a> </p>
+				<img class="img-responsive"
+                                 src="assets/img/consent.png"
+                                 alt="consent">
+				<h3 id="networkcomplience">Network GDPR Complience</h2>				 
+			   
+			   <table class="table table-bordered table-striped table-info" style = "width:300px ">	
+			    <tr>
+				    <th>Ad Network </th>
+				    <th >GDPR Compatibility</th> 
+				  </tr>
+				  <tr>
+				    <td >Adcolony</td>
+				    <td align="center"> <input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Admob</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Amazon</td>
+				    <td align="center"><input type="checkbox" disabled="disabled"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Applovin</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Appnext</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" ><br></td>
+					<tr>
+				    <td>ChartBoost</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  <tr>
+				    <td>Facebook</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Flurry</td>
+				    <td align="center"><input type="checkbox" disabled="disabled"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Fyber</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Glispa</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>InMobi</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>IronSource</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>LoopMe</td>
+				    <td align="center"><input type="checkbox" disabled="disabled"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Mobfox</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Mopub</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Nexage</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" ><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Smaato</td>
+				    <td align="center"><input type="checkbox" disabled="disabled"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Startapp</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Tapjoy</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Unity</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  <tr>
+				    <td>Vungle</td>
+				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
+				  </tr>
+				  </tr> 
+				  </tr>
+				  
+				</table>
+								 
+				<h3 id="gdprrules">GDPR Rules</h3>
+				
+				<p>Admost provides two methods for GDPR compatibility: <code>[AMRSDK subjectToGDPR:]</code> and <code>[AMRSDK setUserConsent:]</code>.</p> 
+				<p>Publisher have to set <code>[AMRSDK subjectToGDPR:YES]</code> if the user is located in European Union. Otherwise, publisher have to set <code>[AMRSDK subjectToGDPR:NO]</code>  . If publisher does not use this method, SubjectToGDPR status remains as unknown. In this case, Admost SDK automatically determines whether the user is in EU or not which is totally under responsibility of the publisher. If user is in EU, networks are not allowed to show personalized ads. If the user is not located in EU, the ad networks are allowed to show personalized ads. </p> 
+				<p>On condition that, the publisher obtains neither user's SubjectToGDPR status nor any negative legal consequences, SubjectToGDPR must set <code>[AMRSDK subjectToGDPR:YES]</code>  for each user. In this case, Admost considers all users as subject to GDPR and if the consent is not allowed, Admost blocks ad networks to collect data from users. Which may cause a decrease on overall revenue performance apart from Admost. </p> 
+				<p>If the publisher obtains user's consent and sets <code>[AMRSDK setUserConsent:YES]</code>, personalized ads would be shown to the users. Otherwise, the publisher sets <code>[AMRSDK setUserConsent:NO]</code> which would block the personalized ads, unless the user is not subject to GDPR.</p> 
+				<p>If the publisher does not use <code>[AMRSDK setUserConsent:]</code> method , userConsent status remains unknown. In this case, if the publisher provides <code>[AMRSDK subjectToGDPR:YES]</code>, the ad networks do not have ability to serve personalized ads.If the publisher provides <code> [AMRSDK subjectToGDPR:NO]</code>, the ad networks have ability to serve personalized ads.</p> 
+				<p>If the publisher does not provide both <code>[AMRSDK setUserConsent:]</code>  and <code>[AMRSDK subjectToGDPR:]</code>, Admost decides whether the user is located  in EU or not which is totally under responsibility of the publisher. </p> 
+				<p>If the publisher wants to obtain neither the user's consent nor any negative legal consequences, the publisher must set <code>[AMRSDK setUserConsent:NO]</code> for every user. In this case, Admost considers the user has no consent,  the ad networks are not allowed to serve personalized ads, except only the publisher does not provide <code>[AMRSDK subjectToGDPR:NO] </code>.</p>
+					
+
                 <h2 id="extras">Extras</h2>
 
                 <h3 id="dfp">DFP/Admob Mediation Integration</h3>
@@ -736,6 +870,7 @@ banner.bannerWidth = 320;
                         new features, etc.</p>
 
                     <ol class="toc">
+                        <li><a href="#v1.3.55">Version 1.3.55</a></li>
                         <li><a href="#v1.3.43">Version 1.3.43</a></li>
                         <li><a href="#v1.3.38">Version 1.3.38</a></li>
                         <li><a href="#v1.3.35">Version 1.3.35</a></li>
@@ -764,6 +899,32 @@ banner.bannerWidth = 320;
                 </header>
 
              <section id="versions">
+
+    <h3 id="v1.3.55">Version 1.3.55
+                    <small class="release-date">May 25, 2018</small>
+                </h3>
+                <br>
+                <ul class="changelog">
+                    <li class="ch-updated">AMRSDK 1.3.55 &nbsp;&nbsp;<small>&nbsp;~ GDPR compatibility</small></li>
+                    <li class="ch-updated">Adcolony 3.3.4.0 </li>
+                    <li class="ch-updated">Admob 7.31.0.0 </li>
+                    <li class="ch-updated">Applovin 5.0.1.0 </li>
+                    <li class="ch-updated">Charboost 7.2.0.0 </li>
+                    <li class="ch-updated">Facebook 4.28.1.0 </li>
+                    <li class="ch-updated">Flurry 8.6.1.0 </li>
+                    <li class="ch-updated">Fyber 8.21.0.0 </li>
+                    <li class="ch-updated">Inmobi 7.1.1.0 </li>
+                    <li class="ch-updated">Ironsource 6.7.9.0 </li>
+                    <li class="ch-updated">Loopme 6.4.5.3 </li>
+                    <li class="ch-updated">Mobfox 3.5.0.0 </li>
+                    <li class="ch-updated">Mopub 5.0.0.0 </li>
+                    <li class="ch-updated">Nexage 6.8.0.0 </li>
+                    <li class="ch-updated">Smaato 9.0.0.0 </li>
+                    <li class="ch-updated">Startapp 3.7.1.0 </li>
+                    <li class="ch-updated">Tapjoy 11.12.2.0 </li>
+                    <li class="ch-updated">UnityAds 2.2.1.1 </li>
+                    <li class="ch-updated">Vungle 6.2.0.0 </li>
+                </ul>            
 
     <h3 id="v1.3.43">Version 1.3.43
                     <small class="release-date">April 27, 2018</small>

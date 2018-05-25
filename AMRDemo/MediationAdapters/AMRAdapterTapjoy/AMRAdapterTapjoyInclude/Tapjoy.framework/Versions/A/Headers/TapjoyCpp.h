@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2015 Tapjoy, Inc.
+// Copyright (c) 2015 - 2018 Tapjoy, Inc.
 // All rights reserved.
 //
 
@@ -354,6 +354,25 @@ namespace tapjoy {
      *        The action ID of the completed action.
      */
     static void actionComplete(const char* actionID);
+      
+    /**
+     * @brief This can be used by the integrating App to indicate if the user falls in any of the GDPR applicable countries
+     *        (European Economic Area). The value should be set to TRUE when User (Subject) is applicable to GDPR regulations
+     *        and FALSE when User is not applicable to GDPR regulations. In the absence of this call, Tapjoy server makes the
+     *        determination of GDPR applicability.
+     *
+     * @param gdprApplicable
+     *        true if GDPR applies to this user, false otherwise
+     */
+    static void subjectToGDPR(bool gdprApplicable);
+      
+    /**
+     * @brief This is used for sending User's consent to behavioral advertising such as in the context of GDPR
+     *        The consent value can be "0" (User has not provided consent), "1" (User has provided consent) or a daisybit string as suggested in IAB's Transparency and Consent Framework
+     * @param value
+     *        The user consent string
+    */
+    static void setUserConsent(const char* value);
 
 #if defined(ANDROID)
     /**

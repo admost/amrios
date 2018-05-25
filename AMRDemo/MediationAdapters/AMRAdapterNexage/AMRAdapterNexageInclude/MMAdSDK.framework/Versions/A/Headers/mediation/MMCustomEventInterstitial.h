@@ -8,6 +8,8 @@
 #import <Foundation/Foundation.h>
 #import "MMCustomEvent.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @protocol MMCustomEventInterstitial;
 
 /**
@@ -116,17 +118,32 @@
 +(id<MMCustomEventInterstitial>)customEventWithDelegate:(id<MMCustomEventInterstitialDelegate>)delegate;
 
 /**
- * Display the interstital.
+ * Display the interstitial.
+ * This method is deprecated in MMSDK 6.8 in favor of presentFromViewController and will be removed in a
+ * future release.
  *
  * @param   controller  The view control the interstitial must be presented from.
  * @param   animated    Whether or not the display should be animated.
  * @param   transitionStyle The style to be used for the presentation.
  * @param   completion  The completion block that should be called upon the interstitial being presented.
  */
--(void)presentFromController:(UIViewController*)controller
-                    animated:(BOOL)animated
-             transitionStyle:(UIModalTransitionStyle)transitionStyle
-                  completion:(void (^)(void))completion;
+- (void)presentFromController:(UIViewController *)controller
+                     animated:(BOOL)animated
+              transitionStyle:(UIModalTransitionStyle)transitionStyle
+                   completion:(void (^)(void))completion __deprecated;
+
+/**
+ * Display the interstitial.
+ *
+ * @param   controller  The view control the interstitial must be presented from.
+ * @param   animated    Whether or not the display should be animated.
+ * @param   transitionStyle The style to be used for the presentation.
+ * @param   completion  The completion block that should be called upon the interstitial being presented.
+ */
+- (void)presentFromViewController:(UIViewController *)controller
+                         animated:(BOOL)animated
+                  transitionStyle:(UIModalTransitionStyle)transitionStyle
+                       completion:(void (^)(BOOL success, NSError * _Nullable error))completion;
 
 /*
  * Whether or not the interstitial's content is expired. This expiration is independent of the SDK's own
@@ -140,3 +157,5 @@
 @property (nonatomic, readonly, getter=isContentReady) BOOL contentReady;
 
 @end
+
+NS_ASSUME_NONNULL_END

@@ -14,6 +14,11 @@ typedef NS_ENUM(NSInteger, SOMAValue){
 	SOMAValueNotSet=0
 };
 
+typedef NS_ENUM(NSInteger, SOMASubjectToGDPR) {
+    SOMASubjectToGDPR_Unknown = -1,
+    SOMASubjectToGDPR_No = 0,
+    SOMASubjectToGDPR_Yes = 1
+};
 
 #pragma mark -
 #pragma mark - Ad Types

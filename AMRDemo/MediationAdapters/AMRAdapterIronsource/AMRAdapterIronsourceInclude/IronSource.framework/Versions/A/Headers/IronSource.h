@@ -461,6 +461,8 @@ typedef NS_ENUM(NSUInteger, ISBannerSize) {
  */
 + (void)setLogDelegate:(id<ISLogDelegate>)delegate;
 
++ (void)setConsent:(BOOL)consent;
+
 @end
 
 NS_ASSUME_NONNULL_END

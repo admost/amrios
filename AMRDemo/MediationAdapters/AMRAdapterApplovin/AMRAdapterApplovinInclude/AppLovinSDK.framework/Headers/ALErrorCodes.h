@@ -8,6 +8,9 @@
 
 // Loading & Displaying Ads
 
+// Indicates that the SDK is currently disabled.
+#define kALErrorCodeSdkDisabled -22
+
 // Indicates that no ads are currently eligible for your device & location.
 #define kALErrorCodeNoFill 204
 

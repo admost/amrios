@@ -166,6 +166,22 @@
  */
 + (void)startTestSuiteWithZones:(NSArray *)zones;
 
+/**
+ * We specified your responsibilities for obtaining consent from end-users of your apps in our updated Privacy Policy.
+ * By updating GDPR compatible SDK you agree that you’re responsible for inform the end users and take their consent.
+ * Please note that the consent collection applies only to users located in the European Economic Area, the United Kingdom, and Switzerland.
+ * The setUserConsent method takes either NO (user does not consent) or YES (user does consent).
+ * @param consent of the user.
+ */
++ (void)setUserConsent:(BOOL)consent;
+
+/**
+ * You can optionally use subjectToGDPR method to set GDPR applicable to the user or not.
+ * If you do not provide this information AMRSDK will use its own methods.
+ * @param subject for GDPR.
+ */
++ (void)subjectToGDPR:(BOOL)subject;
+
 @end
 
 /**

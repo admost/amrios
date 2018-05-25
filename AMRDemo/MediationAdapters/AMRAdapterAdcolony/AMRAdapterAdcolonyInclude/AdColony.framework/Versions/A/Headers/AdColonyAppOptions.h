@@ -81,7 +81,7 @@ FOUNDATION_EXPORT NSString *const ADCCocos2dx;
 /**
  @abstract Sets the desired ad orientation.
  @discussion Set this property to configure the desired orientation for your ads.
- @see ADCOrientation
+ @see AdColonyOrientation
  */
 @property (nonatomic) AdColonyOrientation adOrientation;
 
@@ -120,6 +120,18 @@ FOUNDATION_EXPORT NSString *const ADCCocos2dx;
  Corresponding value must be 128 characters or less.
  */
 @property (nonatomic, strong, nullable) NSString *pluginVersion;
+
+/**
+ @abstract This is to inform the AdColony service if GDPR should be considered for the user based on if they are they EU citizens or from EU territories. Default is FALSE.
+ @discussion This is for GDPR compliance, see https://www.adcolony.com/gdpr/
+ */
+@property (nonatomic) BOOL gdprRequired;
+
+/**
+ @abstract Defines end user's consent for information collected from the user.
+ @discussion The IAB Europe Transparency and Consent framework defines standard APIs and formats for communicating between Consent Management Platforms (CMPs) collecting consents from end users and vendors embedded on a website or in a mobile application. It provides a unified interface for a seamless integration where CMPs and vendors do not have to integrate manually with hundreds of partners. This is for GDPR compliance through IAB, see https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/v1.1%20Implementation%20Guidelines.md#vendors
+ */
+@property (nonatomic) NSString *gdprConsentString;
 
 @end
 

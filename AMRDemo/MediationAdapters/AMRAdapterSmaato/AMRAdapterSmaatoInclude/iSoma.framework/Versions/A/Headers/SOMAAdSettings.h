@@ -44,7 +44,6 @@
 @property(nonatomic, assign) BOOL httpsOnly;
 
 @property(nonatomic, assign, getter = isFrequencyCappingEnabled) BOOL frequencyCappingEnabled;
-@property(nonatomic, assign, getter = isTestModeEnabled) BOOL testModeEnabled;
 
 @property(nonatomic, assign, getter = isAutoReloadEnabled) BOOL autoReloadEnabled;
 @property(nonatomic, assign) int autoReloadInterval;

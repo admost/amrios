@@ -2,7 +2,7 @@
 //  MMSDKErrors.h
 //  MMAdSDK
 //
-//  Copyright (c) 2015 Millennial Media, Inc. All rights reserved.
+//  Copyright (c) 2015-17 Millennial Media, Inc. All rights reserved.
 //
 
 #ifndef MMAdSDK_Errors_h
@@ -86,6 +86,8 @@ typedef NS_ENUM(NSInteger, MMSDKError) {
     MMSDKErrorMissingInformation = -36,
     /** No registered adpater for the requested ad type. */
     MMSDKErrorMissingAdapter = -37,
+    /** An ad requested an unload. */
+    MMSDKErrorAdUnloaded = -38,
 };
 
 #endif

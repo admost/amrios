@@ -38,7 +38,13 @@ extern BOOL SOMA_CRASHREPORTING_ENABLED;
 
 @interface iSoma : NSObject
 
-+(void)init;
+/**
+    This method of initializing the Smaato SDK is deprecated.
+    The initialization is done silently, the first time an ad request is executed.
+*/
++(void)init DEPRECATED_ATTRIBUTE;
+
++(void)initializeViewability;
 
 +(SOMAAdSettings*) defaultAdSettings;
 
@@ -46,6 +52,8 @@ extern BOOL SOMA_CRASHREPORTING_ENABLED;
 +(NSString*) apiVersion;
 +(NSString*) mraidVersion;
 +(void) setDefaultPublisherId:(NSString*)publisher adSpaceId:(NSString*) adspace;
+
+//@property (class) NSString *consentString;
 
 #pragma mark -
 #pragma mark - Syntactical suger for defaultSettings

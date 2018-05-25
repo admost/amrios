@@ -1,4 +1,4 @@
-// Copyright (C) 2014 by Tapjoy Inc.
+// Copyright (C) 2014 - 2018 by Tapjoy Inc.
 //
 // This file is part of the Tapjoy SDK.
 //
@@ -14,7 +14,6 @@
 #import <UIKit/UIKit.h>
 #import "TapjoyConnectConstants.h"
 #import "TJPlacement.h"
-
 
 #define TJC_DEPRECATION_WARNING(VERSION) __attribute__((deprecated("Go to dev.tapjoy.com for instructions on how to fix this warning")))
 #define TJ_DEPRECATED_CLASS     __attribute__((deprecated("TapjoyConnect Class is deprecated, use Tapjoy Class")))
@@ -92,8 +91,6 @@ typedef void (^networkCompletion)(BOOL success, NSError *error);
  * TJC_OPTION_USER_ID : NSString user id that must be set if your currency is not managed by Tapjoy. If you don’t have a user id on launch you can call setUserID later
  *
  * TJC_OPTION_DISABLE_GENERIC_ERROR_ALERT : BOOL to disable our default error dialogs
- * 
- * TJC_OPTION_MEDIATION_TIMEOUT: int used to set custom timeout interval for mediated requests (seconds)
  *
  * @return n/a
  */
@@ -447,6 +444,25 @@ typedef void (^networkCompletion)(BOOL success, NSError *error);
  * @return n/a
  */
 + (void)showDefaultEarnedCurrencyAlert;
+
+/**
+ * This is used for sending User's consent to behavioral advertising such as in the context of GDPR
+ * The consent value can be "0" (User has not provided consent), "1" (User has provided consent) or
+ * a daisybit string as suggested in IAB's Transparency and Consent Framework
+ *
+ * @param value "0" (User has not provided consent), "1" (User has provided consent) or a daisybit string as suggested in IAB's Transparency and Consent Framework
+ **/
++ (void)setUserConsent:(NSString*) value;
+
+/**
+ * This can be used by the integrating App to indicate if the user falls in any of the GDPR applicable countries
+ * (European Economic Area). The value should be set to YES when User (Subject) is applicable to GDPR regulations
+ * and NO when User is not applicable to GDPR regulations. In the absence of this call, Tapjoy server makes the
+ * determination of GDPR applicability.
+ *
+ * @param gdprApplicability YES if the user is affected by GDPR, NO if they are not.
+ */
++(void)subjectToGDPR:(BOOL) gdprApplicability;
 
 @end
 

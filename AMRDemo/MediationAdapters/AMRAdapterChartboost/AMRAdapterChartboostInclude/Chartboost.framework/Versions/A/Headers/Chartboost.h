@@ -387,6 +387,24 @@
  */
 + (BOOL)getAutoIAPTracking;
 
+/*!
+ @abstract
+ Mute/unmute chartboost ads.
+ @param mute YES all sounds, NO activates them. Default is NO
+ @discussion default value is NO
+ */
++ (void)setMuted:(BOOL)mute;
+
+/*!
+ @abstract
+ Set to restrict Chartboost's ability to collect personal data from the device. When this is set to YES. IDFA and ip address will not
+ be collected by the SDK or the server. Use this to communicate an EEU Data Subject's preference regarding data collection.
+ Note: This method should be called before starting the Chartboost SDK with startWithAppId:appSignature:delegate.
+ @param restrict: Whether to restrict data collection or not
+ @discussion Default value is NOT
+ */
++ (void)restrictDataCollection:(BOOL)shouldRestrict;
+
 #pragma mark - Deprecated
 + (BOOL)hasMoreApps:(CBLocation)location  __attribute__((deprecated("This method is deprecated will always return false")));
 + (void)showMoreApps:(CBLocation)location __attribute__((deprecated("This method is deprecated and is a no-op")));

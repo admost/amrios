@@ -119,6 +119,26 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(void)interstitialAdWillLeaveApplication:(MMInterstitialAd*)ad;
 
+/**
+ * Callback fired when a bid request succeeds.
+ *
+ * This method is always invoked on the main thread.
+ *
+ * @param ad The ad placement which was successfully requested.
+ * @param bid The bid price returned by the bid request
+ */
+-(void)interstitialAdLoadDidSucceed:(MMInterstitialAd*)ad withBid:(NSString *)bid;
+
+/**
+ * Callback indicating that the bid request failed.
+ *
+ * This method is always called on the main thread.
+ *
+ * @param ad The ad placement for which the request failed.
+ * @param error The error indicating the failure.
+ */
+-(void)interstitialAd:(MMInterstitialAd*)ad bidRequestDidFailWithError:(NSError*)error;
+
 @end
 
 

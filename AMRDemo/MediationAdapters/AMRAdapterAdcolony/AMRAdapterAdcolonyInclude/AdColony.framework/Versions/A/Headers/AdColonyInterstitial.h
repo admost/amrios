@@ -5,6 +5,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ AdColony interstitial ad object
+ */
 @interface AdColonyInterstitial : NSObject
 
 /** @name Properties */

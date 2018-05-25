@@ -59,6 +59,8 @@ typedef NS_ENUM (NSInteger, MMPolitics) {
  * The object used to configure persistent app-wide settings for the current user of the application.
  * If your application collects user profile information, this object should be updated whenever that 
  * information changes.
+ *
+ * Please note that the information set in this object WILL NOT be sent on ad requests for users under the jurisdiction of GDPR or similar future privacy regulations that have not consented to the use of their personal data for advertising purposes.
  */
 @interface MMUserSettings : NSObject
 

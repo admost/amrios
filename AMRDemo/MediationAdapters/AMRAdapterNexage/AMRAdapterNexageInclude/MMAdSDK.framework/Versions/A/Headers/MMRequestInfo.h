@@ -16,7 +16,10 @@
  */
 @interface MMRequestInfo : NSObject
 
-/** Keywords relevant to this individual request, e.g. `["videotapes"]` */
+/** Keywords relevant to this individual request, e.g. `["videotapes"]`
+ *
+ * Please note that this API must not be used to send personal data about your users. Use the UserSettings object to send user profile information in your ad requests.
+ */
 @property (nonatomic, copy, nullable) NSArray* keywords;
 
 /**
@@ -26,6 +29,8 @@
 
 /**
  * Add custom targeting key value pairs.  These values are passed on each ad request.
+ *
+ * Please note that this API must not be used to send personal data about your users. Use the UserSettings object to send user profile information in your ad requests.
  *
  * @param customTargetKey   The custom targeting key. (Null, empty string and white space only values will not be added to the request)
  * @param customTargetValue The custom targeting value. (Null, empty string and white space only values will delete the key value pair)

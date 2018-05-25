@@ -19,10 +19,10 @@ extern NSString* __nonnull const MMAppSettingsCOPPADisabled;
 @interface MMAppSettings : NSObject
 
 /** The siteId of this application. */
-@property (nonatomic, copy, nullable) NSString *siteId;
+@property (atomic, copy, nullable) NSString *siteId;
 
 /** The mediator initializing ad requests. Should only be set by mediation adapters. */
-@property (nonatomic, copy, nullable) NSString *mediator;
+@property (atomic, copy, nullable) NSString *mediator;
 
 /**
  * Returns the current state of COPPA (Children's Online Privacy Protection Act) for the SDK.
@@ -30,14 +30,29 @@ extern NSString* __nonnull const MMAppSettingsCOPPADisabled;
  * Returns `nil` if this value has not been explicitly set, otherwise returns `MMAppSettingsCOPPAEnabled` or
  * `MMAppSettingsCOPPADisabled`.
  */
-@property (nonatomic, readonly, nullable) NSString *coppa;
+@property (readonly, nullable) NSString *coppa;
 
 /**
- * Set to `YES` to enforce COPPA (Children's Online Privacy Protection Act) restrictions on ads returned by the ad server.
+ * Set to `YES` to convey to ad buyers that COPPA (Children's Online Privacy Protection Act) restrictions need to be enforced for requests from this user.
  *
  * @param compliance Whether COPPA compliance is enforced.
-*/
+ */
 - (void)setCoppaCompliance:(BOOL)compliance;
+
+/**
+ * Set to YES to include the app's bundle identifier, e.g. "com.company.appname", within the MRAID
+ * environment settings.
+ *
+ * Default is NO.
+ */
+@property (atomic) BOOL mraidIncludeBundleID;
+
+/**
+ * Set to YES to include the Identifier For Advertiser within the MRAID environment settings.
+ *
+ * Default is NO.
+ */
+@property (atomic) BOOL mraidIncludeIDFA;
 
 @end
 
