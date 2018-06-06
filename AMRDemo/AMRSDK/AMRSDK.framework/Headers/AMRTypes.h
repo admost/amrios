@@ -64,6 +64,9 @@ typedef NS_ENUM(NSInteger, AMRNetworkType){
     /// ADMOST
     AMRNetworkTypeAdMost,
 
+    /// ADTIMING
+    AMRNetworkTypeAdtiming,
+    
     /// ADX
     AMRNetworkTypeAdX,
 

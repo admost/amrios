@@ -164,190 +164,190 @@
 		9E809B1B206A44D000E42695 /* AMRResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E809B15206A44C800E42695 /* AMRResources.bundle */; };
 		9E809B1C206A44D300E42695 /* AMRSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E809B12206A44C800E42695 /* AMRSDK.framework */; };
 		9E809B1D206A44D300E42695 /* KKLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E809B13206A44C800E42695 /* KKLog.framework */; };
+		9EB02FD520C7DB240003D875 /* libAMRAdapterApplovin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5020C7DB220003D875 /* libAMRAdapterApplovin.a */; };
+		9EB02FD620C7DB240003D875 /* libAMRAdapterApplovin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5020C7DB220003D875 /* libAMRAdapterApplovin.a */; };
+		9EB02FD720C7DB240003D875 /* AppLovinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5220C7DB220003D875 /* AppLovinSDK.framework */; };
+		9EB02FD820C7DB240003D875 /* AppLovinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5220C7DB220003D875 /* AppLovinSDK.framework */; };
+		9EB02FD920C7DB240003D875 /* libAMRAdapterAvocarrot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5420C7DB220003D875 /* libAMRAdapterAvocarrot.a */; };
+		9EB02FDA20C7DB240003D875 /* libAMRAdapterAvocarrot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5420C7DB220003D875 /* libAMRAdapterAvocarrot.a */; };
+		9EB02FDB20C7DB240003D875 /* AvocarrotCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5620C7DB220003D875 /* AvocarrotCore.framework */; };
+		9EB02FDC20C7DB240003D875 /* AvocarrotCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5620C7DB220003D875 /* AvocarrotCore.framework */; };
+		9EB02FDD20C7DB240003D875 /* AvocarrotVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5720C7DB220003D875 /* AvocarrotVideo.framework */; };
+		9EB02FDE20C7DB240003D875 /* AvocarrotVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5720C7DB220003D875 /* AvocarrotVideo.framework */; };
+		9EB02FDF20C7DB240003D875 /* AvocarrotInsights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5820C7DB220003D875 /* AvocarrotInsights.framework */; };
+		9EB02FE020C7DB240003D875 /* AvocarrotInsights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5820C7DB220003D875 /* AvocarrotInsights.framework */; };
+		9EB02FE120C7DB240003D875 /* Mraid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5920C7DB220003D875 /* Mraid.framework */; };
+		9EB02FE220C7DB240003D875 /* Mraid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5920C7DB220003D875 /* Mraid.framework */; };
+		9EB02FE320C7DB240003D875 /* Vast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5A20C7DB220003D875 /* Vast.framework */; };
+		9EB02FE420C7DB240003D875 /* Vast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5A20C7DB220003D875 /* Vast.framework */; };
+		9EB02FE520C7DB240003D875 /* AvocarrotNativeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5B20C7DB220003D875 /* AvocarrotNativeView.framework */; };
+		9EB02FE620C7DB240003D875 /* AvocarrotNativeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5B20C7DB220003D875 /* AvocarrotNativeView.framework */; };
+		9EB02FE720C7DB240003D875 /* AvocarrotInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5C20C7DB220003D875 /* AvocarrotInterstitial.framework */; };
+		9EB02FE820C7DB240003D875 /* AvocarrotInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5C20C7DB220003D875 /* AvocarrotInterstitial.framework */; };
+		9EB02FE920C7DB240003D875 /* AvocarrotBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5D20C7DB220003D875 /* AvocarrotBanner.framework */; };
+		9EB02FEA20C7DB240003D875 /* AvocarrotBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5D20C7DB220003D875 /* AvocarrotBanner.framework */; };
+		9EB02FEB20C7DB240003D875 /* AvocarrotNativeAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5E20C7DB220003D875 /* AvocarrotNativeAssets.framework */; };
+		9EB02FEC20C7DB240003D875 /* AvocarrotNativeAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F5E20C7DB220003D875 /* AvocarrotNativeAssets.framework */; };
+		9EB02FED20C7DB240003D875 /* libAMRAdapterLoopme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6020C7DB220003D875 /* libAMRAdapterLoopme.a */; };
+		9EB02FEE20C7DB240003D875 /* libAMRAdapterLoopme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6020C7DB220003D875 /* libAMRAdapterLoopme.a */; };
+		9EB02FEF20C7DB240003D875 /* LoopMeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02F6220C7DB220003D875 /* LoopMeResources.bundle */; };
+		9EB02FF020C7DB240003D875 /* LoopMeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02F6220C7DB220003D875 /* LoopMeResources.bundle */; };
+		9EB02FF120C7DB240003D875 /* LoopMeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6320C7DB220003D875 /* LoopMeSDK.framework */; };
+		9EB02FF220C7DB240003D875 /* LoopMeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6320C7DB220003D875 /* LoopMeSDK.framework */; };
+		9EB02FF320C7DB240003D875 /* libAMRAdapterNexage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6520C7DB220003D875 /* libAMRAdapterNexage.a */; };
+		9EB02FF420C7DB240003D875 /* libAMRAdapterNexage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6520C7DB220003D875 /* libAMRAdapterNexage.a */; };
+		9EB02FF520C7DB240003D875 /* MMAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6720C7DB220003D875 /* MMAdSDK.framework */; };
+		9EB02FF620C7DB240003D875 /* MMAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6720C7DB220003D875 /* MMAdSDK.framework */; };
+		9EB02FF720C7DB240003D875 /* libAMRAdapterStartapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6920C7DB220003D875 /* libAMRAdapterStartapp.a */; };
+		9EB02FF820C7DB240003D875 /* libAMRAdapterStartapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6920C7DB220003D875 /* libAMRAdapterStartapp.a */; };
+		9EB02FF920C7DB240003D875 /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6B20C7DB220003D875 /* StartApp.framework */; };
+		9EB02FFA20C7DB240003D875 /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6B20C7DB220003D875 /* StartApp.framework */; };
+		9EB02FFB20C7DB240003D875 /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02F6C20C7DB220003D875 /* StartApp.bundle */; };
+		9EB02FFC20C7DB240003D875 /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02F6C20C7DB220003D875 /* StartApp.bundle */; };
+		9EB02FFD20C7DB240003D875 /* AmazonAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6F20C7DB220003D875 /* AmazonAd.framework */; };
+		9EB02FFE20C7DB240003D875 /* AmazonAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F6F20C7DB220003D875 /* AmazonAd.framework */; };
+		9EB02FFF20C7DB240003D875 /* libAMRAdapterAmazon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7020C7DB220003D875 /* libAMRAdapterAmazon.a */; };
+		9EB0300020C7DB240003D875 /* libAMRAdapterAmazon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7020C7DB220003D875 /* libAMRAdapterAmazon.a */; };
+		9EB0300120C7DB240003D875 /* libAMRAdapterAppnext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7220C7DB220003D875 /* libAMRAdapterAppnext.a */; };
+		9EB0300220C7DB240003D875 /* libAMRAdapterAppnext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7220C7DB220003D875 /* libAMRAdapterAppnext.a */; };
+		9EB0300320C7DB240003D875 /* libAppnextLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7420C7DB220003D875 /* libAppnextLib.a */; };
+		9EB0300420C7DB240003D875 /* libAppnextLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7420C7DB220003D875 /* libAppnextLib.a */; };
+		9EB0300520C7DB240003D875 /* libAppnextSDKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7520C7DB220003D875 /* libAppnextSDKCore.a */; };
+		9EB0300620C7DB240003D875 /* libAppnextSDKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7520C7DB220003D875 /* libAppnextSDKCore.a */; };
+		9EB0300720C7DB240003D875 /* libAppnextNativeAdsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7620C7DB220003D875 /* libAppnextNativeAdsSDK.a */; };
+		9EB0300820C7DB240003D875 /* libAppnextNativeAdsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7620C7DB220003D875 /* libAppnextNativeAdsSDK.a */; };
+		9EB0300920C7DB240003D875 /* MATMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7920C7DB220003D875 /* MATMoatMobileAppKit.framework */; };
+		9EB0300A20C7DB240003D875 /* MATMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7920C7DB220003D875 /* MATMoatMobileAppKit.framework */; };
+		9EB0300B20C7DB240003D875 /* MobFoxSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7A20C7DB220003D875 /* MobFoxSDKCore.framework */; };
+		9EB0300C20C7DB240003D875 /* MobFoxSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7A20C7DB220003D875 /* MobFoxSDKCore.framework */; };
+		9EB0300D20C7DB240003D875 /* libAMRAdapterMobfox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7B20C7DB220003D875 /* libAMRAdapterMobfox.a */; };
+		9EB0300E20C7DB240003D875 /* libAMRAdapterMobfox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7B20C7DB220003D875 /* libAMRAdapterMobfox.a */; };
+		9EB0300F20C7DB240003D875 /* libAMRAdapterDFP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7D20C7DB220003D875 /* libAMRAdapterDFP.a */; };
+		9EB0301020C7DB240003D875 /* libAMRAdapterDFP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7D20C7DB220003D875 /* libAMRAdapterDFP.a */; };
+		9EB0301120C7DB240003D875 /* libAMRAdapterInmobi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7F20C7DB220003D875 /* libAMRAdapterInmobi.a */; };
+		9EB0301220C7DB240003D875 /* libAMRAdapterInmobi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F7F20C7DB220003D875 /* libAMRAdapterInmobi.a */; };
+		9EB0301320C7DB240003D875 /* InMobiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8120C7DB220003D875 /* InMobiSDK.framework */; };
+		9EB0301420C7DB240003D875 /* InMobiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8120C7DB220003D875 /* InMobiSDK.framework */; };
+		9EB0301520C7DB240003D875 /* SMAMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8420C7DB230003D875 /* SMAMoatMobileAppKit.framework */; };
+		9EB0301620C7DB240003D875 /* SMAMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8420C7DB230003D875 /* SMAMoatMobileAppKit.framework */; };
+		9EB0301720C7DB240003D875 /* iSoma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8520C7DB230003D875 /* iSoma.framework */; };
+		9EB0301820C7DB240003D875 /* iSoma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8520C7DB230003D875 /* iSoma.framework */; };
+		9EB0301920C7DB240003D875 /* libAMRAdapterSmaato.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8620C7DB230003D875 /* libAMRAdapterSmaato.a */; };
+		9EB0301A20C7DB240003D875 /* libAMRAdapterSmaato.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8620C7DB230003D875 /* libAMRAdapterSmaato.a */; };
+		9EB0301B20C7DB240003D875 /* libAMRAdapterAdmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8820C7DB230003D875 /* libAMRAdapterAdmob.a */; };
+		9EB0301C20C7DB240003D875 /* libAMRAdapterAdmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8820C7DB230003D875 /* libAMRAdapterAdmob.a */; };
+		9EB0301D20C7DB240003D875 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8A20C7DB230003D875 /* GoogleMobileAds.framework */; };
+		9EB0301E20C7DB240003D875 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8A20C7DB230003D875 /* GoogleMobileAds.framework */; };
+		9EB0301F20C7DB240003D875 /* AMRAdapterAdmostResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02F8D20C7DB230003D875 /* AMRAdapterAdmostResources.bundle */; };
+		9EB0302020C7DB240003D875 /* AMRAdapterAdmostResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02F8D20C7DB230003D875 /* AMRAdapterAdmostResources.bundle */; };
+		9EB0302120C7DB240003D875 /* libAMRAdapterAdmost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8E20C7DB230003D875 /* libAMRAdapterAdmost.a */; };
+		9EB0302220C7DB240003D875 /* libAMRAdapterAdmost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F8E20C7DB230003D875 /* libAMRAdapterAdmost.a */; };
+		9EB0302320C7DB240003D875 /* libAMRAdapterIronsource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9020C7DB230003D875 /* libAMRAdapterIronsource.a */; };
+		9EB0302420C7DB240003D875 /* libAMRAdapterIronsource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9020C7DB230003D875 /* libAMRAdapterIronsource.a */; };
+		9EB0302520C7DB240003D875 /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9220C7DB230003D875 /* IronSource.framework */; };
+		9EB0302620C7DB240003D875 /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9220C7DB230003D875 /* IronSource.framework */; };
+		9EB0302720C7DB240003D875 /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9520C7DB230003D875 /* Tapjoy.framework */; };
+		9EB0302820C7DB240003D875 /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9520C7DB230003D875 /* Tapjoy.framework */; };
+		9EB0302920C7DB240003D875 /* TapjoyResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02F9620C7DB230003D875 /* TapjoyResources.bundle */; };
+		9EB0302A20C7DB240003D875 /* TapjoyResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02F9620C7DB230003D875 /* TapjoyResources.bundle */; };
+		9EB0302B20C7DB240003D875 /* libAMRAdapterTapjoy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9720C7DB230003D875 /* libAMRAdapterTapjoy.a */; };
+		9EB0302C20C7DB240003D875 /* libAMRAdapterTapjoy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9720C7DB230003D875 /* libAMRAdapterTapjoy.a */; };
+		9EB0302D20C7DB240003D875 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9A20C7DB230003D875 /* AdColony.framework */; };
+		9EB0302E20C7DB240003D875 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9A20C7DB230003D875 /* AdColony.framework */; };
+		9EB0302F20C7DB240003D875 /* libAMRAdapterAdcolony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9B20C7DB230003D875 /* libAMRAdapterAdcolony.a */; };
+		9EB0303020C7DB240003D875 /* libAMRAdapterAdcolony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9B20C7DB230003D875 /* libAMRAdapterAdcolony.a */; };
+		9EB0303120C7DB240003D875 /* libAMRAdapterUnity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9D20C7DB230003D875 /* libAMRAdapterUnity.a */; };
+		9EB0303220C7DB240003D875 /* libAMRAdapterUnity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9D20C7DB230003D875 /* libAMRAdapterUnity.a */; };
+		9EB0303320C7DB240003D875 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9F20C7DB230003D875 /* UnityAds.framework */; };
+		9EB0303420C7DB240003D875 /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02F9F20C7DB230003D875 /* UnityAds.framework */; };
+		9EB0303520C7DB240003D875 /* libFlurryAds_8.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FA220C7DB230003D875 /* libFlurryAds_8.6.1.a */; };
+		9EB0303620C7DB240003D875 /* libFlurryAds_8.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FA220C7DB230003D875 /* libFlurryAds_8.6.1.a */; };
+		9EB0303720C7DB240003D875 /* libFlurry_8.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FA320C7DB230003D875 /* libFlurry_8.6.1.a */; };
+		9EB0303820C7DB240003D875 /* libFlurry_8.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FA320C7DB230003D875 /* libFlurry_8.6.1.a */; };
+		9EB0303920C7DB240003D875 /* starburst_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FA420C7DB230003D875 /* starburst_white.png */; };
+		9EB0303A20C7DB240003D875 /* starburst_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FA420C7DB230003D875 /* starburst_white.png */; };
+		9EB0303B20C7DB240003D875 /* libAMRAdapterFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FA520C7DB230003D875 /* libAMRAdapterFlurry.a */; };
+		9EB0303C20C7DB240003D875 /* libAMRAdapterFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FA520C7DB230003D875 /* libAMRAdapterFlurry.a */; };
+		9EB0303D20C7DB240003D875 /* libAMRAdapterVungle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FA720C7DB230003D875 /* libAMRAdapterVungle.a */; };
+		9EB0303E20C7DB240003D875 /* libAMRAdapterVungle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FA720C7DB230003D875 /* libAMRAdapterVungle.a */; };
+		9EB0303F20C7DB240003D875 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FA920C7DB230003D875 /* VungleSDK.framework */; };
+		9EB0304020C7DB240003D875 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FA920C7DB230003D875 /* VungleSDK.framework */; };
+		9EB0304120C7DB240003D875 /* libAMRAdapterMopub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FAB20C7DB230003D875 /* libAMRAdapterMopub.a */; };
+		9EB0304220C7DB240003D875 /* libAMRAdapterMopub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FAB20C7DB230003D875 /* libAMRAdapterMopub.a */; };
+		9EB0304320C7DB240003D875 /* MPUnmutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FAD20C7DB230003D875 /* MPUnmutedBtn.png */; };
+		9EB0304420C7DB240003D875 /* MPUnmutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FAD20C7DB230003D875 /* MPUnmutedBtn.png */; };
+		9EB0304520C7DB240003D875 /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FAE20C7DB230003D875 /* MRAID.bundle */; };
+		9EB0304620C7DB240003D875 /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FAE20C7DB230003D875 /* MRAID.bundle */; };
+		9EB0304720C7DB240003D875 /* MPDAAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FAF20C7DB230003D875 /* MPDAAIcon.png */; };
+		9EB0304820C7DB240003D875 /* MPDAAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FAF20C7DB230003D875 /* MPDAAIcon.png */; };
+		9EB0304920C7DB240003D875 /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB020C7DB230003D875 /* MPUnmutedBtn@3x.png */; };
+		9EB0304A20C7DB240003D875 /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB020C7DB230003D875 /* MPUnmutedBtn@3x.png */; };
+		9EB0304B20C7DB240003D875 /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB120C7DB230003D875 /* MPPlayBtn@2x.png */; };
+		9EB0304C20C7DB240003D875 /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB120C7DB230003D875 /* MPPlayBtn@2x.png */; };
+		9EB0304D20C7DB240003D875 /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB220C7DB230003D875 /* MPCloseBtn@2x.png */; };
+		9EB0304E20C7DB240003D875 /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB220C7DB230003D875 /* MPCloseBtn@2x.png */; };
+		9EB0304F20C7DB240003D875 /* MPUBMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FB320C7DB230003D875 /* MPUBMoatMobileAppKit.framework */; };
+		9EB0305020C7DB240003D875 /* MPUBMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FB320C7DB230003D875 /* MPUBMoatMobileAppKit.framework */; };
+		9EB0305120C7DB240003D875 /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB420C7DB230003D875 /* MPCloseBtn@3x.png */; };
+		9EB0305220C7DB240003D875 /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB420C7DB230003D875 /* MPCloseBtn@3x.png */; };
+		9EB0305320C7DB240003D875 /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB520C7DB230003D875 /* MPCloseBtn.png */; };
+		9EB0305420C7DB240003D875 /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB520C7DB230003D875 /* MPCloseBtn.png */; };
+		9EB0305520C7DB240003D875 /* MPPlayBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB620C7DB230003D875 /* MPPlayBtn@3x.png */; };
+		9EB0305620C7DB240003D875 /* MPPlayBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB620C7DB230003D875 /* MPPlayBtn@3x.png */; };
+		9EB0305720C7DB240003D875 /* MPAdBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB720C7DB230003D875 /* MPAdBrowserController.xib */; };
+		9EB0305820C7DB240003D875 /* MPAdBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB720C7DB230003D875 /* MPAdBrowserController.xib */; };
+		9EB0305920C7DB240003D875 /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB820C7DB230003D875 /* MPUnmutedBtn@2x.png */; };
+		9EB0305A20C7DB240003D875 /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB820C7DB230003D875 /* MPUnmutedBtn@2x.png */; };
+		9EB0305B20C7DB240003D875 /* MPCountdownTimer.html in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB920C7DB230003D875 /* MPCountdownTimer.html */; };
+		9EB0305C20C7DB240003D875 /* MPCountdownTimer.html in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FB920C7DB230003D875 /* MPCountdownTimer.html */; };
+		9EB0305D20C7DB240003D875 /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FBA20C7DB230003D875 /* MPCloseButtonX@2x.png */; };
+		9EB0305E20C7DB240003D875 /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FBA20C7DB230003D875 /* MPCloseButtonX@2x.png */; };
+		9EB0305F20C7DB240003D875 /* libAvid-mopub-3.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FBB20C7DB230003D875 /* libAvid-mopub-3.6.1.a */; };
+		9EB0306020C7DB240003D875 /* libAvid-mopub-3.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FBB20C7DB230003D875 /* libAvid-mopub-3.6.1.a */; };
+		9EB0306120C7DB240003D875 /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FBC20C7DB230003D875 /* MPCloseButtonX@3x.png */; };
+		9EB0306220C7DB240003D875 /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FBC20C7DB230003D875 /* MPCloseButtonX@3x.png */; };
+		9EB0306320C7DB240003D875 /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FBD20C7DB230003D875 /* MPCloseButtonX.png */; };
+		9EB0306420C7DB240003D875 /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FBD20C7DB230003D875 /* MPCloseButtonX.png */; };
+		9EB0306520C7DB240003D875 /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FBE20C7DB230003D875 /* MPDAAIcon@3x.png */; };
+		9EB0306620C7DB240003D875 /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FBE20C7DB230003D875 /* MPDAAIcon@3x.png */; };
+		9EB0306720C7DB240003D875 /* MPMutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FBF20C7DB230003D875 /* MPMutedBtn@3x.png */; };
+		9EB0306820C7DB240003D875 /* MPMutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FBF20C7DB230003D875 /* MPMutedBtn@3x.png */; };
+		9EB0306920C7DB240003D875 /* MPPlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FC020C7DB230003D875 /* MPPlayBtn.png */; };
+		9EB0306A20C7DB240003D875 /* MPPlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FC020C7DB230003D875 /* MPPlayBtn.png */; };
+		9EB0306B20C7DB240003D875 /* MPMutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FC120C7DB230003D875 /* MPMutedBtn.png */; };
+		9EB0306C20C7DB240003D875 /* MPMutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FC120C7DB230003D875 /* MPMutedBtn.png */; };
+		9EB0306D20C7DB240003D875 /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FC220C7DB230003D875 /* MPMutedBtn@2x.png */; };
+		9EB0306E20C7DB240003D875 /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FC220C7DB230003D875 /* MPMutedBtn@2x.png */; };
+		9EB0306F20C7DB240003D875 /* MPDAAIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FC320C7DB230003D875 /* MPDAAIcon@2x.png */; };
+		9EB0307020C7DB240003D875 /* MPDAAIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FC320C7DB230003D875 /* MPDAAIcon@2x.png */; };
+		9EB0307120C7DB240003D875 /* libAMRAdapterFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FC520C7DB240003D875 /* libAMRAdapterFacebook.a */; };
+		9EB0307220C7DB240003D875 /* libAMRAdapterFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FC520C7DB240003D875 /* libAMRAdapterFacebook.a */; };
+		9EB0307320C7DB240003D875 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FC720C7DB240003D875 /* FBAudienceNetwork.framework */; };
+		9EB0307420C7DB240003D875 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FC720C7DB240003D875 /* FBAudienceNetwork.framework */; };
+		9EB0307520C7DB240003D875 /* libAMRAdapterChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FC920C7DB240003D875 /* libAMRAdapterChartboost.a */; };
+		9EB0307620C7DB240003D875 /* libAMRAdapterChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FC920C7DB240003D875 /* libAMRAdapterChartboost.a */; };
+		9EB0307720C7DB240003D875 /* CHAMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FCB20C7DB240003D875 /* CHAMoatMobileAppKit.framework */; };
+		9EB0307820C7DB240003D875 /* CHAMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FCB20C7DB240003D875 /* CHAMoatMobileAppKit.framework */; };
+		9EB0307920C7DB240003D875 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FCC20C7DB240003D875 /* Chartboost.framework */; };
+		9EB0307A20C7DB240003D875 /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FCC20C7DB240003D875 /* Chartboost.framework */; };
+		9EB0307B20C7DB240003D875 /* StartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FCF20C7DB240003D875 /* StartedBundleIcon.png */; };
+		9EB0307C20C7DB240003D875 /* StartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FCF20C7DB240003D875 /* StartedBundleIcon.png */; };
+		9EB0307D20C7DB240003D875 /* FYBBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FD020C7DB240003D875 /* FYBBackIcon@2x.png */; };
+		9EB0307E20C7DB240003D875 /* FYBBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FD020C7DB240003D875 /* FYBBackIcon@2x.png */; };
+		9EB0307F20C7DB240003D875 /* UnstartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FD120C7DB240003D875 /* UnstartedBundleIcon.png */; };
+		9EB0308020C7DB240003D875 /* UnstartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FD120C7DB240003D875 /* UnstartedBundleIcon.png */; };
+		9EB0308120C7DB240003D875 /* FYBIntegrationAnalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FD220C7DB240003D875 /* FYBIntegrationAnalyzerViewController.xib */; };
+		9EB0308220C7DB240003D875 /* FYBIntegrationAnalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB02FD220C7DB240003D875 /* FYBIntegrationAnalyzerViewController.xib */; };
+		9EB0308320C7DB240003D875 /* libFyberSDK-8.21.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FD320C7DB240003D875 /* libFyberSDK-8.21.0.a */; };
+		9EB0308420C7DB240003D875 /* libFyberSDK-8.21.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FD320C7DB240003D875 /* libFyberSDK-8.21.0.a */; };
+		9EB0308520C7DB240003D875 /* libAMRAdapterFyber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FD420C7DB240003D875 /* libAMRAdapterFyber.a */; };
+		9EB0308620C7DB240003D875 /* libAMRAdapterFyber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB02FD420C7DB240003D875 /* libAMRAdapterFyber.a */; };
 		9EC945B0204D60AB00059506 /* BannerTableVAdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945AF204D60AB00059506 /* BannerTableVAdCell.swift */; };
 		9EC945B2204D61A300059506 /* BannerTableVDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945B1204D61A300059506 /* BannerTableVDataCell.swift */; };
 		9EC945B4204D7FCF00059506 /* InterstitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945B3204D7FCF00059506 /* InterstitialVC.swift */; };
 		9EC945B6204D818100059506 /* RewardedVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945B5204D818100059506 /* RewardedVideoVC.swift */; };
 		9EC945B8204D82E700059506 /* OfferWallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945B7204D82E700059506 /* OfferWallVC.swift */; };
 		9EC945BA204D849E00059506 /* SpendCurrencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC945B9204D849E00059506 /* SpendCurrencyVC.swift */; };
-		9ECD1BA320BD4A940051F62D /* libAMRAdapterApplovin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B1E20BD4A8F0051F62D /* libAMRAdapterApplovin.a */; };
-		9ECD1BA420BD4A940051F62D /* libAMRAdapterApplovin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B1E20BD4A8F0051F62D /* libAMRAdapterApplovin.a */; };
-		9ECD1BA520BD4A940051F62D /* AppLovinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2020BD4A8F0051F62D /* AppLovinSDK.framework */; };
-		9ECD1BA620BD4A940051F62D /* AppLovinSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2020BD4A8F0051F62D /* AppLovinSDK.framework */; };
-		9ECD1BA720BD4A940051F62D /* libAMRAdapterAvocarrot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2220BD4A8F0051F62D /* libAMRAdapterAvocarrot.a */; };
-		9ECD1BA820BD4A940051F62D /* libAMRAdapterAvocarrot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2220BD4A8F0051F62D /* libAMRAdapterAvocarrot.a */; };
-		9ECD1BA920BD4A940051F62D /* AvocarrotCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2420BD4A8F0051F62D /* AvocarrotCore.framework */; };
-		9ECD1BAA20BD4A940051F62D /* AvocarrotCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2420BD4A8F0051F62D /* AvocarrotCore.framework */; };
-		9ECD1BAB20BD4A940051F62D /* AvocarrotVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2520BD4A8F0051F62D /* AvocarrotVideo.framework */; };
-		9ECD1BAC20BD4A940051F62D /* AvocarrotVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2520BD4A8F0051F62D /* AvocarrotVideo.framework */; };
-		9ECD1BAD20BD4A940051F62D /* AvocarrotInsights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2620BD4A8F0051F62D /* AvocarrotInsights.framework */; };
-		9ECD1BAE20BD4A940051F62D /* AvocarrotInsights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2620BD4A8F0051F62D /* AvocarrotInsights.framework */; };
-		9ECD1BAF20BD4A940051F62D /* Mraid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2720BD4A8F0051F62D /* Mraid.framework */; };
-		9ECD1BB020BD4A940051F62D /* Mraid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2720BD4A8F0051F62D /* Mraid.framework */; };
-		9ECD1BB120BD4A940051F62D /* Vast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2820BD4A8F0051F62D /* Vast.framework */; };
-		9ECD1BB220BD4A940051F62D /* Vast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2820BD4A8F0051F62D /* Vast.framework */; };
-		9ECD1BB320BD4A940051F62D /* AvocarrotNativeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2920BD4A8F0051F62D /* AvocarrotNativeView.framework */; };
-		9ECD1BB420BD4A940051F62D /* AvocarrotNativeView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2920BD4A8F0051F62D /* AvocarrotNativeView.framework */; };
-		9ECD1BB520BD4A940051F62D /* AvocarrotInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2A20BD4A8F0051F62D /* AvocarrotInterstitial.framework */; };
-		9ECD1BB620BD4A940051F62D /* AvocarrotInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2A20BD4A8F0051F62D /* AvocarrotInterstitial.framework */; };
-		9ECD1BB720BD4A940051F62D /* AvocarrotBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2B20BD4A8F0051F62D /* AvocarrotBanner.framework */; };
-		9ECD1BB820BD4A940051F62D /* AvocarrotBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2B20BD4A8F0051F62D /* AvocarrotBanner.framework */; };
-		9ECD1BB920BD4A940051F62D /* AvocarrotNativeAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2C20BD4A8F0051F62D /* AvocarrotNativeAssets.framework */; };
-		9ECD1BBA20BD4A940051F62D /* AvocarrotNativeAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2C20BD4A8F0051F62D /* AvocarrotNativeAssets.framework */; };
-		9ECD1BBB20BD4A940051F62D /* libAMRAdapterLoopme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2E20BD4A900051F62D /* libAMRAdapterLoopme.a */; };
-		9ECD1BBC20BD4A940051F62D /* libAMRAdapterLoopme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B2E20BD4A900051F62D /* libAMRAdapterLoopme.a */; };
-		9ECD1BBD20BD4A940051F62D /* LoopMeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B3020BD4A900051F62D /* LoopMeResources.bundle */; };
-		9ECD1BBE20BD4A940051F62D /* LoopMeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B3020BD4A900051F62D /* LoopMeResources.bundle */; };
-		9ECD1BBF20BD4A940051F62D /* LoopMeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3120BD4A900051F62D /* LoopMeSDK.framework */; };
-		9ECD1BC020BD4A940051F62D /* LoopMeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3120BD4A900051F62D /* LoopMeSDK.framework */; };
-		9ECD1BC120BD4A940051F62D /* libAMRAdapterNexage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3320BD4A900051F62D /* libAMRAdapterNexage.a */; };
-		9ECD1BC220BD4A940051F62D /* libAMRAdapterNexage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3320BD4A900051F62D /* libAMRAdapterNexage.a */; };
-		9ECD1BC320BD4A940051F62D /* MMAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3520BD4A900051F62D /* MMAdSDK.framework */; };
-		9ECD1BC420BD4A940051F62D /* MMAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3520BD4A900051F62D /* MMAdSDK.framework */; };
-		9ECD1BC520BD4A940051F62D /* libAMRAdapterStartapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3720BD4A900051F62D /* libAMRAdapterStartapp.a */; };
-		9ECD1BC620BD4A940051F62D /* libAMRAdapterStartapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3720BD4A900051F62D /* libAMRAdapterStartapp.a */; };
-		9ECD1BC720BD4A940051F62D /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3920BD4A900051F62D /* StartApp.framework */; };
-		9ECD1BC820BD4A940051F62D /* StartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3920BD4A900051F62D /* StartApp.framework */; };
-		9ECD1BC920BD4A940051F62D /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B3A20BD4A900051F62D /* StartApp.bundle */; };
-		9ECD1BCA20BD4A940051F62D /* StartApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B3A20BD4A900051F62D /* StartApp.bundle */; };
-		9ECD1BCB20BD4A940051F62D /* AmazonAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3D20BD4A900051F62D /* AmazonAd.framework */; };
-		9ECD1BCC20BD4A940051F62D /* AmazonAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3D20BD4A900051F62D /* AmazonAd.framework */; };
-		9ECD1BCD20BD4A940051F62D /* libAMRAdapterAmazon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3E20BD4A900051F62D /* libAMRAdapterAmazon.a */; };
-		9ECD1BCE20BD4A940051F62D /* libAMRAdapterAmazon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B3E20BD4A900051F62D /* libAMRAdapterAmazon.a */; };
-		9ECD1BCF20BD4A940051F62D /* libAMRAdapterAppnext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4020BD4A900051F62D /* libAMRAdapterAppnext.a */; };
-		9ECD1BD020BD4A940051F62D /* libAMRAdapterAppnext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4020BD4A900051F62D /* libAMRAdapterAppnext.a */; };
-		9ECD1BD120BD4A940051F62D /* libAppnextLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4220BD4A900051F62D /* libAppnextLib.a */; };
-		9ECD1BD220BD4A940051F62D /* libAppnextLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4220BD4A900051F62D /* libAppnextLib.a */; };
-		9ECD1BD320BD4A940051F62D /* libAppnextSDKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4320BD4A900051F62D /* libAppnextSDKCore.a */; };
-		9ECD1BD420BD4A940051F62D /* libAppnextSDKCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4320BD4A900051F62D /* libAppnextSDKCore.a */; };
-		9ECD1BD520BD4A940051F62D /* libAppnextNativeAdsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4420BD4A900051F62D /* libAppnextNativeAdsSDK.a */; };
-		9ECD1BD620BD4A940051F62D /* libAppnextNativeAdsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4420BD4A900051F62D /* libAppnextNativeAdsSDK.a */; };
-		9ECD1BD720BD4A940051F62D /* MATMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4720BD4A900051F62D /* MATMoatMobileAppKit.framework */; };
-		9ECD1BD820BD4A940051F62D /* MATMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4720BD4A900051F62D /* MATMoatMobileAppKit.framework */; };
-		9ECD1BD920BD4A940051F62D /* MobFoxSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4820BD4A900051F62D /* MobFoxSDKCore.framework */; };
-		9ECD1BDA20BD4A940051F62D /* MobFoxSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4820BD4A900051F62D /* MobFoxSDKCore.framework */; };
-		9ECD1BDB20BD4A940051F62D /* libAMRAdapterMobfox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4920BD4A900051F62D /* libAMRAdapterMobfox.a */; };
-		9ECD1BDC20BD4A940051F62D /* libAMRAdapterMobfox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4920BD4A900051F62D /* libAMRAdapterMobfox.a */; };
-		9ECD1BDD20BD4A940051F62D /* libAMRAdapterDFP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4B20BD4A910051F62D /* libAMRAdapterDFP.a */; };
-		9ECD1BDE20BD4A940051F62D /* libAMRAdapterDFP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4B20BD4A910051F62D /* libAMRAdapterDFP.a */; };
-		9ECD1BDF20BD4A940051F62D /* libAMRAdapterInmobi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4D20BD4A910051F62D /* libAMRAdapterInmobi.a */; };
-		9ECD1BE020BD4A940051F62D /* libAMRAdapterInmobi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4D20BD4A910051F62D /* libAMRAdapterInmobi.a */; };
-		9ECD1BE120BD4A940051F62D /* InMobiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4F20BD4A910051F62D /* InMobiSDK.framework */; };
-		9ECD1BE220BD4A940051F62D /* InMobiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B4F20BD4A910051F62D /* InMobiSDK.framework */; };
-		9ECD1BE320BD4A940051F62D /* SMAMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5220BD4A910051F62D /* SMAMoatMobileAppKit.framework */; };
-		9ECD1BE420BD4A940051F62D /* SMAMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5220BD4A910051F62D /* SMAMoatMobileAppKit.framework */; };
-		9ECD1BE520BD4A940051F62D /* iSoma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5320BD4A910051F62D /* iSoma.framework */; };
-		9ECD1BE620BD4A940051F62D /* iSoma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5320BD4A910051F62D /* iSoma.framework */; };
-		9ECD1BE720BD4A940051F62D /* libAMRAdapterSmaato.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5420BD4A910051F62D /* libAMRAdapterSmaato.a */; };
-		9ECD1BE820BD4A940051F62D /* libAMRAdapterSmaato.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5420BD4A910051F62D /* libAMRAdapterSmaato.a */; };
-		9ECD1BE920BD4A940051F62D /* libAMRAdapterAdmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5620BD4A910051F62D /* libAMRAdapterAdmob.a */; };
-		9ECD1BEA20BD4A940051F62D /* libAMRAdapterAdmob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5620BD4A910051F62D /* libAMRAdapterAdmob.a */; };
-		9ECD1BEB20BD4A940051F62D /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5820BD4A910051F62D /* GoogleMobileAds.framework */; };
-		9ECD1BEC20BD4A940051F62D /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5820BD4A910051F62D /* GoogleMobileAds.framework */; };
-		9ECD1BED20BD4A940051F62D /* AMRAdapterAdmostResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B5B20BD4A910051F62D /* AMRAdapterAdmostResources.bundle */; };
-		9ECD1BEE20BD4A940051F62D /* AMRAdapterAdmostResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B5B20BD4A910051F62D /* AMRAdapterAdmostResources.bundle */; };
-		9ECD1BEF20BD4A940051F62D /* libAMRAdapterAdmost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5C20BD4A910051F62D /* libAMRAdapterAdmost.a */; };
-		9ECD1BF020BD4A940051F62D /* libAMRAdapterAdmost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5C20BD4A910051F62D /* libAMRAdapterAdmost.a */; };
-		9ECD1BF120BD4A940051F62D /* libAMRAdapterIronsource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5E20BD4A910051F62D /* libAMRAdapterIronsource.a */; };
-		9ECD1BF220BD4A940051F62D /* libAMRAdapterIronsource.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B5E20BD4A910051F62D /* libAMRAdapterIronsource.a */; };
-		9ECD1BF320BD4A940051F62D /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6020BD4A910051F62D /* IronSource.framework */; };
-		9ECD1BF420BD4A940051F62D /* IronSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6020BD4A910051F62D /* IronSource.framework */; };
-		9ECD1BF520BD4A940051F62D /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6320BD4A920051F62D /* Tapjoy.framework */; };
-		9ECD1BF620BD4A940051F62D /* Tapjoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6320BD4A920051F62D /* Tapjoy.framework */; };
-		9ECD1BF720BD4A940051F62D /* TapjoyResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B6420BD4A920051F62D /* TapjoyResources.bundle */; };
-		9ECD1BF820BD4A940051F62D /* TapjoyResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B6420BD4A920051F62D /* TapjoyResources.bundle */; };
-		9ECD1BF920BD4A940051F62D /* libAMRAdapterTapjoy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6520BD4A920051F62D /* libAMRAdapterTapjoy.a */; };
-		9ECD1BFA20BD4A940051F62D /* libAMRAdapterTapjoy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6520BD4A920051F62D /* libAMRAdapterTapjoy.a */; };
-		9ECD1BFB20BD4A940051F62D /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6820BD4A920051F62D /* AdColony.framework */; };
-		9ECD1BFC20BD4A940051F62D /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6820BD4A920051F62D /* AdColony.framework */; };
-		9ECD1BFD20BD4A940051F62D /* libAMRAdapterAdcolony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6920BD4A920051F62D /* libAMRAdapterAdcolony.a */; };
-		9ECD1BFE20BD4A940051F62D /* libAMRAdapterAdcolony.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6920BD4A920051F62D /* libAMRAdapterAdcolony.a */; };
-		9ECD1BFF20BD4A940051F62D /* libAMRAdapterUnity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6B20BD4A920051F62D /* libAMRAdapterUnity.a */; };
-		9ECD1C0020BD4A940051F62D /* libAMRAdapterUnity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6B20BD4A920051F62D /* libAMRAdapterUnity.a */; };
-		9ECD1C0120BD4A940051F62D /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6D20BD4A920051F62D /* UnityAds.framework */; };
-		9ECD1C0220BD4A940051F62D /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B6D20BD4A920051F62D /* UnityAds.framework */; };
-		9ECD1C0320BD4A940051F62D /* libFlurryAds_8.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7020BD4A920051F62D /* libFlurryAds_8.6.1.a */; };
-		9ECD1C0420BD4A940051F62D /* libFlurryAds_8.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7020BD4A920051F62D /* libFlurryAds_8.6.1.a */; };
-		9ECD1C0520BD4A940051F62D /* libFlurry_8.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7120BD4A920051F62D /* libFlurry_8.6.1.a */; };
-		9ECD1C0620BD4A940051F62D /* libFlurry_8.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7120BD4A920051F62D /* libFlurry_8.6.1.a */; };
-		9ECD1C0720BD4A940051F62D /* starburst_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7220BD4A920051F62D /* starburst_white.png */; };
-		9ECD1C0820BD4A940051F62D /* starburst_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7220BD4A920051F62D /* starburst_white.png */; };
-		9ECD1C0920BD4A940051F62D /* libAMRAdapterFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7320BD4A920051F62D /* libAMRAdapterFlurry.a */; };
-		9ECD1C0A20BD4A940051F62D /* libAMRAdapterFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7320BD4A920051F62D /* libAMRAdapterFlurry.a */; };
-		9ECD1C0B20BD4A940051F62D /* libAMRAdapterVungle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7520BD4A930051F62D /* libAMRAdapterVungle.a */; };
-		9ECD1C0C20BD4A940051F62D /* libAMRAdapterVungle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7520BD4A930051F62D /* libAMRAdapterVungle.a */; };
-		9ECD1C0D20BD4A940051F62D /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7720BD4A930051F62D /* VungleSDK.framework */; };
-		9ECD1C0E20BD4A940051F62D /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7720BD4A930051F62D /* VungleSDK.framework */; };
-		9ECD1C0F20BD4A940051F62D /* libAMRAdapterMopub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7920BD4A930051F62D /* libAMRAdapterMopub.a */; };
-		9ECD1C1020BD4A940051F62D /* libAMRAdapterMopub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B7920BD4A930051F62D /* libAMRAdapterMopub.a */; };
-		9ECD1C1120BD4A940051F62D /* MPUnmutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7B20BD4A930051F62D /* MPUnmutedBtn.png */; };
-		9ECD1C1220BD4A940051F62D /* MPUnmutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7B20BD4A930051F62D /* MPUnmutedBtn.png */; };
-		9ECD1C1320BD4A940051F62D /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7C20BD4A930051F62D /* MRAID.bundle */; };
-		9ECD1C1420BD4A940051F62D /* MRAID.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7C20BD4A930051F62D /* MRAID.bundle */; };
-		9ECD1C1520BD4A940051F62D /* MPDAAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7D20BD4A930051F62D /* MPDAAIcon.png */; };
-		9ECD1C1620BD4A940051F62D /* MPDAAIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7D20BD4A930051F62D /* MPDAAIcon.png */; };
-		9ECD1C1720BD4A940051F62D /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7E20BD4A930051F62D /* MPUnmutedBtn@3x.png */; };
-		9ECD1C1820BD4A940051F62D /* MPUnmutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7E20BD4A930051F62D /* MPUnmutedBtn@3x.png */; };
-		9ECD1C1920BD4A940051F62D /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7F20BD4A930051F62D /* MPPlayBtn@2x.png */; };
-		9ECD1C1A20BD4A940051F62D /* MPPlayBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B7F20BD4A930051F62D /* MPPlayBtn@2x.png */; };
-		9ECD1C1B20BD4A940051F62D /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8020BD4A930051F62D /* MPCloseBtn@2x.png */; };
-		9ECD1C1C20BD4A940051F62D /* MPCloseBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8020BD4A930051F62D /* MPCloseBtn@2x.png */; };
-		9ECD1C1D20BD4A940051F62D /* MPUBMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B8120BD4A930051F62D /* MPUBMoatMobileAppKit.framework */; };
-		9ECD1C1E20BD4A940051F62D /* MPUBMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B8120BD4A930051F62D /* MPUBMoatMobileAppKit.framework */; };
-		9ECD1C1F20BD4A940051F62D /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8220BD4A930051F62D /* MPCloseBtn@3x.png */; };
-		9ECD1C2020BD4A940051F62D /* MPCloseBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8220BD4A930051F62D /* MPCloseBtn@3x.png */; };
-		9ECD1C2120BD4A940051F62D /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8320BD4A930051F62D /* MPCloseBtn.png */; };
-		9ECD1C2220BD4A940051F62D /* MPCloseBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8320BD4A930051F62D /* MPCloseBtn.png */; };
-		9ECD1C2320BD4A940051F62D /* MPPlayBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8420BD4A930051F62D /* MPPlayBtn@3x.png */; };
-		9ECD1C2420BD4A940051F62D /* MPPlayBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8420BD4A930051F62D /* MPPlayBtn@3x.png */; };
-		9ECD1C2520BD4A940051F62D /* MPAdBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8520BD4A930051F62D /* MPAdBrowserController.xib */; };
-		9ECD1C2620BD4A940051F62D /* MPAdBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8520BD4A930051F62D /* MPAdBrowserController.xib */; };
-		9ECD1C2720BD4A940051F62D /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8620BD4A930051F62D /* MPUnmutedBtn@2x.png */; };
-		9ECD1C2820BD4A940051F62D /* MPUnmutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8620BD4A930051F62D /* MPUnmutedBtn@2x.png */; };
-		9ECD1C2920BD4A940051F62D /* MPCountdownTimer.html in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8720BD4A930051F62D /* MPCountdownTimer.html */; };
-		9ECD1C2A20BD4A940051F62D /* MPCountdownTimer.html in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8720BD4A930051F62D /* MPCountdownTimer.html */; };
-		9ECD1C2B20BD4A940051F62D /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8820BD4A930051F62D /* MPCloseButtonX@2x.png */; };
-		9ECD1C2C20BD4A940051F62D /* MPCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8820BD4A930051F62D /* MPCloseButtonX@2x.png */; };
-		9ECD1C2D20BD4A940051F62D /* libAvid-mopub-3.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B8920BD4A930051F62D /* libAvid-mopub-3.6.1.a */; };
-		9ECD1C2E20BD4A940051F62D /* libAvid-mopub-3.6.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B8920BD4A930051F62D /* libAvid-mopub-3.6.1.a */; };
-		9ECD1C2F20BD4A940051F62D /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8A20BD4A930051F62D /* MPCloseButtonX@3x.png */; };
-		9ECD1C3020BD4A940051F62D /* MPCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8A20BD4A930051F62D /* MPCloseButtonX@3x.png */; };
-		9ECD1C3120BD4A940051F62D /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8B20BD4A930051F62D /* MPCloseButtonX.png */; };
-		9ECD1C3220BD4A940051F62D /* MPCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8B20BD4A930051F62D /* MPCloseButtonX.png */; };
-		9ECD1C3320BD4A940051F62D /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8C20BD4A930051F62D /* MPDAAIcon@3x.png */; };
-		9ECD1C3420BD4A940051F62D /* MPDAAIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8C20BD4A930051F62D /* MPDAAIcon@3x.png */; };
-		9ECD1C3520BD4A940051F62D /* MPMutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8D20BD4A930051F62D /* MPMutedBtn@3x.png */; };
-		9ECD1C3620BD4A940051F62D /* MPMutedBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8D20BD4A930051F62D /* MPMutedBtn@3x.png */; };
-		9ECD1C3720BD4A940051F62D /* MPPlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8E20BD4A930051F62D /* MPPlayBtn.png */; };
-		9ECD1C3820BD4A940051F62D /* MPPlayBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8E20BD4A930051F62D /* MPPlayBtn.png */; };
-		9ECD1C3920BD4A940051F62D /* MPMutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8F20BD4A930051F62D /* MPMutedBtn.png */; };
-		9ECD1C3A20BD4A940051F62D /* MPMutedBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B8F20BD4A930051F62D /* MPMutedBtn.png */; };
-		9ECD1C3B20BD4A940051F62D /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B9020BD4A930051F62D /* MPMutedBtn@2x.png */; };
-		9ECD1C3C20BD4A940051F62D /* MPMutedBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B9020BD4A930051F62D /* MPMutedBtn@2x.png */; };
-		9ECD1C3D20BD4A940051F62D /* MPDAAIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B9120BD4A930051F62D /* MPDAAIcon@2x.png */; };
-		9ECD1C3E20BD4A940051F62D /* MPDAAIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B9120BD4A930051F62D /* MPDAAIcon@2x.png */; };
-		9ECD1C3F20BD4A940051F62D /* libAMRAdapterFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B9320BD4A930051F62D /* libAMRAdapterFacebook.a */; };
-		9ECD1C4020BD4A940051F62D /* libAMRAdapterFacebook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B9320BD4A930051F62D /* libAMRAdapterFacebook.a */; };
-		9ECD1C4120BD4A940051F62D /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B9520BD4A930051F62D /* FBAudienceNetwork.framework */; };
-		9ECD1C4220BD4A940051F62D /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B9520BD4A930051F62D /* FBAudienceNetwork.framework */; };
-		9ECD1C4320BD4A940051F62D /* libAMRAdapterChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B9720BD4A930051F62D /* libAMRAdapterChartboost.a */; };
-		9ECD1C4420BD4A940051F62D /* libAMRAdapterChartboost.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B9720BD4A930051F62D /* libAMRAdapterChartboost.a */; };
-		9ECD1C4520BD4A940051F62D /* CHAMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B9920BD4A930051F62D /* CHAMoatMobileAppKit.framework */; };
-		9ECD1C4620BD4A940051F62D /* CHAMoatMobileAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B9920BD4A930051F62D /* CHAMoatMobileAppKit.framework */; };
-		9ECD1C4720BD4A940051F62D /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B9A20BD4A930051F62D /* Chartboost.framework */; };
-		9ECD1C4820BD4A940051F62D /* Chartboost.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1B9A20BD4A930051F62D /* Chartboost.framework */; };
-		9ECD1C4920BD4A940051F62D /* StartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B9D20BD4A930051F62D /* StartedBundleIcon.png */; };
-		9ECD1C4A20BD4A940051F62D /* StartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B9D20BD4A930051F62D /* StartedBundleIcon.png */; };
-		9ECD1C4B20BD4A940051F62D /* FYBBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B9E20BD4A930051F62D /* FYBBackIcon@2x.png */; };
-		9ECD1C4C20BD4A940051F62D /* FYBBackIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B9E20BD4A930051F62D /* FYBBackIcon@2x.png */; };
-		9ECD1C4D20BD4A940051F62D /* UnstartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B9F20BD4A930051F62D /* UnstartedBundleIcon.png */; };
-		9ECD1C4E20BD4A940051F62D /* UnstartedBundleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1B9F20BD4A930051F62D /* UnstartedBundleIcon.png */; };
-		9ECD1C4F20BD4A940051F62D /* FYBIntegrationAnalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1BA020BD4A930051F62D /* FYBIntegrationAnalyzerViewController.xib */; };
-		9ECD1C5020BD4A940051F62D /* FYBIntegrationAnalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ECD1BA020BD4A930051F62D /* FYBIntegrationAnalyzerViewController.xib */; };
-		9ECD1C5120BD4A940051F62D /* libFyberSDK-8.21.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1BA120BD4A930051F62D /* libFyberSDK-8.21.0.a */; };
-		9ECD1C5220BD4A940051F62D /* libFyberSDK-8.21.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1BA120BD4A930051F62D /* libFyberSDK-8.21.0.a */; };
-		9ECD1C5320BD4A940051F62D /* libAMRAdapterFyber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1BA220BD4A930051F62D /* libAMRAdapterFyber.a */; };
-		9ECD1C5420BD4A940051F62D /* libAMRAdapterFyber.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECD1BA220BD4A930051F62D /* libAMRAdapterFyber.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -471,101 +471,101 @@
 		9E809B12206A44C800E42695 /* AMRSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMRSDK.framework; sourceTree = "<group>"; };
 		9E809B13206A44C800E42695 /* KKLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KKLog.framework; sourceTree = "<group>"; };
 		9E809B15206A44C800E42695 /* AMRResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMRResources.bundle; sourceTree = "<group>"; };
+		9EB02F5020C7DB220003D875 /* libAMRAdapterApplovin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterApplovin.a; sourceTree = "<group>"; };
+		9EB02F5220C7DB220003D875 /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinSDK.framework; sourceTree = "<group>"; };
+		9EB02F5420C7DB220003D875 /* libAMRAdapterAvocarrot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAvocarrot.a; sourceTree = "<group>"; };
+		9EB02F5620C7DB220003D875 /* AvocarrotCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotCore.framework; sourceTree = "<group>"; };
+		9EB02F5720C7DB220003D875 /* AvocarrotVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotVideo.framework; sourceTree = "<group>"; };
+		9EB02F5820C7DB220003D875 /* AvocarrotInsights.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotInsights.framework; sourceTree = "<group>"; };
+		9EB02F5920C7DB220003D875 /* Mraid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mraid.framework; sourceTree = "<group>"; };
+		9EB02F5A20C7DB220003D875 /* Vast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vast.framework; sourceTree = "<group>"; };
+		9EB02F5B20C7DB220003D875 /* AvocarrotNativeView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotNativeView.framework; sourceTree = "<group>"; };
+		9EB02F5C20C7DB220003D875 /* AvocarrotInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotInterstitial.framework; sourceTree = "<group>"; };
+		9EB02F5D20C7DB220003D875 /* AvocarrotBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotBanner.framework; sourceTree = "<group>"; };
+		9EB02F5E20C7DB220003D875 /* AvocarrotNativeAssets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotNativeAssets.framework; sourceTree = "<group>"; };
+		9EB02F6020C7DB220003D875 /* libAMRAdapterLoopme.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterLoopme.a; sourceTree = "<group>"; };
+		9EB02F6220C7DB220003D875 /* LoopMeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LoopMeResources.bundle; sourceTree = "<group>"; };
+		9EB02F6320C7DB220003D875 /* LoopMeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoopMeSDK.framework; sourceTree = "<group>"; };
+		9EB02F6520C7DB220003D875 /* libAMRAdapterNexage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterNexage.a; sourceTree = "<group>"; };
+		9EB02F6720C7DB220003D875 /* MMAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MMAdSDK.framework; sourceTree = "<group>"; };
+		9EB02F6920C7DB220003D875 /* libAMRAdapterStartapp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterStartapp.a; sourceTree = "<group>"; };
+		9EB02F6B20C7DB220003D875 /* StartApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StartApp.framework; sourceTree = "<group>"; };
+		9EB02F6C20C7DB220003D875 /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
+		9EB02F6F20C7DB220003D875 /* AmazonAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AmazonAd.framework; sourceTree = "<group>"; };
+		9EB02F7020C7DB220003D875 /* libAMRAdapterAmazon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAmazon.a; sourceTree = "<group>"; };
+		9EB02F7220C7DB220003D875 /* libAMRAdapterAppnext.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAppnext.a; sourceTree = "<group>"; };
+		9EB02F7420C7DB220003D875 /* libAppnextLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextLib.a; sourceTree = "<group>"; };
+		9EB02F7520C7DB220003D875 /* libAppnextSDKCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextSDKCore.a; sourceTree = "<group>"; };
+		9EB02F7620C7DB220003D875 /* libAppnextNativeAdsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextNativeAdsSDK.a; sourceTree = "<group>"; };
+		9EB02F7920C7DB220003D875 /* MATMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MATMoatMobileAppKit.framework; sourceTree = "<group>"; };
+		9EB02F7A20C7DB220003D875 /* MobFoxSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobFoxSDKCore.framework; sourceTree = "<group>"; };
+		9EB02F7B20C7DB220003D875 /* libAMRAdapterMobfox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterMobfox.a; sourceTree = "<group>"; };
+		9EB02F7D20C7DB220003D875 /* libAMRAdapterDFP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterDFP.a; sourceTree = "<group>"; };
+		9EB02F7F20C7DB220003D875 /* libAMRAdapterInmobi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterInmobi.a; sourceTree = "<group>"; };
+		9EB02F8120C7DB220003D875 /* InMobiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InMobiSDK.framework; sourceTree = "<group>"; };
+		9EB02F8420C7DB230003D875 /* SMAMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMAMoatMobileAppKit.framework; sourceTree = "<group>"; };
+		9EB02F8520C7DB230003D875 /* iSoma.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iSoma.framework; sourceTree = "<group>"; };
+		9EB02F8620C7DB230003D875 /* libAMRAdapterSmaato.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterSmaato.a; sourceTree = "<group>"; };
+		9EB02F8820C7DB230003D875 /* libAMRAdapterAdmob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAdmob.a; sourceTree = "<group>"; };
+		9EB02F8A20C7DB230003D875 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		9EB02F8D20C7DB230003D875 /* AMRAdapterAdmostResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMRAdapterAdmostResources.bundle; sourceTree = "<group>"; };
+		9EB02F8E20C7DB230003D875 /* libAMRAdapterAdmost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAdmost.a; sourceTree = "<group>"; };
+		9EB02F9020C7DB230003D875 /* libAMRAdapterIronsource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterIronsource.a; sourceTree = "<group>"; };
+		9EB02F9220C7DB230003D875 /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
+		9EB02F9520C7DB230003D875 /* Tapjoy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tapjoy.framework; sourceTree = "<group>"; };
+		9EB02F9620C7DB230003D875 /* TapjoyResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapjoyResources.bundle; sourceTree = "<group>"; };
+		9EB02F9720C7DB230003D875 /* libAMRAdapterTapjoy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterTapjoy.a; sourceTree = "<group>"; };
+		9EB02F9A20C7DB230003D875 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
+		9EB02F9B20C7DB230003D875 /* libAMRAdapterAdcolony.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAdcolony.a; sourceTree = "<group>"; };
+		9EB02F9D20C7DB230003D875 /* libAMRAdapterUnity.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterUnity.a; sourceTree = "<group>"; };
+		9EB02F9F20C7DB230003D875 /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
+		9EB02FA220C7DB230003D875 /* libFlurryAds_8.6.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_8.6.1.a; sourceTree = "<group>"; };
+		9EB02FA320C7DB230003D875 /* libFlurry_8.6.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_8.6.1.a; sourceTree = "<group>"; };
+		9EB02FA420C7DB230003D875 /* starburst_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starburst_white.png; sourceTree = "<group>"; };
+		9EB02FA520C7DB230003D875 /* libAMRAdapterFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterFlurry.a; sourceTree = "<group>"; };
+		9EB02FA720C7DB230003D875 /* libAMRAdapterVungle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterVungle.a; sourceTree = "<group>"; };
+		9EB02FA920C7DB230003D875 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		9EB02FAB20C7DB230003D875 /* libAMRAdapterMopub.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterMopub.a; sourceTree = "<group>"; };
+		9EB02FAD20C7DB230003D875 /* MPUnmutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPUnmutedBtn.png; sourceTree = "<group>"; };
+		9EB02FAE20C7DB230003D875 /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
+		9EB02FAF20C7DB230003D875 /* MPDAAIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPDAAIcon.png; sourceTree = "<group>"; };
+		9EB02FB020C7DB230003D875 /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@3x.png"; sourceTree = "<group>"; };
+		9EB02FB120C7DB230003D875 /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@2x.png"; sourceTree = "<group>"; };
+		9EB02FB220C7DB230003D875 /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@2x.png"; sourceTree = "<group>"; };
+		9EB02FB320C7DB230003D875 /* MPUBMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPUBMoatMobileAppKit.framework; sourceTree = "<group>"; };
+		9EB02FB420C7DB230003D875 /* MPCloseBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@3x.png"; sourceTree = "<group>"; };
+		9EB02FB520C7DB230003D875 /* MPCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseBtn.png; sourceTree = "<group>"; };
+		9EB02FB620C7DB230003D875 /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@3x.png"; sourceTree = "<group>"; };
+		9EB02FB720C7DB230003D875 /* MPAdBrowserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPAdBrowserController.xib; sourceTree = "<group>"; };
+		9EB02FB820C7DB230003D875 /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@2x.png"; sourceTree = "<group>"; };
+		9EB02FB920C7DB230003D875 /* MPCountdownTimer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MPCountdownTimer.html; sourceTree = "<group>"; };
+		9EB02FBA20C7DB230003D875 /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
+		9EB02FBB20C7DB230003D875 /* libAvid-mopub-3.6.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAvid-mopub-3.6.1.a"; sourceTree = "<group>"; };
+		9EB02FBC20C7DB230003D875 /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
+		9EB02FBD20C7DB230003D875 /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
+		9EB02FBE20C7DB230003D875 /* MPDAAIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@3x.png"; sourceTree = "<group>"; };
+		9EB02FBF20C7DB230003D875 /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@3x.png"; sourceTree = "<group>"; };
+		9EB02FC020C7DB230003D875 /* MPPlayBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPPlayBtn.png; sourceTree = "<group>"; };
+		9EB02FC120C7DB230003D875 /* MPMutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPMutedBtn.png; sourceTree = "<group>"; };
+		9EB02FC220C7DB230003D875 /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@2x.png"; sourceTree = "<group>"; };
+		9EB02FC320C7DB230003D875 /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@2x.png"; sourceTree = "<group>"; };
+		9EB02FC520C7DB240003D875 /* libAMRAdapterFacebook.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterFacebook.a; sourceTree = "<group>"; };
+		9EB02FC720C7DB240003D875 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		9EB02FC920C7DB240003D875 /* libAMRAdapterChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterChartboost.a; sourceTree = "<group>"; };
+		9EB02FCB20C7DB240003D875 /* CHAMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CHAMoatMobileAppKit.framework; sourceTree = "<group>"; };
+		9EB02FCC20C7DB240003D875 /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
+		9EB02FCF20C7DB240003D875 /* StartedBundleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartedBundleIcon.png; sourceTree = "<group>"; };
+		9EB02FD020C7DB240003D875 /* FYBBackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FYBBackIcon@2x.png"; sourceTree = "<group>"; };
+		9EB02FD120C7DB240003D875 /* UnstartedBundleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnstartedBundleIcon.png; sourceTree = "<group>"; };
+		9EB02FD220C7DB240003D875 /* FYBIntegrationAnalyzerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYBIntegrationAnalyzerViewController.xib; sourceTree = "<group>"; };
+		9EB02FD320C7DB240003D875 /* libFyberSDK-8.21.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libFyberSDK-8.21.0.a"; sourceTree = "<group>"; };
+		9EB02FD420C7DB240003D875 /* libAMRAdapterFyber.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterFyber.a; sourceTree = "<group>"; };
 		9EC945AF204D60AB00059506 /* BannerTableVAdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableVAdCell.swift; sourceTree = "<group>"; };
 		9EC945B1204D61A300059506 /* BannerTableVDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableVDataCell.swift; sourceTree = "<group>"; };
 		9EC945B3204D7FCF00059506 /* InterstitialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialVC.swift; sourceTree = "<group>"; };
 		9EC945B5204D818100059506 /* RewardedVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardedVideoVC.swift; sourceTree = "<group>"; };
 		9EC945B7204D82E700059506 /* OfferWallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferWallVC.swift; sourceTree = "<group>"; };
 		9EC945B9204D849E00059506 /* SpendCurrencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendCurrencyVC.swift; sourceTree = "<group>"; };
-		9ECD1B1E20BD4A8F0051F62D /* libAMRAdapterApplovin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterApplovin.a; sourceTree = "<group>"; };
-		9ECD1B2020BD4A8F0051F62D /* AppLovinSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppLovinSDK.framework; sourceTree = "<group>"; };
-		9ECD1B2220BD4A8F0051F62D /* libAMRAdapterAvocarrot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAvocarrot.a; sourceTree = "<group>"; };
-		9ECD1B2420BD4A8F0051F62D /* AvocarrotCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotCore.framework; sourceTree = "<group>"; };
-		9ECD1B2520BD4A8F0051F62D /* AvocarrotVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotVideo.framework; sourceTree = "<group>"; };
-		9ECD1B2620BD4A8F0051F62D /* AvocarrotInsights.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotInsights.framework; sourceTree = "<group>"; };
-		9ECD1B2720BD4A8F0051F62D /* Mraid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mraid.framework; sourceTree = "<group>"; };
-		9ECD1B2820BD4A8F0051F62D /* Vast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Vast.framework; sourceTree = "<group>"; };
-		9ECD1B2920BD4A8F0051F62D /* AvocarrotNativeView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotNativeView.framework; sourceTree = "<group>"; };
-		9ECD1B2A20BD4A8F0051F62D /* AvocarrotInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotInterstitial.framework; sourceTree = "<group>"; };
-		9ECD1B2B20BD4A8F0051F62D /* AvocarrotBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotBanner.framework; sourceTree = "<group>"; };
-		9ECD1B2C20BD4A8F0051F62D /* AvocarrotNativeAssets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AvocarrotNativeAssets.framework; sourceTree = "<group>"; };
-		9ECD1B2E20BD4A900051F62D /* libAMRAdapterLoopme.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterLoopme.a; sourceTree = "<group>"; };
-		9ECD1B3020BD4A900051F62D /* LoopMeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LoopMeResources.bundle; sourceTree = "<group>"; };
-		9ECD1B3120BD4A900051F62D /* LoopMeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoopMeSDK.framework; sourceTree = "<group>"; };
-		9ECD1B3320BD4A900051F62D /* libAMRAdapterNexage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterNexage.a; sourceTree = "<group>"; };
-		9ECD1B3520BD4A900051F62D /* MMAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MMAdSDK.framework; sourceTree = "<group>"; };
-		9ECD1B3720BD4A900051F62D /* libAMRAdapterStartapp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterStartapp.a; sourceTree = "<group>"; };
-		9ECD1B3920BD4A900051F62D /* StartApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StartApp.framework; sourceTree = "<group>"; };
-		9ECD1B3A20BD4A900051F62D /* StartApp.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = StartApp.bundle; sourceTree = "<group>"; };
-		9ECD1B3D20BD4A900051F62D /* AmazonAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AmazonAd.framework; sourceTree = "<group>"; };
-		9ECD1B3E20BD4A900051F62D /* libAMRAdapterAmazon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAmazon.a; sourceTree = "<group>"; };
-		9ECD1B4020BD4A900051F62D /* libAMRAdapterAppnext.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAppnext.a; sourceTree = "<group>"; };
-		9ECD1B4220BD4A900051F62D /* libAppnextLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextLib.a; sourceTree = "<group>"; };
-		9ECD1B4320BD4A900051F62D /* libAppnextSDKCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextSDKCore.a; sourceTree = "<group>"; };
-		9ECD1B4420BD4A900051F62D /* libAppnextNativeAdsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppnextNativeAdsSDK.a; sourceTree = "<group>"; };
-		9ECD1B4720BD4A900051F62D /* MATMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MATMoatMobileAppKit.framework; sourceTree = "<group>"; };
-		9ECD1B4820BD4A900051F62D /* MobFoxSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobFoxSDKCore.framework; sourceTree = "<group>"; };
-		9ECD1B4920BD4A900051F62D /* libAMRAdapterMobfox.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterMobfox.a; sourceTree = "<group>"; };
-		9ECD1B4B20BD4A910051F62D /* libAMRAdapterDFP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterDFP.a; sourceTree = "<group>"; };
-		9ECD1B4D20BD4A910051F62D /* libAMRAdapterInmobi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterInmobi.a; sourceTree = "<group>"; };
-		9ECD1B4F20BD4A910051F62D /* InMobiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InMobiSDK.framework; sourceTree = "<group>"; };
-		9ECD1B5220BD4A910051F62D /* SMAMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMAMoatMobileAppKit.framework; sourceTree = "<group>"; };
-		9ECD1B5320BD4A910051F62D /* iSoma.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iSoma.framework; sourceTree = "<group>"; };
-		9ECD1B5420BD4A910051F62D /* libAMRAdapterSmaato.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterSmaato.a; sourceTree = "<group>"; };
-		9ECD1B5620BD4A910051F62D /* libAMRAdapterAdmob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAdmob.a; sourceTree = "<group>"; };
-		9ECD1B5820BD4A910051F62D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		9ECD1B5B20BD4A910051F62D /* AMRAdapterAdmostResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMRAdapterAdmostResources.bundle; sourceTree = "<group>"; };
-		9ECD1B5C20BD4A910051F62D /* libAMRAdapterAdmost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAdmost.a; sourceTree = "<group>"; };
-		9ECD1B5E20BD4A910051F62D /* libAMRAdapterIronsource.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterIronsource.a; sourceTree = "<group>"; };
-		9ECD1B6020BD4A910051F62D /* IronSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IronSource.framework; sourceTree = "<group>"; };
-		9ECD1B6320BD4A920051F62D /* Tapjoy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Tapjoy.framework; sourceTree = "<group>"; };
-		9ECD1B6420BD4A920051F62D /* TapjoyResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapjoyResources.bundle; sourceTree = "<group>"; };
-		9ECD1B6520BD4A920051F62D /* libAMRAdapterTapjoy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterTapjoy.a; sourceTree = "<group>"; };
-		9ECD1B6820BD4A920051F62D /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
-		9ECD1B6920BD4A920051F62D /* libAMRAdapterAdcolony.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterAdcolony.a; sourceTree = "<group>"; };
-		9ECD1B6B20BD4A920051F62D /* libAMRAdapterUnity.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterUnity.a; sourceTree = "<group>"; };
-		9ECD1B6D20BD4A920051F62D /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityAds.framework; sourceTree = "<group>"; };
-		9ECD1B7020BD4A920051F62D /* libFlurryAds_8.6.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryAds_8.6.1.a; sourceTree = "<group>"; };
-		9ECD1B7120BD4A920051F62D /* libFlurry_8.6.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_8.6.1.a; sourceTree = "<group>"; };
-		9ECD1B7220BD4A920051F62D /* starburst_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starburst_white.png; sourceTree = "<group>"; };
-		9ECD1B7320BD4A920051F62D /* libAMRAdapterFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterFlurry.a; sourceTree = "<group>"; };
-		9ECD1B7520BD4A930051F62D /* libAMRAdapterVungle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterVungle.a; sourceTree = "<group>"; };
-		9ECD1B7720BD4A930051F62D /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
-		9ECD1B7920BD4A930051F62D /* libAMRAdapterMopub.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterMopub.a; sourceTree = "<group>"; };
-		9ECD1B7B20BD4A930051F62D /* MPUnmutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPUnmutedBtn.png; sourceTree = "<group>"; };
-		9ECD1B7C20BD4A930051F62D /* MRAID.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MRAID.bundle; sourceTree = "<group>"; };
-		9ECD1B7D20BD4A930051F62D /* MPDAAIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPDAAIcon.png; sourceTree = "<group>"; };
-		9ECD1B7E20BD4A930051F62D /* MPUnmutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@3x.png"; sourceTree = "<group>"; };
-		9ECD1B7F20BD4A930051F62D /* MPPlayBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@2x.png"; sourceTree = "<group>"; };
-		9ECD1B8020BD4A930051F62D /* MPCloseBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@2x.png"; sourceTree = "<group>"; };
-		9ECD1B8120BD4A930051F62D /* MPUBMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MPUBMoatMobileAppKit.framework; sourceTree = "<group>"; };
-		9ECD1B8220BD4A930051F62D /* MPCloseBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseBtn@3x.png"; sourceTree = "<group>"; };
-		9ECD1B8320BD4A930051F62D /* MPCloseBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseBtn.png; sourceTree = "<group>"; };
-		9ECD1B8420BD4A930051F62D /* MPPlayBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPPlayBtn@3x.png"; sourceTree = "<group>"; };
-		9ECD1B8520BD4A930051F62D /* MPAdBrowserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPAdBrowserController.xib; sourceTree = "<group>"; };
-		9ECD1B8620BD4A930051F62D /* MPUnmutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPUnmutedBtn@2x.png"; sourceTree = "<group>"; };
-		9ECD1B8720BD4A930051F62D /* MPCountdownTimer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MPCountdownTimer.html; sourceTree = "<group>"; };
-		9ECD1B8820BD4A930051F62D /* MPCloseButtonX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@2x.png"; sourceTree = "<group>"; };
-		9ECD1B8920BD4A930051F62D /* libAvid-mopub-3.6.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libAvid-mopub-3.6.1.a"; sourceTree = "<group>"; };
-		9ECD1B8A20BD4A930051F62D /* MPCloseButtonX@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPCloseButtonX@3x.png"; sourceTree = "<group>"; };
-		9ECD1B8B20BD4A930051F62D /* MPCloseButtonX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPCloseButtonX.png; sourceTree = "<group>"; };
-		9ECD1B8C20BD4A930051F62D /* MPDAAIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@3x.png"; sourceTree = "<group>"; };
-		9ECD1B8D20BD4A930051F62D /* MPMutedBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@3x.png"; sourceTree = "<group>"; };
-		9ECD1B8E20BD4A930051F62D /* MPPlayBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPPlayBtn.png; sourceTree = "<group>"; };
-		9ECD1B8F20BD4A930051F62D /* MPMutedBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MPMutedBtn.png; sourceTree = "<group>"; };
-		9ECD1B9020BD4A930051F62D /* MPMutedBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPMutedBtn@2x.png"; sourceTree = "<group>"; };
-		9ECD1B9120BD4A930051F62D /* MPDAAIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MPDAAIcon@2x.png"; sourceTree = "<group>"; };
-		9ECD1B9320BD4A930051F62D /* libAMRAdapterFacebook.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterFacebook.a; sourceTree = "<group>"; };
-		9ECD1B9520BD4A930051F62D /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
-		9ECD1B9720BD4A930051F62D /* libAMRAdapterChartboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterChartboost.a; sourceTree = "<group>"; };
-		9ECD1B9920BD4A930051F62D /* CHAMoatMobileAppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CHAMoatMobileAppKit.framework; sourceTree = "<group>"; };
-		9ECD1B9A20BD4A930051F62D /* Chartboost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chartboost.framework; sourceTree = "<group>"; };
-		9ECD1B9D20BD4A930051F62D /* StartedBundleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartedBundleIcon.png; sourceTree = "<group>"; };
-		9ECD1B9E20BD4A930051F62D /* FYBBackIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FYBBackIcon@2x.png"; sourceTree = "<group>"; };
-		9ECD1B9F20BD4A930051F62D /* UnstartedBundleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnstartedBundleIcon.png; sourceTree = "<group>"; };
-		9ECD1BA020BD4A930051F62D /* FYBIntegrationAnalyzerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FYBIntegrationAnalyzerViewController.xib; sourceTree = "<group>"; };
-		9ECD1BA120BD4A930051F62D /* libFyberSDK-8.21.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libFyberSDK-8.21.0.a"; sourceTree = "<group>"; };
-		9ECD1BA220BD4A930051F62D /* libAMRAdapterFyber.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAMRAdapterFyber.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -574,96 +574,96 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E809AF3206A409B00E42695 /* AddressBook.framework in Frameworks */,
-				9ECD1BF120BD4A940051F62D /* libAMRAdapterIronsource.a in Frameworks */,
+				9EB0302320C7DB240003D875 /* libAMRAdapterIronsource.a in Frameworks */,
 				9E809AF2206A409500E42695 /* AdSupport.framework in Frameworks */,
-				9ECD1BC120BD4A940051F62D /* libAMRAdapterNexage.a in Frameworks */,
-				9ECD1BDB20BD4A940051F62D /* libAMRAdapterMobfox.a in Frameworks */,
-				9ECD1BE520BD4A940051F62D /* iSoma.framework in Frameworks */,
-				9ECD1BA720BD4A940051F62D /* libAMRAdapterAvocarrot.a in Frameworks */,
-				9ECD1BBF20BD4A940051F62D /* LoopMeSDK.framework in Frameworks */,
-				9ECD1BD920BD4A940051F62D /* MobFoxSDKCore.framework in Frameworks */,
-				9ECD1BE120BD4A940051F62D /* InMobiSDK.framework in Frameworks */,
+				9EB02FF320C7DB240003D875 /* libAMRAdapterNexage.a in Frameworks */,
+				9EB0300D20C7DB240003D875 /* libAMRAdapterMobfox.a in Frameworks */,
+				9EB0301720C7DB240003D875 /* iSoma.framework in Frameworks */,
+				9EB02FD920C7DB240003D875 /* libAMRAdapterAvocarrot.a in Frameworks */,
+				9EB02FF120C7DB240003D875 /* LoopMeSDK.framework in Frameworks */,
+				9EB0300B20C7DB240003D875 /* MobFoxSDKCore.framework in Frameworks */,
+				9EB0301320C7DB240003D875 /* InMobiSDK.framework in Frameworks */,
 				9E809AF1206A409000E42695 /* AudioToolbox.framework in Frameworks */,
 				9E809B17206A44C800E42695 /* KKLog.framework in Frameworks */,
 				9E809AF0206A408B00E42695 /* AVFoundation.framework in Frameworks */,
 				9E809AEF206A408500E42695 /* AVKit.framework in Frameworks */,
-				9ECD1BB320BD4A940051F62D /* AvocarrotNativeView.framework in Frameworks */,
-				9ECD1BC520BD4A940051F62D /* libAMRAdapterStartapp.a in Frameworks */,
-				9ECD1BCB20BD4A940051F62D /* AmazonAd.framework in Frameworks */,
-				9ECD1C0D20BD4A940051F62D /* VungleSDK.framework in Frameworks */,
-				9ECD1BAB20BD4A940051F62D /* AvocarrotVideo.framework in Frameworks */,
-				9ECD1BB120BD4A940051F62D /* Vast.framework in Frameworks */,
-				9ECD1BD720BD4A940051F62D /* MATMoatMobileAppKit.framework in Frameworks */,
-				9ECD1BCF20BD4A940051F62D /* libAMRAdapterAppnext.a in Frameworks */,
-				9ECD1BC720BD4A940051F62D /* StartApp.framework in Frameworks */,
+				9EB02FE520C7DB240003D875 /* AvocarrotNativeView.framework in Frameworks */,
+				9EB02FF720C7DB240003D875 /* libAMRAdapterStartapp.a in Frameworks */,
+				9EB02FFD20C7DB240003D875 /* AmazonAd.framework in Frameworks */,
+				9EB0303F20C7DB240003D875 /* VungleSDK.framework in Frameworks */,
+				9EB02FDD20C7DB240003D875 /* AvocarrotVideo.framework in Frameworks */,
+				9EB02FE320C7DB240003D875 /* Vast.framework in Frameworks */,
+				9EB0300920C7DB240003D875 /* MATMoatMobileAppKit.framework in Frameworks */,
+				9EB0300120C7DB240003D875 /* libAMRAdapterAppnext.a in Frameworks */,
+				9EB02FF920C7DB240003D875 /* StartApp.framework in Frameworks */,
 				9E809AEE206A408100E42695 /* CFNetwork.framework in Frameworks */,
 				9E809AEC206A407C00E42695 /* CoreGraphics.framework in Frameworks */,
-				9ECD1BE720BD4A940051F62D /* libAMRAdapterSmaato.a in Frameworks */,
-				9ECD1C5120BD4A940051F62D /* libFyberSDK-8.21.0.a in Frameworks */,
-				9ECD1C2D20BD4A940051F62D /* libAvid-mopub-3.6.1.a in Frameworks */,
-				9ECD1BFF20BD4A940051F62D /* libAMRAdapterUnity.a in Frameworks */,
-				9ECD1BA920BD4A940051F62D /* AvocarrotCore.framework in Frameworks */,
+				9EB0301920C7DB240003D875 /* libAMRAdapterSmaato.a in Frameworks */,
+				9EB0308320C7DB240003D875 /* libFyberSDK-8.21.0.a in Frameworks */,
+				9EB0305F20C7DB240003D875 /* libAvid-mopub-3.6.1.a in Frameworks */,
+				9EB0303120C7DB240003D875 /* libAMRAdapterUnity.a in Frameworks */,
+				9EB02FDB20C7DB240003D875 /* AvocarrotCore.framework in Frameworks */,
 				9E809AEA206A407700E42695 /* CoreLocation.framework in Frameworks */,
 				9E809AE8206A407100E42695 /* CoreMedia.framework in Frameworks */,
-				9ECD1C4520BD4A940051F62D /* CHAMoatMobileAppKit.framework in Frameworks */,
-				9ECD1C0B20BD4A940051F62D /* libAMRAdapterVungle.a in Frameworks */,
+				9EB0307720C7DB240003D875 /* CHAMoatMobileAppKit.framework in Frameworks */,
+				9EB0303D20C7DB240003D875 /* libAMRAdapterVungle.a in Frameworks */,
 				9E809AE6206A406C00E42695 /* CoreMotion.framework in Frameworks */,
 				9E809AE4206A406600E42695 /* CoreTelephony.framework in Frameworks */,
-				9ECD1C0520BD4A940051F62D /* libFlurry_8.6.1.a in Frameworks */,
-				9ECD1BDF20BD4A940051F62D /* libAMRAdapterInmobi.a in Frameworks */,
-				9ECD1BD520BD4A940051F62D /* libAppnextNativeAdsSDK.a in Frameworks */,
-				9ECD1BDD20BD4A940051F62D /* libAMRAdapterDFP.a in Frameworks */,
+				9EB0303720C7DB240003D875 /* libFlurry_8.6.1.a in Frameworks */,
+				9EB0301120C7DB240003D875 /* libAMRAdapterInmobi.a in Frameworks */,
+				9EB0300720C7DB240003D875 /* libAppnextNativeAdsSDK.a in Frameworks */,
+				9EB0300F20C7DB240003D875 /* libAMRAdapterDFP.a in Frameworks */,
 				9E809AE2206A406100E42695 /* EventKit.framework in Frameworks */,
-				9ECD1BEB20BD4A940051F62D /* GoogleMobileAds.framework in Frameworks */,
-				9ECD1C3F20BD4A940051F62D /* libAMRAdapterFacebook.a in Frameworks */,
+				9EB0301D20C7DB240003D875 /* GoogleMobileAds.framework in Frameworks */,
+				9EB0307120C7DB240003D875 /* libAMRAdapterFacebook.a in Frameworks */,
 				9E809AE0206A405D00E42695 /* EventKitUI.framework in Frameworks */,
 				9E809ADE206A405600E42695 /* ImageIO.framework in Frameworks */,
-				9ECD1BD320BD4A940051F62D /* libAppnextSDKCore.a in Frameworks */,
-				9ECD1BE320BD4A940051F62D /* SMAMoatMobileAppKit.framework in Frameworks */,
-				9ECD1BF320BD4A940051F62D /* IronSource.framework in Frameworks */,
-				9ECD1BB520BD4A940051F62D /* AvocarrotInterstitial.framework in Frameworks */,
-				9ECD1BA320BD4A940051F62D /* libAMRAdapterApplovin.a in Frameworks */,
-				9ECD1C4320BD4A940051F62D /* libAMRAdapterChartboost.a in Frameworks */,
+				9EB0300520C7DB240003D875 /* libAppnextSDKCore.a in Frameworks */,
+				9EB0301520C7DB240003D875 /* SMAMoatMobileAppKit.framework in Frameworks */,
+				9EB0302520C7DB240003D875 /* IronSource.framework in Frameworks */,
+				9EB02FE720C7DB240003D875 /* AvocarrotInterstitial.framework in Frameworks */,
+				9EB02FD520C7DB240003D875 /* libAMRAdapterApplovin.a in Frameworks */,
+				9EB0307520C7DB240003D875 /* libAMRAdapterChartboost.a in Frameworks */,
 				9E809ADC206A405000E42695 /* Foundation.framework in Frameworks */,
 				9E809ADA206A404900E42695 /* JavaScriptCore.framework in Frameworks */,
 				9E809AD8206A404300E42695 /* libsqlite3.tbd in Frameworks */,
 				9E809AD6206A403D00E42695 /* libxml2.tbd in Frameworks */,
-				9ECD1BEF20BD4A940051F62D /* libAMRAdapterAdmost.a in Frameworks */,
+				9EB0302120C7DB240003D875 /* libAMRAdapterAdmost.a in Frameworks */,
 				9E809AD4206A403600E42695 /* libz.tbd in Frameworks */,
-				9ECD1C0320BD4A940051F62D /* libFlurryAds_8.6.1.a in Frameworks */,
+				9EB0303520C7DB240003D875 /* libFlurryAds_8.6.1.a in Frameworks */,
 				9E809AD2206A403100E42695 /* MediaPlayer.framework in Frameworks */,
-				9ECD1C5320BD4A940051F62D /* libAMRAdapterFyber.a in Frameworks */,
-				9ECD1C0F20BD4A940051F62D /* libAMRAdapterMopub.a in Frameworks */,
-				9ECD1BC320BD4A940051F62D /* MMAdSDK.framework in Frameworks */,
+				9EB0308520C7DB240003D875 /* libAMRAdapterFyber.a in Frameworks */,
+				9EB0304120C7DB240003D875 /* libAMRAdapterMopub.a in Frameworks */,
+				9EB02FF520C7DB240003D875 /* MMAdSDK.framework in Frameworks */,
 				9E809AD0206A402D00E42695 /* MessageUI.framework in Frameworks */,
 				9E809ACE206A402700E42695 /* MobileCoreServices.framework in Frameworks */,
-				9ECD1BB920BD4A940051F62D /* AvocarrotNativeAssets.framework in Frameworks */,
-				9ECD1BBB20BD4A940051F62D /* libAMRAdapterLoopme.a in Frameworks */,
+				9EB02FEB20C7DB240003D875 /* AvocarrotNativeAssets.framework in Frameworks */,
+				9EB02FED20C7DB240003D875 /* libAMRAdapterLoopme.a in Frameworks */,
 				9E809B16206A44C800E42695 /* AMRSDK.framework in Frameworks */,
 				9E809ACC206A402200E42695 /* QuartzCore.framework in Frameworks */,
 				9E809ACA206A401E00E42695 /* SafariServices.framework in Frameworks */,
 				9E809AC8206A401A00E42695 /* Social.framework in Frameworks */,
-				9ECD1C0120BD4A940051F62D /* UnityAds.framework in Frameworks */,
-				9ECD1BFB20BD4A940051F62D /* AdColony.framework in Frameworks */,
-				9ECD1BA520BD4A940051F62D /* AppLovinSDK.framework in Frameworks */,
+				9EB0303320C7DB240003D875 /* UnityAds.framework in Frameworks */,
+				9EB0302D20C7DB240003D875 /* AdColony.framework in Frameworks */,
+				9EB02FD720C7DB240003D875 /* AppLovinSDK.framework in Frameworks */,
 				9E809AC6206A401400E42695 /* StoreKit.framework in Frameworks */,
-				9ECD1BF520BD4A940051F62D /* Tapjoy.framework in Frameworks */,
-				9ECD1C1D20BD4A940051F62D /* MPUBMoatMobileAppKit.framework in Frameworks */,
-				9ECD1BAD20BD4A940051F62D /* AvocarrotInsights.framework in Frameworks */,
+				9EB0302720C7DB240003D875 /* Tapjoy.framework in Frameworks */,
+				9EB0304F20C7DB240003D875 /* MPUBMoatMobileAppKit.framework in Frameworks */,
+				9EB02FDF20C7DB240003D875 /* AvocarrotInsights.framework in Frameworks */,
 				9E809AC4206A400F00E42695 /* SystemConfiguration.framework in Frameworks */,
 				9E809AC2206A400A00E42695 /* UIKit.framework in Frameworks */,
-				9ECD1C4120BD4A940051F62D /* FBAudienceNetwork.framework in Frameworks */,
+				9EB0307320C7DB240003D875 /* FBAudienceNetwork.framework in Frameworks */,
 				9E809AC0206A400400E42695 /* WatchConnectivity.framework in Frameworks */,
-				9ECD1BE920BD4A940051F62D /* libAMRAdapterAdmob.a in Frameworks */,
-				9ECD1BB720BD4A940051F62D /* AvocarrotBanner.framework in Frameworks */,
-				9ECD1BF920BD4A940051F62D /* libAMRAdapterTapjoy.a in Frameworks */,
-				9ECD1C4720BD4A940051F62D /* Chartboost.framework in Frameworks */,
-				9ECD1C0920BD4A940051F62D /* libAMRAdapterFlurry.a in Frameworks */,
-				9ECD1BFD20BD4A940051F62D /* libAMRAdapterAdcolony.a in Frameworks */,
-				9ECD1BD120BD4A940051F62D /* libAppnextLib.a in Frameworks */,
+				9EB0301B20C7DB240003D875 /* libAMRAdapterAdmob.a in Frameworks */,
+				9EB02FE920C7DB240003D875 /* AvocarrotBanner.framework in Frameworks */,
+				9EB0302B20C7DB240003D875 /* libAMRAdapterTapjoy.a in Frameworks */,
+				9EB0307920C7DB240003D875 /* Chartboost.framework in Frameworks */,
+				9EB0303B20C7DB240003D875 /* libAMRAdapterFlurry.a in Frameworks */,
+				9EB0302F20C7DB240003D875 /* libAMRAdapterAdcolony.a in Frameworks */,
+				9EB0300320C7DB240003D875 /* libAppnextLib.a in Frameworks */,
 				9E809ABE206A400000E42695 /* WebKit.framework in Frameworks */,
-				9ECD1BCD20BD4A940051F62D /* libAMRAdapterAmazon.a in Frameworks */,
-				9ECD1BAF20BD4A940051F62D /* Mraid.framework in Frameworks */,
+				9EB02FFF20C7DB240003D875 /* libAMRAdapterAmazon.a in Frameworks */,
+				9EB02FE120C7DB240003D875 /* Mraid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,96 +672,96 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E809B1D206A44D300E42695 /* KKLog.framework in Frameworks */,
-				9ECD1BF220BD4A940051F62D /* libAMRAdapterIronsource.a in Frameworks */,
+				9EB0302420C7DB240003D875 /* libAMRAdapterIronsource.a in Frameworks */,
 				9E809B11206A41D900E42695 /* AddressBook.framework in Frameworks */,
-				9ECD1BC220BD4A940051F62D /* libAMRAdapterNexage.a in Frameworks */,
-				9ECD1BDC20BD4A940051F62D /* libAMRAdapterMobfox.a in Frameworks */,
-				9ECD1BE620BD4A940051F62D /* iSoma.framework in Frameworks */,
-				9ECD1BA820BD4A940051F62D /* libAMRAdapterAvocarrot.a in Frameworks */,
-				9ECD1BC020BD4A940051F62D /* LoopMeSDK.framework in Frameworks */,
-				9ECD1BDA20BD4A940051F62D /* MobFoxSDKCore.framework in Frameworks */,
-				9ECD1BE220BD4A940051F62D /* InMobiSDK.framework in Frameworks */,
+				9EB02FF420C7DB240003D875 /* libAMRAdapterNexage.a in Frameworks */,
+				9EB0300E20C7DB240003D875 /* libAMRAdapterMobfox.a in Frameworks */,
+				9EB0301820C7DB240003D875 /* iSoma.framework in Frameworks */,
+				9EB02FDA20C7DB240003D875 /* libAMRAdapterAvocarrot.a in Frameworks */,
+				9EB02FF220C7DB240003D875 /* LoopMeSDK.framework in Frameworks */,
+				9EB0300C20C7DB240003D875 /* MobFoxSDKCore.framework in Frameworks */,
+				9EB0301420C7DB240003D875 /* InMobiSDK.framework in Frameworks */,
 				9E809B10206A41D400E42695 /* AdSupport.framework in Frameworks */,
 				9E809B0F206A41CD00E42695 /* AudioToolbox.framework in Frameworks */,
 				9E809B0E206A41C800E42695 /* AVFoundation.framework in Frameworks */,
 				9E809B0D206A41C300E42695 /* AVKit.framework in Frameworks */,
-				9ECD1BB420BD4A940051F62D /* AvocarrotNativeView.framework in Frameworks */,
-				9ECD1BC620BD4A940051F62D /* libAMRAdapterStartapp.a in Frameworks */,
-				9ECD1BCC20BD4A940051F62D /* AmazonAd.framework in Frameworks */,
-				9ECD1C0E20BD4A940051F62D /* VungleSDK.framework in Frameworks */,
-				9ECD1BAC20BD4A940051F62D /* AvocarrotVideo.framework in Frameworks */,
-				9ECD1BB220BD4A940051F62D /* Vast.framework in Frameworks */,
-				9ECD1BD820BD4A940051F62D /* MATMoatMobileAppKit.framework in Frameworks */,
-				9ECD1BD020BD4A940051F62D /* libAMRAdapterAppnext.a in Frameworks */,
-				9ECD1BC820BD4A940051F62D /* StartApp.framework in Frameworks */,
+				9EB02FE620C7DB240003D875 /* AvocarrotNativeView.framework in Frameworks */,
+				9EB02FF820C7DB240003D875 /* libAMRAdapterStartapp.a in Frameworks */,
+				9EB02FFE20C7DB240003D875 /* AmazonAd.framework in Frameworks */,
+				9EB0304020C7DB240003D875 /* VungleSDK.framework in Frameworks */,
+				9EB02FDE20C7DB240003D875 /* AvocarrotVideo.framework in Frameworks */,
+				9EB02FE420C7DB240003D875 /* Vast.framework in Frameworks */,
+				9EB0300A20C7DB240003D875 /* MATMoatMobileAppKit.framework in Frameworks */,
+				9EB0300220C7DB240003D875 /* libAMRAdapterAppnext.a in Frameworks */,
+				9EB02FFA20C7DB240003D875 /* StartApp.framework in Frameworks */,
 				9E809B0C206A41BF00E42695 /* CFNetwork.framework in Frameworks */,
 				9E809B0B206A41B900E42695 /* CoreGraphics.framework in Frameworks */,
-				9ECD1BE820BD4A940051F62D /* libAMRAdapterSmaato.a in Frameworks */,
-				9ECD1C5220BD4A940051F62D /* libFyberSDK-8.21.0.a in Frameworks */,
-				9ECD1C2E20BD4A940051F62D /* libAvid-mopub-3.6.1.a in Frameworks */,
-				9ECD1C0020BD4A940051F62D /* libAMRAdapterUnity.a in Frameworks */,
-				9ECD1BAA20BD4A940051F62D /* AvocarrotCore.framework in Frameworks */,
+				9EB0301A20C7DB240003D875 /* libAMRAdapterSmaato.a in Frameworks */,
+				9EB0308420C7DB240003D875 /* libFyberSDK-8.21.0.a in Frameworks */,
+				9EB0306020C7DB240003D875 /* libAvid-mopub-3.6.1.a in Frameworks */,
+				9EB0303220C7DB240003D875 /* libAMRAdapterUnity.a in Frameworks */,
+				9EB02FDC20C7DB240003D875 /* AvocarrotCore.framework in Frameworks */,
 				9E809B0A206A41B400E42695 /* CoreLocation.framework in Frameworks */,
 				9E809B09206A41AF00E42695 /* CoreMedia.framework in Frameworks */,
-				9ECD1C4620BD4A940051F62D /* CHAMoatMobileAppKit.framework in Frameworks */,
-				9ECD1C0C20BD4A940051F62D /* libAMRAdapterVungle.a in Frameworks */,
+				9EB0307820C7DB240003D875 /* CHAMoatMobileAppKit.framework in Frameworks */,
+				9EB0303E20C7DB240003D875 /* libAMRAdapterVungle.a in Frameworks */,
 				9E809B08206A41AA00E42695 /* CoreMotion.framework in Frameworks */,
 				9E809B07206A41A400E42695 /* CoreTelephony.framework in Frameworks */,
-				9ECD1C0620BD4A940051F62D /* libFlurry_8.6.1.a in Frameworks */,
-				9ECD1BE020BD4A940051F62D /* libAMRAdapterInmobi.a in Frameworks */,
-				9ECD1BD620BD4A940051F62D /* libAppnextNativeAdsSDK.a in Frameworks */,
-				9ECD1BDE20BD4A940051F62D /* libAMRAdapterDFP.a in Frameworks */,
+				9EB0303820C7DB240003D875 /* libFlurry_8.6.1.a in Frameworks */,
+				9EB0301220C7DB240003D875 /* libAMRAdapterInmobi.a in Frameworks */,
+				9EB0300820C7DB240003D875 /* libAppnextNativeAdsSDK.a in Frameworks */,
+				9EB0301020C7DB240003D875 /* libAMRAdapterDFP.a in Frameworks */,
 				9E809B06206A419F00E42695 /* EventKit.framework in Frameworks */,
-				9ECD1BEC20BD4A940051F62D /* GoogleMobileAds.framework in Frameworks */,
-				9ECD1C4020BD4A940051F62D /* libAMRAdapterFacebook.a in Frameworks */,
+				9EB0301E20C7DB240003D875 /* GoogleMobileAds.framework in Frameworks */,
+				9EB0307220C7DB240003D875 /* libAMRAdapterFacebook.a in Frameworks */,
 				9E809B05206A419A00E42695 /* EventKitUI.framework in Frameworks */,
 				9E809B04206A419400E42695 /* ImageIO.framework in Frameworks */,
-				9ECD1BD420BD4A940051F62D /* libAppnextSDKCore.a in Frameworks */,
-				9ECD1BE420BD4A940051F62D /* SMAMoatMobileAppKit.framework in Frameworks */,
-				9ECD1BF420BD4A940051F62D /* IronSource.framework in Frameworks */,
-				9ECD1BB620BD4A940051F62D /* AvocarrotInterstitial.framework in Frameworks */,
-				9ECD1BA420BD4A940051F62D /* libAMRAdapterApplovin.a in Frameworks */,
-				9ECD1C4420BD4A940051F62D /* libAMRAdapterChartboost.a in Frameworks */,
+				9EB0300620C7DB240003D875 /* libAppnextSDKCore.a in Frameworks */,
+				9EB0301620C7DB240003D875 /* SMAMoatMobileAppKit.framework in Frameworks */,
+				9EB0302620C7DB240003D875 /* IronSource.framework in Frameworks */,
+				9EB02FE820C7DB240003D875 /* AvocarrotInterstitial.framework in Frameworks */,
+				9EB02FD620C7DB240003D875 /* libAMRAdapterApplovin.a in Frameworks */,
+				9EB0307620C7DB240003D875 /* libAMRAdapterChartboost.a in Frameworks */,
 				9E809B1C206A44D300E42695 /* AMRSDK.framework in Frameworks */,
 				9E809B03206A419000E42695 /* Foundation.framework in Frameworks */,
 				9E809B02206A418600E42695 /* JavaScriptCore.framework in Frameworks */,
 				9E809B01206A418100E42695 /* libsqlite3.tbd in Frameworks */,
-				9ECD1BF020BD4A940051F62D /* libAMRAdapterAdmost.a in Frameworks */,
+				9EB0302220C7DB240003D875 /* libAMRAdapterAdmost.a in Frameworks */,
 				9E809B00206A417B00E42695 /* libxml2.tbd in Frameworks */,
-				9ECD1C0420BD4A940051F62D /* libFlurryAds_8.6.1.a in Frameworks */,
+				9EB0303620C7DB240003D875 /* libFlurryAds_8.6.1.a in Frameworks */,
 				9E809AFF206A417400E42695 /* libz.tbd in Frameworks */,
-				9ECD1C5420BD4A940051F62D /* libAMRAdapterFyber.a in Frameworks */,
-				9ECD1C1020BD4A940051F62D /* libAMRAdapterMopub.a in Frameworks */,
-				9ECD1BC420BD4A940051F62D /* MMAdSDK.framework in Frameworks */,
+				9EB0308620C7DB240003D875 /* libAMRAdapterFyber.a in Frameworks */,
+				9EB0304220C7DB240003D875 /* libAMRAdapterMopub.a in Frameworks */,
+				9EB02FF620C7DB240003D875 /* MMAdSDK.framework in Frameworks */,
 				9E809AFE206A416E00E42695 /* MediaPlayer.framework in Frameworks */,
 				9E809AFD206A416A00E42695 /* MessageUI.framework in Frameworks */,
-				9ECD1BBA20BD4A940051F62D /* AvocarrotNativeAssets.framework in Frameworks */,
-				9ECD1BBC20BD4A940051F62D /* libAMRAdapterLoopme.a in Frameworks */,
+				9EB02FEC20C7DB240003D875 /* AvocarrotNativeAssets.framework in Frameworks */,
+				9EB02FEE20C7DB240003D875 /* libAMRAdapterLoopme.a in Frameworks */,
 				9E809AFC206A416500E42695 /* MobileCoreServices.framework in Frameworks */,
 				9E809AFB206A416000E42695 /* QuartzCore.framework in Frameworks */,
 				9E809AFA206A415B00E42695 /* SafariServices.framework in Frameworks */,
 				9E809AF9206A415700E42695 /* Social.framework in Frameworks */,
-				9ECD1C0220BD4A940051F62D /* UnityAds.framework in Frameworks */,
-				9ECD1BFC20BD4A940051F62D /* AdColony.framework in Frameworks */,
-				9ECD1BA620BD4A940051F62D /* AppLovinSDK.framework in Frameworks */,
+				9EB0303420C7DB240003D875 /* UnityAds.framework in Frameworks */,
+				9EB0302E20C7DB240003D875 /* AdColony.framework in Frameworks */,
+				9EB02FD820C7DB240003D875 /* AppLovinSDK.framework in Frameworks */,
 				9E809AF8206A415100E42695 /* StoreKit.framework in Frameworks */,
-				9ECD1BF620BD4A940051F62D /* Tapjoy.framework in Frameworks */,
-				9ECD1C1E20BD4A940051F62D /* MPUBMoatMobileAppKit.framework in Frameworks */,
-				9ECD1BAE20BD4A940051F62D /* AvocarrotInsights.framework in Frameworks */,
+				9EB0302820C7DB240003D875 /* Tapjoy.framework in Frameworks */,
+				9EB0305020C7DB240003D875 /* MPUBMoatMobileAppKit.framework in Frameworks */,
+				9EB02FE020C7DB240003D875 /* AvocarrotInsights.framework in Frameworks */,
 				9E809AF7206A414C00E42695 /* SystemConfiguration.framework in Frameworks */,
 				9E809AF6206A414800E42695 /* UIKit.framework in Frameworks */,
-				9ECD1C4220BD4A940051F62D /* FBAudienceNetwork.framework in Frameworks */,
+				9EB0307420C7DB240003D875 /* FBAudienceNetwork.framework in Frameworks */,
 				9E809AF5206A414400E42695 /* WatchConnectivity.framework in Frameworks */,
-				9ECD1BEA20BD4A940051F62D /* libAMRAdapterAdmob.a in Frameworks */,
-				9ECD1BB820BD4A940051F62D /* AvocarrotBanner.framework in Frameworks */,
-				9ECD1BFA20BD4A940051F62D /* libAMRAdapterTapjoy.a in Frameworks */,
-				9ECD1C4820BD4A940051F62D /* Chartboost.framework in Frameworks */,
-				9ECD1C0A20BD4A940051F62D /* libAMRAdapterFlurry.a in Frameworks */,
-				9ECD1BFE20BD4A940051F62D /* libAMRAdapterAdcolony.a in Frameworks */,
-				9ECD1BD220BD4A940051F62D /* libAppnextLib.a in Frameworks */,
+				9EB0301C20C7DB240003D875 /* libAMRAdapterAdmob.a in Frameworks */,
+				9EB02FEA20C7DB240003D875 /* AvocarrotBanner.framework in Frameworks */,
+				9EB0302C20C7DB240003D875 /* libAMRAdapterTapjoy.a in Frameworks */,
+				9EB0307A20C7DB240003D875 /* Chartboost.framework in Frameworks */,
+				9EB0303C20C7DB240003D875 /* libAMRAdapterFlurry.a in Frameworks */,
+				9EB0303020C7DB240003D875 /* libAMRAdapterAdcolony.a in Frameworks */,
+				9EB0300420C7DB240003D875 /* libAppnextLib.a in Frameworks */,
 				9E809AF4206A413E00E42695 /* WebKit.framework in Frameworks */,
-				9ECD1BCE20BD4A940051F62D /* libAMRAdapterAmazon.a in Frameworks */,
-				9ECD1BB020BD4A940051F62D /* Mraid.framework in Frameworks */,
+				9EB0300020C7DB240003D875 /* libAMRAdapterAmazon.a in Frameworks */,
+				9EB02FE220C7DB240003D875 /* Mraid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -911,29 +911,29 @@
 		2FCCDB861D6B55C000E4414A /* MediationAdapters */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B6620BD4A920051F62D /* AMRAdapterAdcolony */,
-				9ECD1B5520BD4A910051F62D /* AMRAdapterAdmob */,
-				9ECD1B5920BD4A910051F62D /* AMRAdapterAdmost */,
-				9ECD1B3B20BD4A900051F62D /* AMRAdapterAmazon */,
-				9ECD1B1D20BD4A8F0051F62D /* AMRAdapterApplovin */,
-				9ECD1B3F20BD4A900051F62D /* AMRAdapterAppnext */,
-				9ECD1B2120BD4A8F0051F62D /* AMRAdapterAvocarrot */,
-				9ECD1B9620BD4A930051F62D /* AMRAdapterChartboost */,
-				9ECD1B4A20BD4A910051F62D /* AMRAdapterDFP */,
-				9ECD1B9220BD4A930051F62D /* AMRAdapterFacebook */,
-				9ECD1B6E20BD4A920051F62D /* AMRAdapterFlurry */,
-				9ECD1B9B20BD4A930051F62D /* AMRAdapterFyber */,
-				9ECD1B4C20BD4A910051F62D /* AMRAdapterInmobi */,
-				9ECD1B5D20BD4A910051F62D /* AMRAdapterIronsource */,
-				9ECD1B2D20BD4A900051F62D /* AMRAdapterLoopme */,
-				9ECD1B4520BD4A900051F62D /* AMRAdapterMobfox */,
-				9ECD1B7820BD4A930051F62D /* AMRAdapterMopub */,
-				9ECD1B3220BD4A900051F62D /* AMRAdapterNexage */,
-				9ECD1B5020BD4A910051F62D /* AMRAdapterSmaato */,
-				9ECD1B3620BD4A900051F62D /* AMRAdapterStartapp */,
-				9ECD1B6120BD4A920051F62D /* AMRAdapterTapjoy */,
-				9ECD1B6A20BD4A920051F62D /* AMRAdapterUnity */,
-				9ECD1B7420BD4A930051F62D /* AMRAdapterVungle */,
+				9EB02F9820C7DB230003D875 /* AMRAdapterAdcolony */,
+				9EB02F8720C7DB230003D875 /* AMRAdapterAdmob */,
+				9EB02F8B20C7DB230003D875 /* AMRAdapterAdmost */,
+				9EB02F6D20C7DB220003D875 /* AMRAdapterAmazon */,
+				9EB02F4F20C7DB220003D875 /* AMRAdapterApplovin */,
+				9EB02F7120C7DB220003D875 /* AMRAdapterAppnext */,
+				9EB02F5320C7DB220003D875 /* AMRAdapterAvocarrot */,
+				9EB02FC820C7DB240003D875 /* AMRAdapterChartboost */,
+				9EB02F7C20C7DB220003D875 /* AMRAdapterDFP */,
+				9EB02FC420C7DB240003D875 /* AMRAdapterFacebook */,
+				9EB02FA020C7DB230003D875 /* AMRAdapterFlurry */,
+				9EB02FCD20C7DB240003D875 /* AMRAdapterFyber */,
+				9EB02F7E20C7DB220003D875 /* AMRAdapterInmobi */,
+				9EB02F8F20C7DB230003D875 /* AMRAdapterIronsource */,
+				9EB02F5F20C7DB220003D875 /* AMRAdapterLoopme */,
+				9EB02F7720C7DB220003D875 /* AMRAdapterMobfox */,
+				9EB02FAA20C7DB230003D875 /* AMRAdapterMopub */,
+				9EB02F6420C7DB220003D875 /* AMRAdapterNexage */,
+				9EB02F8220C7DB230003D875 /* AMRAdapterSmaato */,
+				9EB02F6820C7DB220003D875 /* AMRAdapterStartapp */,
+				9EB02F9320C7DB230003D875 /* AMRAdapterTapjoy */,
+				9EB02F9C20C7DB230003D875 /* AMRAdapterUnity */,
+				9EB02FA620C7DB230003D875 /* AMRAdapterVungle */,
 			);
 			path = MediationAdapters;
 			sourceTree = "<group>";
@@ -1006,428 +1006,428 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9ECD1B1D20BD4A8F0051F62D /* AMRAdapterApplovin */ = {
+		9EB02F4F20C7DB220003D875 /* AMRAdapterApplovin */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B1E20BD4A8F0051F62D /* libAMRAdapterApplovin.a */,
-				9ECD1B1F20BD4A8F0051F62D /* AMRAdapterApplovinInclude */,
+				9EB02F5020C7DB220003D875 /* libAMRAdapterApplovin.a */,
+				9EB02F5120C7DB220003D875 /* AMRAdapterApplovinInclude */,
 			);
 			path = AMRAdapterApplovin;
 			sourceTree = "<group>";
 		};
-		9ECD1B1F20BD4A8F0051F62D /* AMRAdapterApplovinInclude */ = {
+		9EB02F5120C7DB220003D875 /* AMRAdapterApplovinInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B2020BD4A8F0051F62D /* AppLovinSDK.framework */,
+				9EB02F5220C7DB220003D875 /* AppLovinSDK.framework */,
 			);
 			path = AMRAdapterApplovinInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B2120BD4A8F0051F62D /* AMRAdapterAvocarrot */ = {
+		9EB02F5320C7DB220003D875 /* AMRAdapterAvocarrot */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B2220BD4A8F0051F62D /* libAMRAdapterAvocarrot.a */,
-				9ECD1B2320BD4A8F0051F62D /* AMRAdapterAvocarrotInclude */,
+				9EB02F5420C7DB220003D875 /* libAMRAdapterAvocarrot.a */,
+				9EB02F5520C7DB220003D875 /* AMRAdapterAvocarrotInclude */,
 			);
 			path = AMRAdapterAvocarrot;
 			sourceTree = "<group>";
 		};
-		9ECD1B2320BD4A8F0051F62D /* AMRAdapterAvocarrotInclude */ = {
+		9EB02F5520C7DB220003D875 /* AMRAdapterAvocarrotInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B2420BD4A8F0051F62D /* AvocarrotCore.framework */,
-				9ECD1B2520BD4A8F0051F62D /* AvocarrotVideo.framework */,
-				9ECD1B2620BD4A8F0051F62D /* AvocarrotInsights.framework */,
-				9ECD1B2720BD4A8F0051F62D /* Mraid.framework */,
-				9ECD1B2820BD4A8F0051F62D /* Vast.framework */,
-				9ECD1B2920BD4A8F0051F62D /* AvocarrotNativeView.framework */,
-				9ECD1B2A20BD4A8F0051F62D /* AvocarrotInterstitial.framework */,
-				9ECD1B2B20BD4A8F0051F62D /* AvocarrotBanner.framework */,
-				9ECD1B2C20BD4A8F0051F62D /* AvocarrotNativeAssets.framework */,
+				9EB02F5620C7DB220003D875 /* AvocarrotCore.framework */,
+				9EB02F5720C7DB220003D875 /* AvocarrotVideo.framework */,
+				9EB02F5820C7DB220003D875 /* AvocarrotInsights.framework */,
+				9EB02F5920C7DB220003D875 /* Mraid.framework */,
+				9EB02F5A20C7DB220003D875 /* Vast.framework */,
+				9EB02F5B20C7DB220003D875 /* AvocarrotNativeView.framework */,
+				9EB02F5C20C7DB220003D875 /* AvocarrotInterstitial.framework */,
+				9EB02F5D20C7DB220003D875 /* AvocarrotBanner.framework */,
+				9EB02F5E20C7DB220003D875 /* AvocarrotNativeAssets.framework */,
 			);
 			path = AMRAdapterAvocarrotInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B2D20BD4A900051F62D /* AMRAdapterLoopme */ = {
+		9EB02F5F20C7DB220003D875 /* AMRAdapterLoopme */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B2E20BD4A900051F62D /* libAMRAdapterLoopme.a */,
-				9ECD1B2F20BD4A900051F62D /* AMRAdapterLoopmeInclude */,
+				9EB02F6020C7DB220003D875 /* libAMRAdapterLoopme.a */,
+				9EB02F6120C7DB220003D875 /* AMRAdapterLoopmeInclude */,
 			);
 			path = AMRAdapterLoopme;
 			sourceTree = "<group>";
 		};
-		9ECD1B2F20BD4A900051F62D /* AMRAdapterLoopmeInclude */ = {
+		9EB02F6120C7DB220003D875 /* AMRAdapterLoopmeInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B3020BD4A900051F62D /* LoopMeResources.bundle */,
-				9ECD1B3120BD4A900051F62D /* LoopMeSDK.framework */,
+				9EB02F6220C7DB220003D875 /* LoopMeResources.bundle */,
+				9EB02F6320C7DB220003D875 /* LoopMeSDK.framework */,
 			);
 			path = AMRAdapterLoopmeInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B3220BD4A900051F62D /* AMRAdapterNexage */ = {
+		9EB02F6420C7DB220003D875 /* AMRAdapterNexage */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B3320BD4A900051F62D /* libAMRAdapterNexage.a */,
-				9ECD1B3420BD4A900051F62D /* AMRAdapterNexageInclude */,
+				9EB02F6520C7DB220003D875 /* libAMRAdapterNexage.a */,
+				9EB02F6620C7DB220003D875 /* AMRAdapterNexageInclude */,
 			);
 			path = AMRAdapterNexage;
 			sourceTree = "<group>";
 		};
-		9ECD1B3420BD4A900051F62D /* AMRAdapterNexageInclude */ = {
+		9EB02F6620C7DB220003D875 /* AMRAdapterNexageInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B3520BD4A900051F62D /* MMAdSDK.framework */,
+				9EB02F6720C7DB220003D875 /* MMAdSDK.framework */,
 			);
 			path = AMRAdapterNexageInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B3620BD4A900051F62D /* AMRAdapterStartapp */ = {
+		9EB02F6820C7DB220003D875 /* AMRAdapterStartapp */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B3720BD4A900051F62D /* libAMRAdapterStartapp.a */,
-				9ECD1B3820BD4A900051F62D /* AMRAdapterStartappInclude */,
+				9EB02F6920C7DB220003D875 /* libAMRAdapterStartapp.a */,
+				9EB02F6A20C7DB220003D875 /* AMRAdapterStartappInclude */,
 			);
 			path = AMRAdapterStartapp;
 			sourceTree = "<group>";
 		};
-		9ECD1B3820BD4A900051F62D /* AMRAdapterStartappInclude */ = {
+		9EB02F6A20C7DB220003D875 /* AMRAdapterStartappInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B3920BD4A900051F62D /* StartApp.framework */,
-				9ECD1B3A20BD4A900051F62D /* StartApp.bundle */,
+				9EB02F6B20C7DB220003D875 /* StartApp.framework */,
+				9EB02F6C20C7DB220003D875 /* StartApp.bundle */,
 			);
 			path = AMRAdapterStartappInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B3B20BD4A900051F62D /* AMRAdapterAmazon */ = {
+		9EB02F6D20C7DB220003D875 /* AMRAdapterAmazon */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B3C20BD4A900051F62D /* AMRAdapterAmazonInclude */,
-				9ECD1B3E20BD4A900051F62D /* libAMRAdapterAmazon.a */,
+				9EB02F6E20C7DB220003D875 /* AMRAdapterAmazonInclude */,
+				9EB02F7020C7DB220003D875 /* libAMRAdapterAmazon.a */,
 			);
 			path = AMRAdapterAmazon;
 			sourceTree = "<group>";
 		};
-		9ECD1B3C20BD4A900051F62D /* AMRAdapterAmazonInclude */ = {
+		9EB02F6E20C7DB220003D875 /* AMRAdapterAmazonInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B3D20BD4A900051F62D /* AmazonAd.framework */,
+				9EB02F6F20C7DB220003D875 /* AmazonAd.framework */,
 			);
 			path = AMRAdapterAmazonInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B3F20BD4A900051F62D /* AMRAdapterAppnext */ = {
+		9EB02F7120C7DB220003D875 /* AMRAdapterAppnext */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B4020BD4A900051F62D /* libAMRAdapterAppnext.a */,
-				9ECD1B4120BD4A900051F62D /* AMRAdapterAppnextInclude */,
+				9EB02F7220C7DB220003D875 /* libAMRAdapterAppnext.a */,
+				9EB02F7320C7DB220003D875 /* AMRAdapterAppnextInclude */,
 			);
 			path = AMRAdapterAppnext;
 			sourceTree = "<group>";
 		};
-		9ECD1B4120BD4A900051F62D /* AMRAdapterAppnextInclude */ = {
+		9EB02F7320C7DB220003D875 /* AMRAdapterAppnextInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B4220BD4A900051F62D /* libAppnextLib.a */,
-				9ECD1B4320BD4A900051F62D /* libAppnextSDKCore.a */,
-				9ECD1B4420BD4A900051F62D /* libAppnextNativeAdsSDK.a */,
+				9EB02F7420C7DB220003D875 /* libAppnextLib.a */,
+				9EB02F7520C7DB220003D875 /* libAppnextSDKCore.a */,
+				9EB02F7620C7DB220003D875 /* libAppnextNativeAdsSDK.a */,
 			);
 			path = AMRAdapterAppnextInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B4520BD4A900051F62D /* AMRAdapterMobfox */ = {
+		9EB02F7720C7DB220003D875 /* AMRAdapterMobfox */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B4620BD4A900051F62D /* AMRAdapterMobfoxInclude */,
-				9ECD1B4920BD4A900051F62D /* libAMRAdapterMobfox.a */,
+				9EB02F7820C7DB220003D875 /* AMRAdapterMobfoxInclude */,
+				9EB02F7B20C7DB220003D875 /* libAMRAdapterMobfox.a */,
 			);
 			path = AMRAdapterMobfox;
 			sourceTree = "<group>";
 		};
-		9ECD1B4620BD4A900051F62D /* AMRAdapterMobfoxInclude */ = {
+		9EB02F7820C7DB220003D875 /* AMRAdapterMobfoxInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B4720BD4A900051F62D /* MATMoatMobileAppKit.framework */,
-				9ECD1B4820BD4A900051F62D /* MobFoxSDKCore.framework */,
+				9EB02F7920C7DB220003D875 /* MATMoatMobileAppKit.framework */,
+				9EB02F7A20C7DB220003D875 /* MobFoxSDKCore.framework */,
 			);
 			path = AMRAdapterMobfoxInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B4A20BD4A910051F62D /* AMRAdapterDFP */ = {
+		9EB02F7C20C7DB220003D875 /* AMRAdapterDFP */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B4B20BD4A910051F62D /* libAMRAdapterDFP.a */,
+				9EB02F7D20C7DB220003D875 /* libAMRAdapterDFP.a */,
 			);
 			path = AMRAdapterDFP;
 			sourceTree = "<group>";
 		};
-		9ECD1B4C20BD4A910051F62D /* AMRAdapterInmobi */ = {
+		9EB02F7E20C7DB220003D875 /* AMRAdapterInmobi */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B4D20BD4A910051F62D /* libAMRAdapterInmobi.a */,
-				9ECD1B4E20BD4A910051F62D /* AMRAdapterInmobiInclude */,
+				9EB02F7F20C7DB220003D875 /* libAMRAdapterInmobi.a */,
+				9EB02F8020C7DB220003D875 /* AMRAdapterInmobiInclude */,
 			);
 			path = AMRAdapterInmobi;
 			sourceTree = "<group>";
 		};
-		9ECD1B4E20BD4A910051F62D /* AMRAdapterInmobiInclude */ = {
+		9EB02F8020C7DB220003D875 /* AMRAdapterInmobiInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B4F20BD4A910051F62D /* InMobiSDK.framework */,
+				9EB02F8120C7DB220003D875 /* InMobiSDK.framework */,
 			);
 			path = AMRAdapterInmobiInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B5020BD4A910051F62D /* AMRAdapterSmaato */ = {
+		9EB02F8220C7DB230003D875 /* AMRAdapterSmaato */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B5120BD4A910051F62D /* AMRAdapterSmaatoInclude */,
-				9ECD1B5420BD4A910051F62D /* libAMRAdapterSmaato.a */,
+				9EB02F8320C7DB230003D875 /* AMRAdapterSmaatoInclude */,
+				9EB02F8620C7DB230003D875 /* libAMRAdapterSmaato.a */,
 			);
 			path = AMRAdapterSmaato;
 			sourceTree = "<group>";
 		};
-		9ECD1B5120BD4A910051F62D /* AMRAdapterSmaatoInclude */ = {
+		9EB02F8320C7DB230003D875 /* AMRAdapterSmaatoInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B5220BD4A910051F62D /* SMAMoatMobileAppKit.framework */,
-				9ECD1B5320BD4A910051F62D /* iSoma.framework */,
+				9EB02F8420C7DB230003D875 /* SMAMoatMobileAppKit.framework */,
+				9EB02F8520C7DB230003D875 /* iSoma.framework */,
 			);
 			path = AMRAdapterSmaatoInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B5520BD4A910051F62D /* AMRAdapterAdmob */ = {
+		9EB02F8720C7DB230003D875 /* AMRAdapterAdmob */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B5620BD4A910051F62D /* libAMRAdapterAdmob.a */,
-				9ECD1B5720BD4A910051F62D /* AMRAdapterAdmobInclude */,
+				9EB02F8820C7DB230003D875 /* libAMRAdapterAdmob.a */,
+				9EB02F8920C7DB230003D875 /* AMRAdapterAdmobInclude */,
 			);
 			path = AMRAdapterAdmob;
 			sourceTree = "<group>";
 		};
-		9ECD1B5720BD4A910051F62D /* AMRAdapterAdmobInclude */ = {
+		9EB02F8920C7DB230003D875 /* AMRAdapterAdmobInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B5820BD4A910051F62D /* GoogleMobileAds.framework */,
+				9EB02F8A20C7DB230003D875 /* GoogleMobileAds.framework */,
 			);
 			path = AMRAdapterAdmobInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B5920BD4A910051F62D /* AMRAdapterAdmost */ = {
+		9EB02F8B20C7DB230003D875 /* AMRAdapterAdmost */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B5A20BD4A910051F62D /* AMRAdapterAdmostInclude */,
-				9ECD1B5C20BD4A910051F62D /* libAMRAdapterAdmost.a */,
+				9EB02F8C20C7DB230003D875 /* AMRAdapterAdmostInclude */,
+				9EB02F8E20C7DB230003D875 /* libAMRAdapterAdmost.a */,
 			);
 			path = AMRAdapterAdmost;
 			sourceTree = "<group>";
 		};
-		9ECD1B5A20BD4A910051F62D /* AMRAdapterAdmostInclude */ = {
+		9EB02F8C20C7DB230003D875 /* AMRAdapterAdmostInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B5B20BD4A910051F62D /* AMRAdapterAdmostResources.bundle */,
+				9EB02F8D20C7DB230003D875 /* AMRAdapterAdmostResources.bundle */,
 			);
 			path = AMRAdapterAdmostInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B5D20BD4A910051F62D /* AMRAdapterIronsource */ = {
+		9EB02F8F20C7DB230003D875 /* AMRAdapterIronsource */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B5E20BD4A910051F62D /* libAMRAdapterIronsource.a */,
-				9ECD1B5F20BD4A910051F62D /* AMRAdapterIronsourceInclude */,
+				9EB02F9020C7DB230003D875 /* libAMRAdapterIronsource.a */,
+				9EB02F9120C7DB230003D875 /* AMRAdapterIronsourceInclude */,
 			);
 			path = AMRAdapterIronsource;
 			sourceTree = "<group>";
 		};
-		9ECD1B5F20BD4A910051F62D /* AMRAdapterIronsourceInclude */ = {
+		9EB02F9120C7DB230003D875 /* AMRAdapterIronsourceInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B6020BD4A910051F62D /* IronSource.framework */,
+				9EB02F9220C7DB230003D875 /* IronSource.framework */,
 			);
 			path = AMRAdapterIronsourceInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B6120BD4A920051F62D /* AMRAdapterTapjoy */ = {
+		9EB02F9320C7DB230003D875 /* AMRAdapterTapjoy */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B6220BD4A920051F62D /* AMRAdapterTapjoyInclude */,
-				9ECD1B6520BD4A920051F62D /* libAMRAdapterTapjoy.a */,
+				9EB02F9420C7DB230003D875 /* AMRAdapterTapjoyInclude */,
+				9EB02F9720C7DB230003D875 /* libAMRAdapterTapjoy.a */,
 			);
 			path = AMRAdapterTapjoy;
 			sourceTree = "<group>";
 		};
-		9ECD1B6220BD4A920051F62D /* AMRAdapterTapjoyInclude */ = {
+		9EB02F9420C7DB230003D875 /* AMRAdapterTapjoyInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B6320BD4A920051F62D /* Tapjoy.framework */,
-				9ECD1B6420BD4A920051F62D /* TapjoyResources.bundle */,
+				9EB02F9520C7DB230003D875 /* Tapjoy.framework */,
+				9EB02F9620C7DB230003D875 /* TapjoyResources.bundle */,
 			);
 			path = AMRAdapterTapjoyInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B6620BD4A920051F62D /* AMRAdapterAdcolony */ = {
+		9EB02F9820C7DB230003D875 /* AMRAdapterAdcolony */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B6720BD4A920051F62D /* AMRAdapterAdcolonyInclude */,
-				9ECD1B6920BD4A920051F62D /* libAMRAdapterAdcolony.a */,
+				9EB02F9920C7DB230003D875 /* AMRAdapterAdcolonyInclude */,
+				9EB02F9B20C7DB230003D875 /* libAMRAdapterAdcolony.a */,
 			);
 			path = AMRAdapterAdcolony;
 			sourceTree = "<group>";
 		};
-		9ECD1B6720BD4A920051F62D /* AMRAdapterAdcolonyInclude */ = {
+		9EB02F9920C7DB230003D875 /* AMRAdapterAdcolonyInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B6820BD4A920051F62D /* AdColony.framework */,
+				9EB02F9A20C7DB230003D875 /* AdColony.framework */,
 			);
 			path = AMRAdapterAdcolonyInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B6A20BD4A920051F62D /* AMRAdapterUnity */ = {
+		9EB02F9C20C7DB230003D875 /* AMRAdapterUnity */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B6B20BD4A920051F62D /* libAMRAdapterUnity.a */,
-				9ECD1B6C20BD4A920051F62D /* AMRAdapterUnityInclude */,
+				9EB02F9D20C7DB230003D875 /* libAMRAdapterUnity.a */,
+				9EB02F9E20C7DB230003D875 /* AMRAdapterUnityInclude */,
 			);
 			path = AMRAdapterUnity;
 			sourceTree = "<group>";
 		};
-		9ECD1B6C20BD4A920051F62D /* AMRAdapterUnityInclude */ = {
+		9EB02F9E20C7DB230003D875 /* AMRAdapterUnityInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B6D20BD4A920051F62D /* UnityAds.framework */,
+				9EB02F9F20C7DB230003D875 /* UnityAds.framework */,
 			);
 			path = AMRAdapterUnityInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B6E20BD4A920051F62D /* AMRAdapterFlurry */ = {
+		9EB02FA020C7DB230003D875 /* AMRAdapterFlurry */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B6F20BD4A920051F62D /* AMRAdapterFlurryInclude */,
-				9ECD1B7320BD4A920051F62D /* libAMRAdapterFlurry.a */,
+				9EB02FA120C7DB230003D875 /* AMRAdapterFlurryInclude */,
+				9EB02FA520C7DB230003D875 /* libAMRAdapterFlurry.a */,
 			);
 			path = AMRAdapterFlurry;
 			sourceTree = "<group>";
 		};
-		9ECD1B6F20BD4A920051F62D /* AMRAdapterFlurryInclude */ = {
+		9EB02FA120C7DB230003D875 /* AMRAdapterFlurryInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B7020BD4A920051F62D /* libFlurryAds_8.6.1.a */,
-				9ECD1B7120BD4A920051F62D /* libFlurry_8.6.1.a */,
-				9ECD1B7220BD4A920051F62D /* starburst_white.png */,
+				9EB02FA220C7DB230003D875 /* libFlurryAds_8.6.1.a */,
+				9EB02FA320C7DB230003D875 /* libFlurry_8.6.1.a */,
+				9EB02FA420C7DB230003D875 /* starburst_white.png */,
 			);
 			path = AMRAdapterFlurryInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B7420BD4A930051F62D /* AMRAdapterVungle */ = {
+		9EB02FA620C7DB230003D875 /* AMRAdapterVungle */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B7520BD4A930051F62D /* libAMRAdapterVungle.a */,
-				9ECD1B7620BD4A930051F62D /* AMRAdapterVungleInclude */,
+				9EB02FA720C7DB230003D875 /* libAMRAdapterVungle.a */,
+				9EB02FA820C7DB230003D875 /* AMRAdapterVungleInclude */,
 			);
 			path = AMRAdapterVungle;
 			sourceTree = "<group>";
 		};
-		9ECD1B7620BD4A930051F62D /* AMRAdapterVungleInclude */ = {
+		9EB02FA820C7DB230003D875 /* AMRAdapterVungleInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B7720BD4A930051F62D /* VungleSDK.framework */,
+				9EB02FA920C7DB230003D875 /* VungleSDK.framework */,
 			);
 			path = AMRAdapterVungleInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B7820BD4A930051F62D /* AMRAdapterMopub */ = {
+		9EB02FAA20C7DB230003D875 /* AMRAdapterMopub */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B7920BD4A930051F62D /* libAMRAdapterMopub.a */,
-				9ECD1B7A20BD4A930051F62D /* AMRAdapterMopubInclude */,
+				9EB02FAB20C7DB230003D875 /* libAMRAdapterMopub.a */,
+				9EB02FAC20C7DB230003D875 /* AMRAdapterMopubInclude */,
 			);
 			path = AMRAdapterMopub;
 			sourceTree = "<group>";
 		};
-		9ECD1B7A20BD4A930051F62D /* AMRAdapterMopubInclude */ = {
+		9EB02FAC20C7DB230003D875 /* AMRAdapterMopubInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B7B20BD4A930051F62D /* MPUnmutedBtn.png */,
-				9ECD1B7C20BD4A930051F62D /* MRAID.bundle */,
-				9ECD1B7D20BD4A930051F62D /* MPDAAIcon.png */,
-				9ECD1B7E20BD4A930051F62D /* MPUnmutedBtn@3x.png */,
-				9ECD1B7F20BD4A930051F62D /* MPPlayBtn@2x.png */,
-				9ECD1B8020BD4A930051F62D /* MPCloseBtn@2x.png */,
-				9ECD1B8120BD4A930051F62D /* MPUBMoatMobileAppKit.framework */,
-				9ECD1B8220BD4A930051F62D /* MPCloseBtn@3x.png */,
-				9ECD1B8320BD4A930051F62D /* MPCloseBtn.png */,
-				9ECD1B8420BD4A930051F62D /* MPPlayBtn@3x.png */,
-				9ECD1B8520BD4A930051F62D /* MPAdBrowserController.xib */,
-				9ECD1B8620BD4A930051F62D /* MPUnmutedBtn@2x.png */,
-				9ECD1B8720BD4A930051F62D /* MPCountdownTimer.html */,
-				9ECD1B8820BD4A930051F62D /* MPCloseButtonX@2x.png */,
-				9ECD1B8920BD4A930051F62D /* libAvid-mopub-3.6.1.a */,
-				9ECD1B8A20BD4A930051F62D /* MPCloseButtonX@3x.png */,
-				9ECD1B8B20BD4A930051F62D /* MPCloseButtonX.png */,
-				9ECD1B8C20BD4A930051F62D /* MPDAAIcon@3x.png */,
-				9ECD1B8D20BD4A930051F62D /* MPMutedBtn@3x.png */,
-				9ECD1B8E20BD4A930051F62D /* MPPlayBtn.png */,
-				9ECD1B8F20BD4A930051F62D /* MPMutedBtn.png */,
-				9ECD1B9020BD4A930051F62D /* MPMutedBtn@2x.png */,
-				9ECD1B9120BD4A930051F62D /* MPDAAIcon@2x.png */,
+				9EB02FAD20C7DB230003D875 /* MPUnmutedBtn.png */,
+				9EB02FAE20C7DB230003D875 /* MRAID.bundle */,
+				9EB02FAF20C7DB230003D875 /* MPDAAIcon.png */,
+				9EB02FB020C7DB230003D875 /* MPUnmutedBtn@3x.png */,
+				9EB02FB120C7DB230003D875 /* MPPlayBtn@2x.png */,
+				9EB02FB220C7DB230003D875 /* MPCloseBtn@2x.png */,
+				9EB02FB320C7DB230003D875 /* MPUBMoatMobileAppKit.framework */,
+				9EB02FB420C7DB230003D875 /* MPCloseBtn@3x.png */,
+				9EB02FB520C7DB230003D875 /* MPCloseBtn.png */,
+				9EB02FB620C7DB230003D875 /* MPPlayBtn@3x.png */,
+				9EB02FB720C7DB230003D875 /* MPAdBrowserController.xib */,
+				9EB02FB820C7DB230003D875 /* MPUnmutedBtn@2x.png */,
+				9EB02FB920C7DB230003D875 /* MPCountdownTimer.html */,
+				9EB02FBA20C7DB230003D875 /* MPCloseButtonX@2x.png */,
+				9EB02FBB20C7DB230003D875 /* libAvid-mopub-3.6.1.a */,
+				9EB02FBC20C7DB230003D875 /* MPCloseButtonX@3x.png */,
+				9EB02FBD20C7DB230003D875 /* MPCloseButtonX.png */,
+				9EB02FBE20C7DB230003D875 /* MPDAAIcon@3x.png */,
+				9EB02FBF20C7DB230003D875 /* MPMutedBtn@3x.png */,
+				9EB02FC020C7DB230003D875 /* MPPlayBtn.png */,
+				9EB02FC120C7DB230003D875 /* MPMutedBtn.png */,
+				9EB02FC220C7DB230003D875 /* MPMutedBtn@2x.png */,
+				9EB02FC320C7DB230003D875 /* MPDAAIcon@2x.png */,
 			);
 			path = AMRAdapterMopubInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B9220BD4A930051F62D /* AMRAdapterFacebook */ = {
+		9EB02FC420C7DB240003D875 /* AMRAdapterFacebook */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B9320BD4A930051F62D /* libAMRAdapterFacebook.a */,
-				9ECD1B9420BD4A930051F62D /* AMRAdapterFacebookInclude */,
+				9EB02FC520C7DB240003D875 /* libAMRAdapterFacebook.a */,
+				9EB02FC620C7DB240003D875 /* AMRAdapterFacebookInclude */,
 			);
 			path = AMRAdapterFacebook;
 			sourceTree = "<group>";
 		};
-		9ECD1B9420BD4A930051F62D /* AMRAdapterFacebookInclude */ = {
+		9EB02FC620C7DB240003D875 /* AMRAdapterFacebookInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B9520BD4A930051F62D /* FBAudienceNetwork.framework */,
+				9EB02FC720C7DB240003D875 /* FBAudienceNetwork.framework */,
 			);
 			path = AMRAdapterFacebookInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B9620BD4A930051F62D /* AMRAdapterChartboost */ = {
+		9EB02FC820C7DB240003D875 /* AMRAdapterChartboost */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B9720BD4A930051F62D /* libAMRAdapterChartboost.a */,
-				9ECD1B9820BD4A930051F62D /* AMRAdapterChartboostInclude */,
+				9EB02FC920C7DB240003D875 /* libAMRAdapterChartboost.a */,
+				9EB02FCA20C7DB240003D875 /* AMRAdapterChartboostInclude */,
 			);
 			path = AMRAdapterChartboost;
 			sourceTree = "<group>";
 		};
-		9ECD1B9820BD4A930051F62D /* AMRAdapterChartboostInclude */ = {
+		9EB02FCA20C7DB240003D875 /* AMRAdapterChartboostInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B9920BD4A930051F62D /* CHAMoatMobileAppKit.framework */,
-				9ECD1B9A20BD4A930051F62D /* Chartboost.framework */,
+				9EB02FCB20C7DB240003D875 /* CHAMoatMobileAppKit.framework */,
+				9EB02FCC20C7DB240003D875 /* Chartboost.framework */,
 			);
 			path = AMRAdapterChartboostInclude;
 			sourceTree = "<group>";
 		};
-		9ECD1B9B20BD4A930051F62D /* AMRAdapterFyber */ = {
+		9EB02FCD20C7DB240003D875 /* AMRAdapterFyber */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B9C20BD4A930051F62D /* AMRAdapterFyberInclude */,
-				9ECD1BA220BD4A930051F62D /* libAMRAdapterFyber.a */,
+				9EB02FCE20C7DB240003D875 /* AMRAdapterFyberInclude */,
+				9EB02FD420C7DB240003D875 /* libAMRAdapterFyber.a */,
 			);
 			path = AMRAdapterFyber;
 			sourceTree = "<group>";
 		};
-		9ECD1B9C20BD4A930051F62D /* AMRAdapterFyberInclude */ = {
+		9EB02FCE20C7DB240003D875 /* AMRAdapterFyberInclude */ = {
 			isa = PBXGroup;
 			children = (
-				9ECD1B9D20BD4A930051F62D /* StartedBundleIcon.png */,
-				9ECD1B9E20BD4A930051F62D /* FYBBackIcon@2x.png */,
-				9ECD1B9F20BD4A930051F62D /* UnstartedBundleIcon.png */,
-				9ECD1BA020BD4A930051F62D /* FYBIntegrationAnalyzerViewController.xib */,
-				9ECD1BA120BD4A930051F62D /* libFyberSDK-8.21.0.a */,
+				9EB02FCF20C7DB240003D875 /* StartedBundleIcon.png */,
+				9EB02FD020C7DB240003D875 /* FYBBackIcon@2x.png */,
+				9EB02FD120C7DB240003D875 /* UnstartedBundleIcon.png */,
+				9EB02FD220C7DB240003D875 /* FYBIntegrationAnalyzerViewController.xib */,
+				9EB02FD320C7DB240003D875 /* libFyberSDK-8.21.0.a */,
 			);
 			path = AMRAdapterFyberInclude;
 			sourceTree = "<group>";
@@ -1516,33 +1516,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ECD1C2520BD4A940051F62D /* MPAdBrowserController.xib in Resources */,
+				9EB0305720C7DB240003D875 /* MPAdBrowserController.xib in Resources */,
 				2F7E6ACD1E49BE6C00AA6F88 /* 8.jpg in Resources */,
 				2F7E6AC31E49BE6C00AA6F88 /* 16.jpg in Resources */,
 				2FAF0C051FA770A7006B6B15 /* CustomNative200x200.xib in Resources */,
 				2FAF0C091FA8581B006B6B15 /* CustomNative300x120.xib in Resources */,
-				9ECD1C0720BD4A940051F62D /* starburst_white.png in Resources */,
+				9EB0303920C7DB240003D875 /* starburst_white.png in Resources */,
 				2F7E6AC11E49BE6C00AA6F88 /* 14.jpg in Resources */,
-				9ECD1C1320BD4A940051F62D /* MRAID.bundle in Resources */,
-				9ECD1C3720BD4A940051F62D /* MPPlayBtn.png in Resources */,
+				9EB0304520C7DB240003D875 /* MRAID.bundle in Resources */,
+				9EB0306920C7DB240003D875 /* MPPlayBtn.png in Resources */,
 				2F4517BE1E77E67700069EAF /* AMRNativeAdBaseView50.xib in Resources */,
-				9ECD1C2B20BD4A940051F62D /* MPCloseButtonX@2x.png in Resources */,
-				9ECD1C1F20BD4A940051F62D /* MPCloseBtn@3x.png in Resources */,
+				9EB0305D20C7DB240003D875 /* MPCloseButtonX@2x.png in Resources */,
+				9EB0305120C7DB240003D875 /* MPCloseBtn@3x.png in Resources */,
 				2F7E6ACE1E49BE6C00AA6F88 /* 9.jpg in Resources */,
 				2F7E6ABE1E49BE6C00AA6F88 /* 11.jpg in Resources */,
-				9ECD1C4B20BD4A940051F62D /* FYBBackIcon@2x.png in Resources */,
+				9EB0307D20C7DB240003D875 /* FYBBackIcon@2x.png in Resources */,
 				2F7E6ACA1E49BE6C00AA6F88 /* 5.jpg in Resources */,
 				2F7E6ABB1E49BE6C00AA6F88 /* 0.jpg in Resources */,
-				9ECD1C3520BD4A940051F62D /* MPMutedBtn@3x.png in Resources */,
+				9EB0306720C7DB240003D875 /* MPMutedBtn@3x.png in Resources */,
 				2F7E6ABC1E49BE6C00AA6F88 /* 1.jpg in Resources */,
-				9ECD1BBD20BD4A940051F62D /* LoopMeResources.bundle in Resources */,
-				9ECD1C3320BD4A940051F62D /* MPDAAIcon@3x.png in Resources */,
+				9EB02FEF20C7DB240003D875 /* LoopMeResources.bundle in Resources */,
+				9EB0306520C7DB240003D875 /* MPDAAIcon@3x.png in Resources */,
 				2F4517AE1E76D5EF00069EAF /* AMRNativeAdBaseView250.xib in Resources */,
 				2F7E6AC81E49BE6C00AA6F88 /* 3.jpg in Resources */,
 				2F7E6ACC1E49BE6C00AA6F88 /* 7.jpg in Resources */,
 				2FAF0C081FA8581B006B6B15 /* CustomNative150x250.xib in Resources */,
 				2F4517B61E76DDEC00069EAF /* random-grey-variations.png in Resources */,
-				9ECD1C3D20BD4A940051F62D /* MPDAAIcon@2x.png in Resources */,
+				9EB0306F20C7DB240003D875 /* MPDAAIcon@2x.png in Resources */,
 				9E606ECB1FA74BC60012EB29 /* aero.ttf in Resources */,
 				2F7E6AC71E49BE6C00AA6F88 /* 2.jpg in Resources */,
 				2F23EFE71D6749BA00CAC0FF /* LaunchScreen.storyboard in Resources */,
@@ -1553,36 +1553,36 @@
 				2F4517B51E76DDEC00069EAF /* native_int_close.png in Resources */,
 				9E809B19206A44C800E42695 /* AMRResources.bundle in Resources */,
 				2F7E6AC91E49BE6C00AA6F88 /* 4.jpg in Resources */,
-				9ECD1C3920BD4A940051F62D /* MPMutedBtn.png in Resources */,
+				9EB0306B20C7DB240003D875 /* MPMutedBtn.png in Resources */,
 				2FAF0C0E1FA8898F006B6B15 /* Assets.xcassets in Resources */,
 				2F4517AF1E76D5EF00069EAF /* AMRNativeAdBaseViewInterstitial.xib in Resources */,
 				2F7E6ACB1E49BE6C00AA6F88 /* 6.jpg in Resources */,
-				9ECD1C1720BD4A940051F62D /* MPUnmutedBtn@3x.png in Resources */,
-				9ECD1C2920BD4A940051F62D /* MPCountdownTimer.html in Resources */,
-				9ECD1C4F20BD4A940051F62D /* FYBIntegrationAnalyzerViewController.xib in Resources */,
+				9EB0304920C7DB240003D875 /* MPUnmutedBtn@3x.png in Resources */,
+				9EB0305B20C7DB240003D875 /* MPCountdownTimer.html in Resources */,
+				9EB0308120C7DB240003D875 /* FYBIntegrationAnalyzerViewController.xib in Resources */,
 				2F4517B01E76D5EF00069EAF /* AMRNativeAdBaseViewInterstitialLandscape.xib in Resources */,
 				2F7E6AC61E49BE6C00AA6F88 /* 19.jpg in Resources */,
-				9ECD1C4920BD4A940051F62D /* StartedBundleIcon.png in Resources */,
+				9EB0307B20C7DB240003D875 /* StartedBundleIcon.png in Resources */,
 				2F7E6AC51E49BE6C00AA6F88 /* 18.jpg in Resources */,
-				9ECD1C1B20BD4A940051F62D /* MPCloseBtn@2x.png in Resources */,
-				9ECD1C2120BD4A940051F62D /* MPCloseBtn.png in Resources */,
-				9ECD1C1920BD4A940051F62D /* MPPlayBtn@2x.png in Resources */,
-				9ECD1C1120BD4A940051F62D /* MPUnmutedBtn.png in Resources */,
+				9EB0304D20C7DB240003D875 /* MPCloseBtn@2x.png in Resources */,
+				9EB0305320C7DB240003D875 /* MPCloseBtn.png in Resources */,
+				9EB0304B20C7DB240003D875 /* MPPlayBtn@2x.png in Resources */,
+				9EB0304320C7DB240003D875 /* MPUnmutedBtn.png in Resources */,
 				2F7E6ABF1E49BE6C00AA6F88 /* 12.jpg in Resources */,
-				9ECD1BF720BD4A940051F62D /* TapjoyResources.bundle in Resources */,
+				9EB0302920C7DB240003D875 /* TapjoyResources.bundle in Resources */,
 				2F4517AD1E76D5EF00069EAF /* AMRNativeAdBaseView90.xib in Resources */,
-				9ECD1C3B20BD4A940051F62D /* MPMutedBtn@2x.png in Resources */,
+				9EB0306D20C7DB240003D875 /* MPMutedBtn@2x.png in Resources */,
 				2F7E6ABD1E49BE6C00AA6F88 /* 10.jpg in Resources */,
-				9ECD1C4D20BD4A940051F62D /* UnstartedBundleIcon.png in Resources */,
-				9ECD1C1520BD4A940051F62D /* MPDAAIcon.png in Resources */,
+				9EB0307F20C7DB240003D875 /* UnstartedBundleIcon.png in Resources */,
+				9EB0304720C7DB240003D875 /* MPDAAIcon.png in Resources */,
 				2F7E6AC41E49BE6C00AA6F88 /* 17.jpg in Resources */,
 				2F6E42961DA292F2003572E4 /* GoogleService-Info.plist in Resources */,
-				9ECD1C2720BD4A940051F62D /* MPUnmutedBtn@2x.png in Resources */,
-				9ECD1C3120BD4A940051F62D /* MPCloseButtonX.png in Resources */,
-				9ECD1BED20BD4A940051F62D /* AMRAdapterAdmostResources.bundle in Resources */,
-				9ECD1C2320BD4A940051F62D /* MPPlayBtn@3x.png in Resources */,
-				9ECD1BC920BD4A940051F62D /* StartApp.bundle in Resources */,
-				9ECD1C2F20BD4A940051F62D /* MPCloseButtonX@3x.png in Resources */,
+				9EB0305920C7DB240003D875 /* MPUnmutedBtn@2x.png in Resources */,
+				9EB0306320C7DB240003D875 /* MPCloseButtonX.png in Resources */,
+				9EB0301F20C7DB240003D875 /* AMRAdapterAdmostResources.bundle in Resources */,
+				9EB0305520C7DB240003D875 /* MPPlayBtn@3x.png in Resources */,
+				9EB02FFB20C7DB240003D875 /* StartApp.bundle in Resources */,
+				9EB0306120C7DB240003D875 /* MPCloseButtonX@3x.png in Resources */,
 				2F23EFE21D6749BA00CAC0FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1591,72 +1591,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ECD1BF820BD4A940051F62D /* TapjoyResources.bundle in Resources */,
-				9ECD1C3C20BD4A940051F62D /* MPMutedBtn@2x.png in Resources */,
-				9ECD1C3420BD4A940051F62D /* MPDAAIcon@3x.png in Resources */,
-				9ECD1C3820BD4A940051F62D /* MPPlayBtn.png in Resources */,
-				9ECD1C2620BD4A940051F62D /* MPAdBrowserController.xib in Resources */,
+				9EB0302A20C7DB240003D875 /* TapjoyResources.bundle in Resources */,
+				9EB0306E20C7DB240003D875 /* MPMutedBtn@2x.png in Resources */,
+				9EB0306620C7DB240003D875 /* MPDAAIcon@3x.png in Resources */,
+				9EB0306A20C7DB240003D875 /* MPPlayBtn.png in Resources */,
+				9EB0305820C7DB240003D875 /* MPAdBrowserController.xib in Resources */,
 				9E12C4AD20482A88008E5D0E /* 17.jpg in Resources */,
 				9E12C4AC20482A88008E5D0E /* 16.jpg in Resources */,
 				9E12C4B720482A88008E5D0E /* 9.jpg in Resources */,
-				9ECD1C2A20BD4A940051F62D /* MPCountdownTimer.html in Resources */,
-				9ECD1C3620BD4A940051F62D /* MPMutedBtn@3x.png in Resources */,
-				9ECD1C4C20BD4A940051F62D /* FYBBackIcon@2x.png in Resources */,
+				9EB0305C20C7DB240003D875 /* MPCountdownTimer.html in Resources */,
+				9EB0306820C7DB240003D875 /* MPMutedBtn@3x.png in Resources */,
+				9EB0307E20C7DB240003D875 /* FYBBackIcon@2x.png in Resources */,
 				9E12C4A020482A22008E5D0E /* CustomNative200x200.xib in Resources */,
-				9ECD1C2420BD4A940051F62D /* MPPlayBtn@3x.png in Resources */,
+				9EB0305620C7DB240003D875 /* MPPlayBtn@3x.png in Resources */,
 				9E12C4AB20482A88008E5D0E /* 15.jpg in Resources */,
-				9ECD1C2020BD4A940051F62D /* MPCloseBtn@3x.png in Resources */,
+				9EB0305220C7DB240003D875 /* MPCloseBtn@3x.png in Resources */,
 				9E12C49E20482A22008E5D0E /* AMRNativeAdBaseView250.xib in Resources */,
 				9E809B1B206A44D000E42695 /* AMRResources.bundle in Resources */,
 				9E12C4A920482A88008E5D0E /* 13.jpg in Resources */,
-				9ECD1C2C20BD4A940051F62D /* MPCloseButtonX@2x.png in Resources */,
+				9EB0305E20C7DB240003D875 /* MPCloseButtonX@2x.png in Resources */,
 				9E12C4A420482A88008E5D0E /* 0.jpg in Resources */,
-				9ECD1C1820BD4A940051F62D /* MPUnmutedBtn@3x.png in Resources */,
+				9EB0304A20C7DB240003D875 /* MPUnmutedBtn@3x.png in Resources */,
 				9E12C4B120482A88008E5D0E /* 3.jpg in Resources */,
 				9E6C112D2047EB370049645D /* LaunchScreen.storyboard in Resources */,
 				9E12C49D20482A22008E5D0E /* AMRNativeAdBaseView90.xib in Resources */,
 				9E12C4B020482A88008E5D0E /* 2.jpg in Resources */,
-				9ECD1C5020BD4A940051F62D /* FYBIntegrationAnalyzerViewController.xib in Resources */,
-				9ECD1C3220BD4A940051F62D /* MPCloseButtonX.png in Resources */,
+				9EB0308220C7DB240003D875 /* FYBIntegrationAnalyzerViewController.xib in Resources */,
+				9EB0306420C7DB240003D875 /* MPCloseButtonX.png in Resources */,
 				9E12C4A120482A22008E5D0E /* CustomNative300x120.xib in Resources */,
 				9E12C4B420482A88008E5D0E /* 6.jpg in Resources */,
 				9E12C4AA20482A88008E5D0E /* 14.jpg in Resources */,
 				9E12C4A220482A22008E5D0E /* AMRNativeAdBaseViewInterstitial.xib in Resources */,
 				9E12C49F20482A22008E5D0E /* CustomNative150x250.xib in Resources */,
 				9E6C112A2047EB370049645D /* Assets.xcassets in Resources */,
-				9ECD1C1620BD4A940051F62D /* MPDAAIcon.png in Resources */,
+				9EB0304820C7DB240003D875 /* MPDAAIcon.png in Resources */,
 				9E12C4B320482A88008E5D0E /* 5.jpg in Resources */,
 				9E12C4A820482A88008E5D0E /* 12.jpg in Resources */,
 				9E12C49B20482A13008E5D0E /* random-grey-variations.png in Resources */,
-				9ECD1BCA20BD4A940051F62D /* StartApp.bundle in Resources */,
+				9EB02FFC20C7DB240003D875 /* StartApp.bundle in Resources */,
 				9E12C4A320482A22008E5D0E /* AMRNativeAdBaseViewInterstitialLandscape.xib in Resources */,
 				9E12C4A620482A88008E5D0E /* 10.jpg in Resources */,
-				9ECD1C2820BD4A940051F62D /* MPUnmutedBtn@2x.png in Resources */,
-				9ECD1BBE20BD4A940051F62D /* LoopMeResources.bundle in Resources */,
+				9EB0305A20C7DB240003D875 /* MPUnmutedBtn@2x.png in Resources */,
+				9EB02FF020C7DB240003D875 /* LoopMeResources.bundle in Resources */,
 				9E12C4A520482A88008E5D0E /* 1.jpg in Resources */,
-				9ECD1C3E20BD4A940051F62D /* MPDAAIcon@2x.png in Resources */,
-				9ECD1C1A20BD4A940051F62D /* MPPlayBtn@2x.png in Resources */,
+				9EB0307020C7DB240003D875 /* MPDAAIcon@2x.png in Resources */,
+				9EB0304C20C7DB240003D875 /* MPPlayBtn@2x.png in Resources */,
 				9E12C4A720482A88008E5D0E /* 11.jpg in Resources */,
 				9E12C49920482A13008E5D0E /* amr-adchoices.png in Resources */,
-				9ECD1C1C20BD4A940051F62D /* MPCloseBtn@2x.png in Resources */,
+				9EB0304E20C7DB240003D875 /* MPCloseBtn@2x.png in Resources */,
 				9E12C4AE20482A88008E5D0E /* 18.jpg in Resources */,
-				9ECD1BEE20BD4A940051F62D /* AMRAdapterAdmostResources.bundle in Resources */,
+				9EB0302020C7DB240003D875 /* AMRAdapterAdmostResources.bundle in Resources */,
 				9E12C49A20482A13008E5D0E /* native_int_close.png in Resources */,
 				9E12C4B820482A8E008E5D0E /* news.json in Resources */,
 				9E12C4B620482A88008E5D0E /* 8.jpg in Resources */,
 				9E12C4B520482A88008E5D0E /* 7.jpg in Resources */,
-				9ECD1C4E20BD4A940051F62D /* UnstartedBundleIcon.png in Resources */,
-				9ECD1C1420BD4A940051F62D /* MRAID.bundle in Resources */,
-				9ECD1C2220BD4A940051F62D /* MPCloseBtn.png in Resources */,
-				9ECD1C1220BD4A940051F62D /* MPUnmutedBtn.png in Resources */,
-				9ECD1C3A20BD4A940051F62D /* MPMutedBtn.png in Resources */,
-				9ECD1C0820BD4A940051F62D /* starburst_white.png in Resources */,
+				9EB0308020C7DB240003D875 /* UnstartedBundleIcon.png in Resources */,
+				9EB0304620C7DB240003D875 /* MRAID.bundle in Resources */,
+				9EB0305420C7DB240003D875 /* MPCloseBtn.png in Resources */,
+				9EB0304420C7DB240003D875 /* MPUnmutedBtn.png in Resources */,
+				9EB0306C20C7DB240003D875 /* MPMutedBtn.png in Resources */,
+				9EB0303A20C7DB240003D875 /* starburst_white.png in Resources */,
 				9E12C4B220482A88008E5D0E /* 4.jpg in Resources */,
-				9ECD1C3020BD4A940051F62D /* MPCloseButtonX@3x.png in Resources */,
+				9EB0306220C7DB240003D875 /* MPCloseButtonX@3x.png in Resources */,
 				9E12C4AF20482A88008E5D0E /* 19.jpg in Resources */,
 				9E6C11282047EB370049645D /* Main.storyboard in Resources */,
 				9E12C49C20482A22008E5D0E /* AMRNativeAdBaseView50.xib in Resources */,
-				9ECD1C4A20BD4A940051F62D /* StartedBundleIcon.png in Resources */,
+				9EB0307C20C7DB240003D875 /* StartedBundleIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1960,6 +1960,8 @@
 					"$(PROJECT_DIR)/MediationAdapters/Debug-Universal/AMRAdapterAdmost",
 					"$(PROJECT_DIR)/MediationAdapters/Debug-Universal/AMRAdapterTapjoy",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterPollfish",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAdtiming/AMRAdapterAdtimingInclude",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAdtiming",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -2093,6 +2095,8 @@
 					"$(PROJECT_DIR)/MediationAdapters/Debug-Universal/AMRAdapterAdmost",
 					"$(PROJECT_DIR)/MediationAdapters/Debug-Universal/AMRAdapterTapjoy",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterPollfish",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAdtiming/AMRAdapterAdtimingInclude",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAdtiming",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -2232,6 +2236,8 @@
 					"$(PROJECT_DIR)/MediationAdapters/Debug-Universal/AMRAdapterAdmost",
 					"$(PROJECT_DIR)/MediationAdapters/Debug-Universal/AMRAdapterTapjoy",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterPollfish",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAdtiming/AMRAdapterAdtimingInclude",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAdtiming",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -2373,6 +2379,8 @@
 					"$(PROJECT_DIR)/MediationAdapters/Debug-Universal/AMRAdapterAdmost",
 					"$(PROJECT_DIR)/MediationAdapters/Debug-Universal/AMRAdapterTapjoy",
 					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterPollfish",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAdtiming/AMRAdapterAdtimingInclude",
+					"$(PROJECT_DIR)/MediationAdapters/AMRAdapterAdtiming",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
