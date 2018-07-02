@@ -1,11 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,17 +23,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchLogo" translatesAutoresizingMaskIntoConstraints="NO" id="OTs-ky-J2T">
-                                <rect key="frame" x="57.5" y="203.5" width="260" height="260"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="admost_logo" translatesAutoresizingMaskIntoConstraints="NO" id="OTs-ky-J2T">
+                                <rect key="frame" x="28.5" y="220.5" width="318.5" height="125.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="260" id="7AB-rv-0e3"/>
-                                    <constraint firstAttribute="height" constant="260" id="aQv-PF-qpG"/>
+                                    <constraint firstAttribute="width" secondItem="OTs-ky-J2T" secondAttribute="height" multiplier="523:206" id="wAQ-cS-3DS"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.2.0 : b1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oo5-Ja-ou6">
+                                <rect key="frame" x="143.5" y="628" width="89" height="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.20431968249999999" green="0.35473945730000001" blue="0.42145369859999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="OTs-ky-J2T" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="MTD-SI-BA0"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="oo5-Ja-ou6" secondAttribute="bottom" constant="20" id="4WI-Eu-T8L"/>
+                            <constraint firstItem="OTs-ky-J2T" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.85" id="7sL-OI-frp"/>
+                            <constraint firstItem="oo5-Ja-ou6" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bd2-IO-HWa"/>
+                            <constraint firstItem="OTs-ky-J2T" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="0.85" id="MTD-SI-BA0"/>
                             <constraint firstItem="OTs-ky-J2T" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Y7Q-k5-Qxg"/>
                         </constraints>
                     </view>
@@ -42,6 +52,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchLogo" width="507" height="507"/>
+        <image name="admost_logo" width="2092" height="824"/>
     </resources>
 </document>

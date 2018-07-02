@@ -21,6 +21,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        AMRSDK.setUserId("myUniqueUserId")
         
         AMRSDK.setLogLevel(AMRLogLevel.levelSilent)
+        
+        //    Set user consent before startWithAppId
+        AMRSDK.setUserConsent(true)
+        AMRSDK.subject(toGDPR: false)
+        
         AMRSDK.start(withAppId: "15066ddc-9c18-492c-8185-bea7e4c7f88c")
         AMRSDK.setStatusBarHidden(true)
         
