@@ -142,7 +142,7 @@
 + (void)spendVirtualCurrency;
 
 /**
- * @deprecated This method is deprecated starting in version x.x
+ * @deprecated This method is deprecated starting in version 1.3.10
  * @note Please use @code trackPurchase:idientifier:currencyCode:amount @endcode instead.
  */
 + (void)trackPurchase:(NSString *)identifier
@@ -195,10 +195,19 @@
  * Successfully spent virtual currency.
  * @param amount Amount of virtual currency.
  * @param currency Currency of virtual currency.
- * @param network Network type of cirtual currency ad network.
+ * @param networkName Network name of cirtual currency ad network.
+ */
+- (void)didSpendVirtualCurrency:(NSString *)currency
+                         amount:(NSNumber *)amount
+                    networkName:(NSString *)networkName;
+
+@optional
+/**
+ * @deprecated This method is deprecated starting in version 1.3.64
+ * @note Please use @code didSpendVirtualCurrency:currency:amount:networkName @endcode instead.
  */
 - (void)didSpendVirtualCurrency:(NSString *)currency
                           amout:(NSNumber *)amount
-                        network:(AMRNetworkType)network;
+                        network:(AMRNetworkType)network __attribute__((deprecated));
 
 @end

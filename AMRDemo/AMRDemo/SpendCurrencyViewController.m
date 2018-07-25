@@ -32,10 +32,10 @@
 #pragma mark - <AMRVirtualCurrencyDelegate>
 
 - (void)didSpendVirtualCurrency:(NSString *)currency
-                          amout:(NSNumber *)amount
-                        network:(AMRNetworkType)network {
+                         amount:(NSNumber *)amount
+                    networkName:(NSString *)networkName {
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Virtual Currency Spent"
-                                                                   message:[NSString stringWithFormat:@"%@ %@", amount, currency]
+                                                                   message:[NSString stringWithFormat:@"%@: %@ - %@", networkName, amount, currency]
                                                             preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:nil];
     [alert addAction:cancel];
