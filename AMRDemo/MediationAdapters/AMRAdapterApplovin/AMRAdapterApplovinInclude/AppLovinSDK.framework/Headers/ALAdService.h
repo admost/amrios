@@ -70,6 +70,11 @@ AL_ASSUME_NONNULL_BEGIN
 @interface ALAdService(ALMultizoneSupport)
 
 /**
+ * Generates a token used for advanced header bidding.
+ */
+@property (nonatomic, copy, readonly) NSString *bidToken;
+
+/**
  * Fetch a new ad for the given ad token. Provided ad token must be received from AppLovin S2S API.
  *
  * <b>Please note:</b> this method is designed to be called by SDK mediation providers. Please use
