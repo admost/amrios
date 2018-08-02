@@ -162,6 +162,14 @@
 
 /**
  * Start Test Suite
+ * You must be a Tester to show Test Suite on devices.
+ * @param appId Your application ID.
+ */
++ (void)startTestSuiteWithAppId:(NSString *)appId;
+
+/**
+ * Start Test Suite
+ * You must be a Tester to show Test Suite on devices.
  * @param zones List of Zone ids.
  */
 + (void)startTestSuiteWithZones:(NSArray *)zones;

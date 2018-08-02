@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="width" secondItem="OTs-ky-J2T" secondAttribute="height" multiplier="523:206" id="wAQ-cS-3DS"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.2.0 : b1.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oo5-Ja-ou6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v1.4.0 : b1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oo5-Ja-ou6">
                                 <rect key="frame" x="143.5" y="628" width="89" height="19"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                 <color key="textColor" red="0.20431968249999999" green="0.35473945730000001" blue="0.42145369859999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
