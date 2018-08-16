@@ -1,8 +1,0 @@
-framework module AvocarrotBanner {
-  umbrella header "AvocarrotSDK+AVOBannerView.h"
-  
-  export *
-  module * { export * }
-
-
-}
