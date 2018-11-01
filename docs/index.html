@@ -116,6 +116,10 @@
                         <li><a href="#native-ads">Customize Native Ad Appearance (Optional)</a></li>
                         <li><a href="#interstitial-ads">Interstitial Ads</a></li>
                         <li><a href="#rewarded-video-ads">Rewarded Video Ads</a></li>
+                        <li><a href="#offerwall-ads">Offerwall Ads</a></li>
+                            <ul style="display: block;">
+                                <li><a href="#spend-virtual-currency">Spend Virtual Currency</a></li>
+                            </ul>
                     </ul>
                 </li>
                 <li>
@@ -166,6 +170,7 @@ Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
 Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
 Interstitial Zone Id: @"39f74377-5682-436a-9338-9d1c4df410bd"
 RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
+Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                 </code></pre>
             </section>
 
@@ -512,15 +517,11 @@ fullScreen.delegate = self;
 }</code></pre>
 
                 <p><code>didShowInterstitial</code> callback method is called to inform the application that the received interstital is presented.</p>
-                <pre><code class="language-objectivec">- (void)didShowInterstitial:(AMRInterstitial *)interstitial {
-	[self countImpression];
-}</code></pre>
+                <pre><code class="language-objectivec">- (void)didShowInterstitial:(AMRInterstitial *)interstitial {}</code></pre>
                 <p><code>didDismissInterstitial</code> callback method is called to inform the application that the
                     interstitial is no longer present. You can use this callback to resume paused tasks during
                     interstitial presentation.</p>
-                <pre><code class="language-objectivec">- (void)didDismissInterstitial:(AMRInterstitial *)interstitial {
-    [animation resume];
-}</code></pre>
+                <pre><code class="language-objectivec">- (void)didDismissInterstitial:(AMRInterstitial *)interstitial {}</code></pre>
 
                 <p>If <code>didFailToReceiveInterstitial</code> callback method is called investigate <code>error</code>
                     to adress the problem.
@@ -582,18 +583,13 @@ rewardedVideo.delegate = self;
 
 <p><code>didShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video is presented.</p>
 
-<pre><code class="language-objectivec">- (void)didShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
-	[self countImpression];
-}
-</code></pre>
+<pre><code class="language-objectivec">- (void)didShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo {} </code></pre>
 
 <p><code>didFailToShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video failed to be presented.
 	This delegate expected to be called very rarely but if it is called you should either load another rewarded video or resume tasks.
 	</p>
 
-<pre><code class="language-objectivec">- (void)didFailToShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
-	[rewardedVideo loadRewardedVideo];
-}
+<pre><code class="language-objectivec">- (void)didFailToShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo {}
 </code></pre>
 
 
@@ -621,6 +617,76 @@ rewardedVideo.delegate = self;
                 <pre><code class="language-objectivec">- (void)didFailToReceiveRewardedVideo:(AMRRewardedVideo *)rewardedVideo error:(AMRError *)error {
     NSLog(error.errorDescription);
 }</code></pre>
+
+<h3 id="offerwall-ads">Offerwall Ads</h3>
+
+                <p>To create and show an offerwall ad first import <code>AMRSDK.h</code> to your <code>UIViewController</code>
+                    file and declare an <code>AMROfferWall *fullScreen</code> property;
+                </p>
+
+                <pre><code class="language-objectivec">
+// ViewController.h
+
+#import &lt;AMRSDK/AMRSDK.h&gt;
+
+@interface ViewController : UIViewController &lt;AMROfferWallDelegate&gt;
+
+@property(nonatomic, strong) AMROfferWall *fullScreen;
+
+@end
+                </code></pre>
+
+                <p>
+                    Initialize it with your Offerwall Zone Id and
+                    set it's
+                    <code> delegate</code> to an object (generally your viewController) which conforms to
+                    <code>&lt;AMROfferWallDelegate&gt;</code> protocol.
+                </p>
+
+                <pre><code class="language-objectivec">
+// ViewController.m
+
+fullScreen = [AMROfferWall offerWallForZoneId:@"&lt;zoneId&gt;"];
+fullScreen.delegate = self;
+[fullScreen loadOfferWall];
+                </code></pre>
+
+                <p>For testing you can use following Offerwall Zone Id;</p>
+
+                <pre><code
+                        class="language-markup">Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
+                </code></pre>
+
+                <p>There are 3 callback methods in <code>&lt;AMROfferWallDelegate&gt;</code> protocol.
+                    When <code>didReceiveOfferWall</code> callback method is called just call the <code>showFromViewController</code>
+                    method to present offerwall from a viewController.</p>
+
+                <pre><code class="language-objectivec">- (void)didReceiveOfferWall:(AMROfferWall *)offerwall {
+    [offerwall showFromViewController:self];
+}</code></pre>
+                <p><code>didDismissOfferWall</code> callback method is called to inform the application that the
+                    offerwall is no longer present. You can use this callback to resume paused tasks during
+                    offerwall presentation.</p>
+                <pre><code class="language-objectivec">- (void)didDismissOfferWall:(AMROfferWall *)offerwall {} </code></pre>
+
+                <p>If <code>didFailToReceiveOfferWall</code> callback method is called investigate <code>error</code>
+                    to adress the problem.
+                </p>
+
+                <pre><code class="language-objectivec">- (void)didFailToReceiveOfferWall:(AMROfferWall *)offerwall error:(AMRError *)error {
+    NSLog(error.errorDescription);
+}</code></pre>
+
+<h4 id="spend-virtual-currency">Spend Virtual Currency</h4>
+            <pre><code class="language-c">
+                // Spend Virtual Currency Callbacks - Optional
+[AMRSDK setVirtualCurrencyDelegate:self];
+[AMRSDK spendVirtualCurrency];
+                
+- (void)didSpendVirtualCurrency:(NSString *)currency
+                         amount:(NSNumber *)amount
+                    networkName:(NSString *)networkName {}
+            </code></pre>
 
 
 <h2 id="gdpr">GDPR</h2>
@@ -890,6 +956,7 @@ banner.bannerWidth = 320;
                         new features, etc.</p>
 
                     <ol class="toc">
+                        <li><a href="#v1.3.78">Version 1.3.78</a></li>
                         <li><a href="#v1.3.77">Version 1.3.77</a></li>
                         <li><a href="#v1.3.76">Version 1.3.76</a></li>
                         <li><a href="#v1.3.75">Version 1.3.75</a></li>
@@ -936,6 +1003,25 @@ banner.bannerWidth = 320;
                 </header>
 
              <section id="versions">
+                    <h3 id="v1.3.78">Version 1.3.78
+                            <small class="release-date">November 1, 2018</small>
+                        </h3>
+                        <br>
+                        <ul class="changelog">
+                            <li class="ch-updated">AMRSDK 1.3.78  </li>
+                            <li class="ch-updated">Adcolony 3.3.5.1 </li>
+                            <li class="ch-updated">Ironsource 6.7.12.1 </li>
+                            <li class="ch-updated">Mopub 5.4.0.1 </li>
+                            <li class="ch-updated">Demo Application  </li>
+                            <li class="ch-added">
+                                Tag functionality added for interstitial, rewarded video and offerwall. Tags will let you monitor the performance of the ads across different dimensions. 
+                                Example usage is as follows;
+                                <pre><code class="language-objectivec">
+                                    <span class="text-success">- (void)showFromViewController:(UIViewController * )viewController withTag:(NSString *)tag;</span>
+                                </code></pre>
+                            </li>
+                        </ul> 
+
                     <h3 id="v1.3.77">Version 1.3.77
                             <small class="release-date">October 23, 2018</small>
                         </h3>
@@ -998,7 +1084,7 @@ banner.bannerWidth = 320;
 										     <li class="ch-updated">Requires KKLog 1.0.7 or newer. </li>
 					                    <li class="ch-updated">Minor performance improvements for main thread sensitive apps. </li>
 					                    <li class="ch-added">
-					                        New delegate method added to <AMRRewardedVideoDelegate> protocol to catch if rewarded video failed to be shown.
+					                        New delegate method added to AMRRewardedVideoDelegate protocol to catch if rewarded video failed to be shown;
 					                        <pre><code class="language-objectivec">
 					                            <span class="text-success">- (void)didFailToShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo;</span>
 					                        </code></pre>
