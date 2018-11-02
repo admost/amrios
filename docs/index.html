@@ -219,11 +219,11 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                 <h3 id="manual-installation">Manual Installation</h3>
                 <h4 id="amr-framework-files">AMR Framework Files</h4>
 
-                <p>Drag and drop following files in AMRDemo/AMRSDK folder to your project.</p>
+                <p>Drag and drop following files in AMRDemo/AMR/Core folder to your project.</p>
                 <div class="file-tree">
                     <ul>
                         <li class="is-folder open">
-                            AMRDemo/AMRSDK
+                            AMRDemo/AMR/Core
                             <ul>
                                 <li class="is-file">AMRSDK.framework
                                 <li class="is-file">AMRResources.bundle
@@ -276,12 +276,12 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                 <p>At least one mediation adapter is required for AMRSDK to show banners. You can add all adapters
                     (recommended for maximized revenue) or start with a subset of adapters. Consult your AMR agent for
                     further details.</p>
-                <p>Create a folder called Mediation Adapters (name is optonal) and add adapters in AMRDemo/MediationAdapters folder.</p>
+                <p>Create a folder called Mediation Adapters (name is optonal) and add adapters in AMRDemo/AMR/MediationAdapters folder.</p>
 
                 <div class="file-tree">
                     <ul>
                         <li class="is-folder open">
-                            AMRDemo/MediationAdapters
+                            AMRDemo/AMR/MediationAdapters
                             <ul>
                                 <li class="is-folder">AMRAdapterAdcolony
                                 <li class="is-folder">AMRAdapterAdmob
@@ -449,7 +449,7 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
 
                 <p>You can change the appearance of native ads to suit your application's design. If you are integration
                     AMR with Cocoapods extract CustomXibs.zip in AMRSDK pod to your project. If you are manually
-                    integrating AMR add AMRDemo/Assets/Natives/ folder to your project.</p>
+                    integrating AMR add AMRDemo/Supporting Files/Assets/Natives/ folder to your project.</p>
 
                 <p>You can change the layout and design of following assets; </p>
 
@@ -845,14 +845,13 @@ fullScreen.delegate = self;
             </code></pre>
 
 
-                <p>If you are integration Admost manually add <code>AMRAdapterDFP</code> from <a
-                        href="https://github.com/admost/amrios/tree/master/AMRDemo/MediationAdapters">AMRDemo/MediationAdapters</a>
+                <p>If you are integration Admost manually add <code>AMRAdapterDFP</code> from <code>AMRDemo/AMR/MediationAdapters</code>
                     folder to your project.</p>
 
                 <p>Now you can show AMR banner and interstitial ads via DFP or Admob Mediation.</p>
 
                 <p>You can check DFP banner and interstitial example in demo project; 
-                    AMRDemo/AMRDemo/DFPCustomEvents/DFPCustomEventsViewController.m</p>
+                    AMRDemo/DFPCustomEvents/DFPCustomEventsViewController.m</p>
 
                 <h3 id="testsuite">Test Suite</h3>
 
