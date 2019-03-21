@@ -959,7 +959,7 @@ banner.bannerWidth = 320;
                 <h3 id="senduserid">Setting Application User Id </h3>
 
                 <p>
-                    You can use the following method to set application specific user id in Admost Analytics for enhanced tracking of your users. You have to call this method after initialization.
+                    You can use the following method to set application specific user id in Admost Analytics for enhanced tracking of your users. You should to call this method before initialization.
                 </p>
 				
 				<pre><code class="language-objectivec">
@@ -987,11 +987,10 @@ banner.bannerWidth = 320;
                 </p>
 				
 				<pre><code class="language-objectivec">
-NSDictionary *customData = [NSDictionary dictionaryWithObjectsAndKeys:
-                            @"127.0.0.1", @"ip",
-                            @"12.0.1", @"os",
-                            nil];
-rewardedVideo.customData = customData;
+rewardedVideo.customData = @{
+                            @"ip": @"127.0.0.1",
+                            @"os": @"12.0.1"
+                            };
 
                 </code></pre>
             </section>
@@ -1066,7 +1065,7 @@ rewardedVideo.customData = customData;
                     </h3>
                         <br>
                         <ul class="changelog">
-                            <li class="ch-added"><a href="#sscallbacks">Server to server callbacks</a> for rewarded video ads</li>
+                            <li class="ch-added"><a href="#sscallbacks">Server to server callbacks</a> for rewarded video ads.</li>
                             <li class="ch-updated">AMRSDK 1.4.0 </li>
                             <li class="ch-updated">AdmostSDK 1.0.9 </li>
                             <li class="ch-updated">Admob 7.42.0.0 &nbsp;&nbsp;<small>&nbsp;~ GADApplicationIdentifier needed!!</small></li>
