@@ -136,6 +136,8 @@
                         <li><a href="#iap">In App Purchase Tracking</a></li>
                         <li><a href="#bannercache">Preloading Banners</a></li>
                         <li><a href="#senduserid">Setting Application User Id</a></li>
+                        <li><a href="#sendadjustuserid">Setting Adjust User Id <span class="label label-teal">New</span></a></li>
+						<li><a href="#sscallbacks">Server to Server Callbacks <span class="label label-teal">New</span></a></li>
                     </ul>
                 </li>
                 <li><a href="#release-notes">Release Notes</a>
@@ -954,14 +956,42 @@ banner.bannerWidth = 320;
 [banner cacheBanner];
                 </code></pre>
 
-                <h3 id="senduserid">Setting Application User Id <span class="label label-teal">New</span></h3>
+                <h3 id="senduserid">Setting Application User Id </h3>
 
                 <p>
-                    You can use the following method to set application specific user id in AMR Analytics for enhanced tracking of your users. You have to call this method after initialization.
+                    You can use the following method to set application specific user id in Admost Analytics for enhanced tracking of your users. You have to call this method after initialization.
                 </p>
 				
 				<pre><code class="language-objectivec">
 [AMRSDK setUserId:@&quot;&lt;applicationUserId&gt;&quot;];
+
+                </code></pre>
+
+                <h3 id="sendadjustuserid">Setting Adjust User Id <span class="label label-teal">New</span></h3>
+
+                <p>
+                    You can use the following method to set Adjust user id in Admost Analytics for enhanced tracking of your users.
+                </p>
+				
+				<pre><code class="language-objectivec">
+[AMRSDK setAdjustUserId:@&quot;&lt;adjustUserId&gt;&quot;];
+
+                </code></pre>
+
+                <h3 id="sscallbacks">Server to Server Callbacks <span class="label label-teal">New</span></h3>
+
+                <p>
+                    For rewarded video ads, you can use Server to Server Callbacks for rewarding users after successful completion of video ads. Please consult your business contact person for enabling it and setting required parameters like callback URL, request verification token and method. 
+                    <br>
+                    To use this feature, only requirement on application side is setting your application user id as described <a href="#senduserid">here</a>. You may also add new custom parameters to the callback URL by setting custom data to the rewarded video object <code>AMRRewardedVideo</code> as shown in the sample code below. This method has to be called before showing ad.
+                </p>
+				
+				<pre><code class="language-objectivec">
+NSDictionary *customData = [NSDictionary dictionaryWithObjectsAndKeys:
+                            @"127.0.0.1", @"ip",
+                            @"12.0.1", @"os",
+                            nil];
+rewardedVideo.customData = customData;
 
                 </code></pre>
             </section>
@@ -1036,6 +1066,7 @@ banner.bannerWidth = 320;
                     </h3>
                         <br>
                         <ul class="changelog">
+                            <li class="ch-added"><a href="#sscallbacks">Server to server callbacks</a> for rewarded video ads</li>
                             <li class="ch-updated">AMRSDK 1.4.0 </li>
                             <li class="ch-updated">AdmostSDK 1.0.9 </li>
                             <li class="ch-updated">Admob 7.42.0.0 &nbsp;&nbsp;<small>&nbsp;~ GADApplicationIdentifier needed!!</small></li>
