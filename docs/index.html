@@ -22,9 +22,8 @@
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-    <!-- Favicons
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <link rel="icon" href="assets/img/favicon.png">-->
+    <!-- Favicons -->
+    <link rel="icon" href="https://dashboard.admost.com/Assets/img/admostfavicon.png">
 </head>
 
 <body data-spy="scroll" data-target=".sidebar" data-offset="200">
@@ -54,9 +53,11 @@
             <!-- Top navbar -->
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a>Documentation</a></li>
-                    <li><a target="_blank"
-                           href="http://download.admost.com/AMRDemo.zip">
+                    <li class="active"><a href="index.html">Documentation</a></li>
+                    <li><a href="gdpr.html">GDPR</a></li>
+                    <li><a href="release-notes.html">Release Notes</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a target="_blank" href="http://download.admost.com/AMRDemo.zip">
                         <i class="fa fa-mobile-phone"></i>&nbsp;&nbsp;Demo Project</a>
                     </li>
                 </ul>
@@ -68,14 +69,13 @@
 
     <!-- Banner -->
     <div class="banner auto-size" style="background-color: #f96868">
-        <div class="container text-white">
-            <h1><i class="fa fa-apple"></i>&nbsp; &nbsp;iOS Integration Guide</h1>
-            <h5>This is the easiest way to implement AMR iOS SDK and ad networks to your current iOS Mobile
-                App.</h5>
+            <div class="container text-white">
+                <h1><i class="fa fa-apple"></i>&nbsp; &nbsp;iOS Integration Guide</h1>
+                <h5>This is the easiest way to implement AMR iOS SDK and ad networks to your current iOS Mobile
+                    App.</h5>
+            </div>
         </div>
-    </div>
-    <!-- END Banner -->
-
+        <!-- END Banner -->
 </header>
 
 
@@ -95,7 +95,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#manual-installation">Manual Installation</a>
+                            <a href="#manual-installation" >Manual Installation</a>
                             <ul style="display: block;">
                                 <li><a href="#amr-framework-files">AMR Framework Files</a></li>
                                 <li><a href="#other-frameworks-and-libraries">Other Frameworks and Libraries</a></li>
@@ -122,13 +122,6 @@
                             </ul>
                     </ul>
                 </li>
-                <li>
-                    <a href="#gdpr">GDPR</a>
-                        <ul>
-                            <li><a href="#networkcomplience">Network GDPR Complience</a></li>
-                            <li><a href="#gdprrules">GDPR Rules</a></li>
-                         </ul>
-                </li>
                 <li><a href="#extras">Extras</a>
                     <ul>
                         <li><a href="#dfp">DFP/Admob Mediation Integration</a></li>
@@ -136,15 +129,8 @@
                         <li><a href="#iap">In App Purchase Tracking</a></li>
                         <li><a href="#bannercache">Preloading Banners</a></li>
                         <li><a href="#senduserid">Setting Application User Id</a></li>
-                        <li><a href="#sendadjustuserid">Setting Adjust User Id <span class="label label-teal">New</span></a></li>
-						<li><a href="#sscallbacks">Server to Server Callbacks <span class="label label-teal">New</span></a></li>
-                    </ul>
-                </li>
-                <li><a href="#release-notes">Release Notes</a>
-                    <ul>
-                        <li>
-                            <a href="#versions">Versions</a>
-                        </li>
+                        <li><a href="#sendadjustuserid">Setting Adjust User Id</a></li>
+						<li><a href="#sscallbacks">Server to Server Callbacks</a></li>
                     </ul>
                 </li>
             </ul>
@@ -152,10 +138,8 @@
         </aside>
         <!-- END Sidebar -->
 
-
         <!-- Main content -->
         <article class="col-sm-9 main-content" role="main">
-
             <section>
                 <h2 id="prerequisites">Prerequisites</h2>
                 <ul>
@@ -175,7 +159,6 @@ RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
 Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                 </code></pre>
             </section>
-
             <section>
                 <h2 id="setup">Setup</h2>
                 <p>You can install AMR SDK and mediation adapters using CocoaPods (recommended) or add AMR SDK framework
@@ -328,12 +311,13 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 
                 <pre><code class="language-markup">&lt;key&gt;NSCalendarsUsageDescription&lt;/key&gt;
 &lt;string&gt;Some ad content may access calendar&lt;/string&gt;</code></pre>
-                <p>If you are using Admob (Google-Mobile-Ads) add the following lines to your <code>plist</code> file.</p>
+
+                <p><span class="label label-danger">Important</span> If you are using Admob (Google-Mobile-Ads) add the following lines to your <code>plist</code> file.</p>
                 <p><code>GADApplicationIdentifier</code> is your Admob Application Id, it can be found on Admob Dashboard -> My Apps</p>
                 <pre><code class="language-markup">&lt;key&gt;GADApplicationIdentifier&lt;/key&gt;
 &lt;string&gt;YOUR_ADMOB_APP_ID&lt;/string&gt;</code></pre>
 
-<p>If you are using Applovin add the following lines to your <code>plist</code> file.</p>
+<p><span class="label label-danger">Important</span> If you are using Applovin add the following lines to your <code>plist</code> file.</p>
 <p><code>AppLovinSdkKey</code> can be found on Applovin Dashboard -> Keys -> SDK Key</p>
 <pre><code class="language-markup">&lt;key&gt;AppLovinSdkKey&lt;/key&gt;
 &lt;string&gt;YOUR_APPLOVIN_SDK_KEY&lt;/string&gt;</code></pre>
@@ -360,13 +344,13 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-//GDPR COMPLIANCE
-[AMRSDK setUserConsent:YES];
-[AMRSDK subjectToGDPR:YES];
+    //GDPR COMPLIANCE
+    [AMRSDK setUserConsent:YES];
+    [AMRSDK subjectToGDPR:YES];
 
-[AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];
+    [AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];
 
-return YES;
+    return YES;
 }
                 </code></pre>
 
@@ -529,11 +513,11 @@ fullScreen.delegate = self;
     NSLog(error.errorDescription);
 }</code></pre>
 
-                <p><code>didShowInterstitial</code> callback method is called to inform the application that the received interstital is presented.</p>
+                <p><code>didShowInterstitial</code> callback method is called to inform the application that the received interstital is shown.</p>
                 <pre><code class="language-objectivec">- (void)didShowInterstitial:(AMRInterstitial *)interstitial {}</code></pre>
                 
                 
-                <p><code>didFailToShowInterstitial</code> callback method is called to inform the application that the received interstitial failed to be presented.
+                <p><code>didFailToShowInterstitial</code> callback method is called to inform the application that the received interstitial failed to be shown.
                     This delegate expected to be called very rarely but if it is called you should either load another interstitial or resume tasks.
                     </p>
                 
@@ -542,7 +526,7 @@ fullScreen.delegate = self;
                 
                 
                 <p><code>didDismissInterstitial</code> callback method is called to inform the application that the
-                    interstitial is no longer present. You can use this callback to resume paused tasks during
+                    interstitial is closed by clicking cross button/back button. You can use this callback to resume paused tasks during
                     interstitial presentation. Called after didCompleteRewardedVideo delegate callback.</p>
                 <pre><code class="language-objectivec">- (void)didDismissInterstitial:(AMRInterstitial *)interstitial {}</code></pre>
 
@@ -605,11 +589,11 @@ rewardedVideo.delegate = self;
 NSLog(error.errorDescription);
 }</code></pre>
 
-<p><code>didShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video is presented.</p>
+<p><code>didShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video is shown.</p>
 
 <pre><code class="language-objectivec">- (void)didShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo {} </code></pre>
 
-<p><code>didFailToShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video failed to be presented.
+<p><code>didFailToShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video failed to be shown.
 	This delegate expected to be called very rarely but if it is called you should either load another rewarded video or resume tasks.
 	</p>
 
@@ -624,7 +608,7 @@ NSLog(error.errorDescription);
 }
 </code></pre>
                 <p><code>didDismissRewardedVideo</code> callback method is called to inform the application that the
-                    rewarded video is no longer present. You can use this callback to resume paused tasks during
+                    rewarded video is closed by clicking cross button/back button. You can use this callback to resume paused tasks during
                     rewarded video presentation.</p>
                 <pre><code class="language-objectivec">- (void)didDismissRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
     [animation resume];
@@ -710,126 +694,6 @@ fullScreen.delegate = self;
                          amount:(NSNumber *)amount
                     networkName:(NSString *)networkName {}
             </code></pre>
-
-
-<h2 id="gdpr">GDPR</h2>
-				 
-                <p>We specified your responsibilities for obtaining consent from end-users of your apps in our updated <a href="https://www.admost.com/privacy-policy">Privacy Policy</a>. By updating GDPR compatible SDK you agree that you’re responsible for inform the end-users and take their consent. 
-						Please note that the consent collection applies only to users located in the European Economic Area, the United Kingdom, and Switzerland.
-						As data controller you should take consent of end-users by preparing consent window, you can find samples below. When you take end-user consent, the response will be passed to Admost SDK. 
-						You can find the implementation  <a href="#init">here</a> </p>
-				<img class="img-responsive"
-                                 src="assets/img/consent.png"
-                                 alt="consent">
-				<h3 id="networkcomplience">Network GDPR Complience</h2>				 
-			   
-			   <table class="table table-bordered table-striped table-info" style = "width:300px ">	
-			    <tr>
-				    <th>Ad Network </th>
-				    <th >GDPR Compatibility</th> 
-				  </tr>
-				  <tr>
-				    <td >Adcolony</td>
-				    <td align="center"> <input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Admob</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-                  </tr>
-                  <tr>
-				    <td>Adtiming</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" ><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Amazon</td>
-				    <td align="center"><input type="checkbox" disabled="disabled"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Applovin</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Appnext</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" ><br></td>
-					<tr>
-				    <td>ChartBoost</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  <tr>
-				    <td>Facebook</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Flurry</td>
-				    <td align="center"><input type="checkbox" disabled="disabled"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Fyber</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Glispa</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>InMobi</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>IronSource</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>LoopMe</td>
-				    <td align="center"><input type="checkbox" disabled="disabled"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Mobfox</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Mopub</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Nexage</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" ><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Smaato</td>
-				    <td align="center"><input type="checkbox" disabled="disabled"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Startapp</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Tapjoy</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Unity</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  <tr>
-				    <td>Vungle</td>
-				    <td align="center"><input type="checkbox" disabled="disabled" checked="checked"><br></td> 
-				  </tr>
-				  </tr> 
-				  </tr>
-				  
-				</table>
-								 
-				<h3 id="gdprrules">GDPR Rules</h3>
-				
-				<p>Admost provides two methods for GDPR compatibility: <code>[AMRSDK subjectToGDPR:]</code> and <code>[AMRSDK setUserConsent:]</code>.</p> 
-				<p>Publisher have to set <code>[AMRSDK subjectToGDPR:YES]</code> if the user is located in European Union. Otherwise, publisher have to set <code>[AMRSDK subjectToGDPR:NO]</code>  . If publisher does not use this method, SubjectToGDPR status remains as unknown. In this case, Admost SDK automatically determines whether the user is in EU or not which is totally under responsibility of the publisher. If user is in EU, networks are not allowed to show personalized ads. If the user is not located in EU, the ad networks are allowed to show personalized ads. </p> 
-				<p>On condition that, the publisher obtains neither user's SubjectToGDPR status nor any negative legal consequences, SubjectToGDPR must set <code>[AMRSDK subjectToGDPR:YES]</code>  for each user. In this case, Admost considers all users as subject to GDPR and if the consent is not allowed, Admost blocks ad networks to collect data from users. Which may cause a decrease on overall revenue performance apart from Admost. </p> 
-				<p>If the publisher obtains user's consent and sets <code>[AMRSDK setUserConsent:YES]</code>, personalized ads would be shown to the users. Otherwise, the publisher sets <code>[AMRSDK setUserConsent:NO]</code> which would block the personalized ads, unless the user is not subject to GDPR.</p> 
-				<p>If the publisher does not use <code>[AMRSDK setUserConsent:]</code> method , userConsent status remains unknown. In this case, if the publisher provides <code>[AMRSDK subjectToGDPR:YES]</code>, the ad networks do not have ability to serve personalized ads.If the publisher provides <code> [AMRSDK subjectToGDPR:NO]</code>, the ad networks have ability to serve personalized ads.</p> 
-				<p>If the publisher does not provide both <code>[AMRSDK setUserConsent:]</code>  and <code>[AMRSDK subjectToGDPR:]</code>, Admost decides whether the user is located  in EU or not which is totally under responsibility of the publisher. </p> 
-				<p>If the publisher wants to obtain neither the user's consent nor any negative legal consequences, the publisher must set <code>[AMRSDK setUserConsent:NO]</code> for every user. In this case, Admost considers the user has no consent,  the ad networks are not allowed to serve personalized ads, except only the publisher does not provide <code>[AMRSDK subjectToGDPR:NO] </code>.</p>
-					
-
                 <h2 id="extras">Extras</h2>
 
                 <h3 id="dfp">DFP/Admob Mediation Integration</h3>
@@ -904,7 +768,7 @@ fullScreen.delegate = self;
                 	<img class="img-responsive col-md-6" src="assets/img/ios_testsuite.png" alt="shadowed image">
                 </div>
                 
-                <h3 id="iap">In App Purchase Tracking <span class="label label-teal">New</span></h3>
+                <h3 id="iap">In App Purchase Tracking</h3>
 
 				<p>
 					The following method is used to track purchases with receipt validation:
@@ -969,7 +833,7 @@ banner.bannerWidth = 320;
 
                 </code></pre>
 
-                <h3 id="sendadjustuserid">Setting Adjust User Id <span class="label label-teal">New</span></h3>
+                <h3 id="sendadjustuserid">Setting Adjust User Id</h3>
 
                 <p>
                     You can use the following method to set Adjust user id in Admost Analytics for enhanced tracking of your users.
@@ -980,7 +844,7 @@ banner.bannerWidth = 320;
 
                 </code></pre>
 
-                <h3 id="sscallbacks">Server to Server Callbacks <span class="label label-teal">New</span></h3>
+                <h3 id="sscallbacks">Server to Server Callbacks</h3>
 
                 <p>
                     For rewarded video ads, you can use Server to Server Callbacks for rewarding users after successful completion of video ads. Please consult your business contact person for enabling it and setting required parameters like callback URL, request verification token and method. 
@@ -996,827 +860,6 @@ rewardedVideo.customData = @{
 
                 </code></pre>
             </section>
-
-            <section>
-                <h2 id="release-notes">Release Notes</h2>
-
-                <header>
-                    <p>In this page, you can find a record of all the changes made to this project such as bug fixes,
-                        new features, etc.</p>
-
-                    <ol class="toc">
-                        <li><a href="#v1.4.0">Version 1.4.0</a></li>
-                        <li><a href="#v1.3.98">Version 1.3.98</a></li>
-                        <li><a href="#v1.3.97">Version 1.3.97</a></li>
-                        <li><a href="#v1.3.96">Version 1.3.96</a></li>
-                        <li><a href="#v1.3.93">Version 1.3.93</a></li>
-                        <li><a href="#v1.3.92">Version 1.3.92</a></li>
-                        <li><a href="#v1.3.86">Version 1.3.86</a></li>
-                        <li><a href="#v1.3.83">Version 1.3.83</a></li>
-                        <li><a href="#v1.3.82">Version 1.3.82</a></li>
-                        <li><a href="#v1.3.80">Version 1.3.80</a></li>
-                        <li><a href="#v1.3.78">Version 1.3.78</a></li>
-                        <li><a href="#v1.3.77">Version 1.3.77</a></li>
-                        <li><a href="#v1.3.76">Version 1.3.76</a></li>
-                        <li><a href="#v1.3.75">Version 1.3.75</a></li>
-                        <li><a href="#v1.3.74">Version 1.3.74</a></li>
-                        <li><a href="#v1.3.73">Version 1.3.73</a></li>
-                        <li><a href="#v1.3.72">Version 1.3.72</a></li>
-                        <li><a href="#v1.3.69">Version 1.3.69</a></li>
-                        <li><a href="#v1.3.68">Version 1.3.68</a></li>
-                        <li><a href="#v1.3.66">Version 1.3.66</a></li>
-                        <li><a href="#v1.3.64">Version 1.3.64</a></li>
-                        <li><a href="#v1.3.62">Version 1.3.62</a></li>
-                        <li><a href="#v1.3.61">Version 1.3.61</a></li>
-                        <li><a href="#v1.3.60">Version 1.3.60</a></li>
-                        <li><a href="#v1.3.59">Version 1.3.59</a></li>
-                        <li><a href="#v1.3.58">Version 1.3.58</a></li>
-                        <li><a href="#v1.3.57">Version 1.3.57</a></li>
-                        <li><a href="#v1.3.56">Version 1.3.56</a></li>
-                        <li><a href="#v1.3.55">Version 1.3.55</a></li>
-                        <li><a href="#v1.3.43">Version 1.3.43</a></li>
-                        <li><a href="#v1.3.38">Version 1.3.38</a></li>
-                        <li><a href="#v1.3.35">Version 1.3.35</a></li>
-                        <li><a href="#v1.3.33">Version 1.3.33</a></li>
-                        <li><a href="#v1.3.30">Version 1.3.30</a></li>
-                    	<li><a href="#v1.3.29">Version 1.3.29</a></li>
-                        <li><a href="#v1.3.28">Version 1.3.28</a></li>
-                        <li><a href="#v1.3.27">Version 1.3.27</a></li>
-                        <li><a href="#v1.3.26">Version 1.3.26</a></li>
-                        <li><a href="#v1.3.21">Version 1.3.21</a></li>
-                        <li><a href="#v1.3.19">Version 1.3.19</a></li>
-                        <li><a href="#v1.3.18">Version 1.3.18</a></li>
-                        <li><a href="#v1.3.14">Version 1.3.14</a></li>
-                        <li><a href="#v1.3.12">Version 1.3.12</a></li>
-                        <li><a href="#v1.3.11">Version 1.3.11</a></li>
-                        <li><a href="#v1.3.10">Version 1.3.10</a></li>
-                    	<li><a href="#v1.3.9">Version 1.3.9</a></li>
-                        <li><a href="#v1.3.8">Version 1.3.8</a></li>
-                        <li><a href="#v1.3.6">Version 1.3.6</a></li>
-                        <li><a href="#v1.3.5">Version 1.3.5</a></li>
-                        <li><a href="#v1.3.4">Version 1.3.4</a></li>
-                        <li><a href="#v1.3.2">Version 1.3.2</a></li>
-                        <li><a href="#v1.3.1">Version 1.3.1</a></li>
-                        <li><a href="#v1.3.0">Version 1.3.0</a></li>
-                    </ol>
-                </header>
-
-             <section id="versions">
-                    <h3 id="v1.4.0">Version 1.4.0
-                            <small class="release-date">March 26, 2019</small>
-                        </h3>
-                            <br>
-                            <ul class="changelog">
-                                <li class="ch-updated">Admob 7.42.1.0 </li>
-                                <li class="ch-updated">Chartboost 7.3.1.1 </li>
-                                <li class="ch-updated">Dfp 7.42.1.0 </li>
-                                <li class="ch-updated">Inmobi 7.2.7.1 </li>
-                                <li class="ch-updated">Ironsource 6.8.1.2 </li>
-                                <li class="ch-updated">UnityAds 3.0.1.2 </li>
-                            </ul> 
-
-                    <h3 id="v1.4.0">Version 1.4.0
-                        <small class="release-date">March 21, 2019</small>
-                    </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-added"><a href="#sscallbacks">Server to server callbacks</a> for rewarded video ads.</li>
-                            <li class="ch-updated">AMRSDK 1.4.0 </li>
-                            <li class="ch-updated">AdmostSDK 1.0.9 </li>
-                            <li class="ch-updated">Admob 7.42.0.0 &nbsp;&nbsp;<small>&nbsp;~ GADApplicationIdentifier needed!!</small></li>
-                            <li class="ch-updated">AdmostAdapter 1.2.0.1 </li>
-                            <li class="ch-updated">Adcolony 3.3.7.1 </li>
-                            <li class="ch-updated">Amazon 2.2.17.11 </li>
-                            <li class="ch-updated">Applovin 6.4.0.0 </li>
-                            <li class="ch-updated">Appnext 1.9.3.1 </li>
-                            <li class="ch-updated">Appsamurai 1.1.0.0 </li>
-                            <li class="ch-updated">Chartboost 7.3.1.0 </li>
-                            <li class="ch-updated">Dfp 7.42.0.0 </li>
-                            <li class="ch-updated">Facebook 5.2.0.0 </li>
-                            <li class="ch-updated">Fyber 8.22.0.3 </li>
-                            <li class="ch-updated">Inmobi 7.2.7.0 </li>
-                            <li class="ch-updated">Ironsource 6.8.1.1 </li>
-                            <li class="ch-updated">Mintegral 5.1.0.0 </li>
-                            <li class="ch-updated">Mobfox 3.6.0.0 </li>
-                            <li class="ch-updated">Mopub 5.5.0.1 </li>
-                            <li class="ch-updated">Smaato 10.1.2.0 </li>
-                            <li class="ch-updated">Startapp 3.11.0.0 </li>
-                            <li class="ch-updated">Tapjoy 12.2.1.0 </li>
-                            <li class="ch-updated">UnityAds 3.0.1.1 </li>
-                            <li class="ch-updated">Vungle 6.3.2.2 </li>
-                            <li class="ch-removed">
-                                <pre><code class="language-objectivec"><span class="text-success">preCacheBannersForZoneIds:</span></code>
-                                </pre>
-                            </li>
-                            <li class="ch-removed">
-                                <pre><code class="language-objectivec"><span class="text-success">startWithAppId:shouldInitNetworks:</span></code>
-                                </pre>
-                            </li>
-                            <li class="ch-removed">
-                                <pre><code class="language-objectivec"><span class="text-success">isNetworksInitialized:</span></code>
-                                </pre>
-                            </li>
-                        </ul> 
-
-                    <h3 id="v1.3.98">Version 1.3.98
-                        <small class="release-date">February 18, 2019</small>
-                    </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.98 </li>
-                            <li class="ch-updated">Appsamurai 1.0.2.0 </li>
-                            <li class="ch-updated">Fyber 8.22.0.2 </li>
-                        </ul>
-
-                    <h3 id="v1.3.97">Version 1.3.97
-                            <small class="release-date">January 30, 2019</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-added">Appsamurai 1.0.0.0 </li>
-                            <li class="ch-added">Mintegral 4.8.0.1 </li>
-                            <li class="ch-updated">AMRSDK 1.3.97 </li>
-                            <li class="ch-updated">Admob 7.38.0.0 </li>
-                            <li class="ch-updated">Applovin 6.2.0.0 &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small></li>
-                            <li class="ch-updated">Appnext 1.9.3.0 </li>
-                            <li class="ch-updated">Dfp 7.38.0.0 </li>
-                            <li class="ch-updated">Facebook 5.1.1.0 </li>
-                            <li class="ch-updated">Inmobi 7.2.4.0 </li>
-                            <li class="ch-updated">Ironsource 6.8.1.0 </li>
-                            <li class="ch-updated">Mobfox 3.5.7.0 </li>
-                            <li class="ch-updated">Mopub 5.5.0.0 </li>
-                            <li class="ch-updated">UnityAds 3.0.1.0 </li>
-                            <li class="ch-updated">Vungle 6.3.2.1 </li>
-                        </ul> 
-                        </ul>
-
-                    <h3 id="v1.3.97">Version 1.3.97
-                            <small class="release-date">January 30, 2019</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-added">Appsamurai 1.0.0.0 </li>
-                            <li class="ch-added">Mintegral 4.8.0.1 </li>
-                            <li class="ch-updated">AMRSDK 1.3.97 </li>
-                            <li class="ch-updated">Admob 7.38.0.0 </li>
-                            <li class="ch-updated">Applovin 6.2.0.0 &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small></li>
-                            <li class="ch-updated">Appnext 1.9.3.0 </li>
-                            <li class="ch-updated">Dfp 7.38.0.0 </li>
-                            <li class="ch-updated">Facebook 5.1.1.0 </li>
-                            <li class="ch-updated">Inmobi 7.2.4.0 </li>
-                            <li class="ch-updated">Ironsource 6.8.1.0 </li>
-                            <li class="ch-updated">Mobfox 3.5.7.0 </li>
-                            <li class="ch-updated">Mopub 5.5.0.0 </li>
-                            <li class="ch-updated">UnityAds 3.0.1.0 </li>
-                            <li class="ch-updated">Vungle 6.3.2.1 </li>
-                        </ul> 
-
-                    <h3 id="v1.3.96">Version 1.3.96
-                            <small class="release-date">January 16, 2019</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.96 </li>
-                            <li class="ch-updated">Facebook 5.1.0.6 </li>
-                        </ul> 
-
-                    <h3 id="v1.3.93">Version 1.3.93
-                            <small class="release-date">December 19, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.93 </li>
-                            <li class="ch-updated">Admob 7.37.0.0 </li>
-                            <li class="ch-updated">Admost 1.2.0.0 &nbsp;&nbsp;<small>&nbsp;~ Banner ads migrated from UIWebView to WkWebView.</small> </li>
-                            <li class="ch-updated">Dfp 7.37.0.0 </li>
-                        </ul> 
-
-                    <h3 id="v1.3.92">Version 1.3.92
-                            <small class="release-date">December 11, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.92 </li>
-                            <li class="ch-updated">Facebook 5.1.0.4 </li>
-                            <li class="ch-updated">Mopub 5.4.0.3 </li>
-                        </ul> 
-
-                    <h3 id="v1.3.86">Version 1.3.86
-                            <small class="release-date">November 29, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.86 &nbsp;&nbsp;<small>&nbsp;~ New delegate methods added to <code>AMRInterstitialDelegate</code>, <code>AMRRewardedVideoDelegate</code> and <code>AMROfferWallDelegate</code>.</small> </li>
-                            <li class="ch-updated">Admob 7.36.0.0 &nbsp;&nbsp;<small>&nbsp;~ Native banner ad format changed with <code>GADUnifiedNativeAd</code>.</small>  </li>
-                            <li class="ch-updated">Adtiming 3.0.8.0  </li>
-                            <li class="ch-updated">Facebook 5.1.0.1 &nbsp;&nbsp;<small>&nbsp;~ Native banner ads updated.</small></li>
-                            <li class="ch-added">Error codes added to <code>AMRError.h</code> file. </li>
-
-                            <li class="ch-removed">
-                                <pre><code class="language-objectivec"><span class="text-success">- (void)didFailToShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo;</span></code>
-                                </pre>
-                            </li>
-
-                            <li class="ch-added">
-                                    New delegate method added to AMRInterstitialDelegate protocol to catch if interstitial failed to be shown;
-                                <pre><code class="language-objectivec"><span class="text-success">- (void)didFailToShowInterstitial:(AMRInterstitial *)interstitial error:(AMRError *)error;</span></code>
-                                </pre>
-                            </li>
-
-                            <li class="ch-added">
-                                    New delegate method added to AMRRewardedVideoDelegate protocol to catch if rewarded video failed to be shown;
-                                <pre><code class="language-objectivec"><span class="text-success">- (void)didFailToShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo error:(AMRError *)error;</span></code>
-                                </pre>
-                            </li>
-
-                            <li class="ch-added">
-                                    New delegate method added to AMROfferWallDelegate protocol to catch if offerwall failed to be shown;
-                                <pre><code class="language-objectivec"><span class="text-success">- (void)didFailToShowOfferWall:(AMROfferWall *)offerwall error:(AMRError *)error;</span></code>
-                                </pre>
-                            </li>
-
-                            <li class="ch-added">
-                                    New delegate method added to AMROfferWallDelegate protocol to catch if offerwall shown;
-                                <pre><code class="language-objectivec"><span class="text-success">- (void)didShowOfferWall:(AMROfferWall *)offerwall;</span></code>
-                                </pre>
-                            </li>
-                        </ul>
-
-                    <h3 id="v1.3.83">Version 1.3.83
-                            <small class="release-date">November 16, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.83  </li>
-                        </ul> 
-
-                    <h3 id="v1.3.82">Version 1.3.82
-                            <small class="release-date">November 14, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.82  </li>
-                            <li class="ch-updated">Adcolony 3.3.6.0 </li>
-                            <li class="ch-updated">Vungle 6.3.2.0 </li>
-                        </ul> 
-
-                    <h3 id="v1.3.80">Version 1.3.80
-                            <small class="release-date">November 9, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.80  </li>
-                            <li class="ch-updated">Admob 7.35.1.0 </li>
-                            <li class="ch-updated">Dfp 7.35.1.0 </li>
-                            <li class="ch-updated">Admost 1.1.3.3 </li>
-                            <li class="ch-updated">Facebook 5.1.0.0 </li>
-                            <li class="ch-updated">Mopub 5.4.0.2</li>
-                            <li class="ch-updated">CustomXibs folder updated. </li>
-                        </ul> 
-
-                    <h3 id="v1.3.78">Version 1.3.78
-                            <small class="release-date">November 1, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.78  </li>
-                            <li class="ch-updated">Adcolony 3.3.5.1 </li>
-                            <li class="ch-updated">Ironsource 6.7.12.1 </li>
-                            <li class="ch-updated">Mopub 5.4.0.1 </li>
-                            <li class="ch-updated">Demo Application  </li>
-                            <li class="ch-added">
-                                Tag functionality added for interstitial, rewarded video and offerwall. Tags will let you monitor the performance of the ads across different dimensions. 
-                                Example usage is as follows;
-                                <pre><code class="language-objectivec">
-                                    <span class="text-success">- (void)showFromViewController:(UIViewController * )viewController withTag:(NSString *)tag;</span>
-                                </code></pre>
-                            </li>
-                        </ul> 
-
-                    <h3 id="v1.3.77">Version 1.3.77
-                            <small class="release-date">October 23, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.77 </li>
-                            <li class="ch-updated">Facebook 5.0.1.1 </li>
-                        </ul>
-
-                    <h3 id="v1.3.76">Version 1.3.76
-                            <small class="release-date">October 19, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.76 </li>
-                            <li class="ch-updated">ChartBoost 7.3.0.1 </li>
-                            <li class="ch-updated">Inmobi 7.2.0.1 </li>
-                            <li class="ch-updated">Mopub 5.4.0.0 </li>								
-                            <li class="ch-updated">Vungle 6.3.1.1 </li>
-                        </ul>
-
-                    <h3 id="v1.3.75">Version 1.3.75
-                            <small class="release-date">October 18, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.75 </li>
-                            <li class="ch-updated">Tapjoy 12.1.0.0 </li>								
-                            <li class="ch-updated">Vungle 6.3.1.0 </li>
-                        </ul>
-
-                    <h3 id="v1.3.74">Version 1.3.74
-                            <small class="release-date">October 11, 2018</small>
-                        </h3>
-                        <br>
-                        <ul class="changelog">
-                            <li class="ch-updated">AMRSDK 1.3.74 </li>
-                            <li class="ch-updated">Applovin 5.1.2.0 </li>								
-                            <li class="ch-updated">ChartBoost 7.3.0.0 </li>
-                            <li class="ch-updated">Facebook 5.0.1.0 </li>
-                            <li class="ch-updated">Inmobi 7.2.0.0 </li>
-                            <li class="ch-updated">Ironsource 6.7.12.0 </li>
-                        </ul>
-					<h3 id="v1.3.73">Version 1.3.73
-					                    <small class="release-date">October 4, 2018</small>
-					                </h3>
-					                <br>
-					                <ul class="changelog">
-					                    <li class="ch-updated">AMRSDK 1.3.73 </li>
-										     <li class="ch-updated">Admob 7.34.0.0 </li>								
-										     <li class="ch-updated">Facebook 5.0.0.0 </li>
-										     <li class="ch-fixed">Fixed a bug causing Rewarded Video Callbacks not to be called.</li>
-					                </ul>
-					<h3 id="v1.3.72">Version 1.3.72
-					                    <small class="release-date">September 24, 2018</small>
-					                </h3>
-					                <br>
-					                <ul class="changelog">
-					                    <li class="ch-updated">AMRSDK 1.3.72 </li>
-										     <li class="ch-updated">Requires KKLog 1.0.7 or newer. </li>
-					                    <li class="ch-updated">Minor performance improvements for main thread sensitive apps. </li>
-					                    <li class="ch-added">
-					                        New delegate method added to AMRRewardedVideoDelegate protocol to catch if rewarded video failed to be shown;
-					                        <pre><code class="language-objectivec">
-					                            <span class="text-success">- (void)didFailToShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo;</span>
-					                        </code></pre>
-					                    </li>
-					                </ul>
-	
-					<h3 id="v1.3.69">Version 1.3.69
-					                    <small class="release-date">September 3, 2018</small>
-					                </h3>
-					                <br>
-					                <ul class="changelog">
-					                    <li class="ch-updated">AMRSDK 1.3.69 </li>
-					                </ul>
-					<h3 id="v1.3.68">Version 1.3.68
-                    <small class="release-date">August 16, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.68 </li>
-                    <li class="ch-updated">Adcolony 3.3.5.0 </li>
-                    <li class="ch-updated">Admob 7.32.0.0 </li>
-                    <li class="ch-updated">Appnext 1.9.1.0 </li>
-                    <li class="ch-updated">Applovin 5.1.1.0 </li>
-                    <li class="ch-updated">DFP Adapter 7.32.0.0</li>
-                    <li class="ch-updated">Facebook 4.99.2.0 </li>
-                    <li class="ch-updated">Flurry 9.0.0.0 </li>
-                    <li class="ch-updated">Fyber 8.22.0.0 </li>
-                    <li class="ch-updated">Inmobi 7.1.2.0 </li>
-                    <li class="ch-updated">Mobfox 3.5.1.0 </li>
-                    <li class="ch-updated">Mopub 5.2.0.0 </li>
-                    <li class="ch-updated">Smaato 9.0.3.0 </li>
-                    <li class="ch-updated">Tapjoy 12.0.0.0 </li>
-                    <li class="ch-updated">UnityAds 2.3.0.0 </li>
-                </ul>
-
-<h3 id="v1.3.66">Version 1.3.66
-                    <small class="release-date">August 2, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.66 </li>
-                    <li class="ch-updated">NSUserDefaults crashes fixed. </li>
-                    <li class="ch-updated">Ad requests now wait and processed after SDK initialization. </li>
-                    <li class="ch-added">
-                        New method added for test suite.
-                        <pre><code class="language-objectivec">
-                            <span class="text-success">startTestSuiteWithAppId:appId:</span>
-                        </code></pre>
-                    </li>
-                </ul>
-
-<h3 id="v1.3.64">Version 1.3.64
-                    <small class="release-date">July 31, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">Applovin 5.1.0.0 </li>
-                </ul>
-
-<h3 id="v1.3.64">Version 1.3.64
-                    <small class="release-date">July 25, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.64 </li>
-                    <li class="ch-updated">Ironsource 6.7.10.0 </li>
-                    <li class="ch-added">
-                        From now on callback will be triggered when spend virtual currency.
-                        <pre><code class="language-objectivec">
-                        <span class="text-success">didSpendVirtualCurrency:amount:networkName:</span>
-                        </code></pre>
-                    </li>
-                    <li class="ch-removed">
-                        <pre><code class="language-objectivec">
-                        <span class="text-danger">didSpendVirtualCurrency:amout:network:</span>
-                        </code></pre>
-                    </li>
-                </ul>
-
-<h3 id="v1.3.62">Version 1.3.62
-                    <small class="release-date">July 5, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.62 </li>
-                    <li class="ch-updated">Admob 7.31.0.1 </li>
-                    <li class="ch-added">Adtiming 2.1.1.0 </li>
-                </ul>
-
-<h3 id="v1.3.61">Version 1.3.61
-                    <small class="release-date">July 2, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.61 </li>
-                    <li class="ch-updated">Ironsource 6.7.9.3 </li>
-                    <li class="ch-updated">Mopub 5.1.0.0 </li>
-                </ul>
-
-    <h3 id="v1.3.60">Version 1.3.60
-                    <small class="release-date">June 21, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.60 </li>
-                </ul>
-
-    <h3 id="v1.3.59">Version 1.3.59
-                    <small class="release-date">June 19, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.59 </li>
-                </ul>
-    <h3 id="v1.3.58">Version 1.3.58
-                    <small class="release-date">June 13, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.58 </li>
-                </ul> 
-    <h3 id="v1.3.57">Version 1.3.57
-                    <small class="release-date">June 6, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.57 </li>
-                    <li class="ch-updated">Ironsource 6.7.9.2 </li>
-                </ul> 
-    <h3 id="v1.3.55">Version 1.3.55
-                    <small class="release-date">May 25, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.55 &nbsp;&nbsp;<small>&nbsp;~ GDPR compatibility</small></li>
-                    <li class="ch-updated">Adcolony 3.3.4.0 </li>
-                    <li class="ch-updated">Admob 7.31.0.0 </li>
-                    <li class="ch-updated">Applovin 5.0.1.0 </li>
-                    <li class="ch-updated">Charboost 7.2.0.0 </li>
-                    <li class="ch-updated">Facebook 4.28.1.0 </li>
-                    <li class="ch-updated">Flurry 8.6.1.0 </li>
-                    <li class="ch-updated">Fyber 8.21.0.0 </li>
-                    <li class="ch-updated">Inmobi 7.1.1.0 </li>
-                    <li class="ch-updated">Ironsource 6.7.9.0 </li>
-                    <li class="ch-updated">Loopme 6.4.5.3 </li>
-                    <li class="ch-updated">Mobfox 3.5.0.0 </li>
-                    <li class="ch-updated">Mopub 5.0.0.0 </li>
-                    <li class="ch-updated">Nexage 6.8.0.0 </li>
-                    <li class="ch-updated">Smaato 9.0.0.0 </li>
-                    <li class="ch-updated">Startapp 3.7.1.0 </li>
-                    <li class="ch-updated">Tapjoy 11.12.2.0 </li>
-                    <li class="ch-updated">UnityAds 2.2.1.1 </li>
-                    <li class="ch-updated">Vungle 6.2.0.0 </li>
-                </ul>            
-
-    <h3 id="v1.3.43">Version 1.3.43
-                    <small class="release-date">April 27, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.43 </li>
-                </ul>
-
-        <h3 id="v1.3.38">Version 1.3.38
-                    <small class="release-date">April 19, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.38 </li>
-                    <li class="ch-updated">Adcolony 3.3.0.1 </li>
-                    <li class="ch-updated">Tapjoy 11.11.1.4 </li>
-                    
-                </ul>
-
-            <h3 id="v1.3.35">Version 1.3.35
-                    <small class="release-date">April 3, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.35 </li>
-                </ul>
-
-            <h3 id="v1.3.33">Version 1.3.33
-                    <small class="release-date">March 26, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-added">Swift Demo Application</li>
-                    <li class="ch-updated">AMRSDK 1.3.33 </li>
-                    <li class="ch-updated">Adcolony 3.3.0.0 </li>
-                    <li class="ch-updated">Admob 7.29.0.0 </li>
-                    <li class="ch-updated">Amazon 2.2.17.9 </li>
-                    <li class="ch-updated">Applovin 4.8.3.0 </li>
-                    <li class="ch-updated">Appnext 1.8.3.1 </li>
-                    <li class="ch-updated">Avocarrot 4.9.0.0 </li>
-                    <li class="ch-updated">Charboost 7.1.2.0 </li>
-                    <li class="ch-updated">Facebook 4.27.2.1 </li>
-                    <li class="ch-updated">Flurry 8.4.0.0 </li>
-                    <li class="ch-updated">Fyber 8.20.2.0 </li>
-                    <li class="ch-updated">Inmobi 7.0.4.1 </li>
-                    <li class="ch-updated">Ironsource 6.7.7.0 </li>
-                    <li class="ch-updated">Loopme 6.4.5.1 </li>
-                    <li class="ch-updated">Mopub 4.20.1.1 </li>
-                    <li class="ch-updated">Mobfox 3.4.1.0 </li>
-                    <li class="ch-updated">Nexage 6.7.0.1 </li>
-                    <li class="ch-updated">Smaato 8.2.3.1 </li>
-                    <li class="ch-updated">Startapp 3.6.0.1 </li>
-                    <li class="ch-updated">Tapjoy 11.11.1.3 </li>
-                    <li class="ch-updated">UnityAds 2.2.0.0 </li>
-                    <li class="ch-updated">Vungle 5.4.0.0 </li>
-                    <li class="ch-removed">Inloco</li>
-                    <li class="ch-removed">Leadbolt</li>
-                    <li class="ch-removed">Mobusi</li>
-                    <li class="ch-removed">NativeX</li>
-                    <li class="ch-removed">Pubnative</li>
-                    <li class="ch-removed">Revmob</li>
-                    <li class="ch-removed">Smartadserver</li>
-                    <li class="ch-removed">Tappx</li>
-                </ul>
-
-            <h3 id="v1.3.30">Version 1.3.30
-                    <small class="release-date">February 27, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.30 </li>
-                    <li class="ch-updated">Admost 1.1.0.0 </li>
-                    <li class="ch-added">Smartadserver 6.7.2.0</li>
-                </ul>
-
-             <h3 id="v1.3.29">Version 1.3.29
-                    <small class="release-date">February 22, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.29 </li>
-                    <li class="ch-updated">Tapjoy 11.11.1.2</li>
-                    <li class="ch-updated">UnityAds 2.1.2.1</li>
-                    <li class="ch-updated">Vungle 5.3.2.1</li>
-                </ul>
-
-            <h3 id="v1.3.28">Version 1.3.28
-                    <small class="release-date">February 20, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.28 </li>
-                </ul>
-
-            <h3 id="v1.3.27">Version 1.3.27
-                    <small class="release-date">February 16, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-added">Application user id feature added.</li>
-                    <li class="ch-updated">AMRSDK 1.3.27 </li>
-                    <li class="ch-updated">Tapjoy 11.11.1.1 </li>
-                </ul>
-
-
-                <h3 id="v1.3.26">Version 1.3.26
-                    <small class="release-date">January 16, 2018</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-added">Preloading Banner feature added.</li>
-                    <li class="ch-updated">AMRSDK 1.3.26 </li>
-                    <li class="ch-updated">Admob 7.27.0.0 </li>
-                    <li class="ch-updated">Applovin 4.7.0.0 </li>
-                    <li class="ch-updated">DFP Adapter 7.27.0.0</li>
-                    <li class="ch-updated">Facebook 4.27.2.0 </li>
-                    <li class="ch-updated">Fyber 8.19.0.0 </li>
-                    <li class="ch-updated">Leadbolt 8.2.0.0 &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small></li>
-                    <li class="ch-updated">Loopme 6.4.5.0 &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small></li></li>
-                    <li class="ch-updated">Mobfox 3.3.0.0 &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small></li></li>
-                    <li class="ch-updated">Tappx 3.0.2.5 </li>
-                    <li class="ch-updated">Vungle 5.3.2.0 </li>
-                </ul>
-
-
-                <h3 id="v1.3.21">Version 1.3.21
-                    <small class="release-date">December 28, 2017</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.21</li>
-                    <li class="ch-updated">Mopub 4.19.0.0</li>
-                </ul>
-
-                <h3 id="v1.3.19">Version 1.3.19
-                    <small class="release-date">December 14, 2017</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.19</li>
-                </ul>
-
-                <h3 id="v1.3.18">Version 1.3.18
-                    <small class="release-date">December 12, 2017</small>
-                </h3>
-                <br>
-                <ul class="changelog">
-                    <li class="ch-updated">AMRSDK 1.3.18 &nbsp;&nbsp;<small>&nbsp;~ Minimum iOS version updated to iOS8.</small> </li>
-                    <li class="ch-updated">Admost 1.0.56.1 </li>
-                    <li class="ch-updated">Admob 7.26.0.0 </li>
-                    <li class="ch-updated">Amazon 2.2.17.8 </li>
-                    <li class="ch-updated">Applovin 4.6.0.0 </li>
-                    <li class="ch-updated">Avocarrot 4.7.3.0 </li>
-                    <li class="ch-updated">Charboost 7.0.4 </li>
-                    <li class="ch-updated">DFP Adapter 7.26.0.0</li>
-                    <li class="ch-updated">Facebook 4.26.1.0 </li>
-                    <li class="ch-updated">Flurry 8.3.4.0 </li>
-                    <li class="ch-updated">Fyber 8.18.0.0 </li>
-                    <li class="ch-updated">Inmobi 7.0.4.0 </li>
-                    <li class="ch-updated">Ironsource 6.7.3.1 </li>
-                    <li class="ch-updated">Mopub 4.18.0.0 </li>
-                    <li class="ch-updated">Nexage 6.6.0.0 </li>
-                    <li class="ch-updated">Revmob 10.0.0.0 </li>
-                    <li class="ch-updated">Tapjoy 11.11.1.0 </li>
-                    <li class="ch-updated">Tappx 3.0.2.4 </li>
-                    <li class="ch-updated">UnityAds 2.1.2.0 </li>
-                    <li class="ch-updated">Vungle 5.3.0.0 </li>
-                </ul>
-                
-                <h3 id="v1.3.14">Version 1.3.14
-                        <small class="release-date">October 31, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">
-                            AMRSDK 1.3.14 &nbsp;&nbsp;<small>&nbsp;~ Fully customizable native ads.</small>
-                         </li>
-                         <li class="ch-updated">Demo application updated.</li>
-                    </ul>
-
-                <h3 id="v1.3.12">Version 1.3.12
-                        <small class="release-date">October 19, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">AMRSDK 1.3.12 </li>
-                        <li class="ch-updated">
-                            Flurry 8.3.0.0 &nbsp;&nbsp;<small>&nbsp;~ iOS7 support is over.</small>
-                        </li>
-                        <li class="ch-updated">Facebook 4.26.0.0</li>
-                        <li class="ch-updated">
-                            Vungle 5.1.0.2 &nbsp;&nbsp;<small>&nbsp;~ iOS7 support is over.</small>
-                         </li>
-                    </ul>
-
-                <h3 id="v1.3.11">Version 1.3.11
-                        <small class="release-date">October 16, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">
-                            AMRSDK 1.3.11 &nbsp;&nbsp;<small>&nbsp;~ In App Purchase tracking updated.</small>
-                         </li>
-                    </ul>
-
-                <h3 id="v1.3.10">Version 1.3.10
-                        <small class="release-date">October 12, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">AMRSDK 1.3.10 </li>
-                        <li class="ch-updated">Admob 7.24.1.0</li>
-                    </ul>
-
-             <h3 id="v1.3.9">Version 1.3.9
-                        <small class="release-date">October 10, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">
-                            AMRSDK 1.3.9 &nbsp;&nbsp;<small>&nbsp;~ In App Purchase tracking added.</small>
-                        </li>
-                        <li class="ch-updated">Flurry 8.1.0.2</li>
-                        <li class="ch-updated">Charboost 6.6.3.5</li>
-                    </ul>
-                    
-             	<h3 id="v1.3.8">Version 1.3.8
-                        <small class="release-date">October 5, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">AMRSDK 1.3.8 </li>
-                        <li class="ch-updated">Adcolony 3.2.1.1</li>
-                        <li class="ch-updated">Applovin 4.3.1.1</li>
-                        <li class="ch-updated">Appnext 1.8.2.2</li>
-                        <li class="ch-updated">Charboost 6.6.3.4</li>
-                        <li class="ch-updated">Fyber 8.15.1.2</li>
-                        <li class="ch-updated">Ironsource 6.6.8.1</li>
-                        <li class="ch-updated">NativeX 5.5.9.3</li>
-                        <li class="ch-updated">UnityAds 2.1.1.1</li>                        
-                    </ul>
-             
-             		<h3 id="v1.3.6">Version 1.3.6
-                        <small class="release-date">September 18, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">AMRSDK 1.3.6 </li>
-                    </ul>
-             
-             		<h3 id="v1.3.5">Version 1.3.5
-                        <small class="release-date">September 07, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">AMRSDK 1.3.5 </li>
-                    </ul>
-                    
-                    <h3 id="v1.3.4">Version 1.3.4
-                        <small class="release-date">August 25, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">AMRSDK 1.3.4 </li>
-                        <li class="ch-updated">DFP Adapter 7.22.0.0</li>
-                        <li class="ch-updated">Admob 7.22.0.0</li>
-                        <li class="ch-updated">Inmobi 6.2.1.0</li>
-                    </ul>
-
-                    <h3 id="v1.3.2">Version 1.3.2
-                        <small class="release-date">August 18, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">
-                            AMRSDK 1.3.2 &nbsp;&nbsp;<small>&nbsp;~ Test Suite added for testing ad networks.</small>
-                        </li>
-                    </ul>
-
-                    <h3 id="v1.3.1">Version 1.3.1
-                        <small class="release-date">August 14, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">AMRSDK 1.3.1</li>
-                        <li class="ch-updated">Applovin 4.2.1.1</li>
-                        <li class="ch-updated">Charboost 6.6.3.2</li>
-                    </ul>
-
-                    <h3 id="v1.3.0">Version 1.3.0
-                        <small class="release-date">August 1, 2017</small>
-                    </h3>
-                    <br>
-                    <ul class="changelog">
-                        <li class="ch-updated">AMRSDK 1.3.0</li>
-                        <li class="ch-updated">Applovin 4.2.1.0</li>
-                        <li class="ch-updated">Appnext 1.8.2.0</li>
-                        <li class="ch-updated">Avocarrot 4.5.0.0</li>
-                        <li class="ch-updated">Facebook 4.25.0.1</li>
-                        <li class="ch-updated">Flurry 8.1.0.0</li>
-                        <li class="ch-updated">Fyber 8.15.1.0</li>
-                        <li class="ch-updated">Tappx 3.0.2.0</li>
-                        <li class="ch-updated">Vungle 5.1.0.1 &nbsp;&nbsp;<small>&nbsp;~ From Admost <a href="http://dashboard.admost.com">dashboard</a> you should enter <code>zone_id</code> from network settings to <strong>Vungle</strong>.</small></li>
-                    </ul>
-                </section>
-
         </article>
         <!-- END Main content -->
     </div>
