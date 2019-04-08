@@ -271,6 +271,7 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                                 <li class="is-folder">AMRAdapterAdcolony
                                 <li class="is-folder">AMRAdapterAdmob
                                 <li class="is-folder">AMRAdapterAdmost
+                                <li class="is-folder">AMRAdapterAdtiming
                                 <li class="is-folder">AMRAdapterAmazon
                                 <li class="is-folder">AMRAdapterApplovin &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small>
                                 <li class="is-folder">AMRAdapterAppnext
@@ -314,6 +315,7 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 
                 <div class="callout callout-danger" role="alert">
                     <h4></h4>
+<<<<<<< HEAD
                     <p><span class="label label-danger">Important</span> If you are using AdMob you must add your AdMob <code>App ID</code> to your <code>plist</code> file with <code>GADApplicationIdentifier</code> key as shown below. <br/>(Replace <code>ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX</code> with your own <code>App ID</code>)</p>
 						<pre>
 <code class="language-markup">
@@ -325,7 +327,19 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                     <p><img class="img-responsive" src="assets/img/admob_appid.png" alt="admob_appid.png"></p>
                 </div>
 
+=======
+                    <p><span class="label label-danger">Important</span> If you are using Admob add the following lines to your <code>plist</code> file.</p>
+                    <p><code>GADApplicationIdentifier</code> is your Admob Application Id, it can be found on Admob Dashboard -> My Apps</p>
+<pre><code class="language-markup">&lt;key&gt;GADApplicationIdentifier&lt;/key&gt;
+&lt;string&gt;YOUR_ADMOB_APP_ID&lt;/string&gt;</code></pre>
+                    <p>For testing you can use following Admob Sample App Id; </p>
+                    
+                    <pre><code class="language-markup">
+ca-app-pub-3940256099942544~1458002511
+                </code></pre>
+>>>>>>> 5f39f36661a1f43ac72e0a42939dff9bc1757942
 
+                </div>
                 <div class="callout callout-danger" role="alert">
                    <h4></h4>
                    <p><span class="label label-danger">Important</span> If you are using AppLovin you must add <code>AppLovin SDK Key</code> to your <code>plist</code> file with <code>AppLovinSdkKey</code> key as shown below. <br/>(Replace <code>XXXXXXXXXXXXXXX</code> with your own <code>AppLovin SDK Key</code>)	
@@ -412,9 +426,7 @@ mpuBanner = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
 mpuBanner.delegate = self;
                 </code></pre>
 
-                <p>For testing you can use following Banner Zone Id;
-
-                </p>
+                <p>For testing you can use following Banner Zone Id; </p>
 
                 <pre><code class="language-markup">
 Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
