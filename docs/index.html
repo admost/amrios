@@ -124,7 +124,7 @@
                 </li>
                 <li><a href="#extras">Extras</a>
                     <ul>
-                        <li><a href="#dfp">DFP/Admob Mediation Integration</a></li>
+                        <li><a href="#dfp">DFP/AdMob Mediation Integration</a></li>
                         <li><a href="#testsuite">Test Suite</a></li>
                         <li><a href="#iap">In App Purchase Tracking</a></li>
                         <li><a href="#bannercache">Preloading Banners</a></li>
@@ -314,19 +314,28 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 
                 <div class="callout callout-danger" role="alert">
                     <h4></h4>
-                    <p><span class="label label-danger">Important</span> If you are using Admob add the following lines to your <code>plist</code> file.</p>
-                    <p><code>GADApplicationIdentifier</code> is your Admob Application Id, it can be found on Admob Dashboard -> My Apps</p>
-<pre><code class="language-markup">&lt;key&gt;GADApplicationIdentifier&lt;/key&gt;
-&lt;string&gt;YOUR_ADMOB_APP_ID&lt;/string&gt;</code></pre>
+                    <p><span class="label label-danger">Important</span> If you are using AdMob you must add your AdMob <code>App ID</code> to your <code>plist</code> file with <code>GADApplicationIdentifier</code> key as shown below. <br/>(Replace <code>ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX</code> with your own <code>App ID</code>)</p>
+						<pre>
+<code class="language-markup">
+&lt;key&gt;GADApplicationIdentifier&lt;/key&gt;
+&lt;string&gt;ca-app-pub-XXXXXXXXXXXXXXXX~XXXXXXXXXX&lt;/string&gt;
+</code></pre>
+
+                    <p>Your <code>App ID</code> can be found on AdMob dashboard -> Apps -> App settings -> App info.</p>
+                    <p><img class="img-responsive" src="assets/img/admob_appid.png" alt="admob_appid.png"></p>
                 </div>
 
 
                 <div class="callout callout-danger" role="alert">
                    <h4></h4>
-                   <p><span class="label label-danger">Important</span> If you are using Applovin add the following lines to your <code>plist</code> file.</p>
-                    <code>AppLovinSdkKey</code> can be found on Applovin Dashboard -> Keys -> SDK Key</p>
-<pre><code class="language-markup">&lt;key&gt;AppLovinSdkKey&lt;/key&gt;
-&lt;string&gt;YOUR_APPLOVIN_SDK_KEY&lt;/string&gt;</code></pre>
+                   <p><span class="label label-danger">Important</span> If you are using AppLovin you must add <code>AppLovin SDK Key</code> to your <code>plist</code> file with <code>AppLovinSdkKey</code> key as shown below. <br/>(Replace <code>XXXXXXXXXXXXXXX</code> with your own <code>AppLovin SDK Key</code>)	
+	</p>
+<pre><code class="language-markup">
+&lt;key&gt;AppLovinSdkKey&lt;/key&gt;
+&lt;string&gt;XXXXXXXXXXXXXXX&lt;/string&gt;
+</code></pre>
+                    <p>Your <code>AppLovin SDK Key</code> can be found on AppLovin Dashboard -> Account -> Keys.</p>
+ <p><img class="img-responsive" src="assets/img/applovin_sdkkey.png" alt="applovin_sdkkey.png"></p>
                 </div>
 
             </section>
@@ -703,13 +712,13 @@ fullScreen.delegate = self;
             </code></pre>
                 <h2 id="extras">Extras</h2>
 
-                <h3 id="dfp">DFP/Admob Mediation Integration</h3>
+                <h3 id="dfp">DFP/AdMob Mediation Integration</h3>
 
                 <p>The AMR DFP Adapter lets publishers integrate Admost Mediation Router ads into applications with DFP
-                    or Admob Mediation set as main ad mediation layer.</p>
+                    or AdMob Mediation set as main ad mediation layer.</p>
 
-                <p>In order to show AMR ads in DFP/Admob Mediation you should first follow dedicated steps of DFP or
-                    Admob Mediation to set AMR as an ad mediation source.</p>
+                <p>In order to show AMR ads in DFP/AdMob Mediation you should first follow dedicated steps of DFP or
+                    AdMob Mediation to set AMR as an ad mediation source.</p>
 
                 <p>After adding AMR as an ad mediation source you should define class names for banner and interstitial
                     ad custom events. Enter <code>AMRDFPCustomEventBanner</code> and
@@ -742,7 +751,7 @@ fullScreen.delegate = self;
                 <p>If you are integration Admost manually add <code>AMRAdapterDFP</code> from <code>AMRDemo/AMR/MediationAdapters</code>
                     folder to your project.</p>
 
-                <p>Now you can show AMR banner and interstitial ads via DFP or Admob Mediation.</p>
+                <p>Now you can show AMR banner and interstitial ads via DFP or AdMob Mediation.</p>
 
                 <p>You can check DFP banner and interstitial example in demo project; 
                     AMRDemo/DFPCustomEvents/DFPCustomEventsViewController.m</p>
