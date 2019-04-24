@@ -6,7 +6,7 @@ var obj = JSON.parse(`
 {"name":"Admost","status":false,"pod":"AMRAdapterAdmost","version":"1.2"},
 {"name":"Adtiming","status":false,"pod":"AMRAdapterAdtiming","version":"3.4"},
 {"name":"Amazon","status":false,"pod":"AMRAdapterAmazon","version":"2.2"},
-{"name":"AppLovin","status":false,"pod":"AMRAdapterApplovin","version":"6.4"},
+{"name":"AppLovin","status":false,"pod":"AMRAdapterApplovin","version":"6.5"},
 {"name":"Appnext","status":false,"pod":"AMRAdapterAppnext","version":"1.9"},
 {"name":"Appsamurai","status":false,"pod":"AMRAdapterAppsamurai","version":"1.1"},
 {"name":"Chartboost","status":false,"pod":"AMRAdapterChartboost","version":"7.3"},
