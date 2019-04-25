@@ -131,6 +131,7 @@
                         <li><a href="#bannercache">Preloading Banners</a></li>
                         <li><a href="#senduserid">Setting Application User Id</a></li>
                         <li><a href="#sendadjustuserid">Setting Adjust User Id</a></li>
+                        <li><a href="#adjustintegration">Adjust Integration <span class="label label-teal">New</span></a></li>
 						<li><a href="#sscallbacks">Server to Server Callbacks</a></li>
                     </ul>
                 </li>
@@ -860,6 +861,70 @@ banner.bannerWidth = 320;
 [AMRSDK setAdjustUserId:@&quot;&lt;adjustUserId&gt;&quot;];
 
                 </code></pre>
+
+                <h3 id="adjustintegration">Adjust Integration <span class="label label-teal">New</span></h3>
+                <p>
+                    Follow the official <a target="_blank" href="https://github.com/adjust/ios_sdk#basic-integration">ADJUST</a> documents to integrate
+                AdjustSDK in to your app.
+                </p>
+                
+                <pre><code class="language-objectivec">
+
+#import &lt;AMRSDK/AMRSDK.h&gt;
+#import &lt;AdjustSdk/Adjust.h&gt;
+
+@interface AppDelegate () &lt;AdjustDelegate&gt; @end
+
+- (BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];                       
+    .
+    .
+    
+    // Adjust Integration
+    
+    // Replace &lt;yourAdjustAppToken&gt; with your Adjust app token.
+    NSString *yourAppToken = @&quot;&lt;yourAdjustAppToken&gt;&quot;
+
+    // Replace environment from ADJEnvironmentSandbox to ADJEnvironmentProduction before publishing.
+    NSString *environment = ADJEnvironmentSandbox;
+    
+    ADJConfig *adjustConfig = [ADJConfig configWithAppToken:yourAppToken
+    environment:environment];
+    
+    [adjustConfig setDelegate:self];
+    [Adjust appDidLaunch:adjustConfig];
+    .
+    .
+
+    return YES;
+}
+
+#pragma mark - &lt;AdjustDelegate&gt;
+
+- (void)adjustAttributionChanged:(ADJAttribution *)attribution {
+
+    // Send adid value to Admost
+    if (attribution && attribution.adid.length) {
+        [AMRSDK setAdjustUserId:attribution.adid];
+    }
+}
+                </code></pre>
+                <p><img class="img-shadow img-responsive img-thumbnail center-block" src="assets/img/adjust_config.png" alt="shadowed image"></p>
+                <p>
+                    <span class="label label-danger">Important</span>
+                    Replace environment from <code>&lt;ADJEnvironmentSandbox&gt;</code> to <code>&lt;ADJEnvironmentProduction&gt;</code>
+                    before publishing.
+                </p>
+
+                <p>
+                    <span class="label label-danger">Important</span> 
+                    Replace <code>&lt;yourAdjustAppToken&gt;</code> with your own Adjust app token. You can find this in your Adjust <a href="https://www.adjust.com/">dashboard.</a>
+                </p>
+
+                <p>Your <code>Adjust app token</code> can be found on Adjust Dashboard -> Apps -> App Detail.</p>
+                <p><img class="img-responsive img-shadow" src="assets/img/adjust_app_token.png" alt="adjust_app_token.png"></p>
 
                 <h3 id="sscallbacks">Server to Server Callbacks</h3>
 
