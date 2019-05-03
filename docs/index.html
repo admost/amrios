@@ -545,7 +545,7 @@ fullScreen.delegate = self;
                 
                 <p><code>didDismissInterstitial</code> callback method is called to inform the application that the
                     interstitial is closed by clicking cross button/back button. You can use this callback to resume paused tasks during
-                    interstitial presentation. Called after didCompleteRewardedVideo delegate callback.</p>
+                    interstitial presentation.</p>
                 <pre><code class="language-objectivec">- (void)didDismissInterstitial:(AMRInterstitial *)interstitial {}</code></pre>
 
                 <h3 id="rewarded-video-ads">Rewarded Video Ads</h3>
@@ -619,7 +619,7 @@ NSLog(error.errorDescription);
 </code></pre>
 
 
-<p><code>didCompleteRewardedVideo</code> callback method is called to inform the application that the user finished watching the video and can be rewarded. Use this callback to reward the user.</p>
+<p><code>didCompleteRewardedVideo</code> callback method is called to inform the application that the user completed watching the video <b><u>to a certain point</u></b> to get the reward. The video may have finished or keep playing after <code>didCompleteRewardedVideo</code> is called. Use this callback to reward the user.</p>
 
 <pre><code class="language-objectivec">- (void)didCompleteRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
     [player reward];
@@ -627,7 +627,7 @@ NSLog(error.errorDescription);
 </code></pre>
                 <p><code>didDismissRewardedVideo</code> callback method is called to inform the application that the
                     rewarded video is closed by clicking cross button/back button. You can use this callback to resume paused tasks during
-                    rewarded video presentation.</p>
+                    rewarded video presentation. <b><u>Always called after didCompleteRewardedVideo delegate callback.</u></b></p>
                 <pre><code class="language-objectivec">- (void)didDismissRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
     [animation resume];
 }
