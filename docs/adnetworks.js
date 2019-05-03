@@ -18,6 +18,7 @@ var obj = JSON.parse(`
 {"name":"Mintegral","status":false,"pod":"AMRAdapterMintegral","version":"5.3"},
 {"name":"Mobfox","status":false,"pod":"AMRAdapterMobfox","version":"3.6"},
 {"name":"Mopub","status":false,"pod":"AMRAdapterMopub","version":"5.6"},
+{"name":"MyTarget","status":false,"pod":"AMRAdapterMytarget","version":"5.2"},
 {"name":"Nexage(AOL)","status":false,"pod":"AMRAdapterNexage","version":"6.8"},
 {"name":"Smaato","status":false,"pod":"AMRAdapterSmaato","version":"10.1"},
 {"name":"StartApp","status":false,"pod":"AMRAdapterStartapp","version":"3.11"},
