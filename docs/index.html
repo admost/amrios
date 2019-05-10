@@ -527,6 +527,11 @@ fullScreen.delegate = self;
                 <p>If <code>didFailToReceiveInterstitial</code> callback method is called investigate <code>error</code>
                     to adress the problem.
                 </p>
+                <p>
+                    <span class="label label-danger">Important</span> Attempting to load a new interstitial from the
+                    <code>didFailToReceiveInterstitial</code>
+                    methods is strongly discouraged.
+                </p>
 
                 <pre><code class="language-objectivec">- (void)didFailToReceiveInterstitial:(AMRInterstitial *)interstitial error:(AMRError *)error {
     NSLog(error.errorDescription);
@@ -543,10 +548,12 @@ fullScreen.delegate = self;
                 <pre><code class="language-objectivec">- (void)didFailToShowInterstitial:(AMRInterstitial *)interstitial error:(AMRError *)error {}
                 </code></pre>
                 
-                
                 <p><code>didDismissInterstitial</code> callback method is called to inform the application that the
                     interstitial is closed by clicking cross button/back button. You can use this callback to resume paused tasks during
                     interstitial presentation.</p>
+                <p>
+                    You can use <code>didDismissInterstitial</code> callback and reload a interstitial ad.
+                </p>
                 <pre><code class="language-objectivec">- (void)didDismissInterstitial:(AMRInterstitial *)interstitial {}</code></pre>
 
                 <h3 id="rewarded-video-ads">Rewarded Video Ads</h3>
@@ -601,7 +608,11 @@ rewardedVideo.delegate = self;
 <p>If <code>didFailToReceiveRewardedVideo</code> callback method is called investigate
     <code>error</code>
     to adress the problem.
-
+</p>
+<p>
+    <span class="label label-danger">Important</span> Attempting to load a new rewarded video from the
+    <code>didFailToReceiveRewardedVideo</code>
+    methods is strongly discouraged.
 </p>
 
 <pre><code class="language-objectivec">- (void)didFailToReceiveRewardedVideo:(AMRRewardedVideo *)rewardedVideo error:(AMRError *)error {
@@ -621,6 +632,11 @@ NSLog(error.errorDescription);
 
 
 <p><code>didCompleteRewardedVideo</code> callback method is called to inform the application that the user completed watching the video <b><u>to a certain point</u></b> to get the reward. The video may have finished or keep playing after <code>didCompleteRewardedVideo</code> is called. Use this callback to reward the user.</p>
+<p>
+    <span class="label label-danger">Important</span> Attempting to load a new rewarded video from the
+    <code>didCompleteRewardedVideo</code>
+    methods is strongly discouraged.
+</p>
 
 <pre><code class="language-objectivec">- (void)didCompleteRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
     [player reward];
@@ -629,6 +645,10 @@ NSLog(error.errorDescription);
                 <p><code>didDismissRewardedVideo</code> callback method is called to inform the application that the
                     rewarded video is closed by clicking cross button/back button. You can use this callback to resume paused tasks during
                     rewarded video presentation. <b><u>Always called after didCompleteRewardedVideo delegate callback.</u></b></p>
+        <p>
+            You can use <code>didDismissRewardedVideo</code> callback and reload a new rewarded video ad.
+        </p>
+
                 <pre><code class="language-objectivec">- (void)didDismissRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
     [animation resume];
 }
