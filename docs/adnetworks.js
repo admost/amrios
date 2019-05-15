@@ -2,7 +2,7 @@ var obj = JSON.parse(`
 {"ad_networks":
 [{"name":"AMR","status":true,"pod":"AMRSDK","version":"1.4"},
 {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"3.3"},
-{"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"7.42"},
+{"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"7.44"},
 {"name":"Admost","status":false,"pod":"AMRAdapterAdmost","version":"1.2"},
 {"name":"Adtiming","status":false,"pod":"AMRAdapterAdtiming","version":"3.4"},
 {"name":"Amazon","status":false,"pod":"AMRAdapterAmazon","version":"2.2"},
@@ -10,7 +10,7 @@ var obj = JSON.parse(`
 {"name":"Appnext","status":false,"pod":"AMRAdapterAppnext","version":"1.9"},
 {"name":"Appsamurai","status":false,"pod":"AMRAdapterAppsamurai","version":"1.1"},
 {"name":"Chartboost","status":false,"pod":"AMRAdapterChartboost","version":"7.3"},
-{"name":"DFP","status":false,"pod":"AMRAdapterDFP","version":"7.42"},
+{"name":"DFP","status":false,"pod":"AMRAdapterDFP","version":"7.44"},
 {"name":"Facebook","status":false,"pod":"AMRAdapterFacebook","version":"5.3"},
 {"name":"Fyber","status":false,"pod":"AMRAdapterFyber","version":"8.22"},
 {"name":"InMobi","status":false,"pod":"AMRAdapterInmobi","version":"7.2"},
