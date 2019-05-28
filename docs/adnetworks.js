@@ -14,6 +14,7 @@ var obj = JSON.parse(`
 {"name":"Facebook","status":false,"pod":"AMRAdapterFacebook","version":"5.3"},
 {"name":"Fyber","status":false,"pod":"AMRAdapterFyber","version":"8.22"},
 {"name":"InMobi","status":false,"pod":"AMRAdapterInmobi","version":"7.2"},
+{"name":"Inneractive","status":false,"pod":"AMRAdapterInneractive","version":"7.2"},
 {"name":"IronSource","status":false,"pod":"AMRAdapterIronsource","version":"6.8"},
 {"name":"Mintegral","status":false,"pod":"AMRAdapterMintegral","version":"5.3"},
 {"name":"Mobfox","status":false,"pod":"AMRAdapterMobfox","version":"3.6"},
@@ -24,7 +25,8 @@ var obj = JSON.parse(`
 {"name":"StartApp","status":false,"pod":"AMRAdapterStartapp","version":"3.11"},
 {"name":"Tapjoy","status":false,"pod":"AMRAdapterTapjoy","version":"12.2"},
 {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.0"},
-{"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.3"}]}`
+{"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.3"},
+{"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"4.4"}]}`
 );
 
 var htmlString = "";
