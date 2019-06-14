@@ -204,6 +204,14 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 
 
                 <h3 id="manual-installation">Manual Installation</h3>
+
+                <p>Make sure <code>$(PROJECT_DIR) recursive </code> is set in your target's <kbd>Framework Search
+                        Paths</kbd> in <kbd>Build Settings</kbd>.</p>
+                <p> Add <code>-ObjC</code> and <code>-lc++</code> flags in your target's <kbd>Other Linker Flags</kbd>
+                    in <kbd>Build Settings</kbd>.</p>
+
+                <br/>
+
                 <h4 id="amr-framework-files">AMR Framework Files</h4>
 
                 <p>Drag and drop following files in AMRDemo/AMR/Core folder to your project.</p>
@@ -303,11 +311,6 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                 </div>
 
                 <h4 id="xcode-setup">Xcode Setup</h4>
-
-                <p>Make sure <code>$(PROJECT_DIR) recursive </code> is set in your target's <kbd>Framework Search
-                    Paths</kbd> in <kbd>Build Settings</kbd>.</p>
-                <p> Add <code>-ObjC</code> and <code>-lc++</code> flags in your target's <kbd>Other Linker Flags</kbd>
-                    in <kbd>Build Settings</kbd>.</p>
                 <p> Add following lines to your <code>plist</code> file.</p>
 
                 <pre><code class="language-markup">&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
