@@ -21,9 +21,11 @@ var obj = JSON.parse(`
 {"name":"Mopub","status":false,"pod":"AMRAdapterMopub","version":"5.6"},
 {"name":"MyTarget","status":false,"pod":"AMRAdapterMytarget","version":"5.2"},
 {"name":"Nexage(AOL)","status":false,"pod":"AMRAdapterNexage","version":"6.8"},
+{"name":"Pollfish","status":false,"pod":"AMRAdapterPollfish","version":"5.0"},
 {"name":"Smaato","status":false,"pod":"AMRAdapterSmaato","version":"10.1"},
 {"name":"StartApp","status":false,"pod":"AMRAdapterStartapp","version":"3.11"},
 {"name":"Tapjoy","status":false,"pod":"AMRAdapterTapjoy","version":"12.2"},
+{"name":"TapResearch","status":false,"pod":"AMRAdapterTapresearch","version":"2.0"},
 {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.0"},
 {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.3"},
 {"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"4.4"}]}`
