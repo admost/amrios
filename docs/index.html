@@ -363,7 +363,8 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                     file;
                 </p>
 
-                <pre><code class="language-objectivec">#import &lt;AMRSDK/AMRSDK.h&gt;</code></pre>   
+                <pre><code class="language-objectivec">#import &lt;AMRSDK/AMRSDK.h&gt;</code></pre>
+                <pre><code class="language-swift">import AMRSDK</code></pre>
 
                 <p>and initialize AMRSDK with your Application Id in <code>didFinishLaunchingWithOptions</code>
                     callback;
@@ -375,11 +376,25 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     //GDPR COMPLIANCE
     [AMRSDK setUserConsent:YES];
-    [AMRSDK subjectToGDPR:YES];
+    [AMRSDK subjectToGDPR:NO];
 
     [AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];
 
     return YES;
+}
+                </code></pre>
+
+                <pre><code class="language-swift">
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:
+[UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+    //GDPR COMPLIANCE
+    AMRSDK.setUserConsent(true)
+    AMRSDK.subject(toGDPR: false)
+
+    AMRSDK.start(withAppId:&quot;&lt;appId&gt;&quot;)
+
+    return true
 }
                 </code></pre>
 
@@ -413,6 +428,17 @@ Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
 @end
                 </code></pre>
 
+                <pre><code class="language-swift">
+// ViewController
+
+import AMRSDK
+
+class ViewController : UIViewController, AMRBannerDelegate {
+
+var AMRBanner *mpuBanner!
+}
+                </code></pre>
+
                 <p>Initialize it with your Banner Zone Id and set it's
                     <code>delegate</code> to an object (generally your viewController) which conforms to <code>&lt;AMRBannerDelegate&gt;</code>
                     protocol.
@@ -425,6 +451,13 @@ mpuBanner = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
 mpuBanner.delegate = self;
                 </code></pre>
 
+                <pre><code class="language-swift">
+// ViewController
+
+mpuBanner = AMRBanner.init(forZoneId:&quot;&lt;zoneId&gt;&quot;)
+mpuBanner.delegate = self
+                </code></pre>
+
                 <p>For testing you can use following Banner Zone Id; </p>
 
                 <pre><code class="language-markup">
@@ -435,6 +468,7 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
                     Optionally you can set the width of the banner, default value is screen width.
                 </p>
                 <pre><code class="language-objectivec">mpuBanner.bannerWidth = 300;</code></pre>
+                <pre><code class="language-swift">mpuBanner.bannerWidth = 300</code></pre>
 
                 <p>Start loading banner with <code>loadBanner</code> method and wait for the
                     <code>&lt;AMRBannerDelegate&gt;</code> protocol callbacks.
@@ -442,13 +476,17 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
                 </p>
 
                 <pre><code class="language-objectivec">[mpuBanner loadBanner];</code></pre>
+                <pre><code class="language-swift">mpuBanner.load()</code></pre>
 
-                <p>There are 2 callback methods in <code>&lt;AMRBannerDelegate&gt;</code> protocol.
+                <p>There are 2 callback methods in <code>AMRBannerDelegate</code> protocol.
                     When <code>didReceiveBanner</code> callback method is called just add banner's
                     <code>bannerView</code> as a subview on your viewcontroller to show banner.</p>
 
                 <pre><code class="language-objectivec">- (void)didReceiveBanner:(AMRBanner *)banner {
     [self.view addSubview:banner.bannerView];
+}</code></pre>
+                <pre><code class="language-swift">func didReceive(_ banner: AMRBanner!) {
+    self.view.addSubview(banner.bannerView)
 }</code></pre>
 
                 <p>If <code>didFailToReceiveBanner</code> callback method is called investigate error to adress the
@@ -458,6 +496,9 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
 
                 <pre><code class="language-objectivec">- (void)didFailToReceiveBanner:(AMRBanner *)banner error:(AMRError *)error {
     NSLog(error.errorDescription);
+}</code></pre>
+                <pre><code class="language-swift">func didFail(toReceive banner: AMRBanner!, error: AMRError!) {
+    print(error.errorDescription)
 }</code></pre>
 
 
@@ -478,17 +519,25 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
   <p>To use your own custom native xibs you have set the name and size of the custom xib explicitly as follows; </p>
 
 	<pre><code class="language-objectivec">
-_bannerCustom200x200 = [AMRBanner bannerForZoneId:@"c72a4a52-23c5-4c34-9eb1-7bbc4c08c7e4"];
+_bannerCustom200x200 = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
 _bannerCustom200x200.delegate = self;
 _bannerCustom200x200.customNativeSize = CGSizeMake(200, 200);
 _bannerCustom200x200.customeNativeXibName = @"CustomNative200x200";
 [_bannerCustom200x200 loadBanner];		
 </code></pre>
 
+<pre><code class="language-swift">
+bannerCustom200x200 = AMRBanner.init(forZoneId:&quot;&lt;zoneId&gt;&quot;)
+bannerCustom200x200.delegate = self
+bannerCustom200x200.customNativeSize = CGSize(width: 200.0, height: 200.0)
+bannerCustom200x200.customeNativeXibName = "CustomNative200x200"
+bannerCustom200x200.load()
+</code></pre>
+
                 <h3 id="interstitial-ads">Interstitial Ads</h3>
 
-                <p>To create and show an interstitial ad first import <code>AMRSDK.h</code> to your <code>UIViewController</code>
-                    file and declare an <code>AMRInterstitial *fullScreen</code> property;
+                <p>To create and show an interstitial ad first import <code>AMRSDK</code> to your <code>UIViewController</code>
+                    file and declare an <code>AMRInterstitial</code> property;
                 </p>
 
                 <pre><code class="language-objectivec">
@@ -503,11 +552,23 @@ _bannerCustom200x200.customeNativeXibName = @"CustomNative200x200";
 @end
                 </code></pre>
 
+                <pre><code class="language-swift">
+// ViewController
+
+import AMRSDK
+
+class ViewController : UIViewController, AMRInterstitialDelegate {
+
+var fullScreen: AMRInterstitial!
+
+}
+                </code></pre>
+
                 <p>
                     Initialize it with your Interstitial Zone Id and
                     set it's
                     <code> delegate</code> to an object (generally your viewController) which conforms to
-                    <code>&lt;AMRInterstitialDelegate&gt;</code> protocol.
+                    <code>AMRInterstitialDelegate</code> protocol.
                 </p>
 
                 <pre><code class="language-objectivec">
@@ -518,18 +579,30 @@ fullScreen.delegate = self;
 [fullScreen loadInterstitial];
                 </code></pre>
 
+                <pre><code class="language-swift">
+// ViewController
+
+fullScreen = AMRInterstitial(forZoneId:"&lt;zoneId&gt;")
+fullScreen.delegate = self
+fullScreen.load()
+                </code></pre>
+
                 <p>For testing you can use following Interstitial Zone Id;</p>
 
                 <pre><code
                         class="language-markup">Interstitial Zone Id: @"39f74377-5682-436a-9338-9d1c4df410bd"
                 </code></pre>
 
-                <p>There are 5 callback methods in <code>&lt;AMRInterstitialDelegate&gt;</code> protocol.
+                <p>There are 5 callback methods in <code>AMRInterstitialDelegate</code> protocol.
                     When <code>didReceiveInterstitial</code> callback method is called just call the <code>showFromViewController</code>
                     method to present interstitial from a viewController.</p>
 
                 <pre><code class="language-objectivec">- (void)didReceiveInterstitial:(AMRInterstitial *)interstitial {
     [interstitial showFromViewController:self];
+}</code></pre>
+
+                <pre><code class="language-swift">func didReceive(_ interstitial: AMRInterstitial!) {
+    interstitial.show(from: self.navigationController)
 }</code></pre>
 
                 <p>If <code>didFailToReceiveInterstitial</code> callback method is called investigate <code>error</code>
@@ -545,8 +618,13 @@ fullScreen.delegate = self;
     NSLog(error.errorDescription);
 }</code></pre>
 
+                <pre><code class="language-swift">func didFail(toReceive interstitial: AMRInterstitial!, error: AMRError!) {
+    print(error.errorDescription)
+}</code></pre>
+
                 <p><code>didShowInterstitial</code> callback method is called to inform the application that the received interstital is shown.</p>
                 <pre><code class="language-objectivec">- (void)didShowInterstitial:(AMRInterstitial *)interstitial {}</code></pre>
+                <pre><code class="language-swift">func didShow(_ interstitial: AMRInterstitial!) {}</code></pre>
                 
                 
                 <p><code>didFailToShowInterstitial</code> callback method is called to inform the application that the received interstitial failed to be shown.
@@ -554,6 +632,8 @@ fullScreen.delegate = self;
                     </p>
                 
                 <pre><code class="language-objectivec">- (void)didFailToShowInterstitial:(AMRInterstitial *)interstitial error:(AMRError *)error {}
+                </code></pre>
+                <pre><code class="language-swift">func didFail(toShow interstitial: AMRInterstitial!, error: AMRError!) {}
                 </code></pre>
                 
                 <p><code>didDismissInterstitial</code> callback method is called to inform the application that the
@@ -563,12 +643,13 @@ fullScreen.delegate = self;
                     You can use <code>didDismissInterstitial</code> callback and reload a interstitial ad.
                 </p>
                 <pre><code class="language-objectivec">- (void)didDismissInterstitial:(AMRInterstitial *)interstitial {}</code></pre>
+                <pre><code class="language-swift">func didDismiss(_ interstitial: AMRInterstitial!) {}</code></pre>
 
                 <h3 id="rewarded-video-ads">Rewarded Video Ads</h3>
 
                 <p>Rewarded video ads' integration is pretty similar to Interstitial ads with 2 additional callbacks. To create and show a rewarded video ad
                     first import
-                    <code>AMRSDK.h</code> to your <code>UIViewController</code> file and declare an <code>AMRRewardedVideo *rewardedVideo</code> property;</p>
+                    <code>AMRSDK</code> to your <code>UIViewController</code> file and declare an <code>AMRRewardedVideo</code> property;</p>
 
                 <pre><code class="language-objectivec">
 // ViewController.h
@@ -582,12 +663,24 @@ fullScreen.delegate = self;
 @end
                 </code></pre>
 
+                <pre><code class="language-swift">
+// ViewController
+
+import AMRSDK
+
+class ViewController : UIViewController, AMRRewardedVideoDelegate {
+
+var rewardedVideo: AMRRewardedVideo!
+
+}
+                </code></pre>
+
                 <p>
                     Initialize it with your RewardedVideo Zone Id
                     and
                     set it's
                     <code> delegate</code> to an object (generally your viewController) which conforms to
-                    <code>&lt;AMRRewardedVideoDelegate&gt;</code> protocol.
+                    <code>AMRRewardedVideoDelegate</code> protocol.
                 </p>
 
                 <pre><code class="language-objectivec">
@@ -598,18 +691,31 @@ rewardedVideo.delegate = self;
 [rewardedVideo loadRewardedVideo];
                 </code></pre>
 
+                <pre><code class="language-swift">
+// ViewController
+
+rewardedVideo = AMRRewardedVideo(forZoneId: "&lt;zoneId&gt;")
+rewardedVideo.delegate = self
+rewardedVideo.load()
+                </code></pre>
+
                 <p>For testing you can use following RewardedVideo Zone Id;</p>
 
                 <pre><code
                         class="language-markup">RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
                 </code></pre>
 
-                <p>There are 6 callback methods in <code>&lt;AMRRewardedVideoDelegate&gt;</code> protocol.
+                <p>There are 6 callback methods in <code>AMRRewardedVideoDelegate</code> protocol.
                     <br/><br/>When <code>didReceiveRewardedVideo</code> callback method is called just call the <code>showFromViewController</code>
                     method to present rewarded video from a viewController.</p>
 
                 <pre><code class="language-objectivec">- (void)didReceiveRewardedVideo:(AMRRewardedVideo *)rewardedVideo {
     [rewardedVideo showFromViewController:self];
+}
+</code></pre>
+
+                <pre><code class="language-swift">func didReceive(_ rewardedVideo: AMRRewardedVideo!) {
+    rewardedVideo.show(from: self)
 }
 </code></pre>
 
@@ -624,18 +730,25 @@ rewardedVideo.delegate = self;
 </p>
 
 <pre><code class="language-objectivec">- (void)didFailToReceiveRewardedVideo:(AMRRewardedVideo *)rewardedVideo error:(AMRError *)error {
-NSLog(error.errorDescription);
+    NSLog(error.errorDescription);
+}</code></pre>
+
+<pre><code class="language-swift">func didFail(toReceive rewardedVideo: AMRRewardedVideo!, error: AMRError!) {
+    print(error.errorDescription);
 }</code></pre>
 
 <p><code>didShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video is shown.</p>
 
 <pre><code class="language-objectivec">- (void)didShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo {} </code></pre>
+<pre><code class="language-swift">func didShow(_ rewardedVideo: AMRRewardedVideo!) {} </code></pre>
 
 <p><code>didFailToShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video failed to be shown.
 	This delegate expected to be called very rarely but if it is called you should either load another rewarded video or resume tasks.
 	</p>
 
 <pre><code class="language-objectivec">- (void)didFailToShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo error:(AMRError *)error {}
+</code></pre>
+<pre><code class="language-swift">func didFail(toShow rewardedVideo: AMRRewardedVideo!, error: AMRError!) {}
 </code></pre>
 
 
@@ -650,6 +763,11 @@ NSLog(error.errorDescription);
     [player reward];
 }
 </code></pre>
+
+<pre><code class="language-swift">func didComplete(_ rewardedVideo: AMRRewardedVideo!) {
+    player.reward()
+}
+</code></pre>
                 <p><code>didDismissRewardedVideo</code> callback method is called to inform the application that the
                     rewarded video is closed by clicking cross button/back button. You can use this callback to resume paused tasks during
                     rewarded video presentation. <b><u>Always called after didCompleteRewardedVideo delegate callback.</u></b></p>
@@ -662,10 +780,15 @@ NSLog(error.errorDescription);
 }
 </code></pre>
 
+                <pre><code class="language-swift">func didDismiss(_ rewardedVideo: AMRRewardedVideo!) {
+    animation.resume()
+}
+</code></pre>
+
 <h3 id="offerwall-ads">Offerwall Ads</h3>
 
-                <p>To create and show an offerwall ad first import <code>AMRSDK.h</code> to your <code>UIViewController</code>
-                    file and declare an <code>AMROfferWall *fullScreen</code> property;
+                <p>To create and show an offerwall ad first import <code>AMRSDK</code> to your <code>UIViewController</code>
+                    file and declare an <code>AMROfferWall</code> property;
                 </p>
 
                 <pre><code class="language-objectivec">
@@ -680,11 +803,23 @@ NSLog(error.errorDescription);
 @end
                 </code></pre>
 
+                <pre><code class="language-swift">
+// ViewController
+
+import AMRSDK
+
+class ViewController : UIViewController, AMROfferWallDelegate {
+
+var fullScreen: AMROfferWall!
+
+}
+                </code></pre>
+
                 <p>
                     Initialize it with your Offerwall Zone Id and
                     set it's
                     <code> delegate</code> to an object (generally your viewController) which conforms to
-                    <code>&lt;AMROfferWallDelegate&gt;</code> protocol.
+                    <code>AMROfferWallDelegate</code> protocol.
                 </p>
 
                 <pre><code class="language-objectivec">
@@ -695,18 +830,29 @@ fullScreen.delegate = self;
 [fullScreen loadOfferWall];
                 </code></pre>
 
+                <pre><code class="language-swift">
+// ViewController
+
+offerWall = AMROfferWall(forZoneId: "&lt;zoneId&gt;")
+offerWall.delegate = self
+offerWall.load()
+                </code></pre>
+
                 <p>For testing you can use following Offerwall Zone Id;</p>
 
                 <pre><code
                         class="language-markup">Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                 </code></pre>
 
-                <p>There are 5 callback methods in <code>&lt;AMROfferWallDelegate&gt;</code> protocol.
+                <p>There are 5 callback methods in <code>AMROfferWallDelegate</code> protocol.
                     When <code>didReceiveOfferWall</code> callback method is called just call the <code>showFromViewController</code>
                     method to present offerwall from a viewController.</p>
 
                 <pre><code class="language-objectivec">- (void)didReceiveOfferWall:(AMROfferWall *)offerwall {
     [offerwall showFromViewController:self];
+}</code></pre>
+                <pre><code class="language-swift">func didReceive(_ offerwall: AMROfferWall!) {
+    offerWall.show(from: self)
 }</code></pre>
 
                 <p>If <code>didFailToReceiveOfferWall</code> callback method is called investigate <code>error</code>
@@ -716,9 +862,13 @@ fullScreen.delegate = self;
                 <pre><code class="language-objectivec">- (void)didFailToReceiveOfferWall:(AMROfferWall *)offerwall error:(AMRError *)error {
     NSLog(error.errorDescription);
 }</code></pre>
+                <pre><code class="language-swift">func didFail(toReceive offerwall: AMROfferWall!, error: AMRError!) {
+    print(error.errorDescription)
+}</code></pre>
 
                 <p><code>didShowOfferWall</code> callback method is called to inform the application that the received offerwall is presented.</p>
 <pre><code class="language-objectivec">- (void)didShowOfferWall:(AMROfferWall *)offerwall {} </code></pre>
+<pre><code class="language-swift">func didShow(_ offerwall: AMROfferWall!) {} </code></pre>
 
                 <p><code>didFailToShowOfferWall</code> callback method is called to inform the application that the received offerwall failed to be presented.
 	This delegate expected to be called very rarely but if it is called you should either load another offerwall or resume tasks.
@@ -726,20 +876,32 @@ fullScreen.delegate = self;
 
 <pre><code class="language-objectivec">- (void)didFailToShowOfferWall:(AMROfferWall *)offerwall error:(AMRError *)error {}
 </code></pre>
+
+<pre><code class="language-swift">func didFail(toShow offerwall: AMROfferWall!, error: AMRError!) {}
+</code></pre>
                 <p><code>didDismissOfferWall</code> callback method is called to inform the application that the
                     offerwall is no longer present. You can use this callback to resume paused tasks during
                     offerwall presentation.</p>
                 <pre><code class="language-objectivec">- (void)didDismissOfferWall:(AMROfferWall *)offerwall {} </code></pre>
+                <pre><code class="language-swift">func didDismiss(_ offerwall: AMROfferWall!) {} </code></pre>
 
 <h4 id="spend-virtual-currency">Spend Virtual Currency</h4>
-            <pre><code class="language-c">
-                // Spend Virtual Currency Callbacks - Optional
+            <pre><code class="language-objectivec">
+// Spend Virtual Currency Callbacks - Optional
 [AMRSDK setVirtualCurrencyDelegate:self];
 [AMRSDK spendVirtualCurrency];
                 
 - (void)didSpendVirtualCurrency:(NSString *)currency
                          amount:(NSNumber *)amount
                     networkName:(NSString *)networkName {}
+            </code></pre>
+
+            <pre><code class="language-swift">
+// Spend Virtual Currency Callbacks - Optional
+AMRSDK.setVirtualCurrencyDelegate(self)
+AMRSDK.spendVirtualCurrency()
+                
+func didSpendVirtualCurrency(_ currency: String!, amount: NSNumber!, networkName: String!) {}
             </code></pre>
                 <h2 id="extras">Extras</h2>
 
@@ -804,11 +966,19 @@ fullScreen.delegate = self;
                 </p>
 
                 <pre><code class="language-objectivec">
-[AMRSDK startTestSuiteWithAppId:&lt;appId&gt;];
+[AMRSDK startTestSuiteWithAppId:@"&lt;appId&gt;"];
+                </code></pre>
+
+                <pre><code class="language-swift">
+AMRSDK.startTestSuite(withAppId:"&lt;appId&gt;")
                 </code></pre>
 
                 <pre><code class="language-objectivec">
 [AMRSDK startTestSuiteWithZones:@[&lt;zoneIds&gt;]];
+                </code></pre>
+
+                <pre><code class="language-swift">
+AMRSDK.startTestSuite(withZones:[&lt;zoneIds&gt;]];
                 </code></pre>
 
                 <div class="row"> 
@@ -823,9 +993,17 @@ fullScreen.delegate = self;
 
 				<pre>
 <code class="language-objectivec">
-[AMRSDK trackPurchase:&lt;transactionId&gt;
-	     currencyCode:&lt;currencyCode&gt;
+[AMRSDK trackPurchase:@"&lt;transactionId&gt;"
+	     currencyCode:@"&lt;currencyCode&gt;"
                amount:&lt;amount&gt;];
+					</code>
+                </pre>
+                
+                <pre>
+<code class="language-swift">
+AMRSDK.trackPurchase("&lt;transactionId&gt;",
+        currencyCode:"&lt;currencyCode&gt;",
+              amount:&lt;amount&gt;)
 					</code>
 				</pre>
 
@@ -855,6 +1033,17 @@ NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
                     </code>
                 </pre>
 
+                <pre>
+<code class="language-swift">
+let product: SKProduct = ...;
+let currencyCode = product.priceLocale.currencyCode
+
+AMRSDK.trackPurchase(transaction.transactionIdentifier,
+        currencyCode:currencyCode,
+              amount:product.price)
+                    </code>
+                </pre>
+
                 <h3 id="bannercache">Preloading Banners</h3>
 
                 <p>
@@ -869,6 +1058,12 @@ banner.bannerWidth = 320;
 [banner cacheBanner];
                 </code></pre>
 
+                <pre><code class="language-swift">
+let banner = AMRBanner.init(forZoneId:&quot;&lt;zoneId&gt;&quot;)
+banner.bannerWidth = 320
+banner.cacheBanner()
+                </code></pre>
+
                 <h3 id="senduserid">Setting Application User Id </h3>
 
                 <p>
@@ -877,7 +1072,10 @@ banner.bannerWidth = 320;
 				
 				<pre><code class="language-objectivec">
 [AMRSDK setUserId:@&quot;&lt;applicationUserId&gt;&quot;];
+                </code></pre>
 
+                <pre><code class="language-swift">
+AMRSDK.setUserId(&quot;&lt;applicationUserId&gt;&quot;)
                 </code></pre>
 
                 <h3 id="sendadjustuserid">Setting Adjust User Id</h3>
@@ -888,7 +1086,10 @@ banner.bannerWidth = 320;
 				
 				<pre><code class="language-objectivec">
 [AMRSDK setAdjustUserId:@&quot;&lt;adjustUserId&gt;&quot;];
+                </code></pre>
 
+                <pre><code class="language-swift">
+AMRSDK.setAdjustUserId(&quot;&lt;adjustUserId&gt;&quot;)
                 </code></pre>
 
                 <h3 id="adjustintegration">Adjust Integration <span class="label label-teal">New</span></h3>
@@ -940,7 +1141,51 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     }
 }
                 </code></pre>
+
+                <pre><code class="language-swift">
+
+import AMRSDK
+import AdjustSdk
+
+class AppDelegate: UIResponder, UIApplicationDelegate, AdjustDelegate {
+
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:
+[UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+    
+    AMRSDK.start(withAppId:&quot;&lt;appId&gt;&quot;)
+    .
+    .
+    
+    // Adjust Integration
+    
+    // Replace &lt;yourAdjustAppToken&gt; with your Adjust app token.
+    let yourAppToken = &quot;&lt;yourAdjustAppToken&gt;&quot;
+
+    // Replace environment from ADJEnvironmentSandbox to ADJEnvironmentProduction before publishing.
+    let environment = ADJEnvironmentSandbox
+    
+    let adjustConfig = ADJConfig(appToken: yourAppToken, environment: environment)
+    adjustConfig?.delegate = self
+
+    Adjust.appDidLaunch(adjustConfig)
+    .
+    .
+
+    return true
+}
+
+//MARK: AdjustDelegate
+
+func adjustAttributionChanged(_ attribution: ADJAttribution?) {
+    // Send adid value to Admost
+    if let adid = attribution?.adid {
+        AMRSDK.setAdjustUserId(adid)
+    }
+}
+                </code></pre>
+
                 <p><img class="img-shadow img-responsive img-thumbnail center-block" src="assets/img/adjust_config.png" alt="shadowed image"></p>
+                <p><img class="img-shadow img-responsive img-thumbnail center-block" src="assets/img/adjust_config_swift.png"alt="shadowed image"></p>
                 <p>
                     <span class="label label-danger">Important</span>
                     Replace environment from <code>&lt;ADJEnvironmentSandbox&gt;</code> to <code>&lt;ADJEnvironmentProduction&gt;</code>
@@ -968,7 +1213,13 @@ rewardedVideo.customData = @{
                             @"ip": @"127.0.0.1",
                             @"os": @"12.0.1"
                             };
+                </code></pre>
 
+                <pre><code class="language-swift">
+rewardedVideo.customData = [
+                            "ip": "127.0.0.1",
+                            "os": "12.0.1"
+                            ]
                 </code></pre>
             </section>
         </article>
