@@ -2,7 +2,7 @@ var obj = JSON.parse(`
 {"ad_networks":
 [{"name":"AMR","status":true,"pod":"AMRSDK","version":"1.4"},
 {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"3.3"},
-{"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"7.44"},
+{"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"7.46"},
 {"name":"Admost","status":false,"pod":"AMRAdapterAdmost","version":"1.2"},
 {"name":"Adtiming","status":false,"pod":"AMRAdapterAdtiming","version":"3.5"},
 {"name":"Amazon","status":false,"pod":"AMRAdapterAmazon","version":"2.2"},
@@ -10,16 +10,16 @@ var obj = JSON.parse(`
 {"name":"Appnext","status":false,"pod":"AMRAdapterAppnext","version":"1.9"},
 {"name":"Appsamurai","status":false,"pod":"AMRAdapterAppsamurai","version":"1.3"},
 {"name":"Chartboost","status":false,"pod":"AMRAdapterChartboost","version":"7.5"},
-{"name":"DFP","status":false,"pod":"AMRAdapterDFP","version":"7.44"},
+{"name":"DFP","status":false,"pod":"AMRAdapterDFP","version":"7.46"},
 {"name":"Facebook","status":false,"pod":"AMRAdapterFacebook","version":"5.3"},
 {"name":"Fyber","status":false,"pod":"AMRAdapterFyber","version":"8.22"},
 {"name":"InMobi","status":false,"pod":"AMRAdapterInmobi","version":"7.2"},
 {"name":"Inneractive","status":false,"pod":"AMRAdapterInneractive","version":"7.2"},
 {"name":"IronSource","status":false,"pod":"AMRAdapterIronsource","version":"6.8"},
-{"name":"Mintegral","status":false,"pod":"AMRAdapterMintegral","version":"5.3"},
+{"name":"Mintegral","status":false,"pod":"AMRAdapterMintegral","version":"5.4"},
 {"name":"Mobfox","status":false,"pod":"AMRAdapterMobfox","version":"3.6"},
 {"name":"Mopub","status":false,"pod":"AMRAdapterMopub","version":"5.6"},
-{"name":"MyTarget","status":false,"pod":"AMRAdapterMytarget","version":"5.2"},
+{"name":"MyTarget","status":false,"pod":"AMRAdapterMytarget","version":"5.3"},
 {"name":"Nexage(AOL)","status":false,"pod":"AMRAdapterNexage","version":"6.8"},
 {"name":"Pollfish","status":false,"pod":"AMRAdapterPollfish","version":"5.0"},
 {"name":"Smaato","status":false,"pod":"AMRAdapterSmaato","version":"10.1"},
@@ -28,6 +28,7 @@ var obj = JSON.parse(`
 {"name":"TapResearch","status":false,"pod":"AMRAdapterTapresearch","version":"2.0"},
 {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.0"},
 {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.3"},
+{"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"2.12"},
 {"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"4.4"}]}`
 );
 
