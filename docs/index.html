@@ -420,6 +420,14 @@ Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
 
                 <h3 id="banner-ads">Banner Ads</h3>
 
+                <p>
+                    <span class="label label-danger">Important</span> 
+                    Default banner size changed from Fullscreen to 320px for 50px banner, 728px for 90px banner, 300px for 250px banner.</br>
+                    If you are using 320x90 banner, please contact with your account manager.</br>
+                </p>
+
+                <p>There are 3 types of banner size; 320x50, 728x90 and 300x250 banner.</br></br></p>
+
                 <p>To create and show a banner ad first import <code>AMRSDK.h</code> to your
                     <code>UIViewController</code> file and declare an <code>AMRBanner *mpuBanner</code> property;
                 </p>
@@ -472,10 +480,10 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
                 </code></pre>
 
                 <p>
-                    Optionally you can set the width of the banner, default value is screen width.
+                    Optionally you can set the width of the banner, default value is 320px for 50px banner, 728px for 90px banner, 300px for 250px banner.
                 </p>
-                <pre><code class="language-objectivec">mpuBanner.bannerWidth = 300;</code></pre>
-                <pre><code class="language-swift">mpuBanner.bannerWidth = 300</code></pre>
+                <pre><code class="language-objectivec">mpuBanner.bannerWidth = [UIScreen mainScreen].bounds.size.width;</code></pre>
+                <pre><code class="language-swift">mpuBanner.bannerWidth = UIScreen.main.bounds.size.width</code></pre>
 
                 <p>Start loading banner with <code>loadBanner</code> method and wait for the
                     <code>&lt;AMRBannerDelegate&gt;</code> protocol callbacks.
