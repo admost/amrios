@@ -131,8 +131,9 @@
                         <li><a href="#bannercache">Preloading Banners</a></li>
                         <li><a href="#senduserid">Setting Application User Id</a></li>
                         <li><a href="#sendadjustuserid">Setting Adjust User Id</a></li>
-                        <li><a href="#adjustintegration">Adjust Integration <span class="label label-teal">New</span></a></li>
-						<li><a href="#sscallbacks">Server to Server Callbacks</a></li>
+                        <li><a href="#adjustintegration">Adjust Integration </a></li>
+                        <li><a href="#sscallbacks">Server to Server Callbacks</a></li>
+                        <li><a href="#gdprcheck">GDPR Applicable Check <span class="label label-teal">New</span></a></li>
                     </ul>
                 </li>
             </ul>
@@ -493,7 +494,7 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
                 <pre><code class="language-objectivec">[mpuBanner loadBanner];</code></pre>
                 <pre><code class="language-swift">mpuBanner.load()</code></pre>
 
-                <p>There are 2 callback methods in <code>AMRBannerDelegate</code> protocol.
+                <p>There are 3 callback methods in <code>AMRBannerDelegate</code> protocol.
                     When <code>didReceiveBanner</code> callback method is called just add banner's
                     <code>bannerView</code> as a subview on your viewcontroller to show banner.</p>
 
@@ -514,6 +515,15 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
 }</code></pre>
                 <pre><code class="language-swift">func didFail(toReceive banner: AMRBanner!, error: AMRError!) {
     print(error.errorDescription)
+}</code></pre>
+
+                <p><span class="label label-teal">New</span> <code>didClickBanner</code> callback method is called when banner clicked.</p>
+
+                <pre><code class="language-objectivec">- (void)didClickBanner:(AMRBanner *)banner {
+    NSLog(@"Banner clicked.");
+}</code></pre>
+<pre><code class="language-swift">func didClick(_ banner: AMRBanner!) {
+    print("Banner clicked.")
 }</code></pre>
 
 
@@ -608,7 +618,7 @@ fullScreen.load()
                         class="language-markup">Interstitial Zone Id: @"39f74377-5682-436a-9338-9d1c4df410bd"
                 </code></pre>
 
-                <p>There are 5 callback methods in <code>AMRInterstitialDelegate</code> protocol.
+                <p>There are 6 callback methods in <code>AMRInterstitialDelegate</code> protocol.
                     When <code>didReceiveInterstitial</code> callback method is called just call the <code>showFromViewController</code>
                     method to present interstitial from a viewController.</p>
 
@@ -649,6 +659,13 @@ fullScreen.load()
                 <pre><code class="language-objectivec">- (void)didFailToShowInterstitial:(AMRInterstitial *)interstitial error:(AMRError *)error {}
                 </code></pre>
                 <pre><code class="language-swift">func didFail(toShow interstitial: AMRInterstitial!, error: AMRError!) {}
+                </code></pre>
+
+                <p><span class="label label-teal">New</span> <code>didClickInterstitial</code> callback method is called when interstital clicked.</p>
+                
+                <pre><code class="language-objectivec">- (void)didClickInterstitial:(AMRInterstitial *)interstitial {}
+                </code></pre>
+                <pre><code class="language-swift">func didClick(_ interstitial: AMRInterstitial!) {}
                 </code></pre>
                 
                 <p><code>didDismissInterstitial</code> callback method is called to inform the application that the
@@ -720,7 +737,7 @@ rewardedVideo.load()
                         class="language-markup">RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
                 </code></pre>
 
-                <p>There are 6 callback methods in <code>AMRRewardedVideoDelegate</code> protocol.
+                <p>There are 7 callback methods in <code>AMRRewardedVideoDelegate</code> protocol.
                     <br/><br/>When <code>didReceiveRewardedVideo</code> callback method is called just call the <code>showFromViewController</code>
                     method to present rewarded video from a viewController.</p>
 
@@ -764,6 +781,13 @@ rewardedVideo.load()
 <pre><code class="language-objectivec">- (void)didFailToShowRewardedVideo:(AMRRewardedVideo *)rewardedVideo error:(AMRError *)error {}
 </code></pre>
 <pre><code class="language-swift">func didFail(toShow rewardedVideo: AMRRewardedVideo!, error: AMRError!) {}
+</code></pre>
+
+<p><span class="label label-teal">New</span> <code>didClickRewardedVideo</code> callback method when rewarded video clicked.</p>
+
+<pre><code class="language-objectivec">- (void)didClickRewardedVideo:(AMRRewardedVideo *)rewardedVideo {}
+</code></pre>
+<pre><code class="language-swift">func didClick(_ rewardedVideo: AMRRewardedVideo!) {}
 </code></pre>
 
 
@@ -1248,6 +1272,21 @@ rewardedVideo.ssvServerKey = @"test_server";
                 <pre><code class="language-swift">
 rewardedVideo.ssvServerKey = "test_server"
                 </code></pre>
+
+                <h3 id="gdprcheck">GDPR Applicable Check</h3>
+
+                <p>
+                    You can optionally use isGDPRApplicable method to obtain the user is in a GDPR required country.
+                </p>
+
+				<pre><code class="language-objectivec">
+[AMRSDK isGDPRApplicable:^(BOOL isGDPRApplicable) {}];		
+                </code></pre>
+
+                <pre><code class="language-swift">
+AMRSDK.isGDPRApplicable { (isGDPRApplicable) in}		
+                </code></pre>
+
             </section>
         </article>
         <!-- END Main content -->
