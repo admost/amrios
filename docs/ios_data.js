@@ -1,4 +1,4 @@
-function getNetworksInfo() {
+function getIosNetworks() {
   return JSON.parse(`
   {"ad_networks":
   [{"name":"AMR","status":true,"pod":"AMRSDK","version":"1.4", "minTargetSdk":"8.0"},
