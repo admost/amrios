@@ -21,6 +21,8 @@
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="ios_data.js" type="text/javascript"></script>
+    <script src="adnetworks.js" type="text/javascript"></script>
 
     <!-- Favicons -->
     <link rel="icon" href="https://dashboard.admost.com/Assets/img/admostfavicon.png">
@@ -234,7 +236,7 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 
                 <div class="file-tree">
                     <ul>
-                        <li class="is-file">AddressBook.framework 
+                        <li class="is-file">AddressBook.framework
                         <li class="is-file">AdSupport.framework
                         <li class="is-file">AudioToolbox.framework
                         <li class="is-file">AVFoundation.framework
@@ -343,7 +345,7 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 
                 <div class="callout callout-danger" role="alert">
                    <h4></h4>
-                   <p><span class="label label-danger">Important</span> If you are using AppLovin you must add <code>AppLovin SDK Key</code> to your <code>plist</code> file with <code>AppLovinSdkKey</code> key as shown below. <br/>(Replace <code>XXXXXXXXXXXXXXX</code> with your own <code>AppLovin SDK Key</code>)	
+                   <p><span class="label label-danger">Important</span> If you are using AppLovin you must add <code>AppLovin SDK Key</code> to your <code>plist</code> file with <code>AppLovinSdkKey</code> key as shown below. <br/>(Replace <code>XXXXXXXXXXXXXXX</code> with your own <code>AppLovin SDK Key</code>)
 	</p>
 <pre><code class="language-markup">
 &lt;key&gt;AppLovinSdkKey&lt;/key&gt;
@@ -413,16 +415,16 @@ Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
                 </code></pre>
 
                 <h4 id="initgdpr">GDPR</h4>
-                <p> Once you have collected the user’s consent, you can pass it onto the SDK using the init configuration parameters shown above.  </p> 
+                <p> Once you have collected the user’s consent, you can pass it onto the SDK using the init configuration parameters shown above.  </p>
                  <p><code>setUserConsent</code> has a boolean parameter. If you have the user’s consent, set it YES. If you do not have the user's consent, set it NO.  </p>
-                 <p><code>subjectToGDPR</code> has a boolean parameter. If you know the user is subject to GDPR, set it YES. If you know the user is not subject to GDPR, set it NO. </p> 
+                 <p><code>subjectToGDPR</code> has a boolean parameter. If you know the user is subject to GDPR, set it YES. If you know the user is not subject to GDPR, set it NO. </p>
                 <p>If you don’t pass the user’s consent or subjectToGDPR to the SDK, the rules described in  <a href="gdpr.html#gdprrules">GDPR</a>  have been applied.  </p>
 
 
                 <h3 id="banner-ads">Banner Ads</h3>
 
                 <p>
-                    <span class="label label-danger">Important</span> 
+                    <span class="label label-danger">Important</span>
                     Default banner size changed from Fullscreen width to 320x50, 728x90 and 300x250.</br>
                     If you are using 320x90 banner, please contact with your account manager.</br>
                 </p>
@@ -548,7 +550,7 @@ _bannerCustom200x200 = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
 _bannerCustom200x200.delegate = self;
 _bannerCustom200x200.customNativeSize = CGSizeMake(200, 200);
 _bannerCustom200x200.customeNativeXibName = @"CustomNative200x200";
-[_bannerCustom200x200 loadBanner];		
+[_bannerCustom200x200 loadBanner];
 </code></pre>
 
 <pre><code class="language-swift">
@@ -650,24 +652,24 @@ fullScreen.load()
                 <p><code>didShowInterstitial</code> callback method is called to inform the application that the received interstital is shown.</p>
                 <pre><code class="language-objectivec">- (void)didShowInterstitial:(AMRInterstitial *)interstitial {}</code></pre>
                 <pre><code class="language-swift">func didShow(_ interstitial: AMRInterstitial!) {}</code></pre>
-                
-                
+
+
                 <p><code>didFailToShowInterstitial</code> callback method is called to inform the application that the received interstitial failed to be shown.
                     This delegate expected to be called very rarely but if it is called you should either load another interstitial or resume tasks.
                     </p>
-                
+
                 <pre><code class="language-objectivec">- (void)didFailToShowInterstitial:(AMRInterstitial *)interstitial error:(AMRError *)error {}
                 </code></pre>
                 <pre><code class="language-swift">func didFail(toShow interstitial: AMRInterstitial!, error: AMRError!) {}
                 </code></pre>
 
                 <p><span class="label label-teal">New</span> <code>didClickInterstitial</code> callback method is called when interstital clicked.</p>
-                
+
                 <pre><code class="language-objectivec">- (void)didClickInterstitial:(AMRInterstitial *)interstitial {}
                 </code></pre>
                 <pre><code class="language-swift">func didClick(_ interstitial: AMRInterstitial!) {}
                 </code></pre>
-                
+
                 <p><code>didDismissInterstitial</code> callback method is called to inform the application that the
                     interstitial is closed by clicking cross button/back button. You can use this callback to resume paused tasks during
                     interstitial presentation.</p>
@@ -929,7 +931,7 @@ offerWall.load()
 // Spend Virtual Currency Callbacks - Optional
 [AMRSDK setVirtualCurrencyDelegate:self];
 [AMRSDK spendVirtualCurrency];
-                
+
 - (void)didSpendVirtualCurrency:(NSString *)currency
                          amount:(NSNumber *)amount
                     networkName:(NSString *)networkName {}
@@ -939,7 +941,7 @@ offerWall.load()
 // Spend Virtual Currency Callbacks - Optional
 AMRSDK.setVirtualCurrencyDelegate(self)
 AMRSDK.spendVirtualCurrency()
-                
+
 func didSpendVirtualCurrency(_ currency: String!, amount: NSNumber!, networkName: String!) {}
             </code></pre>
                 <h2 id="extras">Extras</h2>
@@ -975,7 +977,7 @@ func didSpendVirtualCurrency(_ currency: String!, amount: NSNumber!, networkName
 
                 <pre><code class="language-markup">
 
-                $ pod install 
+                $ pod install
 
             </code></pre>
 
@@ -985,7 +987,7 @@ func didSpendVirtualCurrency(_ currency: String!, amount: NSNumber!, networkName
 
                 <p>Now you can show AMR banner and interstitial ads via DFP or AdMob Mediation.</p>
 
-                <p>You can check DFP banner and interstitial example in demo project; 
+                <p>You can check DFP banner and interstitial example in demo project;
                     AMRDemo/DFPCustomEvents/DFPCustomEventsViewController.m</p>
 
                 <h3 id="testsuite">Test Suite</h3>
@@ -1020,10 +1022,10 @@ AMRSDK.startTestSuite(withAppId:"&lt;appId&gt;")
 AMRSDK.startTestSuite(withZones:[&lt;zoneIds&gt;]];
                 </code></pre>
 
-                <div class="row"> 
+                <div class="row">
                 	<img class="img-responsive col-md-6" src="assets/img/ios_testsuite.png" alt="shadowed image">
                 </div>
-                
+
                 <h3 id="iap">In App Purchase Tracking</h3>
 
 				<p>
@@ -1037,7 +1039,7 @@ AMRSDK.startTestSuite(withZones:[&lt;zoneIds&gt;]];
                amount:&lt;amount&gt;];
 					</code>
                 </pre>
-                
+
                 <pre>
 <code class="language-swift">
 AMRSDK.trackPurchase("&lt;transactionId&gt;",
@@ -1108,7 +1110,7 @@ banner.cacheBanner()
                 <p>
                     You can use the following method to set application specific user id in Admost Analytics for enhanced tracking of your users. You should to call this method before initialization.
                 </p>
-				
+
 				<pre><code class="language-objectivec">
 [AMRSDK setUserId:@&quot;&lt;applicationUserId&gt;&quot;];
                 </code></pre>
@@ -1122,7 +1124,7 @@ AMRSDK.setUserId(&quot;&lt;applicationUserId&gt;&quot;)
                 <p>
                     You can use the following method to set Adjust user id in Admost Analytics for enhanced tracking of your users.
                 </p>
-				
+
 				<pre><code class="language-objectivec">
 [AMRSDK setAdjustUserId:@&quot;&lt;adjustUserId&gt;&quot;];
                 </code></pre>
@@ -1136,7 +1138,7 @@ AMRSDK.setAdjustUserId(&quot;&lt;adjustUserId&gt;&quot;)
                     Follow the official <a target="_blank" href="https://github.com/adjust/ios_sdk#basic-integration">ADJUST</a> documents to integrate
                 AdjustSDK in to your app.
                 </p>
-                
+
                 <pre><code class="language-objectivec">
 
 #import &lt;AMRSDK/AMRSDK.h&gt;
@@ -1146,22 +1148,22 @@ AMRSDK.setAdjustUserId(&quot;&lt;adjustUserId&gt;&quot;)
 
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    [AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];                       
+
+    [AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];
     .
     .
-    
+
     // Adjust Integration
-    
+
     // Replace &lt;yourAdjustAppToken&gt; with your Adjust app token.
     NSString *yourAppToken = @&quot;&lt;yourAdjustAppToken&gt;&quot;
 
     // Replace environment from ADJEnvironmentSandbox to ADJEnvironmentProduction before publishing.
     NSString *environment = ADJEnvironmentSandbox;
-    
+
     ADJConfig *adjustConfig = [ADJConfig configWithAppToken:yourAppToken
     environment:environment];
-    
+
     [adjustConfig setDelegate:self];
     [Adjust appDidLaunch:adjustConfig];
     .
@@ -1190,19 +1192,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AdjustDelegate {
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions:
 [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    
+
     AMRSDK.start(withAppId:&quot;&lt;appId&gt;&quot;)
     .
     .
-    
+
     // Adjust Integration
-    
+
     // Replace &lt;yourAdjustAppToken&gt; with your Adjust app token.
     let yourAppToken = &quot;&lt;yourAdjustAppToken&gt;&quot;
 
     // Replace environment from ADJEnvironmentSandbox to ADJEnvironmentProduction before publishing.
     let environment = ADJEnvironmentSandbox
-    
+
     let adjustConfig = ADJConfig(appToken: yourAppToken, environment: environment)
     adjustConfig?.delegate = self
 
@@ -1232,7 +1234,7 @@ func adjustAttributionChanged(_ attribution: ADJAttribution?) {
                 </p>
 
                 <p>
-                    <span class="label label-danger">Important</span> 
+                    <span class="label label-danger">Important</span>
                     Replace <code>&lt;yourAdjustAppToken&gt;</code> with your own Adjust app token. You can find this in your Adjust <a href="https://www.adjust.com/">dashboard.</a>
                 </p>
 
@@ -1242,11 +1244,11 @@ func adjustAttributionChanged(_ attribution: ADJAttribution?) {
                 <h3 id="sscallbacks">Server to Server Callbacks</h3>
 
                 <p>
-                    For rewarded video ads, you can use Server to Server Callbacks for rewarding users after successful completion of video ads. Please consult your business contact person for enabling it and setting required parameters like callback URL, request verification token and method. 
+                    For rewarded video ads, you can use Server to Server Callbacks for rewarding users after successful completion of video ads. Please consult your business contact person for enabling it and setting required parameters like callback URL, request verification token and method.
                     <br>
                     To use this feature, only requirement on application side is setting your application user id as described <a href="#senduserid">here</a>. You may also add new custom parameters to the callback URL by setting custom data to the rewarded video object <code>AMRRewardedVideo</code> as shown in the sample code below. This method has to be called before showing ad.
                 </p>
-				
+
 				<pre><code class="language-objectivec">
 rewardedVideo.customData = @{
                             @"ip": @"127.0.0.1",
@@ -1264,7 +1266,7 @@ rewardedVideo.customData = [
                 <p>
                     You may also set ssvServerKey parameter to decide SSV Server.
                 </p>
-				
+
 				<pre><code class="language-objectivec">
 rewardedVideo.ssvServerKey = @"test_server";
                 </code></pre>
@@ -1280,11 +1282,11 @@ rewardedVideo.ssvServerKey = "test_server"
                 </p>
 
 				<pre><code class="language-objectivec">
-[AMRSDK isGDPRApplicable:^(BOOL isGDPRApplicable) {}];		
+[AMRSDK isGDPRApplicable:^(BOOL isGDPRApplicable) {}];
                 </code></pre>
 
                 <pre><code class="language-swift">
-AMRSDK.isGDPRApplicable { (isGDPRApplicable) in}		
+AMRSDK.isGDPRApplicable { (isGDPRApplicable) in}
                 </code></pre>
 
             </section>
@@ -1329,7 +1331,10 @@ AMRSDK.isGDPRApplicable { (isGDPRApplicable) in}
 }
 </script>
 
-<script src="adnetworks.js" type="text/javascript"></script>
+<script>
+var data = getNetworksInfo();
+amrInitPage(data);
+</script>
 <script src="assets/js/theDocs.all.min.js"></script>
 <script src="assets/js/custom.js"></script>
 
