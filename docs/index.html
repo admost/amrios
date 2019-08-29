@@ -366,7 +366,21 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                         <h4></h4>
                         <p><span class="label label-danger">Important</span> If you are using Pollfish you must update and add Pollfish Policy to your privacy policy file.	</p>
                         <p><a href="https://www.pollfish.com/docs/ios" target="_blank">Pollfish Privacy Policy</a></p>
-                     </div>
+                </div>
+
+                <div class="callout callout-danger" role="alert">
+                        <h4></h4>
+                        <p><span class="label label-danger">Important</span> If you are using AdColony you need to add following code to your <code>plist</code> file.</p>
+                        <pre><code>
+&lt;key&gt;LSApplicationQueriesSchemes&lt;/key&gt;
+&lt;array&gt;
+    &lt;string&gt;fb&lt;/string&gt;
+    &lt;string&gt;instagram&lt;/string&gt;
+    &lt;string&gt;tumblr&lt;/string&gt;
+    &lt;string&gt;twitter&lt;/string&gt;
+&lt;/array&gt;
+                        </code></pre>
+                </div>
 
             </section>
 
