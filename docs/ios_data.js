@@ -28,8 +28,9 @@ function getIosNetworks() {
   {"name":"StartApp","status":false,"pod":"AMRAdapterStartapp","version":"3.11", "minTargetSdk":"8.0"},
   {"name":"Tapjoy","status":false,"pod":"AMRAdapterTapjoy","version":"12.3", "minTargetSdk":"8.0"},
   {"name":"TapResearch","status":false,"pod":"AMRAdapterTapresearch","version":"2.0", "minTargetSdk":"8.0"},
+  {"name":"TikTok","status":false,"pod":"AMRAdapterTiktok","version":"2.3", "minTargetSdk":"9.0"},
   {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.2", "minTargetSdk":"8.0"},
-  {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.3", "minTargetSdk":"8.0"},
+  {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.3", "minTargetSdk":"9.0"},
   {"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"2.13", "minTargetSdk":"8.0"},
   {"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"4.4", "minTargetSdk":"9.0"}]}`);
 }

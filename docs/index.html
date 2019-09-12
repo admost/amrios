@@ -210,7 +210,7 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 
                 <p>Make sure <code>$(PROJECT_DIR) recursive </code> is set in your target's <kbd>Framework Search
                         Paths</kbd> in <kbd>Build Settings</kbd>.</p>
-                <p> Add <code>-ObjC</code> and <code>-lc++</code> flags in your target's <kbd>Other Linker Flags</kbd>
+                <p> Add <code>-ObjC</code> , <code>-lc++</code> and <code>-all_load</code> flags in your target's <kbd>Other Linker Flags</kbd>
                     in <kbd>Build Settings</kbd>.</p>
 
                 <br/>
@@ -254,6 +254,7 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                             <li class="is-file">JavaScriptCore.framework
                             <li class="is-file">libc++
                             <li class="is-file">** libsqlite3.tbd
+                            <li class="is-file">** libresolv.9.tbd
                             <li class="is-file">** libxml2.tbd
                             <li class="is-file">** libz.tbd
                             <li class="is-file">* LocalAuthentication.framework
@@ -314,8 +315,9 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                                 <li class="is-folder">AMRAdapterStartapp
                                 <li class="is-folder">AMRAdapterTapjoy
                                 <li class="is-folder">AMRAdapterTapResearch
+                                <li class="is-folder">AMRAdapterTikTok
                                 <li class="is-folder">AMRAdapterUnity
-                                <li class="is-folder">AMRAdapterVungle
+                                <li class="is-folder">AMRAdapterVungle &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small>
                                 <li class="is-folder">AMRAdapterYandex
                                 <li class="is-folder">AMRAdapterYouappi &nbsp;&nbsp;<small>&nbsp;~ iOS9+</small>
                             </ul>
