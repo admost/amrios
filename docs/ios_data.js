@@ -18,7 +18,7 @@ function getIosNetworks() {
   {"name":"InMobi","status":false,"pod":"AMRAdapterInmobi","version":"7.3", "minTargetSdk":"9.0"},
   {"name":"Inneractive","status":false,"pod":"AMRAdapterInneractive","version":"7.3", "minTargetSdk":"8.0"},
   {"name":"IronSource","status":false,"pod":"AMRAdapterIronsource","version":"6.8", "minTargetSdk":"8.0"},
-  {"name":"Mintegral","status":false,"pod":"AMRAdapterMintegral","version":"5.5", "minTargetSdk":"8.0"},
+  {"name":"Mintegral","status":false,"pod":"AMRAdapterMintegral","version":"5.8", "minTargetSdk":"8.0"},
   {"name":"Mobfox","status":false,"pod":"AMRAdapterMobfox","version":"3.6", "minTargetSdk":"9.0"},
   {"name":"Mopub","status":false,"pod":"AMRAdapterMopub","version":"5.7", "minTargetSdk":"9.0"},
   {"name":"MyTarget","status":false,"pod":"AMRAdapterMytarget","version":"5.3", "minTargetSdk":"9.0"},
