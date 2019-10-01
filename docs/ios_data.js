@@ -2,7 +2,7 @@ function getIosNetworks() {
   return JSON.parse(`
   {"ad_networks":
   [{"name":"AMR","status":true,"pod":"AMRSDK","version":"1.4", "minTargetSdk":"8.0"},
-  {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"3.3", "minTargetSdk":"8.0"},
+  {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"4.1", "minTargetSdk":"8.0"},
   {"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"7.50", "minTargetSdk":"8.0"},
   {"name":"Admost","status":false,"pod":"AMRAdapterAdmost","version":"1.2", "minTargetSdk":"8.0"},
   {"name":"Adtiming","status":false,"pod":"AMRAdapterAdtiming","version":"3.6", "minTargetSdk":"9.0"},
@@ -20,7 +20,7 @@ function getIosNetworks() {
   {"name":"IronSource","status":false,"pod":"AMRAdapterIronsource","version":"6.8", "minTargetSdk":"8.0"},
   {"name":"Mintegral","status":false,"pod":"AMRAdapterMintegral","version":"5.8", "minTargetSdk":"8.0"},
   {"name":"Mobfox","status":false,"pod":"AMRAdapterMobfox","version":"3.6", "minTargetSdk":"9.0"},
-  {"name":"Mopub","status":false,"pod":"AMRAdapterMopub","version":"5.7", "minTargetSdk":"9.0"},
+  {"name":"Mopub","status":false,"pod":"AMRAdapterMopub","version":"5.9", "minTargetSdk":"9.0"},
   {"name":"MyTarget","status":false,"pod":"AMRAdapterMytarget","version":"5.3", "minTargetSdk":"9.0"},
   {"name":"Nexage(AOL)","status":false,"pod":"AMRAdapterNexage","version":"6.8", "minTargetSdk":"8.0"},
   {"name":"Qumpara","status":false,"pod":"AMRAdapterQumpara","version":"1.0", "minTargetSdk":"9.0"},
@@ -31,7 +31,7 @@ function getIosNetworks() {
   {"name":"TapResearch","status":false,"pod":"AMRAdapterTapresearch","version":"2.0", "minTargetSdk":"8.0"},
   {"name":"TikTok","status":false,"pod":"AMRAdapterTiktok","version":"2.3", "minTargetSdk":"9.0"},
   {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.2", "minTargetSdk":"8.0"},
-  {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.3", "minTargetSdk":"9.0"},
+  {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.4", "minTargetSdk":"9.0"},
   {"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"2.13", "minTargetSdk":"8.0"},
   {"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"4.4", "minTargetSdk":"9.0"}]}`);
 }
