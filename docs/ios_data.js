@@ -25,7 +25,7 @@ function getIosNetworks() {
   {"name":"Nexage(AOL)","status":false,"pod":"AMRAdapterNexage","version":"6.8", "minTargetSdk":"8.0"},
   {"name":"Qumpara","status":false,"pod":"AMRAdapterQumpara","version":"1.0", "minTargetSdk":"9.0"},
   {"name":"Pollfish","status":false,"pod":"AMRAdapterPollfish","version":"5.0", "minTargetSdk":"8.0"},
-  {"name":"Smaato","status":false,"pod":"AMRAdapterSmaato","version":"10.2", "minTargetSdk":"8.0"},
+  {"name":"Smaato","status":false,"pod":"AMRAdapterSmaato","version":"21.1", "minTargetSdk":"9.0"},
   {"name":"StartApp","status":false,"pod":"AMRAdapterStartapp","version":"3.11", "minTargetSdk":"8.0"},
   {"name":"Tapjoy","status":false,"pod":"AMRAdapterTapjoy","version":"12.3", "minTargetSdk":"8.0"},
   {"name":"TapResearch","status":false,"pod":"AMRAdapterTapresearch","version":"2.0", "minTargetSdk":"8.0"},
