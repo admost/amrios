@@ -9,7 +9,6 @@ function getIosNetworks() {
   {"name":"Amazon","status":false,"pod":"AMRAdapterAmazon","version":"2.2", "minTargetSdk":"8.0"},
   {"name":"AppLovin","status":false,"pod":"AMRAdapterApplovin","version":"6.9", "minTargetSdk":"9.0"},
   {"name":"Appnext","status":false,"pod":"AMRAdapterAppnext","version":"1.9", "minTargetSdk":"8.0"},
-  {"name":"Appsamurai","status":false,"pod":"AMRAdapterAppsamurai","version":"1.4", "minTargetSdk":"8.0"},
   {"name":"Chartboost","status":false,"pod":"AMRAdapterChartboost","version":"8.0", "minTargetSdk":"8.0"},
   {"name":"DFP","status":false,"pod":"AMRAdapterDFP","version":"7.50", "minTargetSdk":"8.0"},
   {"name":"Facebook","status":false,"pod":"AMRAdapterFacebook","version":"5.5", "minTargetSdk":"9.0"},
