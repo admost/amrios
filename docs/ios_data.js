@@ -2,7 +2,7 @@ function getIosNetworks() {
   return JSON.parse(`
   {"ad_networks":
   [{"name":"AMR","status":true,"pod":"AMRSDK","version":"1.4", "minTargetSdk":"8.0"},
-  {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"4.1", "minTargetSdk":"8.0"},
+  {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"4.1", "minTargetSdk":"9.0"},
   {"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"7.50", "minTargetSdk":"8.0"},
   {"name":"Admost","status":false,"pod":"AMRAdapterAdmost","version":"1.2", "minTargetSdk":"8.0"},
   {"name":"Adtiming","status":false,"pod":"AMRAdapterAdtiming","version":"3.6", "minTargetSdk":"9.0"},
