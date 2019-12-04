@@ -18,7 +18,7 @@ function getIosNetworks() {
   {"name":"HyprMx","status":false,"pod":"AMRAdapterHyprmx","version":"5.2", "minTargetSdk":"8.0"},
   {"name":"InMobi","status":false,"pod":"AMRAdapterInmobi","version":"7.3", "minTargetSdk":"9.0"},
   {"name":"Inneractive","status":false,"pod":"AMRAdapterInneractive","version":"7.3", "minTargetSdk":"8.0"},
-  {"name":"IronSource","status":false,"pod":"AMRAdapterIronsource","version":"6.10", "minTargetSdk":"8.0"},
+  {"name":"IronSource","status":false,"pod":"AMRAdapterIronsource","version":"6.11", "minTargetSdk":"8.0"},
   {"name":"Mintegral","status":false,"pod":"AMRAdapterMintegral","version":"5.8", "minTargetSdk":"8.0"},
   {"name":"Mobfox","status":false,"pod":"AMRAdapterMobfox","version":"4.0", "minTargetSdk":"9.0"},
   {"name":"Mopub","status":false,"pod":"AMRAdapterMopub","version":"5.9", "minTargetSdk":"9.0"},
@@ -34,5 +34,5 @@ function getIosNetworks() {
   {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.3", "minTargetSdk":"9.0"},
   {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.4", "minTargetSdk":"9.0"},
   {"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"2.13", "minTargetSdk":"8.0"},
-  {"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"4.4", "minTargetSdk":"9.0"}]}`);
+  {"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"5.0", "minTargetSdk":"9.0"}]}`);
 }
