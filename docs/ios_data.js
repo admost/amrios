@@ -13,7 +13,7 @@ function getIosNetworks() {
   {"name":"Chartboost","status":false,"pod":"AMRAdapterChartboost","version":"8.0", "minTargetSdk":"8.0"},
   {"name":"Criteo","status":false,"pod":"AMRAdapterCriteo","version":"3.2", "minTargetSdk":"8.0"},
   {"name":"DFP","status":false,"pod":"AMRAdapterDFP","version":"7.55", "minTargetSdk":"8.0"},
-  {"name":"Facebook","status":false,"pod":"AMRAdapterFacebook","version":"5.6", "minTargetSdk":"9.0"},
+  {"name":"Facebook","status":false,"pod":"AMRAdapterFacebook","version":"5.7", "minTargetSdk":"9.0"},
   {"name":"Fyber","status":false,"pod":"AMRAdapterFyber","version":"8.22", "minTargetSdk":"8.0"},
   {"name":"HyprMx","status":false,"pod":"AMRAdapterHyprmx","version":"5.2", "minTargetSdk":"8.0"},
   {"name":"InMobi","status":false,"pod":"AMRAdapterInmobi","version":"9.0", "minTargetSdk":"9.0"},
