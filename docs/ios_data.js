@@ -24,6 +24,7 @@ function getIosNetworks() {
   {"name":"Mopub","status":false,"pod":"AMRAdapterMopub","version":"5.9", "minTargetSdk":"9.0"},
   {"name":"MyTarget","status":false,"pod":"AMRAdapterMytarget","version":"5.4", "minTargetSdk":"9.0"},
   {"name":"Nexage(AOL)","status":false,"pod":"AMRAdapterNexage","version":"6.8", "minTargetSdk":"8.0"},
+  {"name":"Ogury","status":false,"pod":"AMRAdapterOgury","version":"1.0", "minTargetSdk":"9.0"},
   {"name":"Qumpara","status":false,"pod":"AMRAdapterQumpara","version":"1.1", "minTargetSdk":"9.0"},
   {"name":"Pollfish","status":false,"pod":"AMRAdapterPollfish","version":"5.0", "minTargetSdk":"8.0"},
   {"name":"Smaato","status":false,"pod":"AMRAdapterSmaato","version":"21.1", "minTargetSdk":"9.0"},
