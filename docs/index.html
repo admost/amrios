@@ -113,6 +113,7 @@
                     <ul>
                         <li><a href="#initialization">Initialization</a></li>
                             <ul style="display: block;">
+                                <li><a href="#initcoppa">COPPA</a></li>
                                 <li><a href="#initgdpr">GDPR</a></li>
                             </ul>
                         <li><a href="#banner-ads">Banner Ads</a></li>
@@ -441,6 +442,13 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
                 </code></pre>
 
+                <p>For testing you can use following Application Id;</p>
+
+                <pre><code class="language-markup">
+Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
+                </code></pre>
+
+                <h4 id="initcoppa">COPPA</h4>
                 <p> You can use following method, if you want to show age-restricted ads;</p>
 
                 <pre><code class="language-objectivec">
@@ -451,11 +459,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
                     AMRSDK.setUserChild(true)   
                 </code></pre>
 
-                <p>For testing you can use following Application Id;</p>
-
-                <pre><code class="language-markup">
-Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
-                </code></pre>
+                <p><a href="faq.html#coppa">Network list supporting COPPA</a></p>
 
                 <h4 id="initgdpr">GDPR</h4>
                 <p> Once you have collected the user’s consent, you can pass it onto the SDK using the init configuration parameters shown above.  </p>
