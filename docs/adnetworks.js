@@ -58,12 +58,11 @@ function fillAdNetworkList() {
 
 
 function fillPodFileCode() {
-
     $('#file-pod').html("source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'8.0\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'"+obj.ad_networks[0].pod+"\', \'~&gt; "+ obj.ad_networks[0].version+"\'\r\n#mediation adapters\n");
 
     for (var i = 1; i < obj.ad_networks.length; i++) {
-        if (obj.ad_networks[i].pod && obj.ad_networks[i].status == true) {
-                $('#file-pod').append("pod \'"+ obj.ad_networks[i].pod+"\', \'~&gt; "+obj.ad_networks[i].version +"\'\r\n");
+        if (obj.ad_networks[i].pod && obj.ad_networks[i].status == true && document.getElementById("file-pod").innerHTML.indexOf(obj.ad_networks[i].pod) == -1) {
+          $('#file-pod').append("pod \'"+ obj.ad_networks[i].pod+"\', \'~&gt; "+obj.ad_networks[i].version +"\'\r\n");
         }
     }
 

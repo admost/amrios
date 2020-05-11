@@ -274,7 +274,7 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                     </ul>
                     <p>
                         <br/>
-                        *  Can be marked Weak for compatibility with older version of iOS 
+                        *  Can be marked Weak for compatibility with older version of iOS
                         <br/>
                         ** It's libz.dylib below Xcode7
                     </p>
@@ -456,7 +456,7 @@ Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
                 </code></pre>
 
                 <pre><code class="language-swift">
-                    AMRSDK.setUserChild(true)   
+                    AMRSDK.setUserChild(true)
                 </code></pre>
 
                 <p><a href="faq.html#coppa">Network list supporting COPPA</a></p>
@@ -726,6 +726,18 @@ fullScreen.load()
                 <pre><code class="language-objectivec">- (void)didDismissInterstitial:(AMRInterstitial *)interstitial {}</code></pre>
                 <pre><code class="language-swift">func didDismiss(_ interstitial: AMRInterstitial!) {}</code></pre>
 
+                <p>
+                    You can use <code>showFromViewController:</code> method to present interstitial from a viewController.
+                </p>
+                <pre><code class="language-objectivec">[interstitial showFromViewController:self];</code></pre>
+                <pre><code class="language-swift">interstitial.show(from: self)</code></pre>
+
+                <p>
+                  You can use tag functionality for interstitial zones. Tags will let you monitor the performance of the ads across different dimensions for the same zone. You can switch ads on and off for any specified tag whenever you want. Example usage is as follows;
+                </p>
+                <pre><code class="language-objectivec">[interstitial showFromViewController:self withTag:@"game_start"];</code></pre>
+                <pre><code class="language-swift">interstitial.show(from: self, withTag: "game_start")</code></pre>
+
                 <h3 id="rewarded-video-ads">Rewarded Video Ads</h3>
 
                 <p>Rewarded video ads' integration is pretty similar to Interstitial ads with 2 additional callbacks. To create and show a rewarded video ad
@@ -872,6 +884,18 @@ rewardedVideo.load()
     animation.resume()
 }
 </code></pre>
+
+<p>
+    You can use <code>showFromViewController:</code> method to present rewarded video from a viewController.
+</p>
+<pre><code class="language-objectivec">[rewardedVideo showFromViewController:self];</code></pre>
+<pre><code class="language-swift">rewardedVideo.show(from: self)</code></pre>
+
+<p>
+  You can use tag functionality for rewarded video zones. Tags will let you monitor the performance of the ads across different dimensions for the same zone. You can switch ads on and off for any specified tag whenever you want. Example usage is as follows;
+</p>
+<pre><code class="language-objectivec">[rewardedVideo showFromViewController:self withTag:@"game_start"];</code></pre>
+<pre><code class="language-swift">rewardedVideo.show(from: self, withTag: "game_start")</code></pre>
 
 <h3 id="offerwall-ads">Offerwall Ads</h3>
 
