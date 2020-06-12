@@ -133,8 +133,8 @@
                         <li><a href="#iap">In App Purchase Tracking</a></li>
                         <li><a href="#bannercache">Preloading Banners</a></li>
                         <li><a href="#senduserid">Setting Application User Id</a></li>
-                        <li><a href="#sendadjustuserid">Setting Adjust User Id</a></li>
                         <li><a href="#adjustintegration">Adjust Integration </a></li>
+                        <li><a href="#appsflyerintegration">AppsFlyer Integration <span class="label label-teal">New</span></a></li>
                         <li><a href="#sscallbacks">Server to Server Callbacks</a></li>
                         <li><a href="#gdprcheck">GDPR Applicable Check <span class="label label-teal">New</span></a></li>
                     </ul>
@@ -337,9 +337,17 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 
                 <pre><code class="language-markup">&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
 &lt;dict&gt;
-  &lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
-  &lt;true/&gt;
-&lt;/dict&gt;</code></pre>
+    &lt;key&gt;NSExceptionDomains&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;admost.com&lt;/key&gt;
+        &lt;dict&gt;
+            &lt;key&gt;NSExceptionAllowsInsecureHTTPLoads&lt;/key&gt;
+            &lt;true/&gt;
+            &lt;key&gt;NSIncludesSubdomains&lt;/key&gt;
+            &lt;true/&gt;
+        &lt;/dict&gt;
+    &lt;/dict&gt;
+&lt;/dict&gt;</code></pre>               
 
                 <pre><code class="language-markup">&lt;key&gt;NSCalendarsUsageDescription&lt;/key&gt;
 &lt;string&gt;Some ad content may access calendar&lt;/string&gt;</code></pre>
@@ -1190,21 +1198,7 @@ banner.cacheBanner()
 AMRSDK.setUserId(&quot;&lt;applicationUserId&gt;&quot;)
                 </code></pre>
 
-                <h3 id="sendadjustuserid">Setting Adjust User Id</h3>
-
-                <p>
-                    You can use the following method to set Adjust user id in Admost Analytics for enhanced tracking of your users.
-                </p>
-
-				<pre><code class="language-objectivec">
-[AMRSDK setAdjustUserId:@&quot;&lt;adjustUserId&gt;&quot;];
-                </code></pre>
-
-                <pre><code class="language-swift">
-AMRSDK.setAdjustUserId(&quot;&lt;adjustUserId&gt;&quot;)
-                </code></pre>
-
-                <h3 id="adjustintegration">Adjust Integration <span class="label label-teal">New</span></h3>
+                <h3 id="adjustintegration">Adjust Integration</h3>
                 <p>
                     Follow the official <a target="_blank" href="https://github.com/adjust/ios_sdk#basic-integration">ADJUST</a> documents to integrate
                 AdjustSDK in to your app.
@@ -1242,16 +1236,6 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     return YES;
 }
-
-#pragma mark - &lt;AdjustDelegate&gt;
-
-- (void)adjustAttributionChanged:(ADJAttribution *)attribution {
-
-    // Send adid value to Admost
-    if (attribution && attribution.adid.length) {
-        [AMRSDK setAdjustUserId:attribution.adid];
-    }
-}
                 </code></pre>
 
                 <pre><code class="language-swift">
@@ -1285,19 +1269,8 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
     return true
 }
-
-//MARK: AdjustDelegate
-
-func adjustAttributionChanged(_ attribution: ADJAttribution?) {
-    // Send adid value to Admost
-    if let adid = attribution?.adid {
-        AMRSDK.setAdjustUserId(adid)
-    }
-}
                 </code></pre>
 
-                <p><img class="img-shadow img-responsive img-thumbnail center-block" src="assets/img/adjust_config.png" alt="shadowed image"></p>
-                <p><img class="img-shadow img-responsive img-thumbnail center-block" src="assets/img/adjust_config_swift.png" alt="shadowed image"> </p>
                 <p>
                     <span class="label label-danger">Important</span>
                     Replace environment from <code>&lt;ADJEnvironmentSandbox&gt;</code> to <code>&lt;ADJEnvironmentProduction&gt;</code>
@@ -1311,6 +1284,12 @@ func adjustAttributionChanged(_ attribution: ADJAttribution?) {
 
                 <p>Your <code>Adjust app token</code> can be found on Adjust Dashboard -&gt; Apps -&gt; App Detail.</p>
                 <p><img class="img-responsive img-shadow" src="assets/img/adjust_app_token.png" alt="adjust_app_token.png"></p>
+
+                <h3 id="appsflyerintegration">AppsFlyer Integration <span class="label label-teal">New</span></h3>
+                <p>
+                    Follow the official <a target="_blank" href="https://support.appsflyer.com/hc/en-us/articles/207032066-iOS-SDK-integration-for-developers#introduction">APPSFLYER</a> documents to integrate
+                AppsFlyerSDK in to your app.
+                </p>
 
                 <h3 id="sscallbacks">Server to Server Callbacks</h3>
 
