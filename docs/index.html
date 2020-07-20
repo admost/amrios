@@ -136,7 +136,7 @@
                         <li><a href="#adjustintegration">Adjust Integration </a></li>
                         <li><a href="#appsflyerintegration">AppsFlyer Integration <span class="label label-teal">New</span></a></li>
                         <li><a href="#sscallbacks">Server to Server Callbacks</a></li>
-                        <li><a href="#gdprcheck">GDPR Applicable Check <span class="label label-teal">New</span></a></li>
+                        <li><a href="#privacycheck">Privacy Consent Required <span class="label label-teal">New</span></a></li>
                     </ul>
                 </li>
             </ul>
@@ -1325,18 +1325,18 @@ rewardedVideo.ssvServerKey = @"test_server";
 rewardedVideo.ssvServerKey = "test_server"
                 </code></pre>
 
-                <h3 id="gdprcheck">GDPR Applicable Check</h3>
+                <h3 id="privacycheck">Privacy Consent Required <span class="label label-teal">New</span></h3>
 
                 <p>
-                    You can optionally use isGDPRApplicable method to obtain the user is in a GDPR required country.
+                    You can optionally use isPrivacyConsentRequired method to obtain the user is in a GDPR or CCPA required country.
                 </p>
 
 				<pre><code class="language-objectivec">
-[AMRSDK isGDPRApplicable:^(BOOL isGDPRApplicable) {}];
+[AMRSDK isPrivacyConsentRequired:^(AMRPrivacyConsentStatus consentStatus) {}];
                 </code></pre>
 
                 <pre><code class="language-swift">
-AMRSDK.isGDPRApplicable { (isGDPRApplicable) in}
+AMRSDK.isPrivacyConsentRequired { (consentStatus) in}
                 </code></pre>
 
             </section>
