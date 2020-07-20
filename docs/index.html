@@ -56,7 +56,7 @@
             <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="index.html">Documentation</a></li>
-                    <li><a href="gdpr.html">GDPR</a></li>
+                    <li><a target="_blank" href="https://admost.github.io/privacy.html">Privacy Compliance</a></li>
                     <li><a href="release-notes.html">Release Notes</a></li>
                     <li><a href="faq.html">FAQ</a></li>
                     <li>
@@ -114,7 +114,7 @@
                         <li><a href="#initialization">Initialization</a></li>
                             <ul style="display: block;">
                                 <li><a href="#initcoppa">COPPA</a></li>
-                                <li><a href="#initgdpr">GDPR</a></li>
+                                <li><a href="#initgdpr">GDPR and CCPA</a></li>
                             </ul>
                         <li><a href="#banner-ads">Banner Ads</a></li>
                         <li><a href="#native-ads">Customize Native Ad Appearance (Optional)</a></li>
@@ -426,9 +426,10 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    //GDPR COMPLIANCE
+    //Privacy COMPLIANCE
     [AMRSDK setUserConsent:YES];
     [AMRSDK subjectToGDPR:NO];
+    [AMRSDK subjectToCCPA:NO];
 
     [AMRSDK startWithAppId:@&quot;&lt;appId&gt;&quot;];
 
@@ -443,6 +444,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     //GDPR COMPLIANCE
     AMRSDK.setUserConsent(true)
     AMRSDK.subject(toGDPR: false)
+    AMRSDK.subject(toCCPA: false)
 
     AMRSDK.start(withAppId:&quot;&lt;appId&gt;&quot;)
 
@@ -467,13 +469,13 @@ Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
                     AMRSDK.setUserChild(true)
                 </code></pre>
 
-                <p><a href="faq.html#coppa">Network list supporting COPPA</a></p>
-
-                <h4 id="initgdpr">GDPR</h4>
+                <h4 id="initgdpr">GDPR and CCPA</h4>
                 <p> Once you have collected the user’s consent, you can pass it onto the SDK using the init configuration parameters shown above.  </p>
                  <p><code>setUserConsent</code> has a boolean parameter. If you have the user’s consent, set it YES. If you do not have the user's consent, set it NO.  </p>
                  <p><code>subjectToGDPR</code> has a boolean parameter. If you know the user is subject to GDPR, set it YES. If you know the user is not subject to GDPR, set it NO. </p>
-                <p>If you don’t pass the user’s consent or subjectToGDPR to the SDK, the rules described in  <a href="gdpr.html#gdprrules">GDPR</a>  have been applied.  </p>
+                 <p><code>subjectToCCPA</code> has a boolean parameter. If you know the user is subject to CCPA, set it YES. If you know the user is not subject to CCPA, set it NO. </p>
+                <p>If you don’t pass the user’s consent or subjectToGDPR to the SDK, the rules described in  <a target="_blank" href="https://admost.github.io/privacy.html#gdprrules">GDPR</a>  have been applied.  </p>
+                <p>If you don’t pass the user’s consent or subjectToCCPA to the SDK, the rules described in  <a target="_blank" href="https://admost.github.io/privacy.html#ccparules">CCPA</a>  have been applied.  </p>
 
 
                 <h3 id="banner-ads">Banner Ads</h3>
