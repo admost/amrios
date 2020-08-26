@@ -106,6 +106,7 @@
                             </ul>
                         </li>
                         <li><a href="#xcode-setup">Xcode Setup</a></li>
+                        <li><a href="#ios14">iOS14 <span class="label label-teal">New</span></a> </li>
                     </ul>
                 </li>
                 <li>
@@ -403,10 +404,45 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                         </code></pre>
                 </div>
 
-            </section>
+                <h5 id="ios14"><span class="label label-teal">New</span> iOS 14</h5>
+                    <p>Starting with iOS 14, apps will be required to ask users for permission to access IDFA. In order to ask for this permission and display the App Tracking Transparency authorization request for accessing the IDFA, you will need to add <code>NSUserTrackingUsageDescription</code> key to <code>Info.plist</code> file.</p>
+                    <pre>
+<code class="language-markup">
+&lt;key&gt;NSUserTrackingUsageDescription&lt;/key&gt;
+&lt;string&gt;Your awesome message to encourage user to give permission to access IDFA&lt;/string&gt;
+</code>
+                    </pre>
+					
+                    <p>To present the authorization request, call <code>requestTrackingAuthorizationWithCompletionHandler:</code></p>
 
-            <section>
+                    <pre><code class="language-objectivec">
+#import &lt;AppTrackingTransparency/AppTrackingTransparency.h&gt;
+#import &lt;AdSupport/AdSupport.h&gt;
 
+...
+
+[ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
+    // Tracking authorization completed.
+}];
+                    </code></pre>
+                        
+                    <pre><code class="language-swift">
+import AppTrackingTransparency
+import AdSupport
+...
+
+ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
+    // Tracking authorization completed.
+})
+                    </code></pre>
+					
+                    <p>User is prompted with following popup after <code>requestTrackingAuthorizationWithCompletionHandler</code> call.
+						
+									 <p><center><img class="img-responsive" src="assets/img/att-iOS.png" alt="att-iOS.png"></center></p>
+					
+				                    <p>Please see <code><a href="https://developer.apple.com/documentation/apptrackingtransparency/attrackingmanager/authorizationstatus" target="_blank">ATTrackingManager.AuthorizationStatus</a></code> for possible return values.
+									</p>
+									<!-- </section> <section> -->
                 <h2 id="usage">Usage</h2>
 
                 <h3 id="initialization">Initialization</h3>
