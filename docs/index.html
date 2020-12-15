@@ -135,9 +135,10 @@
                         <li><a href="#bannercache">Preloading Banners</a></li>
                         <li><a href="#senduserid">Setting Application User Id</a></li>
                         <li><a href="#adjustintegration">Adjust Integration </a></li>
-                        <li><a href="#appsflyerintegration">AppsFlyer Integration <span class="label label-teal">New</span></a></li>
-                        <li><a href="#sscallbacks">Server to Server Callbacks</a></li>
-                        <li><a href="#privacycheck">Privacy Consent Required <span class="label label-teal">New</span></a></li>
+                        <li><a href="#appsflyerintegration">AppsFlyer Integration </a></li>
+                        <li><a href="#sscallbacks">Server to Server Callbacks</a> </li>
+                        <li><a href="#privacycheck">Privacy Consent Required </a></li>
+                        <li><a href="#appprivacy">Apple App Privacy <span class="label label-teal">New</span></a></li>
                     </ul>
                 </li>
             </ul>
@@ -1323,7 +1324,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
                 <p>Your <code>Adjust app token</code> can be found on Adjust Dashboard -&gt; Apps -&gt; App Detail.</p>
                 <p><img class="img-responsive img-shadow" src="assets/img/adjust_app_token.png" alt="adjust_app_token.png"></p>
 
-                <h3 id="appsflyerintegration">AppsFlyer Integration <span class="label label-teal">New</span></h3>
+                <h3 id="appsflyerintegration">AppsFlyer Integration </h3>
                 <p>
                     Follow the official <a target="_blank" href="https://support.appsflyer.com/hc/en-us/articles/207032066-iOS-SDK-integration-for-developers#introduction">APPSFLYER</a> documents to integrate
                 AppsFlyerSDK in to your app.
@@ -1363,7 +1364,7 @@ rewardedVideo.ssvServerKey = @"test_server";
 rewardedVideo.ssvServerKey = "test_server"
                 </code></pre>
 
-                <h3 id="privacycheck">Privacy Consent Required <span class="label label-teal">New</span></h3>
+                <h3 id="privacycheck">Privacy Consent Required </h3>
 
                 <p>
                     You can optionally use isPrivacyConsentRequired method to obtain the user is in a GDPR or CCPA required country.
@@ -1376,6 +1377,25 @@ rewardedVideo.ssvServerKey = "test_server"
                 <pre><code class="language-swift">
 AMRSDK.isPrivacyConsentRequired { (consentStatus) in}
                 </code></pre>
+
+                <h3 id="appprivacy">Apple App Privacy </h3>
+
+                <p>                
+Starting December 8, 2020, Apple has announced a privacy disclosure for the App Store, You must define which data are collected by your apps and any SDKs you have integrated. To improve the performance of AdMost, the AMRSDK SDK may collect following information from your apps:
+                </p>
+
+                <ul>
+                    <li><b>User ID</b> – If you are using <code>setUserId</code> method to identify users with your custom app user ID, you will need to select 'User ID'
+                    </li>
+                    <li><b>Purchases</b> – If you are using in app purchase trackings methods, you will need to select 'Purchases'
+                    </li>
+                    <li><b>Coarse Location</b> – To estimate the general location of a device
+                    </li>
+                    <li><b>Product Interaction</b> – Analytics purposes
+                    </li>
+                    <li><b>Advertising Data</b> – Analytics purposes
+                    </li>
+                </ul>
 
             </section>
         </article>
