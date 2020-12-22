@@ -1,10 +1,12 @@
 var obj;
+var obj14;
 var htmlString = "";
 var htmlPodFile = "";
 var arrayAppGradlePackages = [];
 
-function amrInitPage(adNetworkJson) {
+function amrInitPage(adNetworkJson, ios14json) {
   obj = adNetworkJson;
+  obj14 = ios14json;
   fillAdNetworkList(obj);
   htmlPodFile = "source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'8.0\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'AMRSDK\', \'~&gt; 1.2\'\r\n#mediation adapters\n";
   fillPodFileCode();
@@ -25,12 +27,14 @@ function addAdNetworkToPodFile(i) {
     obj.ad_networks[i].status = true;
     fillAdNetworkList(obj);
     fillPodFileCode();
+    fillIos14FileCode();
 }
 
 function removeAdNetworkToPodFile(i) {
     obj.ad_networks[i].status = false;
     fillAdNetworkList(obj);
     fillPodFileCode();
+    fillIos14FileCode();
 }
 
 function getPositionOfAdNetworkOnJSONArray(adNetworkName) {
@@ -67,5 +71,58 @@ function fillPodFileCode() {
     }
 
     $('#file-pod').append("\nend");
-
 }
+
+function fillIos14FileCode(){
+    var finalValues = [];
+
+    //$('#file-ios-14').text("<key>SKAdNetworkItems</key>");    
+    for (var i = 1; i < obj.ad_networks.length; i++) {
+        if(obj.ad_networks[i].status == true){
+            for(var j = 0 ; j<obj14.length;j++){
+                if(obj14[j].name == obj.ad_networks[i].name){
+                    for(k = 0; k < obj14[j].skAdNetwork.length;k++){
+                        if(!finalValues.includes(obj14[j].skAdNetwork[k])){
+                            finalValues.push(obj14[j].skAdNetwork[k]);
+                        }
+                    }
+                }
+            }            
+        }
+    }
+
+    var finalXMLStr =  "<key>SKAdNetworkItems</key>\n<array>\n"//"<key>SKAdNetworkItems</key><array>";
+
+    for(var i=0 ; i<finalValues.length ; i++){
+        finalXMLStr+="\t<dict>\n\t\t<key>SKAdNetworkIdentifier</key>\n\t\t<string>"+ finalValues[i] + "</string>\n\t</dict>\n";
+    }
+
+    finalXMLStr+="</array>\n"
+
+    $('#file-ios-14').text(finalXMLStr);    
+}
+
+
+var prettifyXml = function(sourceXml)
+{
+    var xmlDoc = new DOMParser().parseFromString(sourceXml, 'application/xml');
+    var xsltDoc = new DOMParser().parseFromString([
+        // describes how we want to modify the XML - indent everything
+        '<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">',
+        '  <xsl:strip-space elements="*"/>',
+        '  <xsl:template match="para[content-style][not(text())]">', // change to just text() to strip space in text nodes
+        '    <xsl:value-of select="normalize-space(.)"/>',
+        '  </xsl:template>',
+        '  <xsl:template match="node()|@*">',
+        '    <xsl:copy><xsl:apply-templates select="node()|@*"/></xsl:copy>',
+        '  </xsl:template>',
+        '  <xsl:output indent="yes"/>',
+        '</xsl:stylesheet>',
+    ].join('\n'), 'application/xml');
+
+    var xsltProcessor = new XSLTProcessor();    
+    xsltProcessor.importStylesheet(xsltDoc);
+    var resultDoc = xsltProcessor.transformToDocument(xmlDoc);
+    var resultXml = new XMLSerializer().serializeToString(resultDoc);
+    return resultXml;
+};
