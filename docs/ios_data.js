@@ -52,5 +52,4 @@ function getIos14Keys() {
     {"name":"HyprMx","skAdNetwork": ["NU4557A4JE.skadnetwork"]}
   ]
     `);
-  }
 }
