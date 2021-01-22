@@ -2,7 +2,7 @@ function getIosNetworks() {
   return JSON.parse(`
   {"ad_networks":
   [{"name":"AMR","status":true,"pod":"AMRSDK","version":"1.4", "minTargetSdk":"8.0"},
-  {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"4.3", "minTargetSdk":"9.0"},
+  {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"4.4", "minTargetSdk":"9.0"},
   {"name":"A4G","status":false,"pod":"AMRAdapterAdmob","version":"7.64", "minTargetSdk":"9.0"},
   {"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"7.69", "minTargetSdk":"9.0"},
   {"name":"Admost","status":false,"pod":"AMRAdapterAdmost","version":"1.4", "minTargetSdk":"8.0"},
@@ -19,7 +19,7 @@ function getIosNetworks() {
   {"name":"HyprMx","status":false,"pod":"AMRAdapterHyprmx","version":"5.4", "minTargetSdk":"8.0"},
   {"name":"InMobi","status":false,"pod":"AMRAdapterInmobi","version":"9.1", "minTargetSdk":"9.0"},
   {"name":"Inneractive","status":false,"pod":"AMRAdapterInneractive","version":"7.7", "minTargetSdk":"8.0"},
-  {"name":"IronSource","status":false,"pod":"AMRAdapterIronsource","version":"7.0", "minTargetSdk":"8.0"},
+  {"name":"IronSource","status":false,"pod":"AMRAdapterIronsource","version":"7.1", "minTargetSdk":"8.0"},
   {"name":"Mintegral","status":false,"pod":"AMRAdapterMintegral","version":"6.7", "minTargetSdk":"9.0"},
   {"name":"Mobfox","status":false,"pod":"AMRAdapterMobfox","version":"4.2", "minTargetSdk":"9.0"},
   {"name":"Mopub","status":false,"pod":"AMRAdapterMopub","version":"5.14", "minTargetSdk":"9.0"},
@@ -30,6 +30,7 @@ function getIosNetworks() {
   {"name":"Pollfish","status":false,"pod":"AMRAdapterPollfish","version":"5.0", "minTargetSdk":"8.0"},
   {"name":"Pubnative","status":false,"pod":"AMRAdapterPubnative","version":"2.2", "minTargetSdk":"9.0"},
   {"name":"Smaato","status":false,"pod":"AMRAdapterSmaato","version":"21.6", "minTargetSdk":"9.0"},
+  {"name":"SmartAd","status":false,"pod":"AMRAdapterSmartadserver","version":"7.8", "minTargetSdk":"9.0"},
   {"name":"StartApp","status":false,"pod":"AMRAdapterStartapp","version":"4.5", "minTargetSdk":"8.0"},
   {"name":"Tapjoy","status":false,"pod":"AMRAdapterTapjoy","version":"12.7", "minTargetSdk":"8.0"},
   {"name":"Tappx","status":false,"pod":"AMRAdapterTappx","version":"4.0", "minTargetSdk":"9.0"},
@@ -37,7 +38,7 @@ function getIosNetworks() {
   {"name":"TikTok","status":false,"pod":"AMRAdapterTiktok","version":"3.3", "minTargetSdk":"9.0"},
   {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.6", "minTargetSdk":"9.0"},
   {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.8", "minTargetSdk":"9.0"},
-  {"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"3.1", "minTargetSdk":"8.0"},
+  {"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"3.4", "minTargetSdk":"8.0"},
   {"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"5.0", "minTargetSdk":"9.0"}]}`);
 }
 
