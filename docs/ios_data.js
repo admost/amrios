@@ -47,6 +47,7 @@ function getIos14Keys() {
   [
     {"name":"AdColony","skAdNetwork": ["4pfyvq9l8r.skadnetwork","yclnxrl5pm.skadnetwork","v72qych5uu.skadnetwork","tl55sbb4fm.skadnetwork","t38b2kh725.skadnetwork","prcb7njmu6.skadnetwork","ppxm28t8ap.skadnetwork","mlmmfzh3r3.skadnetwork","klf5c3l5u5.skadnetwork","hs6bdukanm.skadnetwork","c6k4g5qg8m.skadnetwork","9t245vhmpl.skadnetwork","9rd848q2bz.skadnetwork","8s468mfl3y.skadnetwork","7ug5zh24hu.skadnetwork","4fzdc2evr5.skadnetwork","4468km3ulz.skadnetwork","3rd42ekr43.skadnetwork","2u9pt9hc89.skadnetwork","m8dbw4sv7c.skadnetwork","7rz58n8ntl.skadnetwork","ejvt5qm6ak.skadnetwork","5lm9lj6jb7.skadnetwork","44jx6755aq.skadnetwork", "mtkv5xtk9e.skadnetwork"]},
     {"name":"AdMob","skAdNetwork": ["cstr6suwn9.skadnetwork"]},
+    {"name":"A4G","skAdNetwork": ["cstr6suwn9.skadnetwork"]},
     {"name":"Adtiming","skAdNetwork": ["488r3q3dtq.skadnetwork"]},
     {"name":"AppLovin","skAdNetwork": ["2u9pt9hc89.skadnetwork","4468km3ulz.skadnetwork","4fzdc2evr5.skadnetwork","7ug5zh24hu.skadnetwork","8s468mfl3y.skadnetwork","9rd848q2bz.skadnetwork","9t245vhmpl.skadnetwork","av6w8kgt66.skadnetwork","f38h382jlk.skadnetwork","hs6bdukanm.skadnetwork","kbd757ywx3.skadnetwork","ludvb6z3bs.skadnetwork","m8dbw4sv7c.skadnetwork","mlmmfzh3r3.skadnetwork","prcb7njmu6.skadnetwork","t38b2kh725.skadnetwork","tl55sbb4fm.skadnetwork","wzmmz9fp6w.skadnetwork","yclnxrl5pm.skadnetwork","ydx93a7ass.skadnetwork"]},
     {"name":"Chartboost","skAdNetwork": ["f38h382jlk.skadnetwork"]},
