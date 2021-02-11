@@ -75,10 +75,12 @@ function fillPodFileCode() {
 
 function fillIos14FileCode(){
     var finalValues = [];
-
+    var selectedNetworks = [];
+    
     //$('#file-ios-14').text("<key>SKAdNetworkItems</key>");    
     for (var i = 1; i < obj.ad_networks.length; i++) {
         if(obj.ad_networks[i].status == true){
+            selectedNetworks.push(obj.ad_networks[i]);
             for(var j = 0 ; j<obj14.length;j++){
                 if(obj14[j].name == obj.ad_networks[i].name){
                     for(k = 0; k < obj14[j].skAdNetwork.length;k++){
@@ -91,15 +93,19 @@ function fillIos14FileCode(){
         }
     }
 
-    var finalXMLStr =  "<key>SKAdNetworkItems</key>\n<array>\n"//"<key>SKAdNetworkItems</key><array>";
+    if (selectedNetworks.length == 0) {
+        $('#file-ios-14').text("PLEASE SELECT ONE OR MORE NETWORKS TO CREATE YOUR SKADNETWORK LIST.");    
+    } else {
+        var finalXMLStr =  "<key>SKAdNetworkItems</key>\n<array>\n"//"<key>SKAdNetworkItems</key><array>";
 
-    for(var i=0 ; i<finalValues.length ; i++){
-        finalXMLStr+="\t<dict>\n\t\t<key>SKAdNetworkIdentifier</key>\n\t\t<string>"+ finalValues[i] + "</string>\n\t</dict>\n";
-    }
-
-    finalXMLStr+="</array>\n"
-
-    $('#file-ios-14').text(finalXMLStr);    
+        for(var i=0 ; i<finalValues.length ; i++){
+            finalXMLStr+="\t<dict>\n\t\t<key>SKAdNetworkIdentifier</key>\n\t\t<string>"+ finalValues[i] + "</string>\n\t</dict>\n";
+        }
+    
+        finalXMLStr+="</array>\n"
+    
+        $('#file-ios-14').text(finalXMLStr); 
+    }  
 }
 
 function includesUpper(arr,item)
