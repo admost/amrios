@@ -37,6 +37,7 @@ function getIosNetworks() {
   {"name":"TapResearch","status":false,"pod":"AMRAdapterTapresearch","version":"2.0", "minTargetSdk":"8.0"},
   {"name":"TikTok","status":false,"pod":"AMRAdapterTiktok","version":"3.3", "minTargetSdk":"9.0"},
   {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.6", "minTargetSdk":"9.0"},
+  {"name":"Verizon","status":false,"pod":"AMRAdapterVerizon","version":"1.9", "minTargetSdk":"10.0"},
   {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.8", "minTargetSdk":"9.0"},
   {"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"3.4", "minTargetSdk":"8.0"},
   {"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"5.0", "minTargetSdk":"9.0"}]}`);
@@ -58,6 +59,7 @@ function getIos14Keys() {
     {"name":"IronSource","skAdNetwork": ["su67r6k2v3.skadnetwork"]},
     {"name":"Mintegral","skAdNetwork": ["kbd757ywx3.skadnetwork"]},
     {"name":"Pubnative","skAdNetwork": ["tl55sbb4fm.skadnetwork", "6xzpu9s2p8.skadnetwork"]},
+    {"name":"StartApp","skAdNetwork": ["5l3tpt7t6e.skadnetwork", "mlmmfzh3r3.skadnetwork", "hs6bdukanm.skadnetwork", "t38b2kh725.skadnetwork", "5lm9lj6jb7.skadnetwork", "v72qych5uu.skadnetwork"]},
     {"name":"Tapjoy","skAdNetwork": ["ecpz2srf59.skadnetwork", "7ug5zh24hu.skadnetwork", "9t245vhmpl.skadnetwork", "prcb7njmu6.skadnetwork", "5lm9lj6jb7.skadnetwork", "578prtvx9j.skadnetwork"]},
     {"name":"TikTok","skAdNetwork": ["238da6jt44.skadnetwork", "22mmun2rn5.skadnetwork"]},
     {"name":"UnityAds","skAdNetwork": ["s39g8k73mm.skadnetwork","g28c52eehv.skadnetwork","3qy4746246.skadnetwork","f73kdq92p3.skadnetwork", "lr83yxwka7.skadnetwork", "cstr6suwn9.skadnetwork", "bvpn9ufa9b.skadnetwork", "c6k4g5qg8m.skadnetwork", "f38h382jlk.skadnetwork", "3sh42y64q3.skadnetwork", "av6w8kgt66.skadnetwork", "t38b2kh725.skadnetwork", "5lm9lj6jb7.skadnetwork", "4468km3ulz.skadnetwork", "44n7hlldy6.skadnetwork", "578prtvx9j.skadnetwork", "tl55sbb4fm.skadnetwork", "prcb7njmu6.skadnetwork", "4fzdc2evr5.skadnetwork", "m8dbw4sv7c.skadnetwork", "v79kvwwj4g.skadnetwork", "mlmmfzh3r3.skadnetwork", "488r3q3dtq.skadnetwork", "zmvfpc5aq8.skadnetwork", "wzmmz9fp6w.skadnetwork", "ydx93a7ass.skadnetwork", "44jx6755aq.skadnetwork", "424m5254lk.skadnetwork", "ppxm28t8ap.skadnetwork", "238da6jt44.skadnetwork", "glqzh8vgby.skadnetwork", "yclnxrl5pm.skadnetwork", "hs6bdukanm.skadnetwork", "9rd848q2bz.skadnetwork", "2u9pt9hc89.skadnetwork", "v72qych5uu.skadnetwork", "24t9a8vw3c.skadnetwork", "4dzt52r2t5.skadnetwork", "7ug5zh24hu.skadnetwork", "9t245vhmpl.skadnetwork", "3rd42ekr43.skadnetwork", "wg4vff78zm.skadnetwork", "8s468mfl3y.skadnetwork", "kbd757ywx3.skadnetwork", "22mmun2rn5.skadnetwork", "4pfyvq9l8r.skadnetwork", "5a6flpkh64.skadnetwork"]},
