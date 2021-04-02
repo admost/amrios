@@ -1,0 +1,575 @@
+{
+    "adNetworks":
+    [{
+        "network": "ADCOLONY",
+        "SDKVersion": "4.5.0",
+        "adapterVersion": "4.5.0.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": ["4pfyvq9l8r.skadnetwork","yclnxrl5pm.skadnetwork","v72qych5uu.skadnetwork","tl55sbb4fm.skadnetwork","t38b2kh725.skadnetwork","prcb7njmu6.skadnetwork","ppxm28t8ap.skadnetwork","mlmmfzh3r3.skadnetwork","klf5c3l5u5.skadnetwork","hs6bdukanm.skadnetwork","c6k4g5qg8m.skadnetwork","9t245vhmpl.skadnetwork","9rd848q2bz.skadnetwork","8s468mfl3y.skadnetwork","7ug5zh24hu.skadnetwork","4fzdc2evr5.skadnetwork","4468km3ulz.skadnetwork","3rd42ekr43.skadnetwork","2u9pt9hc89.skadnetwork","m8dbw4sv7c.skadnetwork","7rz58n8ntl.skadnetwork","ejvt5qm6ak.skadnetwork","5lm9lj6jb7.skadnetwork","44jx6755aq.skadnetwork", "mtkv5xtk9e.skadnetwork"],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "ADMOB",
+        "SDKVersion": "8.2.0",
+        "adapterVersion": "8.2.0.1",
+        "initParameterCount": 0,
+        "skadnetworkIDS": ["cstr6suwn9.skadnetwork"],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": "GADApplicationIdentifier"
+      },
+      {
+        "network": "ADMOST",
+        "SDKVersion": "1.4.2",
+        "adapterVersion": "1.4.2.0",
+        "initParameterCount": 0,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "ADTIMING",
+        "SDKVersion": "4.4.1",
+        "adapterVersion": "4.4.1.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "488r3q3dtq.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "A4G",
+        "SDKVersion": "8.2.0",
+        "adapterVersion": "8.2.0.1",
+        "initParameterCount": 0,
+        "skadnetworkIDS": [
+            "cstr6suwn9.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": "GADApplicationIdentifier"
+      },
+      {
+        "network": "AMAZON",
+        "SDKVersion": "3.1.0",
+        "adapterVersion": "3.1.0.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "APPLOVIN",
+        "SDKVersion": "10.0.0",
+        "adapterVersion": "10.0.0.0",
+        "initParameterCount": 0,
+        "skadnetworkIDS": [
+            "2u9pt9hc89.skadnetwork","4468km3ulz.skadnetwork","4fzdc2evr5.skadnetwork","7ug5zh24hu.skadnetwork","8s468mfl3y.skadnetwork","9rd848q2bz.skadnetwork","9t245vhmpl.skadnetwork","av6w8kgt66.skadnetwork","f38h382jlk.skadnetwork","hs6bdukanm.skadnetwork","kbd757ywx3.skadnetwork","ludvb6z3bs.skadnetwork","m8dbw4sv7c.skadnetwork","mlmmfzh3r3.skadnetwork","prcb7njmu6.skadnetwork","t38b2kh725.skadnetwork","tl55sbb4fm.skadnetwork","wzmmz9fp6w.skadnetwork","yclnxrl5pm.skadnetwork","ydx93a7ass.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": "AppLovinSdkKey"
+      },
+      {
+        "network": "APPNEXT",
+        "SDKVersion": "1.9.3",
+        "adapterVersion": "1.9.3.2",
+        "initParameterCount": 0,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "CHARTBOOST",
+        "SDKVersion": "8.4.1",
+        "adapterVersion": "8.4.1.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "f38h382jlk.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "CRITEO",
+        "SDKVersion": "4.3.0",
+        "adapterVersion": "4.3.0.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "hs6bdukanm.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "FACEBOOK",
+        "SDKVersion": "6.3.0",
+        "adapterVersion": "6.3.0.1",
+        "initParameterCount": 0,
+        "skadnetworkIDS": [
+            "v9wttpbfk9.skadnetwork",
+            "n38lu8286q.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "FYBER",
+        "SDKVersion": "9.1.1",
+        "adapterVersion": "9.1.1.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "HYPRMX",
+        "SDKVersion": "5.4.5",
+        "adapterVersion": "5.4.5.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "nu4557a4je.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "INMOBI",
+        "SDKVersion": "9.1.5",
+        "adapterVersion": "9.1.5.1",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "uw77j35x4d.skadnetwork", "7ug5zh24hu.skadnetwork", "hs6bdukanm.skadnetwork", "4fzdc2evr5.skadnetwork", "ggvn48r87g.skadnetwork", "5lm9lj6jb7.skadnetwork", "9rd848q2bz.skadnetwork", "c6k4g5qg8m.skadnetwork", "wzmmz9fp6w.skadnetwork", "3sh42y64q3.skadnetwork", "yclnxrl5pm.skadnetwork", "kbd757ywx3.skadnetwork", "f73kdq92p3.skadnetwork", "ydx93a7ass.skadnetwork", "w9q455wk68.skadnetwork", "prcb7njmu6.skadnetwork", "wg4vff78zm.skadnetwork", "mlmmfzh3r3.skadnetwork", "tl55sbb4fm.skadnetwork", "4pfyvq9l8r.skadnetwork", "t38b2kh725.skadnetwork", "5l3tpt7t6e.skadnetwork", "7rz58n8ntl.skadnetwork", "klf5c3l5u5.skadnetwork", "cg4yq2srnc.skadnetwork", "av6w8kgt66.skadnetwork", "9t245vhmpl.skadnetwork", "v72qych5uu.skadnetwork", "2u9pt9hc89.skadnetwork", "44jx6755aq.skadnetwork", "8s468mfl3y.skadnetwork", "p78axxw29g.skadnetwork", "ppxm28t8ap.skadnetwork", "424m5254lk.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "INNERACTIVE",
+        "SDKVersion": "7.8.2.0",
+        "adapterVersion": "7.8.2.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "IRONSOURCE",
+        "SDKVersion": "7.1.2",
+        "adapterVersion": "7.1.2.2",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "su67r6k2v3.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "MINTEGRAL",
+        "SDKVersion": "6.7.6",
+        "adapterVersion": "6.7.6.1",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "kbd757ywx3.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "MOBFOX",
+        "SDKVersion": "4.2.2",
+        "adapterVersion": "4.2.2.1",
+        "initParameterCount": 0,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "MOPUB",
+        "SDKVersion": "5.15.0",
+        "adapterVersion": "5.15.0.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "MYTARGET",
+        "SDKVersion": "5.10.0",
+        "adapterVersion": "5.10.0.0",
+        "initParameterCount": 0,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "NEXTAGE",
+        "SDKVersion": "6.8.2",
+        "adapterVersion": "6.8.2.1",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "OGURY",
+        "SDKVersion": "2.3.2",
+        "adapterVersion": "2.3.2.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "POLLFISH",
+        "SDKVersion": "5.5.2",
+        "adapterVersion": "5.5.2.1",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "PUBNATIVE",
+        "SDKVersion": "2.2.1",
+        "adapterVersion": "2.2.1.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "tl55sbb4fm.skadnetwork",
+            "6xzpu9s2p8.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "QUMPARA",
+        "SDKVersion": "1.1.6",
+        "adapterVersion": "1.1.6.1",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "SMAATO",
+        "SDKVersion": "21.6.10",
+        "adapterVersion": "21.6.10.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "SMARTAD",
+        "SDKVersion": "7.8.0",
+        "adapterVersion": "7.8.0.3",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "STARTAPP",
+        "SDKVersion": "4.6.1",
+        "adapterVersion": "4.6.1.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "5l3tpt7t6e.skadnetwork", "mlmmfzh3r3.skadnetwork", "hs6bdukanm.skadnetwork", "t38b2kh725.skadnetwork", "5lm9lj6jb7.skadnetwork", "v72qych5uu.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "TAPJOY",
+        "SDKVersion": "12.8.0",
+        "adapterVersion": "12.8.0.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "ecpz2srf59.skadnetwork", "ecpz2srf59.skadnetwork","7ug5zh24hu.skadnetwork","9t245vhmpl.skadnetwork","prcb7njmu6.skadnetwork","5lm9lj6jb7.skadnetwork","578prtvx9j.skadnetwork","22mmun2rn5.skadnetwork","uw77j35x4d.skadnetwork","c6k4g5qg8m.skadnetwork","hs6bdukanm.skadnetwork","yclnxrl5pm.skadnetwork","3sh42y64q3.skadnetwork","cj5566h2ga.skadnetwork","klf5c3l5u5.skadnetwork","8s468mfl3y.skadnetwork","2u9pt9hc89.skadnetwork","7rz58n8ntl.skadnetwork","ppxm28t8ap.skadnetwork","5tjdwbrq8w.skadnetwork","238da6jt44.skadnetwork","24t9a8vw3c.skadnetwork","252b5q8x7y.skadnetwork","3qy4746246.skadnetwork","3rd42ekr43.skadnetwork","424m5254lk.skadnetwork","4468km3ulz.skadnetwork","44jx6755aq.skadnetwork","44n7hlldy6.skadnetwork","488r3q3dtq.skadnetwork","4fzdc2evr5.skadnetwork","4pfyvq9l8r.skadnetwork","523jb4fst2.skadnetwork","52fl2v3hgk.skadnetwork","5a6flpkh64.skadnetwork","5l3tpt7t6e.skadnetwork","737z793b9f.skadnetwork","97r2b46745.skadnetwork","9rd848q2bz.skadnetwork","9yg77x724h.skadnetwork","av6w8kgt66.skadnetwork","cg4yq2srnc.skadnetwork","cstr6suwn9.skadnetwork","dzg6xy7pwj.skadnetwork","ejvt5qm6ak.skadnetwork","f73kdq92p3.skadnetwork","g28c52eehv.skadnetwork","ggvn48r87g.skadnetwork","glqzh8vgby.skadnetwork","gvmwg8q7h5.skadnetwork","hdw39hrw9y.skadnetwork","kbd757ywx3.skadnetwork","lr83yxwka7.skadnetwork","m8dbw4sv7c.skadnetwork","mlmmfzh3r3.skadnetwork","mls7yz5dvl.skadnetwork","mtkv5xtk9e.skadnetwork","n66cz3y3bx.skadnetwork","n9x2a789qt.skadnetwork","nzq8sh4pbs.skadnetwork","p78axxw29g.skadnetwork","pu4na253f3.skadnetwork","s39g8k73mm.skadnetwork","t38b2kh725.skadnetwork","tl55sbb4fm.skadnetwork","u679fj5vs4.skadnetwork","v72qych5uu.skadnetwork","v79kvwwj4g.skadnetwork","w9q455wk68.skadnetwork","wg4vff78zm.skadnetwork","wzmmz9fp6w.skadnetwork","xy9t38ct57.skadnetwork","y45688jllp.skadnetwork","ydx93a7ass.skadnetwork","yrqqpx2mcb.skadnetwork","z4gj7hsk7h.skadnetwork","zmvfpc5aq8.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "TAPPX",
+        "SDKVersion": "4.0.5",
+        "adapterVersion": "4.0.5.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "TAPRESEARCH",
+        "SDKVersion": "2.0.8.0",
+        "adapterVersion": "2.0.8.0",
+        "initParameterCount": 0,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "TIKTOK",
+        "SDKVersion": "3.4.4.3",
+        "adapterVersion": "3.4.4.3",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "238da6jt44.skadnetwork",
+            "22mmun2rn5.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "UNITYAD",
+        "SDKVersion": "3.6.0",
+        "adapterVersion": "3.6.0.1",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "s39g8k73mm.skadnetwork","g28c52eehv.skadnetwork","3qy4746246.skadnetwork","f73kdq92p3.skadnetwork", "lr83yxwka7.skadnetwork", "cstr6suwn9.skadnetwork", "bvpn9ufa9b.skadnetwork", "c6k4g5qg8m.skadnetwork", "f38h382jlk.skadnetwork", "3sh42y64q3.skadnetwork", "av6w8kgt66.skadnetwork", "t38b2kh725.skadnetwork", "5lm9lj6jb7.skadnetwork", "4468km3ulz.skadnetwork", "44n7hlldy6.skadnetwork", "578prtvx9j.skadnetwork", "tl55sbb4fm.skadnetwork", "prcb7njmu6.skadnetwork", "4fzdc2evr5.skadnetwork", "m8dbw4sv7c.skadnetwork", "v79kvwwj4g.skadnetwork", "mlmmfzh3r3.skadnetwork", "488r3q3dtq.skadnetwork", "zmvfpc5aq8.skadnetwork", "wzmmz9fp6w.skadnetwork", "ydx93a7ass.skadnetwork", "44jx6755aq.skadnetwork", "424m5254lk.skadnetwork", "ppxm28t8ap.skadnetwork", "238da6jt44.skadnetwork", "glqzh8vgby.skadnetwork", "yclnxrl5pm.skadnetwork", "hs6bdukanm.skadnetwork", "9rd848q2bz.skadnetwork", "2u9pt9hc89.skadnetwork", "v72qych5uu.skadnetwork", "24t9a8vw3c.skadnetwork", "4dzt52r2t5.skadnetwork", "7ug5zh24hu.skadnetwork", "9t245vhmpl.skadnetwork", "3rd42ekr43.skadnetwork", "wg4vff78zm.skadnetwork", "8s468mfl3y.skadnetwork", "kbd757ywx3.skadnetwork", "22mmun2rn5.skadnetwork", "4pfyvq9l8r.skadnetwork", "5a6flpkh64.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "VERIZON",
+        "SDKVersion": "1.9.0",
+        "adapterVersion": "1.9.0.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "e5fvkxwrpn.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "VUNGLE",
+        "SDKVersion": "6.9.1",
+        "adapterVersion": "6.9.1.2",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "gta9lk7p23.skadnetwork", "ydx93a7ass.skadnetwork", "4fzdc2evr5.skadnetwork", "4pfyvq9l8r.skadnetwork", "v72qych5uu.skadnetwork", "mlmmfzh3r3.skadnetwork", "c6k4g5qg8m.skadnetwork", "yclnxrl5pm.skadnetwork", "5lm9lj6jb7.skadnetwork", "n9x2a789qt.skadnetwork", "tl55sbb4fm.skadnetwork", "2u9pt9hc89.skadnetwork", "8s468mfl3y.skadnetwork", "glqzh8vgby.skadnetwork", "22mmun2rn5.skadnetwork", "3rd42ekr43.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "YANDEX",
+        "SDKVersion": "3.4.0",
+        "adapterVersion": "3.4.0.1",
+        "initParameterCount": 0,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      },
+      {
+        "network": "YOUAPPI",
+        "SDKVersion": "5.0.0",
+        "adapterVersion": "5.0.0.1",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
+        ],
+        "infoPlistKey": ""
+      }
+    ]
+}
