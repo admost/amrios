@@ -82,8 +82,8 @@
           "Offerwall"
         ],
         "infoPlistKey": "GADApplicationIdentifier",
-        "adapterName": "",
-        "unitySupport": false
+        "adapterName": "AMRAdapterAdmob",
+        "unitySupport": true
       },
       {
         "network": "AMAZON",
