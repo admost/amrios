@@ -13,7 +13,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterAdcolony",
+        "adapterName": "AMRAdapterAdcolony",
         "unitySupport": true
       },
       {
@@ -29,7 +29,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "GADApplicationIdentifier",
-        "unityAdapterName": "AMRAdapterAdmob",
+        "adapterName": "AMRAdapterAdmob",
         "unitySupport": true
       },
       {
@@ -46,7 +46,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterAdmost",
+        "adapterName": "AMRAdapterAdmost",
         "unitySupport": true
       },
       {
@@ -64,7 +64,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterAdtiming",
+        "adapterName": "AMRAdapterAdtiming",
         "unitySupport": true
       },
       {
@@ -82,7 +82,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "GADApplicationIdentifier",
-        "unityAdapterName": "",
+        "adapterName": "",
         "unitySupport": false
       },
       {
@@ -99,7 +99,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterAmazon",
+        "adapterName": "AMRAdapterAmazon",
         "unitySupport": true
       },
       {
@@ -117,7 +117,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "AppLovinSdkKey",
-        "unityAdapterName": "AMRAdapterApplovin",
+        "adapterName": "AMRAdapterApplovin",
         "unitySupport": true
       },
       {
@@ -134,7 +134,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterAppnext",
+        "adapterName": "AMRAdapterAppnext",
         "unitySupport": true
       },
       {
@@ -152,7 +152,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterChartboost",
+        "adapterName": "AMRAdapterChartboost",
         "unitySupport": true
       },
       {
@@ -170,7 +170,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterCriteo",
+        "adapterName": "AMRAdapterCriteo",
         "unitySupport": true
       },
       {
@@ -189,7 +189,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterFacebook",
+        "adapterName": "AMRAdapterFacebook",
         "unitySupport": true
       },
       {
@@ -206,7 +206,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterFyber",
+        "adapterName": "AMRAdapterFyber",
         "unitySupport": true
       },
       {
@@ -224,7 +224,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterHyprmx",
+        "adapterName": "AMRAdapterHyprmx",
         "unitySupport": true
       },
       {
@@ -242,7 +242,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterInmobi",
+        "adapterName": "AMRAdapterInmobi",
         "unitySupport": true
       },
       {
@@ -259,7 +259,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterInneractive",
+        "adapterName": "AMRAdapterInneractive",
         "unitySupport": true
       },
       {
@@ -275,7 +275,7 @@
           "Interstitial"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterIronsource",
+        "adapterName": "AMRAdapterIronsource",
         "unitySupport": true
       },
       {
@@ -293,7 +293,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterMintegral",
+        "adapterName": "AMRAdapterMintegral",
         "unitySupport": true
       },
       {
@@ -310,7 +310,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterMobfox",
+        "adapterName": "AMRAdapterMobfox",
         "unitySupport": true
       },
       {
@@ -327,7 +327,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterMopub",
+        "adapterName": "AMRAdapterMopub",
         "unitySupport": true
       },
       {
@@ -344,7 +344,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterMytarget",
+        "adapterName": "AMRAdapterMytarget",
         "unitySupport": true
       },
       {
@@ -361,7 +361,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterNexage",
+        "adapterName": "AMRAdapterNexage",
         "unitySupport": true
       },
       {
@@ -378,7 +378,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterOgury",
+        "adapterName": "AMRAdapterOgury",
         "unitySupport": true
       },
       {
@@ -395,7 +395,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterPollfish",
+        "adapterName": "AMRAdapterPollfish",
         "unitySupport": true
       },
       {
@@ -414,7 +414,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterPubnative",
+        "adapterName": "AMRAdapterPubnative",
         "unitySupport": true
       },
       {
@@ -431,7 +431,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterQumpara",
+        "adapterName": "AMRAdapterQumpara",
         "unitySupport": true
       },
       {
@@ -448,7 +448,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterSmaato",
+        "adapterName": "AMRAdapterSmaato",
         "unitySupport": true
       },
       {
@@ -465,7 +465,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "",
+        "adapterName": "",
         "unitySupport": false
       },
       {
@@ -483,7 +483,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterStartapp",
+        "adapterName": "AMRAdapterStartapp",
         "unitySupport": true
       },
       {
@@ -501,7 +501,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterTapjoy",
+        "adapterName": "AMRAdapterTapjoy",
         "unitySupport": true
       },
       {
@@ -518,7 +518,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterTappx",
+        "adapterName": "AMRAdapterTappx",
         "unitySupport": true
       },
       {
@@ -535,7 +535,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterTapresearch",
+        "adapterName": "AMRAdapterTapresearch",
         "unitySupport": true
       },
       {
@@ -554,7 +554,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterTiktok",
+        "adapterName": "AMRAdapterTiktok",
         "unitySupport": true
       },
       {
@@ -571,7 +571,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterUnity",
+        "adapterName": "AMRAdapterUnity",
         "unitySupport": true
       },
       {
@@ -589,7 +589,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterVerizon",
+        "adapterName": "AMRAdapterVerizon",
         "unitySupport": true
       },
       {
@@ -607,7 +607,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterVungle",
+        "adapterName": "AMRAdapterVungle",
         "unitySupport": true
       },
       {
@@ -624,7 +624,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterYandex",
+        "adapterName": "AMRAdapterYandex",
         "unitySupport": true
       },
       {
@@ -641,7 +641,7 @@
           "Offerwall"
         ],
         "infoPlistKey": "",
-        "unityAdapterName": "AMRAdapterYouappi",
+        "adapterName": "AMRAdapterYouappi",
         "unitySupport": true
       }
     ]
