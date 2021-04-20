@@ -12,7 +12,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterAdcolony",
+        "unitySupport": true
       },
       {
         "network": "ADMOB",
@@ -26,7 +28,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": "GADApplicationIdentifier"
+        "infoPlistKey": "GADApplicationIdentifier",
+        "unityAdapterName": "AMRAdapterAdmob",
+        "unitySupport": true
       },
       {
         "network": "ADMOST",
@@ -41,7 +45,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterAdmost",
+        "unitySupport": true
       },
       {
         "network": "ADTIMING",
@@ -57,7 +63,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterAdtiming",
+        "unitySupport": true
       },
       {
         "network": "A4G",
@@ -73,7 +81,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": "GADApplicationIdentifier"
+        "infoPlistKey": "GADApplicationIdentifier",
+        "unityAdapterName": "",
+        "unitySupport": false
       },
       {
         "network": "AMAZON",
@@ -88,7 +98,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterAmazon",
+        "unitySupport": true
       },
       {
         "network": "APPLOVIN",
@@ -104,7 +116,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": "AppLovinSdkKey"
+        "infoPlistKey": "AppLovinSdkKey",
+        "unityAdapterName": "AMRAdapterApplovin",
+        "unitySupport": true
       },
       {
         "network": "APPNEXT",
@@ -119,7 +133,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterAppnext",
+        "unitySupport": true
       },
       {
         "network": "CHARTBOOST",
@@ -135,7 +151,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterChartboost",
+        "unitySupport": true
       },
       {
         "network": "CRITEO",
@@ -151,7 +169,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterCriteo",
+        "unitySupport": true
       },
       {
         "network": "FACEBOOK",
@@ -168,7 +188,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterFacebook",
+        "unitySupport": true
       },
       {
         "network": "FYBER",
@@ -183,7 +205,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterFyber",
+        "unitySupport": true
       },
       {
         "network": "HYPRMX",
@@ -199,7 +223,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterHyprmx",
+        "unitySupport": true
       },
       {
         "network": "INMOBI",
@@ -215,7 +241,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterInmobi",
+        "unitySupport": true
       },
       {
         "network": "INNERACTIVE",
@@ -230,7 +258,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterInneractive",
+        "unitySupport": true
       },
       {
         "network": "IRONSOURCE",
@@ -244,7 +274,9 @@
           "Banner",
           "Interstitial"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterIronsource",
+        "unitySupport": true
       },
       {
         "network": "MINTEGRAL",
@@ -260,7 +292,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterMintegral",
+        "unitySupport": true
       },
       {
         "network": "MOBFOX",
@@ -275,7 +309,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterMobfox",
+        "unitySupport": true
       },
       {
         "network": "MOPUB",
@@ -290,7 +326,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterMopub",
+        "unitySupport": true
       },
       {
         "network": "MYTARGET",
@@ -305,7 +343,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterMytarget",
+        "unitySupport": true
       },
       {
         "network": "NEXTAGE",
@@ -320,7 +360,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterNexage",
+        "unitySupport": true
       },
       {
         "network": "OGURY",
@@ -335,7 +377,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterOgury",
+        "unitySupport": true
       },
       {
         "network": "POLLFISH",
@@ -350,7 +394,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterPollfish",
+        "unitySupport": true
       },
       {
         "network": "PUBNATIVE",
@@ -367,7 +413,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterPubnative",
+        "unitySupport": true
       },
       {
         "network": "QUMPARA",
@@ -382,7 +430,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterQumpara",
+        "unitySupport": true
       },
       {
         "network": "SMAATO",
@@ -397,7 +447,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterSmaato",
+        "unitySupport": true
       },
       {
         "network": "SMARTAD",
@@ -412,7 +464,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "",
+        "unitySupport": false
       },
       {
         "network": "STARTAPP",
@@ -428,7 +482,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterStartapp",
+        "unitySupport": true
       },
       {
         "network": "TAPJOY",
@@ -444,7 +500,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterTapjoy",
+        "unitySupport": true
       },
       {
         "network": "TAPPX",
@@ -459,7 +517,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterTappx",
+        "unitySupport": true
       },
       {
         "network": "TAPRESEARCH",
@@ -474,7 +534,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterTapresearch",
+        "unitySupport": true
       },
       {
         "network": "TIKTOK",
@@ -491,7 +553,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterTiktok",
+        "unitySupport": true
       },
       {
         "network": "UNITYAD",
@@ -506,7 +570,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterUnity",
+        "unitySupport": true
       },
       {
         "network": "VERIZON",
@@ -522,7 +588,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterVerizon",
+        "unitySupport": true
       },
       {
         "network": "VUNGLE",
@@ -538,7 +606,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterVungle",
+        "unitySupport": true
       },
       {
         "network": "YANDEX",
@@ -553,7 +623,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterYandex",
+        "unitySupport": true
       },
       {
         "network": "YOUAPPI",
@@ -568,7 +640,9 @@
           "Rewarded",
           "Offerwall"
         ],
-        "infoPlistKey": ""
+        "infoPlistKey": "",
+        "unityAdapterName": "AMRAdapterYouappi",
+        "unitySupport": true
       }
     ]
 }
