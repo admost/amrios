@@ -88,7 +88,7 @@
       {
         "network": "AFA",
         "SDKVersion": "0.0.2",
-        "adapterVersion": "0.0.2.1",
+        "adapterVersion": "0.0.2.0",
         "initParameterCount": 1,
         "skadnetworkIDS": [],
         "supportedAdTypes": [
