@@ -86,6 +86,20 @@
         "unitySupport": true
       },
       {
+        "network": "AFA",
+        "SDKVersion": "0.0.2",
+        "adapterVersion": "0.0.2.1",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [],
+        "supportedAdTypes": [
+          "Interstitial",
+          "Rewarded"
+        ],
+        "infoPlistKey": "",
+        "adapterName": "AMRAdapterAFA",
+        "unitySupport": true
+      },
+      {
         "network": "AMAZON",
         "SDKVersion": "3.1.0",
         "adapterVersion": "3.1.0.0",
