@@ -4,7 +4,7 @@
         "network": "ADCOLONY",
         "SDKVersion": "4.5.0",
         "adapterVersion": "4.5.0.0",
-        "initParameterCount": 1,
+        "initParameterCount": 4,
         "skadnetworkIDS": ["4pfyvq9l8r.skadnetwork","yclnxrl5pm.skadnetwork","v72qych5uu.skadnetwork","tl55sbb4fm.skadnetwork","t38b2kh725.skadnetwork","prcb7njmu6.skadnetwork","ppxm28t8ap.skadnetwork","mlmmfzh3r3.skadnetwork","klf5c3l5u5.skadnetwork","hs6bdukanm.skadnetwork","c6k4g5qg8m.skadnetwork","9t245vhmpl.skadnetwork","9rd848q2bz.skadnetwork","8s468mfl3y.skadnetwork","7ug5zh24hu.skadnetwork","4fzdc2evr5.skadnetwork","4468km3ulz.skadnetwork","3rd42ekr43.skadnetwork","2u9pt9hc89.skadnetwork","m8dbw4sv7c.skadnetwork","7rz58n8ntl.skadnetwork","ejvt5qm6ak.skadnetwork","5lm9lj6jb7.skadnetwork","44jx6755aq.skadnetwork", "mtkv5xtk9e.skadnetwork"],
         "supportedAdTypes": [
           "Banner",
@@ -86,6 +86,20 @@
         "unitySupport": true
       },
       {
+        "network": "AFA",
+        "SDKVersion": "0.0.2",
+        "adapterVersion": "0.0.2.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [],
+        "supportedAdTypes": [
+          "Interstitial",
+          "Rewarded"
+        ],
+        "infoPlistKey": "",
+        "adapterName": "AMRAdapterAFA",
+        "unitySupport": true
+      },
+      {
         "network": "AMAZON",
         "SDKVersion": "3.1.0",
         "adapterVersion": "3.1.0.0",
@@ -141,7 +155,7 @@
         "network": "CHARTBOOST",
         "SDKVersion": "8.4.1",
         "adapterVersion": "8.4.1.0",
-        "initParameterCount": 1,
+        "initParameterCount": 2,
         "skadnetworkIDS": [
             "f38h382jlk.skadnetwork"
         ],
@@ -159,7 +173,7 @@
         "network": "CRITEO",
         "SDKVersion": "4.3.0",
         "adapterVersion": "4.3.0.0",
-        "initParameterCount": 1,
+        "initParameterCount": 8,
         "skadnetworkIDS": [
             "hs6bdukanm.skadnetwork"
         ],
@@ -196,13 +210,10 @@
         "network": "FYBER",
         "SDKVersion": "9.1.1",
         "adapterVersion": "9.1.1.0",
-        "initParameterCount": 1,
+        "initParameterCount": 2,
         "skadnetworkIDS": [
         ],
         "supportedAdTypes": [
-          "Banner",
-          "Interstitial",
-          "Rewarded",
           "Offerwall"
         ],
         "infoPlistKey": "",
@@ -266,7 +277,7 @@
         "network": "IRONSOURCE",
         "SDKVersion": "7.1.2",
         "adapterVersion": "7.1.2.2",
-        "initParameterCount": 1,
+        "initParameterCount": 4,
         "skadnetworkIDS": [
             "su67r6k2v3.skadnetwork"
         ],
@@ -279,10 +290,27 @@
         "unitySupport": true
       },
       {
+        "network": "LIFTOFF",
+        "SDKVersion": "1.4.0",
+        "adapterVersion": "1.4.0.0",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+            "7UG5ZH24HU.skadnetwork"
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded",
+        ],
+        "infoPlistKey": "",
+        "adapterName": "AMRAdapterLiftoff",
+        "unitySupport": false
+      },
+      {
         "network": "MINTEGRAL",
         "SDKVersion": "6.7.6",
         "adapterVersion": "6.7.6.1",
-        "initParameterCount": 1,
+        "initParameterCount": 2,
         "skadnetworkIDS": [
             "kbd757ywx3.skadnetwork"
         ],
@@ -421,7 +449,7 @@
         "network": "QUMPARA",
         "SDKVersion": "1.1.6",
         "adapterVersion": "1.1.6.1",
-        "initParameterCount": 1,
+        "initParameterCount": 2,
         "skadnetworkIDS": [
         ],
         "supportedAdTypes": [
@@ -596,7 +624,7 @@
         "network": "VUNGLE",
         "SDKVersion": "6.9.1",
         "adapterVersion": "6.9.1.2",
-        "initParameterCount": 1,
+        "initParameterCount": 3,
         "skadnetworkIDS": [
             "gta9lk7p23.skadnetwork", "ydx93a7ass.skadnetwork", "4fzdc2evr5.skadnetwork", "4pfyvq9l8r.skadnetwork", "v72qych5uu.skadnetwork", "mlmmfzh3r3.skadnetwork", "c6k4g5qg8m.skadnetwork", "yclnxrl5pm.skadnetwork", "5lm9lj6jb7.skadnetwork", "n9x2a789qt.skadnetwork", "tl55sbb4fm.skadnetwork", "2u9pt9hc89.skadnetwork", "8s468mfl3y.skadnetwork", "glqzh8vgby.skadnetwork", "22mmun2rn5.skadnetwork", "3rd42ekr43.skadnetwork"
         ],
