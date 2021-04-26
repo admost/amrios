@@ -300,7 +300,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterLiftoff",
