@@ -1,9 +1,22 @@
 {
     "adNetworks":
     [{
+        "network": "AMR",
+        "SDKVersion": "1.4.62",
+        "adapterVersion": "1.4.62",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [],
+        "supportedAdTypes": [],
+        "infoPlistKey": "",
+        "adapterName": "AMRSDK",
+        "unitySupport": true,
+        "status":true,
+        "minTargetSdk":"8.0"
+      },
+      {
         "network": "ADCOLONY",
-        "SDKVersion": "4.5.0",
-        "adapterVersion": "4.5.0.0",
+        "SDKVersion": "4.6.0",
+        "adapterVersion": "4.6.0.0",
         "initParameterCount": 4,
         "skadnetworkIDS": ["4pfyvq9l8r.skadnetwork","yclnxrl5pm.skadnetwork","v72qych5uu.skadnetwork","tl55sbb4fm.skadnetwork","t38b2kh725.skadnetwork","prcb7njmu6.skadnetwork","ppxm28t8ap.skadnetwork","mlmmfzh3r3.skadnetwork","klf5c3l5u5.skadnetwork","hs6bdukanm.skadnetwork","c6k4g5qg8m.skadnetwork","9t245vhmpl.skadnetwork","9rd848q2bz.skadnetwork","8s468mfl3y.skadnetwork","7ug5zh24hu.skadnetwork","4fzdc2evr5.skadnetwork","4468km3ulz.skadnetwork","3rd42ekr43.skadnetwork","2u9pt9hc89.skadnetwork","m8dbw4sv7c.skadnetwork","7rz58n8ntl.skadnetwork","ejvt5qm6ak.skadnetwork","5lm9lj6jb7.skadnetwork","44jx6755aq.skadnetwork", "mtkv5xtk9e.skadnetwork"],
         "supportedAdTypes": [
@@ -14,12 +27,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAdcolony",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "ADMOB",
-        "SDKVersion": "8.2.0",
-        "adapterVersion": "8.2.0.1",
+        "SDKVersion": "8.4.0",
+        "adapterVersion": "8.4.0.0",
         "initParameterCount": 0,
         "skadnetworkIDS": ["cstr6suwn9.skadnetwork"],
         "supportedAdTypes": [
@@ -30,7 +45,9 @@
         ],
         "infoPlistKey": "GADApplicationIdentifier",
         "adapterName": "AMRAdapterAdmob",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "ADMOST",
@@ -47,7 +64,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAdmost",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "ADTIMING",
@@ -65,7 +84,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAdtiming",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "A4G",
@@ -83,7 +104,9 @@
         ],
         "infoPlistKey": "GADApplicationIdentifier",
         "adapterName": "AMRAdapterAdmob",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "AFA",
@@ -97,7 +120,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAFA",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "AMAZON",
@@ -114,12 +139,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAmazon",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "APPLOVIN",
-        "SDKVersion": "10.0.0",
-        "adapterVersion": "10.0.0.0",
+        "SDKVersion": "10.2.0",
+        "adapterVersion": "10.2.0.0",
         "initParameterCount": 0,
         "skadnetworkIDS": [
             "2u9pt9hc89.skadnetwork","4468km3ulz.skadnetwork","4fzdc2evr5.skadnetwork","7ug5zh24hu.skadnetwork","8s468mfl3y.skadnetwork","9rd848q2bz.skadnetwork","9t245vhmpl.skadnetwork","av6w8kgt66.skadnetwork","f38h382jlk.skadnetwork","hs6bdukanm.skadnetwork","kbd757ywx3.skadnetwork","ludvb6z3bs.skadnetwork","m8dbw4sv7c.skadnetwork","mlmmfzh3r3.skadnetwork","prcb7njmu6.skadnetwork","t38b2kh725.skadnetwork","tl55sbb4fm.skadnetwork","wzmmz9fp6w.skadnetwork","yclnxrl5pm.skadnetwork","ydx93a7ass.skadnetwork"
@@ -132,7 +159,9 @@
         ],
         "infoPlistKey": "AppLovinSdkKey",
         "adapterName": "AMRAdapterApplovin",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "APPNEXT",
@@ -149,7 +178,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAppnext",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "CHARTBOOST",
@@ -167,7 +198,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterChartboost",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"10.0"
       },
       {
         "network": "CRITEO",
@@ -185,12 +218,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterCriteo",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "FACEBOOK",
-        "SDKVersion": "6.3.0",
-        "adapterVersion": "6.3.0.1",
+        "SDKVersion": "6.4.1",
+        "adapterVersion": "6.4.1.0",
         "initParameterCount": 0,
         "skadnetworkIDS": [
             "v9wttpbfk9.skadnetwork",
@@ -204,7 +239,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterFacebook",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "FYBER",
@@ -218,7 +255,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterFyber",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "HYPRMX",
@@ -236,12 +275,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterHyprmx",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "INMOBI",
-        "SDKVersion": "9.1.5",
-        "adapterVersion": "9.1.5.1",
+        "SDKVersion": "9.1.7",
+        "adapterVersion": "9.1.7.0",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "uw77j35x4d.skadnetwork", "7ug5zh24hu.skadnetwork", "hs6bdukanm.skadnetwork", "4fzdc2evr5.skadnetwork", "ggvn48r87g.skadnetwork", "5lm9lj6jb7.skadnetwork", "9rd848q2bz.skadnetwork", "c6k4g5qg8m.skadnetwork", "wzmmz9fp6w.skadnetwork", "3sh42y64q3.skadnetwork", "yclnxrl5pm.skadnetwork", "kbd757ywx3.skadnetwork", "f73kdq92p3.skadnetwork", "ydx93a7ass.skadnetwork", "w9q455wk68.skadnetwork", "prcb7njmu6.skadnetwork", "wg4vff78zm.skadnetwork", "mlmmfzh3r3.skadnetwork", "tl55sbb4fm.skadnetwork", "4pfyvq9l8r.skadnetwork", "t38b2kh725.skadnetwork", "5l3tpt7t6e.skadnetwork", "7rz58n8ntl.skadnetwork", "klf5c3l5u5.skadnetwork", "cg4yq2srnc.skadnetwork", "av6w8kgt66.skadnetwork", "9t245vhmpl.skadnetwork", "v72qych5uu.skadnetwork", "2u9pt9hc89.skadnetwork", "44jx6755aq.skadnetwork", "8s468mfl3y.skadnetwork", "p78axxw29g.skadnetwork", "ppxm28t8ap.skadnetwork", "424m5254lk.skadnetwork"
@@ -254,7 +295,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterInmobi",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "INNERACTIVE",
@@ -271,12 +314,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterInneractive",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "IRONSOURCE",
-        "SDKVersion": "7.1.2",
-        "adapterVersion": "7.1.2.2",
+        "SDKVersion": "7.1.5",
+        "adapterVersion": "7.1.5.0",
         "initParameterCount": 4,
         "skadnetworkIDS": [
             "su67r6k2v3.skadnetwork"
@@ -287,7 +332,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterIronsource",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "LIFTOFF",
@@ -304,12 +351,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterLiftoff",
-        "unitySupport": false
+        "unitySupport": false,
+        "status":false,
+        "minTargetSdk":"10.0"
       },
       {
         "network": "MINTEGRAL",
-        "SDKVersion": "6.7.6",
-        "adapterVersion": "6.7.6.1",
+        "SDKVersion": "6.7.9",
+        "adapterVersion": "6.7.9.0",
         "initParameterCount": 2,
         "skadnetworkIDS": [
             "kbd757ywx3.skadnetwork"
@@ -322,7 +371,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMintegral",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "MOBFOX",
@@ -339,7 +390,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMobfox",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "MOPUB",
@@ -356,12 +409,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMopub",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "MYTARGET",
-        "SDKVersion": "5.10.0",
-        "adapterVersion": "5.10.0.0",
+        "SDKVersion": "5.10.3",
+        "adapterVersion": "5.10.3.0",
         "initParameterCount": 0,
         "skadnetworkIDS": [
         ],
@@ -373,10 +428,12 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMytarget",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
-        "network": "NEXTAGE",
+        "network": "NEXAGE",
         "SDKVersion": "6.8.2",
         "adapterVersion": "6.8.2.1",
         "initParameterCount": 1,
@@ -390,7 +447,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterNexage",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "OGURY",
@@ -407,7 +466,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterOgury",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"10.0"
       },
       {
         "network": "POLLFISH",
@@ -424,12 +485,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterPollfish",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "PUBNATIVE",
-        "SDKVersion": "2.2.1",
-        "adapterVersion": "2.2.1.0",
+        "SDKVersion": "2.4.4",
+        "adapterVersion": "2.4.4.0",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "tl55sbb4fm.skadnetwork",
@@ -443,7 +506,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterPubnative",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "QUMPARA",
@@ -460,7 +525,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterQumpara",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "SMAATO",
@@ -477,7 +544,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterSmaato",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "SMARTAD",
@@ -494,7 +563,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "",
-        "unitySupport": false
+        "unitySupport": false,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "STARTAPP",
@@ -512,7 +583,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterStartapp",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "TAPJOY",
@@ -530,7 +603,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTapjoy",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "TAPPX",
@@ -547,7 +622,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTappx",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "TAPRESEARCH",
@@ -564,12 +641,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTapresearch",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "TIKTOK",
-        "SDKVersion": "3.4.4.3",
-        "adapterVersion": "3.4.4.3",
+        "SDKVersion": "3.5.1.0",
+        "adapterVersion": "3.5.1.0",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "238da6jt44.skadnetwork",
@@ -583,7 +662,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTiktok",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "UNITYAD",
@@ -600,7 +681,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterUnity",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "VERIZON",
@@ -618,12 +701,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterVerizon",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"10.0"
       },
       {
         "network": "VUNGLE",
-        "SDKVersion": "6.9.1",
-        "adapterVersion": "6.9.1.2",
+        "SDKVersion": "6.9.2",
+        "adapterVersion": "6.9.2.0",
         "initParameterCount": 3,
         "skadnetworkIDS": [
             "gta9lk7p23.skadnetwork", "ydx93a7ass.skadnetwork", "4fzdc2evr5.skadnetwork", "4pfyvq9l8r.skadnetwork", "v72qych5uu.skadnetwork", "mlmmfzh3r3.skadnetwork", "c6k4g5qg8m.skadnetwork", "yclnxrl5pm.skadnetwork", "5lm9lj6jb7.skadnetwork", "n9x2a789qt.skadnetwork", "tl55sbb4fm.skadnetwork", "2u9pt9hc89.skadnetwork", "8s468mfl3y.skadnetwork", "glqzh8vgby.skadnetwork", "22mmun2rn5.skadnetwork", "3rd42ekr43.skadnetwork"
@@ -636,12 +721,14 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterVungle",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "YANDEX",
-        "SDKVersion": "3.4.0",
-        "adapterVersion": "3.4.0.1",
+        "SDKVersion": "4.1.0",
+        "adapterVersion": "4.1.0.0",
         "initParameterCount": 0,
         "skadnetworkIDS": [
         ],
@@ -653,7 +740,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterYandex",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"8.0"
       },
       {
         "network": "YOUAPPI",
@@ -670,7 +759,9 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterYouappi",
-        "unitySupport": true
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       }
     ]
 }
