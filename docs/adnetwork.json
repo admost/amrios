@@ -11,6 +11,7 @@
         "supportedAdTypes": [],
         "infoPlistKey": "",
         "adapterName": "AMRSDK",
+        "iosSupport": true,
         "unitySupport": true,
         "status":true,
         "minTargetSdk":"8.0"
@@ -31,6 +32,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAdcolony",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -51,6 +53,7 @@
         ],
         "infoPlistKey": "GADApplicationIdentifier",
         "adapterName": "AMRAdapterAdmob",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -72,6 +75,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAdmost",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -94,6 +98,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAdtiming",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -116,6 +121,7 @@
         ],
         "infoPlistKey": "GADApplicationIdentifier",
         "adapterName": "AMRAdapterAdmob",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -134,6 +140,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAFA",
+        "iosSupport": false,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -155,6 +162,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAmazon",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -177,6 +185,7 @@
         ],
         "infoPlistKey": "AppLovinSdkKey",
         "adapterName": "AMRAdapterApplovin",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -198,6 +207,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAppnext",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -218,6 +228,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAppsamurai",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -240,6 +251,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterChartboost",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"10.0"
@@ -262,6 +274,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterCriteo",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -282,6 +295,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterDFP",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -305,6 +319,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterFacebook",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -323,6 +338,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterFyber",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -345,6 +361,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterHyprmx",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -367,6 +384,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterInmobi",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -388,6 +406,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterInneractive",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -408,6 +427,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterIronsource",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -429,6 +449,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterLiftoff",
+        "iosSupport": false,
         "unitySupport": false,
         "status":false,
         "minTargetSdk":"10.0"
@@ -451,6 +472,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMintegral",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -472,6 +494,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMobfox",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -493,6 +516,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMopub",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -514,6 +538,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMytarget",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -535,6 +560,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterNexage",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -556,6 +582,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterOgury",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"10.0"
@@ -577,6 +604,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterPollfish",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -600,6 +628,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterPubnative",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -621,6 +650,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterQumpara",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -642,6 +672,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterSmaato",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -662,6 +693,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterSmartadserver",
+        "iosSupport": true,
         "unitySupport": false,
         "status":false,
         "minTargetSdk":"9.0"
@@ -684,6 +716,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterStartapp",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -706,6 +739,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTapjoy",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -727,6 +761,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTappx",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -748,6 +783,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTapresearch",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -771,6 +807,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTiktok",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -792,6 +829,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterUnity",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -814,6 +852,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterVerizon",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"10.0"
@@ -836,6 +875,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterVungle",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
@@ -857,6 +897,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterYandex",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
@@ -878,6 +919,7 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterYouappi",
+        "iosSupport": true,
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"

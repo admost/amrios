@@ -80,22 +80,6 @@ function fillPodFileCode() {
 function fillIos14FileCode(){
     var finalValues = [];
     var selectedNetworks = [];
-    
-    //$('#file-ios-14').text("<key>SKAdNetworkItems</key>");    
-    // for (var i = 1; i < obj.adNetworks.length; i++) {
-    //     if(obj.adNetworks[i].status == true){
-    //         selectedNetworks.push(obj.adNetworks[i]);
-    //         for(var j = 0 ; j<obj14.length;j++){
-    //             if(obj14[j].displayName == obj.adNetworks[i].displayName){
-    //                 for(k = 0; k < obj14[j].skAdNetwork.length;k++){
-    //                     if(!includesUpper(finalValues,obj14[j].skAdNetwork[k])){//if(!finalValues.includes(obj14[j].skAdNetwork[k])){
-    //                         finalValues.push(obj14[j].skAdNetwork[k]);
-    //                     }
-    //                 }
-    //             }
-    //         }            
-    //     }
-    // }
 
     //$('#file-ios-14').text("<key>SKAdNetworkItems</key>");    
     for (var i = 1; i < obj.adNetworks.length; i++) {
