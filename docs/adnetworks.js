@@ -53,6 +53,9 @@ function getPositionOfAdNetworkOnJSONArray(adNetworkName) {
 function fillAdNetworkList() {
     htmlString = '<div class="btn-group" style="margin:8px;" id="btn-group-network-AMR"> <button type="button" id="btn-name-network-AMR" class="btn btn-success">AMR</button>  </div>&nbsp;';
     for (var i = 1; i < obj.adNetworks.length; i++) {
+        if (obj.adNetworks[i].iosSupport == false) {
+            continue;
+        }
         htmlString = htmlString + '<div class="btn-group" style="margin:8px; id="btn-group-network-' + obj.adNetworks[i].displayName + '"> <button type="button" id="btn-name-network-' + obj.adNetworks[i].displayName + '" class="btn btn-default">' + obj.adNetworks[i].displayName + '</button> <button type="button" id="btn-icon-network-' + obj.adNetworks[i].displayName + '" onclick="toggleAdNetworkStatus(\'' + obj.adNetworks[i].displayName + '\');" class="btn btn-';
 
         obj.adNetworks[i].status ? htmlString = htmlString + "danger" : htmlString = htmlString + "success";
