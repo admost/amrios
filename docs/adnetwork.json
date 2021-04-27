@@ -101,9 +101,9 @@
       {
         "network": "A4G",
         "displayName": "A4G",
-        "SDKVersion": "8.2.0",
-        "adapterVersion": "8.2.0.1",
-        "podVersion": "8.2",
+        "SDKVersion": "8.4.0",
+        "adapterVersion": "8.4.0.0",
+        "podVersion": "8.4",
         "initParameterCount": 0,
         "skadnetworkIDS": [
             "cstr6suwn9.skadnetwork"
@@ -203,6 +203,26 @@
         "minTargetSdk":"8.0"
       },
       {
+        "network": "APPSAMURAI",
+        "displayName": "Appsamurai",
+        "SDKVersion": "1.4.1",
+        "adapterVersion": "1.4.1.0",
+        "podVersion": "1.4",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded"
+        ],
+        "infoPlistKey": "",
+        "adapterName": "AMRAdapterAppsamurai",
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
+      },
+      {
         "network": "CHARTBOOST",
         "displayName": "Chartboost",
         "SDKVersion": "8.4.1",
@@ -245,6 +265,26 @@
         "unitySupport": true,
         "status":false,
         "minTargetSdk":"8.0"
+      },
+      {
+        "network": "DFP",
+        "displayName": "DFP",
+        "SDKVersion": "8.4.0",
+        "adapterVersion": "8.4.0.0",
+        "podVersion": "8.4",
+        "initParameterCount": 0,
+        "skadnetworkIDS": [
+        ],
+        "supportedAdTypes": [
+          "Banner",
+          "Interstitial",
+          "Rewarded"
+        ],
+        "infoPlistKey": "",
+        "adapterName": "AMRAdapterDFP",
+        "unitySupport": true,
+        "status":false,
+        "minTargetSdk":"9.0"
       },
       {
         "network": "FACEBOOK",
@@ -607,8 +647,8 @@
         "minTargetSdk":"9.0"
       },
       {
-        "network": "SMARTAD",
-        "displayName": "SmartAd",
+        "network": "SMARTADSERVER",
+        "displayName": "Smartadserver",
         "SDKVersion": "7.8.0",
         "adapterVersion": "7.8.0.3",
         "podVersion": "7.8",
@@ -618,11 +658,10 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
-        "adapterName": "",
+        "adapterName": "AMRAdapterSmartadserver",
         "unitySupport": false,
         "status":false,
         "minTargetSdk":"9.0"
