@@ -2,8 +2,10 @@
     "adNetworks":
     [{
         "network": "AMR",
+        "displayName": "AMR",
         "SDKVersion": "1.4.62",
         "adapterVersion": "1.4.62",
+        "podVersion": "1.4",
         "initParameterCount": 1,
         "skadnetworkIDS": [],
         "supportedAdTypes": [],
@@ -15,8 +17,10 @@
       },
       {
         "network": "ADCOLONY",
+        "displayName": "AdColony",
         "SDKVersion": "4.6.0",
         "adapterVersion": "4.6.0.0",
+        "podVersion": "4.6",
         "initParameterCount": 4,
         "skadnetworkIDS": ["4pfyvq9l8r.skadnetwork","yclnxrl5pm.skadnetwork","v72qych5uu.skadnetwork","tl55sbb4fm.skadnetwork","t38b2kh725.skadnetwork","prcb7njmu6.skadnetwork","ppxm28t8ap.skadnetwork","mlmmfzh3r3.skadnetwork","klf5c3l5u5.skadnetwork","hs6bdukanm.skadnetwork","c6k4g5qg8m.skadnetwork","9t245vhmpl.skadnetwork","9rd848q2bz.skadnetwork","8s468mfl3y.skadnetwork","7ug5zh24hu.skadnetwork","4fzdc2evr5.skadnetwork","4468km3ulz.skadnetwork","3rd42ekr43.skadnetwork","2u9pt9hc89.skadnetwork","m8dbw4sv7c.skadnetwork","7rz58n8ntl.skadnetwork","ejvt5qm6ak.skadnetwork","5lm9lj6jb7.skadnetwork","44jx6755aq.skadnetwork", "mtkv5xtk9e.skadnetwork"],
         "supportedAdTypes": [
@@ -33,8 +37,10 @@
       },
       {
         "network": "ADMOB",
+        "displayName": "AdMob",
         "SDKVersion": "8.4.0",
         "adapterVersion": "8.4.0.0",
+        "podVersion": "8.4",
         "initParameterCount": 0,
         "skadnetworkIDS": ["cstr6suwn9.skadnetwork"],
         "supportedAdTypes": [
@@ -51,8 +57,10 @@
       },
       {
         "network": "ADMOST",
+        "displayName": "Admost",
         "SDKVersion": "1.4.2",
         "adapterVersion": "1.4.2.0",
+        "podVersion": "1.4",
         "initParameterCount": 0,
         "skadnetworkIDS": [
         ],
@@ -70,8 +78,10 @@
       },
       {
         "network": "ADTIMING",
+        "displayName": "Adtiming",
         "SDKVersion": "4.4.1",
         "adapterVersion": "4.4.1.0",
+        "podVersion": "4.4",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "488r3q3dtq.skadnetwork"
@@ -90,8 +100,10 @@
       },
       {
         "network": "A4G",
+        "displayName": "A4G",
         "SDKVersion": "8.2.0",
         "adapterVersion": "8.2.0.1",
+        "podVersion": "8.2",
         "initParameterCount": 0,
         "skadnetworkIDS": [
             "cstr6suwn9.skadnetwork"
@@ -110,8 +122,10 @@
       },
       {
         "network": "AFA",
+        "displayName": "AFA",
         "SDKVersion": "0.0.2",
         "adapterVersion": "0.0.2.0",
+        "podVersion": "0.1",
         "initParameterCount": 1,
         "skadnetworkIDS": [],
         "supportedAdTypes": [
@@ -126,8 +140,10 @@
       },
       {
         "network": "AMAZON",
+        "displayName": "Amazon",
         "SDKVersion": "3.1.0",
         "adapterVersion": "3.1.0.0",
+        "podVersion": "3.1",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -145,8 +161,10 @@
       },
       {
         "network": "APPLOVIN",
+        "displayName": "Applovin",
         "SDKVersion": "10.2.0",
         "adapterVersion": "10.2.0.0",
+        "podVersion": "10.2",
         "initParameterCount": 0,
         "skadnetworkIDS": [
             "2u9pt9hc89.skadnetwork","4468km3ulz.skadnetwork","4fzdc2evr5.skadnetwork","7ug5zh24hu.skadnetwork","8s468mfl3y.skadnetwork","9rd848q2bz.skadnetwork","9t245vhmpl.skadnetwork","av6w8kgt66.skadnetwork","f38h382jlk.skadnetwork","hs6bdukanm.skadnetwork","kbd757ywx3.skadnetwork","ludvb6z3bs.skadnetwork","m8dbw4sv7c.skadnetwork","mlmmfzh3r3.skadnetwork","prcb7njmu6.skadnetwork","t38b2kh725.skadnetwork","tl55sbb4fm.skadnetwork","wzmmz9fp6w.skadnetwork","yclnxrl5pm.skadnetwork","ydx93a7ass.skadnetwork"
@@ -165,8 +183,10 @@
       },
       {
         "network": "APPNEXT",
+        "displayName": "Appnext",
         "SDKVersion": "1.9.3",
         "adapterVersion": "1.9.3.2",
+        "podVersion": "1.9",
         "initParameterCount": 0,
         "skadnetworkIDS": [
         ],
@@ -184,8 +204,10 @@
       },
       {
         "network": "CHARTBOOST",
+        "displayName": "Chartboost",
         "SDKVersion": "8.4.1",
         "adapterVersion": "8.4.1.0",
+        "podVersion": "8.4",
         "initParameterCount": 2,
         "skadnetworkIDS": [
             "f38h382jlk.skadnetwork"
@@ -204,8 +226,10 @@
       },
       {
         "network": "CRITEO",
+        "displayName": "Criteo",
         "SDKVersion": "4.3.0",
         "adapterVersion": "4.3.0.0",
+        "podVersion": "4.3",
         "initParameterCount": 8,
         "skadnetworkIDS": [
             "hs6bdukanm.skadnetwork"
@@ -224,8 +248,10 @@
       },
       {
         "network": "FACEBOOK",
+        "displayName": "Facebook",
         "SDKVersion": "6.4.1",
         "adapterVersion": "6.4.1.0",
+        "podVersion": "6.4",
         "initParameterCount": 0,
         "skadnetworkIDS": [
             "v9wttpbfk9.skadnetwork",
@@ -245,8 +271,10 @@
       },
       {
         "network": "FYBER",
+        "displayName": "Fyber",
         "SDKVersion": "9.1.1",
         "adapterVersion": "9.1.1.0",
+        "podVersion": "9.1",
         "initParameterCount": 2,
         "skadnetworkIDS": [
         ],
@@ -261,8 +289,10 @@
       },
       {
         "network": "HYPRMX",
+        "displayName": "HyprMx",
         "SDKVersion": "5.4.5",
         "adapterVersion": "5.4.5.0",
+        "podVersion": "5.4",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "nu4557a4je.skadnetwork"
@@ -281,8 +311,10 @@
       },
       {
         "network": "INMOBI",
+        "displayName": "InMobi",
         "SDKVersion": "9.1.7",
         "adapterVersion": "9.1.7.0",
+        "podVersion": "9.1",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "uw77j35x4d.skadnetwork", "7ug5zh24hu.skadnetwork", "hs6bdukanm.skadnetwork", "4fzdc2evr5.skadnetwork", "ggvn48r87g.skadnetwork", "5lm9lj6jb7.skadnetwork", "9rd848q2bz.skadnetwork", "c6k4g5qg8m.skadnetwork", "wzmmz9fp6w.skadnetwork", "3sh42y64q3.skadnetwork", "yclnxrl5pm.skadnetwork", "kbd757ywx3.skadnetwork", "f73kdq92p3.skadnetwork", "ydx93a7ass.skadnetwork", "w9q455wk68.skadnetwork", "prcb7njmu6.skadnetwork", "wg4vff78zm.skadnetwork", "mlmmfzh3r3.skadnetwork", "tl55sbb4fm.skadnetwork", "4pfyvq9l8r.skadnetwork", "t38b2kh725.skadnetwork", "5l3tpt7t6e.skadnetwork", "7rz58n8ntl.skadnetwork", "klf5c3l5u5.skadnetwork", "cg4yq2srnc.skadnetwork", "av6w8kgt66.skadnetwork", "9t245vhmpl.skadnetwork", "v72qych5uu.skadnetwork", "2u9pt9hc89.skadnetwork", "44jx6755aq.skadnetwork", "8s468mfl3y.skadnetwork", "p78axxw29g.skadnetwork", "ppxm28t8ap.skadnetwork", "424m5254lk.skadnetwork"
@@ -301,8 +333,10 @@
       },
       {
         "network": "INNERACTIVE",
+        "displayName": "Inneractive",
         "SDKVersion": "7.8.2.0",
         "adapterVersion": "7.8.2.0",
+        "podVersion": "7.8",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -320,8 +354,10 @@
       },
       {
         "network": "IRONSOURCE",
+        "displayName": "IronSource",
         "SDKVersion": "7.1.5",
         "adapterVersion": "7.1.5.0",
+        "podVersion": "7.1",
         "initParameterCount": 4,
         "skadnetworkIDS": [
             "su67r6k2v3.skadnetwork"
@@ -338,8 +374,10 @@
       },
       {
         "network": "LIFTOFF",
+        "displayName": "Liftoff",
         "SDKVersion": "1.4.0",
         "adapterVersion": "1.4.0.0",
+        "podVersion": "1.4",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "7UG5ZH24HU.skadnetwork"
@@ -357,8 +395,10 @@
       },
       {
         "network": "MINTEGRAL",
+        "displayName": "Mintegral",
         "SDKVersion": "6.7.9",
         "adapterVersion": "6.7.9.0",
+        "podVersion": "6.7",
         "initParameterCount": 2,
         "skadnetworkIDS": [
             "kbd757ywx3.skadnetwork"
@@ -377,8 +417,10 @@
       },
       {
         "network": "MOBFOX",
+        "displayName": "Mobfox",
         "SDKVersion": "4.2.2",
         "adapterVersion": "4.2.2.1",
+        "podVersion": "4.2",
         "initParameterCount": 0,
         "skadnetworkIDS": [
         ],
@@ -396,8 +438,10 @@
       },
       {
         "network": "MOPUB",
+        "displayName": "Mopub",
         "SDKVersion": "5.15.0",
         "adapterVersion": "5.15.0.0",
+        "podVersion": "5.15",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -415,8 +459,10 @@
       },
       {
         "network": "MYTARGET",
+        "displayName": "MyTarget",
         "SDKVersion": "5.10.3",
         "adapterVersion": "5.10.3.0",
+        "podVersion": "5.10",
         "initParameterCount": 0,
         "skadnetworkIDS": [
         ],
@@ -434,8 +480,10 @@
       },
       {
         "network": "NEXAGE",
+        "displayName": "Nexage(AOL)",
         "SDKVersion": "6.8.2",
         "adapterVersion": "6.8.2.1",
+        "podVersion": "6.8",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -453,8 +501,10 @@
       },
       {
         "network": "OGURY",
+        "displayName": "Ogury",
         "SDKVersion": "2.3.2",
         "adapterVersion": "2.3.2.0",
+        "podVersion": "2.3",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -472,8 +522,10 @@
       },
       {
         "network": "POLLFISH",
+        "displayName": "Pollfish",
         "SDKVersion": "5.5.2",
         "adapterVersion": "5.5.2.1",
+        "podVersion": "5.5",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -491,8 +543,10 @@
       },
       {
         "network": "PUBNATIVE",
+        "displayName": "Pubnative",
         "SDKVersion": "2.4.4",
         "adapterVersion": "2.4.4.0",
+        "podVersion": "2.4",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "tl55sbb4fm.skadnetwork",
@@ -512,8 +566,10 @@
       },
       {
         "network": "QUMPARA",
+        "displayName": "Qumpara",
         "SDKVersion": "1.1.6",
         "adapterVersion": "1.1.6.1",
+        "podVersion": "1.1",
         "initParameterCount": 2,
         "skadnetworkIDS": [
         ],
@@ -531,8 +587,10 @@
       },
       {
         "network": "SMAATO",
+        "displayName": "Smaato",
         "SDKVersion": "21.6.10",
         "adapterVersion": "21.6.10.0",
+        "podVersion": "21.6",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -550,8 +608,10 @@
       },
       {
         "network": "SMARTAD",
+        "displayName": "SmartAd",
         "SDKVersion": "7.8.0",
         "adapterVersion": "7.8.0.3",
+        "podVersion": "7.8",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -569,8 +629,10 @@
       },
       {
         "network": "STARTAPP",
+        "displayName": "StartApp",
         "SDKVersion": "4.6.1",
         "adapterVersion": "4.6.1.0",
+        "podVersion": "4.6",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "5l3tpt7t6e.skadnetwork", "mlmmfzh3r3.skadnetwork", "hs6bdukanm.skadnetwork", "t38b2kh725.skadnetwork", "5lm9lj6jb7.skadnetwork", "v72qych5uu.skadnetwork"
@@ -589,8 +651,10 @@
       },
       {
         "network": "TAPJOY",
+        "displayName": "Tapjoy",
         "SDKVersion": "12.8.0",
         "adapterVersion": "12.8.0.0",
+        "podVersion": "12.8",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "ecpz2srf59.skadnetwork", "ecpz2srf59.skadnetwork","7ug5zh24hu.skadnetwork","9t245vhmpl.skadnetwork","prcb7njmu6.skadnetwork","5lm9lj6jb7.skadnetwork","578prtvx9j.skadnetwork","22mmun2rn5.skadnetwork","uw77j35x4d.skadnetwork","c6k4g5qg8m.skadnetwork","hs6bdukanm.skadnetwork","yclnxrl5pm.skadnetwork","3sh42y64q3.skadnetwork","cj5566h2ga.skadnetwork","klf5c3l5u5.skadnetwork","8s468mfl3y.skadnetwork","2u9pt9hc89.skadnetwork","7rz58n8ntl.skadnetwork","ppxm28t8ap.skadnetwork","5tjdwbrq8w.skadnetwork","238da6jt44.skadnetwork","24t9a8vw3c.skadnetwork","252b5q8x7y.skadnetwork","3qy4746246.skadnetwork","3rd42ekr43.skadnetwork","424m5254lk.skadnetwork","4468km3ulz.skadnetwork","44jx6755aq.skadnetwork","44n7hlldy6.skadnetwork","488r3q3dtq.skadnetwork","4fzdc2evr5.skadnetwork","4pfyvq9l8r.skadnetwork","523jb4fst2.skadnetwork","52fl2v3hgk.skadnetwork","5a6flpkh64.skadnetwork","5l3tpt7t6e.skadnetwork","737z793b9f.skadnetwork","97r2b46745.skadnetwork","9rd848q2bz.skadnetwork","9yg77x724h.skadnetwork","av6w8kgt66.skadnetwork","cg4yq2srnc.skadnetwork","cstr6suwn9.skadnetwork","dzg6xy7pwj.skadnetwork","ejvt5qm6ak.skadnetwork","f73kdq92p3.skadnetwork","g28c52eehv.skadnetwork","ggvn48r87g.skadnetwork","glqzh8vgby.skadnetwork","gvmwg8q7h5.skadnetwork","hdw39hrw9y.skadnetwork","kbd757ywx3.skadnetwork","lr83yxwka7.skadnetwork","m8dbw4sv7c.skadnetwork","mlmmfzh3r3.skadnetwork","mls7yz5dvl.skadnetwork","mtkv5xtk9e.skadnetwork","n66cz3y3bx.skadnetwork","n9x2a789qt.skadnetwork","nzq8sh4pbs.skadnetwork","p78axxw29g.skadnetwork","pu4na253f3.skadnetwork","s39g8k73mm.skadnetwork","t38b2kh725.skadnetwork","tl55sbb4fm.skadnetwork","u679fj5vs4.skadnetwork","v72qych5uu.skadnetwork","v79kvwwj4g.skadnetwork","w9q455wk68.skadnetwork","wg4vff78zm.skadnetwork","wzmmz9fp6w.skadnetwork","xy9t38ct57.skadnetwork","y45688jllp.skadnetwork","ydx93a7ass.skadnetwork","yrqqpx2mcb.skadnetwork","z4gj7hsk7h.skadnetwork","zmvfpc5aq8.skadnetwork"
@@ -609,8 +673,10 @@
       },
       {
         "network": "TAPPX",
+        "displayName": "Tappx",
         "SDKVersion": "4.0.5",
         "adapterVersion": "4.0.5.0",
+        "podVersion": "4.0",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -628,8 +694,10 @@
       },
       {
         "network": "TAPRESEARCH",
+        "displayName": "TapResearch",
         "SDKVersion": "2.0.8.0",
         "adapterVersion": "2.0.8.0",
+        "podVersion": "2.0",
         "initParameterCount": 0,
         "skadnetworkIDS": [
         ],
@@ -647,8 +715,10 @@
       },
       {
         "network": "TIKTOK",
+        "displayName": "TikTok",
         "SDKVersion": "3.5.1.0",
         "adapterVersion": "3.5.1.0",
+        "podVersion": "3.5",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "238da6jt44.skadnetwork",
@@ -668,8 +738,10 @@
       },
       {
         "network": "UNITYAD",
+        "displayName": "UnityAds",
         "SDKVersion": "3.6.0",
         "adapterVersion": "3.6.0.1",
+        "podVersion": "3.6",
         "initParameterCount": 1,
         "skadnetworkIDS": [ "4fzdc2evr5.skadnetwork","9rd848q2bz.skadnetwork","glqzh8vgby.skadnetwork","8s468mfl3y.skadnetwork","m8dbw4sv7c.skadnetwork","t38b2kh725.skadnetwork","424m5254lk.skadnetwork","f7s53z58qe.skadnetwork","ppxm28t8ap.skadnetwork","7ug5zh24hu.skadnetwork","kbd757ywx3.skadnetwork","lr83yxwka7.skadnetwork","tl55sbb4fm.skadnetwork","wzmmz9fp6w.skadnetwork","22mmun2rn5.skadnetwork","hs6bdukanm.skadnetwork","av6w8kgt66.skadnetwork","578prtvx9j.skadnetwork","4pfyvq9l8r.skadnetwork","f73kdq92p3.skadnetwork","44jx6755aq.skadnetwork","cstr6suwn9.skadnetwork","5a6flpkh64.skadnetwork","yclnxrl5pm.skadnetwork","ydx93a7ass.skadnetwork","5lm9lj6jb7.skadnetwork","32z4fx6l9h.skadnetwork","v79kvwwj4g.skadnetwork","3rd42ekr43.skadnetwork","f38h382jlk.skadnetwork","3qy4746246.skadnetwork","s39g8k73mm.skadnetwork","c6k4g5qg8m.skadnetwork","v72qych5uu.skadnetwork","zmvfpc5aq8.skadnetwork","2u9pt9hc89.skadnetwork","488r3q3dtq.skadnetwork","prcb7njmu6.skadnetwork","mlmmfzh3r3.skadnetwork","wg4vff78zm.skadnetwork","3sh42y64q3.skadnetwork","5tjdwbrq8w.skadnetwork","238da6jt44.skadnetwork","9t245vhmpl.skadnetwork","4468km3ulz.skadnetwork","4dzt52r2t5.skadnetwork"
         ],
@@ -687,8 +759,10 @@
       },
       {
         "network": "VERIZON",
+        "displayName": "Verizon",
         "SDKVersion": "1.9.0",
         "adapterVersion": "1.9.0.0",
+        "podVersion": "1.9",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "e5fvkxwrpn.skadnetwork"
@@ -707,8 +781,10 @@
       },
       {
         "network": "VUNGLE",
+        "displayName": "Vungle",
         "SDKVersion": "6.9.2",
         "adapterVersion": "6.9.2.0",
+        "podVersion": "6.9",
         "initParameterCount": 3,
         "skadnetworkIDS": [
             "gta9lk7p23.skadnetwork", "ydx93a7ass.skadnetwork", "4fzdc2evr5.skadnetwork", "4pfyvq9l8r.skadnetwork", "v72qych5uu.skadnetwork", "mlmmfzh3r3.skadnetwork", "c6k4g5qg8m.skadnetwork", "yclnxrl5pm.skadnetwork", "5lm9lj6jb7.skadnetwork", "n9x2a789qt.skadnetwork", "tl55sbb4fm.skadnetwork", "2u9pt9hc89.skadnetwork", "8s468mfl3y.skadnetwork", "glqzh8vgby.skadnetwork", "22mmun2rn5.skadnetwork", "3rd42ekr43.skadnetwork"
@@ -727,8 +803,10 @@
       },
       {
         "network": "YANDEX",
+        "displayName": "YandexAds",
         "SDKVersion": "4.1.0",
         "adapterVersion": "4.1.0.0",
+        "podVersion": "4.1",
         "initParameterCount": 0,
         "skadnetworkIDS": [
         ],
@@ -746,8 +824,10 @@
       },
       {
         "network": "YOUAPPI",
+        "displayName": "YouAppi",
         "SDKVersion": "5.0.0",
         "adapterVersion": "5.0.0.1",
+        "podVersion": "5.0",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
