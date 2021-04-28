@@ -7,7 +7,7 @@ var arrayAppGradlePackages = [];
 function amrInitPage() {
   //obj = adNetworkJson;
   //obj14 = ios14json;
-  response = httpGet("https://admost.github.io/amrios/networks.json");
+  response = httpGet("https://admost.github.io/amrios/adnetwork.json");
   obj = getNetworks(response);
   fillAdNetworkList(obj);
   htmlPodFile = "source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'9.0\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'AMRSDK\', \'~&gt; 1.2\'\r\n#mediation adapters\n";
