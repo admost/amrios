@@ -169,7 +169,7 @@
       },
       {
         "network": "APPLOVIN",
-        "displayName": "Applovin",
+        "displayName": "AppLovin",
         "SDKVersion": "10.2.0",
         "adapterVersion": "10.2.0.0",
         "podVersion": "10.2",
@@ -345,7 +345,7 @@
       },
       {
         "network": "HYPRMX",
-        "displayName": "HyprMx",
+        "displayName": "Hyprmx",
         "SDKVersion": "5.4.5",
         "adapterVersion": "5.4.5.0",
         "podVersion": "5.4",
@@ -545,7 +545,7 @@
       },
       {
         "network": "NEXAGE",
-        "displayName": "Nexage(AOL)",
+        "displayName": "Nexage",
         "SDKVersion": "6.8.2",
         "adapterVersion": "6.8.2.1",
         "podVersion": "6.8",
@@ -679,7 +679,7 @@
       },
       {
         "network": "SMARTADSERVER",
-        "displayName": "Smartadserver",
+        "displayName": "SmartAd",
         "SDKVersion": "7.8.0",
         "adapterVersion": "7.8.0.3",
         "podVersion": "7.8",
