@@ -1189,8 +1189,7 @@
         "adapterVersion": "4.1.0.0",
         "podVersion": "4.1",
         "initParameterCount": 0,
-        "skadnetworkIDS": [
-        ],
+        "skadnetworkIDS": ["zq492l623r.skadnetwork"],
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
