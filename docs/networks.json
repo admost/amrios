@@ -612,12 +612,12 @@
       {
         "network": "LIFTOFF",
         "displayName": "Liftoff",
-        "SDKVersion": "1.4.0",
-        "adapterVersion": "1.4.0.0",
-        "podVersion": "1.4",
+        "SDKVersion": "1.5.0",
+        "adapterVersion": "1.5.0.0",
+        "podVersion": "1.5",
         "initParameterCount": 1,
         "skadnetworkIDS": [
-            "7UG5ZH24HU.skadnetwork"
+            "7ug5zh24hu.skadnetwork"
         ],
         "supportedAdTypes": [
           "Banner",
