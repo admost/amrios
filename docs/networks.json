@@ -22,7 +22,7 @@
         "SDKVersion": "4.6.0",
         "adapterVersion": "4.6.0.0",
         "podVersion": "4.6",
-        "initParameterCount": 4,
+        "initParameterCount": 1,
         "skadnetworkIDS": ["4pfyvq9l8r.skadnetwork",
             "yclnxrl5pm.skadnetwork",
             "v72qych5uu.skadnetwork",
@@ -358,7 +358,7 @@
         "SDKVersion": "4.3.0",
         "adapterVersion": "4.3.0.0",
         "podVersion": "4.3",
-        "initParameterCount": 8,
+        "initParameterCount": 1,
         "skadnetworkIDS": [
             "hs6bdukanm.skadnetwork"
         ],
@@ -426,7 +426,7 @@
         "SDKVersion": "9.1.1",
         "adapterVersion": "9.1.1.0",
         "podVersion": "9.1",
-        "initParameterCount": 2,
+        "initParameterCount": 1,
         "skadnetworkIDS": ["ydx93a7ass.skadnetwork",
           "4fzdc2evr5.skadnetwork",
           "4pfyvq9l8r.skadnetwork",
@@ -586,7 +586,7 @@
         "iosSupport": true,
         "unitySupport": true,
         "status":false,
-        "minTargetSdk":"8.0"
+        "minTargetSdk":"10.0"
       },
       {
         "network": "IRONSOURCE",
@@ -594,7 +594,7 @@
         "SDKVersion": "7.1.5",
         "adapterVersion": "7.1.5.0",
         "podVersion": "7.1",
-        "initParameterCount": 4,
+        "initParameterCount": 1,
         "skadnetworkIDS": [
             "su67r6k2v3.skadnetwork"
         ],
@@ -1103,7 +1103,7 @@
         "SDKVersion": "6.10.0",
         "adapterVersion": "6.10.0.0",
         "podVersion": "6.10",
-        "initParameterCount": 3,
+        "initParameterCount": 1,
         "skadnetworkIDS": ["gta9lk7p23.skadnetwork",
             "p78axxw29g.skadnetwork",
             "4fzdc2evr5.skadnetwork",
