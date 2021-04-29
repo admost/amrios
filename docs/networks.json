@@ -3,8 +3,8 @@
     [{
         "network": "AMR",
         "displayName": "AMR",
-        "SDKVersion": "1.4.62",
-        "adapterVersion": "1.4.62",
+        "SDKVersion": "1.4.63",
+        "adapterVersion": "1.4.63",
         "podVersion": "1.4",
         "initParameterCount": 1,
         "skadnetworkIDS": [],
@@ -569,8 +569,8 @@
       {
         "network": "INNERACTIVE",
         "displayName": "Inneractive",
-        "SDKVersion": "7.8.2.0",
-        "adapterVersion": "7.8.2.0",
+        "SDKVersion": "7.8.3.0",
+        "adapterVersion": "7.8.3.0",
         "podVersion": "7.8",
         "initParameterCount": 1,
         "skadnetworkIDS": [
@@ -984,9 +984,9 @@
       {
         "network": "TIKTOK",
         "displayName": "TikTok",
-        "SDKVersion": "3.5.1.0",
-        "adapterVersion": "3.5.1.0",
-        "podVersion": "3.5",
+        "SDKVersion": "3.6.1.1",
+        "adapterVersion": "3.6.1.1",
+        "podVersion": "3.6",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "238da6jt44.skadnetwork",
@@ -1008,9 +1008,9 @@
       {
         "network": "UNITYAD",
         "displayName": "UnityAds",
-        "SDKVersion": "3.6.0",
-        "adapterVersion": "3.6.0.1",
-        "podVersion": "3.6",
+        "SDKVersion": "3.7.1",
+        "adapterVersion": "3.7.1.1",
+        "podVersion": "3.7",
         "initParameterCount": 1,
         "skadnetworkIDS": ["32z4fx6l9h.skadnetwork",
           "av6w8kgt66.skadnetwork",
@@ -1100,9 +1100,9 @@
       {
         "network": "VUNGLE",
         "displayName": "Vungle",
-        "SDKVersion": "6.9.2",
-        "adapterVersion": "6.9.2.0",
-        "podVersion": "6.9",
+        "SDKVersion": "6.10.0",
+        "adapterVersion": "6.10.0.0",
+        "podVersion": "6.10",
         "initParameterCount": 3,
         "skadnetworkIDS": ["gta9lk7p23.skadnetwork",
             "p78axxw29g.skadnetwork",
