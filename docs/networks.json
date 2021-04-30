@@ -127,9 +127,9 @@
       {
         "network": "ADMOST",
         "displayName": "Admost",
-        "SDKVersion": "1.4.2",
-        "adapterVersion": "1.4.2.0",
-        "podVersion": "1.4",
+        "SDKVersion": "1.5.0",
+        "adapterVersion": "1.5.0.0",
+        "podVersion": "1.5",
         "initParameterCount": 0,
         "skadnetworkIDS": [
         ],

@@ -5,7 +5,7 @@ function getIosNetworks() {
   {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"4.6", "minTargetSdk":"9.0"},
   {"name":"A4G","status":false,"pod":"AMRAdapterAdmob","version":"8.4", "minTargetSdk":"9.0"},
   {"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"8.4", "minTargetSdk":"9.0"},
-  {"name":"Admost","status":false,"pod":"AMRAdapterAdmost","version":"1.4", "minTargetSdk":"8.0"},
+  {"name":"Admost","status":false,"pod":"AMRAdapterAdmost","version":"1.5", "minTargetSdk":"8.0"},
   {"name":"Adtiming","status":false,"pod":"AMRAdapterAdtiming","version":"4.4", "minTargetSdk":"9.0"},
   {"name":"Amazon","status":false,"pod":"AMRAdapterAmazon","version":"3.1", "minTargetSdk":"9.0"},
   {"name":"AppLovin","status":false,"pod":"AMRAdapterApplovin","version":"10.2", "minTargetSdk":"9.0"},
