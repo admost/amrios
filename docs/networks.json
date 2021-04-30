@@ -61,8 +61,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAdcolony",
@@ -114,8 +113,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "GADApplicationIdentifier",
         "adapterName": "AMRAdapterAdmob",
@@ -136,8 +134,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAdmost",
@@ -159,8 +156,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAdtiming",
@@ -212,8 +208,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "GADApplicationIdentifier",
         "adapterName": "AMRAdapterAdmob",
@@ -252,9 +247,7 @@
         ],
         "supportedAdTypes": [
           "Banner",
-          "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Interstitial"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAmazon",
@@ -276,8 +269,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "AppLovinSdkKey",
         "adapterName": "AMRAdapterApplovin",
@@ -342,8 +334,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterChartboost",
@@ -364,9 +355,7 @@
         ],
         "supportedAdTypes": [
           "Banner",
-          "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Interstitial"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterCriteo",
@@ -410,8 +399,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterFacebook",
@@ -494,10 +482,8 @@
             "nu4557a4je.skadnetwork"
         ],
         "supportedAdTypes": [
-          "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterHyprmx",
@@ -556,8 +542,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterInmobi",
@@ -578,8 +563,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterInneractive",
@@ -600,7 +584,9 @@
         ],
         "supportedAdTypes": [
           "Banner",
-          "Interstitial"
+          "Interstitial",
+          "Rewarded",
+          "Offerwall"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterIronsource",
@@ -660,8 +646,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMintegral",
@@ -682,8 +667,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMobfox",
@@ -704,8 +688,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMopub",
@@ -726,8 +709,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterMytarget",
@@ -748,8 +730,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterNexage",
@@ -768,10 +749,8 @@
         "skadnetworkIDS": [
         ],
         "supportedAdTypes": [
-          "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterOgury",
@@ -790,9 +769,6 @@
         "skadnetworkIDS": [
         ],
         "supportedAdTypes": [
-          "Banner",
-          "Interstitial",
-          "Rewarded",
           "Offerwall"
         ],
         "infoPlistKey": "",
@@ -816,8 +792,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterPubnative",
@@ -836,9 +811,6 @@
         "skadnetworkIDS": [
         ],
         "supportedAdTypes": [
-          "Banner",
-          "Interstitial",
-          "Rewarded",
           "Offerwall"
         ],
         "infoPlistKey": "",
@@ -860,8 +832,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterSmaato",
@@ -904,8 +875,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterStartapp",
@@ -925,7 +895,6 @@
             "ecpz2srf59.skadnetwork", "ecpz2srf59.skadnetwork","7ug5zh24hu.skadnetwork","9t245vhmpl.skadnetwork","prcb7njmu6.skadnetwork","5lm9lj6jb7.skadnetwork","578prtvx9j.skadnetwork","22mmun2rn5.skadnetwork","uw77j35x4d.skadnetwork","c6k4g5qg8m.skadnetwork","hs6bdukanm.skadnetwork","yclnxrl5pm.skadnetwork","3sh42y64q3.skadnetwork","cj5566h2ga.skadnetwork","klf5c3l5u5.skadnetwork","8s468mfl3y.skadnetwork","2u9pt9hc89.skadnetwork","7rz58n8ntl.skadnetwork","ppxm28t8ap.skadnetwork","5tjdwbrq8w.skadnetwork","238da6jt44.skadnetwork","24t9a8vw3c.skadnetwork","252b5q8x7y.skadnetwork","3qy4746246.skadnetwork","3rd42ekr43.skadnetwork","424m5254lk.skadnetwork","4468km3ulz.skadnetwork","44jx6755aq.skadnetwork","44n7hlldy6.skadnetwork","488r3q3dtq.skadnetwork","4fzdc2evr5.skadnetwork","4pfyvq9l8r.skadnetwork","523jb4fst2.skadnetwork","52fl2v3hgk.skadnetwork","5a6flpkh64.skadnetwork","5l3tpt7t6e.skadnetwork","737z793b9f.skadnetwork","97r2b46745.skadnetwork","9rd848q2bz.skadnetwork","9yg77x724h.skadnetwork","av6w8kgt66.skadnetwork","cg4yq2srnc.skadnetwork","cstr6suwn9.skadnetwork","dzg6xy7pwj.skadnetwork","ejvt5qm6ak.skadnetwork","f73kdq92p3.skadnetwork","g28c52eehv.skadnetwork","ggvn48r87g.skadnetwork","glqzh8vgby.skadnetwork","gvmwg8q7h5.skadnetwork","hdw39hrw9y.skadnetwork","kbd757ywx3.skadnetwork","lr83yxwka7.skadnetwork","m8dbw4sv7c.skadnetwork","mlmmfzh3r3.skadnetwork","mls7yz5dvl.skadnetwork","mtkv5xtk9e.skadnetwork","n66cz3y3bx.skadnetwork","n9x2a789qt.skadnetwork","nzq8sh4pbs.skadnetwork","p78axxw29g.skadnetwork","pu4na253f3.skadnetwork","s39g8k73mm.skadnetwork","t38b2kh725.skadnetwork","tl55sbb4fm.skadnetwork","u679fj5vs4.skadnetwork","v72qych5uu.skadnetwork","v79kvwwj4g.skadnetwork","w9q455wk68.skadnetwork","wg4vff78zm.skadnetwork","wzmmz9fp6w.skadnetwork","xy9t38ct57.skadnetwork","y45688jllp.skadnetwork","ydx93a7ass.skadnetwork","yrqqpx2mcb.skadnetwork","z4gj7hsk7h.skadnetwork","zmvfpc5aq8.skadnetwork"
         ],
         "supportedAdTypes": [
-          "Banner",
           "Interstitial",
           "Rewarded",
           "Offerwall"
@@ -948,9 +917,7 @@
         ],
         "supportedAdTypes": [
           "Banner",
-          "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Interstitial"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTappx",
@@ -969,9 +936,6 @@
         "skadnetworkIDS": [
         ],
         "supportedAdTypes": [
-          "Banner",
-          "Interstitial",
-          "Rewarded",
           "Offerwall"
         ],
         "infoPlistKey": "",
@@ -993,10 +957,8 @@
             "22mmun2rn5.skadnetwork"
         ],
         "supportedAdTypes": [
-          "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTiktok",
@@ -1064,8 +1026,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterUnity",
@@ -1086,9 +1047,7 @@
         ],
         "supportedAdTypes": [
           "Banner",
-          "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Interstitial"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterVerizon",
@@ -1170,10 +1129,8 @@
             "32z4fx6l9h.skadnetwork",
             "3rd42ekr43.skadnetwork"],
         "supportedAdTypes": [
-          "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterVungle",
@@ -1193,8 +1150,7 @@
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterYandex",
@@ -1213,10 +1169,8 @@
         "skadnetworkIDS": [
         ],
         "supportedAdTypes": [
-          "Banner",
           "Interstitial",
-          "Rewarded",
-          "Offerwall"
+          "Rewarded"
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterYouappi",
