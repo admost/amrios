@@ -3,8 +3,8 @@
     [{
         "network": "AMR",
         "displayName": "AMR",
-        "SDKVersion": "1.4.63",
-        "adapterVersion": "1.4.63",
+        "SDKVersion": "1.4.64",
+        "adapterVersion": "1.4.64",
         "podVersion": "1.4",
         "initParameterCount": 1,
         "skadnetworkIDS": [],
@@ -232,7 +232,7 @@
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAFA",
         "iosSupport": false,
-        "unitySupport": true,
+        "unitySupport": false,
         "status":false,
         "minTargetSdk":"9.0"
       },
@@ -317,7 +317,7 @@
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAppsamurai",
         "iosSupport": true,
-        "unitySupport": true,
+        "unitySupport": false,
         "status":false,
         "minTargetSdk":"9.0"
       },
@@ -680,8 +680,8 @@
         "network": "MOPUB",
         "displayName": "Mopub",
         "SDKVersion": "5.15.0",
-        "adapterVersion": "5.15.0.0",
-        "podVersion": "5.15",
+        "adapterVersion": "5.14.1.0",
+        "podVersion": "5.14",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -762,9 +762,9 @@
       {
         "network": "POLLFISH",
         "displayName": "Pollfish",
-        "SDKVersion": "5.5.2",
-        "adapterVersion": "5.5.2.1",
-        "podVersion": "5.5",
+        "SDKVersion": "5.0.0",
+        "adapterVersion": "5.0.0.1",
+        "podVersion": "5.0",
         "initParameterCount": 1,
         "skadnetworkIDS": [
         ],
@@ -774,7 +774,7 @@
         "infoPlistKey": "",
         "adapterName": "AMRAdapterPollfish",
         "iosSupport": true,
-        "unitySupport": true,
+        "unitySupport": false,
         "status":false,
         "minTargetSdk":"8.0"
       },
@@ -782,7 +782,7 @@
         "network": "PUBNATIVE",
         "displayName": "Pubnative",
         "SDKVersion": "2.4.4",
-        "adapterVersion": "2.4.4.0",
+        "adapterVersion": "2.4.4.1",
         "podVersion": "2.4",
         "initParameterCount": 1,
         "skadnetworkIDS": [
@@ -930,7 +930,7 @@
         "network": "TAPRESEARCH",
         "displayName": "TapResearch",
         "SDKVersion": "2.0.8.0",
-        "adapterVersion": "2.0.8.0",
+        "adapterVersion": "2.0.8.1",
         "podVersion": "2.0",
         "initParameterCount": 0,
         "skadnetworkIDS": [
@@ -941,7 +941,7 @@
         "infoPlistKey": "",
         "adapterName": "AMRAdapterTapresearch",
         "iosSupport": true,
-        "unitySupport": true,
+        "unitySupport": false,
         "status":false,
         "minTargetSdk":"8.0"
       },
