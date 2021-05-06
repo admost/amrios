@@ -554,8 +554,8 @@
       {
         "network": "INNERACTIVE",
         "displayName": "Inneractive",
-        "SDKVersion": "7.8.5.0",
-        "adapterVersion": "7.8.5.0",
+        "SDKVersion": "7.8.3.0",
+        "adapterVersion": "7.8.3.0",
         "podVersion": "7.8",
         "initParameterCount": 1,
         "skadnetworkIDS": ["ydx93a7ass.skadnetwork",
