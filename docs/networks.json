@@ -886,7 +886,7 @@
         "minTargetSdk":"9.0"
       },
       {
-        "network": "SMARTADSERVER",
+        "network": "SMARTAD",
         "displayName": "SmartAd",
         "SDKVersion": "7.8.0",
         "adapterVersion": "7.8.0.3",
