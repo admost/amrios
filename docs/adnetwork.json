@@ -231,8 +231,8 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterAFA",
-        "iosSupport": false,
-        "unitySupport": false,
+        "iosSupport": true,
+        "unitySupport": true,
         "status":false,
         "minTargetSdk":"9.0"
       },
