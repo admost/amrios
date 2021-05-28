@@ -1010,8 +1010,7 @@
         "adapterVersion": "5.10.3.0",
         "podVersion": "5.10",
         "initParameterCount": 0,
-        "skadnetworkIDS": [
-        ],
+        "skadnetworkIDS": ["n9x2a789qt.skadnetwork", "r26jy69rpl.skadnetwork"],
         "supportedAdTypes": [
           "Banner",
           "Interstitial",
@@ -1176,7 +1175,7 @@
         "podVersion": "4.6",
         "initParameterCount": 1,
         "skadnetworkIDS": [
-            "5l3tpt7t6e.skadnetwork", "mlmmfzh3r3.skadnetwork", "hs6bdukanm.skadnetwork", "t38b2kh725.skadnetwork", "5lm9lj6jb7.skadnetwork", "v72qych5uu.skadnetwork"
+            "5l3tpt7t6e.skadnetwork", "mlmmfzh3r3.skadnetwork", "hs6bdukanm.skadnetwork", "t38b2kh725.skadnetwork", "5lm9lj6jb7.skadnetwork", "v72qych5uu.skadnetwork", "k674qkevps.skadnetwork"
         ],
         "supportedAdTypes": [
           "Banner",
