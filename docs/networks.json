@@ -837,8 +837,8 @@
         ],
         "infoPlistKey": "",
         "adapterName": "AMRAdapterLiftoff",
-        "iosSupport": false,
-        "unitySupport": false,
+        "iosSupport": true,
+        "unitySupport": true,
         "status":false,
         "minTargetSdk":"10.0"
       },
