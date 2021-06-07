@@ -1107,27 +1107,6 @@
         "minTargetSdk":"9.0"
       },
       {
-        "network": "PREMIUM",
-        "displayName": "Premium",
-        "SDKVersion": "1.5.5",
-        "adapterVersion": "1.5.5.0",
-        "podVersion": "1.5",
-        "initParameterCount": 0,
-        "skadnetworkIDS": [
-        ],
-        "supportedAdTypes": [
-          "Banner",
-          "Interstitial",
-          "Rewarded"
-        ],
-        "infoPlistKey": "",
-        "adapterName": "AMRAdapterAdmost",
-        "iosSupport": false,
-        "unitySupport": false,
-        "status":false,
-        "minTargetSdk":"8.0"
-      },
-      {
         "network": "QUMPARA",
         "displayName": "Qumpara",
         "SDKVersion": "1.1.6",
