@@ -139,6 +139,7 @@
                         <li><a href="#sscallbacks">Server to Server Callbacks</a> </li>
                         <li><a href="#privacycheck">Privacy Consent Required </a></li>
                         <li><a href="#appprivacy">Apple App Privacy <span class="label label-teal">New</span></a></li>
+                        <li><a href="#remoteconfig">Remote Config <span class="label label-teal">New</span></a></li>
                     </ul>
                 </li>
             </ul>
@@ -1407,6 +1408,36 @@ Starting December 8, 2020, Apple has announced a privacy disclosure for the App 
                     <li><b>Advertising Data</b> – Analytics purposes
                     </li>
                 </ul>
+
+                <h3 id="remoteconfig">Remote Config </h3>
+
+                <p>
+                    Admost Remote config is a feature for defining and updating server side parameters from the Admost dashboard. You can define the parameters in long, double, boolean and string types. Example usage is as follows;
+                </p>
+
+				<pre><code class="language-objectivec">
+/* it is required to call value functions after Admost initialization
+   otherwise default value will be used. */
+[AMRSDK fetchRemoteConfigWithCompletion:^(AMRError * _Nonnull) {
+    [AMRSDK getConfigForKey:@""].stringValue;
+    [AMRSDK getConfigForKey:@""].numberValue;
+    [AMRSDK getConfigForKey:@""].boolValue;
+}];
+                </code></pre>
+
+                <pre><code class="language-swift">
+/* it is required to call value functions after Admost initialization
+   otherwise default value will be used. */
+AMRSDK.fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
+    AMRSDK.getConfigForKey("").stringValue;
+    AMRSDK.getConfigForKey("").numberValue;
+    AMRSDK.getConfigForKey("").boolValue;
+}
+                </code></pre>
+
+                <p>
+                    You can also run A/B tests for remote config parameters with or without bundling other test parameters. You do not have to do anything to run or join these tests on client side, random percentile targeting feature of the sdk will handle it itself. You can define these tests and target your audiences from the dashboard's A/B test menu.
+                </p>
 
             </section>
         </article>
