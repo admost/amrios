@@ -3,8 +3,8 @@
     [{
         "network": "AMR",
         "displayName": "AMR",
-        "SDKVersion": "1.4.68",
-        "adapterVersion": "1.4.68",
+        "SDKVersion": "1.4.69",
+        "adapterVersion": "1.4.69",
         "podVersion": "1.4",
         "initParameterCount": 1,
         "skadnetworkIDS": [],
@@ -823,9 +823,9 @@
       {
         "network": "LIFTOFF",
         "displayName": "Liftoff",
-        "SDKVersion": "1.5.0",
-        "adapterVersion": "1.5.0.0",
-        "podVersion": "1.5",
+        "SDKVersion": "1.6.1",
+        "adapterVersion": "1.6.1.0",
+        "podVersion": "1.6",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "7ug5zh24hu.skadnetwork"
