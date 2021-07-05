@@ -3,8 +3,8 @@ function getIosNetworks() {
   {"ad_networks":
   [{"name":"AMR","status":true,"pod":"AMRSDK","version":"1.4", "minTargetSdk":"8.0"},
   {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"4.6", "minTargetSdk":"9.0"},
-  {"name":"A4G","status":false,"pod":"AMRAdapterAdmob","version":"8.6", "minTargetSdk":"9.0"},
-  {"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"8.6", "minTargetSdk":"9.0"},
+  {"name":"A4G","status":false,"pod":"AMRAdapterAdmob","version":"8.7", "minTargetSdk":"9.0"},
+  {"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"8.7", "minTargetSdk":"9.0"},
   {"name":"Admost","status":false,"pod":"AMRAdapterAdmost","version":"1.6", "minTargetSdk":"8.0"},
   {"name":"Adtiming","status":false,"pod":"AMRAdapterAdtiming","version":"4.4", "minTargetSdk":"9.0"},
   {"name":"AFA","status":false,"pod":"AMRAdapterAFA","version":"0.3", "minTargetSdk":"9.0"},
@@ -32,16 +32,16 @@ function getIosNetworks() {
   {"name":"Pollfish","status":false,"pod":"AMRAdapterPollfish","version":"5.0", "minTargetSdk":"8.0"},
   {"name":"Pubnative","status":false,"pod":"AMRAdapterPubnative","version":"2.4", "minTargetSdk":"9.0"},
   {"name":"Smaato","status":false,"pod":"AMRAdapterSmaato","version":"21.6", "minTargetSdk":"9.0"},
-  {"name":"SmartAd","status":false,"pod":"AMRAdapterSmartadserver","version":"7.8", "minTargetSdk":"9.0"},
+  {"name":"SmartAd","status":false,"pod":"AMRAdapterSmartadserver","version":"7.12", "minTargetSdk":"9.0"},
   {"name":"StartApp","status":false,"pod":"AMRAdapterStartapp","version":"4.6", "minTargetSdk":"8.0"},
   {"name":"Tapjoy","status":false,"pod":"AMRAdapterTapjoy","version":"12.8", "minTargetSdk":"8.0"},
   {"name":"Tappx","status":false,"pod":"AMRAdapterTappx","version":"4.0", "minTargetSdk":"9.0"},
   {"name":"TapResearch","status":false,"pod":"AMRAdapterTapresearch","version":"2.0", "minTargetSdk":"8.0"},
-  {"name":"TikTok","status":false,"pod":"AMRAdapterTiktok","version":"3.6", "minTargetSdk":"9.0"},
+  {"name":"TikTok","status":false,"pod":"AMRAdapterTiktok","version":"3.8", "minTargetSdk":"9.0"},
   {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.7", "minTargetSdk":"9.0"},
   {"name":"Verizon","status":false,"pod":"AMRAdapterVerizon","version":"1.9", "minTargetSdk":"10.0"},
   {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.9", "minTargetSdk":"9.0"},
-  {"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"4.1", "minTargetSdk":"8.0"},
+  {"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"4.2", "minTargetSdk":"8.0"},
   {"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"5.0", "minTargetSdk":"9.0"}]}`);
 }
 
