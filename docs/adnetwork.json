@@ -1433,8 +1433,8 @@
       {
         "network": "TAPPX",
         "displayName": "Tappx",
-        "SDKVersion": "4.0.8",
-        "adapterVersion": "4.0.8.0",
+        "SDKVersion": "4.0.5",
+        "adapterVersion": "4.0.5.0",
         "podVersion": "4.0",
         "initParameterCount": 1,
         "skadnetworkIDS": [
@@ -1472,9 +1472,9 @@
       {
         "network": "TIKTOK",
         "displayName": "TikTok",
-        "SDKVersion": "3.8.0.0",
-        "adapterVersion": "3.8.0.0",
-        "podVersion": "3.8",
+        "SDKVersion": "3.6.1.1",
+        "adapterVersion": "3.6.1.1",
+        "podVersion": "3.6",
         "initParameterCount": 1,
         "skadnetworkIDS": [
             "238da6jt44.skadnetwork",
