@@ -37,7 +37,7 @@ function getIosNetworks() {
   {"name":"Tapjoy","status":false,"pod":"AMRAdapterTapjoy","version":"12.8", "minTargetSdk":"8.0"},
   {"name":"Tappx","status":false,"pod":"AMRAdapterTappx","version":"4.0", "minTargetSdk":"9.0"},
   {"name":"TapResearch","status":false,"pod":"AMRAdapterTapresearch","version":"2.0", "minTargetSdk":"8.0"},
-  {"name":"TikTok","status":false,"pod":"AMRAdapterTiktok","version":"3.6", "minTargetSdk":"9.0"},
+  {"name":"TikTok","status":false,"pod":"AMRAdapterTiktok","version":"3.7", "minTargetSdk":"9.0"},
   {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.7", "minTargetSdk":"9.0"},
   {"name":"Verizon","status":false,"pod":"AMRAdapterVerizon","version":"1.9", "minTargetSdk":"10.0"},
   {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.9", "minTargetSdk":"9.0"},
