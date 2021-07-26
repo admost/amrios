@@ -1307,8 +1307,8 @@
     {
       "network": "STARTAPP",
       "displayName": "StartApp",
-      "SDKVersion": "4.6.4",
-      "adapterVersion": "4.6.4.0",
+      "SDKVersion": "4.6.6",
+      "adapterVersion": "4.6.6.0",
       "podVersion": "4.6",
       "initParameterCount": 1,
       "skadnetworkIDS": [
