@@ -3,8 +3,8 @@ function getIosNetworks() {
   {"ad_networks":
   [{"name":"AMR","status":true,"pod":"AMRSDK","version":"1.4", "minTargetSdk":"8.0"},
   {"name":"AdColony","status":false,"pod":"AMRAdapterAdcolony","version":"4.6", "minTargetSdk":"9.0"},
-  {"name":"A4G","status":false,"pod":"AMRAdapterAdmob","version":"8.7", "minTargetSdk":"9.0"},
-  {"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"8.7", "minTargetSdk":"9.0"},
+  {"name":"A4G","status":false,"pod":"AMRAdapterAdmob","version":"8.8", "minTargetSdk":"9.0"},
+  {"name":"AdMob","status":false,"pod":"AMRAdapterAdmob","version":"8.8", "minTargetSdk":"9.0"},
   {"name":"Admost","status":false,"pod":"AMRAdapterAdmost","version":"1.6", "minTargetSdk":"8.0"},
   {"name":"Adtiming","status":false,"pod":"AMRAdapterAdtiming","version":"4.4", "minTargetSdk":"9.0"},
   {"name":"AFA","status":false,"pod":"AMRAdapterAFA","version":"0.3", "minTargetSdk":"9.0"},
@@ -25,7 +25,7 @@ function getIosNetworks() {
   {"name":"Mintegral","status":false,"pod":"AMRAdapterMintegral","version":"6.9", "minTargetSdk":"9.0"},
   {"name":"Mobfox","status":false,"pod":"AMRAdapterMobfox","version":"4.2", "minTargetSdk":"9.0"},
   {"name":"Mopub","status":false,"pod":"AMRAdapterMopub","version":"5.14", "minTargetSdk":"9.0"},
-  {"name":"MyTarget","status":false,"pod":"AMRAdapterMytarget","version":"5.11", "minTargetSdk":"9.0"},
+  {"name":"MyTarget","status":false,"pod":"AMRAdapterMytarget","version":"5.12", "minTargetSdk":"9.0"},
   {"name":"Nexage(AOL)","status":false,"pod":"AMRAdapterNexage","version":"6.8", "minTargetSdk":"8.0"},
   {"name":"Ogury","status":false,"pod":"AMRAdapterOgury","version":"2.3", "minTargetSdk":"10.0"},
   {"name":"Qumpara","status":false,"pod":"AMRAdapterQumpara","version":"1.1", "minTargetSdk":"9.0"},
@@ -40,8 +40,8 @@ function getIosNetworks() {
   {"name":"TikTok","status":false,"pod":"AMRAdapterTiktok","version":"3.7", "minTargetSdk":"9.0"},
   {"name":"UnityAds","status":false,"pod":"AMRAdapterUnity","version":"3.7", "minTargetSdk":"9.0"},
   {"name":"Verizon","status":false,"pod":"AMRAdapterVerizon","version":"1.13", "minTargetSdk":"10.0"},
-  {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.9", "minTargetSdk":"9.0"},
-  {"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"4.2", "minTargetSdk":"8.0"},
+  {"name":"Vungle","status":false,"pod":"AMRAdapterVungle","version":"6.10", "minTargetSdk":"9.0"},
+  {"name":"YandexAds","status":false,"pod":"AMRAdapterYandex","version":"4.3", "minTargetSdk":"8.0"},
   {"name":"YouAppi","status":false,"pod":"AMRAdapterYouappi","version":"5.0", "minTargetSdk":"9.0"}]}`);
 }
 
