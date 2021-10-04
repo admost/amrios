@@ -1586,8 +1586,8 @@
     {
       "network": "VUNGLE",
       "displayName": "Vungle",
-      "SDKVersion": "6.10.1",
-      "adapterVersion": "6.10.1.4",
+      "SDKVersion": "6.10.3",
+      "adapterVersion": "6.10.3.1",
       "podVersion": "6.10",
       "initParameterCount": 1,
       "skadnetworkIDS": ["gta9lk7p23.skadnetwork",
@@ -1664,7 +1664,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"10.0"
     },
     {
       "network": "YANDEX",
