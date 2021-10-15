@@ -3,8 +3,8 @@
   [{
       "network": "AMR",
       "displayName": "AMR",
-      "SDKVersion": "1.4.83",
-      "adapterVersion": "1.4.83",
+      "SDKVersion": "1.4.84",
+      "adapterVersion": "1.4.84",
       "podVersion": "1.4",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
@@ -311,8 +311,8 @@
     {
       "network": "APPLOVIN",
       "displayName": "AppLovin",
-      "SDKVersion": "10.3.5",
-      "adapterVersion": "10.3.5.0",
+      "SDKVersion": "10.3.6",
+      "adapterVersion": "10.3.6.0",
       "podVersion": "10.3",
       "initParameterCount": 0,
       "skadnetworkIDS": ["24t9a8vw3c.skadnetwork",
@@ -877,7 +877,7 @@
       "network": "LIFTOFF",
       "displayName": "Liftoff",
       "SDKVersion": "1.7.0",
-      "adapterVersion": "1.7.0.1",
+      "adapterVersion": "1.7.0.2",
       "podVersion": "1.7",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1473,9 +1473,9 @@
     {
       "network": "TIKTOK",
       "displayName": "TikTok",
-      "SDKVersion": "3.8.1.0",
-      "adapterVersion": "3.8.1.0",
-      "podVersion": "3.8",
+      "SDKVersion": "4.0.0.2",
+      "adapterVersion": "4.0.0.2",
+      "podVersion": "4.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [
           "238da6jt44.skadnetwork",
