@@ -629,9 +629,9 @@
     {
       "network": "FYBER",
       "displayName": "Fyber",
-      "SDKVersion": "9.1.1",
-      "adapterVersion": "9.1.1.0",
-      "podVersion": "9.1",
+      "SDKVersion": "7.9.0",
+      "adapterVersion": "7.9.0.2",
+      "podVersion": "7.9",
       "initParameterCount": 1,
       "skadnetworkIDS": ["ydx93a7ass.skadnetwork",
         "4fzdc2evr5.skadnetwork",
@@ -680,14 +680,16 @@
         "zq492l623r.skadnetwork",
         "22mmun2rn5.skadnetwork"],
       "supportedAdTypes": [
-        "Offerwall"
+          "Banner",
+          "Interstitial",
+          "Rewarded"
       ],
       "infoPlistKey": "",
       "adapterName": "AMRAdapterFyber",
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "HYPRMX",
