@@ -16,7 +16,7 @@ function getIosNetworks() {
   {"name":"Criteo","status":false,"pod":"AMRAdapterCriteo","version":"4.3", "minTargetSdk":"8.0"},
   {"name":"DFP","status":false,"pod":"AMRAdapterDFP","version":"8.9", "minTargetSdk":"8.0"},
   {"name":"Facebook","status":false,"pod":"AMRAdapterFacebook","version":"6.7", "minTargetSdk":"9.0"},
-  {"name":"Fyber","status":false,"pod":"AMRAdapterFyber","version":"9.1", "minTargetSdk":"8.0"},
+  {"name":"Fyber","status":false,"pod":"AMRAdapterFyber","version":"7.9", "minTargetSdk":"8.0"},
   {"name":"HyprMx","status":false,"pod":"AMRAdapterHyprmx","version":"5.4", "minTargetSdk":"8.0"},
   {"name":"InMobi","status":false,"pod":"AMRAdapterInmobi","version":"9.2", "minTargetSdk":"9.0"},
   {"name":"IronSource","status":false,"pod":"AMRAdapterIronsource","version":"7.1", "minTargetSdk":"8.0"},
