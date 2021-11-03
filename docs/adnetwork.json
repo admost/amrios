@@ -631,9 +631,9 @@
     {
       "network": "DFP",
       "displayName": "DFP",
-      "SDKVersion": "8.9.0",
-      "adapterVersion": "8.9.0.0",
-      "podVersion": "8.9",
+      "SDKVersion": "8.12.0",
+      "adapterVersion": "8.12.0.0",
+      "podVersion": "8.12",
       "initParameterCount": 0,
       "skadnetworkIDS": [
       ],
