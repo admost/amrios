@@ -306,9 +306,9 @@
     {
       "network": "AFA",
       "displayName": "AFA",
-      "SDKVersion": "0.3.1",
-      "adapterVersion": "0.3.1.0",
-      "podVersion": "0.3",
+      "SDKVersion": "1.0.1",
+      "adapterVersion": "1.0.1.0",
+      "podVersion": "1.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
       "supportedAdTypes": [
