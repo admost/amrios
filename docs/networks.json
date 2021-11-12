@@ -1477,9 +1477,9 @@
     {
       "network": "TIKTOK",
       "displayName": "TikTok",
-      "SDKVersion": "4.0.0.2",
-      "adapterVersion": "4.0.0.2",
-      "podVersion": "4.0",
+      "SDKVersion": "3.8.1.0",
+      "adapterVersion": "3.8.1.0",
+      "podVersion": "3.8",
       "initParameterCount": 1,
       "skadnetworkIDS": [
           "238da6jt44.skadnetwork",
