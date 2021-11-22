@@ -3,8 +3,8 @@
   [{
       "network": "AMR",
       "displayName": "AMR",
-      "SDKVersion": "1.4.84",
-      "adapterVersion": "1.4.84",
+      "SDKVersion": "1.4.85",
+      "adapterVersion": "1.4.85",
       "podVersion": "1.4",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
@@ -345,8 +345,8 @@
     {
       "network": "APPLOVIN",
       "displayName": "AppLovin",
-      "SDKVersion": "10.3.6",
-      "adapterVersion": "10.3.6.0",
+      "SDKVersion": "10.3.7",
+      "adapterVersion": "10.3.7.0",
       "podVersion": "10.3",
       "initParameterCount": 0,
       "skadnetworkIDS": ["24t9a8vw3c.skadnetwork",
@@ -610,9 +610,9 @@
     {
       "network": "CRITEO",
       "displayName": "Criteo",
-      "SDKVersion": "4.3.3",
-      "adapterVersion": "4.3.3.0",
-      "podVersion": "4.3",
+      "SDKVersion": "4.4.0",
+      "adapterVersion": "4.4.0.0",
+      "podVersion": "4.4",
       "initParameterCount": 1,
       "skadnetworkIDS": [
           "hs6bdukanm.skadnetwork"
@@ -652,9 +652,9 @@
     {
       "network": "FACEBOOK",
       "displayName": "Facebook",
-      "SDKVersion": "6.8.0",
-      "adapterVersion": "6.8.0.0",
-      "podVersion": "6.8",
+      "SDKVersion": "6.9.0",
+      "adapterVersion": "6.9.0.0",
+      "podVersion": "6.9",
       "initParameterCount": 0,
       "skadnetworkIDS": [
           "v9wttpbfk9.skadnetwork",
@@ -850,8 +850,8 @@
     {
       "network": "IRONSOURCE",
       "displayName": "IronSource",
-      "SDKVersion": "7.1.11",
-      "adapterVersion": "7.1.11.0",
+      "SDKVersion": "7.1.12",
+      "adapterVersion": "7.1.12.0",
       "podVersion": "7.1",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -895,8 +895,8 @@
     {
       "network": "MINTEGRAL",
       "displayName": "Mintegral",
-      "SDKVersion": "7.0.3",
-      "adapterVersion": "7.0.3.0",
+      "SDKVersion": "7.0.4",
+      "adapterVersion": "7.0.4.0",
       "podVersion": "7.0",
       "initParameterCount": 2,
       "skadnetworkIDS": ["kbd757ywx3.skadnetwork",
@@ -1182,8 +1182,8 @@
     {
       "network": "SMAATO",
       "displayName": "Smaato",
-      "SDKVersion": "21.6.16",
-      "adapterVersion": "21.6.16.0",
+      "SDKVersion": "21.6.17",
+      "adapterVersion": "21.6.17.0",
       "podVersion": "21.6",
       "initParameterCount": 1,
       "skadnetworkIDS": ["uw77j35x4d.skadnetwork",
@@ -1477,9 +1477,9 @@
     {
       "network": "TIKTOK",
       "displayName": "TikTok",
-      "SDKVersion": "3.8.1.0",
-      "adapterVersion": "3.8.1.0",
-      "podVersion": "3.8",
+      "SDKVersion": "4.0.0.5",
+      "adapterVersion": "4.0.0.5",
+      "podVersion": "4.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [
           "238da6jt44.skadnetwork",
