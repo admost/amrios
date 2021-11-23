@@ -29,7 +29,7 @@ function getIosNetworks() {
   {"name":"Ogury","status":false,"pod":"AMRAdapterOgury","version":"2.5", "minTargetSdk":"10.0"},
   {"name":"Qumpara","status":false,"pod":"AMRAdapterQumpara","version":"1.1", "minTargetSdk":"9.0"},
   {"name":"Pollfish","status":false,"pod":"AMRAdapterPollfish","version":"5.0", "minTargetSdk":"8.0"},
-  {"name":"Pubnative","status":false,"pod":"AMRAdapterPubnative","version":"2.4", "minTargetSdk":"9.0"},
+  {"name":"Pubnative","status":false,"pod":"AMRAdapterPubNative","version":"2.4", "minTargetSdk":"9.0"},
   {"name":"Smaato","status":false,"pod":"AMRAdapterSmaato","version":"21.6", "minTargetSdk":"9.0"},
   {"name":"SmartAd","status":false,"pod":"AMRAdapterSmartadserver","version":"7.14", "minTargetSdk":"9.0"},
   {"name":"StartApp","status":false,"pod":"AMRAdapterStartapp","version":"4.6", "minTargetSdk":"8.0"},
