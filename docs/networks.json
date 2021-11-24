@@ -755,7 +755,7 @@
       "network": "HYPRMX",
       "displayName": "Hyprmx",
       "SDKVersion": "6.0.0",
-      "adapterVersion": "6.0.0.0",
+      "adapterVersion": "6.0.0.1",
       "podVersion": "6.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1102,7 +1102,7 @@
       "network": "OGURY",
       "displayName": "Ogury",
       "SDKVersion": "2.5.0",
-      "adapterVersion": "2.5.0.0",
+      "adapterVersion": "2.5.0.1",
       "podVersion": "2.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [
