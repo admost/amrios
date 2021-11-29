@@ -1154,7 +1154,7 @@
         "Rewarded"
       ],
       "infoPlistKey": "",
-      "adapterName": "AMRAdapterPubNative",
+      "adapterName": "AMRAdapterPubnative",
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
