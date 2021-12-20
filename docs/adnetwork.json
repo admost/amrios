@@ -3,9 +3,9 @@
   [{
       "network": "AMR",
       "displayName": "AMR",
-      "SDKVersion": "1.4.85",
-      "adapterVersion": "1.4.85",
-      "podVersion": "1.4",
+      "SDKVersion": "1.5.0",
+      "adapterVersion": "1.5.0",
+      "podVersion": "1.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
       "supportedAdTypes": [],
@@ -20,7 +20,7 @@
       "network": "ADCOLONY",
       "displayName": "AdColony",
       "SDKVersion": "4.7.2",
-      "adapterVersion": "4.7.2.0",
+      "adapterVersion": "4.7.2.1",
       "podVersion": "4.7",
       "initParameterCount": 1,
       "skadnetworkIDS": ["4pfyvq9l8r.skadnetwork",
@@ -90,13 +90,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "ADMOB",
       "displayName": "AdMob",
       "SDKVersion": "8.13.0",
-      "adapterVersion": "8.13.0.0",
+      "adapterVersion": "8.13.0.1",
       "podVersion": "8.13",
       "initParameterCount": 0,
       "skadnetworkIDS": ["cstr6suwn9.skadnetwork",
@@ -146,13 +147,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "ADMOST",
       "displayName": "Admost",
       "SDKVersion": "1.6.0",
-      "adapterVersion": "1.6.0.0",
+      "adapterVersion": "1.6.0.2",
       "podVersion": "1.6",
       "initParameterCount": 0,
       "skadnetworkIDS": [
@@ -167,13 +169,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "ADTIMING",
       "displayName": "Adtiming",
       "SDKVersion": "4.4.1",
-      "adapterVersion": "4.4.1.0",
+      "adapterVersion": "4.4.1.1",
       "podVersion": "4.4",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -189,14 +192,15 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "A4G",
       "displayName": "A4G",
-      "SDKVersion": "8.12.0",
-      "adapterVersion": "8.12.0.0",
-      "podVersion": "8.12",
+      "SDKVersion": "8.13.0",
+      "adapterVersion": "8.13.0.1",
+      "podVersion": "8.13",
       "initParameterCount": 0,
       "skadnetworkIDS": ["cstr6suwn9.skadnetwork",
         "4fzdc2evr5.skadnetwork",
@@ -245,14 +249,15 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "ADX",
       "displayName": "ADX",
-      "SDKVersion": "8.12.0",
-      "adapterVersion": "8.12.0.0",
-      "podVersion": "8.12",
+      "SDKVersion": "8.13.0",
+      "adapterVersion": "8.13.0.1",
+      "podVersion": "8.13",
       "initParameterCount": 0,
       "skadnetworkIDS": ["cstr6suwn9.skadnetwork",
         "4fzdc2evr5.skadnetwork",
@@ -301,13 +306,14 @@
       "iosSupport": false,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "AFA",
       "displayName": "AFA",
       "SDKVersion": "1.0.1",
-      "adapterVersion": "1.0.1.0",
+      "adapterVersion": "1.0.1.1",
       "podVersion": "1.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
@@ -320,13 +326,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "AMAZON",
       "displayName": "Amazon",
       "SDKVersion": "3.1.0",
-      "adapterVersion": "3.1.0.0",
+      "adapterVersion": "3.1.0.1",
       "podVersion": "3.1",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -340,13 +347,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "APPLOVIN",
       "displayName": "AppLovin",
       "SDKVersion": "10.3.7",
-      "adapterVersion": "10.3.7.0",
+      "adapterVersion": "10.3.7.1",
       "podVersion": "10.3",
       "initParameterCount": 0,
       "skadnetworkIDS": ["24t9a8vw3c.skadnetwork",
@@ -430,13 +438,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "APPNEXT",
       "displayName": "Appnext",
       "SDKVersion": "1.9.3",
-      "adapterVersion": "1.9.3.2",
+      "adapterVersion": "1.9.3.4",
       "podVersion": "1.9",
       "initParameterCount": 0,
       "skadnetworkIDS": [
@@ -452,13 +461,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "CHARTBOOST",
       "displayName": "Chartboost",
       "SDKVersion": "8.5.0",
-      "adapterVersion": "8.5.0.0",
+      "adapterVersion": "8.5.0.1",
       "podVersion": "8.5",
       "initParameterCount": 2,
       "skadnetworkIDS": ["2u9pt9hc89.skadnetwork",
@@ -584,13 +594,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"10.0"
+      "minTargetSdk":"10.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "CRITEO",
       "displayName": "Criteo",
       "SDKVersion": "4.4.0",
-      "adapterVersion": "4.4.0.0",
+      "adapterVersion": "4.4.0.1",
       "podVersion": "4.4",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -605,14 +616,15 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "DFP",
       "displayName": "DFP",
-      "SDKVersion": "8.12.0",
-      "adapterVersion": "8.12.0.0",
-      "podVersion": "8.12",
+      "SDKVersion": "8.13.0",
+      "adapterVersion": "8.13.0.1",
+      "podVersion": "8.13",
       "initParameterCount": 0,
       "skadnetworkIDS": [
       ],
@@ -626,13 +638,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "FACEBOOK",
       "displayName": "Facebook",
       "SDKVersion": "6.9.0",
-      "adapterVersion": "6.9.0.0",
+      "adapterVersion": "6.9.0.1",
       "podVersion": "6.9",
       "initParameterCount": 0,
       "skadnetworkIDS": [
@@ -649,13 +662,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "FYBER",
       "displayName": "Fyber",
       "SDKVersion": "7.9.0",
-      "adapterVersion": "7.9.0.2",
+      "adapterVersion": "7.9.0.3",
       "podVersion": "7.9",
       "initParameterCount": 1,
       "skadnetworkIDS": ["krvm3zuq6h.skadnetwork",
@@ -728,13 +742,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "HYPRMX",
       "displayName": "Hyprmx",
       "SDKVersion": "6.0.0",
-      "adapterVersion": "6.0.0.1",
+      "adapterVersion": "6.0.0.2",
       "podVersion": "6.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -749,14 +764,15 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "INMOBI",
       "displayName": "InMobi",
       "SDKVersion": "10.0.1",
-      "adapterVersion": "10.0.1.0",
-      "podVersion": "9.2",
+      "adapterVersion": "10.0.1.2",
+      "podVersion": "10.0",
       "initParameterCount": 1,
       "skadnetworkIDS": ["uw77j35x4d.skadnetwork",
         "7ug5zh24hu.skadnetwork",
@@ -824,13 +840,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "IRONSOURCE",
       "displayName": "IronSource",
       "SDKVersion": "7.1.12",
-      "adapterVersion": "7.1.12.0",
+      "adapterVersion": "7.1.12.1",
       "podVersion": "7.1",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -847,13 +864,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "LIFTOFF",
       "displayName": "Liftoff",
       "SDKVersion": "1.8.0",
-      "adapterVersion": "1.8.0.0",
+      "adapterVersion": "1.8.0.1",
       "podVersion": "1.8",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -869,13 +887,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"10.0"
+      "minTargetSdk":"10.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "MINTEGRAL",
       "displayName": "Mintegral",
       "SDKVersion": "7.0.4",
-      "adapterVersion": "7.0.4.0",
+      "adapterVersion": "7.0.4.1",
       "podVersion": "7.0",
       "initParameterCount": 2,
       "skadnetworkIDS": ["kbd757ywx3.skadnetwork",
@@ -907,13 +926,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "MOBFOX",
       "displayName": "Mobfox",
       "SDKVersion": "4.2.2",
-      "adapterVersion": "4.2.2.1",
+      "adapterVersion": "4.2.2.2",
       "podVersion": "4.2",
       "initParameterCount": 0,
       "skadnetworkIDS": [
@@ -928,13 +948,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "MOPUB",
       "displayName": "Mopub",
       "SDKVersion": "5.18.0",
-      "adapterVersion": "5.18.0.0",
+      "adapterVersion": "5.18.0.2",
       "podVersion": "5.18",
       "initParameterCount": 1,
       "skadnetworkIDS": ["22mmun2rn5.skadnetwork",
@@ -1034,13 +1055,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "MYTARGET",
       "displayName": "MyTarget",
       "SDKVersion": "5.14.1",
-      "adapterVersion": "5.14.1.0",
+      "adapterVersion": "5.14.1.2",
       "podVersion": "5.14",
       "initParameterCount": 0,
       "skadnetworkIDS": ["n9x2a789qt.skadnetwork", "r26jy69rpl.skadnetwork"],
@@ -1054,13 +1076,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "NEXAGE",
       "displayName": "Nexage",
       "SDKVersion": "6.8.2",
-      "adapterVersion": "6.8.2.1",
+      "adapterVersion": "6.8.2.2",
       "podVersion": "6.8",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1075,13 +1098,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "OGURY",
       "displayName": "Ogury",
       "SDKVersion": "2.5.0",
-      "adapterVersion": "2.5.0.1",
+      "adapterVersion": "2.5.0.2",
       "podVersion": "2.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1095,14 +1119,15 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"10.0"
+      "minTargetSdk":"10.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "POLLFISH",
       "displayName": "Pollfish",
-      "SDKVersion": "5.0.0",
-      "adapterVersion": "5.0.0.1",
-      "podVersion": "5.0",
+      "SDKVersion": "5.5.2",
+      "adapterVersion": "5.5.2.2",
+      "podVersion": "5.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [
       ],
@@ -1114,13 +1139,14 @@
       "iosSupport": true,
       "unitySupport": false,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "PUBNATIVE",
       "displayName": "Pubnative",
       "SDKVersion": "2.4.4",
-      "adapterVersion": "2.4.4.1",
+      "adapterVersion": "2.4.4.4",
       "podVersion": "2.4",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1137,7 +1163,8 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "QUMPARA",
@@ -1156,13 +1183,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "SMAATO",
       "displayName": "Smaato",
       "SDKVersion": "21.6.17",
-      "adapterVersion": "21.6.17.1",
+      "adapterVersion": "21.6.17.2",
       "podVersion": "21.6",
       "initParameterCount": 1,
       "skadnetworkIDS": ["uw77j35x4d.skadnetwork",
@@ -1264,13 +1292,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "SMARTAD",
       "displayName": "SmartAd",
       "SDKVersion": "7.14.0",
-      "adapterVersion": "7.14.0.0",
+      "adapterVersion": "7.14.0.1",
       "podVersion": "7.14",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1285,13 +1314,14 @@
       "iosSupport": true,
       "unitySupport": false,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "STARTAPP",
       "displayName": "StartApp",
       "SDKVersion": "4.6.7",
-      "adapterVersion": "4.6.7.1",
+      "adapterVersion": "4.6.7.2",
       "podVersion": "4.6",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1307,13 +1337,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "TAPJOY",
       "displayName": "Tapjoy",
       "SDKVersion": "12.8.1",
-      "adapterVersion": "12.8.1.0",
+      "adapterVersion": "12.8.1.1",
       "podVersion": "12.8",
       "initParameterCount": 1,
       "skadnetworkIDS": ["ecpz2srf59.skadnetwork",
@@ -1412,13 +1443,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "TAPPX",
       "displayName": "Tappx",
-      "SDKVersion": "4.0.5",
-      "adapterVersion": "4.0.5.0",
+      "SDKVersion": "4.0.9",
+      "adapterVersion": "4.0.9.1",
       "podVersion": "4.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1432,7 +1464,8 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "TAPRESEARCH",
@@ -1451,14 +1484,15 @@
       "iosSupport": true,
       "unitySupport": false,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "TIKTOK",
       "displayName": "TikTok",
-      "SDKVersion": "4.0.0.5",
-      "adapterVersion": "4.0.0.5",
-      "podVersion": "4.0",
+      "SDKVersion": "4.1.0.2",
+      "adapterVersion": "4.1.0.2",
+      "podVersion": "4.1",
       "initParameterCount": 1,
       "skadnetworkIDS": [
           "238da6jt44.skadnetwork",
@@ -1473,14 +1507,15 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "UNITYAD",
       "displayName": "UnityAds",
-      "SDKVersion": "3.7.5",
-      "adapterVersion": "3.7.5.0",
-      "podVersion": "3.7",
+      "SDKVersion": "4.0.0",
+      "adapterVersion": "4.0.0.0",
+      "podVersion": "4.0",
       "initParameterCount": 1,
       "skadnetworkIDS": ["zmvfpc5aq8.skadnetwork",
         "4pfyvq9l8r.skadnetwork",
@@ -1543,13 +1578,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "VERIZON",
       "displayName": "Verizon",
       "SDKVersion": "1.14.0",
-      "adapterVersion": "1.14.0.0",
+      "adapterVersion": "1.14.0.2",
       "podVersion": "1.14",
       "initParameterCount": 1,
       "skadnetworkIDS": ["e5fvkxwrpn.skadnetwork",
@@ -1570,13 +1606,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"10.0"
+      "minTargetSdk":"10.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "VUNGLE",
       "displayName": "Vungle",
-      "SDKVersion": "6.10.4",
-      "adapterVersion": "6.10.4.0",
+      "SDKVersion": "6.10.5",
+      "adapterVersion": "6.10.5.0",
       "podVersion": "6.10",
       "initParameterCount": 1,
       "skadnetworkIDS": ["gta9lk7p23.skadnetwork",
@@ -1653,14 +1690,15 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"10.0"
+      "minTargetSdk":"10.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "YANDEX",
       "displayName": "YandexAds",
-      "SDKVersion": "4.3.1",
-      "adapterVersion": "4.3.1.0",
-      "podVersion": "4.3",
+      "SDKVersion": "4.4.2",
+      "adapterVersion": "4.4.2.1",
+      "podVersion": "4.4",
       "initParameterCount": 0,
       "skadnetworkIDS": ["zq492l623r.skadnetwork"],
       "supportedAdTypes": [
@@ -1673,13 +1711,14 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0"
+      "minTargetSdk":"8.0",
+      "minSDKVersion":"1.5.0"
     },
     {
       "network": "YOUAPPI",
       "displayName": "YouAppi",
       "SDKVersion": "5.0.0",
-      "adapterVersion": "5.0.0.1",
+      "adapterVersion": "5.0.0.2",
       "podVersion": "5.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1693,7 +1732,8 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"9.0",
+      "minSDKVersion":"1.5.0"
     }
   ]
 }
