@@ -455,27 +455,6 @@
       "minTargetSdk":"8.0"
     },
     {
-      "network": "APPSAMURAI",
-      "displayName": "Appsamurai",
-      "SDKVersion": "1.4.1",
-      "adapterVersion": "1.4.1.0",
-      "podVersion": "1.4",
-      "initParameterCount": 1,
-      "skadnetworkIDS": [
-      ],
-      "supportedAdTypes": [
-        "Banner",
-        "Interstitial",
-        "Rewarded"
-      ],
-      "infoPlistKey": "",
-      "adapterName": "AMRAdapterAppsamurai",
-      "iosSupport": true,
-      "unitySupport": false,
-      "status":false,
-      "minTargetSdk":"9.0"
-    },
-    {
       "network": "CHARTBOOST",
       "displayName": "Chartboost",
       "SDKVersion": "8.5.0",

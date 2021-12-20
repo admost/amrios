@@ -306,7 +306,6 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                                 <li class="is-folder">AMRAdapterAmazon</li>
                                 <li class="is-folder">AMRAdapterApplovin </li>
                                 <li class="is-folder">AMRAdapterAppnext</li>
-                                <li class="is-folder">AMRAdapterAppsamurai</li>
                                 <li class="is-folder">AMRAdapterChartboost</li>
                                 <li class="is-folder">AMRAdapterCriteo</li>
                                 <li class="is-folder">AMRAdapterDFP</li>
@@ -391,11 +390,6 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 
                 <div class="callout callout-danger" role="alert">
                         <h4></h4>
-                        <p><span class="label label-danger">Important</span> If you are using Appsamurai or YouAppi you must set <code>Always Embed Swift Libraries</code> value YES.</p>
-                </div>
-
-                <div class="callout callout-danger" role="alert">
-                        <h4></h4>
                         <p><span class="label label-danger">Important</span> If you are using Pollfish you must update and add Pollfish Policy to your privacy policy file.	</p>
                         <p><a href="https://www.pollfish.com/docs/ios" target="_blank">Pollfish Privacy Policy</a></p>
                 </div>
@@ -432,7 +426,9 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
 ...
 if (@available(iOS 14.5, *)) {
     [ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
-        (void)updateATTStatus;
+        + (void)updateATTStatus {
+            [AMRAnalytics checkVersionUpdate];
+        }
         // Tracking authorization completed.
     }];
 }
