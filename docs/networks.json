@@ -3,8 +3,8 @@
   [{
       "network": "AMR",
       "displayName": "AMR",
-      "SDKVersion": "1.5.0",
-      "adapterVersion": "1.5.0",
+      "SDKVersion": "1.5.1",
+      "adapterVersion": "1.5.1",
       "podVersion": "1.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
@@ -90,8 +90,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "ADMOB",
@@ -147,8 +146,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "ADMOST",
@@ -169,8 +167,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "ADTIMING",
@@ -192,8 +189,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "A4G",
@@ -249,8 +245,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "ADX",
@@ -306,8 +301,7 @@
       "iosSupport": false,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "AFA",
@@ -326,8 +320,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "AMAZON",
@@ -336,8 +329,7 @@
       "adapterVersion": "3.1.0.1",
       "podVersion": "3.1",
       "initParameterCount": 1,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": ["p78axxw29g.skadnetwork"],
       "supportedAdTypes": [
         "Banner",
         "Interstitial"
@@ -347,8 +339,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "APPLOVIN",
@@ -438,8 +429,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "APPNEXT",
@@ -461,8 +451,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "CHARTBOOST",
@@ -594,8 +583,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"10.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"10.0"
     },
     {
       "network": "CRITEO",
@@ -616,8 +604,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "DFP",
@@ -638,8 +625,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "FACEBOOK",
@@ -662,8 +648,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "FYBER",
@@ -742,8 +727,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "HYPRMX",
@@ -764,8 +748,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "INMOBI",
@@ -840,14 +823,13 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "IRONSOURCE",
       "displayName": "IronSource",
-      "SDKVersion": "7.1.12",
-      "adapterVersion": "7.1.12.1",
+      "SDKVersion": "7.1.13",
+      "adapterVersion": "7.1.13.0",
       "podVersion": "7.1",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -864,8 +846,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "LIFTOFF",
@@ -887,14 +868,13 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"10.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"10.0"
     },
     {
       "network": "MINTEGRAL",
       "displayName": "Mintegral",
-      "SDKVersion": "7.0.4",
-      "adapterVersion": "7.0.4.1",
+      "SDKVersion": "7.0.6",
+      "adapterVersion": "7.0.6.0",
       "podVersion": "7.0",
       "initParameterCount": 2,
       "skadnetworkIDS": ["kbd757ywx3.skadnetwork",
@@ -926,8 +906,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "MOBFOX",
@@ -948,8 +927,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "MOPUB",
@@ -1055,8 +1033,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "MYTARGET",
@@ -1076,8 +1053,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "NEXAGE",
@@ -1098,8 +1074,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "OGURY",
@@ -1119,8 +1094,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"10.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"10.0"
     },
     {
       "network": "POLLFISH",
@@ -1139,8 +1113,7 @@
       "iosSupport": true,
       "unitySupport": false,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "PUBNATIVE",
@@ -1163,8 +1136,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "QUMPARA",
@@ -1183,8 +1155,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "SMAATO",
@@ -1292,8 +1263,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "SMARTAD",
@@ -1314,8 +1284,7 @@
       "iosSupport": true,
       "unitySupport": false,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "STARTAPP",
@@ -1337,8 +1306,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "TAPJOY",
@@ -1443,8 +1411,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "TAPPX",
@@ -1464,8 +1431,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "TAPRESEARCH",
@@ -1484,8 +1450,7 @@
       "iosSupport": true,
       "unitySupport": false,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "TIKTOK",
@@ -1507,8 +1472,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "UNITYAD",
@@ -1578,8 +1542,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     },
     {
       "network": "VERIZON",
@@ -1606,8 +1569,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"10.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"10.0"
     },
     {
       "network": "VUNGLE",
@@ -1690,8 +1652,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"10.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"10.0"
     },
     {
       "network": "YANDEX",
@@ -1711,8 +1672,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"8.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"8.0"
     },
     {
       "network": "YOUAPPI",
@@ -1732,8 +1692,7 @@
       "iosSupport": true,
       "unitySupport": true,
       "status":false,
-      "minTargetSdk":"9.0",
-      "minSDKVersion":"1.5.0"
+      "minTargetSdk":"9.0"
     }
   ]
 }
