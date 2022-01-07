@@ -170,28 +170,6 @@
       "minTargetSdk":"8.0"
     },
     {
-      "network": "ADTIMING",
-      "displayName": "Adtiming",
-      "SDKVersion": "4.4.1",
-      "adapterVersion": "4.4.1.1",
-      "podVersion": "4.4",
-      "initParameterCount": 1,
-      "skadnetworkIDS": [
-          "488r3q3dtq.skadnetwork"
-      ],
-      "supportedAdTypes": [
-        "Banner",
-        "Interstitial",
-        "Rewarded"
-      ],
-      "infoPlistKey": "",
-      "adapterName": "AMRAdapterAdtiming",
-      "iosSupport": true,
-      "unitySupport": true,
-      "status":false,
-      "minTargetSdk":"9.0"
-    },
-    {
       "network": "A4G",
       "displayName": "A4G",
       "SDKVersion": "8.13.0",
@@ -1099,9 +1077,9 @@
     {
       "network": "POLLFISH",
       "displayName": "Pollfish",
-      "SDKVersion": "5.5.2",
-      "adapterVersion": "5.5.2.2",
-      "podVersion": "5.5",
+      "SDKVersion": "6.2.3",
+      "adapterVersion": "6.2.3.0",
+      "podVersion": "6.2",
       "initParameterCount": 1,
       "skadnetworkIDS": [
       ],
@@ -1142,7 +1120,7 @@
       "network": "QUMPARA",
       "displayName": "Qumpara",
       "SDKVersion": "1.1.6",
-      "adapterVersion": "1.1.6.1",
+      "adapterVersion": "1.1.6.3",
       "podVersion": "1.1",
       "initParameterCount": 2,
       "skadnetworkIDS": [
@@ -1434,25 +1412,6 @@
       "minTargetSdk":"9.0"
     },
     {
-      "network": "TAPRESEARCH",
-      "displayName": "TapResearch",
-      "SDKVersion": "2.0.8.0",
-      "adapterVersion": "2.0.8.1",
-      "podVersion": "2.0",
-      "initParameterCount": 0,
-      "skadnetworkIDS": [
-      ],
-      "supportedAdTypes": [
-        "Offerwall"
-      ],
-      "infoPlistKey": "",
-      "adapterName": "AMRAdapterTapresearch",
-      "iosSupport": true,
-      "unitySupport": false,
-      "status":false,
-      "minTargetSdk":"8.0"
-    },
-    {
       "network": "TIKTOK",
       "displayName": "TikTok",
       "SDKVersion": "4.1.0.2",
@@ -1478,7 +1437,7 @@
       "network": "UNITYAD",
       "displayName": "UnityAds",
       "SDKVersion": "4.0.0",
-      "adapterVersion": "4.0.0.0",
+      "adapterVersion": "4.0.0.1",
       "podVersion": "4.0",
       "initParameterCount": 1,
       "skadnetworkIDS": ["zmvfpc5aq8.skadnetwork",
