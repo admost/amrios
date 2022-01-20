@@ -605,7 +605,7 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": true,
-      "changelog": "https://publisherdocs.criteotilt.com/app/ios/release-notes/",
+      "changelog": "https://publisherdocs.criteotilt.com/app/ios/release-notes",
       "minTargetSdk":"8.0"
     },
     {
@@ -859,7 +859,7 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://developers.is.com/ironsource-mobile/ios/sdk-change-log/",
+      "changelog": "https://developers.is.com/ironsource-mobile/ios/sdk-change-log",
       "minTargetSdk":"8.0"
     },
     {
@@ -1054,7 +1054,7 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://developers.mopub.com/publishers/ios/changelog/",
+      "changelog": "https://developers.mopub.com/publishers/ios/changelog",
       "minTargetSdk":"9.0"
     },
     {
@@ -1298,7 +1298,7 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://developers.smaato.com/publishers/nextgen-sdk-ios-changelog/",
+      "changelog": "https://developers.smaato.com/publishers/nextgen-sdk-ios-changelog",
       "minTargetSdk":"9.0"
     },
     {
