@@ -10,6 +10,7 @@ function amrInitPage() {
   response = httpGet("https://admost.github.io/amrios/networks.json");
   obj = getNetworks(response);
   fillAdNetworkList(obj);
+  fillNetworkFeatures(obj);
   htmlPodFile = "source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'9.0\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'AMRSDK\', \'~&gt; 1.2\'\r\n#mediation adapters\n";
   fillPodFileCode();
 }
@@ -67,6 +68,56 @@ function fillAdNetworkList() {
     $("#adnetwork-button-list").html(htmlString);
 }
 
+function fillNetworkFeatures() {
+    htmlString = '<table class=" table table-bordered table-striped">';
+    htmlString = htmlString + '<thead><tr>';
+    htmlString = htmlString + '<th rowspan="2" class="text-center">Ad Network<br></br></th>';
+    htmlString = htmlString + '<th rowspan="2" class="text-center">SDK Version<br></br></th>';
+    htmlString = htmlString + '<th rowspan="2" class="text-center">Adapter Version<br></br></th>';
+    htmlString = htmlString + '<th rowspan="2" class="text-center">Header Bidding<br></br></th>';
+    htmlString = htmlString + '<th rowspan="2" class="text-center">Changelog<br></br></th>';
+    htmlString = htmlString + '<th colspan="4" class="text-center">Supported Ad Types<tr><td>Banner</td><td>Interstitial</td><td>Rewarded</td><td>Offerwall</td></tr></th>';
+    htmlString = htmlString + '</tr></thead>';
+
+    for (var i = 1; i < obj.adNetworks.length; i++) {
+        if (obj.adNetworks[i].biddingSupport == false) {
+            obj.adNetworks[i].biddingSupport = "-"
+        } else {
+            obj.adNetworks[i].biddingSupport = "✓"
+        }
+
+        if (obj.adNetworks[i].changelog == "") {
+            obj.adNetworks[i].changelog = "-"
+        } else {
+            obj.adNetworks[i].changelog = obj.adNetworks[i].changelog.replace(obj.adNetworks[i].changelog, "<a href=" + obj.adNetworks[i].changelog + " target='_blank'>Changelog</a>");
+        }
+        
+        var supportedAdTypes = [isSupportedAdTypes("Banner", i),isSupportedAdTypes("Interstitial", i),isSupportedAdTypes("Rewarded", i),isSupportedAdTypes("Offerwall", i)];
+
+        htmlString = htmlString + '<tr>'
+            htmlString = htmlString + '<td>'+obj.adNetworks[i].displayName+'</td>'
+            htmlString = htmlString + '<td>'+obj.adNetworks[i].SDKVersion+'</td>'
+            htmlString = htmlString + '<td>'+obj.adNetworks[i].adapterVersion+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+obj.adNetworks[i].biddingSupport+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+obj.adNetworks[i].changelog+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[0]+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[1]+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[2]+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[3]+'</td>'
+        htmlString = htmlString + '</tr>'
+
+    }
+    htmlString = htmlString + '</table>';
+    $("#adnetwork-feature-list").html(htmlString);
+}
+
+function isSupportedAdTypes(type, index) {
+    if (obj.adNetworks[index].supportedAdTypes.includes(type)) {
+        return "✓"
+    } else {
+        return "-"
+    }
+}
 
 function fillPodFileCode() {
     $('#file-pod').html("source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'8.0\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'"+obj.adNetworks[0].adapterName+"\', \'~&gt; "+ obj.adNetworks[0].podVersion+"\'\r\n#mediation adapters\n");
