@@ -143,7 +143,9 @@
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
-        "Rewarded"
+        "Rewarded",
+        "OpenAds",
+        "RewardedInterstitial"
       ],
       "infoPlistKey": "GADApplicationIdentifier",
       "adapterName": "AMRAdapterAdmob",
