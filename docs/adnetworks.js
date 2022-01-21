@@ -76,7 +76,7 @@ function fillNetworkFeatures() {
     htmlString = htmlString + '<th rowspan="2" class="text-center">Adapter Version<br></br></th>';
     htmlString = htmlString + '<th rowspan="2" class="text-center">Header Bidding<br></br></th>';
     htmlString = htmlString + '<th rowspan="2" class="text-center">Changelog<br></br></th>';
-    htmlString = htmlString + '<th colspan="4" class="text-center">Supported Ad Types<tr><td>Banner</td><td>Interstitial</td><td>Rewarded</td><td>Offerwall</td></tr></th>';
+    htmlString = htmlString + '<th colspan="6" class="text-center">Supported Ad Types<tr><td>Banner</td><td>Interstitial</td><td>Rewarded</td><td>Offerwall</td><td>Open Ads</td><td>Rewarded Interstitial</td></tr></th>';
     htmlString = htmlString + '</tr></thead>';
 
     for (var i = 1; i < obj.adNetworks.length; i++) {
@@ -92,7 +92,14 @@ function fillNetworkFeatures() {
             obj.adNetworks[i].changelog = obj.adNetworks[i].changelog.replace(obj.adNetworks[i].changelog, "<a href=" + obj.adNetworks[i].changelog + " target='_blank'>Changelog</a>");
         }
         
-        var supportedAdTypes = [isSupportedAdTypes("Banner", i),isSupportedAdTypes("Interstitial", i),isSupportedAdTypes("Rewarded", i),isSupportedAdTypes("Offerwall", i)];
+        var supportedAdTypes = [
+            isSupportedAdTypes("Banner", i),
+            isSupportedAdTypes("Interstitial", i),
+            isSupportedAdTypes("Rewarded", i),
+            isSupportedAdTypes("Offerwall", i),
+            isSupportedAdTypes("OpenAds", i),
+            isSupportedAdTypes("RewardedInterstitial", i)
+            ];
 
         htmlString = htmlString + '<tr>'
             htmlString = htmlString + '<td>'+obj.adNetworks[i].displayName+'</td>'
@@ -104,6 +111,8 @@ function fillNetworkFeatures() {
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[1]+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[2]+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[3]+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[4]+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[5]+'</td>'
         htmlString = htmlString + '</tr>'
 
     }
