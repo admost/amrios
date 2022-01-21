@@ -80,16 +80,15 @@ function fillNetworkFeatures() {
     htmlString = htmlString + '</tr></thead>';
 
     for (var i = 1; i < obj.adNetworks.length; i++) {
-        if (obj.adNetworks[i].biddingSupport == false) {
-            obj.adNetworks[i].biddingSupport = "-"
-        } else {
-            obj.adNetworks[i].biddingSupport = "✓"
+
+        biddingSupport = ""
+        if (obj.adNetworks[i].biddingSupport == true) {
+            biddingSupport = "✓"
         }
 
-        if (obj.adNetworks[i].changelog == "") {
-            obj.adNetworks[i].changelog = "-"
-        } else {
-            obj.adNetworks[i].changelog = obj.adNetworks[i].changelog.replace(obj.adNetworks[i].changelog, "<a href=" + obj.adNetworks[i].changelog + " target='_blank'>Changelog</a>");
+        changelog = "";
+        if (obj.adNetworks[i].changelog != "") {
+            changelog = obj.adNetworks[i].changelog.replace(obj.adNetworks[i].changelog, "<a href=" + obj.adNetworks[i].changelog + " target='_blank'>Changelog</a>");
         }
         
         var supportedAdTypes = [
@@ -105,8 +104,8 @@ function fillNetworkFeatures() {
             htmlString = htmlString + '<td>'+obj.adNetworks[i].displayName+'</td>'
             htmlString = htmlString + '<td>'+obj.adNetworks[i].SDKVersion+'</td>'
             htmlString = htmlString + '<td>'+obj.adNetworks[i].adapterVersion+'</td>'
-            htmlString = htmlString + '<td class="text-center">'+obj.adNetworks[i].biddingSupport+'</td>'
-            htmlString = htmlString + '<td class="text-center">'+obj.adNetworks[i].changelog+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+biddingSupport+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+changelog+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[0]+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[1]+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[2]+'</td>'
@@ -124,7 +123,7 @@ function isSupportedAdTypes(type, index) {
     if (obj.adNetworks[index].supportedAdTypes.includes(type)) {
         return "✓"
     } else {
-        return "-"
+        return ""
     }
 }
 
