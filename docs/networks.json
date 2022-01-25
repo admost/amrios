@@ -639,7 +639,7 @@
       "network": "FACEBOOK",
       "displayName": "Facebook",
       "SDKVersion": "6.9.0",
-      "adapterVersion": "6.9.0.2",
+      "adapterVersion": "6.9.0.3",
       "podVersion": "6.9",
       "initParameterCount": 0,
       "skadnetworkIDS": [
@@ -1610,7 +1610,7 @@
       "network": "VUNGLE",
       "displayName": "Vungle",
       "SDKVersion": "6.10.5",
-      "adapterVersion": "6.10.5.1",
+      "adapterVersion": "6.10.5.2",
       "podVersion": "6.10",
       "initParameterCount": 1,
       "skadnetworkIDS": ["gta9lk7p23.skadnetwork",
