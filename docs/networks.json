@@ -743,7 +743,7 @@
     },
     {
       "network": "HYPRMX",
-      "displayName": "Hyprmx",
+      "displayName": "HyprMX",
       "SDKVersion": "6.0.0",
       "adapterVersion": "6.0.0.2",
       "podVersion": "6.0",
