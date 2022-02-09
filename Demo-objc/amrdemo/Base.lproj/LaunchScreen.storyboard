@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ifb-Ma-7sI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="yrx-Nb-cAb">
+            <objects>
+                <viewController id="Ifb-Ma-7sI" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wWK-KU-REv"/>
+                        <viewControllerLayoutGuide type="bottom" id="XfQ-WA-Bwv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="El2-QK-kin">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="admost_logo" translatesAutoresizingMaskIntoConstraints="NO" id="zkz-w9-bMR">
+                                <rect key="frame" x="33" y="334.5" width="348" height="137"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zkz-w9-bMR" secondAttribute="height" multiplier="523:206" id="pA9-Fn-Luy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6J4-TA-QqI"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zkz-w9-bMR" firstAttribute="centerY" secondItem="El2-QK-kin" secondAttribute="centerY" multiplier="0.9" id="Bta-hj-9eB"/>
+                            <constraint firstItem="zkz-w9-bMR" firstAttribute="centerX" secondItem="El2-QK-kin" secondAttribute="centerX" id="Vdr-T3-0ea"/>
+                            <constraint firstItem="zkz-w9-bMR" firstAttribute="width" secondItem="El2-QK-kin" secondAttribute="width" multiplier="0.84" id="dXt-eh-cY1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Hl-qW-T2O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-267" y="338"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="admost_logo" width="523" height="206"/>
+    </resources>
+</document>

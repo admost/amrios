@@ -1,0 +1,44 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'amrdemo' do
+  use_frameworks!
+
+  # Pods for amrdemo
+pod 'AMRSDK', '~> 1.5'
+#mediation adapters
+pod 'AMRAdapterAdcolony'
+pod 'AMRAdapterAdmob'
+pod 'AMRAdapterAdmost'
+pod 'AMRAdapterAFA'
+pod 'AMRAdapterAmazon'
+pod 'AMRAdapterApplovin'
+pod 'AMRAdapterAppnext'
+pod 'AMRAdapterChartboost'
+pod 'AMRAdapterCriteo'
+pod 'AMRAdapterDFP'
+pod 'AMRAdapterFacebook'
+pod 'AMRAdapterFyber'
+pod 'AMRAdapterHyprmx'
+pod 'AMRAdapterInmobi'
+pod 'AMRAdapterIronsource'
+pod 'AMRAdapterLiftoff'
+pod 'AMRAdapterMintegral'
+pod 'AMRAdapterMobfox'
+pod 'AMRAdapterMytarget'
+pod 'AMRAdapterNexage'
+pod 'AMRAdapterOgury'
+pod 'AMRAdapterPubnative'
+pod 'AMRAdapterSmaato'
+pod 'AMRAdapterSmartadserver'
+pod 'AMRAdapterStartapp'
+pod 'AMRAdapterTapjoy'
+pod 'AMRAdapterTappx'
+pod 'AMRAdapterTiktok'
+pod 'AMRAdapterUnity'
+pod 'AMRAdapterVerizon'
+pod 'AMRAdapterVungle'
+pod 'AMRAdapterYandex'
+pod 'AMRAdapterYouappi'
+
+end
