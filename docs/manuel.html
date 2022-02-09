@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>AMR Manual Integration</title>
+
+    <!-- Styles -->
+    <link href="assets/css/theDocs.all.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/skin/skin-red.css" rel="stylesheet">
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet"
+          type="text/css">
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="adnetworks.js" type="text/javascript"></script>
+
+    <!-- Favicons -->
+    <link rel="icon" href="https://dashboard.admost.com/Assets/img/admostfavicon.png">
+</head>
+
+<body data-spy="scroll" data-target=".sidebar" data-offset="200">
+
+<header class="site-header navbar-transparent sticky">
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+
+            <!-- Toggle buttons and brand -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="true" aria-controls="navbar">
+                    <span class="glyphicon glyphicon-option-vertical"></span>
+                </button>
+
+                <button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://admost.github.io"><img src="assets/img/logo-white.svg" alt="logo"></a>
+
+            </div>
+            <!-- END Toggle buttons and brand -->
+
+            <!-- Top navbar -->
+            <div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Documentation</a></li>
+                    <li><a target="_blank" href="https://admost.github.io/privacy.html">Privacy Compliance</a></li>
+                    <li><a href="release-notes.html">Release Notes</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li>
+                        <a target="_blank" href="https://download.admost.com/AMRDemo.zip">
+                        <i class="fa fa-mobile-phone"></i>&nbsp;&nbsp;Demo Project</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- END Top navbar -->
+        </div>
+    </nav>
+    <!-- END Top navbar & branding -->
+</header>
+
+
+<main class="container">
+    <div class="row">
+        <!-- Sidebar -->
+        <aside class="col-sm-3 sidebar">
+            <ul class="nav sidenav dropable sticky">
+                <li>
+                    <a href="#manual-installation" >Manual Installation</a>
+                    <ul style="display: block;">
+                        <li><a href="#project-settings">Project Settings</a></li>
+                        <li><a href="#amr-framework-files">AMR Framework Files</a></li>
+                        <li><a href="#other-frameworks-and-libraries">Other Frameworks and Libraries</a></li>
+                        <li><a href="#mediation-adapters">Mediation Adapters</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </aside>
+        <!-- END Sidebar -->
+
+        <!-- Main content -->
+        <article class="col-sm-9 main-content" role="main">
+            <section>
+                <h2 id="manual-installation">Manual Installation</h3>
+                <h4 id="project-settings">Project Settings</h3>
+
+                <p>Make sure <code>$(PROJECT_DIR) recursive </code> is set in your target's <kbd>Framework Search
+                        Paths</kbd> in <kbd>Build Settings</kbd>.</p>
+                <p> Add <code>-ObjC</code> , <code>-lc++</code> and <code>-all_load</code> flags in your target's <kbd>Other Linker Flags</kbd>
+                    in <kbd>Build Settings</kbd>.</p>
+
+                <br/>
+
+                <h4 id="amr-framework-files">AMR Framework Files</h4>
+
+                <p>Download latest <a href="https://github.com/admost/AMR-IOS-SDK/tags" target="_blank">AMRSDK</a> and <a href="https://github.com/kokteyldev/KOKTEYL-LOG-SDK/tags" target="_blank">KKLog</a> files then drag and drop files into your project.</p>
+                <div class="file-tree">
+                    <ul>
+                        <li class="is-folder open">
+                            AMRDemo/AMR/Core
+                            <ul>
+                                <li class="is-file">AMRSDK.framework </li>
+                                <li class="is-file">AMRResources.bundle </li>
+                                <li class="is-file">KKLog.framework </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <h4 id="other-frameworks-and-libraries">Other Frameworks and Libraries</h4>
+                <p>Add following frameworks and libraries to your project.</p>
+
+                <div class="file-tree">
+                    <ul>
+                            <li class="is-file">Accelerate.framework</li>
+                            <li class="is-file">AdSupport.framework</li>
+                            <li class="is-file">AudioToolbox.framework</li>
+                            <li class="is-file">AVFoundation.framework</li>
+                            <li class="is-file">CFNetwork.framework</li>
+                            <li class="is-file">CoreGraphics.framework</li>
+                            <li class="is-file">CoreImage.framework</li>
+                            <li class="is-file">CoreLocation.framework</li>
+                            <li class="is-file">CoreMedia.framework</li>
+                            <li class="is-file">* CoreMotion.framework</li>
+                            <li class="is-file">* CoreTelephony.framework</li>
+                            <li class="is-file">EventKit.framework</li>
+                            <li class="is-file">EventKitUI.framework</li>
+                            <li class="is-file">Foundation.framework</li>
+                            <li class="is-file">ImageIO.framework</li>
+                            <li class="is-file">JavaScriptCore.framework</li>
+                            <li class="is-file">libc++</li>
+                            <li class="is-file">** libsqlite3.tbd</li>
+                            <li class="is-file">** libresolv.9.tbd</li>
+                            <li class="is-file">** libxml2.tbd</li>
+                            <li class="is-file">** libz.tbd</li>
+                            <li class="is-file">* LocalAuthentication.framework</li>
+                            <li class="is-file">MediaPlayer.framework</li>
+                            <li class="is-file">MessageUI.framework</li>
+                            <li class="is-file">MobileCoreServices.framework</li>
+                            <li class="is-file">QuartzCore.framework</li>
+                            <li class="is-file">SafariServices.framework</li>
+                            <li class="is-file">Security.framework</li>
+                            <li class="is-file">* Social.framework</li>
+                            <li class="is-file">* StoreKit.framework</li>
+                            <li class="is-file">SystemConfiguration.framework</li>
+                            <li class="is-file">UIKit.framework</li>
+                            <li class="is-file">* VideoToolbox.framework</li>
+                            <li class="is-file">WebKit.framework</li>
+                    </ul>
+                    <p>
+                        <br/>
+                        *  Can be marked Weak for compatibility with older version of iOS
+                        <br/>
+                        ** It's libz.dylib below Xcode7
+                    </p>
+                </div>
+
+                <h4 id="mediation-adapters">Mediation Adapters</h4>
+                <p>At least one mediation adapter is required for AMRSDK to show banners. You can add all adapters
+                    (recommended for maximized revenue) or start with a subset of adapters. Consult your AMR agent for
+                    further details.</p>
+
+                <p>Download SDK and Adapter files for each Ad network you want to integrate then drag and drop files to your project.</p>
+
+                <div id="ad-network-list" class="container"></div>
+                    <div class="row"></div>
+                        <div class="col"></div>
+                        <div id="adnetwork-manual-list">
+                </div>
+
+                <h3>What is next?</h3>
+                <p> Please continue with <a href="index.html#xcode-setup">Xcode Setup</a> step.</p>
+            </section>
+        </article>
+        <!-- END Main content -->
+    </div>
+</main>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <p>Copyright &copy; 2017. All right reserved</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <ul class="footer-menu">
+                    <li><a href="http://admost.github.io/amrandroid">Android integration</a></li>
+                    <li><a href="http://admost.github.io/amrunity">Unity integration</a></li>
+                    <li><a href="mailto:amr@admost.com">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END Footer -->
+
+<!-- Scripts -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script>
+    window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')
+</script>
+<script>function copyToClipboard(element) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text()).select();
+    document.execCommand("copy");
+    $temp.remove();
+}
+</script>
+
+<script>
+amrInitManuelPage();
+</script>
+<script src="assets/js/theDocs.all.min.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>

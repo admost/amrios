@@ -5,14 +5,18 @@ var htmlPodFile = "";
 var arrayAppGradlePackages = [];
 
 function amrInitPage() {
-  //obj = adNetworkJson;
-  //obj14 = ios14json;
+    response = httpGet("https://admost.github.io/amrios/networks.json");
+    obj = getNetworks(response);
+    fillAdNetworkList(obj);
+    fillNetworkFeatures(obj);
+    htmlPodFile = "source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'9.0\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'AMRSDK\', \'~&gt; 1.2\'\r\n#mediation adapters\n";
+    fillPodFileCode();
+  }
+
+function amrInitManuelPage() {
   response = httpGet("https://admost.github.io/amrios/networks.json");
   obj = getNetworks(response);
-  fillAdNetworkList(obj);
-  fillNetworkFeatures(obj);
-  htmlPodFile = "source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'9.0\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'AMRSDK\', \'~&gt; 1.2\'\r\n#mediation adapters\n";
-  fillPodFileCode();
+  fillManuelNetworkFeatures(obj);
 }
    
 function getNetworks(obj){
@@ -86,9 +90,9 @@ function fillNetworkFeatures() {
             biddingSupport = "✓"
         }
 
-        changelog = "";
-        if (obj.adNetworks[i].changelog != "") {
-            changelog = obj.adNetworks[i].changelog.replace(obj.adNetworks[i].changelog, "<a href=" + obj.adNetworks[i].changelog + " target='_blank'>Changelog</a>");
+        networkChangelog = "";
+        if (obj.adNetworks[i].networkChangelog != "") {
+            networkChangelog = obj.adNetworks[i].networkChangelog.replace(obj.adNetworks[i].networkChangelog, "<a href=" + obj.adNetworks[i].networkChangelog + " target='_blank'>Changelog</a>");
         }
         
         var supportedAdTypes = [
@@ -105,7 +109,7 @@ function fillNetworkFeatures() {
             htmlString = htmlString + '<td>'+obj.adNetworks[i].SDKVersion+'</td>'
             htmlString = htmlString + '<td>'+obj.adNetworks[i].adapterVersion+'</td>'
             htmlString = htmlString + '<td class="text-center">'+biddingSupport+'</td>'
-            htmlString = htmlString + '<td class="text-center">'+changelog+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+networkChangelog+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[0]+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[1]+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[2]+'</td>'
@@ -117,6 +121,55 @@ function fillNetworkFeatures() {
     }
     htmlString = htmlString + '</table>';
     $("#adnetwork-feature-list").html(htmlString);
+}
+
+function fillManuelNetworkFeatures() {
+    htmlString = '<table class=" table table-bordered table-striped">';
+    htmlString = htmlString + '<thead><tr>';
+    htmlString = htmlString + '<th rowspan="2" class="text-center">Ad Network<br></br></th>';
+    htmlString = htmlString + '<th rowspan="2" class="text-center">SDK<br></br></th>';
+    htmlString = htmlString + '<th rowspan="2" class="text-center">Adapter<br></br></th>';
+    htmlString = htmlString + '<th rowspan="2" class="text-center">Header Bidding<br></br></th>';
+    htmlString = htmlString + '<th colspan="6" class="text-center">Supported Ad Types<tr><td>Banner</td><td>Interstitial</td><td>Rewarded</td><td>Offerwall</td><td>Open Ads</td><td>Rewarded Interstitial</td></tr></th>';
+    htmlString = htmlString + '</tr></thead>';
+
+    for (var i = 1; i < obj.adNetworks.length; i++) {
+
+        biddingSupport = ""
+        if (obj.adNetworks[i].biddingSupport == true) {
+            biddingSupport = "✓"
+        }
+
+        networkChangelog = "";
+        if (obj.adNetworks[i].networkChangelog != "") {
+            networkChangelog = obj.adNetworks[i].networkChangelog.replace(obj.adNetworks[i].networkChangelog, "<a href=" + obj.adNetworks[i].networkChangelog + " target='_blank'>Changelog</a>");
+        }
+        
+        var supportedAdTypes = [
+            isSupportedAdTypes("Banner", i),
+            isSupportedAdTypes("Interstitial", i),
+            isSupportedAdTypes("Rewarded", i),
+            isSupportedAdTypes("Offerwall", i),
+            isSupportedAdTypes("OpenAds", i),
+            isSupportedAdTypes("RewardedInterstitial", i)
+            ];
+
+        htmlString = htmlString + '<tr>'
+            htmlString = htmlString + '<td>'+obj.adNetworks[i].displayName+'</td>'
+            htmlString = htmlString + '<td><a href="'+ obj.adNetworks[i].sourceURL +'" target="_blank">'+obj.adNetworks[i].SDKVersion+'</a></td>'
+            htmlString = htmlString + '<td><a href="'+ obj.adNetworks[i].networkSourceURL +'" target="_blank">'+obj.adNetworks[i].adapterVersion+'</a></td>'
+            htmlString = htmlString + '<td class="text-center">'+biddingSupport+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[0]+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[1]+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[2]+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[3]+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[4]+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[5]+'</td>'
+        htmlString = htmlString + '</tr>'
+
+    }
+    htmlString = htmlString + '</table>';
+    $("#adnetwork-manual-list").html(htmlString);
 }
 
 function isSupportedAdTypes(type, index) {

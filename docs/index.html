@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-    <title>AMR - iOS Integration</title>
+    <title>AMR Integration</title>
 
     <!-- Styles -->
     <link href="assets/css/theDocs.all.min.css" rel="stylesheet">
@@ -91,18 +91,10 @@
                     <a href="#setup">Setup</a>
                     <ul>
                         <li>
-                            <a href="#installation-with-cocoapods">Installation With CocoaPods</a>
+                            <a href="#installation-with-cocoapods">Installation</a>
                             <ul style="display: block;">
                                 <li><a href="#create-your-podfile-and-install">Create your podfile and install</a></li>
                                 <li><a href="#skadnetwork">SKAdNetwork <span class="label label-teal">New</span></a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#manual-installation" >Manual Installation</a>
-                            <ul style="display: block;">
-                                <li><a href="#amr-framework-files">AMR Framework Files</a></li>
-                                <li><a href="#other-frameworks-and-libraries">Other Frameworks and Libraries</a></li>
-                                <li><a href="#mediation-adapters">Mediation Adapters</a></li>
                             </ul>
                         </li>
                         <li><a href="#xcode-setup">Xcode Setup</a></li>
@@ -178,9 +170,8 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
             </section>
             <section>
                 <h2 id="setup">Setup</h2>
-                <p>You can install AMR SDK and mediation adapters using CocoaPods (recommended) or add AMR SDK framework
-                    files and mediation adapters files manually to your project.</p>
-                <h3 id="installation-with-cocoapods">Installation With CocoaPods</h3>
+                <p>You can install AMR SDK and mediation adapters using <b>CocoaPods (recommended)</b> or if you want to integrate AMR SDK manually, please read the <a href="manuel.html">manuel integration guide</a>. </p>
+                <h3 id="installation-with-cocoapods">Installation</h3>
 
                 <img src="https://cocoapod-badges.herokuapp.com/v/AMRSDK/badge.png" alt="pod version">&nbsp;&nbsp;
                 <img src="https://cocoapod-badges.herokuapp.com/p/AMRSDK/badge.png" alt="pod platform">&nbsp;&nbsp;
@@ -222,131 +213,6 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                 <pre><code id="file-ios-14">PLEASE SELECT ONE OR MORE NETWORKS TO CREATE YOUR SKADNETWORK LIST.</code></pre>
 
                 <p>After you complete pod installation you can skip to <a href="#xcode-setup">Xcode Setup</a> step.</p>
-
-                <h3 id="manual-installation">Manual Installation</h3>
-
-                <p>Make sure <code>$(PROJECT_DIR) recursive </code> is set in your target's <kbd>Framework Search
-                        Paths</kbd> in <kbd>Build Settings</kbd>.</p>
-                <p> Add <code>-ObjC</code> , <code>-lc++</code> and <code>-all_load</code> flags in your target's <kbd>Other Linker Flags</kbd>
-                    in <kbd>Build Settings</kbd>.</p>
-
-                <br/>
-
-                <h4 id="amr-framework-files">AMR Framework Files</h4>
-
-                <p>Drag and drop following files in AMRDemo/AMR/Core folder to your project.</p>
-                <div class="file-tree">
-                    <ul>
-                        <li class="is-folder open">
-                            AMRDemo/AMR/Core
-                            <ul>
-                                <li class="is-file">AMRSDK.framework </li>
-                                <li class="is-file">AMRResources.bundle </li>
-                                <li class="is-file">KKLog.framework </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-
-                <h4 id="other-frameworks-and-libraries">Other Frameworks and Libraries</h4>
-                <p>Add following frameworks and libraries to your project.</p>
-
-                <div class="file-tree">
-                    <ul>
-                            <li class="is-file">Accelerate.framework</li>
-                            <li class="is-file">AdSupport.framework</li>
-                            <li class="is-file">AudioToolbox.framework</li>
-                            <li class="is-file">AVFoundation.framework</li>
-                            <li class="is-file">CFNetwork.framework</li>
-                            <li class="is-file">CoreGraphics.framework</li>
-                            <li class="is-file">CoreImage.framework</li>
-                            <li class="is-file">CoreLocation.framework</li>
-                            <li class="is-file">CoreMedia.framework</li>
-                            <li class="is-file">* CoreMotion.framework</li>
-                            <li class="is-file">* CoreTelephony.framework</li>
-                            <li class="is-file">EventKit.framework</li>
-                            <li class="is-file">EventKitUI.framework</li>
-                            <li class="is-file">Foundation.framework</li>
-                            <li class="is-file">ImageIO.framework</li>
-                            <li class="is-file">JavaScriptCore.framework</li>
-                            <li class="is-file">libc++</li>
-                            <li class="is-file">** libsqlite3.tbd</li>
-                            <li class="is-file">** libresolv.9.tbd</li>
-                            <li class="is-file">** libxml2.tbd</li>
-                            <li class="is-file">** libz.tbd</li>
-                            <li class="is-file">* LocalAuthentication.framework</li>
-                            <li class="is-file">MediaPlayer.framework</li>
-                            <li class="is-file">MessageUI.framework</li>
-                            <li class="is-file">MobileCoreServices.framework</li>
-                            <li class="is-file">QuartzCore.framework</li>
-                            <li class="is-file">SafariServices.framework</li>
-                            <li class="is-file">Security.framework</li>
-                            <li class="is-file">* Social.framework</li>
-                            <li class="is-file">* StoreKit.framework</li>
-                            <li class="is-file">SystemConfiguration.framework</li>
-                            <li class="is-file">UIKit.framework</li>
-                            <li class="is-file">* VideoToolbox.framework</li>
-                            <li class="is-file">WebKit.framework</li>
-                    </ul>
-                    <p>
-                        <br/>
-                        *  Can be marked Weak for compatibility with older version of iOS
-                        <br/>
-                        ** It's libz.dylib below Xcode7
-                    </p>
-                </div>
-
-                <h4 id="mediation-adapters">Mediation Adapters</h4>
-                <p>At least one mediation adapter is required for AMRSDK to show banners. You can add all adapters
-                    (recommended for maximized revenue) or start with a subset of adapters. Consult your AMR agent for
-                    further details.</p>
-                <p>Create a folder called Mediation Adapters (name is optonal) and add adapters in AMRDemo/AMR/MediationAdapters folder.</p>
-
-                <div class="file-tree">
-                    <ul>
-                        <li class="is-folder open">
-                            AMRDemo/AMR/MediationAdapters
-                            <ul>
-                                <li class="is-folder">AMRAdapterAdcolony </li>
-                                <li class="is-folder">AMRAdapterAdmob </li>
-                                <li class="is-folder">AMRAdapterAdmost</li>
-                                <li class="is-folder">AMRAdapterAmazon</li>
-                                <li class="is-folder">AMRAdapterApplovin </li>
-                                <li class="is-folder">AMRAdapterAppnext</li>
-                                <li class="is-folder">AMRAdapterChartboost</li>
-                                <li class="is-folder">AMRAdapterCriteo</li>
-                                <li class="is-folder">AMRAdapterDFP</li>
-                                <li class="is-folder">AMRAdapterFacebook </li>
-                                <li class="is-folder">AMRAdapterFyber</li>
-                                <li class="is-folder">AMRAdapterHyprmx</li>
-                                <li class="is-folder">AMRAdapterInmobi </li>
-                                <li class="is-folder">AMRAdapterIronsource</li>
-                                <li class="is-folder">AMRAdapterMintegral</li>
-                                <li class="is-folder">AMRAdapterMobfox </li>
-                                <li class="is-folder">AMRAdapterMopub </li>
-                                <li class="is-folder">AMRAdapterMytarget </li>
-                                <li class="is-folder">AMRAdapterNexage</li>
-                                <li class="is-folder">AMRAdapterOgury </li>
-                                <li class="is-folder">AMRAdapterQumpara </li>
-                                <li class="is-folder">AMRAdapterPollfish </li>
-                                <li class="is-folder">AMRAdapterPubnative </li>
-                                <li class="is-folder">AMRAdapterSmaato</li>
-                                <li class="is-folder">AMRAdapterSmartadserver</li>
-                                <li class="is-folder">AMRAdapterStartapp</li>
-                                <li class="is-folder">AMRAdapterTapjoy</li>
-                                <li class="is-folder">AMRAdapterTappx</li>
-                                <li class="is-folder">AMRAdapterTikTok</li>
-                                <li class="is-folder">AMRAdapterUnity </li>
-                                <li class="is-folder">AMRAdapterVerizon </li>
-                                <li class="is-folder">AMRAdapterVungle </li>
-                                <li class="is-folder">AMRAdapterYandex</li>
-                                <li class="is-folder">AMRAdapterYouappi </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-
-                </div>
 
                 <h4 id="xcode-setup">Xcode Setup</h4>
                 <p> Add following lines to your <code>plist</code> file.</p>
