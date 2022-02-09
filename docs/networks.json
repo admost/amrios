@@ -15,7 +15,9 @@
       "unitySupport": true,
       "status":true,
       "biddingSupport": false,
-      "changelog": "",
+      "sourceURL": "https://github.com/admost/AMR-IOS-SDK/tags",
+      "networkSourceURL": "",
+      "networkChangelog": "",
       "minTargetSdk":"8.0"
     },
     {
@@ -93,7 +95,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": true,
-      "changelog": "https://github.com/AdColony/AdColony-iOS-SDK/blob/master/CHANGELOG.md",
+      "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADCOLONY/tags",
+      "networkSourceURL": "https://github.com/AdColony/AdColony-iOS-SDK-3",
+      "networkChangelog": "https://github.com/AdColony/AdColony-iOS-SDK/blob/master/CHANGELOG.md",
       "minTargetSdk":"9.0"
     },
     {
@@ -153,7 +157,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://developers.google.com/admob/ios/rel-notes",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://developers.google.com/admob/ios/rel-notes",
       "minTargetSdk":"9.0"
     },
     {
@@ -176,7 +182,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "",
       "minTargetSdk":"8.0"
     },
     {
@@ -236,7 +244,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     },
     {
@@ -294,7 +304,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "",
       "minTargetSdk":"9.0"
     },
     {
@@ -315,7 +327,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     },
     {
@@ -336,7 +350,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://developer.amazon.com/docs/mobile-ads/mb-ios-release-notes.html",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://developer.amazon.com/docs/mobile-ads/mb-ios-release-notes.html",
       "minTargetSdk":"9.0"
     },
     {
@@ -428,7 +444,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://dash.applovin.com/documentation/mediation/ios/changelog",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://dash.applovin.com/documentation/mediation/ios/changelog",
       "minTargetSdk":"9.0"
     },
     {
@@ -452,7 +470,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://developers.appnext.com/docs/change-log",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://developers.appnext.com/docs/change-log",
       "minTargetSdk":"8.0"
     },
     {
@@ -586,7 +606,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://answers.chartboost.com/en-us/child_article/ios-ios-swift",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://answers.chartboost.com/en-us/child_article/ios-ios-swift",
       "minTargetSdk":"10.0"
     },
     {
@@ -609,7 +631,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": true,
-      "changelog": "https://publisherdocs.criteotilt.com/app/ios/release-notes",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://publisherdocs.criteotilt.com/app/ios/release-notes",
       "minTargetSdk":"8.0"
     },
     {
@@ -632,7 +656,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     },
     {
@@ -657,7 +683,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": true,
-      "changelog": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/changelog",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/changelog",
       "minTargetSdk":"9.0"
     },
     {
@@ -738,7 +766,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://developer.fyber.com/hc/en-us/articles/360010971118-iOS-SDK-Integration",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://developer.fyber.com/hc/en-us/articles/360010971118-iOS-SDK-Integration",
       "minTargetSdk":"9.0"
     },
     {
@@ -761,7 +791,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "",
       "minTargetSdk":"8.0"
     },
     {
@@ -838,7 +870,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": true,
-      "changelog": "https://support.inmobi.com/monetize/download-sdk/ios-changelogs",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://support.inmobi.com/monetize/download-sdk/ios-changelogs",
       "minTargetSdk":"9.0"
     },
     {
@@ -863,7 +897,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://developers.is.com/ironsource-mobile/ios/sdk-change-log",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://developers.is.com/ironsource-mobile/ios/sdk-change-log",
       "minTargetSdk":"8.0"
     },
     {
@@ -887,7 +923,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "",
       "minTargetSdk":"10.0"
     },
     {
@@ -927,7 +965,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": true,
-      "changelog": "http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en#changelog",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en#changelog",
       "minTargetSdk":"9.0"
     },
     {
@@ -950,115 +990,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
-      "minTargetSdk":"9.0"
-    },
-    {
-      "network": "MOPUB",
-      "displayName": "Mopub",
-      "SDKVersion": "5.18.0",
-      "adapterVersion": "5.18.0.2",
-      "podVersion": "5.18",
-      "initParameterCount": 1,
-      "skadnetworkIDS": ["22mmun2rn5.skadnetwork",
-        "23zd986j2c.skadnetwork",
-        "2u9pt9hc89.skadnetwork",
-        "3l6bd9hu43.skadnetwork",
-        "3qcr597p9d.skadnetwork",
-        "3qy4746246.skadnetwork",
-        "3rd42ekr43.skadnetwork",
-        "3sh42y64q3.skadnetwork",
-        "4468km3ulz.skadnetwork",
-        "44jx6755aq.skadnetwork",
-        "44n7hlldy6.skadnetwork",
-        "47vhws6wlr.skadnetwork",
-        "4fzdc2evr5.skadnetwork",
-        "523jb4fst2.skadnetwork",
-        "52fl2v3hgk.skadnetwork",
-        "54nzkqm89y.skadnetwork",
-        "578prtvx9j.skadnetwork",
-        "5a6flpkh64.skadnetwork",
-        "5l3tpt7t6e.skadnetwork",
-        "5lm9lj6jb7.skadnetwork",
-        "5mv394q32t.skadnetwork",
-        "6g9af3uyq4.skadnetwork",
-        "6p4ks3rnbw.skadnetwork",
-        "6v7lgmsu45.skadnetwork",
-        "737z793b9f.skadnetwork",
-        "7953jerfzd.skadnetwork",
-        "7fbxrn65az.skadnetwork",
-        "7rz58n8ntl.skadnetwork",
-        "7ug5zh24hu.skadnetwork",
-        "89z7zv988g.skadnetwork",
-        "8s468mfl3y.skadnetwork",
-        "97r2b46745.skadnetwork",
-        "9b89h5y424.skadnetwork",
-        "9nlqeag3gk.skadnetwork",
-        "9rd848q2bz.skadnetwork",
-        "9t245vhmpl.skadnetwork",
-        "9yg77x724h.skadnetwork",
-        "av6w8kgt66.skadnetwork",
-        "b53axzn49s.skadnetwork",
-        "bvpn9ufa9b.skadnetwork",
-        "c3frkrj4fj.skadnetwork",
-        "c6k4g5qg8m.skadnetwork",
-        "cg4yq2srnc.skadnetwork",
-        "cj5566h2ga.skadnetwork",
-        "dkc879ngq3.skadnetwork",
-        "e5fvkxwrpn.skadnetwork",
-        "f38h382jlk.skadnetwork",
-        "f73kdq92p3.skadnetwork",
-        "g2y4y55b64.skadnetwork",
-        "ggvn48r87g.skadnetwork",
-        "gvmwg8q7h5.skadnetwork",
-        "hs6bdukanm.skadnetwork",
-        "kbd757ywx3.skadnetwork",
-        "kbmxgpxpgc.skadnetwork",
-        "klf5c3l5u5.skadnetwork",
-        "m5mvw97r93.skadnetwork",
-        "m8dbw4sv7c.skadnetwork",
-        "mlmmfzh3r3.skadnetwork",
-        "mls7yz5dvl.skadnetwork",
-        "mp6xlyr22a.skadnetwork",
-        "mtkv5xtk9e.skadnetwork",
-        "n66cz3y3bx.skadnetwork",
-        "n6fk4nfna4.skadnetwork",
-        "n9x2a789qt.skadnetwork",
-        "nzq8sh4pbs.skadnetwork",
-        "p78axxw29g.skadnetwork",
-        "ppxm28t8ap.skadnetwork",
-        "prcb7njmu6.skadnetwork",
-        "pu4na253f3.skadnetwork",
-        "pwa73g5rt2.skadnetwork",
-        "rvh3l7un93.skadnetwork",
-        "rx5hdcabgc.skadnetwork",
-        "s39g8k73mm.skadnetwork",
-        "t38b2kh725.skadnetwork",
-        "u679fj5vs4.skadnetwork",
-        "uw77j35x4d.skadnetwork",
-        "v72qych5uu.skadnetwork",
-        "vcra2ehyfk.skadnetwork",
-        "w9q455wk68.skadnetwork",
-        "wzmmz9fp6w.skadnetwork",
-        "x44k69ngh6.skadnetwork",
-        "x5854y7y24.skadnetwork",
-        "x8uqf25wch.skadnetwork",
-        "xy9t38ct57.skadnetwork",
-        "yclnxrl5pm.skadnetwork",
-        "yrqqpx2mcb.skadnetwork",
-        "z4gj7hsk7h.skadnetwork"],
-      "supportedAdTypes": [
-        "Banner",
-        "Interstitial",
-        "Rewarded"
-      ],
-      "infoPlistKey": "",
-      "adapterName": "AMRAdapterMopub",
-      "iosSupport": true,
-      "unitySupport": true,
-      "status":false,
-      "biddingSupport": false,
-      "changelog": "https://developers.mopub.com/publishers/ios/changelog",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     },
     {
@@ -1080,7 +1014,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": true,
-      "changelog": "https://target.my.com/help/partners/mob/ioshistory/en",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://target.my.com/help/partners/mob/ioshistory/en",
       "minTargetSdk":"9.0"
     },
     {
@@ -1103,7 +1039,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/releasenotes-ios.html",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/releasenotes-ios.html",
       "minTargetSdk":"8.0"
     },
     {
@@ -1125,7 +1063,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
       "minTargetSdk":"10.0"
     },
     {
@@ -1146,7 +1086,9 @@
       "unitySupport": false,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://www.pollfish.com/docs/ios",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://www.pollfish.com/docs/ios",
       "minTargetSdk":"8.0"
     },
     {
@@ -1171,7 +1113,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     },
     {
@@ -1192,7 +1136,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     },
     {
@@ -1252,7 +1198,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     },
     {
@@ -1362,7 +1310,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://developers.smaato.com/publishers/nextgen-sdk-ios-changelog",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://developers.smaato.com/publishers/nextgen-sdk-ios-changelog",
       "minTargetSdk":"9.0"
     },
     {
@@ -1385,7 +1335,9 @@
       "unitySupport": false,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://documentation.smartadserver.com/displaySDK/ios/releasenotes.html",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://documentation.smartadserver.com/displaySDK/ios/releasenotes.html",
       "minTargetSdk":"9.0"
     },
     {
@@ -1409,7 +1361,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "",
       "minTargetSdk":"8.0"
     },
     {
@@ -1516,7 +1470,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://dev.tapjoy.com/en/ios-sdk/Changelog",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://dev.tapjoy.com/en/ios-sdk/Changelog",
       "minTargetSdk":"8.0"
     },
     {
@@ -1538,7 +1494,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     },
     {
@@ -1562,7 +1520,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     },
     {
@@ -1634,7 +1594,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     },
     {
@@ -1663,7 +1625,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/releasenotes-ios.html",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/releasenotes-ios.html",
       "minTargetSdk":"10.0"
     },
     {
@@ -1748,7 +1712,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": true,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"10.0"
     },
     {
@@ -1770,7 +1736,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog": "https://github.com/yandexmobile/yandex-ads-sdk-ios/tree/master/changelog",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog": "https://github.com/yandexmobile/yandex-ads-sdk-ios/tree/master/changelog",
       "minTargetSdk":"8.0"
     },
     {
@@ -1792,7 +1760,9 @@
       "unitySupport": true,
       "status":false,
       "biddingSupport": false,
-      "changelog":"",
+      "sourceURL": "",
+      "networkSourceURL": "",
+      "networkChangelog":"",
       "minTargetSdk":"9.0"
     }
   ]
