@@ -156,8 +156,8 @@ function fillManuelNetworkFeatures() {
 
         htmlString = htmlString + '<tr>'
             htmlString = htmlString + '<td>'+obj.adNetworks[i].displayName+'</td>'
-            htmlString = htmlString + '<td><a href="'+ obj.adNetworks[i].sourceURL +'" target="_blank">'+obj.adNetworks[i].SDKVersion+'</a></td>'
-            htmlString = htmlString + '<td><a href="'+ obj.adNetworks[i].networkSourceURL +'" target="_blank">'+obj.adNetworks[i].adapterVersion+'</a></td>'
+            htmlString = htmlString + '<td><a href="'+ obj.adNetworks[i].networkSourceURL +'" target="_blank">'+obj.adNetworks[i].SDKVersion+'</a></td>'
+            htmlString = htmlString + '<td><a href="'+ obj.adNetworks[i].sourceURL +'" target="_blank">'+obj.adNetworks[i].adapterVersion+'</a></td>'
             htmlString = htmlString + '<td class="text-center">'+biddingSupport+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[0]+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[1]+'</td>'
