@@ -24,7 +24,7 @@
       "network": "ADCOLONY",
       "displayName": "AdColony",
       "SDKVersion": "4.7.2",
-      "adapterVersion": "4.7.2.5",
+      "adapterVersion": "4.7.2.3",
       "podVersion": "4.7",
       "initParameterCount": 1,
       "skadnetworkIDS": ["4pfyvq9l8r.skadnetwork",
