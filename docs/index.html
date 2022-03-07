@@ -1444,16 +1444,18 @@ AMRSDK.startTestSuite(withZones:[&lt;zoneIds&gt;]];
                   <div class="tab-content">
                     <div id="Objective-C-41" class="tab-pane fade">
                         <pre style="margin-top:0px!important"><code class="language-objectivec">
-[AMRSDK trackPurchase:@"&lt;transactionId&gt;"
+[AMRSDK trackIAP:@"&lt;transactionId&gt;"
 currencyCode:@"&lt;currencyCode&gt;"
-amount:&lt;amount&gt;];
+amount:&lt;amount&gt;
+tags:@[tags]];
                             </code></pre>
                         </div>
                     <div id="Swift-41" class="tab-pane fade in active">
                         <pre style="margin-top:0px!important"><code class="language-swift">
-AMRSDK.trackPurchase("&lt;transactionId&gt;",
+AMRSDK.trackIAP("&lt;transactionId&gt;",
 currencyCode:"&lt;currencyCode&gt;",
-amount:&lt;amount&gt;)
+amount:&lt;amount&gt;,
+tags:[tags])
                         </code></pre>  
                     </div>
 
@@ -1465,6 +1467,8 @@ amount:&lt;amount&gt;)
 					</li>
 					<li><b>amount</b> – Amount of transaction.
 					</li>
+                    <li><b>tags</b> – Distinction value for in-app purchase that used in multiple purposes.
+                    </li>
 				</ul>
 
                 <p>
@@ -1483,9 +1487,10 @@ SKProduct *product = ...;
 NSLocale *priceLocale = product.priceLocale;
 NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
                             
-[AMRSDK trackPurchase:transaction.transactionIdentifier
-         currencyCode:currencyCode
-                 amount:[product.price doubleValue]];
+[AMRSDK trackIAP:transaction.transactionIdentifier
+                 currencyCode:currencyCode
+                 amount:[product.price doubleValue]
+                 tags:@[tags]];
         </code></pre>
                         </div>
                     <div id="Swift-42" class="tab-pane fade in active">
@@ -1493,9 +1498,10 @@ NSString *currencyCode = [priceLocale objectForKey:NSLocaleCurrencyCode];
 let product: SKProduct = ...;
 let currencyCode = product.priceLocale.currencyCode
                             
-AMRSDK.trackPurchase(transaction.transactionIdentifier,
-        currencyCode:currencyCode,
-               amount:product.price)
+AMRSDK.trackIAP(transaction.transactionIdentifier,
+                currencyCode:currencyCode,
+                amount:product.price
+                tags:[tags])
             </code></pre>
                     </div>
 
