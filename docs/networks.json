@@ -642,9 +642,9 @@
     {
       "network": "DFP",
       "displayName": "DFP",
-      "SDKVersion": "8.13.0",
-      "adapterVersion": "8.13.0.2",
-      "podVersion": "8.13",
+      "SDKVersion": "9.1.0",
+      "adapterVersion": "9.1.0.0",
+      "podVersion": "9.1",
       "initParameterCount": 0,
       "skadnetworkIDS": [
       ],
@@ -662,7 +662,7 @@
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-DFP/tags",
       "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
       "networkChangelog":"",
-      "minTargetSdk":"9.0"
+      "minTargetSdk":"11.0"
     },
     {
       "network": "FACEBOOK",
