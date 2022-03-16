@@ -936,6 +936,38 @@
       "minTargetSdk":"10.0"
     },
     {
+      "network": "MADVERTISE",
+      "displayName": "Madvertise",
+      "SDKVersion": "4.0.0",
+      "adapterVersion": "4.0.0.1",
+      "podVersion": "4.0",
+      "initParameterCount": 1,
+      "skadnetworkIDS": [
+        "pd25vrrwzn.skadnetwork",
+        "cstr6suwn9.skadnetwork",
+        "v9wttpbfk9.skadnetwork",
+        "n38lu8286q.skadnetwork",
+        "p78axxw29g.skadnetwork",
+        "hs6bdukanm.skadnetwork",
+        "4pfyvq9l8r.skadnetwork"
+      ],
+      "supportedAdTypes": [
+        "Banner",
+        "Interstitial",
+        "Rewarded"
+      ],
+      "infoPlistKey": "",
+      "adapterName": "AMRAdapterMadvertise",
+      "iosSupport": true,
+      "unitySupport": true,
+      "status": false,
+      "biddingSupport": false,
+      "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MADVERTISE/tags",
+      "networkSourceURL": "https://bitbucket.org/mngcorp/mngads-demo-ios/src/master/",
+      "networkChangelog": "https://bitbucket.org/mngcorp/mngads-demo-ios/wiki/change-log",
+      "minTargetSdk": "12.2"
+    },
+    {
       "network": "MINTEGRAL",
       "displayName": "Mintegral",
       "SDKVersion": "7.0.6",
