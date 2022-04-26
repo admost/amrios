@@ -1681,6 +1681,29 @@
       "minTargetSdk":"10.0"
     },
     {
+      "network": "VRTCAL",
+      "displayName": "Vrtcal",
+      "SDKVersion": "2.1.0",
+      "adapterVersion": "2.1.0.0",
+      "podVersion": "2.1",
+      "initParameterCount": 1,
+      "skadnetworkIDS": [],
+      "supportedAdTypes": [
+        "Banner",
+        "Interstitial"
+      ],
+      "infoPlistKey": "",
+      "adapterName": "AMRAdapterVrtcal",
+      "iosSupport": true,
+      "unitySupport": true,
+      "status":false,
+      "biddingSupport": false,
+      "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-VRTCAL/tags",
+      "networkSourceURL": "",
+      "networkChangelog": "",
+      "minTargetSdk":"10.0"
+    },
+    {
       "network": "VUNGLE",
       "displayName": "Vungle",
       "SDKVersion": "6.10.6",
