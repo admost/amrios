@@ -24,7 +24,7 @@
       "network": "ADCOLONY",
       "displayName": "AdColony",
       "SDKVersion": "4.8.0",
-      "adapterVersion": "4.8.0.0",
+      "adapterVersion": "4.8.0.1",
       "podVersion": "4.8",
       "initParameterCount": 1,
       "skadnetworkIDS": ["4pfyvq9l8r.skadnetwork",
@@ -1552,8 +1552,8 @@
     {
       "network": "TIKTOK",
       "displayName": "TikTok",
-      "SDKVersion": "4.3.0.5",
-      "adapterVersion": "4.3.0.5",
+      "SDKVersion": "4.3.1.9",
+      "adapterVersion": "4.3.1.9",
       "podVersion": "4.3",
       "initParameterCount": 1,
       "skadnetworkIDS": [
