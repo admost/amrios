@@ -667,9 +667,9 @@
     {
       "network": "FACEBOOK",
       "displayName": "Facebook",
-      "SDKVersion": "6.10.0",
-      "adapterVersion": "6.10.0.0",
-      "podVersion": "6.10",
+      "SDKVersion": "6.11.0",
+      "adapterVersion": "6.11.0.0",
+      "podVersion": "6.11",
       "initParameterCount": 0,
       "skadnetworkIDS": [
           "v9wttpbfk9.skadnetwork",
