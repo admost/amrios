@@ -3,8 +3,8 @@
   [{
       "network": "AMR",
       "displayName": "AMR",
-      "SDKVersion": "1.5.16",
-      "adapterVersion": "1.5.16",
+      "SDKVersion": "1.5.17",
+      "adapterVersion": "1.5.17",
       "podVersion": "1.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
@@ -313,9 +313,9 @@
     {
       "network": "AFA",
       "displayName": "AFA",
-      "SDKVersion": "1.1.2",
-      "adapterVersion": "1.1.2.2",
-      "podVersion": "1.1",
+      "SDKVersion": "1.2.0",
+      "adapterVersion": "1.2.0.0",
+      "podVersion": "1.2",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
       "supportedAdTypes": [
