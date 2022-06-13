@@ -1,6 +1,6 @@
 {
-  "adNetworks":
-  [{
+  "adNetworks": [
+    {
       "network": "AMR",
       "displayName": "AMR",
       "SDKVersion": "1.5.17",
@@ -13,12 +13,12 @@
       "adapterName": "AMRSDK",
       "iosSupport": true,
       "unitySupport": true,
-      "status":true,
+      "status": true,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-SDK/tags",
       "networkSourceURL": "",
       "networkChangelog": "",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "ADCOLONY",
@@ -27,7 +27,8 @@
       "adapterVersion": "4.8.0.1",
       "podVersion": "4.8",
       "initParameterCount": 1,
-      "skadnetworkIDS": ["4pfyvq9l8r.skadnetwork",
+      "skadnetworkIDS": [
+        "4pfyvq9l8r.skadnetwork",
         "yclnxrl5pm.skadnetwork",
         "v72qych5uu.skadnetwork",
         "tl55sbb4fm.skadnetwork",
@@ -84,7 +85,8 @@
         "pwdxu55a5a.skadnetwork",
         "6964rsfnh4.skadnetwork",
         "a7xqa6mtl2.skadnetwork",
-        "c3frkrj4fj.skadnetwork"],
+        "c3frkrj4fj.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -94,12 +96,12 @@
       "adapterName": "AMRAdapterAdcolony",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": true,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADCOLONY/tags",
       "networkSourceURL": "https://github.com/AdColony/AdColony-iOS-SDK-3",
       "networkChangelog": "https://github.com/AdColony/AdColony-iOS-SDK/blob/master/CHANGELOG.md",
-      "minTargetSdk":"9.0"
+      "minTargetSdk": "9.0"
     },
     {
       "network": "ADMOB",
@@ -108,43 +110,45 @@
       "adapterVersion": "9.5.0.0",
       "podVersion": "9.5",
       "initParameterCount": 0,
-      "skadnetworkIDS": ["cstr6suwn9.skadnetwork",
-          "4fzdc2evr5.skadnetwork",
-          "2fnua5tdw4.skadnetwork",
-          "ydx93a7ass.skadnetwork",
-          "5a6flpkh64.skadnetwork",
-          "p78axxw29g.skadnetwork",
-          "v72qych5uu.skadnetwork",
-          "c6k4g5qg8m.skadnetwork",
-          "s39g8k73mm.skadnetwork",
-          "3qy4746246.skadnetwork",
-          "3sh42y64q3.skadnetwork",
-          "f38h382jlk.skadnetwork",
-          "hs6bdukanm.skadnetwork",
-          "prcb7njmu6.skadnetwork",
-          "v4nxqhlyqp.skadnetwork",
-          "wzmmz9fp6w.skadnetwork",
-          "yclnxrl5pm.skadnetwork",
-          "t38b2kh725.skadnetwork",
-          "7ug5zh24hu.skadnetwork",
-          "9rd848q2bz.skadnetwork",
-          "n6fk4nfna4.skadnetwork",
-          "kbd757ywx3.skadnetwork",
-          "9t245vhmpl.skadnetwork",
-          "4468km3ulz.skadnetwork",
-          "2u9pt9hc89.skadnetwork",
-          "8s468mfl3y.skadnetwork",
-          "av6w8kgt66.skadnetwork",
-          "klf5c3l5u5.skadnetwork",
-          "ppxm28t8ap.skadnetwork",
-          "424m5254lk.skadnetwork",
-          "uw77j35x4d.skadnetwork",
-          "578prtvx9j.skadnetwork",
-          "4dzt52r2t5.skadnetwork",
-          "e5fvkxwrpn.skadnetwork",
-          "8c4e2ghe7u.skadnetwork",
-          "zq492l623r.skadnetwork",
-          "3qcr597p9d.skadnetwork"],
+      "skadnetworkIDS": [
+        "cstr6suwn9.skadnetwork",
+        "4fzdc2evr5.skadnetwork",
+        "2fnua5tdw4.skadnetwork",
+        "ydx93a7ass.skadnetwork",
+        "5a6flpkh64.skadnetwork",
+        "p78axxw29g.skadnetwork",
+        "v72qych5uu.skadnetwork",
+        "c6k4g5qg8m.skadnetwork",
+        "s39g8k73mm.skadnetwork",
+        "3qy4746246.skadnetwork",
+        "3sh42y64q3.skadnetwork",
+        "f38h382jlk.skadnetwork",
+        "hs6bdukanm.skadnetwork",
+        "prcb7njmu6.skadnetwork",
+        "v4nxqhlyqp.skadnetwork",
+        "wzmmz9fp6w.skadnetwork",
+        "yclnxrl5pm.skadnetwork",
+        "t38b2kh725.skadnetwork",
+        "7ug5zh24hu.skadnetwork",
+        "9rd848q2bz.skadnetwork",
+        "n6fk4nfna4.skadnetwork",
+        "kbd757ywx3.skadnetwork",
+        "9t245vhmpl.skadnetwork",
+        "4468km3ulz.skadnetwork",
+        "2u9pt9hc89.skadnetwork",
+        "8s468mfl3y.skadnetwork",
+        "av6w8kgt66.skadnetwork",
+        "klf5c3l5u5.skadnetwork",
+        "ppxm28t8ap.skadnetwork",
+        "424m5254lk.skadnetwork",
+        "uw77j35x4d.skadnetwork",
+        "578prtvx9j.skadnetwork",
+        "4dzt52r2t5.skadnetwork",
+        "e5fvkxwrpn.skadnetwork",
+        "8c4e2ghe7u.skadnetwork",
+        "zq492l623r.skadnetwork",
+        "3qcr597p9d.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -156,12 +160,12 @@
       "adapterName": "AMRAdapterAdmob",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/tags",
       "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
       "networkChangelog": "https://developers.google.com/admob/ios/rel-notes",
-      "minTargetSdk":"11.0"
+      "minTargetSdk": "11.0"
     },
     {
       "network": "ADMOST",
@@ -170,8 +174,7 @@
       "adapterVersion": "1.6.1.0",
       "podVersion": "1.6",
       "initParameterCount": 0,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -181,12 +184,12 @@
       "adapterName": "AMRAdapterAdmost",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
       "networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
       "networkChangelog": "",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "A4G",
@@ -195,7 +198,8 @@
       "adapterVersion": "9.5.0.0",
       "podVersion": "9.5",
       "initParameterCount": 0,
-      "skadnetworkIDS": ["cstr6suwn9.skadnetwork",
+      "skadnetworkIDS": [
+        "cstr6suwn9.skadnetwork",
         "4fzdc2evr5.skadnetwork",
         "2fnua5tdw4.skadnetwork",
         "ydx93a7ass.skadnetwork",
@@ -231,7 +235,8 @@
         "e5fvkxwrpn.skadnetwork",
         "8c4e2ghe7u.skadnetwork",
         "zq492l623r.skadnetwork",
-        "3qcr597p9d.skadnetwork"],
+        "3qcr597p9d.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -243,12 +248,12 @@
       "adapterName": "AMRAdapterAdmob",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "",
       "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
-      "networkChangelog":"",
-      "minTargetSdk":"11.0"
+      "networkChangelog": "",
+      "minTargetSdk": "11.0"
     },
     {
       "network": "ADX",
@@ -257,7 +262,8 @@
       "adapterVersion": "9.5.0.0",
       "podVersion": "9.5",
       "initParameterCount": 0,
-      "skadnetworkIDS": ["cstr6suwn9.skadnetwork",
+      "skadnetworkIDS": [
+        "cstr6suwn9.skadnetwork",
         "4fzdc2evr5.skadnetwork",
         "2fnua5tdw4.skadnetwork",
         "ydx93a7ass.skadnetwork",
@@ -293,7 +299,8 @@
         "e5fvkxwrpn.skadnetwork",
         "8c4e2ghe7u.skadnetwork",
         "zq492l623r.skadnetwork",
-        "3qcr597p9d.skadnetwork"],
+        "3qcr597p9d.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -303,12 +310,12 @@
       "adapterName": "AMRAdapterAdmob",
       "iosSupport": false,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "",
       "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
       "networkChangelog": "",
-      "minTargetSdk":"11.0"
+      "minTargetSdk": "11.0"
     },
     {
       "network": "AFA",
@@ -326,12 +333,12 @@
       "adapterName": "AMRAdapterAFA",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-AFA/tags",
       "networkSourceURL": "https://github.com/admost/AdmostFairAds",
-      "networkChangelog":"",
-      "minTargetSdk":"9.0"
+      "networkChangelog": "",
+      "minTargetSdk": "9.0"
     },
     {
       "network": "AMAZON",
@@ -340,7 +347,9 @@
       "adapterVersion": "3.1.0.1",
       "podVersion": "3.1",
       "initParameterCount": 1,
-      "skadnetworkIDS": ["p78axxw29g.skadnetwork"],
+      "skadnetworkIDS": [
+        "p78axxw29g.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial"
@@ -349,12 +358,12 @@
       "adapterName": "AMRAdapterAmazon",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-AMAZON/tags",
       "networkSourceURL": "https://developer.amazon.com/docs/mobile-ads/mb-overview.html",
       "networkChangelog": "https://developer.amazon.com/docs/mobile-ads/mb-ios-release-notes.html",
-      "minTargetSdk":"9.0"
+      "minTargetSdk": "9.0"
     },
     {
       "network": "APPLOVIN",
@@ -363,7 +372,8 @@
       "adapterVersion": "11.4.1.0",
       "podVersion": "11.4",
       "initParameterCount": 0,
-      "skadnetworkIDS": ["24t9a8vw3c.skadnetwork",
+      "skadnetworkIDS": [
+        "24t9a8vw3c.skadnetwork",
         "275upjj5gd.skadnetwork",
         "294l99pt4k.skadnetwork",
         "2fnua5tdw4.skadnetwork",
@@ -442,7 +452,8 @@
         "xy9t38ct57.skadnetwork",
         "yclnxrl5pm.skadnetwork",
         "ydx93a7ass.skadnetwork",
-        "zmvfpc5aq8.skadnetwork"],
+        "zmvfpc5aq8.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -452,12 +463,12 @@
       "adapterName": "AMRAdapterApplovin",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/tags",
       "networkSourceURL": "https://github.com/AppLovin/AppLovin-MAX-SDK-iOS",
       "networkChangelog": "https://dash.applovin.com/documentation/mediation/ios/changelog",
-      "minTargetSdk":"9.0"
+      "minTargetSdk": "9.0"
     },
     {
       "network": "APPNEXT",
@@ -466,8 +477,7 @@
       "adapterVersion": "1.9.3.4",
       "podVersion": "1.9",
       "initParameterCount": 0,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -478,12 +488,12 @@
       "adapterName": "AMRAdapterAppnext",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-APPNEXT/tags",
       "networkSourceURL": "https://developers.appnext.com/docs/ios-sdk-installation",
       "networkChangelog": "https://developers.appnext.com/docs/change-log",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "CHARTBOOST",
@@ -492,7 +502,8 @@
       "adapterVersion": "8.5.0.3",
       "podVersion": "8.5",
       "initParameterCount": 2,
-      "skadnetworkIDS": ["a2p9lx4jpn.skadnetwork",
+      "skadnetworkIDS": [
+        "a2p9lx4jpn.skadnetwork",
         "ppxm28t8ap.skadnetwork",
         "9nlqeag3gk.skadnetwork",
         "2u9pt9hc89.skadnetwork",
@@ -607,7 +618,8 @@
         "pwdxu55a5a.skadnetwork",
         "krvm3zuq6h.skadnetwork",
         "c3frkrj4fj.skadnetwork",
-        "3rd42ekr43.skadnetwork"],
+        "3rd42ekr43.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -617,12 +629,12 @@
       "adapterName": "AMRAdapterChartboost",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-CHARTBOOST/tags",
       "networkSourceURL": "https://answers.chartboost.com/en-us/articles/download",
       "networkChangelog": "https://answers.chartboost.com/en-us/child_article/ios-ios-swift",
-      "minTargetSdk":"10.0"
+      "minTargetSdk": "10.0"
     },
     {
       "network": "CRITEO",
@@ -632,7 +644,7 @@
       "podVersion": "4.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [
-          "hs6bdukanm.skadnetwork"
+        "hs6bdukanm.skadnetwork"
       ],
       "supportedAdTypes": [
         "Banner",
@@ -642,12 +654,12 @@
       "adapterName": "AMRAdapterCriteo",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": true,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-CRITEO/tags",
       "networkSourceURL": "https://github.com/criteo/ios-publisher-sdk/tags",
       "networkChangelog": "https://publisherdocs.criteotilt.com/app/ios/release-notes",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "DFP",
@@ -656,8 +668,7 @@
       "adapterVersion": "9.1.0.0",
       "podVersion": "9.1",
       "initParameterCount": 0,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -667,12 +678,12 @@
       "adapterName": "AMRAdapterDFP",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-DFP/tags",
       "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
-      "networkChangelog":"",
-      "minTargetSdk":"11.0"
+      "networkChangelog": "",
+      "minTargetSdk": "11.0"
     },
     {
       "network": "FACEBOOK",
@@ -682,8 +693,8 @@
       "podVersion": "6.11",
       "initParameterCount": 0,
       "skadnetworkIDS": [
-          "v9wttpbfk9.skadnetwork",
-          "n38lu8286q.skadnetwork"
+        "v9wttpbfk9.skadnetwork",
+        "n38lu8286q.skadnetwork"
       ],
       "supportedAdTypes": [
         "Banner",
@@ -694,12 +705,12 @@
       "adapterName": "AMRAdapterFacebook",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": true,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK/tags",
       "networkSourceURL": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/get-started",
       "networkChangelog": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/changelog",
-      "minTargetSdk":"9.0"
+      "minTargetSdk": "9.0"
     },
     {
       "network": "FYBER",
@@ -708,7 +719,8 @@
       "adapterVersion": "8.1.4.0",
       "podVersion": "8.1",
       "initParameterCount": 1,
-      "skadnetworkIDS": ["krvm3zuq6h.skadnetwork",
+      "skadnetworkIDS": [
+        "krvm3zuq6h.skadnetwork",
         "kbmxgpxpgc.skadnetwork",
         "mtkv5xtk9e.skadnetwork",
         "n6fk4nfna4.skadnetwork",
@@ -772,22 +784,23 @@
         "g28c52eehv.skadnetwork",
         "pwa73g5rt2.skadnetwork",
         "zq492l623r.skadnetwork",
-        "22mmun2rn5.skadnetwork"],
+        "22mmun2rn5.skadnetwork"
+      ],
       "supportedAdTypes": [
-          "Banner",
-          "Interstitial",
-          "Rewarded"
+        "Banner",
+        "Interstitial",
+        "Rewarded"
       ],
       "infoPlistKey": "",
       "adapterName": "AMRAdapterFyber",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-FYBER/tags",
       "networkSourceURL": "https://developer.fyber.com/hc/en-us/articles/360010971118-iOS-SDK-Integration",
       "networkChangelog": "https://developer.fyber.com/hc/en-us/articles/360010911617-iOS-Changelog",
-      "minTargetSdk":"9.0"
+      "minTargetSdk": "9.0"
     },
     {
       "network": "HYPRMX",
@@ -797,7 +810,7 @@
       "podVersion": "6.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [
-          "nu4557a4je.skadnetwork"
+        "nu4557a4je.skadnetwork"
       ],
       "supportedAdTypes": [
         "Interstitial",
@@ -807,12 +820,12 @@
       "adapterName": "AMRAdapterHyprmx",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-HYPRMX/tags",
       "networkSourceURL": "https://documentation.hyprmx.com/ios-hyprmx-sdk/downloads",
       "networkChangelog": "",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "INMOBI",
@@ -821,7 +834,8 @@
       "adapterVersion": "10.0.2.2",
       "podVersion": "10.0",
       "initParameterCount": 1,
-      "skadnetworkIDS": ["uw77j35x4d.skadnetwork",
+      "skadnetworkIDS": [
+        "uw77j35x4d.skadnetwork",
         "7ug5zh24hu.skadnetwork",
         "hs6bdukanm.skadnetwork",
         "4fzdc2evr5.skadnetwork",
@@ -876,7 +890,8 @@
         "294l99pt4k.skadnetwork",
         "523jb4fst2.skadnetwork",
         "mls7yz5dvl.skadnetwork",
-        "74b6s63p6l.skadnetwork"],
+        "74b6s63p6l.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -886,12 +901,12 @@
       "adapterName": "AMRAdapterInmobi",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": true,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-INMOBI/tags",
       "networkSourceURL": "https://www.inmobi.com/sdk",
       "networkChangelog": "https://support.inmobi.com/monetize/download-sdk/ios-changelogs",
-      "minTargetSdk":"9.0"
+      "minTargetSdk": "9.0"
     },
     {
       "network": "IRONSOURCE",
@@ -901,7 +916,7 @@
       "podVersion": "7.2",
       "initParameterCount": 1,
       "skadnetworkIDS": [
-          "su67r6k2v3.skadnetwork"
+        "su67r6k2v3.skadnetwork"
       ],
       "supportedAdTypes": [
         "Banner",
@@ -913,12 +928,12 @@
       "adapterName": "AMRAdapterIronsource",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-IRONSOURCE/tags",
       "networkSourceURL": "https://developers.ironsrc.com/ironsource-mobile/ios/ios-sdk/#step-1",
       "networkChangelog": "https://developers.is.com/ironsource-mobile/ios/sdk-change-log",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "LIFTOFF",
@@ -928,7 +943,7 @@
       "podVersion": "1.9",
       "initParameterCount": 1,
       "skadnetworkIDS": [
-          "7ug5zh24hu.skadnetwork"
+        "7ug5zh24hu.skadnetwork"
       ],
       "supportedAdTypes": [
         "Banner",
@@ -939,12 +954,12 @@
       "adapterName": "AMRAdapterLiftoff",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-LIFTOFF/tags",
       "networkSourceURL": "https://github.com/liftoffio/LiftoffAds-iOS/tags",
       "networkChangelog": "",
-      "minTargetSdk":"10.0"
+      "minTargetSdk": "10.0"
     },
     {
       "network": "MADVERTISE",
@@ -985,7 +1000,8 @@
       "adapterVersion": "7.1.5.0",
       "podVersion": "7.1",
       "initParameterCount": 2,
-      "skadnetworkIDS": ["kbd757ywx3.skadnetwork",
+      "skadnetworkIDS": [
+        "kbd757ywx3.skadnetwork",
         "wg4vff78zm.skadnetwork",
         "737z793b9f.skadnetwork",
         "ydx93a7ass.skadnetwork",
@@ -1004,7 +1020,8 @@
         "av6w8kgt66.skadnetwork",
         "6xzpu9s2p8.skadnetwork",
         "hs6bdukanm.skadnetwork",
-        "v72qych5uu.skadnetwork"],
+        "v72qych5uu.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -1014,12 +1031,12 @@
       "adapterName": "AMRAdapterMintegral",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": true,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MINTEGRAL/tags",
       "networkSourceURL": "http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en",
       "networkChangelog": "http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en#changelog",
-      "minTargetSdk":"9.0"
+      "minTargetSdk": "9.0"
     },
     {
       "network": "MOBFOX",
@@ -1028,8 +1045,7 @@
       "adapterVersion": "4.2.2.2",
       "podVersion": "4.2",
       "initParameterCount": 0,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -1039,12 +1055,12 @@
       "adapterName": "AMRAdapterMobfox",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MOBFOX/tags",
       "networkSourceURL": "https://mobfox.atlassian.net/wiki/spaces/PUMD/pages/1434878036/Swift+-+Installation+manual",
-      "networkChangelog":"",
-      "minTargetSdk":"9.0"
+      "networkChangelog": "",
+      "minTargetSdk": "9.0"
     },
     {
       "network": "MYTARGET",
@@ -1053,7 +1069,10 @@
       "adapterVersion": "5.15.1.0",
       "podVersion": "5.15",
       "initParameterCount": 0,
-      "skadnetworkIDS": ["n9x2a789qt.skadnetwork", "r26jy69rpl.skadnetwork"],
+      "skadnetworkIDS": [
+        "n9x2a789qt.skadnetwork",
+        "r26jy69rpl.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -1063,12 +1082,12 @@
       "adapterName": "AMRAdapterMytarget",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": true,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MYTARGET/tags",
       "networkSourceURL": "https://github.com/myTargetSDK/mytarget-ios/releases",
       "networkChangelog": "https://target.my.com/help/partners/mob/ioshistory/en",
-      "minTargetSdk":"9.0"
+      "minTargetSdk": "9.0"
     },
     {
       "network": "NEXAGE",
@@ -1077,8 +1096,7 @@
       "adapterVersion": "6.8.2.2",
       "podVersion": "6.8",
       "initParameterCount": 1,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -1088,12 +1106,12 @@
       "adapterName": "AMRAdapterNexage",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-NEXAGE/tags",
       "networkSourceURL": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/integration.html",
       "networkChangelog": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/releasenotes-ios.html",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "OGURY",
@@ -1102,8 +1120,7 @@
       "adapterVersion": "2.5.0.2",
       "podVersion": "2.5",
       "initParameterCount": 1,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Interstitial",
         "Rewarded"
@@ -1112,12 +1129,12 @@
       "adapterName": "AMRAdapterOgury",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-OGURY/tags",
       "networkSourceURL": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
       "networkChangelog": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
-      "minTargetSdk":"10.0"
+      "minTargetSdk": "10.0"
     },
     {
       "network": "POLLFISH",
@@ -1126,8 +1143,7 @@
       "adapterVersion": "6.2.3.0",
       "podVersion": "6.2",
       "initParameterCount": 1,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Offerwall"
       ],
@@ -1135,12 +1151,12 @@
       "adapterName": "AMRAdapterPollfish",
       "iosSupport": true,
       "unitySupport": false,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-POLLFISH/tags",
       "networkSourceURL": "https://github.com/pollfish/ios-sdk-pollfish/tags",
       "networkChangelog": "https://www.pollfish.com/docs/ios",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "PUBNATIVE",
@@ -1150,8 +1166,8 @@
       "podVersion": "2.4",
       "initParameterCount": 1,
       "skadnetworkIDS": [
-          "tl55sbb4fm.skadnetwork",
-          "6xzpu9s2p8.skadnetwork"
+        "tl55sbb4fm.skadnetwork",
+        "6xzpu9s2p8.skadnetwork"
       ],
       "supportedAdTypes": [
         "Banner",
@@ -1162,12 +1178,12 @@
       "adapterName": "AMRAdapterPubnative",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-PUBNATIVE/tags",
       "networkSourceURL": "https://github.com/pubnative/pubnative-hybid-ios-sdk/tags",
-      "networkChangelog":"",
-      "minTargetSdk":"9.0"
+      "networkChangelog": "",
+      "minTargetSdk": "9.0"
     },
     {
       "network": "QUMPARA",
@@ -1176,8 +1192,7 @@
       "adapterVersion": "1.1.6.3",
       "podVersion": "1.1",
       "initParameterCount": 2,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Offerwall"
       ],
@@ -1185,12 +1200,12 @@
       "adapterName": "AMRAdapterQumpara",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-QUMPARA/tags",
       "networkSourceURL": "",
-      "networkChangelog":"",
-      "minTargetSdk":"9.0"
+      "networkChangelog": "",
+      "minTargetSdk": "9.0"
     },
     {
       "network": "REKLAMUP",
@@ -1199,7 +1214,8 @@
       "adapterVersion": "9.1.0.0",
       "podVersion": "9.1",
       "initParameterCount": 0,
-      "skadnetworkIDS": ["cstr6suwn9.skadnetwork",
+      "skadnetworkIDS": [
+        "cstr6suwn9.skadnetwork",
         "4fzdc2evr5.skadnetwork",
         "2fnua5tdw4.skadnetwork",
         "ydx93a7ass.skadnetwork",
@@ -1235,7 +1251,8 @@
         "e5fvkxwrpn.skadnetwork",
         "8c4e2ghe7u.skadnetwork",
         "zq492l623r.skadnetwork",
-        "3qcr597p9d.skadnetwork"],
+        "3qcr597p9d.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -1247,12 +1264,12 @@
       "adapterName": "AMRAdapterAdmob",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "",
       "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
-      "networkChangelog":"",
-      "minTargetSdk":"11.0"
+      "networkChangelog": "",
+      "minTargetSdk": "11.0"
     },
     {
       "network": "SMAATO",
@@ -1261,7 +1278,8 @@
       "adapterVersion": "21.7.0.0",
       "podVersion": "21.7",
       "initParameterCount": 1,
-      "skadnetworkIDS": ["uw77j35x4d.skadnetwork",
+      "skadnetworkIDS": [
+        "uw77j35x4d.skadnetwork",
         "7ug5zh24hu.skadnetwork",
         "hs6bdukanm.skadnetwork",
         "3sh42y64q3.skadnetwork",
@@ -1349,7 +1367,8 @@
         "3l6bd9hu43.skadnetwork",
         "vcra2ehyfk.skadnetwork",
         "3qcr597p9d.skadnetwork",
-        "74b6s63p6l.skadnetwork"],
+        "74b6s63p6l.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -1359,12 +1378,12 @@
       "adapterName": "AMRAdapterSmaato",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-SMAATO/tags",
       "networkSourceURL": "https://developers.smaato.com/publishers/nextgen-sdk-ios-getting-started/",
       "networkChangelog": "https://developers.smaato.com/publishers/nextgen-sdk-ios-changelog",
-      "minTargetSdk":"9.0"
+      "minTargetSdk": "9.0"
     },
     {
       "network": "SMARTAD",
@@ -1373,8 +1392,7 @@
       "adapterVersion": "7.17.0.0",
       "podVersion": "7.17",
       "initParameterCount": 1,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -1384,12 +1402,12 @@
       "adapterName": "AMRAdapterSmartadserver",
       "iosSupport": true,
       "unitySupport": false,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-SMARTADSERVER/tags",
       "networkSourceURL": "https://documentation.smartadserver.com/instreamSDK/ios/gettingstarted.html",
       "networkChangelog": "https://documentation.smartadserver.com/displaySDK/ios/releasenotes.html",
-      "minTargetSdk":"9.0"
+      "minTargetSdk": "9.0"
     },
     {
       "network": "STARTAPP",
@@ -1398,7 +1416,8 @@
       "adapterVersion": "4.7.0.0",
       "podVersion": "4.7",
       "initParameterCount": 1,
-      "skadnetworkIDS": ["5l3tpt7t6e.skadnetwork",
+      "skadnetworkIDS": [
+        "5l3tpt7t6e.skadnetwork",
         "mlmmfzh3r3.skadnetwork",
         "hs6bdukanm.skadnetwork",
         "t38b2kh725.skadnetwork",
@@ -1409,7 +1428,8 @@
         "ppxm28t8ap.skadnetwork",
         "97r2b46745.skadnetwork",
         "zq492l623r.skadnetwork",
-        "a2p9lx4jpn.skadnetwork"],
+        "a2p9lx4jpn.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -1419,12 +1439,12 @@
       "adapterName": "AMRAdapterStartapp",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-STARTAPP/tags",
       "networkSourceURL": "https://github.com/StartApp-SDK/StartAppSDK/tags",
       "networkChangelog": "",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "TAPJOY",
@@ -1433,7 +1453,8 @@
       "adapterVersion": "12.9.1.0",
       "podVersion": "12.9",
       "initParameterCount": 1,
-      "skadnetworkIDS": ["ecpz2srf59.skadnetwork",
+      "skadnetworkIDS": [
+        "ecpz2srf59.skadnetwork",
         "7ug5zh24hu.skadnetwork",
         "9t245vhmpl.skadnetwork",
         "prcb7njmu6.skadnetwork",
@@ -1520,7 +1541,8 @@
         "pwa73g5rt2.skadnetwork",
         "3qcr597p9d.skadnetwork",
         "x44k69ngh6.skadnetwork",
-        "a2p9lx4jpn.skadnetwork"],
+        "a2p9lx4jpn.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Interstitial",
         "Rewarded",
@@ -1530,12 +1552,12 @@
       "adapterName": "AMRAdapterTapjoy",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-TAPJOY/tags",
       "networkSourceURL": "https://dev.tapjoy.com/en/ios-sdk/Manual-Integration",
       "networkChangelog": "https://dev.tapjoy.com/en/ios-sdk/Changelog",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "TAPPX",
@@ -1544,8 +1566,7 @@
       "adapterVersion": "4.0.9.1",
       "podVersion": "4.0",
       "initParameterCount": 1,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Banner",
         "Interstitial"
@@ -1554,12 +1575,34 @@
       "adapterName": "AMRAdapterTappx",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-TAPPX/tags",
       "networkSourceURL": "https://developers.tappx.com/en/ios/before-you-start/",
-      "networkChangelog":"",
-      "minTargetSdk":"9.0"
+      "networkChangelog": "",
+      "minTargetSdk": "9.0"
+    },
+    {
+      "network": "TEADS",
+      "displayName": "Teads",
+      "SDKVersion": "5.0.16",
+      "adapterVersion": "5.0.16.0",
+      "podVersion": "5.0",
+      "initParameterCount": 0,
+      "skadnetworkIDS": [],
+      "supportedAdTypes": [
+        "Banner"
+      ],
+      "infoPlistKey": "",
+      "adapterName": "AMRAdapterTeads",
+      "iosSupport": true,
+      "unitySupport": true,
+      "status": false,
+      "biddingSupport": false,
+      "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-TEADS/tags",
+      "networkSourceURL": "https://support.teads.tv/support/solutions/articles/36000314785",
+      "networkChangelog": "",
+      "minTargetSdk": "10.0"
     },
     {
       "network": "TIKTOK",
@@ -1569,8 +1612,8 @@
       "podVersion": "4.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [
-          "238da6jt44.skadnetwork",
-          "22mmun2rn5.skadnetwork"
+        "238da6jt44.skadnetwork",
+        "22mmun2rn5.skadnetwork"
       ],
       "supportedAdTypes": [
         "Interstitial",
@@ -1580,12 +1623,12 @@
       "adapterName": "AMRAdapterTiktok",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-TIKTOK/tags",
       "networkSourceURL": "https://developers.tiktok.com/doc/getting-started-ios-download-and-changelog",
-      "networkChangelog":"https://developers.tiktok.com/doc/getting-started-ios-download-and-changelog",
-      "minTargetSdk":"9.0"
+      "networkChangelog": "https://developers.tiktok.com/doc/getting-started-ios-download-and-changelog",
+      "minTargetSdk": "9.0"
     },
     {
       "network": "UNITYAD",
@@ -1594,7 +1637,8 @@
       "adapterVersion": "4.1.0.0",
       "podVersion": "4.1",
       "initParameterCount": 1,
-      "skadnetworkIDS": ["f7s53z58qe.skadnetwork",
+      "skadnetworkIDS": [
+        "f7s53z58qe.skadnetwork",
         "3rd42ekr43.skadnetwork",
         "tl55sbb4fm.skadnetwork",
         "578prtvx9j.skadnetwork",
@@ -1645,7 +1689,8 @@
         "ydx93a7ass.skadnetwork",
         "lr83yxwka7.skadnetwork",
         "k674qkevps.skadnetwork",
-        "294l99pt4k.skadnetwork"],
+        "294l99pt4k.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -1655,12 +1700,12 @@
       "adapterName": "AMRAdapterUnity",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-UNITYADS/tags",
       "networkSourceURL": "https://github.com/Unity-Technologies/unity-ads-ios",
-      "networkChangelog":"https://github.com/Unity-Technologies/unity-ads-ios/releases",
-      "minTargetSdk":"9.0"
+      "networkChangelog": "https://github.com/Unity-Technologies/unity-ads-ios/releases",
+      "minTargetSdk": "9.0"
     },
     {
       "network": "VERIZON",
@@ -1669,7 +1714,8 @@
       "adapterVersion": "1.14.0.3",
       "podVersion": "1.14",
       "initParameterCount": 1,
-      "skadnetworkIDS": ["e5fvkxwrpn.skadnetwork",
+      "skadnetworkIDS": [
+        "e5fvkxwrpn.skadnetwork",
         "4fzdc2evr5.skadnetwork",
         "cg4yq2srnc.skadnetwork",
         "c6k4g5qg8m.skadnetwork",
@@ -1677,7 +1723,8 @@
         "9rd848q2bz.skadnetwork",
         "klf5c3l5u5.skadnetwork",
         "8s468mfl3y.skadnetwork",
-        "uw77j35x4d.skadnetwork"],
+        "uw77j35x4d.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial"
@@ -1686,12 +1733,12 @@
       "adapterName": "AMRAdapterVerizon",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-VERIZON/tags",
       "networkSourceURL": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/integration.html",
       "networkChangelog": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/releasenotes-ios.html",
-      "minTargetSdk":"10.0"
+      "minTargetSdk": "10.0"
     },
     {
       "network": "VRTCAL",
@@ -1709,12 +1756,12 @@
       "adapterName": "AMRAdapterVrtcal",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-VRTCAL/tags",
       "networkSourceURL": "",
       "networkChangelog": "",
-      "minTargetSdk":"10.0"
+      "minTargetSdk": "10.0"
     },
     {
       "network": "VUNGLE",
@@ -1723,7 +1770,8 @@
       "adapterVersion": "6.11.0.0",
       "podVersion": "6.11",
       "initParameterCount": 1,
-      "skadnetworkIDS": ["gta9lk7p23.skadnetwork",
+      "skadnetworkIDS": [
+        "gta9lk7p23.skadnetwork",
         "c3frkrj4fj.skadnetwork",
         "p78axxw29g.skadnetwork",
         "4fzdc2evr5.skadnetwork",
@@ -1798,7 +1846,8 @@
         "5tjdwbrq8w.skadnetwork",
         "r45fhb6rf7.skadnetwork",
         "32z4fx6l9h.skadnetwork",
-        "3rd42ekr43.skadnetwork"],
+        "3rd42ekr43.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Interstitial",
         "Rewarded"
@@ -1807,12 +1856,12 @@
       "adapterName": "AMRAdapterVungle",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": true,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-VUNGLE/tags",
       "networkSourceURL": "https://vungle.com/vungle-sdk/#download",
-      "networkChangelog":"https://github.com/Vungle/iOS-SDK/blob/master/CHANGELOG.md",
-      "minTargetSdk":"10.0"
+      "networkChangelog": "https://github.com/Vungle/iOS-SDK/blob/master/CHANGELOG.md",
+      "minTargetSdk": "10.0"
     },
     {
       "network": "YANDEX",
@@ -1821,7 +1870,9 @@
       "adapterVersion": "4.4.2.3",
       "podVersion": "4.4",
       "initParameterCount": 0,
-      "skadnetworkIDS": ["zq492l623r.skadnetwork"],
+      "skadnetworkIDS": [
+        "zq492l623r.skadnetwork"
+      ],
       "supportedAdTypes": [
         "Banner",
         "Interstitial",
@@ -1831,12 +1882,12 @@
       "adapterName": "AMRAdapterYandex",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-YANDEX/tags",
       "networkSourceURL": "https://github.com/yandexmobile/yandex-ads-sdk-ios",
       "networkChangelog": "https://github.com/yandexmobile/yandex-ads-sdk-ios/tree/master/changelog",
-      "minTargetSdk":"8.0"
+      "minTargetSdk": "8.0"
     },
     {
       "network": "YOUAPPI",
@@ -1845,8 +1896,7 @@
       "adapterVersion": "5.0.0.3",
       "podVersion": "5.0",
       "initParameterCount": 1,
-      "skadnetworkIDS": [
-      ],
+      "skadnetworkIDS": [],
       "supportedAdTypes": [
         "Interstitial",
         "Rewarded"
@@ -1855,12 +1905,12 @@
       "adapterName": "AMRAdapterYouappi",
       "iosSupport": true,
       "unitySupport": true,
-      "status":false,
+      "status": false,
       "biddingSupport": false,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-YOUAPPI/tags",
       "networkSourceURL": "http://sdkui.youappi.com/download/latest/sdk/ios",
-      "networkChangelog":"",
-      "minTargetSdk":"9.0"
+      "networkChangelog": "",
+      "minTargetSdk": "9.0"
     }
   ]
 }
