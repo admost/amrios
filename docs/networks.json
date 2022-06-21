@@ -106,9 +106,9 @@
     {
       "network": "ADMOB",
       "displayName": "AdMob",
-      "SDKVersion": "9.5.0",
-      "adapterVersion": "9.5.0.0",
-      "podVersion": "9.5",
+      "SDKVersion": "9.6.0",
+      "adapterVersion": "9.6.0.0",
+      "podVersion": "9.6",
       "initParameterCount": 0,
       "skadnetworkIDS": [
         "cstr6suwn9.skadnetwork",
@@ -194,9 +194,9 @@
     {
       "network": "A4G",
       "displayName": "A4G",
-      "SDKVersion": "9.5.0",
-      "adapterVersion": "9.5.0.0",
-      "podVersion": "9.5",
+      "SDKVersion": "9.6.0",
+      "adapterVersion": "9.6.0.0",
+      "podVersion": "9.6",
       "initParameterCount": 0,
       "skadnetworkIDS": [
         "cstr6suwn9.skadnetwork",
@@ -258,9 +258,9 @@
     {
       "network": "ADX",
       "displayName": "ADX",
-      "SDKVersion": "9.5.0",
-      "adapterVersion": "9.5.0.0",
-      "podVersion": "9.5",
+      "SDKVersion": "9.6.0",
+      "adapterVersion": "9.6.0.0",
+      "podVersion": "9.6",
       "initParameterCount": 0,
       "skadnetworkIDS": [
         "cstr6suwn9.skadnetwork",
@@ -368,8 +368,8 @@
     {
       "network": "APPLOVIN",
       "displayName": "AppLovin",
-      "SDKVersion": "11.4.1",
-      "adapterVersion": "11.4.1.0",
+      "SDKVersion": "11.4.2",
+      "adapterVersion": "11.4.2.0",
       "podVersion": "11.4",
       "initParameterCount": 0,
       "skadnetworkIDS": [
@@ -996,8 +996,8 @@
     {
       "network": "MINTEGRAL",
       "displayName": "Mintegral",
-      "SDKVersion": "7.1.5",
-      "adapterVersion": "7.1.5.0",
+      "SDKVersion": "7.1.7",
+      "adapterVersion": "7.1.7.0",
       "podVersion": "7.1",
       "initParameterCount": 2,
       "skadnetworkIDS": [
@@ -1116,9 +1116,9 @@
     {
       "network": "OGURY",
       "displayName": "Ogury",
-      "SDKVersion": "2.5.0",
-      "adapterVersion": "2.5.0.2",
-      "podVersion": "2.5",
+      "SDKVersion": "3.1.0",
+      "adapterVersion": "3.1.0.0",
+      "podVersion": "3.1",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
       "supportedAdTypes": [
@@ -1274,8 +1274,8 @@
     {
       "network": "SMAATO",
       "displayName": "Smaato",
-      "SDKVersion": "21.7.0",
-      "adapterVersion": "21.7.0.0",
+      "SDKVersion": "21.7.5",
+      "adapterVersion": "21.7.5.0",
       "podVersion": "21.7",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1388,8 +1388,8 @@
     {
       "network": "SMARTAD",
       "displayName": "SmartAd",
-      "SDKVersion": "7.17.0",
-      "adapterVersion": "7.17.0.0",
+      "SDKVersion": "7.17.1",
+      "adapterVersion": "7.17.1.0",
       "podVersion": "7.17",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
@@ -1449,9 +1449,9 @@
     {
       "network": "TAPJOY",
       "displayName": "Tapjoy",
-      "SDKVersion": "12.9.1",
-      "adapterVersion": "12.9.1.0",
-      "podVersion": "12.9",
+      "SDKVersion": "12.10.0",
+      "adapterVersion": "12.10.0.0",
+      "podVersion": "12.10",
       "initParameterCount": 1,
       "skadnetworkIDS": [
         "ecpz2srf59.skadnetwork",
@@ -1607,8 +1607,8 @@
     {
       "network": "TIKTOK",
       "displayName": "TikTok",
-      "SDKVersion": "4.5.1.3",
-      "adapterVersion": "4.5.1.3",
+      "SDKVersion": "4.5.2.3",
+      "adapterVersion": "4.5.2.3",
       "podVersion": "4.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [
