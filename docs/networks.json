@@ -1065,8 +1065,8 @@
     {
       "network": "MYTARGET",
       "displayName": "MyTarget",
-      "SDKVersion": "5.15.1",
-      "adapterVersion": "5.15.1.0",
+      "SDKVersion": "5.15.2",
+      "adapterVersion": "5.15.2.0",
       "podVersion": "5.15",
       "initParameterCount": 0,
       "skadnetworkIDS": [
