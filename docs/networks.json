@@ -3,8 +3,8 @@
     {
       "network": "AMR",
       "displayName": "AMR",
-      "SDKVersion": "1.5.19",
-      "adapterVersion": "1.5.19",
+      "SDKVersion": "1.5.21",
+      "adapterVersion": "1.5.21",
       "podVersion": "1.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
@@ -997,7 +997,7 @@
       "network": "MINTEGRAL",
       "displayName": "Mintegral",
       "SDKVersion": "7.1.7",
-      "adapterVersion": "7.1.7.0",
+      "adapterVersion": "7.1.7.1",
       "podVersion": "7.1",
       "initParameterCount": 2,
       "skadnetworkIDS": [
