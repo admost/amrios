@@ -23,7 +23,7 @@ class IDFAVC: UIViewController {
             ATTrackingManager.requestTrackingAuthorization { status in
                 switch status {
                 case .authorized:
-                    self.statusLabel.text = "IDFA Status: Authorized - \(ASIdentifierManager.shared().advertisingIdentifier)"
+                    self.statusLabel.text = "IDFA Status: Authorized - \n\(ASIdentifierManager.shared().advertisingIdentifier)"
                 case .denied:
                     self.statusLabel.text = "IDFA Status: Denied - \(ASIdentifierManager.shared().advertisingIdentifier)"
                 case .notDetermined:

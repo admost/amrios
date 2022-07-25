@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AdjustDelegate {
 
         //GDPR COMPLIANCE
         // Set user myUniqueUserId
+#error("change appUserId")
         AMRSDK.setUserId("<applicationUserId>")
         
         AMRSDK.isPrivacyConsentRequired { (consentStatus) in
@@ -33,12 +34,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AdjustDelegate {
         AMRSDK.setUserChild(true)
         
         // demo app id "15066ddc-9c18-492c-8185-bea7e4c7f88c"
+#error("change appId")
         AMRSDK.start(withAppId: "15066ddc-9c18-492c-8185-bea7e4c7f88c") { error in
             // your app logic.
         }
         
         // Adjust Integration
         // Replace <yourAdjustAppToken> with your Adjust app token.
+#error("change <yourAdjustAppToken>")
         let yourAppToken = "<yourAdjustAppToken>"
 
         // Replace environment from ADJEnvironmentSandbox to ADJEnvironmentProduction before publishing.
