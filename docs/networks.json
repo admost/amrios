@@ -343,8 +343,8 @@
     {
       "network": "AMAZON",
       "displayName": "Amazon",
-      "SDKVersion": "3.1.0",
-      "adapterVersion": "3.1.0.1",
+      "SDKVersion": "4.5.3",
+      "adapterVersion": "4.5.3.0",
       "podVersion": "3.1",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -359,11 +359,11 @@
       "iosSupport": true,
       "unitySupport": true,
       "status": false,
-      "biddingSupport": false,
+      "biddingSupport": true,
       "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-AMAZON/tags",
-      "networkSourceURL": "https://developer.amazon.com/docs/mobile-ads/mb-overview.html",
-      "networkChangelog": "https://developer.amazon.com/docs/mobile-ads/mb-ios-release-notes.html",
-      "minTargetSdk": "9.0"
+      "networkSourceURL": "https://ams.amazon.com/webpublisher/uam/docs/aps-mobile/ios",
+      "networkChangelog": "https://ams.amazon.com/webpublisher/uam/docs/aps-mobile/ios/release-notes",
+      "minTargetSdk": "12.0"
     },
     {
       "network": "APPLOVIN",
