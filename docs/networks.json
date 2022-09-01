@@ -345,7 +345,7 @@
       "displayName": "Amazon",
       "SDKVersion": "4.5.3",
       "adapterVersion": "4.5.3.0",
-      "podVersion": "3.1",
+      "podVersion": "4.5",
       "initParameterCount": 1,
       "skadnetworkIDS": [
         "p78axxw29g.skadnetwork"
