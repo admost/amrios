@@ -320,9 +320,9 @@
     {
       "network": "AFA",
       "displayName": "AFA",
-      "SDKVersion": "1.2.0",
-      "adapterVersion": "1.2.0.0",
-      "podVersion": "1.2",
+      "SDKVersion": "1.3.0",
+      "adapterVersion": "1.3.0.0",
+      "podVersion": "1.3",
       "initParameterCount": 1,
       "skadnetworkIDS": [],
       "supportedAdTypes": [
@@ -1186,6 +1186,31 @@
       "minTargetSdk": "9.0"
     },
     {
+      "network": "PUBMATIC",
+      "displayName": "Pubmatic",
+      "SDKVersion": "2.6.2",
+      "adapterVersion": "2.6.2.0",
+      "podVersion": "2.6",
+      "initParameterCount": 2,
+      "skadnetworkIDS": [
+      ],
+      "supportedAdTypes": [
+        "Banner",
+        "Interstitial",
+        "Rewarded"
+      ],
+      "infoPlistKey": "",
+      "adapterName": "AMRAdapterPubmatic",
+      "iosSupport": true,
+      "unitySupport": true,
+      "status": false,
+      "biddingSupport": false,
+      "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-PUBMATIC/tags",
+      "networkSourceURL": "https://github.com/PubMatic/ios-openwrap-sdk-samples",
+      "networkChangelog": "",
+      "minTargetSdk": "9.0"
+    },
+    {
       "network": "QUMPARA",
       "displayName": "Qumpara",
       "SDKVersion": "1.1.6",
@@ -1210,9 +1235,9 @@
     {
       "network": "REKLAMUP",
       "displayName": "ReklamUp",
-      "SDKVersion": "9.1.0",
-      "adapterVersion": "9.1.0.0",
-      "podVersion": "9.1",
+      "SDKVersion": "9.9.0",
+      "adapterVersion": "9.9.0.0",
+      "podVersion": "9.9",
       "initParameterCount": 0,
       "skadnetworkIDS": [
         "cstr6suwn9.skadnetwork",
@@ -1607,8 +1632,8 @@
     {
       "network": "TIKTOK",
       "displayName": "TikTok",
-      "SDKVersion": "4.6.1.8",
-      "adapterVersion": "4.6.1.8",
+      "SDKVersion": "4.6.2.2",
+      "adapterVersion": "4.6.2.2",
       "podVersion": "4.6",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1633,9 +1658,9 @@
     {
       "network": "UNITYAD",
       "displayName": "UnityAds",
-      "SDKVersion": "4.2.1",
-      "adapterVersion": "4.2.1.0",
-      "podVersion": "4.2",
+      "SDKVersion": "4.4.0",
+      "adapterVersion": "4.4.0.0",
+      "podVersion": "4.4",
       "initParameterCount": 1,
       "skadnetworkIDS": [
         "f7s53z58qe.skadnetwork",
