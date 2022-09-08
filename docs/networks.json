@@ -368,8 +368,8 @@
     {
       "network": "APPLOVIN",
       "displayName": "AppLovin",
-      "SDKVersion": "11.4.3",
-      "adapterVersion": "11.4.3.0",
+      "SDKVersion": "11.4.4",
+      "adapterVersion": "11.4.4.0",
       "podVersion": "11.4",
       "initParameterCount": 0,
       "skadnetworkIDS": [
@@ -805,8 +805,8 @@
     {
       "network": "HYPRMX",
       "displayName": "HyprMX",
-      "SDKVersion": "6.0.1",
-      "adapterVersion": "6.0.1.0",
+      "SDKVersion": "6.0.3",
+      "adapterVersion": "6.0.3.0",
       "podVersion": "6.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -830,8 +830,8 @@
     {
       "network": "INMOBI",
       "displayName": "InMobi",
-      "SDKVersion": "10.0.7",
-      "adapterVersion": "10.0.7.0",
+      "SDKVersion": "10.0.8",
+      "adapterVersion": "10.0.8.0",
       "podVersion": "10.0",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -911,8 +911,8 @@
     {
       "network": "IRONSOURCE",
       "displayName": "IronSource",
-      "SDKVersion": "7.2.3",
-      "adapterVersion": "7.2.3.1",
+      "SDKVersion": "7.2.4",
+      "adapterVersion": "7.2.4.0",
       "podVersion": "7.2",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -964,9 +964,9 @@
     {
       "network": "MADVERTISE",
       "displayName": "Madvertise",
-      "SDKVersion": "4.0.0",
-      "adapterVersion": "4.0.0.1",
-      "podVersion": "4.0",
+      "SDKVersion": "4.1.1",
+      "adapterVersion": "4.1.1.0",
+      "podVersion": "4.1",
       "initParameterCount": 1,
       "skadnetworkIDS": [
         "pd25vrrwzn.skadnetwork",
@@ -996,9 +996,9 @@
     {
       "network": "MINTEGRAL",
       "displayName": "Mintegral",
-      "SDKVersion": "7.1.9",
-      "adapterVersion": "7.1.9.0",
-      "podVersion": "7.1",
+      "SDKVersion": "7.2.1",
+      "adapterVersion": "7.2.1.0",
+      "podVersion": "7.2",
       "initParameterCount": 2,
       "skadnetworkIDS": [
         "kbd757ywx3.skadnetwork",
@@ -1161,9 +1161,9 @@
     {
       "network": "PUBNATIVE",
       "displayName": "Pubnative",
-      "SDKVersion": "2.4.4",
-      "adapterVersion": "2.4.4.5",
-      "podVersion": "2.4",
+      "SDKVersion": "2.15.0",
+      "adapterVersion": "2.15.0.0",
+      "podVersion": "2.15",
       "initParameterCount": 1,
       "skadnetworkIDS": [
         "tl55sbb4fm.skadnetwork",
@@ -1299,8 +1299,8 @@
     {
       "network": "SMAATO",
       "displayName": "Smaato",
-      "SDKVersion": "21.7.6",
-      "adapterVersion": "21.7.6.0",
+      "SDKVersion": "21.7.7",
+      "adapterVersion": "21.7.7.0",
       "podVersion": "21.7",
       "initParameterCount": 1,
       "skadnetworkIDS": [
@@ -1437,8 +1437,8 @@
     {
       "network": "STARTAPP",
       "displayName": "StartApp",
-      "SDKVersion": "4.7.0",
-      "adapterVersion": "4.7.0.0",
+      "SDKVersion": "4.7.3",
+      "adapterVersion": "4.7.3.0",
       "podVersion": "4.7",
       "initParameterCount": 1,
       "skadnetworkIDS": [
