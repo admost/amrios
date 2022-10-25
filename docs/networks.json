@@ -99,7 +99,7 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADCOLONY/tags",
-            "changelog": "",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADCOLONY/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://github.com/AdColony/AdColony-iOS-SDK-3",
             "networkChangelog": "https://github.com/AdColony/AdColony-iOS-SDK/blob/master/CHANGELOG.md",
             "minTargetSdk": "9.0"
@@ -107,9 +107,9 @@
         {
             "network": "ADMOB",
             "displayName": "AdMob",
-            "SDKVersion": "9.11.0",
-            "adapterVersion": "9.11.0.0",
-            "podVersion": "9.11",
+            "SDKVersion": "9.12.0",
+            "adapterVersion": "9.12.0.0",
+            "podVersion": "9.12",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -189,17 +189,17 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
-            "changelog": "",
-             "networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/blob/master/CHANGELOG.md",
+            "networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
             "networkChangelog": "",
             "minTargetSdk": "8.0"
         },
         {
             "network": "A4G",
             "displayName": "A4G",
-            "SDKVersion": "9.11.0",
-            "adapterVersion": "9.11.0.0",
-            "podVersion": "9.11",
+            "SDKVersion": "9.12.0",
+            "adapterVersion": "9.12.0.0",
+            "podVersion": "9.12",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -262,9 +262,9 @@
         {
             "network": "ADX",
             "displayName": "ADX",
-            "SDKVersion": "9.11.0",
-            "adapterVersion": "9.11.0.0",
-            "podVersion": "9.11",
+            "SDKVersion": "9.12.0",
+            "adapterVersion": "9.12.0.0",
+            "podVersion": "9.12",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -341,8 +341,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-AFA/tags",
-            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/blob/master/CHANGELOG.md",
-             "networkSourceURL": "https://github.com/admost/AdmostFairAds",
+            "changelog": "",
+            "networkSourceURL": "https://github.com/admost/AdmostFairAds",
             "networkChangelog": "",
             "minTargetSdk": "9.0"
         },
@@ -367,16 +367,16 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-AMAZON/tags",
-            "changelog": "",
-             "networkSourceURL": "https://ams.amazon.com/webpublisher/uam/docs/aps-mobile/ios",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-AMAZON/blob/master/CHANGELOG.md",
+            "networkSourceURL": "https://ams.amazon.com/webpublisher/uam/docs/aps-mobile/ios",
             "networkChangelog": "https://ams.amazon.com/webpublisher/uam/docs/aps-mobile/ios/release-notes",
             "minTargetSdk": "12.0"
         },
         {
             "network": "APPLOVIN",
             "displayName": "AppLovin",
-            "SDKVersion": "11.5.1",
-            "adapterVersion": "11.5.1.0",
+            "SDKVersion": "11.5.3",
+            "adapterVersion": "11.5.3.0",
             "podVersion": "11.5",
             "initParameterCount": 0,
             "skadnetworkIDS": [
@@ -681,9 +681,9 @@
         {
             "network": "DFP",
             "displayName": "DFP",
-            "SDKVersion": "9.11.0",
-            "adapterVersion": "9.11.0.0",
-            "podVersion": "9.11",
+            "SDKVersion": "9.12.0",
+            "adapterVersion": "9.12.0.0",
+            "podVersion": "9.12",
             "initParameterCount": 0,
             "skadnetworkIDS": [],
             "supportedAdTypes": [
@@ -706,9 +706,9 @@
         {
             "network": "FACEBOOK",
             "displayName": "Facebook",
-            "SDKVersion": "6.11.2",
-            "adapterVersion": "6.11.2.0",
-            "podVersion": "6.11",
+            "SDKVersion": "6.12.0",
+            "adapterVersion": "6.12.0.0",
+            "podVersion": "6.12",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "v9wttpbfk9.skadnetwork",
@@ -940,7 +940,7 @@
             "network": "IRONSOURCE",
             "displayName": "IronSource",
             "SDKVersion": "7.2.5",
-            "adapterVersion": "7.2.5.0",
+            "adapterVersion": "7.2.5.1",
             "podVersion": "7.2",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -1027,8 +1027,8 @@
         {
             "network": "MINTEGRAL",
             "displayName": "Mintegral",
-            "SDKVersion": "7.2.1",
-            "adapterVersion": "7.2.1.0",
+            "SDKVersion": "7.2.4",
+            "adapterVersion": "7.2.4.0",
             "podVersion": "7.2",
             "initParameterCount": 2,
             "skadnetworkIDS": [
@@ -1181,9 +1181,9 @@
         {
             "network": "MYTARGET",
             "displayName": "MyTarget",
-            "SDKVersion": "5.15.2",
-            "adapterVersion": "5.15.2.0",
-            "podVersion": "5.15",
+            "SDKVersion": "5.16.0",
+            "adapterVersion": "5.16.0.0",
+            "podVersion": "5.16",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "n9x2a789qt.skadnetwork",
@@ -1357,9 +1357,9 @@
         {
             "network": "REKLAMUP",
             "displayName": "ReklamUp",
-            "SDKVersion": "9.11.0",
-            "adapterVersion": "9.11.0.0",
-            "podVersion": "9.11",
+            "SDKVersion": "9.12.0",
+            "adapterVersion": "9.12.0.0",
+            "podVersion": "9.12",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -1422,8 +1422,8 @@
         {
             "network": "SMAATO",
             "displayName": "Smaato",
-            "SDKVersion": "21.7.7",
-            "adapterVersion": "21.7.7.0",
+            "SDKVersion": "21.7.8",
+            "adapterVersion": "21.7.8.0",
             "podVersion": "21.7",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -1537,9 +1537,9 @@
         {
             "network": "SMARTAD",
             "displayName": "SmartAd",
-            "SDKVersion": "7.18.0",
-            "adapterVersion": "7.18.0.0",
-            "podVersion": "7.18",
+            "SDKVersion": "7.19.1",
+            "adapterVersion": "7.19.1.0",
+            "podVersion": "7.19",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
             "supportedAdTypes": [
@@ -1562,9 +1562,9 @@
         {
             "network": "STARTAPP",
             "displayName": "StartApp",
-            "SDKVersion": "4.7.3",
-            "adapterVersion": "4.7.3.0",
-            "podVersion": "4.7",
+            "SDKVersion": "4.8.0",
+            "adapterVersion": "4.8.0.0",
+            "podVersion": "4.8",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "5l3tpt7t6e.skadnetwork",
@@ -1600,9 +1600,9 @@
         {
             "network": "TAPJOY",
             "displayName": "Tapjoy",
-            "SDKVersion": "12.10.0",
-            "adapterVersion": "12.10.0.0",
-            "podVersion": "12.10",
+            "SDKVersion": "12.11.0",
+            "adapterVersion": "12.11.0.0",
+            "podVersion": "12.11",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "ecpz2srf59.skadnetwork",
@@ -1762,8 +1762,8 @@
         {
             "network": "TIKTOK",
             "displayName": "TikTok",
-            "SDKVersion": "4.7.0.5",
-            "adapterVersion": "4.7.0.5",
+            "SDKVersion": "4.7.0.7",
+            "adapterVersion": "4.7.0.7",
             "podVersion": "4.7",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -1789,8 +1789,8 @@
         {
             "network": "UNITYAD",
             "displayName": "UnityAds",
-            "SDKVersion": "4.4.0",
-            "adapterVersion": "4.4.0.0",
+            "SDKVersion": "4.4.1",
+            "adapterVersion": "4.4.1.0",
             "podVersion": "4.4",
             "initParameterCount": 1,
             "skadnetworkIDS": [
