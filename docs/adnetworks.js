@@ -90,9 +90,9 @@ function fillNetworkFeatures() {
             biddingSupport = "✓"
         }
 
-        networkChangelog = "";
-        if (obj.adNetworks[i].networkChangelog != "") {
-            networkChangelog = obj.adNetworks[i].networkChangelog.replace(obj.adNetworks[i].networkChangelog, "<a href=" + obj.adNetworks[i].networkChangelog + " target='_blank'>Changelog</a>");
+        changelog = "";
+        if (obj.adNetworks[i].changelog != "") {
+            changelog = obj.adNetworks[i].changelog.replace(obj.adNetworks[i].changelog, "<a href=" + obj.adNetworks[i].changelog + " target='_blank'>Changelog</a>");
         }
         
         var supportedAdTypes = [
@@ -109,7 +109,7 @@ function fillNetworkFeatures() {
             htmlString = htmlString + '<td>'+obj.adNetworks[i].SDKVersion+'</td>'
             htmlString = htmlString + '<td>'+obj.adNetworks[i].adapterVersion+'</td>'
             htmlString = htmlString + '<td class="text-center">'+biddingSupport+'</td>'
-            htmlString = htmlString + '<td class="text-center">'+networkChangelog+'</td>'
+            htmlString = htmlString + '<td class="text-center">'+changelog+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[0]+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[1]+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[2]+'</td>'

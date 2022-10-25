@@ -15,7 +15,8 @@
             "status": true,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-SDK/tags",
-            "networkSourceURL": "",
+            "changelog": "",
+             "networkSourceURL": "",
             "networkChangelog": "",
             "minTargetSdk": "8.0"
         },
@@ -98,6 +99,7 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADCOLONY/tags",
+            "changelog": "",
             "networkSourceURL": "https://github.com/AdColony/AdColony-iOS-SDK-3",
             "networkChangelog": "https://github.com/AdColony/AdColony-iOS-SDK/blob/master/CHANGELOG.md",
             "minTargetSdk": "9.0"
@@ -162,7 +164,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/tags",
-            "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/blob/master/CHANGELOG.md",
+             "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
             "networkChangelog": "https://developers.google.com/admob/ios/rel-notes",
             "minTargetSdk": "11.0"
         },
@@ -186,7 +189,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
-            "networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
+            "changelog": "",
+             "networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
             "networkChangelog": "",
             "minTargetSdk": "8.0"
         },
@@ -250,6 +254,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
             "networkChangelog": "",
             "minTargetSdk": "11.0"
@@ -312,6 +317,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "",
+            "changelog": "",
             "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
             "networkChangelog": "",
             "minTargetSdk": "11.0"
@@ -335,7 +341,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-AFA/tags",
-            "networkSourceURL": "https://github.com/admost/AdmostFairAds",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/blob/master/CHANGELOG.md",
+             "networkSourceURL": "https://github.com/admost/AdmostFairAds",
             "networkChangelog": "",
             "minTargetSdk": "9.0"
         },
@@ -360,7 +367,8 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-AMAZON/tags",
-            "networkSourceURL": "https://ams.amazon.com/webpublisher/uam/docs/aps-mobile/ios",
+            "changelog": "",
+             "networkSourceURL": "https://ams.amazon.com/webpublisher/uam/docs/aps-mobile/ios",
             "networkChangelog": "https://ams.amazon.com/webpublisher/uam/docs/aps-mobile/ios/release-notes",
             "minTargetSdk": "12.0"
         },
@@ -471,6 +479,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://github.com/AppLovin/AppLovin-MAX-SDK-iOS",
             "networkChangelog": "https://dash.applovin.com/documentation/mediation/ios/changelog",
             "minTargetSdk": "9.0"
@@ -496,7 +505,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-APPNEXT/tags",
-            "networkSourceURL": "https://developers.appnext.com/docs/ios-sdk-installation",
+            "changelog": "",
+             "networkSourceURL": "https://developers.appnext.com/docs/ios-sdk-installation",
             "networkChangelog": "https://developers.appnext.com/docs/change-log",
             "minTargetSdk": "8.0"
         },
@@ -637,7 +647,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-CHARTBOOST/tags",
-            "networkSourceURL": "https://answers.chartboost.com/en-us/articles/download",
+            "changelog": "",
+             "networkSourceURL": "https://answers.chartboost.com/en-us/articles/download",
             "networkChangelog": "https://answers.chartboost.com/en-us/child_article/ios-ios-swift",
             "minTargetSdk": "10.0"
         },
@@ -662,7 +673,8 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-CRITEO/tags",
-            "networkSourceURL": "https://github.com/criteo/ios-publisher-sdk/tags",
+            "changelog": "",
+             "networkSourceURL": "https://github.com/criteo/ios-publisher-sdk/tags",
             "networkChangelog": "https://publisherdocs.criteotilt.com/app/ios/release-notes",
             "minTargetSdk": "8.0"
         },
@@ -686,7 +698,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-DFP/tags",
-            "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
+            "changelog": "",
+             "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
             "networkChangelog": "",
             "minTargetSdk": "11.0"
         },
@@ -713,6 +726,7 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/get-started",
             "networkChangelog": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/changelog",
             "minTargetSdk": "9.0"
@@ -804,7 +818,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-FYBER/tags",
-            "networkSourceURL": "https://developer.fyber.com/hc/en-us/articles/360010971118-iOS-SDK-Integration",
+            "changelog": "",
+             "networkSourceURL": "https://developer.fyber.com/hc/en-us/articles/360010971118-iOS-SDK-Integration",
             "networkChangelog": "https://developer.fyber.com/hc/en-us/articles/360010911617-iOS-Changelog",
             "minTargetSdk": "9.0"
         },
@@ -829,7 +844,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-HYPRMX/tags",
-            "networkSourceURL": "https://documentation.hyprmx.com/ios-hyprmx-sdk/downloads",
+            "changelog": "",
+             "networkSourceURL": "https://documentation.hyprmx.com/ios-hyprmx-sdk/downloads",
             "networkChangelog": "",
             "minTargetSdk": "8.0"
         },
@@ -915,7 +931,8 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-INMOBI/tags",
-            "networkSourceURL": "https://www.inmobi.com/sdk",
+            "changelog": "",
+             "networkSourceURL": "https://www.inmobi.com/sdk",
             "networkChangelog": "https://support.inmobi.com/monetize/download-sdk/ios-changelogs",
             "minTargetSdk": "9.0"
         },
@@ -942,7 +959,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-IRONSOURCE/tags",
-            "networkSourceURL": "https://developers.ironsrc.com/ironsource-mobile/ios/ios-sdk/#step-1",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-IRONSOURCE/blob/master/CHANGELOG.md",
+             "networkSourceURL": "https://developers.ironsrc.com/ironsource-mobile/ios/ios-sdk/#step-1",
             "networkChangelog": "https://developers.is.com/ironsource-mobile/ios/sdk-change-log",
             "minTargetSdk": "8.0"
         },
@@ -968,7 +986,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-LIFTOFF/tags",
-            "networkSourceURL": "https://github.com/liftoffio/LiftoffAds-iOS/tags",
+            "changelog": "",
+             "networkSourceURL": "https://github.com/liftoffio/LiftoffAds-iOS/tags",
             "networkChangelog": "",
             "minTargetSdk": "10.0"
         },
@@ -1000,6 +1019,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MADVERTISE/tags",
+            "changelog": "",
             "networkSourceURL": "https://bitbucket.org/mngcorp/mngads-demo-ios/src/master/",
             "networkChangelog": "https://bitbucket.org/mngcorp/mngads-demo-ios/wiki/change-log",
             "minTargetSdk": "12.2"
@@ -1128,6 +1148,7 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MINTEGRAL/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-MINTEGRAL/blob/master/CHANGELOG.md",
             "networkSourceURL": "http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en",
             "networkChangelog": "http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en#changelog",
             "minTargetSdk": "9.0"
@@ -1152,7 +1173,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MOBFOX/tags",
-            "networkSourceURL": "https://mobfox.atlassian.net/wiki/spaces/PUMD/pages/1434878036/Swift+-+Installation+manual",
+            "changelog": "",
+             "networkSourceURL": "https://mobfox.atlassian.net/wiki/spaces/PUMD/pages/1434878036/Swift+-+Installation+manual",
             "networkChangelog": "",
             "minTargetSdk": "9.0"
         },
@@ -1179,6 +1201,7 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MYTARGET/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-MYTARGET/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://github.com/myTargetSDK/mytarget-ios/releases",
             "networkChangelog": "https://target.my.com/help/partners/mob/ioshistory/en",
             "minTargetSdk": "9.0"
@@ -1203,7 +1226,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-NEXAGE/tags",
-            "networkSourceURL": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/integration.html",
+            "changelog": "",
+             "networkSourceURL": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/integration.html",
             "networkChangelog": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/releasenotes-ios.html",
             "minTargetSdk": "8.0"
         },
@@ -1226,7 +1250,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-OGURY/tags",
-            "networkSourceURL": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
+            "changelog": "",
+             "networkSourceURL": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
             "networkChangelog": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
             "minTargetSdk": "10.0"
         },
@@ -1248,7 +1273,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-POLLFISH/tags",
-            "networkSourceURL": "https://github.com/pollfish/ios-sdk-pollfish/tags",
+            "changelog": "",
+             "networkSourceURL": "https://github.com/pollfish/ios-sdk-pollfish/tags",
             "networkChangelog": "https://www.pollfish.com/docs/ios",
             "minTargetSdk": "8.0"
         },
@@ -1275,7 +1301,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-PUBNATIVE/tags",
-            "networkSourceURL": "https://github.com/pubnative/pubnative-hybid-ios-sdk/tags",
+            "changelog": "",
+             "networkSourceURL": "https://github.com/pubnative/pubnative-hybid-ios-sdk/tags",
             "networkChangelog": "",
             "minTargetSdk": "9.0"
         },
@@ -1299,7 +1326,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-PUBMATIC/tags",
-            "networkSourceURL": "https://github.com/PubMatic/ios-openwrap-sdk-samples",
+            "changelog": "",
+             "networkSourceURL": "https://github.com/PubMatic/ios-openwrap-sdk-samples",
             "networkChangelog": "",
             "minTargetSdk": "9.0"
         },
@@ -1321,7 +1349,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-QUMPARA/tags",
-            "networkSourceURL": "",
+            "changelog": "",
+             "networkSourceURL": "",
             "networkChangelog": "",
             "minTargetSdk": "9.0"
         },
@@ -1385,6 +1414,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
             "networkChangelog": "",
             "minTargetSdk": "11.0"
@@ -1499,6 +1529,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-SMAATO/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-SMAATO/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://developers.smaato.com/publishers/nextgen-sdk-ios-getting-started/",
             "networkChangelog": "https://developers.smaato.com/publishers/nextgen-sdk-ios-changelog",
             "minTargetSdk": "9.0"
@@ -1523,6 +1554,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-SMARTADSERVER/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-SMARTADSERVER/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://documentation.smartadserver.com/instreamSDK/ios/gettingstarted.html",
             "networkChangelog": "https://documentation.smartadserver.com/displaySDK/ios/releasenotes.html",
             "minTargetSdk": "9.0"
@@ -1560,6 +1592,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-STARTAPP/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-STARTAPP/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://github.com/StartApp-SDK/StartAppSDK/tags",
             "networkChangelog": "",
             "minTargetSdk": "8.0"
@@ -1674,6 +1707,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-TAPJOY/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-TAPJOY/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://dev.tapjoy.com/en/ios-sdk/Manual-Integration",
             "networkChangelog": "https://dev.tapjoy.com/en/ios-sdk/Changelog",
             "minTargetSdk": "8.0"
@@ -1697,7 +1731,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-TAPPX/tags",
-            "networkSourceURL": "https://developers.tappx.com/en/ios/before-you-start/",
+            "changelog": "",
+             "networkSourceURL": "https://developers.tappx.com/en/ios/before-you-start/",
             "networkChangelog": "",
             "minTargetSdk": "9.0"
         },
@@ -1719,7 +1754,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-TEADS/tags",
-            "networkSourceURL": "https://support.teads.tv/support/solutions/articles/36000314785",
+            "changelog": "",
+             "networkSourceURL": "https://support.teads.tv/support/solutions/articles/36000314785",
             "networkChangelog": "",
             "minTargetSdk": "10.0"
         },
@@ -1745,6 +1781,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-TIKTOK/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-TIKTOK/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://developers.tiktok.com/doc/getting-started-ios-download-and-changelog",
             "networkChangelog": "https://developers.tiktok.com/doc/getting-started-ios-download-and-changelog",
             "minTargetSdk": "9.0"
@@ -1824,6 +1861,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-UNITYADS/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-UNITYADS/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://github.com/Unity-Technologies/unity-ads-ios",
             "networkChangelog": "https://github.com/Unity-Technologies/unity-ads-ios/releases",
             "minTargetSdk": "9.0"
@@ -1857,7 +1895,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-VERIZON/tags",
-            "networkSourceURL": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/integration.html",
+            "changelog": "",
+             "networkSourceURL": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/integration.html",
             "networkChangelog": "https://vas-docs-service.one-mobile-prod.aws.oath.cloud/standard-edition/releasenotes-ios.html",
             "minTargetSdk": "10.0"
         },
@@ -1880,7 +1919,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-VRTCAL/tags",
-            "networkSourceURL": "",
+            "changelog": "",
+             "networkSourceURL": "",
             "networkChangelog": "",
             "minTargetSdk": "10.0"
         },
@@ -1981,7 +2021,8 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-VUNGLE/tags",
-            "networkSourceURL": "https://vungle.com/vungle-sdk/#download",
+            "changelog": "",
+             "networkSourceURL": "https://vungle.com/vungle-sdk/#download",
             "networkChangelog": "https://github.com/Vungle/iOS-SDK/blob/master/CHANGELOG.md",
             "minTargetSdk": "10.0"
         },
@@ -2007,7 +2048,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-YANDEX/tags",
-            "networkSourceURL": "https://github.com/yandexmobile/yandex-ads-sdk-ios",
+            "changelog": "",
+             "networkSourceURL": "https://github.com/yandexmobile/yandex-ads-sdk-ios",
             "networkChangelog": "https://github.com/yandexmobile/yandex-ads-sdk-ios/tree/master/changelog",
             "minTargetSdk": "8.0"
         },
@@ -2030,7 +2072,8 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-YOUAPPI/tags",
-            "networkSourceURL": "http://sdkui.youappi.com/download/latest/sdk/ios",
+            "changelog": "",
+             "networkSourceURL": "http://sdkui.youappi.com/download/latest/sdk/ios",
             "networkChangelog": "",
             "minTargetSdk": "9.0"
         }
