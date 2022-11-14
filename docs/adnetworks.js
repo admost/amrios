@@ -63,9 +63,7 @@ function fillAdNetworkList() {
             if (obj.adNetworks[i].iosSupport == false) {
                 continue;
             }
-
             
-
             if((pageIsLite === true && obj.adNetworks[i].isLite )){
                 obj.adNetworks[i].status = true
                 htmlString = htmlString + '<div class="btn-group" style="margin:8px; id="btn-group-network-' + obj.adNetworks[i].displayName + '"> <button type="button" id="btn-name-network-' + obj.adNetworks[i].displayName + '" class="btn btn-success">' + obj.adNetworks[i].displayName + '</button> </div>';
@@ -80,8 +78,9 @@ function fillAdNetworkList() {
                 htmlString = htmlString + '"></span> </button> </div>'
             }
             
-            }
         }
+    }
+    fillIos14FileCode()
     $("#adnetwork-button-list").html(htmlString);
 }
 
@@ -255,10 +254,14 @@ function httpGet(theUrl)
     return xmlHttp.responseText;
 }
 
-function pageIsLite(value){
-    pageIsLite = value
+function pageIsLite(){
 
-    if(value){
+    var queryString = window.location.search;
+    var params = new URLSearchParams(queryString);
+
+    pageIsLite = (params.get("islite") === "true")
+
+    if(pageIsLite){
         var notLiteElements = document.getElementsByClassName("not-lite");
         for(let i = 0; i < notLiteElements.length; i++ ){
             notLiteElements[i].style.display = "none";
