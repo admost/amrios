@@ -256,11 +256,14 @@ function httpGet(theUrl)
 }
 
 function pageIsLite(value){
- 
-    var notLiteElements = document.getElementsByClassName("not-lite");
     pageIsLite = value
-    for(let i = 0; i < notLiteElements.length; i++ ){
-        notLiteElements[i].style.display = "none";
+
+    if(value){
+        var notLiteElements = document.getElementsByClassName("not-lite");
+        for(let i = 0; i < notLiteElements.length; i++ ){
+            notLiteElements[i].style.display = "none";
+        }
     }
+    
 
 }
