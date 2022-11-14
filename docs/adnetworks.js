@@ -254,7 +254,7 @@ function httpGet(theUrl)
     return xmlHttp.responseText;
 }
 
-function pageIsLite(){
+function checkPageStatus(){
 
     var queryString = window.location.search;
     var params = new URLSearchParams(queryString);
