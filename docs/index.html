@@ -611,7 +611,7 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
     print("Banner clicked.")
 }</code></pre>
                     </div>
-
+<div class="not-lite">
                 <h3 id="native-ads" class="not-lite">Customize Native Ad Appearance (Optional)</h3>
 
                 <p>You can change the appearance of native ads to suit your application's design. Download <a target="_blank" href="https://github.com/admost/amrios/tree/master/CustomXibs">CustomXibs</a> files and add them to your project. </p>
@@ -622,34 +622,38 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
 
                 <p>If you want to use your own layouts you can create a copy and modify one of the custom sized samples (CustomNative150x250.xib, CustomNative200x200.xib or CustomNative300x120.xib) and change their frame to fit your design. </p>
 
-  <img class="img-responsive " src="assets/img/custom_natives.png" alt="shadowed image">
+                <img class="img-responsive " src="assets/img/custom_natives.png" alt="shadowed image">
 
-  <p>To use your own custom native xibs you have set the name and size of the custom xib explicitly as follows; </p>
+                <p>To use your own custom native xibs you have set the name and size of the custom xib explicitly as follows; </p>
 
-  <ul class="nav nav-tabs" style="border-bottom: none!important;">
-    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-10">Objective-C</a></li>
-    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-10">Swift</a></li>
-  </ul>
-  
-  <div class="tab-content">
-    <div id="Objective-C-10" class="tab-pane fade">
-        <pre style="margin-top:0px!important"><code class="language-objectivec">
-_bannerCustom200x200 = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
-_bannerCustom200x200.delegate = self;
-_bannerCustom200x200.customNativeSize = CGSizeMake(200, 200);
-_bannerCustom200x200.customeNativeXibName = @"CustomNative200x200";
-[_bannerCustom200x200 loadBanner];
+                <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-10">Objective-C</a></li>
+                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-10">Swift</a></li>
+                </ul>
+                <div id="Objective-C-10" class="tab-pane fade">
+                    <pre style="margin-top:0px!important"><code class="language-objectivec">
+            _bannerCustom200x200 = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
+            _bannerCustom200x200.delegate = self;
+            _bannerCustom200x200.customNativeSize = CGSizeMake(200, 200);
+            _bannerCustom200x200.customeNativeXibName = @"CustomNative200x200";
+            [_bannerCustom200x200 loadBanner];
+                        </code></pre>                   
             </code></pre>                   
-    </div>
-    <div id="Swift-10" class="tab-pane fade in active">
-        <pre style="margin-top:0px!important"><code class="language-swift">
-bannerCustom200x200 = AMRBanner.init(forZoneId:&quot;&lt;zoneId&gt;&quot;)
-bannerCustom200x200.delegate = self
-bannerCustom200x200.customNativeSize = CGSize(width: 200.0, height: 200.0)
-bannerCustom200x200.customeNativeXibName = "CustomNative200x200"
-bannerCustom200x200.load()
-            </code></pre>
-    </div>
+                        </code></pre>                   
+                </div>
+
+                <div id="Swift-10" class="tab-pane fade in active">
+                    <pre style="margin-top:0px!important"><code class="language-swift">
+            bannerCustom200x200 = AMRBanner.init(forZoneId:&quot;&lt;zoneId&gt;&quot;)
+            bannerCustom200x200.delegate = self
+            bannerCustom200x200.customNativeSize = CGSize(width: 200.0, height: 200.0)
+            bannerCustom200x200.customeNativeXibName = "CustomNative200x200"
+            bannerCustom200x200.load()
+                        </code></pre>
+                </div>
+</div>
+  <div class="tab-content">
+
 
                 <h3 id="interstitial-ads">Interstitial Ads</h3>
 
@@ -1144,8 +1148,8 @@ rewardedVideo.load()
     <div id="Swift-31" class="tab-pane fade in active">
         <pre style="margin-top:0px!important"><code class="language-swift">rewardedVideo.show(from: self, withTag: "game_start")</code></pre>
     </div>
-
-<h3 id="offerwall-ads">Offerwall Ads</h3>
+<div class="">
+    <h3 id="offerwall-ads">Offerwall Ads</h3>
 
                 <p>To create and show an offerwall ad first import <code>AMRSDK</code> to your <code>UIViewController</code>
                     file and declare an <code>AMROfferWall</code> property;
@@ -1159,28 +1163,28 @@ rewardedVideo.load()
                   <div class="tab-content">
                     <div id="Objective-C-32" class="tab-pane fade">
                         <pre style="margin-top:0px!important"><code class="language-objectivec">
-// ViewController.h
-                            
-#import &lt;AMRSDK/AMRSDK.h&gt;
-                            
-@interface ViewController : UIViewController &lt;AMROfferWallDelegate&gt;
-                            
-@property(nonatomic, strong) AMROfferWall *fullScreen;
-                            
-@end
+        // ViewController.h
+                                    
+        #import &lt;AMRSDK/AMRSDK.h&gt;
+                                    
+        @interface ViewController : UIViewController &lt;AMROfferWallDelegate&gt;
+                                    
+        @property(nonatomic, strong) AMROfferWall *fullScreen;
+                                    
+        @end
                             </code></pre>                    
                         </div>
                     <div id="Swift-32" class="tab-pane fade in active">
                         <pre style="margin-top:0px!important"><code class="language-swift">
-// ViewController
-                            
-import AMRSDK
-                            
-class ViewController : UIViewController, AMROfferWallDelegate {
-                            
-var fullScreen: AMROfferWall!
-                            
-}
+        // ViewController
+                                    
+        import AMRSDK
+                                    
+        class ViewController : UIViewController, AMROfferWallDelegate {
+                                    
+        var fullScreen: AMROfferWall!
+                                    
+        }
                         </code></pre>
                     </div>
                 <p>
@@ -1198,20 +1202,20 @@ var fullScreen: AMROfferWall!
                   <div class="tab-content">
                     <div id="Objective-C-33" class="tab-pane fade">
                         <pre style="margin-top:0px!important"><code class="language-objectivec">
-// ViewController.m
-                            
-fullScreen = [AMROfferWall offerWallForZoneId:@"&lt;zoneId&gt;"];
-fullScreen.delegate = self;
-[fullScreen loadOfferWall];
+        // ViewController.m
+                                    
+        fullScreen = [AMROfferWall offerWallForZoneId:@"&lt;zoneId&gt;"];
+        fullScreen.delegate = self;
+        [fullScreen loadOfferWall];
                         </code></pre>                  
                         </div>
                     <div id="Swift-33" class="tab-pane fade in active">
                         <pre style="margin-top:0px!important"><code class="language-swift">
-// ViewController
-                            
-offerWall = AMROfferWall(forZoneId: "&lt;zoneId&gt;")
-offerWall.delegate = self
-offerWall.load()
+        // ViewController
+                                    
+        offerWall = AMROfferWall(forZoneId: "&lt;zoneId&gt;")
+        offerWall.delegate = self
+        offerWall.load()
                         </code></pre>
                     </div>
                 <p>For testing you can use following Offerwall Zone Id;</p>
@@ -1307,16 +1311,19 @@ offerWall.load()
                         <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-38">Swift</a></li>
                       </ul>
                       
-                      <div class="tab-content">
-                        <div id="Objective-C-38" class="tab-pane fade">
-                            <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didDismissOfferWall:(AMROfferWall *)offerwall {} </code></pre>
-                        </code></pre>
-                            </div>
-                        <div id="Swift-38" class="tab-pane fade in active">
-                            <pre style="margin-top:0px!important"><code class="language-swift">func didDismiss(_ offerwall: AMROfferWall!) {} </code></pre>
-                        </code></pre>        
+                      <div id="Objective-C-38" class="tab-pane fade">
+                        <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didDismissOfferWall:(AMROfferWall *)offerwall {} </code></pre>
+                    </code></pre>
                         </div>
+                    <div id="Swift-38" class="tab-pane fade in active">
+                        <pre style="margin-top:0px!important"><code class="language-swift">func didDismiss(_ offerwall: AMROfferWall!) {} </code></pre>
+                    </code></pre>        
+                    </div>
 
+</div>
+
+<div class="tab-content">
+                       
 <h4 id="spend-virtual-currency">Spend Virtual Currency</h4>
 
 <ul class="nav nav-tabs" style="border-bottom: none!important;">
@@ -1822,23 +1829,12 @@ AMRSDK.fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
 <!-- Placed at the end of the document so the pages load faster -->
 <script>
     window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')
-        var notLiteElements = document.getElementsByClassName("not-lite");
 
         var queryString = window.location.search;
-        console.log(queryString)
-
         var urlParams = new urlParams(queryString);
 
-
-        if(urlParams.get("islite").toString == "true"){
-            console.log("lite")
-        }else{
-            console.log("normal")
-        }
-        
-        
-        for(let i = 0; i < notLiteElements.length; i++ ){
-            notLiteElements[i].style.display = "none";
+       if(urlParams.get("islite").toString == "true"){
+        pageIsLite(false)
         }
 
 </script>
