@@ -5,6 +5,7 @@ var htmlPodFile = "";
 var arrayAppGradlePackages = [];
 
 function amrInitPage() {
+    //response = httpGet("https://raw.githubusercontent.com/erge-akova/networks/main/networks.json");
     response = httpGet("https://admost.github.io/amrios/networks.json");
     obj = getNetworks(response);
     fillAdNetworkList(obj);
@@ -83,8 +84,9 @@ function fillNetworkFeatures() {
     htmlString = htmlString + '<th colspan="6" class="text-center">Supported Ad Types<tr><td>Banner</td><td>Interstitial</td><td>Rewarded</td><td>Offerwall</td><td>Open Ads</td><td>Rewarded Interstitial</td></tr></th>';
     htmlString = htmlString + '</tr></thead>';
 
+    
     for (var i = 1; i < obj.adNetworks.length; i++) {
-
+        if(obj.adNetworks[i].isLite){
         biddingSupport = ""
         if (obj.adNetworks[i].biddingSupport == true) {
             biddingSupport = "✓"
