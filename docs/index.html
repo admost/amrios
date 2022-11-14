@@ -1824,26 +1824,22 @@ AMRSDK.fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
     window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')
         var notLiteElements = document.getElementsByClassName("not-lite");
 
-        var queryString = window.location;
+        var queryString = window.location.search;
         console.log(queryString)
 
         var urlParams = new urlParams(queryString);
-        console.log(urlParams)
 
 
-       //console.log(urlParams)
-
-       // if(urlParams.get("type").toString == "true"){
-        //    console.log("lite")
-        //}else{
-         //   console.log("normal")
-        //}
+        if(urlParams.get("islite").toString == "true"){
+            console.log("lite")
+        }else{
+            console.log("normal")
+        }
         
         
-        //console.log(urlParams.toString)
-        //for(let i = 0; i < notLiteElements.length; i++ ){
-        //    notLiteElements[i].style.display = "none";
-        //}
+        for(let i = 0; i < notLiteElements.length; i++ ){
+            notLiteElements[i].style.display = "none";
+        }
 
 </script>
 <script>function copyToClipboard(element) {
