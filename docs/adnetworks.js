@@ -3,6 +3,7 @@ var obj14;
 var htmlString = "";
 var htmlPodFile = "";
 var arrayAppGradlePackages = [];
+var pageLite = false
 
 function amrInitPage() {
     response = httpGet("https://admost.github.io/amrios/networks.json");
@@ -58,17 +59,28 @@ function getPositionOfAdNetworkOnJSONArray(adNetworkName) {
 function fillAdNetworkList() {
     htmlString = '<div class="btn-group" style="margin:8px;" id="btn-group-network-AMR"> <button type="button" id="btn-name-network-AMR" class="btn btn-success">AMR</button>  </div>&nbsp;';
     for (var i = 1; i < obj.adNetworks.length; i++) {
-        if (obj.adNetworks[i].iosSupport == false) {
-            continue;
+        if(pageIsLite === false || (pageIsLite === true && obj.adNetworks[i].isLite )){
+            if (obj.adNetworks[i].iosSupport == false) {
+                continue;
+            }
+            
+            if((pageIsLite === true && obj.adNetworks[i].isLite )){
+                obj.adNetworks[i].status = true
+                htmlString = htmlString + '<div class="btn-group" style="margin:8px; id="btn-group-network-' + obj.adNetworks[i].displayName + '"> <button type="button" id="btn-name-network-' + obj.adNetworks[i].displayName + '" class="btn btn-success">' + obj.adNetworks[i].displayName + '</button> </div>';
+                
+            }else{
+                htmlString = htmlString + '<div class="btn-group" style="margin:8px; id="btn-group-network-' + obj.adNetworks[i].displayName + '"> <button type="button" id="btn-name-network-' + obj.adNetworks[i].displayName + '" class="btn btn-default">' + obj.adNetworks[i].displayName + '</button> <button type="button" id="btn-icon-network-' + obj.adNetworks[i].displayName + '" onclick="toggleAdNetworkStatus(\'' + obj.adNetworks[i].displayName + '\');" class="btn btn-';
+
+                obj.adNetworks[i].status ? htmlString = htmlString + "danger" : htmlString = htmlString + "success";
+                htmlString = htmlString + ' dropdown-toggle"> <span class="fa fa-';
+    
+                obj.adNetworks[i].status ? htmlString = htmlString + "minus" : htmlString = htmlString + "plus";
+                htmlString = htmlString + '"></span> </button> </div>'
+            }
+            
         }
-        htmlString = htmlString + '<div class="btn-group" style="margin:8px; id="btn-group-network-' + obj.adNetworks[i].displayName + '"> <button type="button" id="btn-name-network-' + obj.adNetworks[i].displayName + '" class="btn btn-default">' + obj.adNetworks[i].displayName + '</button> <button type="button" id="btn-icon-network-' + obj.adNetworks[i].displayName + '" onclick="toggleAdNetworkStatus(\'' + obj.adNetworks[i].displayName + '\');" class="btn btn-';
-
-        obj.adNetworks[i].status ? htmlString = htmlString + "danger" : htmlString = htmlString + "success";
-        htmlString = htmlString + ' dropdown-toggle"> <span class="fa fa-';
-
-        obj.adNetworks[i].status ? htmlString = htmlString + "minus" : htmlString = htmlString + "plus";
-        htmlString = htmlString + '"></span> </button> </div>'
     }
+    fillIos14FileCode()
     $("#adnetwork-button-list").html(htmlString);
 }
 
@@ -83,8 +95,11 @@ function fillNetworkFeatures() {
     htmlString = htmlString + '<th colspan="6" class="text-center">Supported Ad Types<tr><td>Banner</td><td>Interstitial</td><td>Rewarded</td><td>Offerwall</td><td>Open Ads</td><td>Rewarded Interstitial</td></tr></th>';
     htmlString = htmlString + '</tr></thead>';
 
-    for (var i = 1; i < obj.adNetworks.length; i++) {
 
+
+    for (var i = 1; i < obj.adNetworks.length; i++) {
+        if(pageIsLite === false || (pageIsLite === true && obj.adNetworks[i].isLite )){
+            
         biddingSupport = ""
         if (obj.adNetworks[i].biddingSupport == true) {
             biddingSupport = "✓"
@@ -117,7 +132,7 @@ function fillNetworkFeatures() {
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[4]+'</td>'
             htmlString = htmlString + '<td class="text-center">'+supportedAdTypes[5]+'</td>'
         htmlString = htmlString + '</tr>'
-
+        }
     }
     htmlString = htmlString + '</table>';
     $("#adnetwork-feature-list").html(htmlString);
@@ -237,4 +252,21 @@ function httpGet(theUrl)
     xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
     xmlHttp.send( null );
     return xmlHttp.responseText;
+}
+
+function checkPageStatus(){
+
+    var queryString = window.location.search;
+    var params = new URLSearchParams(queryString);
+
+    pageIsLite = (params.get("islite") === "true")
+
+    if(pageIsLite){
+        var notLiteElements = document.getElementsByClassName("not-lite");
+        for(let i = 0; i < notLiteElements.length; i++ ){
+            notLiteElements[i].style.display = "none";
+        }
+    }
+    
+
 }
