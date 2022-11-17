@@ -1797,7 +1797,7 @@
         },
         {
             "network": "TIKTOK",
-            "displayName": "Pangle",
+            "displayName": "Pangle (Tiktok)",
             "SDKVersion": "4.7.0.7",
             "adapterVersion": "4.7.0.7",
             "podVersion": "4.7",
