@@ -383,9 +383,9 @@
         {
             "network": "APPLOVIN",
             "displayName": "AppLovin",
-            "SDKVersion": "11.5.3",
-            "adapterVersion": "11.5.3.0",
-            "podVersion": "11.5",
+            "SDKVersion": "11.6.0",
+            "adapterVersion": "11.6.0.0",
+            "podVersion": "11.6",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "22mmun2rn5.skadnetwork",
@@ -748,8 +748,8 @@
         {
             "network": "FYBER",
             "displayName": "Fyber",
-            "SDKVersion": "8.1.6",
-            "adapterVersion": "8.1.6.0",
+            "SDKVersion": "8.1.7",
+            "adapterVersion": "8.1.7.0",
             "podVersion": "8.1",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -868,8 +868,8 @@
         {
             "network": "INMOBI",
             "displayName": "InMobi",
-            "SDKVersion": "10.1.0",
-            "adapterVersion": "10.1.0.0",
+            "SDKVersion": "10.1.2",
+            "adapterVersion": "10.1.2.0",
             "podVersion": "10.1",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -1047,8 +1047,8 @@
         {
             "network": "MINTEGRAL",
             "displayName": "Mintegral",
-            "SDKVersion": "7.2.4",
-            "adapterVersion": "7.2.4.0",
+            "SDKVersion": "7.2.7",
+            "adapterVersion": "7.2.7.0",
             "podVersion": "7.2",
             "initParameterCount": 2,
             "skadnetworkIDS": [
@@ -1203,9 +1203,9 @@
         {
             "network": "MYTARGET",
             "displayName": "MyTarget",
-            "SDKVersion": "5.16.0",
-            "adapterVersion": "5.16.0.0",
-            "podVersion": "5.16",
+            "SDKVersion": "5.17.1",
+            "adapterVersion": "5.17.1.0",
+            "podVersion": "5.17",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "n9x2a789qt.skadnetwork",
@@ -1568,8 +1568,8 @@
         {
             "network": "SMARTAD",
             "displayName": "SmartAd",
-            "SDKVersion": "7.19.1",
-            "adapterVersion": "7.19.1.0",
+            "SDKVersion": "7.19.2",
+            "adapterVersion": "7.19.2.0",
             "podVersion": "7.19",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
@@ -1633,8 +1633,8 @@
         {
             "network": "TAPJOY",
             "displayName": "Tapjoy",
-            "SDKVersion": "12.11.0",
-            "adapterVersion": "12.11.0.0",
+            "SDKVersion": "12.11.1",
+            "adapterVersion": "12.11.1.0",
             "podVersion": "12.11",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -1798,9 +1798,9 @@
         {
             "network": "TIKTOK",
             "displayName": "Pangle (Tiktok)",
-            "SDKVersion": "4.7.0.7",
-            "adapterVersion": "4.7.0.7",
-            "podVersion": "4.7",
+            "SDKVersion": "4.8.0.9",
+            "adapterVersion": "4.8.0.9",
+            "podVersion": "4.8",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "238da6jt44.skadnetwork",
@@ -1967,8 +1967,8 @@
         {
             "network": "VUNGLE",
             "displayName": "Vungle",
-            "SDKVersion": "6.12.0",
-            "adapterVersion": "6.12.0.0",
+            "SDKVersion": "6.12.1",
+            "adapterVersion": "6.12.1.0",
             "podVersion": "6.12",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -2070,9 +2070,9 @@
         {
             "network": "YANDEX",
             "displayName": "YandexAds",
-            "SDKVersion": "5.2.1",
-            "adapterVersion": "5.2.1.0",
-            "podVersion": "5.2",
+            "SDKVersion": "5.3.1",
+            "adapterVersion": "5.3.1.0",
+            "podVersion": "5.3",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "zq492l623r.skadnetwork"
@@ -2092,7 +2092,7 @@
             "changelog": "",
              "networkSourceURL": "https://github.com/yandexmobile/yandex-ads-sdk-ios",
             "networkChangelog": "https://github.com/yandexmobile/yandex-ads-sdk-ios/tree/master/changelog",
-            "minTargetSdk": "8.0",
+            "minTargetSdk": "12.0",
             "isLite": false
         },
         {
