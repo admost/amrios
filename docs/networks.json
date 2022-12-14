@@ -718,7 +718,7 @@
         },
         {
             "network": "FACEBOOK",
-            "displayName": "Facebook",
+            "displayName": "Meta",
             "SDKVersion": "6.12.0",
             "adapterVersion": "6.12.0.0",
             "podVersion": "6.12",
