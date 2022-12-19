@@ -329,31 +329,6 @@
             "isLite": false
         },
         {
-            "network": "AFA",
-            "displayName": "AFA",
-            "SDKVersion": "1.3.0",
-            "adapterVersion": "1.3.0.0",
-            "podVersion": "1.3",
-            "initParameterCount": 1,
-            "skadnetworkIDS": [],
-            "supportedAdTypes": [
-                "Interstitial",
-                "Rewarded"
-            ],
-            "infoPlistKey": "",
-            "adapterName": "AMRAdapterAFA",
-            "iosSupport": true,
-            "unitySupport": true,
-            "status": false,
-            "biddingSupport": false,
-            "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-AFA/tags",
-            "changelog": "",
-            "networkSourceURL": "https://github.com/admost/AdmostFairAds",
-            "networkChangelog": "",
-            "minTargetSdk": "9.0",
-            "isLite": false
-        },
-        {
             "network": "AMAZON",
             "displayName": "Amazon",
             "SDKVersion": "4.5.3",
