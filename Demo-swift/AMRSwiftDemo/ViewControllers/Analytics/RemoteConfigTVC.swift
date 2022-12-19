@@ -19,9 +19,9 @@ class RemoteConfigTVC: UITableViewController {
     }
     
     func fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
-        AMRSDK.fetchRemoteConfig { [self] Error in
-            if Error == Error {
-                print("<AMR Demo> - [E] - error: \(Error.errorCode)")
+        AMRSDK.fetchRemoteConfig { [self] error in
+            if let error = error {
+                print("<AMR Demo> - [E] - error: \(error.errorCode)")
             } else {
                 stringValueLabel.text = "Username : \(String(describing: AMRSDK.getConfigForKey("username")?.stringValue()))"
                 numberValueLabel.text = "Usercoin : \(String(describing: AMRSDK.getConfigForKey("userCoin")?.number()))"

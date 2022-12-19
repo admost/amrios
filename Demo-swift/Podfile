@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '13.0'
 
 target 'AMRSwiftDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -12,7 +12,6 @@ target 'AMRSwiftDemo' do
 pod 'AMRAdapterAdcolony'
 pod 'AMRAdapterAdmob'
 pod 'AMRAdapterAdmost'
-pod 'AMRAdapterAFA'
 pod 'AMRAdapterAmazon'
 pod 'AMRAdapterApplovin'
 pod 'AMRAdapterAppnext'
@@ -42,6 +41,9 @@ pod 'AMRAdapterVerizon'
 pod 'AMRAdapterVungle'
 pod 'AMRAdapterYandex'
 pod 'AMRAdapterYouappi'
+
+# if use adjust
+pod 'Adjust'
 
 end
 
