@@ -2,8 +2,8 @@
     "adNetworks": [{
             "network": "AMR",
             "displayName": "AMR",
-            "SDKVersion": "1.5.27",
-            "adapterVersion": "1.5.27",
+            "SDKVersion": "1.5.28",
+            "adapterVersion": "1.5.28",
             "podVersion": "1.5",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
@@ -175,8 +175,8 @@
         {
             "network": "ADMOST",
             "displayName": "Admost",
-            "SDKVersion": "1.6.1",
-            "adapterVersion": "1.6.1.0",
+            "SDKVersion": "1.6.7",
+            "adapterVersion": "1.6.7.0",
             "podVersion": "1.6",
             "initParameterCount": 0,
             "skadnetworkIDS": [],
