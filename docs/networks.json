@@ -2,8 +2,8 @@
     "adNetworks": [{
             "network": "AMR",
             "displayName": "AMR",
-            "SDKVersion": "1.5.28",
-            "adapterVersion": "1.5.28",
+            "SDKVersion": "1.5.30",
+            "adapterVersion": "1.5.30",
             "podVersion": "1.5",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
@@ -196,6 +196,32 @@
             "networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
             "networkChangelog": "",
             "minTargetSdk": "8.0",
+            "isLite": false
+        },
+        {
+            "network": "ADSERVER",
+            "displayName": "AdServer",
+            "SDKVersion": "1.0.0",
+            "adapterVersion": "1.0.0.0",
+            "podVersion": "1.0",
+            "initParameterCount": 0,
+            "skadnetworkIDS": [],
+            "supportedAdTypes": [
+                "Banner",
+                "Interstitial",
+                "Rewarded"
+            ],
+            "infoPlistKey": "",
+            "adapterName": "AMRAdapterAdserver",
+            "iosSupport": true,
+            "unitySupport": true,
+            "status": false,
+            "biddingSupport": false,
+            "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/blob/main/CHANGELOG.md",
+            "networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/tags",
+            "networkChangelog": "",
+            "minTargetSdk": "10.0",
             "isLite": false
         },
         {
