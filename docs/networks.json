@@ -109,9 +109,9 @@
         {
             "network": "ADMOB",
             "displayName": "AdMob",
-            "SDKVersion": "9.14.0",
-            "adapterVersion": "9.14.0.0",
-            "podVersion": "9.14",
+            "SDKVersion": "10.0.0",
+            "adapterVersion": "10.0.0.0",
+            "podVersion": "10.0",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -227,9 +227,9 @@
         {
             "network": "A4G",
             "displayName": "A4G",
-            "SDKVersion": "9.14.0",
-            "adapterVersion": "9.14.0.0",
-            "podVersion": "9.14",
+            "SDKVersion": "10.0.0",
+            "adapterVersion": "10.0.0.0",
+            "podVersion": "10.0",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -293,9 +293,9 @@
         {
             "network": "ADX",
             "displayName": "ADX",
-            "SDKVersion": "9.14.0",
-            "adapterVersion": "9.14.0.0",
-            "podVersion": "9.14",
+            "SDKVersion": "10.0.0",
+            "adapterVersion": "10.0.0.0",
+            "podVersion": "10.0",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -384,9 +384,9 @@
         {
             "network": "APPLOVIN",
             "displayName": "AppLovin",
-            "SDKVersion": "11.6.1",
-            "adapterVersion": "11.6.1.0",
-            "podVersion": "11.6",
+            "SDKVersion": "11.7.1",
+            "adapterVersion": "11.7.1.0",
+            "podVersion": "11.7",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "22mmun2rn5.skadnetwork",
@@ -524,9 +524,9 @@
         {
             "network": "CHARTBOOST",
             "displayName": "Chartboost",
-            "SDKVersion": "9.1.0",
-            "adapterVersion": "9.1.0.0",
-            "podVersion": "9.1",
+            "SDKVersion": "9.2.0",
+            "adapterVersion": "9.2.0.0",
+            "podVersion": "9.2",
             "initParameterCount": 2,
             "skadnetworkIDS": [
                 "44jx6755aq.skadnetwork",
@@ -658,18 +658,18 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-CHARTBOOST/tags",
-            "changelog": "",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-CHARTBOOST/blob/master/CHANGELOG.md",
              "networkSourceURL": "https://answers.chartboost.com/en-us/articles/download",
             "networkChangelog": "https://answers.chartboost.com/en-us/child_article/ios-ios-swift",
-            "minTargetSdk": "10.0",
+            "minTargetSdk": "11.0",
             "isLite": false
         },
         {
             "network": "CRITEO",
             "displayName": "Criteo",
-            "SDKVersion": "4.5.0",
-            "adapterVersion": "4.5.0.0",
-            "podVersion": "4.5",
+            "SDKVersion": "4.6.0",
+            "adapterVersion": "4.6.0.0",
+            "podVersion": "4.6",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "hs6bdukanm.skadnetwork"
@@ -685,10 +685,10 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-CRITEO/tags",
-            "changelog": "",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-CRITEO/blob/master/CHANGELOG.md",
              "networkSourceURL": "https://github.com/criteo/ios-publisher-sdk/tags",
             "networkChangelog": "https://publisherdocs.criteotilt.com/app/ios/release-notes",
-            "minTargetSdk": "8.0",
+            "minTargetSdk": "11.0",
             "isLite": false
         },
         {
@@ -1204,8 +1204,8 @@
         {
             "network": "MYTARGET",
             "displayName": "MyTarget",
-            "SDKVersion": "5.17.2",
-            "adapterVersion": "5.17.2.0",
+            "SDKVersion": "5.17.3",
+            "adapterVersion": "5.17.3.0",
             "podVersion": "5.17",
             "initParameterCount": 0,
             "skadnetworkIDS": [
@@ -1387,9 +1387,9 @@
         {
             "network": "REKLAMUP",
             "displayName": "ReklamUp",
-            "SDKVersion": "9.14.0",
-            "adapterVersion": "9.14.0.0",
-            "podVersion": "9.14",
+            "SDKVersion": "10.0.0",
+            "adapterVersion": "10.0.0.0",
+            "podVersion": "10.0",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -1569,9 +1569,9 @@
         {
             "network": "SMARTAD",
             "displayName": "SmartAd",
-            "SDKVersion": "7.19.2",
-            "adapterVersion": "7.19.2.0",
-            "podVersion": "7.19",
+            "SDKVersion": "7.20.1",
+            "adapterVersion": "7.20.1.0",
+            "podVersion": "7.20",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
             "supportedAdTypes": [
@@ -1799,8 +1799,8 @@
         {
             "network": "TIKTOK",
             "displayName": "Pangle (Tiktok)",
-            "SDKVersion": "4.9.0.9",
-            "adapterVersion": "4.9.0.9",
+            "SDKVersion": "4.9.1.1",
+            "adapterVersion": "4.9.1.1",
             "podVersion": "4.9",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -1968,12 +1968,11 @@
         {
             "network": "VUNGLE",
             "displayName": "Vungle",
-            "SDKVersion": "6.12.1",
-            "adapterVersion": "6.12.1.0",
+            "SDKVersion": "6.12.2",
+            "adapterVersion": "6.12.2.0",
             "podVersion": "6.12",
             "initParameterCount": 1,
             "skadnetworkIDS": [
-
                 "gta9lk7p23.skadnetwork",
                 "c3frkrj4fj.skadnetwork",
                 "p78axxw29g.skadnetwork",
@@ -2062,7 +2061,7 @@
             "status": false,
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-VUNGLE/tags",
-            "changelog": "",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-VUNGLE/blob/master/CHANGELOG.md",
              "networkSourceURL": "https://vungle.com/vungle-sdk/#download",
             "networkChangelog": "https://github.com/Vungle/iOS-SDK/blob/master/CHANGELOG.md",
             "minTargetSdk": "10.0",
@@ -2071,8 +2070,8 @@
         {
             "network": "YANDEX",
             "displayName": "YandexAds",
-            "SDKVersion": "5.4.0",
-            "adapterVersion": "5.4.0.0",
+            "SDKVersion": "5.5.0",
+            "adapterVersion": "5.5.0.0",
             "podVersion": "5.4",
             "initParameterCount": 0,
             "skadnetworkIDS": [
@@ -2090,7 +2089,7 @@
             "status": false,
             "biddingSupport": false,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-YANDEX/tags",
-            "changelog": "",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-YANDEX/blob/master/CHANGELOG.md",
              "networkSourceURL": "https://github.com/yandexmobile/yandex-ads-sdk-ios",
             "networkChangelog": "https://github.com/yandexmobile/yandex-ads-sdk-ios/tree/master/changelog",
             "minTargetSdk": "12.0",
