@@ -2,8 +2,8 @@
     "adNetworks": [{
             "network": "AMR",
             "displayName": "AMR",
-            "SDKVersion": "1.5.30",
-            "adapterVersion": "1.5.30",
+            "SDKVersion": "1.5.33",
+            "adapterVersion": "1.5.33",
             "podVersion": "1.5",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
@@ -109,9 +109,9 @@
         {
             "network": "ADMOB",
             "displayName": "AdMob",
-            "SDKVersion": "10.1.0",
-            "adapterVersion": "10.1.0.0",
-            "podVersion": "10.1",
+            "SDKVersion": "10.2.0",
+            "adapterVersion": "10.2.0.0",
+            "podVersion": "10.2",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -227,9 +227,9 @@
         {
             "network": "A4G",
             "displayName": "A4G",
-            "SDKVersion": "10.1.0",
-            "adapterVersion": "10.1.0.0",
-            "podVersion": "10.1",
+            "SDKVersion": "10.2.0",
+            "adapterVersion": "10.2.0.0",
+            "podVersion": "10.2",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -293,9 +293,9 @@
         {
             "network": "ADX",
             "displayName": "ADX",
-            "SDKVersion": "10.1.0",
-            "adapterVersion": "10.1.0.0",
-            "podVersion": "10.1",
+            "SDKVersion": "10.2.0",
+            "adapterVersion": "10.2.0.0",
+            "podVersion": "10.2",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -384,8 +384,8 @@
         {
             "network": "APPLOVIN",
             "displayName": "AppLovin",
-            "SDKVersion": "11.8.0",
-            "adapterVersion": "11.8.0.0",
+            "SDKVersion": "11.8.1",
+            "adapterVersion": "11.8.1.0",
             "podVersion": "11.8",
             "initParameterCount": 0,
             "skadnetworkIDS": [
@@ -667,9 +667,9 @@
         {
             "network": "CRITEO",
             "displayName": "Criteo",
-            "SDKVersion": "4.7.0",
-            "adapterVersion": "4.7.0.0",
-            "podVersion": "4.7",
+            "SDKVersion": "4.8.0",
+            "adapterVersion": "4.8.0.0",
+            "podVersion": "4.8",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "hs6bdukanm.skadnetwork"
@@ -688,7 +688,7 @@
             "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-CRITEO/blob/master/CHANGELOG.md",
              "networkSourceURL": "https://github.com/criteo/ios-publisher-sdk/tags",
             "networkChangelog": "https://publisherdocs.criteotilt.com/app/ios/release-notes",
-            "minTargetSdk": "11.0",
+            "minTargetSdk": "12.0",
             "isLite": false
         },
         {
@@ -1048,8 +1048,8 @@
         {
             "network": "MINTEGRAL",
             "displayName": "Mintegral",
-            "SDKVersion": "7.3.0",
-            "adapterVersion": "7.3.0.0",
+            "SDKVersion": "7.3.3",
+            "adapterVersion": "7.3.3.0",
             "podVersion": "7.3",
             "initParameterCount": 2,
             "skadnetworkIDS": [
@@ -1160,7 +1160,8 @@
             "supportedAdTypes": [
                 "Banner",
                 "Interstitial",
-                "Rewarded"
+                "Rewarded",
+                "OpenAds"
             ],
             "infoPlistKey": "",
             "adapterName": "AMRAdapterMintegral",
@@ -1259,8 +1260,8 @@
         {
             "network": "OGURY",
             "displayName": "Ogury",
-            "SDKVersion": "4.1.0",
-            "adapterVersion": "4.1.0.0",
+            "SDKVersion": "4.1.1",
+            "adapterVersion": "4.1.1.0",
             "podVersion": "4.1",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
@@ -1387,9 +1388,9 @@
         {
             "network": "REKLAMUP",
             "displayName": "ReklamUp",
-            "SDKVersion": "10.1.0",
-            "adapterVersion": "10.1.0.0",
-            "podVersion": "10.1",
+            "SDKVersion": "10.2.0",
+            "adapterVersion": "10.2.0.0",
+            "podVersion": "10.2",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -1799,9 +1800,9 @@
         {
             "network": "TIKTOK",
             "displayName": "Pangle (Tiktok)",
-            "SDKVersion": "5.0.0.7",
-            "adapterVersion": "5.0.0.7",
-            "podVersion": "5.0",
+            "SDKVersion": "4.9.1.1",
+            "adapterVersion": "4.9.1.2",
+            "podVersion": "4.9",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "238da6jt44.skadnetwork",
@@ -1809,7 +1810,8 @@
             ],
             "supportedAdTypes": [
                 "Interstitial",
-                "Rewarded"
+                "Rewarded",
+                "OpenAds"
             ],
             "infoPlistKey": "",
             "adapterName": "AMRAdapterTiktok",
@@ -1968,8 +1970,8 @@
         {
             "network": "VUNGLE",
             "displayName": "Vungle",
-            "SDKVersion": "6.12.2",
-            "adapterVersion": "6.12.2.0",
+            "SDKVersion": "6.12.3",
+            "adapterVersion": "6.12.3.0",
             "podVersion": "6.12",
             "initParameterCount": 1,
             "skadnetworkIDS": [
