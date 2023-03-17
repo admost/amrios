@@ -117,8 +117,8 @@
                         <li><a href="#interstitial-ads">Interstitial Ads</a></li>
                         <li><a href="#rewarded-video-ads">Rewarded Video Ads</a></li>
                         <li class="not-lite"><a href="#offerwall-ads">Offerwall Ads</a></li>
-                            <ul style="display: block;">
-                                <li class="not-lite" ><a href="#spend-virtual-currency">Spend Virtual Currency</a></li>
+                            <ul class="not-lite" style="display: block;">
+                                <li><a href="#spend-virtual-currency">Spend Virtual Currency</a></li>
                             </ul>
                     </ul>
                 </li>
@@ -269,7 +269,7 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                         <p><a href="https://www.pollfish.com/docs/ios" target="_blank">Pollfish Privacy Policy</a></p>
                 </div>
 
-                <div class="callout callout-warning" role="alert">
+                <div class="callout callout-warning not-lite" role="alert">
                         <h4></h4>
                         <p><span class="label label-warning">Optional</span> If you are using AdColony you need to add following code to your <code>plist</code> file.</p>
                         <pre><code>
@@ -1143,16 +1143,15 @@ rewardedVideo.load()
     <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-31">Swift</a></li>
   </ul>
   
-    <div class="tab-content">
-        <div id="Objective-C-31" class="tab-pane fade">
-            <pre style="margin-top:0px!important"><code class="language-objectivec">[rewardedVideo showFromViewController:self withTag:@"game_start"];</code></pre>
-        </div>
-        <div id="Swift-31" class="tab-pane fade in active">
-            <pre style="margin-top:0px!important"><code class="language-swift">rewardedVideo.show(from: self, withTag: "game_start")</code></pre>
-        </div>
-        
-        <h3 id="offerwall-ads">Offerwall Ads</h3>
-
+  <div class="tab-content">
+    <div id="Objective-C-31" class="tab-pane fade">
+        <pre style="margin-top:0px!important"><code class="language-objectivec">[rewardedVideo showFromViewController:self withTag:@"game_start"];</code></pre>
+    </div>
+    <div id="Swift-31" class="tab-pane fade in active">
+        <pre style="margin-top:0px!important"><code class="language-swift">rewardedVideo.show(from: self, withTag: "game_start")</code></pre>
+    </div>
+<div class="not-lite">
+    <h3 id="offerwall-ads">Offerwall Ads</h3>
                     <p>To create and show an offerwall ad first import <code>AMRSDK</code> to your <code>UIViewController</code>
                         file and declare an <code>AMROfferWall</code> property;
                     </p>
