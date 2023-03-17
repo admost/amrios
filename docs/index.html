@@ -118,7 +118,7 @@
                         <li><a href="#rewarded-video-ads">Rewarded Video Ads</a></li>
                         <li class="not-lite"><a href="#offerwall-ads">Offerwall Ads</a></li>
                             <ul style="display: block;">
-                                <li><a href="#spend-virtual-currency">Spend Virtual Currency</a></li>
+                                <li class="not-lite" ><a href="#spend-virtual-currency">Spend Virtual Currency</a></li>
                             </ul>
                     </ul>
                 </li>
@@ -865,24 +865,26 @@ fullScreen.load()
                     <div id="Swift-19" class="tab-pane fade in active">
                         <pre style="margin-top:0px!important"><code class="language-swift">interstitial.show(from: self)</code></pre>
                     </div>
+                <div class="not-lite">
+                    <p>
+                    You can use tag functionality for interstitial zones. Tags will let you monitor the performance of the ads across different dimensions for the same zone. You can switch ads on and off for any specified tag whenever you want. Example usage is as follows;
+                    </p>
 
-                <p>
-                  You can use tag functionality for interstitial zones. Tags will let you monitor the performance of the ads across different dimensions for the same zone. You can switch ads on and off for any specified tag whenever you want. Example usage is as follows;
-                </p>
-
-                <ul class="nav nav-tabs" style="border-bottom: none!important;">
-                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-20">Objective-C</a></li>
-                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-20">Swift</a></li>
-                  </ul>
+                    <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                        <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-20">Objective-C</a></li>
+                        <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-20">Swift</a></li>
+                    </ul>
                   
-                  <div class="tab-content">
-                    <div id="Objective-C-20" class="tab-pane fade">
-                        <pre style="margin-top:0px!important"><code class="language-objectivec">[interstitial showFromViewController:self withTag:@"game_start"];</code></pre>
+                    <div class="tab-content">
+                        <div id="Objective-C-20" class="tab-pane fade">
+                            <pre style="margin-top:0px!important"><code class="language-objectivec">[interstitial showFromViewController:self withTag:@"game_start"];</code></pre>
+                        </div>
+                        <div id="Swift-20" class="tab-pane fade in active">
+                            <pre style="margin-top:0px!important"><code class="language-swift">interstitial.show(from: self, withTag: "game_start")</code></pre>
+                        </div>
                     </div>
-                    <div id="Swift-20" class="tab-pane fade in active">
-                        <pre style="margin-top:0px!important"><code class="language-swift">interstitial.show(from: self, withTag: "game_start")</code></pre>
                     </div>
-
+                </div>
                 <h3 id="rewarded-video-ads">Rewarded Video Ads</h3>
 
                 <p>Rewarded video ads' integration is pretty similar to Interstitial ads with 2 additional callbacks. To create and show a rewarded video ad
@@ -1010,13 +1012,13 @@ rewardedVideo.load()
         <pre style="margin-top:0px!important"><code class="language-swift">func didFail(toReceive rewardedVideo: AMRRewardedVideo!, error: AMRError!) {
             print(error.errorDescription);
         }</code></pre>
-</div>
+    </div>
 
 
 
-<p><code>didShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video is shown.</p>
+    <p><code>didShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video is shown.</p>
 
-<ul class="nav nav-tabs" style="border-bottom: none!important;">
+    <ul class="nav nav-tabs" style="border-bottom: none!important;">
     <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-25">Objective-C</a></li>
     <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-25">Swift</a></li>
   </ul>
@@ -1027,10 +1029,10 @@ rewardedVideo.load()
         </div>
     <div id="Swift-25" class="tab-pane fade in active">
         <pre style="margin-top:0px!important"><code class="language-swift">func didShow(_ rewardedVideo: AMRRewardedVideo!) {} </code></pre>
-</div>
+    </div>
 
 
-<p><code>didFailToShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video failed to be shown.
+    <p><code>didFailToShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video failed to be shown.
 	This delegate expected to be called very rarely but if it is called you should either load another rewarded video or resume tasks.
 	</p>
 
@@ -1049,8 +1051,8 @@ rewardedVideo.load()
             </code></pre>
         </div>
 
-<p><span class="label label-teal">New</span> <code>didClickRewardedVideo</code> callback method when rewarded video clicked.</p>
-<ul class="nav nav-tabs" style="border-bottom: none!important;">
+    <p><span class="label label-teal">New</span> <code>didClickRewardedVideo</code> callback method when rewarded video clicked.</p>
+    <ul class="nav nav-tabs" style="border-bottom: none!important;">
     <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-27">Objective-C</a></li>
     <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-27">Swift</a></li>
   </ul>
@@ -1065,14 +1067,14 @@ rewardedVideo.load()
         </code></pre>
     </div>
 
-<p><code>didCompleteRewardedVideo</code> callback method is called to inform the application that the user completed watching the video <b><u>to a certain point</u></b> to get the reward. The video may have finished or keep playing after <code>didCompleteRewardedVideo</code> is called. Use this callback to reward the user.</p>
-<p>
+    <p><code>didCompleteRewardedVideo</code> callback method is called to inform the application that the user completed watching the video <b><u>to a certain point</u></b> to get the reward. The video may have finished or keep playing after <code>didCompleteRewardedVideo</code> is called. Use this callback to reward the user.</p>
+    <p>
     <span class="label label-danger">Important</span> Attempting to load a new rewarded video from the
     <code>didCompleteRewardedVideo</code>
     methods is strongly discouraged.
-</p>
+    </p>
 
-<ul class="nav nav-tabs" style="border-bottom: none!important;">
+    <ul class="nav nav-tabs" style="border-bottom: none!important;">
     <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-28">Objective-C</a></li>
     <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-28">Swift</a></li>
   </ul>
@@ -1115,11 +1117,11 @@ rewardedVideo.load()
                 }
                 </code></pre>
             </div>
-<p>
-    You can use <code>showFromViewController:</code> method to present rewarded video from a viewController.
-</p>
+    <p>
+        You can use <code>showFromViewController:</code> method to present rewarded video from a viewController.
+    </p>
 
-<ul class="nav nav-tabs" style="border-bottom: none!important;">
+    <ul class="nav nav-tabs" style="border-bottom: none!important;">
     <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-30">Objective-C</a></li>
     <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-30">Swift</a></li>
   </ul>
@@ -1131,227 +1133,238 @@ rewardedVideo.load()
     <div id="Swift-30" class="tab-pane fade in active">
         <pre style="margin-top:0px!important"><code class="language-swift">rewardedVideo.show(from: self)</code></pre>
     </div>
+<div class="not-lite">
+    <p>
+    You can use tag functionality for rewarded video zones. Tags will let you monitor the performance of the ads across different dimensions for the same zone. You can switch ads on and off for any specified tag whenever you want. Example usage is as follows;
+    </p>
 
-<p>
-  You can use tag functionality for rewarded video zones. Tags will let you monitor the performance of the ads across different dimensions for the same zone. You can switch ads on and off for any specified tag whenever you want. Example usage is as follows;
-</p>
-
-<ul class="nav nav-tabs" style="border-bottom: none!important;">
+    <ul class="nav nav-tabs" style="border-bottom: none!important;">
     <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-31">Objective-C</a></li>
     <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-31">Swift</a></li>
   </ul>
   
-  <div class="tab-content">
-    <div id="Objective-C-31" class="tab-pane fade">
-        <pre style="margin-top:0px!important"><code class="language-objectivec">[rewardedVideo showFromViewController:self withTag:@"game_start"];</code></pre>
-    </div>
-    <div id="Swift-31" class="tab-pane fade in active">
-        <pre style="margin-top:0px!important"><code class="language-swift">rewardedVideo.show(from: self, withTag: "game_start")</code></pre>
-    </div>
-<div class="">
-    <h3 id="offerwall-ads">Offerwall Ads</h3>
-
-                <p>To create and show an offerwall ad first import <code>AMRSDK</code> to your <code>UIViewController</code>
-                    file and declare an <code>AMROfferWall</code> property;
-                </p>
-
-                <ul class="nav nav-tabs" style="border-bottom: none!important;">
-                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-32">Objective-C</a></li>
-                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-32">Swift</a></li>
-                  </ul>
-                  
-                  <div class="tab-content">
-                    <div id="Objective-C-32" class="tab-pane fade">
-                        <pre style="margin-top:0px!important"><code class="language-objectivec">
-        // ViewController.h
-                                    
-        #import &lt;AMRSDK/AMRSDK.h&gt;
-                                    
-        @interface ViewController : UIViewController &lt;AMROfferWallDelegate&gt;
-                                    
-        @property(nonatomic, strong) AMROfferWall *fullScreen;
-                                    
-        @end
-                            </code></pre>                    
-                        </div>
-                    <div id="Swift-32" class="tab-pane fade in active">
-                        <pre style="margin-top:0px!important"><code class="language-swift">
-        // ViewController
-                                    
-        import AMRSDK
-                                    
-        class ViewController : UIViewController, AMROfferWallDelegate {
-                                    
-        var fullScreen: AMROfferWall!
-                                    
-        }
-                        </code></pre>
-                    </div>
-                <p>
-                    Initialize it with your Offerwall Zone Id and
-                    set it's
-                    <code> delegate</code> to an object (generally your viewController) which conforms to
-                    <code>AMROfferWallDelegate</code> protocol.
-                </p>
-
-                <ul class="nav nav-tabs" style="border-bottom: none!important;">
-                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-33">Objective-C</a></li>
-                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-33">Swift</a></li>
-                  </ul>
-                  
-                  <div class="tab-content">
-                    <div id="Objective-C-33" class="tab-pane fade">
-                        <pre style="margin-top:0px!important"><code class="language-objectivec">
-        // ViewController.m
-                                    
-        fullScreen = [AMROfferWall offerWallForZoneId:@"&lt;zoneId&gt;"];
-        fullScreen.delegate = self;
-        [fullScreen loadOfferWall];
-                        </code></pre>                  
-                        </div>
-                    <div id="Swift-33" class="tab-pane fade in active">
-                        <pre style="margin-top:0px!important"><code class="language-swift">
-        // ViewController
-                                    
-        offerWall = AMROfferWall(forZoneId: "&lt;zoneId&gt;")
-        offerWall.delegate = self
-        offerWall.load()
-                        </code></pre>
-                    </div>
-                <p>For testing you can use following Offerwall Zone Id;</p>
-
-                <pre><code
-                        class="language-markup">Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
-                </code></pre>
-
-                <p>There are 5 callback methods in <code>AMROfferWallDelegate</code> protocol.
-                    When <code>didReceiveOfferWall</code> callback method is called just call the <code>showFromViewController</code>
-                    method to present offerwall from a viewController.</p>
-
-                    <ul class="nav nav-tabs"style="border-bottom: none!important;">
-                        <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-34">Objective-C</a></li>
-                        <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-34">Swift</a></li>
-                      </ul>
-                      
-                      <div class="tab-content">
-                        <div id="Objective-C-34" class="tab-pane fade">
-                            <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didReceiveOfferWall:(AMROfferWall *)offerwall {
-                                [offerwall showFromViewController:self];
-                            }</code></pre>                
-                            </div>
-                        <div id="Swift-34" class="tab-pane fade in active">
-                            <pre style="margin-top:0px!important"><code class="language-swift">func didReceive(_ offerwall: AMROfferWall!) {
-                                offerWall.show(from: self)
-                            }</code></pre>
-                        </div>
-                <p>If <code>didFailToReceiveOfferWall</code> callback method is called investigate <code>error</code>
-                    to adress the problem.
-                </p>
-
-
-                <ul class="nav nav-tabs" style="border-bottom: none!important;">
-                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-35">Objective-C</a></li>
-                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-35">Swift</a></li>
-                  </ul>
-                  
-                  <div class="tab-content">
-                    <div id="Objective-C-35" class="tab-pane fade">
-                        <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didFailToReceiveOfferWall:(AMROfferWall *)offerwall error:(AMRError *)error {
-                            NSLog(error.errorDescription);
-                        }</code></pre>               
-                        </div>
-                    <div id="Swift-35" class="tab-pane fade in active">
-                        <pre style="margin-top:0px!important"><code class="language-swift">func didFail(toReceive offerwall: AMROfferWall!, error: AMRError!) {
-                            print(error.errorDescription)
-                        }</code></pre>
-                    </div>
-
-                <p><code>didShowOfferWall</code> callback method is called to inform the application that the received offerwall is presented.</p>
-
-
-                <ul class="nav nav-tabs" style="border-bottom: none!important;">
-                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-36">Objective-C</a></li>
-                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-36">Swift</a></li>
-                  </ul>
-                  
-                  <div class="tab-content">
-                    <div id="Objective-C-36" class="tab-pane fade">
-                        <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didShowOfferWall:(AMROfferWall *)offerwall {} </code></pre>
-         
-                        </div>
-                    <div id="Swift-36" class="tab-pane fade in active">
-                        <pre style="margin-top:0px!important"><code class="language-swift">func didShow(_ offerwall: AMROfferWall!) {} </code></pre>
-                    </div>
-
-                <p><code>didFailToShowOfferWall</code> callback method is called to inform the application that the received offerwall failed to be presented.
-	This delegate expected to be called very rarely but if it is called you should either load another offerwall or resume tasks.
-	</p>
-
-    <ul class="nav nav-tabs" style="border-bottom: none!important;">
-        <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-37">Objective-C</a></li>
-        <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-37">Swift</a></li>
-      </ul>
-      
-      <div class="tab-content">
-        <div id="Objective-C-37" class="tab-pane fade">
-            <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didFailToShowOfferWall:(AMROfferWall *)offerwall error:(AMRError *)error {}
-            </code></pre>
-            </div>
-        <div id="Swift-37" class="tab-pane fade in active">
-            <pre style="margin-top:0px!important"><code class="language-swift">func didFail(toShow offerwall: AMROfferWall!, error: AMRError!) {}
-            </code></pre>        
+    <div class="tab-content">
+        <div id="Objective-C-31" class="tab-pane fade">
+            <pre style="margin-top:0px!important"><code class="language-objectivec">[rewardedVideo showFromViewController:self withTag:@"game_start"];</code></pre>
         </div>
+        <div id="Swift-31" class="tab-pane fade in active">
+            <pre style="margin-top:0px!important"><code class="language-swift">rewardedVideo.show(from: self, withTag: "game_start")</code></pre>
+        </div>
+        
+        <h3 id="offerwall-ads">Offerwall Ads</h3>
 
-                <p><code>didDismissOfferWall</code> callback method is called to inform the application that the
-                    offerwall is no longer present. You can use this callback to resume paused tasks during
-                    offerwall presentation.</p>
+                    <p>To create and show an offerwall ad first import <code>AMRSDK</code> to your <code>UIViewController</code>
+                        file and declare an <code>AMROfferWall</code> property;
+                    </p>
 
                     <ul class="nav nav-tabs" style="border-bottom: none!important;">
-                        <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-38">Objective-C</a></li>
-                        <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-38">Swift</a></li>
-                      </ul>
-                      
-                      <div id="Objective-C-38" class="tab-pane fade">
-                        <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didDismissOfferWall:(AMROfferWall *)offerwall {} </code></pre>
-                    </code></pre>
+                        <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-32">Objective-C</a></li>
+                        <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-32">Swift</a></li>
+                    </ul>
+                    
+        <div class="tab-content">
+                            <div id="Objective-C-32" class="tab-pane fade">
+                                <pre style="margin-top:0px!important"><code class="language-objectivec">
+                // ViewController.h
+                                            
+                #import &lt;AMRSDK/AMRSDK.h&gt;
+                                            
+                @interface ViewController : UIViewController &lt;AMROfferWallDelegate&gt;
+                                            
+                @property(nonatomic, strong) AMROfferWall *fullScreen;
+                                            
+                @end
+                                    </code></pre>                    
+                                </div>
+                            <div id="Swift-32" class="tab-pane fade in active">
+                                <pre style="margin-top:0px!important"><code class="language-swift">
+                // ViewController
+                                            
+                import AMRSDK
+                                            
+                class ViewController : UIViewController, AMROfferWallDelegate {
+                                            
+                var fullScreen: AMROfferWall!
+                                            
+                }
+                                </code></pre>
+                            </div>
+                        <p>
+                            Initialize it with your Offerwall Zone Id and
+                            set it's
+                            <code> delegate</code> to an object (generally your viewController) which conforms to
+                            <code>AMROfferWallDelegate</code> protocol.
+                        </p>
+
+                        <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                            <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-33">Objective-C</a></li>
+                            <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-33">Swift</a></li>
+                        </ul>
+                        
+            <div class="tab-content">
+                                <div id="Objective-C-33" class="tab-pane fade">
+                                    <pre style="margin-top:0px!important"><code class="language-objectivec">
+                    // ViewController.m
+                                                
+                    fullScreen = [AMROfferWall offerWallForZoneId:@"&lt;zoneId&gt;"];
+                    fullScreen.delegate = self;
+                    [fullScreen loadOfferWall];
+                                    </code></pre>                  
+                                    </div>
+                                <div id="Swift-33" class="tab-pane fade in active">
+                                    <pre style="margin-top:0px!important"><code class="language-swift">
+                    // ViewController
+                                                
+                    offerWall = AMROfferWall(forZoneId: "&lt;zoneId&gt;")
+                    offerWall.delegate = self
+                    offerWall.load()
+                                    </code></pre>
+                                </div>
+                            <p>For testing you can use following Offerwall Zone Id;</p>
+
+                            <pre><code
+                                    class="language-markup">Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
+                            </code></pre>
+
+                            <p>There are 5 callback methods in <code>AMROfferWallDelegate</code> protocol.
+                                When <code>didReceiveOfferWall</code> callback method is called just call the <code>showFromViewController</code>
+                                method to present offerwall from a viewController.</p>
+
+                                <ul class="nav nav-tabs"style="border-bottom: none!important;">
+                                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-34">Objective-C</a></li>
+                                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-34">Swift</a></li>
+                                </ul>
+                                
+                <div class="tab-content">
+                    <div id="Objective-C-34" class="tab-pane fade">
+                        <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didReceiveOfferWall:(AMROfferWall *)offerwall {
+                            [offerwall showFromViewController:self];
+                        }</code></pre>                
                         </div>
-                    <div id="Swift-38" class="tab-pane fade in active">
-                        <pre style="margin-top:0px!important"><code class="language-swift">func didDismiss(_ offerwall: AMROfferWall!) {} </code></pre>
-                    </code></pre>        
+                    <div id="Swift-34" class="tab-pane fade in active">
+                        <pre style="margin-top:0px!important"><code class="language-swift">func didReceive(_ offerwall: AMROfferWall!) {
+                            offerWall.show(from: self)
+                        }</code></pre>
                     </div>
+                    <p>If <code>didFailToReceiveOfferWall</code> callback method is called investigate <code>error</code>
+                        to adress the problem.
+                    </p>
 
-</div>
 
-<div class="tab-content">
-                       
-<h4 id="spend-virtual-currency">Spend Virtual Currency</h4>
+                    <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-35">Objective-C</a></li>
+                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-35">Swift</a></li>
+                    </ul>
+                                
+                    <div class="tab-content">
+                        <div id="Objective-C-35" class="tab-pane fade">
+                            <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didFailToReceiveOfferWall:(AMROfferWall *)offerwall error:(AMRError *)error {
+                                NSLog(error.errorDescription);
+                            }</code></pre>               
+                            </div>
+                        <div id="Swift-35" class="tab-pane fade in active">
+                            <pre style="margin-top:0px!important"><code class="language-swift">func didFail(toReceive offerwall: AMROfferWall!, error: AMRError!) {
+                                print(error.errorDescription)
+                            }</code></pre>
+                        </div>
 
-<ul class="nav nav-tabs" style="border-bottom: none!important;">
-    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-39">Objective-C</a></li>
-    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-39">Swift</a></li>
-  </ul>
-  
-  <div class="tab-content">
-    <div id="Objective-C-39" class="tab-pane fade">
-        <pre style="margin-top:0px!important"><code class="language-objectivec">
-// Spend Virtual Currency Callbacks - Optional
-[AMRSDK setVirtualCurrencyDelegate:self];
-[AMRSDK spendVirtualCurrency];
-            
-- (void)didSpendVirtualCurrency:(NSString *)currency
-            amount:(NSNumber *)amount
-        networkName:(NSString *)networkName {}
-                        </code></pre>
+                        <p><code>didShowOfferWall</code> callback method is called to inform the application that the received offerwall is presented.</p>
+
+
+                        <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                            <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-36">Objective-C</a></li>
+                            <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-36">Swift</a></li>
+                        </ul>
+                                    
+                        <div class="tab-content">
+                            <div id="Objective-C-36" class="tab-pane fade">
+                                <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didShowOfferWall:(AMROfferWall *)offerwall {} </code></pre>
+
+                                </div>
+                            <div id="Swift-36" class="tab-pane fade in active">
+                                <pre style="margin-top:0px!important"><code class="language-swift">func didShow(_ offerwall: AMROfferWall!) {} </code></pre>
+                            </div>
+
+                                        <p><code>didFailToShowOfferWall</code> callback method is called to inform the application that the received offerwall failed to be presented.
+                            This delegate expected to be called very rarely but if it is called you should either load another offerwall or resume tasks.
+                            </p>
+
+                            <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                                <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-37">Objective-C</a></li>
+                                <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-37">Swift</a></li>
+                            </ul>
+                            
+                            <div class="tab-content">
+                                <div id="Objective-C-37" class="tab-pane fade">
+                                    <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didFailToShowOfferWall:(AMROfferWall *)offerwall error:(AMRError *)error {}
+                                    </code></pre>
+                                    </div>
+                                <div id="Swift-37" class="tab-pane fade in active">
+                                    <pre style="margin-top:0px!important"><code class="language-swift">func didFail(toShow offerwall: AMROfferWall!, error: AMRError!) {}
+                                    </code></pre>        
+                                </div>
+
+                                        <p><code>didDismissOfferWall</code> callback method is called to inform the application that the
+                                            offerwall is no longer present. You can use this callback to resume paused tasks during
+                                            offerwall presentation.</p>
+
+                                            <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                                                <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-38">Objective-C</a></li>
+                                                <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-38">Swift</a></li>
+                                            </ul>
+                                            
+                                            <div id="Objective-C-38" class="tab-pane fade">
+                                                <pre style="margin-top:0px!important"><code class="language-objectivec">- (void)didDismissOfferWall:(AMROfferWall *)offerwall {} </code></pre>
+                                            </code></pre>
+                                                </div>
+                                            <div id="Swift-38" class="tab-pane fade in active">
+                                                <pre style="margin-top:0px!important"><code class="language-swift">func didDismiss(_ offerwall: AMROfferWall!) {} </code></pre>
+                                            </code></pre>        
+                                            </div>
+
+                            </div>
+
+                            <div class="tab-content">
+                                                
+                                <h4 id="spend-virtual-currency">Spend Virtual Currency</h4>
+
+                                <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-39">Objective-C</a></li>
+                                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-39">Swift</a></li>
+                                </ul>
+                            
+                            <div class="tab-content">
+                                    <div id="Objective-C-39" class="tab-pane fade">
+                                        <pre style="margin-top:0px!important">
+                                            <code class="language-objectivec">
+                                            // Spend Virtual Currency Callbacks - Optional
+                                            [AMRSDK setVirtualCurrencyDelegate:self];
+                                            [AMRSDK spendVirtualCurrency];
+                                                        
+                                            - (void)didSpendVirtualCurrency:(NSString *)currency
+                                                        amount:(NSNumber *)amount
+                                                    networkName:(NSString *)networkName {}
+                                            </code>
+                                        </pre>
+                                    </div>
+                                    <div id="Swift-39" class="tab-pane fade in active">
+                                        <pre style="margin-top:0px!important"><code class="language-swift">
+                                        // Spend Virtual Currency Callbacks - Optional
+                                        AMRSDK.setVirtualCurrencyDelegate(self)
+                                        AMRSDK.spendVirtualCurrency()
+                                                    
+                                        func didSpendVirtualCurrency(_ currency: String!, amount: NSNumber!, networkName: String!) {}
+                                                </code></pre>        
+                                    </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    <div id="Swift-39" class="tab-pane fade in active">
- <pre style="margin-top:0px!important"><code class="language-swift">
-// Spend Virtual Currency Callbacks - Optional
-AMRSDK.setVirtualCurrencyDelegate(self)
-AMRSDK.spendVirtualCurrency()
-            
-func didSpendVirtualCurrency(_ currency: String!, amount: NSNumber!, networkName: String!) {}
-        </code></pre>        
     </div>
+</div>
 <div class="not-lite">
                 <h2 id="extras">Extras</h2>
 
