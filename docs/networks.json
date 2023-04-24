@@ -2,8 +2,8 @@
     "adNetworks": [{
             "network": "AMR",
             "displayName": "AMR",
-            "SDKVersion": "1.5.33",
-            "adapterVersion": "1.5.33",
+            "SDKVersion": "1.5.34",
+            "adapterVersion": "1.5.34",
             "podVersion": "1.5",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
@@ -109,9 +109,9 @@
         {
             "network": "ADMOB",
             "displayName": "AdMob",
-            "SDKVersion": "10.2.0",
-            "adapterVersion": "10.2.0.0",
-            "podVersion": "10.2",
+            "SDKVersion": "10.4.0",
+            "adapterVersion": "10.4.0.0",
+            "podVersion": "10.4",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -186,6 +186,32 @@
             "isLite": true
         },
         {
+            "network": "ADMATIC",
+            "displayName": "Admatic",
+            "SDKVersion": "2.0.8",
+            "adapterVersion": "2.0.8.0",
+            "podVersion": "2.0",
+            "initParameterCount": 1,
+            "skadnetworkIDS": [],
+            "supportedAdTypes": [
+                "Banner",
+                "Interstitial",
+                "Rewarded"
+            ],
+            "infoPlistKey": "",
+            "adapterName": "AMRAdapterAdmatic",
+            "iosSupport": true,
+            "unitySupport": true,
+            "status": false,
+            "biddingSupport": true,
+            "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMATIC/tags",
+            "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMATIC/blob/master/CHANGELOG.md",
+            "networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMATIC/tags",
+            "networkChangelog": "",
+            "minTargetSdk": "10.0",
+            "isLite": false
+        },
+        {
             "network": "ADMOST",
             "displayName": "Admost",
             "SDKVersion": "1.6.7",
@@ -240,9 +266,9 @@
         {
             "network": "A4G",
             "displayName": "A4G",
-            "SDKVersion": "10.2.0",
-            "adapterVersion": "10.2.0.0",
-            "podVersion": "10.2",
+            "SDKVersion": "10.4.0",
+            "adapterVersion": "10.4.0.0",
+            "podVersion": "10.4",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -306,9 +332,9 @@
         {
             "network": "ADX",
             "displayName": "ADX",
-            "SDKVersion": "10.2.0",
-            "adapterVersion": "10.2.0.0",
-            "podVersion": "10.2",
+            "SDKVersion": "10.4.0",
+            "adapterVersion": "10.4.0.0",
+            "podVersion": "10.4",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -397,9 +423,9 @@
         {
             "network": "APPLOVIN",
             "displayName": "AppLovin",
-            "SDKVersion": "11.8.1",
-            "adapterVersion": "11.8.1.0",
-            "podVersion": "11.8",
+            "SDKVersion": "11.9.0",
+            "adapterVersion": "11.9.0.0",
+            "podVersion": "11.9",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "22mmun2rn5.skadnetwork",
@@ -823,9 +849,9 @@
         {
             "network": "FYBER",
             "displayName": "Fyber",
-            "SDKVersion": "8.1.9",
-            "adapterVersion": "8.1.9.0",
-            "podVersion": "8.1",
+            "SDKVersion": "8.2.1",
+            "adapterVersion": "8.2.1.0",
+            "podVersion": "8.2",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "krvm3zuq6h.skadnetwork",
@@ -916,7 +942,7 @@
             "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-FYBER/blob/master/CHANGELOG.md",
              "networkSourceURL": "https://developer.fyber.com/hc/en-us/articles/360010971118-iOS-SDK-Integration",
             "networkChangelog": "https://developer.fyber.com/hc/en-us/articles/360010911617-iOS-Changelog",
-            "minTargetSdk": "9.0",
+            "minTargetSdk": "11.0",
             "isLite": false
         },
         {
@@ -1037,9 +1063,9 @@
         {
             "network": "IRONSOURCE",
             "displayName": "IronSource",
-            "SDKVersion": "7.2.7",
-            "adapterVersion": "7.2.7.0",
-            "podVersion": "7.2",
+            "SDKVersion": "7.3.0",
+            "adapterVersion": "7.3.0.0",
+            "podVersion": "7.3",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "su67r6k2v3.skadnetwork",
@@ -1077,7 +1103,7 @@
             "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-IRONSOURCE/blob/master/CHANGELOG.md",
              "networkSourceURL": "https://developers.ironsrc.com/ironsource-mobile/ios/ios-sdk/#step-1",
             "networkChangelog": "https://developers.is.com/ironsource-mobile/ios/sdk-change-log",
-            "minTargetSdk": "8.0",
+            "minTargetSdk": "10.0",
             "isLite": false
         },
         {
@@ -1146,8 +1172,8 @@
         {
             "network": "MINTEGRAL",
             "displayName": "Mintegral",
-            "SDKVersion": "7.3.3",
-            "adapterVersion": "7.3.3.0",
+            "SDKVersion": "7.3.4",
+            "adapterVersion": "7.3.4.0",
             "podVersion": "7.3",
             "initParameterCount": 2,
             "skadnetworkIDS": [
@@ -1486,9 +1512,9 @@
         {
             "network": "REKLAMUP",
             "displayName": "ReklamUp",
-            "SDKVersion": "10.2.0",
-            "adapterVersion": "10.2.0.0",
-            "podVersion": "10.2",
+            "SDKVersion": "10.4.0",
+            "adapterVersion": "10.4.0.0",
+            "podVersion": "10.4",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -1770,9 +1796,9 @@
         {
             "network": "TAPJOY",
             "displayName": "Tapjoy",
-            "SDKVersion": "12.11.1",
-            "adapterVersion": "12.11.1.0",
-            "podVersion": "12.11",
+            "SDKVersion": "13.0.1",
+            "adapterVersion": "13.0.1.0",
+            "podVersion": "13.0",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "ecpz2srf59.skadnetwork",
@@ -1884,7 +1910,7 @@
             "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-TAPJOY/blob/master/CHANGELOG.md",
             "networkSourceURL": "https://dev.tapjoy.com/en/ios-sdk/Manual-Integration",
             "networkChangelog": "https://dev.tapjoy.com/en/ios-sdk/Changelog",
-            "minTargetSdk": "8.0",
+            "minTargetSdk": "10.0",
             "isLite": false
         },
         {
@@ -1939,9 +1965,9 @@
         {
             "network": "TIKTOK",
             "displayName": "Pangle (Tiktok)",
-            "SDKVersion": "4.9.1.1",
-            "adapterVersion": "4.9.1.2",
-            "podVersion": "4.9",
+            "SDKVersion": "5.1.0.8",
+            "adapterVersion": "5.1.0.8",
+            "podVersion": "5.1",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "22mmun2rn5.skadnetwork",
@@ -2119,9 +2145,9 @@
         {
             "network": "VUNGLE",
             "displayName": "Vungle",
-            "SDKVersion": "6.12.3",
-            "adapterVersion": "6.12.3.0",
-            "podVersion": "6.12",
+            "SDKVersion": "7.0.0",
+            "adapterVersion": "7.0.0.0",
+            "podVersion": "7.0",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "gta9lk7p23.skadnetwork",
@@ -2202,6 +2228,7 @@
                 "3rd42ekr43.skadnetwork"
             ],
             "supportedAdTypes": [
+                "Banner",
                 "Interstitial",
                 "Rewarded"
             ],
@@ -2213,7 +2240,7 @@
             "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-VUNGLE/tags",
             "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-VUNGLE/blob/master/CHANGELOG.md",
-             "networkSourceURL": "https://vungle.com/vungle-sdk/#download",
+            "networkSourceURL": "https://vungle.com/vungle-sdk/#download",
             "networkChangelog": "https://github.com/Vungle/iOS-SDK/blob/master/CHANGELOG.md",
             "minTargetSdk": "10.0",
             "isLite": false
