@@ -1375,16 +1375,13 @@ rewardedVideo.load()
                 <p>In order to show AMR ads in DFP/AdMob Mediation you should first follow dedicated steps of DFP or
                     AdMob Mediation to set AMR as an ad mediation source.</p>
 
-                <p>After adding AMR as an ad mediation source you should define class names for banner, interstitial and rewarded video
-                    ad custom events. Enter <code>AMRDFPCustomEventBanner</code>,
-                    <code>AMRDFPCustomEventInterstitial</code> and <code>AMRDFPCustomEventRewarded</code> class names for
-                    banner, interstitial and rewarded video class names respectively. You must pass your AMR zone Id to custom event via
+                <p>After adding AMR as an ad mediation source you should define class names for banner, interstitial, rewarded video and Rewarded Interstitial
+                    ad custom events. Enter the <code>AMRAdapterDFP.AMRDFPCustomEvent</code> as
+                    class name. You must pass your AMR zone Id to custom event via
                     Parameter field.</p>
 
-                <img class="img-responsive " src="assets/img/dfp_banner.png" alt="shadowed image">
+                <img class="img-responsive " src="assets/img/dfp_sample.png" alt="shadowed image">
 
-
-                <img class="img-responsive " src="assets/img/dfp_interstitial.png" alt="shadowed image">
 
                 <p>Include Admost DFP Adapter in your project after setup, if you are using CocoaPods add following line
                     to your podfile and run the following command to install.</p>
@@ -1401,12 +1398,7 @@ rewardedVideo.load()
                 $ pod install
 
             </code></pre>
-
-
-                <p>If you are integration Admost manually add <code>AMRAdapterDFP</code> from <code>AMRDemo/AMR/MediationAdapters</code>
-                    folder to your project.</p>
-
-                <p>Now you can show AMR banner and interstitial ads via DFP or AdMob Mediation.</p>
+                <p>Now you can show AMR banner, interstitial and rewarded video ads via DFP or AdMob Mediation.</p>
 
                 <p>You can check DFP banner and interstitial example in demo project;
                     AMRDemo/DFPCustomEvents/DFPCustomEventsViewController.m</p>
