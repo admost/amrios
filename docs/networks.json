@@ -1107,34 +1107,6 @@
             "isLite": false
         },
         {
-            "network": "LIFTOFF",
-            "displayName": "Liftoff",
-            "SDKVersion": "1.10.0",
-            "adapterVersion": "1.10.0.0",
-            "podVersion": "1.10",
-            "initParameterCount": 1,
-            "skadnetworkIDS": [
-                "7ug5zh24hu.skadnetwork"
-            ],
-            "supportedAdTypes": [
-                "Banner",
-                "Interstitial",
-                "Rewarded"
-            ],
-            "infoPlistKey": "",
-            "adapterName": "AMRAdapterLiftoff",
-            "iosSupport": true,
-            "unitySupport": true,
-            "status": false,
-            "biddingSupport": false,
-            "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-LIFTOFF/tags",
-            "changelog": "",
-             "networkSourceURL": "https://github.com/liftoffio/LiftoffAds-iOS/tags",
-            "networkChangelog": "",
-            "minTargetSdk": "10.0",
-            "isLite": false
-        },
-        {
             "network": "MADVERTISE",
             "displayName": "Madvertise",
             "SDKVersion": "4.1.8",
@@ -2144,7 +2116,7 @@
         },
         {
             "network": "VUNGLE",
-            "displayName": "Vungle",
+            "displayName": "Vungle(Liftoff)",
             "SDKVersion": "7.0.0",
             "adapterVersion": "7.0.0.0",
             "podVersion": "7.0",
