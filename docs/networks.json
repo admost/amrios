@@ -109,9 +109,9 @@
         {
             "network": "ADMOB",
             "displayName": "AdMob",
-            "SDKVersion": "10.6.0",
-            "adapterVersion": "10.6.0.0",
-            "podVersion": "10.6",
+            "SDKVersion": "10.7.0",
+            "adapterVersion": "10.7.0.0",
+            "podVersion": "10.7",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -622,8 +622,8 @@
         {
             "network": "CHARTBOOST",
             "displayName": "Chartboost",
-            "SDKVersion": "9.3.0",
-            "adapterVersion": "9.3.0.0",
+            "SDKVersion": "9.3.1",
+            "adapterVersion": "9.3.1.0",
             "podVersion": "9.3",
             "initParameterCount": 2,
             "skadnetworkIDS": [
@@ -767,9 +767,9 @@
         {
             "network": "CRITEO",
             "displayName": "Criteo",
-            "SDKVersion": "4.8.0",
-            "adapterVersion": "4.8.0.0",
-            "podVersion": "4.8",
+            "SDKVersion": "5.0.0",
+            "adapterVersion": "5.0.0.0",
+            "podVersion": "5.0",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "hs6bdukanm.skadnetwork"
@@ -849,8 +849,8 @@
         {
             "network": "FYBER",
             "displayName": "Fyber",
-            "SDKVersion": "8.2.2",
-            "adapterVersion": "8.2.2.0",
+            "SDKVersion": "8.2.3",
+            "adapterVersion": "8.2.3.0",
             "podVersion": "8.2",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -975,9 +975,9 @@
         {
             "network": "INMOBI",
             "displayName": "InMobi",
-            "SDKVersion": "10.1.4",
-            "adapterVersion": "10.1.4.0",
-            "podVersion": "10.1",
+            "SDKVersion": "10.5.6",
+            "adapterVersion": "10.5.6.0",
+            "podVersion": "10.5",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "uw77j35x4d.skadnetwork",
@@ -1063,8 +1063,8 @@
         {
             "network": "IRONSOURCE",
             "displayName": "IronSource",
-            "SDKVersion": "7.3.0",
-            "adapterVersion": "7.3.0.0",
+            "SDKVersion": "7.3.1",
+            "adapterVersion": "7.3.1.0",
             "podVersion": "7.3",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -1144,8 +1144,8 @@
         {
             "network": "MINTEGRAL",
             "displayName": "Mintegral",
-            "SDKVersion": "7.3.7",
-            "adapterVersion": "7.3.7.0",
+            "SDKVersion": "7.3.9",
+            "adapterVersion": "7.3.9.0",
             "podVersion": "7.3",
             "initParameterCount": 2,
             "skadnetworkIDS": [
@@ -1302,9 +1302,9 @@
         {
             "network": "MYTARGET",
             "displayName": "MyTarget",
-            "SDKVersion": "5.17.4",
-            "adapterVersion": "5.17.4.0",
-            "podVersion": "5.17",
+            "SDKVersion": "5.18.0",
+            "adapterVersion": "5.18.0.0",
+            "podVersion": "5.18",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "n9x2a789qt.skadnetwork"
@@ -1356,8 +1356,8 @@
         {
             "network": "OGURY",
             "displayName": "Ogury",
-            "SDKVersion": "4.1.2",
-            "adapterVersion": "4.1.2.0",
+            "SDKVersion": "4.1.4",
+            "adapterVersion": "4.1.4.0",
             "podVersion": "4.1",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
@@ -1937,9 +1937,9 @@
         {
             "network": "TIKTOK",
             "displayName": "Pangle (Tiktok)",
-            "SDKVersion": "5.2.0.8",
-            "adapterVersion": "5.2.0.8",
-            "podVersion": "5.2",
+            "SDKVersion": "5.3.1.0",
+            "adapterVersion": "5.3.1.0",
+            "podVersion": "5.3",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "22mmun2rn5.skadnetwork",
@@ -1976,9 +1976,9 @@
         {
             "network": "UNITYAD",
             "displayName": "UnityAds",
-            "SDKVersion": "4.7.1",
-            "adapterVersion": "4.7.1.0",
-            "podVersion": "4.7",
+            "SDKVersion": "4.8.0",
+            "adapterVersion": "4.8.0.0",
+            "podVersion": "4.8",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "424m5254lk.skadnetwork",
@@ -2220,9 +2220,9 @@
         {
             "network": "YANDEX",
             "displayName": "YandexAds",
-            "SDKVersion": "5.6.0",
-            "adapterVersion": "5.6.0.0",
-            "podVersion": "5.6",
+            "SDKVersion": "5.8.0",
+            "adapterVersion": "5.8.0.0",
+            "podVersion": "5.8",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "zq492l623r.skadnetwork"
@@ -2237,7 +2237,7 @@
             "iosSupport": true,
             "unitySupport": true,
             "status": false,
-            "biddingSupport": false,
+            "biddingSupport": true,
             "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-YANDEX/tags",
             "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-YANDEX/blob/master/CHANGELOG.md",
              "networkSourceURL": "https://github.com/yandexmobile/yandex-ads-sdk-ios",
