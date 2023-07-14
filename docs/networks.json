@@ -2,8 +2,8 @@
     "adNetworks": [{
             "network": "AMR",
             "displayName": "AMR",
-            "SDKVersion": "1.5.34",
-            "adapterVersion": "1.5.34",
+            "SDKVersion": "1.5.37",
+            "adapterVersion": "1.5.37",
             "podVersion": "1.5",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
@@ -214,8 +214,8 @@
         {
             "network": "ADMOST",
             "displayName": "Admost",
-            "SDKVersion": "1.6.7",
-            "adapterVersion": "1.6.7.0",
+            "SDKVersion": "1.6.9",
+            "adapterVersion": "1.6.9.0",
             "podVersion": "1.6",
             "initParameterCount": 0,
             "skadnetworkIDS": [],
@@ -2117,9 +2117,9 @@
         {
             "network": "VUNGLE",
             "displayName": "Vungle(Liftoff)",
-            "SDKVersion": "7.0.0",
-            "adapterVersion": "7.0.0.0",
-            "podVersion": "7.0",
+            "SDKVersion": "6.12.3",
+            "adapterVersion": "6.12.3.0",
+            "podVersion": "6.12",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "gta9lk7p23.skadnetwork",
@@ -2221,7 +2221,7 @@
             "network": "YANDEX",
             "displayName": "YandexAds",
             "SDKVersion": "5.8.0",
-            "adapterVersion": "5.8.0.0",
+            "adapterVersion": "5.8.0.1",
             "podVersion": "5.8",
             "initParameterCount": 0,
             "skadnetworkIDS": [
