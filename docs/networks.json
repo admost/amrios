@@ -109,9 +109,9 @@
         {
             "network": "ADMOB",
             "displayName": "AdMob",
-            "SDKVersion": "10.10.0",
-            "adapterVersion": "10.10.0.0",
-            "podVersion": "10.10",
+            "SDKVersion": "10.11.0",
+            "adapterVersion": "10.11.0.0",
+            "podVersion": "10.11",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -908,8 +908,8 @@
         {
             "network": "CRITEO",
             "displayName": "Criteo",
-            "SDKVersion": "5.0.0",
-            "adapterVersion": "5.0.0.0",
+            "SDKVersion": "5.0.3",
+            "adapterVersion": "5.0.3.0",
             "podVersion": "5.0",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -1116,9 +1116,9 @@
         {
             "network": "INMOBI",
             "displayName": "InMobi",
-            "SDKVersion": "10.5.6",
-            "adapterVersion": "10.5.6.1",
-            "podVersion": "10.6",
+            "SDKVersion": "10.5.8",
+            "adapterVersion": "10.5.8.0",
+            "podVersion": "10.5",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "uw77j35x4d.skadnetwork",
@@ -1284,8 +1284,8 @@
         {
             "network": "MINTEGRAL",
             "displayName": "Mintegral",
-            "SDKVersion": "7.4.3",
-            "adapterVersion": "7.4.3.0",
+            "SDKVersion": "7.4.4",
+            "adapterVersion": "7.4.4.0",
             "podVersion": "7.4",
             "initParameterCount": 2,
             "skadnetworkIDS": [
@@ -1859,9 +1859,9 @@
         {
             "network": "SMARTAD",
             "displayName": "SmartAd",
-            "SDKVersion": "7.22.0",
-            "adapterVersion": "7.22.0.0",
-            "podVersion": "7.22",
+            "SDKVersion": "7.23.1",
+            "adapterVersion": "7.23.1.0",
+            "podVersion": "7.23",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
             "supportedAdTypes": [
@@ -2130,9 +2130,9 @@
         {
             "network": "TIKTOK",
             "displayName": "Pangle (Tiktok)",
-            "SDKVersion": "5.4.1.1",
-            "adapterVersion": "5.4.1.1",
-            "podVersion": "5.4",
+            "SDKVersion": "5.5.0.5",
+            "adapterVersion": "5.5.0.5",
+            "podVersion": "5.5",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "22mmun2rn5.skadnetwork",
