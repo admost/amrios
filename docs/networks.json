@@ -109,9 +109,9 @@
         {
             "network": "ADMOB",
             "displayName": "AdMob",
-            "SDKVersion": "10.11.0",
-            "adapterVersion": "10.11.0.0",
-            "podVersion": "10.11",
+            "SDKVersion": "10.12.0",
+            "adapterVersion": "10.12.0.0",
+            "podVersion": "10.12",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "cstr6suwn9.skadnetwork",
@@ -187,8 +187,8 @@
         {
             "network": "ADMATIC",
             "displayName": "Admatic",
-            "SDKVersion": "2.1.3",
-            "adapterVersion": "2.1.3.0",
+            "SDKVersion": "2.1.5",
+            "adapterVersion": "2.1.5.0",
             "podVersion": "2.1",
             "initParameterCount": 1,
             "skadnetworkIDS": [],
@@ -2130,8 +2130,8 @@
         {
             "network": "TIKTOK",
             "displayName": "Pangle (Tiktok)",
-            "SDKVersion": "5.5.0.5",
-            "adapterVersion": "5.5.0.5",
+            "SDKVersion": "5.5.0.7",
+            "adapterVersion": "5.5.0.7",
             "podVersion": "5.5",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -2168,8 +2168,8 @@
         {
             "network": "UNITYAD",
             "displayName": "UnityAds",
-            "SDKVersion": "4.8.0",
-            "adapterVersion": "4.8.0.0",
+            "SDKVersion": "4.9.1",
+            "adapterVersion": "4.9.1.0",
             "podVersion": "4.8",
             "initParameterCount": 1,
             "skadnetworkIDS": [
