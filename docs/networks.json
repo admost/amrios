@@ -622,8 +622,8 @@
         {
             "network": "BIGO",
             "displayName": "Bigo",
-            "SDKVersion": "4.0.2",
-            "adapterVersion": "4.0.2.0",
+            "SDKVersion": "4.0.4",
+            "adapterVersion": "4.0.4.1",
             "podVersion": "4.0",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -1284,8 +1284,8 @@
         {
             "network": "MINTEGRAL",
             "displayName": "Mintegral",
-            "SDKVersion": "7.4.4",
-            "adapterVersion": "7.4.4.0",
+            "SDKVersion": "7.4.8",
+            "adapterVersion": "7.4.8.0",
             "podVersion": "7.4",
             "initParameterCount": 2,
             "skadnetworkIDS": [
@@ -2168,9 +2168,9 @@
         {
             "network": "UNITYAD",
             "displayName": "UnityAds",
-            "SDKVersion": "4.9.1",
-            "adapterVersion": "4.9.1.0",
-            "podVersion": "4.8",
+            "SDKVersion": "4.9.2",
+            "adapterVersion": "4.9.2.0",
+            "podVersion": "4.9",
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "3rd42ekr43.skadnetwork",
