@@ -422,9 +422,9 @@
         {
             "network": "APPLOVIN",
             "displayName": "AppLovin",
-            "SDKVersion": "11.11.4",
-            "adapterVersion": "11.11.4.0",
-            "podVersion": "11.11",
+            "SDKVersion": "12.0.0",
+            "adapterVersion": "12.0.0.0",
+            "podVersion": "12.0",
             "initParameterCount": 0,
             "skadnetworkIDS": [
                 "22mmun2rn5.skadnetwork",
@@ -988,8 +988,8 @@
         {
             "network": "FYBER",
             "displayName": "Fyber",
-            "SDKVersion": "8.2.4",
-            "adapterVersion": "8.2.4.0",
+            "SDKVersion": "8.2.5",
+            "adapterVersion": "8.2.5.0",
             "podVersion": "8.2",
             "initParameterCount": 1,
             "skadnetworkIDS": [
@@ -1296,8 +1296,8 @@
         {
             "network": "MINTEGRAL",
             "displayName": "Mintegral",
-            "SDKVersion": "7.5.0",
-            "adapterVersion": "7.5.0.0",
+            "SDKVersion": "7.5.1",
+            "adapterVersion": "7.5.1.0",
             "podVersion": "7.5",
             "initParameterCount": 2,
             "skadnetworkIDS": [
@@ -1896,9 +1896,9 @@
         {
             "network": "STARTAPP",
             "displayName": "StartApp",
-            "SDKVersion": "4.10.1",
-            "adapterVersion": "4.10.1.0",
-            "podVersion": "4.10",
+            "SDKVersion": "4.10.2",
+            "adapterVersion": "4.10.2.0",
+            "podVersion": "4.10",s
             "initParameterCount": 1,
             "skadnetworkIDS": [
                 "5l3tpt7t6e.skadnetwork",
@@ -2141,8 +2141,8 @@
         {
             "network": "TIKTOK",
             "displayName": "Pangle (Tiktok)",
-            "SDKVersion": "5.6.0.5",
-            "adapterVersion": "5.6.0.5",
+            "SDKVersion": "5.6.0.7",
+            "adapterVersion": "5.6.0.7",
             "podVersion": "5.6",
             "initParameterCount": 1,
             "skadnetworkIDS": [
