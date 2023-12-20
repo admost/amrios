@@ -133,8 +133,9 @@
                         <li><a href="#appsflyerintegration">AppsFlyer Integration </a></li>
                         <li><a href="#sscallbacks">Server to Server Callbacks</a> </li>
                         <li><a href="#privacycheck">Privacy Consent Required </a></li>
-                        <li><a href="#appprivacy">Apple App Privacy <span class="label label-teal">New</span></a></li>
-                        <li><a href="#remoteconfig">Remote Config <span class="label label-teal">New</span></a></li>
+                        <li><a href="#appprivacy">Apple App Privacy </a></li>
+                        <li><a href="#remoteconfig">Remote Config </a></li>
+                        <li><a href="#ump">CMP Integration <span class="label label-teal">New</span></a></li>
                     </ul>
                 </li>
             </ul>
@@ -1802,6 +1803,114 @@ AMRSDK.fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
                 </p>
 </div>
             </section>
+            
+
+            <div>
+
+                    <h2 id="ump">CMP(Consent Management Platform) Integration</h2>
+
+                    <p>
+                        Starting January 16, 2024 Publishers and developers using Google AdSense, Ad Manager, or AdMob will be required to use a Consent Management Platform (CMP) that has been certified by Google and has integrated with the IAB's Transparency and Consent Framework (TCF) when serving ads to users in the European Economic Area or the UK. You can also review the official <a target="_blank" href="https://developers.google.com/admob/ios/privacy">documentation</a> to integrate it into your app.
+                    </p>
+                    <p>
+                       As Admost, we have integration with Google’s CMP tool User Messaging Platform (UMP). As a publisher, if you chose to continue with the UMP, you have to be sure about the following steps; 
+                    </p>
+                    <ul>
+                        <li>Add UMP SDK into your app and complete the integration according to the UMP integration documentation.</li>
+                        <li>Create a proper GDPR message for your app on the UMP dashboard.</li>
+                        <li>Select all active ad networks and "Admost" as Vendor on the UMP dashboard.</li>
+                        <li>Check Auto UMP Detection checkbox on Admost dashboard application edit popup.</li>
+                    </ul>
+                
+
+                <p>Example usage is as follows;</p>
+
+                <div>
+                    <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                        <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-0">Objective-C</a></li>
+                        <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-0">Swift</a></li>
+                    </ul>
+                    
+                    <div class="tab-content">
+                        <div id="Objective-C-0" class="tab-pane fade">
+                            <pre style="margin-top:0px!important"><code class="language-objectivec">#include &lt;UserMessagingPlatform/UserMessagingPlatform.h&gt;</code></pre>
+                        </div>
+                        <div id="Swift-0" class="tab-pane fade in active">
+                            <pre style="margin-top:0px!important"><code class="language-swift">import UserMessagingPlatform</code></pre>
+                    </div>
+                </div>
+                <div>
+                    <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                        <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-0">Objective-C</a></li>
+                        <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-0">Swift</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="Objective-C-0" class="tab-pane fade">
+                            <pre style="margin-top:0px!important"><code class="language-objectivec">
+
+__weak __typeof__(self) weakSelf = self;
+
+UMPRequestParameters *parameters = [[UMPRequestParameters alloc] init];
+parameters.tagForUnderAgeOfConsent = NO;
+
+[UMPConsentInformation.sharedInstance requestConsentInfoUpdateWithParameters:parameters completionHandler:^(NSError *_Nullable requestConsentError) {
+    if (requestConsentError) {
+        NSLog(@"Error: %@", requestConsentError.localizedDescription);
+        return;
+    }
+    
+    __strong __typeof__(self) strongSelf = weakSelf;
+    if (!strongSelf) {
+        return;
+    }
+    
+    [UMPConsentForm loadAndPresentIfRequiredFromViewController:strongSelf
+        completionHandler:^(NSError *loadAndPresentError) {
+            if (loadAndPresentError) {
+            NSLog(@"Error: %@", loadAndPresentError.localizedDescription);
+            return;
+            }
+            // Consent has been gathered.
+        }];
+    
+    [AMRSDK canRequestAds: [UMPConsentInformation sharedInstance].canRequestAds];
+    [AMRSDK initNetworks];
+    
+}];
+                                
+
+                            </code></pre>
+                        </div>
+                        <div id="Swift-0" class="tab-pane fade in active">
+                            <pre style="margin-top:0px!important"><code class="language-swift">
+let parameters = UMPRequestParameters()
+parameters.tagForUnderAgeOfConsent = false
+    
+UMPConsentInformation.sharedInstance.requestConsentInfoUpdate(with: parameters) { requestConsentError in
+    if (requestConsentError != nil) { 
+        print("Error: \(requestConsentError)")
+        return
+    }
+    
+    UMPConsentForm.loadAndPresentIfRequired(from: self) { loadAndPresentError in
+        if (loadAndPresentError != nil) {
+            print("Error: \(loadAndPresentError)")
+            return
+        }
+        // Consent has been gathered.
+    }
+    
+    AMRSDK.canRequestAds(UMPConsentInformation.sharedInstance.canRequestAds)
+    AMRSDK.initNetworks()
+}
+                            </code></pre>
+                    </div>
+                </div>
+            
+
+            </div>
+
         </article>
         <!-- END Main content -->
     </div>
