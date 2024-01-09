@@ -1875,8 +1875,6 @@ parameters.tagForUnderAgeOfConsent = NO;
         }];
     
     [AMRSDK canRequestAds: [UMPConsentInformation sharedInstance].canRequestAds];
-    [AMRSDK initNetworks];
-    
 }];
                                 
 
@@ -1902,7 +1900,6 @@ UMPConsentInformation.sharedInstance.requestConsentInfoUpdate(with: parameters) 
     }
     
     AMRSDK.canRequestAds(UMPConsentInformation.sharedInstance.canRequestAds)
-    AMRSDK.initNetworks()
 }
                             </code></pre>
                     </div>
