@@ -1821,7 +1821,14 @@ AMRSDK.fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
                         <li>Select all active ad networks and "Admost" as Vendor on the UMP dashboard.</li>
                         <li>Check Auto UMP Detection checkbox on Admost dashboard application edit popup.</li>
                     </ul>
-                
+
+                    <div class="callout" role="alert">
+                        <p><span class="label label-teal">Note</span> Admost SDK can be init before or after the consent message.</p>
+                    </div>
+
+                    <div class="callout callout-danger" role="alert">
+                        <p><span class="label label-danger">Important</span> Advertising request should not be made without canRequestAds set.	</p>
+                    </div>                
 
                 <p>Example usage is as follows;</p>
 
