@@ -1753,9 +1753,9 @@
 	{
 		"network": "SMAATO",
 		"displayName": "Smaato",
-		"SDKVersion": "22.6.1",
-		"adapterVersion": "22.6.1.0",
-		"podVersion": "22.6",
+		"SDKVersion": "22.7.0",
+		"adapterVersion": "22.7.0.0",
+		"podVersion": "22.7",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"uw77j35x4d.skadnetwork",
@@ -1864,7 +1864,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-SMAATO/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.smaato.com/publishers/nextgen-sdk-ios-getting-started/",
 		"networkChangelog": "https://developers.smaato.com/publishers/nextgen-sdk-ios-changelog",
-		"minTargetSdk": "9.0",
+		"minTargetSdk": "11.0",
 		"isLite": false
 	},
 	{
