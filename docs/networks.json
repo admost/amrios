@@ -1293,8 +1293,8 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "7.5.6",
-		"adapterVersion": "7.5.6.0",
+		"SDKVersion": "7.5.7",
+		"adapterVersion": "7.5.7.0",
 		"podVersion": "7.5",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
@@ -2141,9 +2141,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle (Tiktok)",
-		"SDKVersion": "5.7.0.8",
-		"adapterVersion": "5.7.0.8",
-		"podVersion": "5.7",
+		"SDKVersion": "5.8.0.7",
+		"adapterVersion": "5.8.0.7",
+		"podVersion": "5.8",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2179,8 +2179,8 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.9.2",
-		"adapterVersion": "4.9.2.0",
+		"SDKVersion": "4.9.3",
+		"adapterVersion": "4.9.3.0",
 		"podVersion": "4.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
