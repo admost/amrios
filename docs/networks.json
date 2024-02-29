@@ -1870,8 +1870,8 @@
 	{
 		"network": "SMARTAD",
 		"displayName": "SmartAd",
-		"SDKVersion": "7.23.2",
-		"adapterVersion": "7.23.2.0",
+		"SDKVersion": "7.23.3",
+		"adapterVersion": "7.23.3.0",
 		"podVersion": "7.23",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
