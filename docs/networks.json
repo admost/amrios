@@ -423,9 +423,9 @@
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "12.2.1",
-		"adapterVersion": "12.2.1.0",
-		"podVersion": "12.2",
+		"SDKVersion": "12.3.0",
+		"adapterVersion": "12.3.0.0",
+		"podVersion": "12.3",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -1211,9 +1211,9 @@
 	{
 		"network": "IRONSOURCE",
 		"displayName": "IronSource",
-		"SDKVersion": "7.8.0",
-		"adapterVersion": "7.8.0.0",
-		"podVersion": "7.8",
+		"SDKVersion": "7.9.0",
+		"adapterVersion": "7.9.0.0",
+		"podVersion": "7.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"su67r6k2v3.skadnetwork",
@@ -1291,8 +1291,8 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "7.5.7",
-		"adapterVersion": "7.5.7.0",
+		"SDKVersion": "7.5.8",
+		"adapterVersion": "7.5.8.0",
 		"podVersion": "7.5",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
@@ -2426,9 +2426,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "6.3.0",
-		"adapterVersion": "6.3.0.0",
-		"podVersion": "6.3",
+		"SDKVersion": "6.4.1",
+		"adapterVersion": "6.4.1.0",
+		"podVersion": "6.4",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
