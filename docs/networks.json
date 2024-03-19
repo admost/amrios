@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "10.14.0",
-		"adapterVersion": "10.14.0.0",
-		"podVersion": "10.14",
+		"SDKVersion": "11.1.0",
+		"adapterVersion": "11.1.0.0",
+		"podVersion": "11.1",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -182,7 +182,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
 		"networkChangelog": "https://developers.google.com/admob/ios/rel-notes",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "12.0",
 		"isLite": true
 	},
 	{
@@ -762,9 +762,9 @@
 	{
 		"network": "CHARTBOOST",
 		"displayName": "Chartboost",
-		"SDKVersion": "9.6.0",
-		"adapterVersion": "9.6.0.0",
-		"podVersion": "9.6",
+		"SDKVersion": "9.7.0",
+		"adapterVersion": "9.7.0.0",
+		"podVersion": "9.7",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
 		"44jx6755aq.skadnetwork",
@@ -910,9 +910,9 @@
 	{
 		"network": "CRITEO",
 		"displayName": "Criteo",
-		"SDKVersion": "5.0.4",
-		"adapterVersion": "5.0.4.0",
-		"podVersion": "5.0",
+		"SDKVersion": "6.0.",
+		"adapterVersion": "6.0.0.0",
+		"podVersion": "6.0",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"hs6bdukanm.skadnetwork"
@@ -1751,9 +1751,9 @@
 	{
 		"network": "SMAATO",
 		"displayName": "Smaato",
-		"SDKVersion": "22.7.0",
-		"adapterVersion": "22.7.0.0",
-		"podVersion": "22.7",
+		"SDKVersion": "22.8.0",
+		"adapterVersion": "22.8.0.0",
+		"podVersion": "22.8",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"uw77j35x4d.skadnetwork",
@@ -2137,8 +2137,8 @@
 		"isLite": false
 	},
 	{
-		"network": "TIKTOK",
-		"displayName": "Pangle (Tiktok)",
+		"network": "PANGLE",
+		"displayName": "Pangle",
 		"SDKVersion": "5.8.0.7",
 		"adapterVersion": "5.8.0.7",
 		"podVersion": "5.8",
@@ -2162,16 +2162,16 @@
 		"OpenAds"
 		],
 		"infoPlistKey": "",
-		"adapterName": "AMRAdapterTiktok",
+		"adapterName": "AMRAdapterPangle",
 		"iosSupport": true,
 		"unitySupport": true,
 		"status": false,
 		"biddingSupport": true,
-		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-TIKTOK/tags",
-		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-TIKTOK/blob/master/CHANGELOG.md",
-		"networkSourceURL": "https://developers.tiktok.com/doc/getting-started-ios-download-and-changelog",
-		"networkChangelog": "https://developers.tiktok.com/doc/getting-started-ios-download-and-changelog",
-		"minTargetSdk": "9.0",
+		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-PANGLE/tags",
+		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-PANGLE/blob/main/CHANGELOG.md",
+		"networkSourceURL": "https://www.pangleglobal.com/integration/integrate-pangle-sdk-for-iosd",
+		"networkChangelog": "",
+		"minTargetSdk": "11.0",
 		"isLite": true
 	},
 	{
