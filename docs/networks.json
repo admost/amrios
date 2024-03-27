@@ -423,8 +423,8 @@
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "12.3.0",
-		"adapterVersion": "12.3.0.0",
+		"SDKVersion": "12.3.1",
+		"adapterVersion": "12.3.1.0",
 		"podVersion": "12.3",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -1120,9 +1120,9 @@
 	{
 		"network": "INMOBI",
 		"displayName": "InMobi",
-		"SDKVersion": "10.6.0",
-		"adapterVersion": "10.6.0.0",
-		"podVersion": "10.6",
+		"SDKVersion": "10.7.1",
+		"adapterVersion": "10.7.1.0",
+		"podVersion": "10.7",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"uw77j35x4d.skadnetwork",
