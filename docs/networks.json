@@ -990,10 +990,10 @@
 		"isLite": true
 	},
 	{
-		"network": "FYBER",
-		"displayName": "Fyber",
-		"SDKVersion": "8.2.6",
-		"adapterVersion": "8.2.6.0",
+		"network": "DTEXCHANGE",
+		"displayName": "DTExchange",
+		"SDKVersion": "8.2.7",
+		"adapterVersion": "8.2.7.1",
 		"podVersion": "8.2",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -1078,15 +1078,15 @@
 		"Rewarded"
 		],
 		"infoPlistKey": "",
-		"adapterName": "AMRAdapterFyber",
+		"adapterName": "AMRAdapterDTExchange",
 		"iosSupport": true,
 		"unitySupport": true,
 		"status": false,
 		"biddingSupport": false,
-		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-FYBER/tags",
-		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-FYBER/blob/master/CHANGELOG.md",
+		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-DTEXCHANGE/tags",
+		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-DTEXCHANGE/master/CHANGELOG.md",
 		"networkSourceURL": "https://developer.fyber.com/hc/en-us/articles/360010971118-iOS-SDK-Integration",
-		"networkChangelog": "https://developer.fyber.com/hc/en-us/articles/360010911617-iOS-Changelog",
+		"networkChangelog": "https://developer.digitalturbine.com/hc/en-us/articles/360010915618-Integrating-the-iOS-SDK",
 		"minTargetSdk": "11.0",
 		"isLite": false
 	},
