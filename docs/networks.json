@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "11.1.0",
-		"adapterVersion": "11.1.0.0",
-		"podVersion": "11.1",
+		"SDKVersion": "11.2.0",
+		"adapterVersion": "11.2.0.0",
+		"podVersion": "11.2",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -240,9 +240,9 @@
 	{
 		"network": "ADSERVER",
 		"displayName": "AdServer",
-		"SDKVersion": "1.0.0",
-		"adapterVersion": "1.0.0.0",
-		"podVersion": "1.0",
+		"SDKVersion": "1.1.4",
+		"adapterVersion": "1.1.4.0",
+		"podVersion": "1.1",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [
