@@ -1751,8 +1751,8 @@
 	{
 		"network": "SMAATO",
 		"displayName": "Smaato",
-		"SDKVersion": "22.8.0",
-		"adapterVersion": "22.8.0.0",
+		"SDKVersion": "22.8.2",
+		"adapterVersion": "22.8.2.0",
 		"podVersion": "22.8",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2177,9 +2177,9 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.9.3",
-		"adapterVersion": "4.9.3.0",
-		"podVersion": "4.9",
+		"SDKVersion": "4.10.0",
+		"adapterVersion": "4.10.0.0",
+		"podVersion": "4.10",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"3sh42y64q3.skadnetwork",
