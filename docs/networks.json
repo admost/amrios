@@ -2321,11 +2321,11 @@
 		"isLite": false
 	},
 	{
-		"network": "VUNGLE",
-		"displayName": "Vungle(Liftoff)",
-		"SDKVersion": "7.2.1",
-		"adapterVersion": "7.2.1.0",
-		"podVersion": "7.2",
+		"network": "LIFTOFF",
+		"displayName": "Liftoff",
+		"SDKVersion": "7.3.0",
+		"adapterVersion": "7.3.0.0",
+		"podVersion": "7.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"gta9lk7p23.skadnetwork",
@@ -2416,8 +2416,8 @@
 		"unitySupport": true,
 		"status": false,
 		"biddingSupport": true,
-		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-VUNGLE/tags",
-		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-VUNGLE/blob/master/CHANGELOG.md",
+		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-LIFTOFF/tags",
+		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-LIFTOFF/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://vungle.com/vungle-sdk/#download",
 		"networkChangelog": "https://github.com/Vungle/iOS-SDK/blob/master/CHANGELOG.md",
 		"minTargetSdk": "10.0",
