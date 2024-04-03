@@ -1291,9 +1291,9 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "7.5.8",
-		"adapterVersion": "7.5.8.0",
-		"podVersion": "7.5",
+		"SDKVersion": "7.6.0",
+		"adapterVersion": "7.6.0.0",
+		"podVersion": "7.6",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
 		"kbd757ywx3.skadnetwork",
