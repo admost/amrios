@@ -991,7 +991,7 @@
 		"isLite": true
 	},
 	{
-		"network": "DTEXCHANGE",
+		"network": "FYBER",
 		"displayName": "DTExchange",
 		"SDKVersion": "8.2.8",
 		"adapterVersion": "8.2.8.0",
@@ -1443,8 +1443,8 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.21.0",
-		"adapterVersion": "5.21.0.0",
+		"SDKVersion": "5.21.2",
+		"adapterVersion": "5.21.2.0",
 		"podVersion": "5.21",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -1888,8 +1888,8 @@
 	{
 		"network": "STARTAPP",
 		"displayName": "StartApp",
-		"SDKVersion": "4.10.2",
-		"adapterVersion": "4.10.2.0",
+		"SDKVersion": "4.10.3",
+		"adapterVersion": "4.10.3.0",
 		"podVersion": "4.10",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2131,7 +2131,7 @@
 		"isLite": false
 	},
 	{
-		"network": "PANGLE",
+		"network": "TIKTOK",
 		"displayName": "Pangle",
 		"SDKVersion": "5.8.0.7",
 		"adapterVersion": "5.8.0.7",
