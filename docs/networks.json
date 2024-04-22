@@ -2133,9 +2133,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "5.8.0.7",
-		"adapterVersion": "5.8.0.7",
-		"podVersion": "5.8",
+		"SDKVersion": "5.9.0.6",
+		"adapterVersion": "5.9.0.6",
+		"podVersion": "5.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2315,10 +2315,10 @@
 		"isLite": false
 	},
 	{
-		"network": "LIFTOFF",
+		"network": "VUNGLE",
 		"displayName": "Liftoff",
-		"SDKVersion": "7.3.0",
-		"adapterVersion": "7.3.0.0",
+		"SDKVersion": "7.3.1",
+		"adapterVersion": "7.3.1.0",
 		"podVersion": "7.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2410,7 +2410,7 @@
 		"Rewarded"
 		],
 		"infoPlistKey": "",
-		"adapterName": "AMRAdapterVungle",
+		"adapterName": "AMRAdapterLiftoff",
 		"iosSupport": true,
 		"unitySupport": true,
 		"status": false,
