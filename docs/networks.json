@@ -1745,8 +1745,8 @@
 	{
 		"network": "SMAATO",
 		"displayName": "Smaato",
-		"SDKVersion": "22.8.2",
-		"adapterVersion": "22.8.2.0",
+		"SDKVersion": "22.8.3",
+		"adapterVersion": "22.8.3.0",
 		"podVersion": "22.8",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2133,8 +2133,8 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "5.9.0.6",
-		"adapterVersion": "5.9.0.6",
+		"SDKVersion": "5.9.0.7",
+		"adapterVersion": "5.9.0.7",
 		"podVersion": "5.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2317,8 +2317,8 @@
 	{
 		"network": "VUNGLE",
 		"displayName": "Liftoff",
-		"SDKVersion": "7.3.1",
-		"adapterVersion": "7.3.1.0",
+		"SDKVersion": "7.3.1.1",
+		"adapterVersion": "7.3.1.1",
 		"podVersion": "7.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
