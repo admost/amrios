@@ -911,7 +911,7 @@
 	{
 		"network": "CRITEO",
 		"displayName": "Criteo",
-		"SDKVersion": "6.1.",
+		"SDKVersion": "6.1.0",
 		"adapterVersion": "6.1.0.0",
 		"podVersion": "6.1",
 		"initParameterCount": 1,
