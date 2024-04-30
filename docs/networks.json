@@ -1114,8 +1114,8 @@
 	{
 		"network": "INMOBI",
 		"displayName": "InMobi",
-		"SDKVersion": "10.7.1",
-		"adapterVersion": "10.7.1.0",
+		"SDKVersion": "10.7.2",
+		"adapterVersion": "10.7.2.0",
 		"podVersion": "10.7",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
