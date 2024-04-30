@@ -911,9 +911,9 @@
 	{
 		"network": "CRITEO",
 		"displayName": "Criteo",
-		"SDKVersion": "6.0.",
-		"adapterVersion": "6.0.0.0",
-		"podVersion": "6.0",
+		"SDKVersion": "6.1.",
+		"adapterVersion": "6.1.0.0",
+		"podVersion": "6.1",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"hs6bdukanm.skadnetwork"
