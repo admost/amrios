@@ -423,8 +423,8 @@
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "12.4.0",
-		"adapterVersion": "12.4.0.0",
+		"SDKVersion": "12.4.1",
+		"adapterVersion": "12.4.1.0",
 		"podVersion": "12.4",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -2171,9 +2171,9 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.10.0",
-		"adapterVersion": "4.10.0.0",
-		"podVersion": "4.10",
+		"SDKVersion": "4.11.2",
+		"adapterVersion": "4.11.2.0",
+		"podVersion": "4.11",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"9rd848q2bz.skadnetwork",
