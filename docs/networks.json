@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "11.2.0",
-		"adapterVersion": "11.2.0.0",
-		"podVersion": "11.2",
+		"SDKVersion": "11.3.0",
+		"adapterVersion": "11.3.0.0",
+		"podVersion": "11.3",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -911,8 +911,8 @@
 	{
 		"network": "CRITEO",
 		"displayName": "Criteo",
-		"SDKVersion": "6.1.0",
-		"adapterVersion": "6.1.0.0",
+		"SDKVersion": "6.1.1",
+		"adapterVersion": "6.1.1.0",
 		"podVersion": "6.1",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -1862,8 +1862,8 @@
 	{
 		"network": "SMARTAD",
 		"displayName": "SmartAd",
-		"SDKVersion": "7.23.3",
-		"adapterVersion": "7.23.3.0",
+		"SDKVersion": "7.23.4",
+		"adapterVersion": "7.23.4.0",
 		"podVersion": "7.23",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
