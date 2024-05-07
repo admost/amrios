@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "11.3.0",
-		"adapterVersion": "11.3.0.0",
-		"podVersion": "11.3",
+		"SDKVersion": "11.4.0",
+		"adapterVersion": "11.4.0.0",
+		"podVersion": "11.4",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -423,8 +423,8 @@
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "12.4.1",
-		"adapterVersion": "12.4.1.0",
+		"SDKVersion": "12.4.2",
+		"adapterVersion": "12.4.2.0",
 		"podVersion": "12.4",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
