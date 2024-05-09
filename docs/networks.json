@@ -1320,8 +1320,8 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "7.6.3",
-		"adapterVersion": "7.6.3.0",
+		"SDKVersion": "7.6.4",
+		"adapterVersion": "7.6.4.0",
 		"podVersion": "7.6",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
@@ -2250,8 +2250,8 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "5.9.0.7",
-		"adapterVersion": "5.9.0.7",
+		"SDKVersion": "5.9.0.8",
+		"adapterVersion": "5.9.0.8",
 		"podVersion": "5.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
