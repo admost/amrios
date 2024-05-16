@@ -581,7 +581,7 @@
 		"Interstitial",
 		"Rewarded"
 		],
-		"infoPlistKey": "AppLovinSdkKey",
+		"infoPlistKey": "",
 		"adapterName": "AMRAdapterApplovin",
 		"iosSupport": true,
 		"unitySupport": true,
