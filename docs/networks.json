@@ -423,9 +423,9 @@
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "12.4.2",
-		"adapterVersion": "12.4.2.0",
-		"podVersion": "12.4",
+		"SDKVersion": "12.5.0",
+		"adapterVersion": "12.5.0.0",
+		"podVersion": "12.5",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -1478,8 +1478,8 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.21.2",
-		"adapterVersion": "5.21.2.0",
+		"SDKVersion": "5.21.3",
+		"adapterVersion": "5.21.3.0",
 		"podVersion": "5.21",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
