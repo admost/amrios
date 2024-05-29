@@ -1979,9 +1979,9 @@
 	{
 		"network": "SMARTAD",
 		"displayName": "SmartAd",
-		"SDKVersion": "7.23.4",
-		"adapterVersion": "7.23.4.0",
-		"podVersion": "7.23",
+		"SDKVersion": "7.24.0",
+		"adapterVersion": "7.24.0.0",
+		"podVersion": "7.24",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [
