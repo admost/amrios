@@ -911,9 +911,9 @@
 	{
 		"network": "CRITEO",
 		"displayName": "Criteo",
-		"SDKVersion": "6.1.1",
-		"adapterVersion": "6.1.1.0",
-		"podVersion": "6.1",
+		"SDKVersion": "6.1.2",
+		"adapterVersion": "6.1.2.0",
+		"podVersion": "6.2",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"hs6bdukanm.skadnetwork"
@@ -2288,9 +2288,9 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.11.3",
-		"adapterVersion": "4.11.3.0",
-		"podVersion": "4.11",
+		"SDKVersion": "4.12.0",
+		"adapterVersion": "4.12.0.0",
+		"podVersion": "4.12",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"3rd42ekr43.skadnetwork",
