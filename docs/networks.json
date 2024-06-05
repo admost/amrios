@@ -2742,9 +2742,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "6.4.1",
-		"adapterVersion": "6.4.1.0",
-		"podVersion": "6.4",
+		"SDKVersion": "7.0.2",
+		"adapterVersion": "7.0.2.0",
+		"podVersion": "7.0",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
