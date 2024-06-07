@@ -964,8 +964,8 @@
 	{
 		"network": "FACEBOOK",
 		"displayName": "Meta",
-		"SDKVersion": "6.15.0",
-		"adapterVersion": "6.15.0.0",
+		"SDKVersion": "6.15.1",
+		"adapterVersion": "6.15.1.0",
 		"podVersion": "6.15",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -2455,9 +2455,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "5.9.0.8",
-		"adapterVersion": "5.9.0.8",
-		"podVersion": "5.9",
+		"SDKVersion": "6.0.0.4",
+		"adapterVersion": "6.0.0.4",
+		"podVersion": "6.0",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
