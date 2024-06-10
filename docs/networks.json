@@ -2455,8 +2455,8 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "6.0.0.4",
-		"adapterVersion": "6.0.0.4",
+		"SDKVersion": "6.0.0.5",
+		"adapterVersion": "6.0.0.5",
 		"podVersion": "6.0",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2742,9 +2742,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.0.2",
-		"adapterVersion": "7.0.2.0",
-		"podVersion": "7.0",
+		"SDKVersion": "7.1.0",
+		"adapterVersion": "7.1.0.0",
+		"podVersion": "7.1",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
