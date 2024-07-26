@@ -913,7 +913,7 @@
 		"displayName": "Criteo",
 		"SDKVersion": "6.1.2",
 		"adapterVersion": "6.1.2.0",
-		"podVersion": "6.2",
+		"podVersion": "6.1",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"hs6bdukanm.skadnetwork"
