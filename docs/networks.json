@@ -423,9 +423,9 @@
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "12.5.0",
-		"adapterVersion": "12.5.0.0",
-		"podVersion": "12.5",
+		"SDKVersion": "12.6.0",
+		"adapterVersion": "12.6.0.0",
+		"podVersion": "12.6",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -1124,8 +1124,8 @@
 	{
 		"network": "INMOBI",
 		"displayName": "InMobi",
-		"SDKVersion": "10.7.4",
-		"adapterVersion": "10.7.4.0",
+		"SDKVersion": "10.7.5",
+		"adapterVersion": "10.7.5.0",
 		"podVersion": "10.7",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -1683,8 +1683,8 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.21.5",
-		"adapterVersion": "5.21.5.0",
+		"SDKVersion": "5.21.6",
+		"adapterVersion": "5.21.6.0",
 		"podVersion": "5.21",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -2742,9 +2742,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.2.0",
-		"adapterVersion": "7.2.0.0",
-		"podVersion": "7.2",
+		"SDKVersion": "7.3.0",
+		"adapterVersion": "7.3.0.0",
+		"podVersion": "7.3",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
