@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "11.6.0",
-		"adapterVersion": "11.6.0.0",
-		"podVersion": "11.6",
+		"SDKVersion": "11.7.0",
+		"adapterVersion": "11.7.0.0",
+		"podVersion": "11.7",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -911,9 +911,9 @@
 	{
 		"network": "CRITEO",
 		"displayName": "Criteo",
-		"SDKVersion": "6.1.2",
-		"adapterVersion": "6.1.2.0",
-		"podVersion": "6.1",
+		"SDKVersion": "6.2.0",
+		"adapterVersion": "6.2.0.0",
+		"podVersion": "6.2",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"hs6bdukanm.skadnetwork"
@@ -1237,9 +1237,9 @@
 	{
 		"network": "IRONSOURCE",
 		"displayName": "IronSource",
-		"SDKVersion": "8.1.1",
-		"adapterVersion": "8.1.1.0",
-		"podVersion": "8.1",
+		"SDKVersion": "8.2.0",
+		"adapterVersion": "8.2.0.0",
+		"podVersion": "8.2",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -1525,8 +1525,8 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "7.6.7",
-		"adapterVersion": "7.6.7.0",
+		"SDKVersion": "7.6.8",
+		"adapterVersion": "7.6.8.0",
 		"podVersion": "7.6",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
@@ -1683,8 +1683,8 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.21.4",
-		"adapterVersion": "5.21.4.0",
+		"SDKVersion": "5.21.5",
+		"adapterVersion": "5.21.5.0",
 		"podVersion": "5.21",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -2455,8 +2455,8 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "6.1.0.4",
-		"adapterVersion": "6.1.0.4",
+		"SDKVersion": "6.1.0.5",
+		"adapterVersion": "6.1.0.5",
 		"podVersion": "6.1",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2742,9 +2742,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.1.1",
-		"adapterVersion": "7.1.1.0",
-		"podVersion": "7.1",
+		"SDKVersion": "7.2.0",
+		"adapterVersion": "7.2.0.0",
+		"podVersion": "7.2",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
