@@ -2455,8 +2455,8 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "6.1.0.5",
-		"adapterVersion": "6.1.0.5",
+		"SDKVersion": "6.1.0.6",
+		"adapterVersion": "6.1.0.6",
 		"podVersion": "6.1",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
