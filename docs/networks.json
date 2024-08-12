@@ -2357,8 +2357,8 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.12.1",
-		"adapterVersion": "4.12.1.0",
+		"SDKVersion": "4.12.2",
+		"adapterVersion": "4.12.2.0",
 		"podVersion": "4.12",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2610,8 +2610,8 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.3.0",
-		"adapterVersion": "7.3.0.0",
+		"SDKVersion": "7.3.2",
+		"adapterVersion": "7.3.2.0",
 		"podVersion": "7.3",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
