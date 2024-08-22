@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "11.7.0",
-		"adapterVersion": "11.7.0.0",
-		"podVersion": "11.7",
+		"SDKVersion": "11.8.0",
+		"adapterVersion": "11.8.0.0",
+		"podVersion": "11.8",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -624,9 +624,9 @@
 	{
 		"network": "BIGO",
 		"displayName": "Bigo",
-		"SDKVersion": "4.2.3",
-		"adapterVersion": "4.2.3.0",
-		"podVersion": "4.2",
+		"SDKVersion": "4.4.0",
+		"adapterVersion": "4.4.0.0",
+		"podVersion": "4.4",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -1389,9 +1389,9 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "7.6.9",
-		"adapterVersion": "7.6.9.0",
-		"podVersion": "7.6",
+		"SDKVersion": "7.7.0",
+		"adapterVersion": "7.7.0.0",
+		"podVersion": "7.7",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
 		"kbd757ywx3.skadnetwork",
