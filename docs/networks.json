@@ -3,8 +3,8 @@
 	{
 		"network": "AMR",
 		"displayName": "AMR",
-		"SDKVersion": "1.5.42",
-		"adapterVersion": "1.5.42",
+		"SDKVersion": "1.5.50",
+		"adapterVersion": "1.5.50",
 		"podVersion": "1.5",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
@@ -240,8 +240,8 @@
 	{
 		"network": "ADSERVER",
 		"displayName": "AdServer",
-		"SDKVersion": "1.1.4",
-		"adapterVersion": "1.1.4.0",
+		"SDKVersion": "1.1.5",
+		"adapterVersion": "1.1.5s.0",
 		"podVersion": "1.1",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [],
