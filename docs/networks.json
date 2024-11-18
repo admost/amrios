@@ -1194,9 +1194,9 @@
 	{
 		"network": "INMOBI",
 		"displayName": "InMobi",
-		"SDKVersion": "10.7.8",
-		"adapterVersion": "10.7.8.0",
-		"podVersion": "10.7",
+		"SDKVersion": "10.8.0",
+		"adapterVersion": "10.8.0.0",
+		"podVersion": "10.8",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"uw77j35x4d.skadnetwork",
@@ -2319,8 +2319,8 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "6.3.0.9",
-		"adapterVersion": "6.3.0.9",
+		"SDKVersion": "6.3.1.0",
+		"adapterVersion": "6.3.1.0",
 		"podVersion": "6.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2610,9 +2610,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.6.1",
-		"adapterVersion": "7.6.1.0",
-		"podVersion": "7.6",
+		"SDKVersion": "7.7.0",
+		"adapterVersion": "7.7.0.0",
+		"podVersion": "7.7",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
