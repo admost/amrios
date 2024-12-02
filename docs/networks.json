@@ -1849,8 +1849,8 @@
 	{
 		"network": "SMAATO",
 		"displayName": "Smaato",
-		"SDKVersion": "22.9.1",
-		"adapterVersion": "22.9.1.0",
+		"SDKVersion": "22.9.2",
+		"adapterVersion": "22.9.2.0",
 		"podVersion": "22.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
