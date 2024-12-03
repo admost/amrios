@@ -624,9 +624,9 @@
 	{
 		"network": "BIGO",
 		"displayName": "Bigo",
-		"SDKVersion": "4.4.0",
-		"adapterVersion": "4.4.0.0",
-		"podVersion": "4.4",
+		"SDKVersion": "4.6.0",
+		"adapterVersion": "4.6.0.0",
+		"podVersion": "4.6",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -1309,9 +1309,9 @@
 	{
 		"network": "IRONSOURCE",
 		"displayName": "IronSource",
-		"SDKVersion": "8.4.0",
-		"adapterVersion": "8.4.0.0",
-		"podVersion": "8.4",
+		"SDKVersion": "8.5.0",
+		"adapterVersion": "8.5.0.0",
+		"podVersion": "8.5",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"su67r6k2v3.skadnetwork",
@@ -1547,9 +1547,9 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.22.0",
-		"adapterVersion": "5.22.0.0",
-		"podVersion": "5.22",
+		"SDKVersion": "5.23.0",
+		"adapterVersion": "5.23.0.0",
+		"podVersion": "5.23",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"n9x2a789qt.skadnetwork",
@@ -2319,8 +2319,8 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "6.3.1.0",
-		"adapterVersion": "6.3.1.0",
+		"SDKVersion": "6.3.1.1",
+		"adapterVersion": "6.3.1.1",
 		"podVersion": "6.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
