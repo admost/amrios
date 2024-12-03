@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "11.10.0",
-		"adapterVersion": "11.10.0.0",
-		"podVersion": "11.10",
+		"SDKVersion": "11.12.0",
+		"adapterVersion": "11.12.0.0",
+		"podVersion": "11.12",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -424,7 +424,7 @@
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
 		"SDKVersion": "13.0.0",
-		"adapterVersion": "13.0.0.0",
+		"adapterVersion": "13.0.0.1",
 		"podVersion": "13.0",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -1390,7 +1390,7 @@
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
 		"SDKVersion": "7.7.3",
-		"adapterVersion": "7.7.3.0",
+		"adapterVersion": "7.7.3.1",
 		"podVersion": "7.7",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
@@ -2358,7 +2358,7 @@
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
 		"SDKVersion": "4.12.4",
-		"adapterVersion": "4.12.4.0",
+		"adapterVersion": "4.12.4.1",
 		"podVersion": "4.12",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
