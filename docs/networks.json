@@ -3,8 +3,8 @@
 	{
 		"network": "AMR",
 		"displayName": "AMR",
-		"SDKVersion": "1.5.50",
-		"adapterVersion": "1.5.50",
+		"SDKVersion": "1.5.56",
+		"adapterVersion": "1.5.56",
 		"podVersion": "1.5",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
