@@ -111,7 +111,7 @@
 		"network": "ADMOB",
 		"displayName": "AdMob",
 		"SDKVersion": "11.13.0",
-		"adapterVersion": "11.13.0.1",
+		"adapterVersion": "11.13.0.2",
 		"podVersion": "11.13",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
