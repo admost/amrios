@@ -420,6 +420,28 @@
 		"minTargetSdk": "12.0",
 		"isLite": false
 	},
+    {
+        "network": "APPHARBR",
+        "displayName": "AppHarbr",
+        "SDKVersion": "1.19.1",
+        "adapterVersion": "1.19.1.0",
+        "podVersion": "1.19",
+        "initParameterCount": 1,
+        "skadnetworkIDS": [],
+        "supportedAdTypes": [],
+        "infoPlistKey": "",
+        "adapterName": "AMRAdapterAppharbr",
+        "iosSupport": true,
+        "unitySupport": true,
+        "status": false,
+        "biddingSupport": false,
+        "sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-APPHARBR/tags",
+        "changelog": "https://github.com/admost/AMR-IOS-ADAPTER-APPHARBR/blob/main/CHANGELOG.md",
+        "networkSourceURL": "https://github.com/GeoEdgeSDK/AppHarbrSDK",
+        "networkChangelog": "https://github.com/GeoEdgeSDK/AppHarbrSDK",
+        "minTargetSdk": "12.0",
+        "isLite": false
+    },
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
