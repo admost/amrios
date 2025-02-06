@@ -1411,8 +1411,8 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "7.7.3",
-		"adapterVersion": "7.7.3.1",
+		"SDKVersion": "7.7.5",
+		"adapterVersion": "7.7.5.0",
 		"podVersion": "7.7",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
