@@ -445,9 +445,9 @@
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "13.0.1",
-		"adapterVersion": "13.0.1.1",
-		"podVersion": "13.0",
+		"SDKVersion": "13.1.0",
+		"adapterVersion": "13.1.0.0",
+		"podVersion": "13.1",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2632,9 +2632,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.8.0",
-		"adapterVersion": "7.8.0.1",
-		"podVersion": "7.8",
+		"SDKVersion": "7.10.1",
+		"adapterVersion": "7.10.1.0",
+		"podVersion": "7.10",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
