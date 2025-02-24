@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "11.13.0",
-		"adapterVersion": "11.13.0.2",
-		"podVersion": "11.13",
+		"SDKVersion": "12.0.0",
+		"adapterVersion": "12.0.0.0",
+		"podVersion": "12.0",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -784,8 +784,8 @@
 	{
 		"network": "CHARTBOOST",
 		"displayName": "Chartboost",
-		"SDKVersion": "9.8.0",
-		"adapterVersion": "9.8.0.0",
+		"SDKVersion": "9.8.1",
+		"adapterVersion": "9.8.1.0",
 		"podVersion": "9.8",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
@@ -1085,8 +1085,8 @@
 	{
 		"network": "FYBER",
 		"displayName": "DTExchange",
-		"SDKVersion": "8.3.4",
-		"adapterVersion": "8.3.4.1",
+		"SDKVersion": "8.3.5",
+		"adapterVersion": "8.3.5.0",
 		"podVersion": "8.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -1331,9 +1331,9 @@
 	{
 		"network": "IRONSOURCE",
 		"displayName": "IronSource",
-		"SDKVersion": "8.5.1",
-		"adapterVersion": "8.5.1.1",
-		"podVersion": "8.5",
+		"SDKVersion": "8.6.1",
+		"adapterVersion": "8.6.1.1",
+		"podVersion": "8.6",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"su67r6k2v3.skadnetwork",
@@ -1569,9 +1569,9 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.23.0",
-		"adapterVersion": "5.23.0.1",
-		"podVersion": "5.23",
+		"SDKVersion": "5.25.0",
+		"adapterVersion": "5.25.0.0",
+		"podVersion": "5.25",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"n9x2a789qt.skadnetwork",
@@ -2341,9 +2341,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "6.3.1.2",
-		"adapterVersion": "6.3.1.2",
-		"podVersion": "6.3",
+		"SDKVersion": "6.4.1.2",
+		"adapterVersion": "6.4.1.2",
+		"podVersion": "6.4",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2379,9 +2379,9 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.12.5",
-		"adapterVersion": "4.12.5.1",
-		"podVersion": "4.12",
+		"SDKVersion": "4.13.1",
+		"adapterVersion": "4.13.1.0",
+		"podVersion": "4.13",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"hs6bdukanm.skadnetwork",
@@ -2529,8 +2529,8 @@
 	{
 		"network": "VUNGLE",
 		"displayName": "Liftoff",
-		"SDKVersion": "7.4.3.1",
-		"adapterVersion": "7.4.3.1",
+		"SDKVersion": "7.4.4.0",
+		"adapterVersion": "7.4.4.0",
 		"podVersion": "7.4",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
