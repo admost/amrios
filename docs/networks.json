@@ -2385,8 +2385,8 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.14.0",
-		"adapterVersion": "4.14.0.0",
+		"SDKVersion": "4.14.1",
+		"adapterVersion": "4.14.1.0",
 		"podVersion": "4.14",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
