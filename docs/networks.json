@@ -2547,8 +2547,8 @@
 	{
 		"network": "VUNGLE",
 		"displayName": "Liftoff",
-		"SDKVersion": "7.4.4.0",
-		"adapterVersion": "7.4.4.0",
+		"SDKVersion": "7.4.5.0",
+		"adapterVersion": "7.4.5.0",
 		"podVersion": "7.4",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
