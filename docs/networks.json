@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "12.2.0",
-		"adapterVersion": "12.2.0.0",
-		"podVersion": "12.2",
+		"SDKVersion": "12.5.0",
+		"adapterVersion": "12.5.0.0",
+		"podVersion": "12.5",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -784,9 +784,9 @@
 	{
 		"network": "CHARTBOOST",
 		"displayName": "Chartboost",
-		"SDKVersion": "9.8.1",
-		"adapterVersion": "9.8.1.0",
-		"podVersion": "9.8",
+		"SDKVersion": "9.9.0",
+		"adapterVersion": "9.9.0.0",
+		"podVersion": "9.9",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
 		"44jx6755aq.skadnetwork",
@@ -1099,9 +1099,9 @@
 	{
 		"network": "FACEBOOK",
 		"displayName": "Meta",
-		"SDKVersion": "6.17.1",
-		"adapterVersion": "6.17.1.0",
-		"podVersion": "6.17",
+		"SDKVersion": "6.15.2",
+		"adapterVersion": "6.15.2.0",
+		"podVersion": "6.15",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"v9wttpbfk9.skadnetwork",
@@ -1259,8 +1259,8 @@
 	{
 		"network": "INMOBI",
 		"displayName": "InMobi",
-		"SDKVersion": "10.8.0",
-		"adapterVersion": "10.8.0.1",
+		"SDKVersion": "10.8.3",
+		"adapterVersion": "10.8.3.0",
 		"podVersion": "10.8",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -1380,9 +1380,9 @@
 	{
 		"network": "IRONSOURCE",
 		"displayName": "IronSource",
-		"SDKVersion": "8.7.0",
-		"adapterVersion": "8.7.0.0",
-		"podVersion": "8.7",
+		"SDKVersion": "8.8.0",
+		"adapterVersion": "8.8.0.0",
+		"podVersion": "8.8",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"su67r6k2v3.skadnetwork",
@@ -1463,8 +1463,8 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "7.7.7",
-		"adapterVersion": "7.7.7.0",
+		"SDKVersion": "7.7.8",
+		"adapterVersion": "7.7.8.0",
 		"podVersion": "7.7",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
@@ -2347,9 +2347,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "6.4.1.3",
-		"adapterVersion": "6.4.1.3",
-		"podVersion": "6.4",
+		"SDKVersion": "7.1.1.1",
+		"adapterVersion": "7.1.1.1",
+		"podVersion": "7.1",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2547,9 +2547,9 @@
 	{
 		"network": "VUNGLE",
 		"displayName": "Liftoff",
-		"SDKVersion": "7.4.5.0",
-		"adapterVersion": "7.4.5.0",
-		"podVersion": "7.4",
+		"SDKVersion": "7.5.1.0",
+		"adapterVersion": "7.5.1.0",
+		"podVersion": "7.5",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"gta9lk7p23.skadnetwork",
@@ -2650,9 +2650,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.11.1",
-		"adapterVersion": "7.11.1.0",
-		"podVersion": "7.11",
+		"SDKVersion": "7.12.3",
+		"adapterVersion": "7.12.3.0",
+		"podVersion": "7.12",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
