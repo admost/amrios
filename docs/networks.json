@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "12.5.0",
-		"adapterVersion": "12.5.0.0",
-		"podVersion": "12.5",
+		"SDKVersion": "12.6.0",
+		"adapterVersion": "12.6.0.0",
+		"podVersion": "12.6",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -1128,8 +1128,8 @@
 	{
 		"network": "FYBER",
 		"displayName": "DTExchange",
-		"SDKVersion": "8.3.5",
-		"adapterVersion": "8.3.5.0",
+		"SDKVersion": "8.3.7",
+		"adapterVersion": "8.3.7.0",
 		"podVersion": "8.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -1380,9 +1380,9 @@
 	{
 		"network": "IRONSOURCE",
 		"displayName": "IronSource",
-		"SDKVersion": "8.8.0",
-		"adapterVersion": "8.8.0.0",
-		"podVersion": "8.8",
+		"SDKVersion": "8.9.1",
+		"adapterVersion": "8.9.1.0",
+		"podVersion": "8.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"su67r6k2v3.skadnetwork",
@@ -1625,9 +1625,9 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.27.0",
-		"adapterVersion": "5.27.0.0",
-		"podVersion": "5.27",
+		"SDKVersion": "5.31.1",
+		"adapterVersion": "5.31.1.0",
+		"podVersion": "5.31",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"n9x2a789qt.skadnetwork",
@@ -2347,9 +2347,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "7.1.1.1",
-		"adapterVersion": "7.1.1.1",
-		"podVersion": "7.1",
+		"SDKVersion": "7.2.0.4",
+		"adapterVersion": "7.2.0.4",
+		"podVersion": "7.2",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2385,9 +2385,9 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.14.1",
-		"adapterVersion": "4.14.1.0",
-		"podVersion": "4.14",
+		"SDKVersion": "4.15.0",
+		"adapterVersion": "4.15.0.0",
+		"podVersion": "4.15",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"5tjdwbrq8w.skadnetwork",
@@ -2650,9 +2650,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.12.3",
-		"adapterVersion": "7.12.3.0",
-		"podVersion": "7.12",
+		"SDKVersion": "7.13.0",
+		"adapterVersion": "7.13.0.0",
+		"podVersion": "7.13",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
