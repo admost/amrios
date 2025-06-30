@@ -469,9 +469,9 @@
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "13.1.0",
-		"adapterVersion": "13.1.0.0",
-		"podVersion": "13.1",
+		"SDKVersion": "13.3.1",
+		"adapterVersion": "13.3.1.0",
+		"podVersion": "13.3",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2366,8 +2366,8 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "7.2.0.4",
-		"adapterVersion": "7.2.0.4",
+		"SDKVersion": "7.2.0.5",
+		"adapterVersion": "7.2.0.5",
 		"podVersion": "7.2",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2669,9 +2669,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.13.0",
-		"adapterVersion": "7.13.0.0",
-		"podVersion": "7.13",
+		"SDKVersion": "7.14.1",
+		"adapterVersion": "7.14.1.0",
+		"podVersion": "7.14",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
