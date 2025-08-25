@@ -813,8 +813,8 @@
 	{
 		"network": "CHARTBOOST",
 		"displayName": "Chartboost",
-		"SDKVersion": "9.9.0",
-		"adapterVersion": "9.9.0.0",
+		"SDKVersion": "9.9.2",
+		"adapterVersion": "9.9.2.0",
 		"podVersion": "9.9",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
@@ -1411,9 +1411,9 @@
 	{
 		"network": "IRONSOURCE",
 		"displayName": "IronSource",
-		"SDKVersion": "8.9.1",
-		"adapterVersion": "8.9.1.0",
-		"podVersion": "8.9",
+		"SDKVersion": "8.11.0",
+		"adapterVersion": "8.11.0.0",
+		"podVersion": "8.11",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"su67r6k2v3.skadnetwork",
@@ -1656,9 +1656,9 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.31.1",
-		"adapterVersion": "5.31.1.0",
-		"podVersion": "5.31",
+		"SDKVersion": "5.34.1",
+		"adapterVersion": "5.34.1.0",
+		"podVersion": "5.34",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"n9x2a789qt.skadnetwork",
@@ -2404,9 +2404,9 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.15.0",
-		"adapterVersion": "4.15.0.0",
-		"podVersion": "4.15",
+		"SDKVersion": "4.16.1",
+		"adapterVersion": "4.16.1.0",
+		"podVersion": "4.16",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"g6gcrrvk4p.skadnetwork",
@@ -2566,8 +2566,8 @@
 	{
 		"network": "VUNGLE",
 		"displayName": "Liftoff",
-		"SDKVersion": "7.5.1.0",
-		"adapterVersion": "7.5.1.0",
+		"SDKVersion": "7.5.3.0",
+		"adapterVersion": "7.5.3.0",
 		"podVersion": "7.5",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
