@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "12.6.0",
-		"adapterVersion": "12.6.0.0",
-		"podVersion": "12.6",
+		"SDKVersion": "12.9.0",
+		"adapterVersion": "12.9.0.0",
+		"podVersion": "12.9",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -675,9 +675,9 @@
 	{
 		"network": "BIGO",
 		"displayName": "Bigo",
-		"SDKVersion": "4.6.0",
-		"adapterVersion": "4.6.0.1",
-		"podVersion": "4.6",
+		"SDKVersion": "4.9.0",
+		"adapterVersion": "4.9.0.1",
+		"podVersion": "4.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2366,9 +2366,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "7.2.0.5",
-		"adapterVersion": "7.2.0.5",
-		"podVersion": "7.2",
+		"SDKVersion": "7.5.0.6",
+		"adapterVersion": "7.5.0.6",
+		"podVersion": "7.5",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2669,9 +2669,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.14.1",
-		"adapterVersion": "7.14.1.0",
-		"podVersion": "7.14",
+		"SDKVersion": "7.15.1",
+		"adapterVersion": "7.15.1.0",
+		"podVersion": "7.15",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
