@@ -1288,8 +1288,8 @@
 	{
 		"network": "INMOBI",
 		"displayName": "InMobi",
-		"SDKVersion": "10.8.3",
-		"adapterVersion": "10.8.3.0",
+		"SDKVersion": "10.8.8",
+		"adapterVersion": "10.8.8.0",
 		"podVersion": "10.8",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -1656,8 +1656,8 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.35.0",
-		"adapterVersion": "5.35.0.0",
+		"SDKVersion": "5.35.1",
+		"adapterVersion": "5.35.1.0",
 		"podVersion": "5.35",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -2566,9 +2566,9 @@
 	{
 		"network": "VUNGLE",
 		"displayName": "Liftoff",
-		"SDKVersion": "7.5.3.0",
-		"adapterVersion": "7.5.3.0",
-		"podVersion": "7.5",
+		"SDKVersion": "7.6.0.0",
+		"adapterVersion": "7.6.0.0",
+		"podVersion": "7.6",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"gta9lk7p23.skadnetwork",
