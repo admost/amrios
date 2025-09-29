@@ -110,9 +110,9 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "12.9.0",
-		"adapterVersion": "12.9.0.0",
-		"podVersion": "12.9",
+		"SDKVersion": "12.11.0",
+		"adapterVersion": "12.11.0.0",
+		"podVersion": "12.11",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -469,9 +469,9 @@
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "13.3.1",
-		"adapterVersion": "13.3.1.0",
-		"podVersion": "13.3",
+		"SDKVersion": "13.4.0",
+		"adapterVersion": "13.4.0.0",
+		"podVersion": "13.4",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -813,9 +813,9 @@
 	{
 		"network": "CHARTBOOST",
 		"displayName": "Chartboost",
-		"SDKVersion": "9.9.2",
-		"adapterVersion": "9.9.2.0",
-		"podVersion": "9.9",
+		"SDKVersion": "9.10.0",
+		"adapterVersion": "9.10.0.0",
+		"podVersion": "9.10",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
 		"z959bm4gru.skadnetwork",
@@ -1656,9 +1656,9 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.34.1",
-		"adapterVersion": "5.34.1.0",
-		"podVersion": "5.34",
+		"SDKVersion": "5.35.0",
+		"adapterVersion": "5.35.0.0",
+		"podVersion": "5.35",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"n9x2a789qt.skadnetwork",
@@ -2366,9 +2366,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "7.5.0.6",
-		"adapterVersion": "7.5.0.6",
-		"podVersion": "7.5",
+		"SDKVersion": "7.6.0.6",
+		"adapterVersion": "7.6.0.6",
+		"podVersion": "7.6",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2669,9 +2669,9 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.15.1",
-		"adapterVersion": "7.15.1.0",
-		"podVersion": "7.15",
+		"SDKVersion": "7.16.0",
+		"adapterVersion": "7.16.0.0",
+		"podVersion": "7.16",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"zq492l623r.skadnetwork",
