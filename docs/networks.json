@@ -1128,9 +1128,9 @@
 	{
 		"network": "FACEBOOK",
 		"displayName": "Meta",
-		"SDKVersion": "6.15.2",
-		"adapterVersion": "6.15.2.0",
-		"podVersion": "6.15",
+		"SDKVersion": "6.20.1",
+		"adapterVersion": "6.20.1.0",
+		"podVersion": "6.20",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"v9wttpbfk9.skadnetwork",
@@ -1656,9 +1656,9 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.35.1",
-		"adapterVersion": "5.35.1.0",
-		"podVersion": "5.35",
+		"SDKVersion": "5.36.0",
+		"adapterVersion": "5.36.0.0",
+		"podVersion": "5.36",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"n9x2a789qt.skadnetwork",
@@ -2404,8 +2404,8 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.16.1",
-		"adapterVersion": "4.16.1.0",
+		"SDKVersion": "4.16.2",
+		"adapterVersion": "4.16.2.0",
 		"podVersion": "4.16",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
