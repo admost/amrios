@@ -127,7 +127,6 @@
                         <li><a href="#dfp">DFP/AdMob Mediation Integration</a></li>
                         <li><a href="#testsuite">Test Suite</a></li>
                         <li><a href="#iap">In App Purchase Tracking</a></li>
-                        <li><a href="#bannercache">Preloading Banners</a></li>
                         <li><a href="#senduserid">Setting Application User Id</a></li>
                         <li><a href="#adjustintegration">Adjust Integration </a></li>
                         <li><a href="#appsflyerintegration">AppsFlyer Integration </a></li>
@@ -1516,36 +1515,6 @@ AMRSDK.trackIAP(transaction.transactionIdentifier,
                 amount:product.price
                 tags:[tags])
             </code></pre>
-                    </div>
-
-                <h3 id="bannercache">Preloading Banners</h3>
-
-                <p>
-                    You can use <code>cacheBanner</code> method to cache your banners before showing them.
-                </p>
-
-                <p>In order to cache banners use following code;</p>
-
-
-                <ul class="nav nav-tabs" style="border-bottom: none!important;">
-                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-43">Objective-C</a></li>
-                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-43">Swift</a></li>
-                  </ul>
-                  
-                  <div class="tab-content">
-                    <div id="Objective-C-43" class="tab-pane fade">
-                        <pre style="margin-top:0px!important"><code class="language-objectivec">
-AMRBanner* banner = [AMRBanner bannerForZoneId:@&quot;&lt;zoneId&gt;&quot;];
-banner.bannerWidth = 320;
-[banner cacheBanner];
-                        </code></pre>
-                        </div>
-                    <div id="Swift-43" class="tab-pane fade in active">
-                        <pre style="margin-top:0px!important"><code class="language-swift">
-let banner = AMRBanner.init(forZoneId:&quot;&lt;zoneId&gt;&quot;)
-banner.bannerWidth = 320
-banner.cacheBanner()
-                        </code></pre>
                     </div>
 
                 <h3 id="senduserid">Setting Application User Id </h3>
