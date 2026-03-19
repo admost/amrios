@@ -231,7 +231,7 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                 <p>After you complete pod installation you can skip to <a href="#xcode-setup">Xcode Setup</a> step.</p>
 
                 <h4 id="xcode-setup">Xcode Setup</h4>
-                <p> Add following lines to your <code>plist</code> file.</p>
+                <p> Add the following lines to your <code>plist</code> file.</p>
 
                 <pre><code class="language-markup">&lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
 &lt;dict&gt;
@@ -330,7 +330,7 @@ if #available(iOS 14.5, *) {
 }
                         </code></pre>
                       </div>
-                    <p>User is prompted with following popup after <code>requestTrackingAuthorizationWithCompletionHandler</code> call.
+                    <p>The user is prompted with the following popup after calling <code>requestTrackingAuthorizationWithCompletionHandler</code>.
 						
 									 <p><center><img class="img-responsive" src="assets/img/att-iOS.PNG" alt="att-iOS.png"></center></p>
 					
@@ -408,7 +408,7 @@ Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
                 
 
                 <h4 id="initcoppa">COPPA</h4>
-                <p> You can use following method, if you want to show age-restricted ads;</p>
+                <p> You can use the following method if you want to show age-restricted ads:</p>
 
                 <ul class="nav nav-tabs" style="border-bottom: none!important;">
                     <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-2">Objective-C</a></li>
@@ -428,7 +428,7 @@ AMRSDK.setUserChild(true)
                   </div>
 
                 <h4 id="initgdpr">GDPR and CCPA</h4>
-                <p> Once you have collected the user’s consent, you can pass it onto the SDK using the init configuration parameters shown above.  </p>
+                <p> Once you have collected the user’s consent, you can pass it to the SDK using the init configuration parameters shown above.  </p>
                  <p><code>setUserConsent</code> has a boolean parameter. If you have the user’s consent, set it YES. If you do not have the user's consent, set it NO.  </p>
                  <p><code>subjectToGDPR</code> has a boolean parameter. If you know the user is subject to GDPR, set it YES. If you know the user is not subject to GDPR, set it NO. </p>
                  <p><code>subjectToCCPA</code> has a boolean parameter. If you know the user is subject to CCPA, set it YES. If you know the user is not subject to CCPA, set it NO. </p>
@@ -511,7 +511,7 @@ mpuBanner.delegate = self
                     </code></pre>
                   </div>
 
-                <p>For testing you can use following Banner Zone Id; </p>
+                <p>For testing, you can use the following Banner Zone Id:</p>
 
                 <pre><code class="language-markup">
 Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
@@ -625,7 +625,7 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
 
                 <img class="img-responsive " src="assets/img/custom_natives.png" alt="shadowed image">
 
-                <p>To use your own custom native xibs you have set the name and size of the custom xib explicitly as follows; </p>
+                <p>To use your own custom native xibs, you must set the name and size of the custom xib explicitly as follows:</p>
 
                 <ul class="nav nav-tabs" style="border-bottom: none!important;">
                     <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-10">Objective-C</a></li>
@@ -727,7 +727,7 @@ fullScreen.load()
                         </code></pre>
                     </div>
 
-                <p>For testing you can use following Interstitial Zone Id;</p>
+                <p>For testing, you can use the following Interstitial Zone Id:</p>
 
                 <pre><code
                         class="language-markup">Interstitial Zone Id: @"39f74377-5682-436a-9338-9d1c4df410bd"
@@ -796,7 +796,7 @@ fullScreen.load()
                     </div>
 
                 <p><code>didFailToShowInterstitial</code> callback method is called to inform the application that the received interstitial failed to be shown.
-                    This delegate expected to be called very rarely but if it is called you should either load another interstitial or resume tasks.
+                    This delegate is expected to be called very rarely, but if it is called, you should either load another interstitial or resume tasks.
                     </p>
 
                     <ul class="nav nav-tabs" style="border-bottom: none!important;">
@@ -1034,7 +1034,7 @@ rewardedVideo.load()
 
 
     <p><code>didFailToShowRewardedVideo</code> callback method is called to inform the application that the received rewarded video failed to be shown.
-	This delegate expected to be called very rarely but if it is called you should either load another rewarded video or resume tasks.
+	This delegate is expected to be called very rarely, but if it is called, you should either load another rewarded video or resume tasks.
 	</p>
 
     <ul class="nav nav-tabs" style="border-bottom: none!important;">
@@ -1052,7 +1052,7 @@ rewardedVideo.load()
             </code></pre>
         </div>
 
-    <p><code>didClickRewardedVideo</code> callback method when rewarded video clicked.</p>
+    <p><code>didClickRewardedVideo</code> callback method is called when a rewarded video is clicked.</p>
     <ul class="nav nav-tabs" style="border-bottom: none!important;">
     <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-27">Objective-C</a></li>
     <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-27">Swift</a></li>
@@ -1286,7 +1286,7 @@ rewardedVideo.load()
                             </div>
 
                                         <p><code>didFailToShowOfferWall</code> callback method is called to inform the application that the received offerwall failed to be presented.
-                            This delegate expected to be called very rarely but if it is called you should either load another offerwall or resume tasks.
+                            This delegate is expected to be called very rarely, but if it is called, you should either load another offerwall or resume tasks.
                             </p>
 
                             <ul class="nav nav-tabs" style="border-bottom: none!important;">
@@ -1725,7 +1725,7 @@ rewardedVideo.ssvServerKey = "test_server"
                 <h3 id="privacycheck">Privacy Consent Required </h3>
 
                 <p>
-                    You can optionally use isPrivacyConsentRequired method to obtain the user is in a GDPR or CCPA required country.
+                    You can optionally use the isPrivacyConsentRequired method to obtain whether the user is in a GDPR or CCPA required country.
                 </p>
 
                 <ul class="nav nav-tabs" style="border-bottom: none!important;">
