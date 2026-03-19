@@ -88,6 +88,122 @@
                         </div>
                     </li>
                     <li style="display: list-item;">
+                        <h6 class="">What is Swift Package Manager?</h6>
+                        <div style="display: none;">
+                            <p>Swift Package Manager (SPM) is Apple's official dependency manager, built into Xcode. It automates the process of downloading, compiling, and linking dependencies for Swift and Objective-C projects.</p>
+                            <p>To add AMRSDK packages, open your project in Xcode and go to <strong>File &gt; Add Package Dependencies</strong>, then enter the package URL.</p>
+                            <p><a target="_blank" href="https://www.swift.org/documentation/package-manager/">Detailed info.</a></p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">Which ad networks support Swift Package Manager?</h6>
+                        <div style="display: none;">
+                            <p>The following ad networks currently support Swift Package Manager integration:</p>
+                            <p>AMRSDK, AdMob, AdServer, AppLovin, Chartboost, Facebook, DTExchange, IronSource, Mintegral, Pangle (TikTok), Liftoff (Vungle).</p>
+                            <p>Networks that share the AdMob adapter (A4G, ADX, ReklamUp) also use the AdMob SPM package.</p>
+                            <p>All other networks require CocoaPods integration.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">Can I use both CocoaPods and Swift Package Manager in the same project?</h6>
+                        <div style="display: none;">
+                            <p>It is not recommended to mix CocoaPods and SPM for the same SDK or adapter, as this can cause duplicate symbol errors at link time. Choose one integration method and use it consistently across all AMRSDK packages.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">How do I update AMRSDK using Swift Package Manager?</h6>
+                        <div style="display: none;">
+                            <p>In Xcode, go to <strong>File &gt; Packages &gt; Update to Latest Package Versions</strong>. Xcode will fetch the latest compatible versions of all added packages, including AMRSDK and its adapters.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">Why are ads not showing after integration?</h6>
+                        <div style="display: none;">
+                            <p>Make sure you have completed the following steps:</p>
+                            <p>1. At least one mediation adapter is added to your project.</p>
+                            <p>2. AMRSDK is initialized with a valid App ID before requesting ads.</p>
+                            <p>3. The zone ID used in ad requests is correct and active in the AMR dashboard.</p>
+                            <p>4. Your device has an active internet connection.</p>
+                            <p>5. If using AdMob, the <code>GADApplicationIdentifier</code> key is set in your <code>Info.plist</code>.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">Do I need to add SKAdNetwork IDs to my Info.plist?</h6>
+                        <div style="display: none;">
+                            <p>Yes. Since iOS 14, SKAdNetwork IDs are required for conversion tracking to work correctly. You must add the SKAdNetworkItems entries for each ad network you integrate. Use the <a href="index.html">documentation page</a> to generate the correct list based on your selected networks.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">How do I enable test suite?</h6>
+                        <div style="display: none;">
+                            <p>To enable the test suite, add your device's IDFA to the <a target="_blank" href="https://dashboard.admost.com">Admost dashboard</a> as a tester. Once added, the test suite will automatically start on that device without any code changes required.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">How do I get my device's IDFA?</h6>
+                        <div style="display: none;">
+                            <p>On iOS 14 and later, you can find your IDFA by going to <strong>Settings &gt; Privacy &amp; Security &gt; Tracking</strong>. You can also retrieve it programmatically using <code>ASIdentifierManager.shared().advertisingIdentifier.uuidString</code> after the user grants App Tracking Transparency permission.</p>
+                            <p>Alternatively, many ad network test apps (such as the AdMob sample app) display the IDFA directly on screen for convenience.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">Why is my IDFA showing as zeros?</h6>
+                        <div style="display: none;">
+                            <p>An IDFA of <code>00000000-0000-0000-0000-000000000000</code> means the user has not granted App Tracking Transparency (ATT) permission, or tracking is restricted on the device. Make sure you request ATT permission using <code>ATTrackingManager.requestTrackingAuthorization</code> before accessing the IDFA.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">Do I need to request App Tracking Transparency permission?</h6>
+                        <div style="display: none;">
+                            <p>Yes. Since iOS 14, apps must request ATT permission before accessing the IDFA. While the SDK will still function without it, granting permission significantly improves ad targeting and revenue. Add the <code>NSUserTrackingUsageDescription</code> key to your <code>Info.plist</code> with a clear explanation, and call <code>ATTrackingManager.requestTrackingAuthorization</code> before initializing the SDK for best results.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">What is the minimum iOS version supported?</h6>
+                        <div style="display: none;">
+                            <p>AMRSDK requires a minimum deployment target of <strong>iOS 9.0</strong>. However, most mediation adapters require <strong>iOS 13.0</strong> or later. Refer to the <a href="index.html">documentation page</a> for per-network requirements.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">Why is the SDK not initializing?</h6>
+                        <div style="display: none;">
+                            <p>The most common causes are:</p>
+                            <p>1. An invalid or missing App ID — make sure the App ID from your <a target="_blank" href="https://dashboard.admost.com">Admost dashboard</a> is passed correctly to the SDK initializer.</p>
+                            <p>2. No internet connection at initialization time.</p>
+                            <p>3. Network adapters that require additional credentials (e.g. AdMob requires <code>GADApplicationIdentifier</code> in <code>Info.plist</code>) are not configured.</p>
+                            <p>4. The SDK is being initialized on a background thread — always initialize on the main thread.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">What should I do if I get a duplicate symbol linker error?</h6>
+                        <div style="display: none;">
+                            <p>Duplicate symbol errors are usually caused by including the same SDK or adapter twice — most commonly by mixing CocoaPods and Swift Package Manager for the same dependency. To fix this:</p>
+                            <p>1. Choose a single integration method (CocoaPods or SPM) and remove the duplicate.</p>
+                            <p>2. Check that no adapter pod or package is included more than once.</p>
+                            <p>3. Run <code>pod deintegrate</code> and <code>pod install</code> if using CocoaPods to ensure a clean state.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
+                        <h6 class="">How do I check which SDK and adapter versions are integrated?</h6>
+                        <div style="display: none;">
+                            <p>You can check the integrated SDK and adapter versions directly from the Test Suite. The Test Suite displays version information for AMRSDK and all active adapters on your device.</p>
+                            <p></p>
+                        </div>
+                    </li>
+                    <li style="display: list-item;">
                         <h6 class="">Error Codes</h6>
                         <div style="display: none;">
                             <p>
