@@ -1748,7 +1748,7 @@ AMRSDK.isPrivacyConsentRequired { (consentStatus) in}
                 <h3 id="appprivacy">Apple App Privacy </h3>
 
                 <p>                
-Starting December 8, 2020, Apple has announced a privacy disclosure for the App Store, You must define which data are collected by your apps and any SDKs you have integrated. To improve the performance of AdMost, the AMRSDK may collect following information from your apps:
+Starting December 8, 2020, Apple announced a privacy disclosure for the App Store. You must define which data are collected by your apps and any SDKs you have integrated. To improve the performance of Admost, AMRSDK may collect the following information from your apps:
                 </p>
 
                 <ul>
@@ -1767,7 +1767,7 @@ Starting December 8, 2020, Apple has announced a privacy disclosure for the App 
                 <h3 id="remoteconfig">Remote Config </h3>
 
                 <p>
-                    Admost Remote config is a feature for defining and updating server side parameters from the Admost dashboard. You can define the parameters in long, double, boolean and string types. Example usage is as follows;
+                    Admost Remote Config is a feature for defining and updating server-side parameters from the Admost dashboard. You can define the parameters in long, double, boolean and string types. Example usage is as follows:
                 </p>
 
                 <ul class="nav nav-tabs" style="border-bottom: none!important;">
@@ -1813,7 +1813,7 @@ AMRSDK.fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
                         Starting January 16, 2024 Publishers and developers using Google AdSense, Ad Manager, or AdMob will be required to use a Consent Management Platform (CMP) that has been certified by Google and has integrated with the IAB's Transparency and Consent Framework (TCF) when serving ads to users in the European Economic Area or the UK. You can also review the official <a target="_blank" href="https://developers.google.com/admob/ios/privacy">documentation</a> to integrate it into your app.
                     </p>
                     <p>
-                       As Admost, we have integration with Google’s CMP tool User Messaging Platform (UMP). As a publisher, if you chose to continue with the UMP, you have to be sure about the following steps; 
+                       Admost has integrated with Google’s CMP tool, User Messaging Platform (UMP). As a publisher, if you choose to continue with the UMP, make sure you have completed the following steps:
                     </p>
                     <ul>
                         <li>Add UMP SDK into your app and complete the integration according to the UMP integration documentation.</li>
@@ -1827,7 +1827,7 @@ AMRSDK.fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
                     </div>
 
                     <div class="callout callout-danger" role="alert">
-                        <p><span class="label label-danger">Important</span> Advertising request should not be made without canRequestAds set.	</p>
+                        <p><span class="label label-danger">Important</span> Advertising requests should not be made unless <code>canRequestAds</code> is set to true.</p>
                     </div>                
 
                 <p>Example usage is as follows;</p>
