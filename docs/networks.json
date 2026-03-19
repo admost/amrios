@@ -3,8 +3,8 @@
 	{
 		"network": "AMR",
 		"displayName": "AMR",
-		"SDKVersion": "1.5.56",
-		"adapterVersion": "1.5.56",
+		"SDKVersion": "1.5.84",
+		"adapterVersion": "1.5.84",
 		"podVersion": "1.5",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
@@ -16,10 +16,11 @@
 		"status": true,
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-SDK/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-SDK",
 		"changelog": "",
 		"networkSourceURL": "",
 		"networkChangelog": "",
-		"minTargetSdk": "8.0",
+		"minTargetSdk": "9.0",
 		"isLite": false
 	},
 	{
@@ -110,8 +111,8 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "13.1.0",
-		"adapterVersion": "13.1.0.0",
+		"SDKVersion": "13.1.6",
+		"adapterVersion": "13.1.6",
 		"podVersion": "13.1",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -179,10 +180,11 @@
 		"status": false,
 		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
 		"networkChangelog": "https://developers.google.com/admob/ios/rel-notes",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": true
 	},
 	{
@@ -212,37 +214,11 @@
 		"isLite": false
 	},
 	{
-		"network": "ADMOST",
-		"displayName": "Admost",
-		"SDKVersion": "1.6.9",
-		"adapterVersion": "1.6.9.0",
-		"podVersion": "1.6",
-		"initParameterCount": 0,
-		"skadnetworkIDS": [],
-		"supportedAdTypes": [
-		"Banner",
-		"Interstitial",
-		"Rewarded"
-		],
-		"infoPlistKey": "",
-		"adapterName": "AMRAdapterAdmost",
-		"iosSupport": true,
-		"unitySupport": true,
-		"status": false,
-		"biddingSupport": false,
-		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
-		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/blob/master/CHANGELOG.md",
-		"networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOST/tags",
-		"networkChangelog": "",
-		"minTargetSdk": "8.0",
-		"isLite": false
-	},
-	{
 		"network": "ADSERVER",
 		"displayName": "AdServer",
-		"SDKVersion": "1.1.5",
-		"adapterVersion": "1.1.5s.0",
-		"podVersion": "1.1",
+		"SDKVersion": "1.2.2",
+		"adapterVersion": "1.2.2",
+		"podVersion": "1.2",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [
@@ -257,18 +233,19 @@
 		"status": false,
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/blob/main/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/tags",
 		"networkChangelog": "",
-		"minTargetSdk": "10.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
 		"network": "A4G",
 		"displayName": "A4G",
-		"SDKVersion": "10.6.0",
-		"adapterVersion": "10.6.0.0",
-		"podVersion": "10.6",
+		"SDKVersion": "13.1.6",
+		"adapterVersion": "13.1.6",
+		"podVersion": "13.1",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -344,9 +321,9 @@
 	{
 		"network": "ADX",
 		"displayName": "ADX",
-		"SDKVersion": "10.6.0",
-		"adapterVersion": "10.6.0.0",
-		"podVersion": "10.6",
+		"SDKVersion": "13.1.6",
+		"adapterVersion": "13.1.6",
+		"podVersion": "13.1",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -445,32 +422,10 @@
 		"isLite": false
 	},
 	{
-		"network": "APPHARBR",
-		"displayName": "AppHarbr",
-		"SDKVersion": "1.19.1",
-		"adapterVersion": "1.19.1.0",
-		"podVersion": "1.19",
-		"initParameterCount": 1,
-		"skadnetworkIDS": [],
-		"supportedAdTypes": [],
-		"infoPlistKey": "",
-		"adapterName": "AMRAdapterAppharbr",
-		"iosSupport": true,
-		"unitySupport": true,
-		"status": false,
-		"biddingSupport": false,
-		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-APPHARBR/tags",
-		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-APPHARBR/blob/main/CHANGELOG.md",
-		"networkSourceURL": "https://github.com/GeoEdgeSDK/AppHarbrSDK",
-		"networkChangelog": "https://github.com/GeoEdgeSDK/AppHarbrSDK",
-		"minTargetSdk": "12.0",
-		"isLite": false
-	},
-	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "13.6.0",
-		"adapterVersion": "13.6.0.0",
+		"SDKVersion": "13.6.1",
+		"adapterVersion": "13.6.1",
 		"podVersion": "13.6",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -639,10 +594,11 @@
 		"status": false,
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/AppLovin/AppLovin-MAX-SDK-iOS",
 		"networkChangelog": "https://dash.applovin.com/documentation/mediation/ios/changelog",
-		"minTargetSdk": "9.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -814,7 +770,7 @@
 		"network": "CHARTBOOST",
 		"displayName": "Chartboost",
 		"SDKVersion": "9.11.0",
-		"adapterVersion": "9.11.0.0",
+		"adapterVersion": "9.11.0",
 		"podVersion": "9.11",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
@@ -1066,10 +1022,11 @@
 		"status": false,
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-CHARTBOOST/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-CHARTBOOST",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-CHARTBOOST/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://answers.chartboost.com/en-us/articles/download",
 		"networkChangelog": "https://answers.chartboost.com/en-us/child_article/ios-ios-swift",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1128,8 +1085,8 @@
 	{
 		"network": "FACEBOOK",
 		"displayName": "Meta",
-		"SDKVersion": "6.21.0",
-		"adapterVersion": "6.21.0.0",
+		"SDKVersion": "6.21.1",
+		"adapterVersion": "6.21.3",
 		"podVersion": "6.21",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -1148,17 +1105,18 @@
 		"status": false,
 		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/get-started",
 		"networkChangelog": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/changelog",
-		"minTargetSdk": "9.0",
+		"minTargetSdk": "13.0",
 		"isLite": true
 	},
 	{
 		"network": "FYBER",
 		"displayName": "DTExchange",
-		"SDKVersion": "8.4.5.0",
-		"adapterVersion": "8.4.5.0",
+		"SDKVersion": "8.4.5",
+		"adapterVersion": "8.4.5",
 		"podVersion": "8.4",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -1252,10 +1210,11 @@
 		"status": false,
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-DTEXCHANGE/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-DTEXCHANGE",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-DTEXCHANGE/master/CHANGELOG.md",
 		"networkSourceURL": "https://developer.fyber.com/hc/en-us/articles/360010971118-iOS-SDK-Integration",
 		"networkChangelog": "https://developer.digitalturbine.com/hc/en-us/articles/360010915618-Integrating-the-iOS-SDK",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1412,7 +1371,7 @@
 		"network": "IRONSOURCE",
 		"displayName": "IronSource",
 		"SDKVersion": "9.3.0",
-		"adapterVersion": "9.3.0.0",
+		"adapterVersion": "9.3.0",
 		"podVersion": "9.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -1451,10 +1410,11 @@
 		"status": false,
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-IRONSOURCE/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-IRONSOURCE",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-IRONSOURCE/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.ironsrc.com/ironsource-mobile/ios/ios-sdk/#step-1",
 		"networkChangelog": "https://developers.is.com/ironsource-mobile/ios/sdk-change-log",
-		"minTargetSdk": "10.0",
+		"minTargetSdk": "12.0",
 		"isLite": false
 	},
 	{
@@ -1494,9 +1454,9 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "8.0.7.0",
-		"adapterVersion": "8.0.7.0",
-		"podVersion": "8.0",
+		"SDKVersion": "8.0.8",
+		"adapterVersion": "8.0.8",
+		"podVersion": "13.0",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
 		"kbd757ywx3.skadnetwork",
@@ -1621,37 +1581,12 @@
 		"status": false,
 		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MINTEGRAL/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-MINTEGRAL",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-MINTEGRAL/blob/master/CHANGELOG.md",
 		"networkSourceURL": "http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en",
 		"networkChangelog": "http://cdn-adn.rayjump.com/cdn-adn/v2/markdown_v2/index.html?file=sdk-m_sdk-ios&lang=en#changelog",
-		"minTargetSdk": "9.0",
+		"minTargetSdk": "13.0",
 		"isLite": true
-	},
-	{
-		"network": "MOBFOX",
-		"displayName": "Mobfox",
-		"SDKVersion": "4.2.2",
-		"adapterVersion": "4.2.2.2",
-		"podVersion": "4.2",
-		"initParameterCount": 0,
-		"skadnetworkIDS": [],
-		"supportedAdTypes": [
-		"Banner",
-		"Interstitial",
-		"Rewarded"
-		],
-		"infoPlistKey": "",
-		"adapterName": "AMRAdapterMobfox",
-		"iosSupport": true,
-		"unitySupport": true,
-		"status": false,
-		"biddingSupport": false,
-		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MOBFOX/tags",
-		"changelog": "",
-		"networkSourceURL": "https://mobfox.atlassian.net/wiki/spaces/PUMD/pages/1434878036/Swift+-+Installation+manual",
-		"networkChangelog": "",
-		"minTargetSdk": "9.0",
-		"isLite": false
 	},
 	{
 		"network": "MYTARGET",
@@ -1892,9 +1827,9 @@
 	{
 		"network": "REKLAMUP",
 		"displayName": "ReklamUp",
-		"SDKVersion": "10.6.0",
-		"adapterVersion": "10.6.0.0",
-		"podVersion": "10.6",
+		"SDKVersion": "13.1.6",
+		"adapterVersion": "13.1.6",
+		"podVersion": "13.1",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"cstr6suwn9.skadnetwork",
@@ -2366,9 +2301,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "7.8.0.7",
-		"adapterVersion": "7.8.0.7",
-		"podVersion": "7.8",
+		"SDKVersion": "7.9.0.8",
+		"adapterVersion": "7.9.0",
+		"podVersion": "7.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2395,10 +2330,11 @@
 		"status": false,
 		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-PANGLE/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-PANGLE",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-PANGLE/blob/main/CHANGELOG.md",
 		"networkSourceURL": "https://www.pangleglobal.com/integration/integrate-pangle-sdk-for-iosd",
 		"networkChangelog": "",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "12.0",
 		"isLite": true
 	},
 	{
@@ -2566,8 +2502,8 @@
 	{
 		"network": "VUNGLE",
 		"displayName": "Liftoff",
-		"SDKVersion": "7.7.1.0",
-		"adapterVersion": "7.7.1.0",
+		"SDKVersion": "7.7.0",
+		"adapterVersion": "7.7.0",
 		"podVersion": "7.7",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -2660,10 +2596,11 @@
 		"status": false,
 		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-LIFTOFF/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-LIFTOFF",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-LIFTOFF/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://vungle.com/vungle-sdk/#download",
 		"networkChangelog": "https://github.com/Vungle/iOS-SDK/blob/master/CHANGELOG.md",
-		"minTargetSdk": "10.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
