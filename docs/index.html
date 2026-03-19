@@ -97,11 +97,11 @@
                             <a href="#installation-with-cocoapods">Installation</a>
                             <ul style="display: block;">
                                 <li><a href="#create-your-podfile-and-install">Create your podfile and install</a></li>
-                                <li><a href="#skadnetwork">SKAdNetwork <span class="label label-teal">New</span></a></li>
+                                <li><a href="#skadnetwork">SKAdNetwork</a></li>
                             </ul>
                         </li>
                         <li><a href="#xcode-setup">Xcode Setup</a></li>
-                        <li><a href="#ios14">iOS14 <span class="label label-teal">New</span></a> </li>
+                        <li><a href="#ios14">iOS14</a> </li>
                     </ul>
                 </li>
                 <li>
@@ -135,7 +135,7 @@
                         <li><a href="#privacycheck">Privacy Consent Required </a></li>
                         <li><a href="#appprivacy">Apple App Privacy </a></li>
                         <li><a href="#remoteconfig">Remote Config </a></li>
-                        <li><a href="#ump">CMP Integration <span class="label label-teal">New</span></a></li>
+                        <li><a href="#ump">CMP Integration</a></li>
                     </ul>
                 </li>
             </ul>
@@ -176,39 +176,51 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                 <h2 id="setup">Setup</h2>
                 <p>You can install AMR SDK and mediation adapters using <b>CocoaPods (recommended)</b> or if you want to integrate AMR SDK manually, please read the <a href="manuel.html">manuel integration guide</a>. </p>
                 <h3 id="installation-with-cocoapods">Installation</h3>
-                
-                <img src="https://img.shields.io/cocoapods/v/AMRSDK.svg" alt="pod version">&nbsp;&nbsp;
-                <img src="https://img.shields.io/cocoapods/p/AMRSDK.svg" alt="pod platform">&nbsp;&nbsp;
-                <img src="https://img.shields.io/cocoapods/l/AMRSDK.svg" alt="pod license">&nbsp;&nbsp;
 
-                <br/><br/>
-                <p><a href="https://cocoapods.org" target="_blank">CocoaPods</a> is a dependency manager for Swift and
-                    Objective-C Cocoa projects which automates and simplifies the process of using 3rd-party libraries
-                    like AMR in your projects. See <a href="https://guides.cocoapods.org/using/getting-started.html"
-                                                      target="_blank">getting started guide</a> for more information on
-                    installing cocoapods.</p>
-                <h4 id="create-your-podfile-and-install">Create your podfile and install</h4>
-                <p>
-                    At least one mediation adapter is required for AMRSDK to show banners. You can add all adapters
-                    (recommended for maximized revenue) or start with a subset of adapters. Consult your AMR agent for
-                    further details.
-                </p>
+                <ul class="nav nav-tabs" role="tablist" style="margin-top:16px;">
+                    <li role="presentation" class="active">
+                        <a href="#tab-cocoapods" aria-controls="tab-cocoapods" role="tab" data-toggle="tab">CocoaPods</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#tab-spm" aria-controls="tab-spm" role="tab" data-toggle="tab">Swift Package Manager <span class="label label-teal">New</span></a>
+                    </li>
+                </ul>
 
-                <p>Please click <code>+</code> icon to add to list and <code>-</code> to remove from list.
-                    <code>Podfile</code> will be updated while you are choosing networks. </p>
-                <div class="row" id="adnetwork-button-list">
+                <div class="tab-content" style="margin-top:12px;">
+                    <div role="tabpanel" class="tab-pane active" id="tab-cocoapods">
+                        <img src="https://img.shields.io/cocoapods/v/AMRSDK.svg" alt="pod version">&nbsp;&nbsp;
+                        <img src="https://img.shields.io/cocoapods/p/AMRSDK.svg" alt="pod platform">&nbsp;&nbsp;
+                        <img src="https://img.shields.io/cocoapods/l/AMRSDK.svg" alt="pod license">&nbsp;&nbsp;
+                        <br/><br/>
+                        <p><a href="https://cocoapods.org" target="_blank">CocoaPods</a> is a dependency manager for Swift and
+                            Objective-C Cocoa projects which automates and simplifies the process of using 3rd-party libraries
+                            like AMR in your projects. See <a href="https://guides.cocoapods.org/using/getting-started.html"
+                                                              target="_blank">getting started guide</a> for more information on
+                            installing CocoaPods.</p>
+                        <h4 id="create-your-podfile-and-install">Create your Podfile and install</h4>
+                        <p>At least one mediation adapter is required for AMRSDK to show banners. You can add all adapters
+                            (recommended for maximized revenue) or start with a subset of adapters. Consult your AMR agent for
+                            further details.</p>
+                        <p>Please click <code>+</code> icon to add to list and <code>-</code> to remove from list.
+                            <code>Podfile</code> will be updated while you are choosing networks.</p>
+                        <div class="row" id="adnetwork-button-list"></div>
+                        <p>To integrate AMR SDK and mediation adapters into your Xcode project using CocoaPods, specify it in
+                            your <code>Podfile:</code></p>
+                        <pre><code id="file-pod">
+
+                        </code></pre>
+                        <p>Then, run the following command:</p>
+                        <pre><code class="language-markup">$ pod install</code></pre>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane" id="tab-spm">
+                        <p>Swift Package Manager is integrated directly into Xcode. Networks marked with <span class="label label-info">SPM</span> support this method. Select your networks below and add each package URL via <strong>File &gt; Add Package Dependencies</strong> in Xcode.</p>
+                        <p>Please click <code>+</code> icon to add to list and <code>-</code> to remove from list.
+                            The package list will be updated while you are choosing networks.</p>
+                        <div class="row" id="adnetwork-button-list-spm"></div>
+                        <pre><code id="file-spm">PLEASE SELECT ONE OR MORE NETWORKS TO CREATE YOUR SPM PACKAGE LIST.</code></pre>
+                    </div>
                 </div>
-
-                <p>To integrate AMR SDK and mediation adapters into your Xcode project using CocoaPods, specify it in
-                    your <code>Podfile:</code></p>
-
-                <pre><code id="file-pod">
-
-                </code></pre>
-
-                <p>Then, run the following command:</p>
-
-                <pre><code class="language-markup">$ pod install</code></pre>
 
                 <h4 id="skadnetwork">SKAdNetwork</h4>
                 <p>With the iOS 14, you need to add <code>SKAdNetwork</code> ids to your <code>Info.plist</code> file to support conversion tracking.</p>
@@ -272,7 +284,7 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                         </code></pre>
                 </div>
 
-                <h5 id="ios14"><span class="label label-teal">New</span> iOS 14</h5>
+                <h5 id="ios14">iOS 14</h5>
                     <p>Starting with iOS 14, apps will be required to ask users for permission to access IDFA. In order to ask for this permission and display the App Tracking Transparency authorization request for accessing the IDFA, you will need to add <code>NSUserTrackingUsageDescription</code> key to <code>Info.plist</code> file.</p>
                     <pre>
 <code class="language-markup">
@@ -582,7 +594,7 @@ Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
 }</code></pre>
                     </div>
 
-                <p><span class="label label-teal">New</span> <code>didClickBanner</code> callback method is called when banner clicked.</p>
+                <p><code>didClickBanner</code> callback method is called when banner clicked.</p>
 
                 <ul class="nav nav-tabs" style="border-bottom: none!important;">
                     <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-9">Objective-C</a></li>
@@ -802,7 +814,7 @@ fullScreen.load()
                             </code></pre>
                         </div>
 
-                <p><span class="label label-teal">New</span> <code>didClickInterstitial</code> callback method is called when interstital clicked.</p>
+                <p><code>didClickInterstitial</code> callback method is called when interstital clicked.</p>
 
 
                 <ul class="nav nav-tabs" style="border-bottom: none!important;">
@@ -1040,7 +1052,7 @@ rewardedVideo.load()
             </code></pre>
         </div>
 
-    <p><span class="label label-teal">New</span> <code>didClickRewardedVideo</code> callback method when rewarded video clicked.</p>
+    <p><code>didClickRewardedVideo</code> callback method when rewarded video clicked.</p>
     <ul class="nav nav-tabs" style="border-bottom: none!important;">
     <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-27">Objective-C</a></li>
     <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-27">Swift</a></li>

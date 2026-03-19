@@ -12,6 +12,7 @@ function amrInitPage() {
     fillNetworkFeatures(obj);
     htmlPodFile = "source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'9.0\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'AMRSDK\', \'~&gt; 1.2\'\r\n#mediation adapters\n";
     fillPodFileCode();
+    fillSPMFileCode();
   }
 
 function amrInitManuelPage() {
@@ -37,6 +38,7 @@ function addAdNetworkToPodFile(i) {
     obj.adNetworks[i].status = true;
     fillAdNetworkList(obj);
     fillPodFileCode();
+    fillSPMFileCode();
     fillIos14FileCode();
 }
 
@@ -44,6 +46,7 @@ function removeAdNetworkToPodFile(i) {
     obj.adNetworks[i].status = false;
     fillAdNetworkList(obj);
     fillPodFileCode();
+    fillSPMFileCode();
     fillIos14FileCode();
 }
 
@@ -58,30 +61,44 @@ function getPositionOfAdNetworkOnJSONArray(adNetworkName) {
 
 function fillAdNetworkList() {
     htmlString = '<div class="btn-group" style="margin:8px;" id="btn-group-network-AMR"> <button type="button" id="btn-name-network-AMR" class="btn btn-success">AMR</button>  </div>&nbsp;';
+    var spmHtmlString = '<div class="btn-group" style="margin:8px;" id="btn-group-network-AMR-spm"> <button type="button" class="btn btn-success">AMR</button>  </div>&nbsp;';
     for (var i = 1; i < obj.adNetworks.length; i++) {
         if(pageIsLite === false || (pageIsLite === true && obj.adNetworks[i].isLite )){
+            // SPM list: include any network with spmURL regardless of iosSupport
+            if (obj.adNetworks[i].spmURL) {
+                if((pageIsLite === true && obj.adNetworks[i].isLite )){
+                    spmHtmlString = spmHtmlString + '<div class="btn-group" style="margin:8px;"> <button type="button" class="btn btn-success">' + obj.adNetworks[i].displayName + '</button> </div>';
+                } else {
+                    spmHtmlString = spmHtmlString + '<div class="btn-group" style="margin:8px;"> <button type="button" class="btn btn-default">' + obj.adNetworks[i].displayName + '</button> <button type="button" onclick="toggleAdNetworkStatus(\'' + obj.adNetworks[i].displayName + '\');" class="btn btn-';
+                    obj.adNetworks[i].status ? spmHtmlString = spmHtmlString + "danger" : spmHtmlString = spmHtmlString + "success";
+                    spmHtmlString = spmHtmlString + ' dropdown-toggle"> <span class="fa fa-';
+                    obj.adNetworks[i].status ? spmHtmlString = spmHtmlString + "minus" : spmHtmlString = spmHtmlString + "plus";
+                    spmHtmlString = spmHtmlString + '"></span> </button> </div>'
+                }
+            }
+
+            // CocoaPods list: only iOS-supported networks
             if (obj.adNetworks[i].iosSupport == false) {
                 continue;
             }
-            
+
             if((pageIsLite === true && obj.adNetworks[i].isLite )){
                 obj.adNetworks[i].status = true
                 htmlString = htmlString + '<div class="btn-group" style="margin:8px; id="btn-group-network-' + obj.adNetworks[i].displayName + '"> <button type="button" id="btn-name-network-' + obj.adNetworks[i].displayName + '" class="btn btn-success">' + obj.adNetworks[i].displayName + '</button> </div>';
-                
             }else{
                 htmlString = htmlString + '<div class="btn-group" style="margin:8px; id="btn-group-network-' + obj.adNetworks[i].displayName + '"> <button type="button" id="btn-name-network-' + obj.adNetworks[i].displayName + '" class="btn btn-default">' + obj.adNetworks[i].displayName + '</button> <button type="button" id="btn-icon-network-' + obj.adNetworks[i].displayName + '" onclick="toggleAdNetworkStatus(\'' + obj.adNetworks[i].displayName + '\');" class="btn btn-';
 
                 obj.adNetworks[i].status ? htmlString = htmlString + "danger" : htmlString = htmlString + "success";
                 htmlString = htmlString + ' dropdown-toggle"> <span class="fa fa-';
-    
                 obj.adNetworks[i].status ? htmlString = htmlString + "minus" : htmlString = htmlString + "plus";
                 htmlString = htmlString + '"></span> </button> </div>'
             }
-            
+
         }
     }
     fillIos14FileCode()
     $("#adnetwork-button-list").html(htmlString);
+    $("#adnetwork-button-list-spm").html(spmHtmlString);
 }
 
 function fillNetworkFeatures() {
@@ -205,6 +222,45 @@ function fillPodFileCode() {
     }
 
     $('#file-pod').append("\nend");
+}
+
+function fillSPMFileCode() {
+    var spmURLs = [];
+    var unsupportedNetworks = [];
+
+    for (var i = 1; i < obj.adNetworks.length; i++) {
+        if (obj.adNetworks[i].status == true) {
+            if (obj.adNetworks[i].spmURL) {
+                if (spmURLs.indexOf(obj.adNetworks[i].spmURL) == -1) {
+                    spmURLs.push(obj.adNetworks[i].spmURL);
+                }
+            } else {
+                unsupportedNetworks.push(obj.adNetworks[i].displayName);
+            }
+        }
+    }
+
+    var coreURL = obj.adNetworks[0].spmURL || "https://github.com/admost/AMR-IOS-SDK";
+    var output = "// Add the following Swift Packages in Xcode:\n";
+    output += "// File > Add Package Dependencies\n\n";
+    output += "// Core SDK (required):\n";
+    output += coreURL + "\n";
+
+    if (spmURLs.length > 0) {
+        output += "\n// Mediation Adapters:\n";
+        for (var i = 0; i < spmURLs.length; i++) {
+            output += spmURLs[i] + "\n";
+        }
+    }
+
+    if (unsupportedNetworks.length > 0) {
+        output += "\n// ⚠️ The following selected networks do not support SPM (use CocoaPods instead):\n";
+        for (var i = 0; i < unsupportedNetworks.length; i++) {
+            output += "// - " + unsupportedNetworks[i] + "\n";
+        }
+    }
+
+    $('#file-spm').text(output);
 }
 
 function fillIos14FileCode(){
