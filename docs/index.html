@@ -153,15 +153,21 @@
                     <li>Zone Id(s) provided in Admost Mediation Dashboard.</li>
                 </ul>
 
-                <p>For testing you can use following Ids;</p>
+                <p>For testing, you can use the following IDs:</p>
 
-                <pre><code class="language-markup">
-Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
-Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
-Interstitial Zone Id: @"39f74377-5682-436a-9338-9d1c4df410bd"
-RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
-Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
-                </code></pre>
+                <table class="table table-bordered" style="max-width: 600px;">
+                    <thead>
+                        <tr><th>Type</th><th>ID</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Application Id</td><td><code>15066ddc-9c18-492c-8185-bea7e4c7f88c</code></td></tr>
+                        <tr><td>Banner Zone Id</td><td><code>b4009772-de04-42c4-bbaa-c18da9e4a1ab</code></td></tr>
+                        <tr><td>Interstitial Zone Id</td><td><code>39f74377-5682-436a-9338-9d1c4df410bd</code></td></tr>
+                        <tr><td>Rewarded Video Zone Id</td><td><code>2bdefd44-5269-4cbc-b93a-373b74a2f067</code></td></tr>
+                        <tr><td>Offerwall Zone Id</td><td><code>1cadca08-33f9-4da7-969e-ef116d4e7d0e</code></td></tr>
+                    </tbody>
+                </table>
+
             </section>
             <section>
                 <h2 id = "ad_network_features">Ad Networks</h2>
@@ -263,25 +269,6 @@ Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
                     <p><img class="img-responsive" src="assets/img/admob_appid.png" alt="admob_appid.png"></p>
                 </div>
                 
-                <div class="callout callout-danger" role="alert">
-                        <h4></h4>
-                        <p><span class="label label-danger">Important</span> If you are using Pollfish you must update and add Pollfish Policy to your privacy policy file.	</p>
-                        <p><a href="https://www.pollfish.com/docs/ios" target="_blank">Pollfish Privacy Policy</a></p>
-                </div>
-
-                <div class="callout callout-warning not-lite" role="alert">
-                        <h4></h4>
-                        <p><span class="label label-warning">Optional</span> If you are using AdColony you need to add following code to your <code>plist</code> file.</p>
-                        <pre><code>
-&lt;key&gt;LSApplicationQueriesSchemes&lt;/key&gt;
-&lt;array&gt;
-    &lt;string&gt;fb&lt;/string&gt;
-    &lt;string&gt;instagram&lt;/string&gt;
-    &lt;string&gt;tumblr&lt;/string&gt;
-    &lt;string&gt;twitter&lt;/string&gt;
-&lt;/array&gt;
-                        </code></pre>
-                </div>
 
                 <h5 id="ios14">iOS 14</h5>
                     <p>Starting with iOS 14, apps will be required to ask users for permission to access IDFA. In order to ask for this permission and display the App Tracking Transparency authorization request for accessing the IDFA, you will need to add <code>NSUserTrackingUsageDescription</code> key to <code>Info.plist</code> file.</p>
@@ -399,11 +386,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
                     </code></pre>
                   </div>
-                <p>For testing you can use following Application Id;</p>
-
-                <pre><code class="language-markup">
-Application Id: @"15066ddc-9c18-492c-8185-bea7e4c7f88c"
-                </code></pre>
+                <p>For testing, you can use the following Application Id: <code>15066ddc-9c18-492c-8185-bea7e4c7f88c</code></p>
                 
 
                 <h4 id="initcoppa">COPPA</h4>
@@ -510,11 +493,7 @@ mpuBanner.delegate = self
                     </code></pre>
                   </div>
 
-                <p>For testing, you can use the following Banner Zone Id:</p>
-
-                <pre><code class="language-markup">
-Banner Zone Id: @"b4009772-de04-42c4-bbaa-c18da9e4a1ab"
-                </code></pre>
+                <p>For testing, you can use the following Banner Zone Id: <code>b4009772-de04-42c4-bbaa-c18da9e4a1ab</code></p>
 
                 <p>
                     Optionally you can set the width of the banner, default value is 320px for 50px banner, 728px for 90px banner, 300px for 250px banner.
@@ -726,11 +705,7 @@ fullScreen.load()
                         </code></pre>
                     </div>
 
-                <p>For testing, you can use the following Interstitial Zone Id:</p>
-
-                <pre><code
-                        class="language-markup">Interstitial Zone Id: @"39f74377-5682-436a-9338-9d1c4df410bd"
-                </code></pre>
+                <p>For testing, you can use the following Interstitial Zone Id: <code>39f74377-5682-436a-9338-9d1c4df410bd</code></p>
 
                 <p>There are 6 callback methods in <code>AMRInterstitialDelegate</code> protocol.
                     When <code>didReceiveInterstitial</code> callback method is called just call the <code>showFromViewController</code>
@@ -957,11 +932,7 @@ rewardedVideo.load()
                 </code></pre>
              </div>
 
-                <p>For testing you can use following RewardedVideo Zone Id;</p>
-
-                <pre><code
-                        class="language-markup">RewardedVideo Zone Id: @"2bdefd44-5269-4cbc-b93a-373b74a2f067"
-                </code></pre>
+                <p>For testing, you can use the following Rewarded Video Zone Id: <code>2bdefd44-5269-4cbc-b93a-373b74a2f067</code></p>
 
                 <p>There are 7 callback methods in <code>AMRRewardedVideoDelegate</code> protocol.
                     <br/><br/>When <code>didReceiveRewardedVideo</code> callback method is called just call the <code>showFromViewController</code>
@@ -1219,11 +1190,7 @@ rewardedVideo.load()
                     offerWall.load()
                                     </code></pre>
                                 </div>
-                            <p>For testing you can use following Offerwall Zone Id;</p>
-
-                            <pre><code
-                                    class="language-markup">Offerwall Zone Id: @"1cadca08-33f9-4da7-969e-ef116d4e7d0e"
-                            </code></pre>
+                            <p>For testing, you can use the following Offerwall Zone Id: <code>1cadca08-33f9-4da7-969e-ef116d4e7d0e</code></p>
 
                             <p>There are 5 callback methods in <code>AMROfferWallDelegate</code> protocol.
                                 When <code>didReceiveOfferWall</code> callback method is called just call the <code>showFromViewController</code>
