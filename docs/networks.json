@@ -2345,9 +2345,9 @@
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.16.6",
-		"adapterVersion": "4.16.6.0",
-		"podVersion": "4.16",
+		"SDKVersion": "4.17.0",
+		"adapterVersion": "4.17.0",
+		"podVersion": "4.17",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"g6gcrrvk4p.skadnetwork",
@@ -2436,12 +2436,13 @@
 		"iosSupport": true,
 		"unitySupport": true,
 		"status": false,
-		"biddingSupport": false,
+		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-UNITYADS/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-UNITYADS",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-UNITYADS/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/Unity-Technologies/unity-ads-ios",
 		"networkChangelog": "https://github.com/Unity-Technologies/unity-ads-ios/releases",
-		"minTargetSdk": "9.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
