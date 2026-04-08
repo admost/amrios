@@ -551,8 +551,8 @@
 	{
 		"network": "BIGO",
 		"displayName": "Bigo",
-		"SDKVersion": "4.9.0",
-		"adapterVersion": "4.9.0.1",
+		"SDKVersion": "5.1.2",
+		"adapterVersion": "5.1.2",
 		"podVersion": "4.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -679,11 +679,12 @@
 		"unitySupport": true,
 		"status": false,
 		"biddingSupport": true,
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-BIGO",
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-BIGO/tags",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-BIGO/blob/main/CHANGELOG.md",
 		"networkSourceURL": "https://www.bigossp.com/guide/sdk/ios/document",
 		"networkChangelog": "https://www.bigossp.com/guide/sdk/ios/version",
-		"minTargetSdk": "10.0",
+		"minTargetSdk": "12.0",
 		"isLite": false
 	},
 	{
