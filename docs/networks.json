@@ -1530,6 +1530,7 @@
 		"status": false,
 		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-MYTARGET/tags",
+        "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-MYTARGET",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-MYTARGET/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/myTargetSDK/mytarget-ios/releases",
 		"networkChangelog": "https://target.my.com/help/partners/mob/ioshistory/en",
