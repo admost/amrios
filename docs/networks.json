@@ -49,8 +49,8 @@
 	{
 		"network": "ADMOB",
 		"displayName": "AdMob",
-		"SDKVersion": "13.1.6",
-		"adapterVersion": "13.1.6",
+		"SDKVersion": "13.1.0",
+		"adapterVersion": "13.1.7",
 		"podVersion": "13.1",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -156,9 +156,9 @@
 	{
 		"network": "ADSERVER",
 		"displayName": "AdServer",
-		"SDKVersion": "1.2.2",
-		"adapterVersion": "1.2.2",
-		"podVersion": "1.2",
+		"SDKVersion": "1.3.3",
+		"adapterVersion": "1.3.3",
+		"podVersion": "1.3",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [
@@ -342,7 +342,7 @@
 		"network": "AMAZON",
 		"displayName": "Amazon",
 		"SDKVersion": "4.5.3",
-		"adapterVersion": "4.5.3.0",
+		"adapterVersion": "4.5.3.1",
 		"podVersion": "4.5",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -550,7 +550,7 @@
 		"displayName": "Bigo",
 		"SDKVersion": "5.1.2",
 		"adapterVersion": "5.1.2",
-		"podVersion": "4.9",
+		"podVersion": "5.1",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -977,9 +977,9 @@
 	{
 		"network": "DFP",
 		"displayName": "DFP",
-		"SDKVersion": "10.6.0",
-		"adapterVersion": "10.6.0.0",
-		"podVersion": "10.6",
+		"SDKVersion": "13.1.0",
+		"adapterVersion": "10.14.0.0",
+		"podVersion": "10.14",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [
@@ -1288,7 +1288,7 @@
 	{
 		"network": "IRONSOURCE",
 		"displayName": "IronSource",
-		"SDKVersion": "9.3.0",
+		"SDKVersion": "9.3.0.0",
 		"adapterVersion": "9.3.0",
 		"podVersion": "9.3",
 		"initParameterCount": 1,
@@ -2266,7 +2266,7 @@
 	{
 		"network": "YANDEX",
 		"displayName": "YandexAds",
-		"SDKVersion": "7.18.4",
+		"SDKVersion": "7.18.4.0",
 		"adapterVersion": "7.18.4.0",
 		"podVersion": "7.18",
 		"initParameterCount": 0,
