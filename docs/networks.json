@@ -27,7 +27,7 @@
         "network": "AMRNetworkSDK",
         "displayName": "AMRNetworkSDK",
         "SDKVersion": "1.0.1",
-        "adapterVersion": "1.5.92",
+        "adapterVersion": "1.0.1",
         "podVersion": "1.0",
         "initParameterCount": 0,
         "skadnetworkIDS": [],
