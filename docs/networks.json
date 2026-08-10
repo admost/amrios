@@ -20,7 +20,7 @@
 		"changelog": "",
 		"networkSourceURL": "",
 		"networkChangelog": "",
-		"minTargetSdk": "9.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
     {
@@ -367,8 +367,8 @@
 	{
 		"network": "APPLOVIN",
 		"displayName": "AppLovin",
-		"SDKVersion": "13.6.1",
-		"adapterVersion": "13.6.1",
+		"SDKVersion": "13.6.4",
+		"adapterVersion": "13.6.4",
 		"podVersion": "13.6",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -1029,9 +1029,9 @@
 	{
 		"network": "FACEBOOK",
 		"displayName": "Meta",
-		"SDKVersion": "6.21.1",
-		"adapterVersion": "6.21.3",
-		"podVersion": "6.21",
+		"SDKVersion": "6.22.0",
+		"adapterVersion": "6.22.0",
+		"podVersion": "6.22",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"v9wttpbfk9.skadnetwork",
@@ -1053,7 +1053,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/get-started",
 		"networkChangelog": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/changelog",
-		"minTargetSdk": "13.0",
+		"minTargetSdk": "15.0",
 		"isLite": true
 	},
 	{
@@ -1189,9 +1189,9 @@
 	{
 		"network": "INMOBI",
 		"displayName": "InMobi",
-		"SDKVersion": "10.8.8",
-		"adapterVersion": "10.8.8.0",
-		"podVersion": "10.8",
+		"SDKVersion": "11.4.1",
+		"adapterVersion": "11.4.1",
+		"podVersion": "11.4",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"uw77j35x4d.skadnetwork",
@@ -1306,7 +1306,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-INMOBI/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://www.inmobi.com/sdk",
 		"networkChangelog": "https://support.inmobi.com/monetize/download-sdk/ios-changelogs",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "12.0",
 		"isLite": false
 	},
 	{
@@ -1396,9 +1396,9 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "8.0.8",
-		"adapterVersion": "8.0.8",
-		"podVersion": "8.0.8",
+		"SDKVersion": "8.1.6",
+		"adapterVersion": "8.1.6",
+		"podVersion": "8.1.6",
 		"initParameterCount": 2,
 		"skadnetworkIDS": [
 		"kbd757ywx3.skadnetwork",
@@ -1533,9 +1533,9 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.38.0",
-		"adapterVersion": "5.38.0.0",
-		"podVersion": "5.38",
+		"SDKVersion": "5.45.0",
+		"adapterVersion": "5.45.0",
+		"podVersion": "5.45",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"n9x2a789qt.skadnetwork",
@@ -1557,7 +1557,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-MYTARGET/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/myTargetSDK/mytarget-ios/releases",
 		"networkChangelog": "https://target.my.com/help/partners/mob/ioshistory/en",
-		"minTargetSdk": "10.0",
+		"minTargetSdk": "14.0",
 		"isLite": false
 	},
 	{
@@ -2127,9 +2127,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "7.9.0.8",
-		"adapterVersion": "7.9.0",
-		"podVersion": "7.9",
+		"SDKVersion": "8.2.0.9",
+		"adapterVersion": "8.2.1",
+		"podVersion": "8.2",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2160,15 +2160,15 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-PANGLE/blob/main/CHANGELOG.md",
 		"networkSourceURL": "https://www.pangleglobal.com/integration/integrate-pangle-sdk-for-iosd",
 		"networkChangelog": "",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": true
 	},
 	{
 		"network": "UNITYAD",
 		"displayName": "UnityAds",
-		"SDKVersion": "4.17.0",
-		"adapterVersion": "4.17.0",
-		"podVersion": "4.17",
+		"SDKVersion": "4.19.0",
+		"adapterVersion": "4.19.0",
+		"podVersion": "4.19",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"g6gcrrvk4p.skadnetwork",

@@ -1,7 +1,6 @@
 var obj;
 var obj14;
 var htmlString = "";
-var htmlPodFile = "";
 var arrayAppGradlePackages = [];
 var pageLite = false
 
@@ -10,7 +9,6 @@ function amrInitPage() {
     obj = getNetworks(response);
     fillAdNetworkList(obj);
     fillNetworkFeatures(obj);
-    htmlPodFile = "source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'9.0\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'AMRSDK\', \'~&gt; 1.2\'\r\n#mediation adapters\n";
     fillPodFileCode();
     fillSPMFileCode();
   }
@@ -212,8 +210,25 @@ function isSupportedAdTypes(type, index) {
     }
 }
 
+// The Podfile platform has to satisfy the highest minimum iOS of everything the
+// user selected, otherwise CocoaPods can't resolve the generated Podfile.
+function minimumPlatformVersion() {
+    var min = 0;
+    for (var i = 0; i < obj.adNetworks.length; i++) {
+        // index 0 is the core SDK and is always part of the Podfile
+        if (i > 0 && obj.adNetworks[i].status != true) {
+            continue;
+        }
+        var version = parseFloat(obj.adNetworks[i].minTargetSdk);
+        if (!isNaN(version) && version > min) {
+            min = version;
+        }
+    }
+    return min.toFixed(1);
+}
+
 function fillPodFileCode() {
-    $('#file-pod').html("source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'8.0\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'"+obj.adNetworks[0].adapterName+"\', \'~&gt; "+ obj.adNetworks[0].podVersion+"\'\r\n#mediation adapters\n");
+    $('#file-pod').html("source \'https:\/\/github.com\/CocoaPods\/Specs.git\'\r\nplatform :ios, \'"+ minimumPlatformVersion() +"\'\r\n\r\nuse_frameworks!\r\n\r\ntarget \'MyAwesomeTarget\' do\r\n#core SDK\r\npod \'"+obj.adNetworks[0].adapterName+"\', \'~&gt; "+ obj.adNetworks[0].podVersion+"\'\r\n#mediation adapters\n");
 
     for (var i = 1; i < obj.adNetworks.length; i++) {
         if (obj.adNetworks[i].adapterName && obj.adNetworks[i].status == true && document.getElementById("file-pod").innerHTML.indexOf(obj.adNetworks[i].adapterName) == -1) {
