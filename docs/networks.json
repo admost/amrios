@@ -257,7 +257,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
 		"networkChangelog": "",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -335,7 +335,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
 		"networkChangelog": "",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -362,7 +362,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-AMAZON/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://ams.amazon.com/webpublisher/uam/docs/aps-mobile/ios",
 		"networkChangelog": "https://ams.amazon.com/webpublisher/uam/docs/aps-mobile/ios/release-notes",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -681,7 +681,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-BIGO/blob/main/CHANGELOG.md",
 		"networkSourceURL": "https://www.bigossp.com/guide/sdk/ios/document",
 		"networkChangelog": "https://www.bigossp.com/guide/sdk/ios/version",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -971,7 +971,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-CRITEO/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/criteo/ios-publisher-sdk/tags",
 		"networkChangelog": "https://publisherdocs.criteotilt.com/app/ios/release-notes",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -997,7 +997,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-DFP/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
 		"networkChangelog": "",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1158,7 +1158,7 @@
 		"changelog": "",
 		"networkSourceURL": "https://documentation.hyprmx.com/ios-hyprmx-sdk/downloads",
 		"networkChangelog": "",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1282,7 +1282,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-INMOBI/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://www.inmobi.com/sdk",
 		"networkChangelog": "https://support.inmobi.com/monetize/download-sdk/ios-changelogs",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1332,7 +1332,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-IRONSOURCE/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.ironsrc.com/ironsource-mobile/ios/ios-sdk/#step-1",
 		"networkChangelog": "https://developers.is.com/ironsource-mobile/ios/sdk-change-log",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1525,7 +1525,7 @@
 		"changelog": "",
 		"networkSourceURL": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
 		"networkChangelog": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1549,7 +1549,7 @@
 		"changelog": "",
 		"networkSourceURL": "https://github.com/pollfish/ios-sdk-pollfish/tags",
 		"networkChangelog": "https://www.pollfish.com/docs/ios",
-		"minTargetSdk": "8.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1632,7 +1632,7 @@
 		"changelog": "",
 		"networkSourceURL": "https://github.com/pubnative/pubnative-hybid-ios-sdk/tags",
 		"networkChangelog": "",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1658,7 +1658,7 @@
 		"changelog": "",
 		"networkSourceURL": "https://github.com/PubMatic/ios-openwrap-sdk-samples",
 		"networkChangelog": "",
-		"minTargetSdk": "9.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1763,7 +1763,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMOB/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.google.com/admob/ios/quick-start",
 		"networkChangelog": "",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1877,7 +1877,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-SMAATO/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.smaato.com/publishers/nextgen-sdk-ios-getting-started/",
 		"networkChangelog": "https://developers.smaato.com/publishers/nextgen-sdk-ios-changelog",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1965,7 +1965,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-STARTAPP/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/StartApp-SDK/StartAppSDK/tags",
 		"networkChangelog": "",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1989,7 +1989,7 @@
 		"changelog": "",
 		"networkSourceURL": "https://support.teads.tv/support/solutions/articles/36000314785",
 		"networkChangelog": "",
-		"minTargetSdk": "10.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -2156,7 +2156,7 @@
 		"changelog": "",
 		"networkSourceURL": "",
 		"networkChangelog": "",
-		"minTargetSdk": "10.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -2510,7 +2510,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-YANDEX/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/yandexmobile/yandex-ads-sdk-ios",
 		"networkChangelog": "https://github.com/yandexmobile/yandex-ads-sdk-ios/tree/master/changelog",
-		"minTargetSdk": "12.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	}
 	]
