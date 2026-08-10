@@ -1004,7 +1004,7 @@
 		"network": "FACEBOOK",
 		"displayName": "Meta",
 		"SDKVersion": "6.22.0",
-		"adapterVersion": "6.22.0",
+		"adapterVersion": "6.22.1",
 		"podVersion": "6.22",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
