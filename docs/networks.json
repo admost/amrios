@@ -129,9 +129,9 @@
 	{
 		"network": "ADMATIC",
 		"displayName": "Admatic",
-		"SDKVersion": "2.1.6",
-		"adapterVersion": "2.1.6.0",
-		"podVersion": "2.1",
+		"SDKVersion": "3.3.0",
+		"adapterVersion": "3.3.0",
+		"podVersion": "3.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [
@@ -146,10 +146,11 @@
 		"status": false,
 		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMATIC/tags",
-		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMATIC/blob/master/CHANGELOG.md",
+		"spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMATIC",
+		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMATIC/blob/main/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMATIC/tags",
 		"networkChangelog": "",
-		"minTargetSdk": "11.0",
+		"minTargetSdk": "13.0",
 		"isLite": false
 	},
 	{
@@ -1162,9 +1163,9 @@
 	{
 		"network": "HYPRMX",
 		"displayName": "HyprMX",
-		"SDKVersion": "6.2.0",
-		"adapterVersion": "6.2.0.0",
-		"podVersion": "6.2",
+		"SDKVersion": "6.4.6",
+		"adapterVersion": "6.4.6",
+		"podVersion": "6.4",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"nu4557a4je.skadnetwork"
@@ -1180,10 +1181,11 @@
 		"status": false,
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-HYPRMX/tags",
+		"spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-HYPRMX",
 		"changelog": "",
 		"networkSourceURL": "https://documentation.hyprmx.com/ios-hyprmx-sdk/downloads",
 		"networkChangelog": "",
-		"minTargetSdk": "8.0",
+		"minTargetSdk": "12.0",
 		"isLite": false
 	},
 	{
@@ -1303,6 +1305,7 @@
 		"status": false,
 		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-INMOBI/tags",
+		"spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-INMOBI",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-INMOBI/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://www.inmobi.com/sdk",
 		"networkChangelog": "https://support.inmobi.com/monetize/download-sdk/ios-changelogs",
@@ -1589,9 +1592,9 @@
 	{
 		"network": "OGURY",
 		"displayName": "Ogury",
-		"SDKVersion": "4.2.2",
-		"adapterVersion": "4.2.2.0",
-		"podVersion": "4.2",
+		"SDKVersion": "5.2.3",
+		"adapterVersion": "5.2.3",
+		"podVersion": "5.2",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [
@@ -1605,10 +1608,11 @@
 		"status": false,
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-OGURY/tags",
+		"spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-OGURY",
 		"changelog": "",
 		"networkSourceURL": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
 		"networkChangelog": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
-		"minTargetSdk": "10.0",
+		"minTargetSdk": "12.0",
 		"isLite": false
 	},
 	{
@@ -1638,9 +1642,9 @@
 	{
 		"network": "PUBNATIVE",
 		"displayName": "Pubnative",
-		"SDKVersion": "2.16.0",
-		"adapterVersion": "2.16.0.0",
-		"podVersion": "2.16",
+		"SDKVersion": "3.9.0",
+		"adapterVersion": "3.9.0",
+		"podVersion": "3.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"p78axxw29g.skadnetwork",
@@ -1711,10 +1715,11 @@
 		"status": false,
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-PUBNATIVE/tags",
+		"spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-PUBNATIVE",
 		"changelog": "",
 		"networkSourceURL": "https://github.com/pubnative/pubnative-hybid-ios-sdk/tags",
 		"networkChangelog": "",
-		"minTargetSdk": "9.0",
+		"minTargetSdk": "12.0",
 		"isLite": false
 	},
 	{
@@ -1991,9 +1996,9 @@
 	{
 		"network": "STARTAPP",
 		"displayName": "StartApp",
-		"SDKVersion": "4.10.3",
-		"adapterVersion": "4.10.3.0",
-		"podVersion": "4.10",
+		"SDKVersion": "4.14.0",
+		"adapterVersion": "4.14.0",
+		"podVersion": "4.14",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"5l3tpt7t6e.skadnetwork",
@@ -2069,10 +2074,11 @@
 		"status": false,
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-STARTAPP/tags",
+		"spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-STARTAPP",
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-STARTAPP/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/StartApp-SDK/StartAppSDK/tags",
 		"networkChangelog": "",
-		"minTargetSdk": "8.0",
+		"minTargetSdk": "12.0",
 		"isLite": false
 	},
 	{
