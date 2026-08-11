@@ -174,9 +174,6 @@
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/tags",
         "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER",
-        "spmDirectPackage": {
-        	"product": "AdmostAdServer"
-        },
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/blob/main/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADSERVER/tags",
 		"networkChangelog": "",
@@ -542,12 +539,6 @@
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/tags",
         "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN",
-        "spmDirectPackage": {
-        	"url": "https://github.com/AppLovin/AppLovin-MAX-Swift-Package",
-        	"product": "AppLovinSDK",
-        	"version": "13.6.4",
-        	"exact": true
-        },
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-APPLOVIN/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/AppLovin/AppLovin-MAX-SDK-iOS",
 		"networkChangelog": "https://dash.applovin.com/documentation/mediation/ios/changelog",
@@ -1033,12 +1024,6 @@
 		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK/tags",
         "spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK",
-        "spmDirectPackage": {
-        	"url": "https://github.com/facebook/FBAudienceNetwork",
-        	"product": "FBAudienceNetwork",
-        	"version": "6.22.0",
-        	"exact": false
-        },
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-FACEBOOK/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/get-started",
 		"networkChangelog": "https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/ios/changelog",
@@ -1294,12 +1279,6 @@
 		"biddingSupport": true,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-INMOBI/tags",
 		"spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-INMOBI",
-		"spmDirectPackage": {
-			"url": "https://github.com/InMobi/InMobiSDK-Swift-Package",
-			"product": "InMobiSDK",
-			"version": "11.4.1",
-			"exact": true
-		},
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-INMOBI/blob/master/CHANGELOG.md",
 		"networkSourceURL": "https://www.inmobi.com/sdk",
 		"networkChangelog": "https://support.inmobi.com/monetize/download-sdk/ios-changelogs",
@@ -1543,12 +1522,6 @@
 		"biddingSupport": false,
 		"sourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-OGURY/tags",
 		"spmURL": "https://github.com/admost/AMR-IOS-ADAPTER-OGURY",
-		"spmDirectPackage": {
-			"url": "https://github.com/ogury/ogury-sdk-spm",
-			"product": "OgurySdk",
-			"version": "5.2.3",
-			"exact": true
-		},
 		"changelog": "",
 		"networkSourceURL": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
 		"networkChangelog": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
