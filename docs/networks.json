@@ -156,9 +156,9 @@
 	{
 		"network": "ADSERVER",
 		"displayName": "AdServer",
-		"SDKVersion": "1.3.4",
-		"adapterVersion": "1.3.5",
-		"podVersion": "1.3",
+		"SDKVersion": "1.4.0",
+		"adapterVersion": "1.4.0",
+		"podVersion": "1.4",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [
