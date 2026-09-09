@@ -3,9 +3,9 @@
 	{
 		"network": "AMR",
 		"displayName": "AMR",
-		"SDKVersion": "1.5.85",
-		"adapterVersion": "1.5.85",
-		"podVersion": "1.5",
+		"SDKVersion": "1.6.1",
+		"adapterVersion": "1.6.1",
+		"podVersion": "1.6",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [],
@@ -156,15 +156,16 @@
 	{
 		"network": "ADSERVER",
 		"displayName": "AdServer",
-		"SDKVersion": "1.4.0",
-		"adapterVersion": "1.4.0",
-		"podVersion": "1.4",
+		"SDKVersion": "1.6.1",
+		"adapterVersion": "1.6.1",
+		"podVersion": "1.6",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [
 		"Banner",
 		"Interstitial",
-		"Rewarded"
+		"Rewarded",
+		"Interscroller"
 		],
 		"infoPlistKey": "",
 		"adapterName": "AMRAdapterAdserver",
