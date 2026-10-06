@@ -3,8 +3,8 @@
 	{
 		"network": "AMR",
 		"displayName": "AMR",
-		"SDKVersion": "1.6.2",
-		"adapterVersion": "1.6.2",
+		"SDKVersion": "1.6.3",
+		"adapterVersion": "1.6.3",
 		"podVersion": "1.6",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
@@ -156,8 +156,8 @@
 	{
 		"network": "ADSERVER",
 		"displayName": "AdServer",
-		"SDKVersion": "1.6.2",
-		"adapterVersion": "1.6.2",
+		"SDKVersion": "1.6.4",
+		"adapterVersion": "1.6.4",
 		"podVersion": "1.6",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [],
@@ -1032,9 +1032,9 @@
 	{
 		"network": "FYBER",
 		"displayName": "DTExchange",
-		"SDKVersion": "8.4.5",
-		"adapterVersion": "8.4.5",
-		"podVersion": "8.4",
+		"SDKVersion": "8.5.0",
+		"adapterVersion": "8.5.0",
+		"podVersion": "8.5",
 		"initParameterCount": 1,
 		"skadnetworkSourceURL": "https://raw.githubusercontent.com/fyber-engineering/SKAdNetworks/refs/heads/master/docs/index.json",
 		"skadnetworkIDS": [
@@ -1150,7 +1150,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-DTEXCHANGE/master/CHANGELOG.md",
 		"networkSourceURL": "https://developer.fyber.com/hc/en-us/articles/360010971118-iOS-SDK-Integration",
 		"networkChangelog": "https://developer.digitalturbine.com/hc/en-us/articles/360010915618-Integrating-the-iOS-SDK",
-		"minTargetSdk": "13.0",
+		"minTargetSdk": "15.0",
 		"isLite": false
 	},
 	{
@@ -2091,9 +2091,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "8.2.0.9",
-		"adapterVersion": "8.2.1",
-		"podVersion": "8.2",
+		"SDKVersion": "8.3.0.8",
+		"adapterVersion": "8.3.0",
+		"podVersion": "8.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
