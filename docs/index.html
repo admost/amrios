@@ -134,6 +134,7 @@
                         <li><a href="#privacycheck">Privacy Consent Required </a></li>
                         <li><a href="#appprivacy">Apple App Privacy </a></li>
                         <li><a href="#remoteconfig">Remote Config </a></li>
+                        <li><a href="#eventtracking">Event Tracking</a></li>
                         <li><a href="#ump">CMP Integration</a></li>
                     </ul>
                 </li>
@@ -1737,7 +1738,60 @@ AMRSDK.fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
                 <p>
                     You can also run A/B tests for remote config parameters with or without bundling other test parameters. You do not have to do anything to run or join these tests on client side, random percentile targeting feature of the sdk will handle it itself. You can define these tests and target your audiences from the dashboard's A/B test menu.
                 </p>
-</div>
+                </div>
+
+                <h3 id="eventtracking">Event Tracking</h3>
+
+                <p>
+                    You can track custom events in your app with the AMR SDK. Viewing tracked events in the Admost dashboard will be available soon. Call the following methods after Admost initialization;
+                </p>
+
+                <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-50">Objective-C</a></li>
+                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-50">Swift</a></li>
+                  </ul>
+
+                  <div class="tab-content">
+                    <div id="Objective-C-50" class="tab-pane fade">
+                        <pre style="margin-top:0px!important"><code class="language-objectivec">
+// Custom event with optional key-value parameters
+[AMRSDK trackEvent:@"level_completed"
+        parameters:@{@"level": @"12", @"difficulty": @"hard"}];
+
+// Custom event with a value and currency (e.g. earning or spending resources)
+[AMRSDK trackEvent:@"coins_spent"
+        parameters:@{@"item_id": @"sword_01"}
+          currency:@"USD"
+             value:4.99];
+
+// Screen view
+[AMRSDK trackScreenView:@"home_screen"];
+                        </code></pre>
+                    </div>
+                    <div id="Swift-50" class="tab-pane fade in active">
+                        <pre style="margin-top:0px!important"><code class="language-swift">
+// Custom event with optional key-value parameters
+AMRSDK.trackEvent("level_completed",
+                  parameters: ["level": "12", "difficulty": "hard"])
+
+// Custom event with a value and currency (e.g. earning or spending resources)
+AMRSDK.trackEvent("coins_spent",
+                  parameters: ["item_id": "sword_01"],
+                  currency: "USD",
+                  value: 4.99)
+
+// Screen view
+AMRSDK.trackScreenView("home_screen")
+                        </code></pre>
+                    </div>
+                  </div>
+
+                <p>
+                    <code>eventName</code> is required and must not be empty. <code>parameters</code> is an optional string key-value dictionary. When you send a <code>value</code>, <code>currency</code> is required (e.g. <code>"USD"</code>).
+                </p>
+                <p>
+                    Do not use the <code>session_index</code> key in <code>parameters</code>; the SDK adds it automatically. If events are not being sent, make sure the SDK has been initialized and the event name is set.
+                </p>
             </section>
             
 
