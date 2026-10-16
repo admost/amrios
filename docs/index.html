@@ -87,7 +87,7 @@
     <div class="row">
         <!-- Sidebar -->
         <aside class="col-sm-3 sidebar">
-            <ul class="nav sidenav dropable sticky">
+            <ul class="nav sidenav sticky">
                 <li><a href="#prerequisites">Prerequisites</a></li>
                 <li><a href="#ad_network_features">Ad Networks</a></li>
                 <li>
@@ -95,7 +95,7 @@
                     <ul>
                         <li>
                             <a href="#installation-with-cocoapods">Installation</a>
-                            <ul style="display: block;">
+                            <ul>
                                 <li><a href="#create-your-podfile-and-install">Create your podfile and install</a></li>
                                 <li><a href="#skadnetwork">SKAdNetwork</a></li>
                             </ul>
@@ -108,7 +108,7 @@
                     <a href="#usage">Usage</a>
                     <ul>
                         <li><a href="#initialization">Initialization</a></li>
-                            <ul style="display: block;">
+                            <ul>
                                 <li><a href="#initcoppa">COPPA</a></li>
                                 <li><a href="#initgdpr">GDPR and CCPA</a></li>
                             </ul>
@@ -117,24 +117,28 @@
                         <li><a href="#interstitial-ads">Interstitial Ads</a></li>
                         <li><a href="#rewarded-video-ads">Rewarded Video Ads</a></li>
                         <li class="not-lite"><a href="#offerwall-ads">Offerwall Ads</a></li>
-                            <ul class="not-lite" style="display: block;">
+                            <ul class="not-lite">
                                 <li><a href="#spend-virtual-currency">Spend Virtual Currency</a></li>
                             </ul>
+                    </ul>
+                </li>
+                <li><a href="#analytics">Analytics</a>
+                    <ul>
+                        <li><a href="#eventtracking">Event Tracking</a></li>
+                        <li><a href="#remoteconfig">Remote Config</a></li>
+                        <li><a href="#iap">IAP Tracking</a></li>
+                        <li><a href="#senduserid">Setting Application User Id</a></li>
                     </ul>
                 </li>
                 <li class="not-lite"><a href="#extras">Extras</a>
                     <ul>
                         <li><a href="#dfp">DFP/AdMob Mediation Integration</a></li>
                         <li><a href="#testsuite">Test Suite</a></li>
-                        <li><a href="#iap">In App Purchase Tracking</a></li>
-                        <li><a href="#senduserid">Setting Application User Id</a></li>
                         <li><a href="#adjustintegration">Adjust Integration </a></li>
                         <li><a href="#appsflyerintegration">AppsFlyer Integration </a></li>
                         <li><a href="#sscallbacks">Server to Server Callbacks</a> </li>
                         <li><a href="#privacycheck">Privacy Consent Required </a></li>
                         <li><a href="#appprivacy">Apple App Privacy </a></li>
-                        <li><a href="#remoteconfig">Remote Config </a></li>
-                        <li><a href="#eventtracking">Event Tracking</a></li>
                         <li><a href="#ump">CMP Integration</a></li>
                     </ul>
                 </li>
@@ -1332,85 +1336,101 @@ rewardedVideo.load()
         </div>
     </div>
 </div>
-<div class="not-lite">
-                <h2 id="extras">Extras</h2>
+                <h2 id="analytics">Analytics</h2>
 
-                <h3 id="dfp">DFP/AdMob Mediation Integration</h3>
-
-                <p>The AMR DFP Adapter lets publishers integrate Admost Mediation Router ads into applications with DFP
-                    or AdMob Mediation set as main ad mediation layer.</p>
-
-                <p>In order to show AMR ads in DFP/AdMob Mediation you should first follow dedicated steps of DFP or
-                    AdMob Mediation to set AMR as an ad mediation source.</p>
-
-                <p>After adding AMR as an ad mediation source you should define class names for banner, interstitial, rewarded video and Rewarded Interstitial
-                    ad custom events. Enter the <code>AMRAdapterDFP.AMRDFPCustomEvent</code> as
-                    class name. You must pass your AMR zone Id to custom event via
-                    Parameter field.</p>
-
-                <img class="img-responsive " src="assets/img/dfp_sample.png" alt="shadowed image">
-
-
-                <p>Include Admost DFP Adapter in your project after setup, if you are using CocoaPods add following line
-                    to your podfile and run the following command to install.</p>
-
-
-                <pre><code class="language-markup">
-
-                pod AMRAdapterDFP
-
-            </code></pre>
-
-                <pre><code class="language-markup">
-
-                $ pod install
-
-            </code></pre>
-                <p>Now you can show AMR banner, interstitial and rewarded video ads via DFP or AdMob Mediation.</p>
-
-                <p>You can check DFP banner and interstitial example in demo project;
-                    AMRDemo/DFPCustomEvents/DFPCustomEventsViewController.m</p>
-
-                <h3 id="testsuite">Test Suite</h3>
+                <h3 id="eventtracking">Event Tracking</h3>
 
                 <p>
-                	You can use Test Suite to test your ad networks with your zone ids.
-                </p>
-
-                <p>
-                    <div class="callout callout-danger" role="alert">
-                        <p class="text-danger">You must be a Tester to show Test Suite on devices.</p>
-                    </div>
-                </p>
-
-                <p>
-                	To use Test Suite in your application, you can use one of the following codes;
+                    You can track custom events in your app with the AMR SDK. Viewing tracked events in the Admost dashboard will be available soon. Call the following methods after Admost initialization;
                 </p>
 
                 <ul class="nav nav-tabs" style="border-bottom: none!important;">
-                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-40">Objective-C</a></li>
-                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-40">Swift</a></li>
+                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-50">Objective-C</a></li>
+                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-50">Swift</a></li>
+                  </ul>
+
+                  <div class="tab-content">
+                    <div id="Objective-C-50" class="tab-pane fade">
+                        <pre style="margin-top:0px!important"><code class="language-objectivec">
+// Custom event with optional key-value parameters
+[AMRSDK trackEvent:@"level_completed"
+        parameters:@{@"level": @"12", @"difficulty": @"hard"}];
+
+// Custom event with a value and currency (e.g. earning or spending resources)
+[AMRSDK trackEvent:@"coins_spent"
+        parameters:@{@"item_id": @"sword_01"}
+          currency:@"USD"
+             value:4.99];
+
+// Screen view
+[AMRSDK trackScreenView:@"home_screen"];
+                        </code></pre>
+                    </div>
+                    <div id="Swift-50" class="tab-pane fade in active">
+                        <pre style="margin-top:0px!important"><code class="language-swift">
+// Custom event with optional key-value parameters
+AMRSDK.trackEvent("level_completed",
+                  parameters: ["level": "12", "difficulty": "hard"])
+
+// Custom event with a value and currency (e.g. earning or spending resources)
+AMRSDK.trackEvent("coins_spent",
+                  parameters: ["item_id": "sword_01"],
+                  currency: "USD",
+                  value: 4.99)
+
+// Screen view
+AMRSDK.trackScreenView("home_screen")
+                        </code></pre>
+                    </div>
+                  </div>
+
+                <p>
+                    <code>eventName</code> is required and must not be empty. <code>parameters</code> is an optional string key-value dictionary. When you send a <code>value</code>, <code>currency</code> is required (e.g. <code>"USD"</code>).
+                </p>
+                <p>
+                    Do not use the <code>session_index</code> key in <code>parameters</code>; the SDK adds it automatically. If events are not being sent, make sure the SDK has been initialized and the event name is set.
+                </p>
+
+                <h3 id="remoteconfig">Remote Config </h3>
+
+                <p>
+                    Admost Remote Config is a feature for defining and updating server-side parameters from the Admost dashboard. You can define the parameters in long, double, boolean and string types. Example usage is as follows:
+                </p>
+
+                <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                    <li class="objc" onclick="openTab('objc')" id="defaultOpen"><a data-toggle="tab" href="#Objective-C-49">Objective-C</a></li>
+                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-49">Swift</a></li>
                   </ul>
                   
                   <div class="tab-content">
-                    <div id="Objective-C-40" class="tab-pane fade">
+                    <div id="Objective-C-49" class="tab-pane fade">
                         <pre style="margin-top:0px!important"><code class="language-objectivec">
-[AMRSDK startTestSuiteWithAppId:@"&lt;appId&gt;"];
-[AMRSDK startTestSuiteWithZones:@[&lt;zoneIds&gt;]];
-                            </code></pre>
+/* it is required to call value functions after Admost initialization
+    otherwise default value will be used. */
+[AMRSDK fetchRemoteConfigWithCompletion:^(AMRError * _Nonnull) {
+    [AMRSDK getConfigForKey:@""].stringValue;
+    [AMRSDK getConfigForKey:@""].numberValue;
+    [AMRSDK getConfigForKey:@""].boolValue;
+ }];
+                         </code></pre>
                         </div>
-                    <div id="Swift-40" class="tab-pane fade in active">
+                    <div id="Swift-49" class="tab-pane fade in active">
                         <pre style="margin-top:0px!important"><code class="language-swift">
-AMRSDK.startTestSuite(withAppId:"&lt;appId&gt;")
-AMRSDK.startTestSuite(withZones:[&lt;zoneIds&gt;]];
-                            </code></pre>     
+/* it is required to call value functions after Admost initialization
+    otherwise default value will be used. */
+AMRSDK.fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
+    AMRSDK.getConfigForKey("").stringValue;
+    AMRSDK.getConfigForKey("").numberValue;
+    AMRSDK.getConfigForKey("").boolValue;
+}
+                     </code></pre>
                     </div>
-
-                <div class="row">
-                	<img class="img-responsive col-md-6" src="assets/img/ios_testsuite.png" alt="shadowed image">
+                <p>
+                    You can also run A/B tests for remote config parameters with or without bundling other test parameters. You do not have to do anything to run or join these tests on client side, random percentile targeting feature of the sdk will handle it itself. You can define these tests and target your audiences from the dashboard's A/B test menu.
+                </p>
                 </div>
 
-                <h3 id="iap">In App Purchase Tracking</h3>
+                <h3 id="iap">IAP Tracking</h3>
 
 				<p>
 					The following method is used to track purchases with receipt validation:
@@ -1507,6 +1527,84 @@ AMRSDK.trackIAP(transaction.transactionIdentifier,
 AMRSDK.setUserId(&quot;&lt;applicationUserId&gt;&quot;)
                         </code></pre>
                     </div>
+
+<div class="not-lite">
+                <h2 id="extras">Extras</h2>
+
+                <h3 id="dfp">DFP/AdMob Mediation Integration</h3>
+
+                <p>The AMR DFP Adapter lets publishers integrate Admost Mediation Router ads into applications with DFP
+                    or AdMob Mediation set as main ad mediation layer.</p>
+
+                <p>In order to show AMR ads in DFP/AdMob Mediation you should first follow dedicated steps of DFP or
+                    AdMob Mediation to set AMR as an ad mediation source.</p>
+
+                <p>After adding AMR as an ad mediation source you should define class names for banner, interstitial, rewarded video and Rewarded Interstitial
+                    ad custom events. Enter the <code>AMRAdapterDFP.AMRDFPCustomEvent</code> as
+                    class name. You must pass your AMR zone Id to custom event via
+                    Parameter field.</p>
+
+                <img class="img-responsive " src="assets/img/dfp_sample.png" alt="shadowed image">
+
+
+                <p>Include Admost DFP Adapter in your project after setup, if you are using CocoaPods add following line
+                    to your podfile and run the following command to install.</p>
+
+
+                <pre><code class="language-markup">
+
+                pod AMRAdapterDFP
+
+            </code></pre>
+
+                <pre><code class="language-markup">
+
+                $ pod install
+
+            </code></pre>
+                <p>Now you can show AMR banner, interstitial and rewarded video ads via DFP or AdMob Mediation.</p>
+
+                <p>You can check DFP banner and interstitial example in demo project;
+                    AMRDemo/DFPCustomEvents/DFPCustomEventsViewController.m</p>
+
+                <h3 id="testsuite">Test Suite</h3>
+
+                <p>
+                	You can use Test Suite to test your ad networks with your zone ids.
+                </p>
+
+                <p>
+                    <div class="callout callout-danger" role="alert">
+                        <p class="text-danger">You must be a Tester to show Test Suite on devices.</p>
+                    </div>
+                </p>
+
+                <p>
+                	To use Test Suite in your application, you can use one of the following codes;
+                </p>
+
+                <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-40">Objective-C</a></li>
+                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-40">Swift</a></li>
+                  </ul>
+                  
+                  <div class="tab-content">
+                    <div id="Objective-C-40" class="tab-pane fade">
+                        <pre style="margin-top:0px!important"><code class="language-objectivec">
+[AMRSDK startTestSuiteWithAppId:@"&lt;appId&gt;"];
+[AMRSDK startTestSuiteWithZones:@[&lt;zoneIds&gt;]];
+                            </code></pre>
+                        </div>
+                    <div id="Swift-40" class="tab-pane fade in active">
+                        <pre style="margin-top:0px!important"><code class="language-swift">
+AMRSDK.startTestSuite(withAppId:"&lt;appId&gt;")
+AMRSDK.startTestSuite(withZones:[&lt;zoneIds&gt;]];
+                            </code></pre>     
+                    </div>
+
+                <div class="row">
+                	<img class="img-responsive col-md-6" src="assets/img/ios_testsuite.png" alt="shadowed image">
+                </div>
 
                 <h3 id="adjustintegration">Adjust Integration</h3>
                 <p>
@@ -1700,98 +1798,7 @@ Starting December 8, 2020, Apple announced a privacy disclosure for the App Stor
                     <li><b>Advertising Data</b> – Analytics purposes
                     </li>
                 </ul>
-
-                <h3 id="remoteconfig">Remote Config </h3>
-
-                <p>
-                    Admost Remote Config is a feature for defining and updating server-side parameters from the Admost dashboard. You can define the parameters in long, double, boolean and string types. Example usage is as follows:
-                </p>
-
-                <ul class="nav nav-tabs" style="border-bottom: none!important;">
-                    <li class="objc" onclick="openTab('objc')" id="defaultOpen"><a data-toggle="tab" href="#Objective-C-49">Objective-C</a></li>
-                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-49">Swift</a></li>
-                  </ul>
-                  
-                  <div class="tab-content">
-                    <div id="Objective-C-49" class="tab-pane fade">
-                        <pre style="margin-top:0px!important"><code class="language-objectivec">
-/* it is required to call value functions after Admost initialization
-    otherwise default value will be used. */
-[AMRSDK fetchRemoteConfigWithCompletion:^(AMRError * _Nonnull) {
-    [AMRSDK getConfigForKey:@""].stringValue;
-    [AMRSDK getConfigForKey:@""].numberValue;
-    [AMRSDK getConfigForKey:@""].boolValue;
- }];
-                         </code></pre>
-                        </div>
-                    <div id="Swift-49" class="tab-pane fade in active">
-                        <pre style="margin-top:0px!important"><code class="language-swift">
-/* it is required to call value functions after Admost initialization
-    otherwise default value will be used. */
-AMRSDK.fetchRemoteConfigWithCompletion(completionHandler:(AMRError) -> Void) {
-    AMRSDK.getConfigForKey("").stringValue;
-    AMRSDK.getConfigForKey("").numberValue;
-    AMRSDK.getConfigForKey("").boolValue;
-}
-                     </code></pre>
-                    </div>
-                <p>
-                    You can also run A/B tests for remote config parameters with or without bundling other test parameters. You do not have to do anything to run or join these tests on client side, random percentile targeting feature of the sdk will handle it itself. You can define these tests and target your audiences from the dashboard's A/B test menu.
-                </p>
-                </div>
-
-                <h3 id="eventtracking">Event Tracking</h3>
-
-                <p>
-                    You can track custom events in your app with the AMR SDK. Viewing tracked events in the Admost dashboard will be available soon. Call the following methods after Admost initialization;
-                </p>
-
-                <ul class="nav nav-tabs" style="border-bottom: none!important;">
-                    <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-50">Objective-C</a></li>
-                    <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-50">Swift</a></li>
-                  </ul>
-
-                  <div class="tab-content">
-                    <div id="Objective-C-50" class="tab-pane fade">
-                        <pre style="margin-top:0px!important"><code class="language-objectivec">
-// Custom event with optional key-value parameters
-[AMRSDK trackEvent:@"level_completed"
-        parameters:@{@"level": @"12", @"difficulty": @"hard"}];
-
-// Custom event with a value and currency (e.g. earning or spending resources)
-[AMRSDK trackEvent:@"coins_spent"
-        parameters:@{@"item_id": @"sword_01"}
-          currency:@"USD"
-             value:4.99];
-
-// Screen view
-[AMRSDK trackScreenView:@"home_screen"];
-                        </code></pre>
-                    </div>
-                    <div id="Swift-50" class="tab-pane fade in active">
-                        <pre style="margin-top:0px!important"><code class="language-swift">
-// Custom event with optional key-value parameters
-AMRSDK.trackEvent("level_completed",
-                  parameters: ["level": "12", "difficulty": "hard"])
-
-// Custom event with a value and currency (e.g. earning or spending resources)
-AMRSDK.trackEvent("coins_spent",
-                  parameters: ["item_id": "sword_01"],
-                  currency: "USD",
-                  value: 4.99)
-
-// Screen view
-AMRSDK.trackScreenView("home_screen")
-                        </code></pre>
-                    </div>
-                  </div>
-
-                <p>
-                    <code>eventName</code> is required and must not be empty. <code>parameters</code> is an optional string key-value dictionary. When you send a <code>value</code>, <code>currency</code> is required (e.g. <code>"USD"</code>).
-                </p>
-                <p>
-                    Do not use the <code>session_index</code> key in <code>parameters</code>; the SDK adds it automatically. If events are not being sent, make sure the SDK has been initialized and the event name is set.
-                </p>
+</div>
             </section>
             
 
