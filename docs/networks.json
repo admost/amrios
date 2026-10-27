@@ -129,9 +129,9 @@
 	{
 		"network": "ADMATIC",
 		"displayName": "Admatic",
-		"SDKVersion": "3.3.0",
-		"adapterVersion": "3.3.0",
-		"podVersion": "3.3",
+		"SDKVersion": "3.4.1",
+		"adapterVersion": "3.4.1",
+		"podVersion": "3.4",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [],
 		"supportedAdTypes": [
@@ -150,7 +150,7 @@
 		"changelog": "https://github.com/admost/AMR-IOS-ADAPTER-ADMATIC/blob/main/CHANGELOG.md",
 		"networkSourceURL": "https://github.com/admost/AMR-IOS-ADAPTER-ADMATIC/tags",
 		"networkChangelog": "",
-		"minTargetSdk": "13.0",
+		"minTargetSdk": "15.0",
 		"isLite": false
 	},
 	{
@@ -1002,8 +1002,8 @@
 	{
 		"network": "FACEBOOK",
 		"displayName": "Meta",
-		"SDKVersion": "6.22.0",
-		"adapterVersion": "6.22.1",
+		"SDKVersion": "6.22.1",
+		"adapterVersion": "6.22.2",
 		"podVersion": "6.22",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
@@ -1032,8 +1032,8 @@
 	{
 		"network": "FYBER",
 		"displayName": "DTExchange",
-		"SDKVersion": "8.5.0",
-		"adapterVersion": "8.5.0",
+		"SDKVersion": "8.5.1",
+		"adapterVersion": "8.5.1",
 		"podVersion": "8.5",
 		"initParameterCount": 1,
 		"skadnetworkSourceURL": "https://raw.githubusercontent.com/fyber-engineering/SKAdNetworks/refs/heads/master/docs/index.json",
@@ -1324,9 +1324,9 @@
 	{
 		"network": "IRONSOURCE",
 		"displayName": "IronSource",
-		"SDKVersion": "9.3.0.0",
-		"adapterVersion": "9.3.0",
-		"podVersion": "9.3",
+		"SDKVersion": "9.7.0.0",
+		"adapterVersion": "9.7.0",
+		"podVersion": "9.7",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"su67r6k2v3.skadnetwork",
@@ -1377,9 +1377,9 @@
 	{
 		"network": "MINTEGRAL",
 		"displayName": "Mintegral",
-		"SDKVersion": "8.1.7",
-		"adapterVersion": "8.1.7",
-		"podVersion": "8.1.7",
+		"SDKVersion": "8.1.8",
+		"adapterVersion": "8.1.8",
+		"podVersion": "8.1.8",
 		"initParameterCount": 2,
 		"skadnetworkSourceURL": "https://dev.mintegral.com/skadnetworkids.json",
 		"skadnetworkIDS": [
@@ -1512,9 +1512,9 @@
 	{
 		"network": "MYTARGET",
 		"displayName": "MyTarget",
-		"SDKVersion": "5.46.0",
-		"adapterVersion": "5.46.0",
-		"podVersion": "5.46",
+		"SDKVersion": "5.47.0",
+		"adapterVersion": "5.47.0",
+		"podVersion": "5.47",
 		"initParameterCount": 0,
 		"skadnetworkIDS": [
 		"r26jy69rpl.skadnetwork"
@@ -1541,9 +1541,9 @@
 	{
 		"network": "OGURY",
 		"displayName": "Ogury",
-		"SDKVersion": "5.2.3",
-		"adapterVersion": "5.2.3",
-		"podVersion": "5.2",
+		"SDKVersion": "5.3.1",
+		"adapterVersion": "5.3.1",
+		"podVersion": "5.3",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 			"22mmun2rn5.skadnetwork",
@@ -1626,7 +1626,7 @@
 		"changelog": "",
 		"networkSourceURL": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
 		"networkChangelog": "https://ogury-ltd.gitbook.io/release-notes/ios/ogury-sdk",
-		"minTargetSdk": "13.0",
+		"minTargetSdk": "15.0",
 		"isLite": false
 	},
 	{
@@ -1656,8 +1656,8 @@
 	{
 		"network": "PUBNATIVE",
 		"displayName": "Pubnative",
-		"SDKVersion": "3.9.0",
-		"adapterVersion": "3.9.0",
+		"SDKVersion": "3.9.3",
+		"adapterVersion": "3.9.3",
 		"podVersion": "3.9",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
@@ -1983,9 +1983,9 @@
 	{
 		"network": "STARTAPP",
 		"displayName": "StartApp",
-		"SDKVersion": "4.14.0",
-		"adapterVersion": "4.14.0",
-		"podVersion": "4.14",
+		"SDKVersion": "4.15.0",
+		"adapterVersion": "4.15.0",
+		"podVersion": "4.15",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"5l3tpt7t6e.skadnetwork",
@@ -2091,9 +2091,9 @@
 	{
 		"network": "TIKTOK",
 		"displayName": "Pangle",
-		"SDKVersion": "8.3.0.8",
-		"adapterVersion": "8.3.0",
-		"podVersion": "8.3",
+		"SDKVersion": "8.4.0.5",
+		"adapterVersion": "8.4.0",
+		"podVersion": "8.4",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
 		"22mmun2rn5.skadnetwork",
@@ -2270,8 +2270,8 @@
 	{
 		"network": "VUNGLE",
 		"displayName": "Liftoff",
-		"SDKVersion": "7.7.0",
-		"adapterVersion": "7.7.0",
+		"SDKVersion": "7.7.8",
+		"adapterVersion": "7.7.8",
 		"podVersion": "7.7",
 		"initParameterCount": 1,
 		"skadnetworkIDS": [
