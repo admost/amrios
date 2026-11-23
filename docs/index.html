@@ -140,6 +140,7 @@
                         <li><a href="#privacycheck">Privacy Consent Required </a></li>
                         <li><a href="#appprivacy">Apple App Privacy </a></li>
                         <li><a href="#ump">CMP Integration</a></li>
+                        <li><a href="#autoump">Automatic UMP Consent</a></li>
                     </ul>
                 </li>
             </ul>
@@ -1809,6 +1810,62 @@ Starting December 8, 2020, Apple announced a privacy disclosure for the App Stor
                     <p>
                         Starting January 16, 2024 Publishers and developers using Google AdSense, Ad Manager, or AdMob will be required to use a Consent Management Platform (CMP) that has been certified by Google and has integrated with the IAB's Transparency and Consent Framework (TCF) when serving ads to users in the European Economic Area or the UK. You can also review the official <a target="_blank" href="https://developers.google.com/admob/ios/privacy">documentation</a> to integrate it into your app.
                     </p>
+                    <h3 id="autoump">Automatic UMP Consent <small>(AMRSDK 1.6.5+)</small></h3>
+
+                    <p>
+                        Starting with AMRSDK 1.6.5, the SDK can show Google’s UMP consent form for you. When automatic UMP is enabled for your application, AMRSDK shows the consent form on launch when it is required and initializes the ad networks after the user’s choice. Users who already gave their consent are not delayed. You do not need to call UMP yourself.
+                    </p>
+
+                    <div class="callout" role="alert">
+                        <p><span class="label label-teal">Note</span> Automatic UMP is enabled for each application by our team. To enable it, please contact the Admost team at <a href="mailto:amr@admost.com">amr@admost.com</a> or your account manager.</p>
+                    </div>
+
+                    <p>To use automatic UMP, make sure you have completed the following steps:</p>
+                    <ul>
+                        <li>Add the UMP SDK (2.1.0 or later) into your app with CocoaPods (<code>pod 'GoogleUserMessagingPlatform'</code>) or Swift Package Manager. With Swift Package Manager, make sure <strong>Other Linker Flags</strong> contains <code>-ObjC</code>.</li>
+                        <li>Add your AdMob app id as <code>GADApplicationIdentifier</code> to your Info.plist.</li>
+                        <li>Create a proper GDPR message for your app on the UMP dashboard and select all active ad networks and "Admost" as Vendor.</li>
+                        <li>Contact our team to enable automatic UMP for your application.</li>
+                    </ul>
+
+                    <p>Users must be able to change their choice later. Show a privacy settings entry point (for example in your settings screen) when it is required:</p>
+
+                    <div>
+                        <ul class="nav nav-tabs" style="border-bottom: none!important;">
+                            <li class="objc" onclick="openTab('objc')"><a data-toggle="tab" href="#Objective-C-51">Objective-C</a></li>
+                            <li class="swift" onclick="openTab('swift')"><a data-toggle="tab" href="#Swift-51">Swift</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="Objective-C-51" class="tab-pane fade">
+                                <pre style="margin-top:0px!important"><code class="language-objectivec">// Show the button only when it is required
+self.privacyButton.hidden = ![AMRSDK isPrivacyOptionsRequired];
+
+- (IBAction)privacyButtonTapped:(id)sender {
+    [AMRSDK presentPrivacyOptionsFormFromViewController:self completion:^(NSError * _Nullable error) {
+        if (error) {
+            NSLog(@"%@", error.localizedDescription);
+        }
+    }];
+}</code></pre>
+                            </div>
+                            <div id="Swift-51" class="tab-pane fade in active">
+                                <pre style="margin-top:0px!important"><code class="language-swift">// Show the button only when it is required
+privacyButton.isHidden = !AMRSDK.isPrivacyOptionsRequired()
+
+@objc func privacyButtonTapped() {
+    AMRSDK.presentPrivacyOptionsForm(from: self) { error in
+        if let error {
+            print(error.localizedDescription)
+        }
+    }
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 id="manualump">Manual UMP Integration</h3>
+
                     <p>
                        Admost has integrated with Google’s CMP tool, User Messaging Platform (UMP). As a publisher, if you choose to continue with the UMP, make sure you have completed the following steps:
                     </p>
